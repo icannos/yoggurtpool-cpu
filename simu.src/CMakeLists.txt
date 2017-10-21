@@ -2,12 +2,13 @@
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
+find_package (Threads)
 
-# includes cmake/FindSDL2.cmake
-set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
+INCLUDE(FindPkgConfig)
 
-find_package(SDL2 REQUIRED)
-include_directories(${SDL2_INCLUDE_DIR})
+PKG_SEARCH_MODULE(SDL2 REQUIRED sdl2)
+PKG_SEARCH_MODULE(SDL2IMAGE REQUIRED SDL2_image>=2.0.0)
+
 
 set(SOURCE_FILES 
     main.cpp
@@ -18,5 +19,12 @@ set(SOURCE_FILES
     
     )
 
-add_executable(SDL2_App ${SOURCE_FILES})
-target_link_libraries(SDL2_App ${SDL2_LIBRARY})
+add_executable(simu ${SOURCE_FILES})
+
+
+
+
+target_link_libraries (simu ${CMAKE_THREAD_LIBS_INIT})
+
+INCLUDE_DIRECTORIES(${SDL2_INCLUDE_DIRS} ${SDL2IMAGE_INCLUDE_DIRS})
+TARGET_LINK_LIBRARIES(simu ${SDL2_LIBRARIES} ${SDL2IMAGE_LIBRARIES})

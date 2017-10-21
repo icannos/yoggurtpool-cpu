@@ -259,9 +259,7 @@ bool Processor::cond_true(int cond) {
 
 void Processor::read_counter_from_pc(int& var) {
 
-
-
-    return pc;
+    //
 }
 
 
