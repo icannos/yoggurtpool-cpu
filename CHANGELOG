@@ -2,4 +2,9 @@
 
 
 
-# 21 / 10 J'ai envoyé le squelette. Maxime.
+### 21 / 10 
+
+* J'ai envoyé le squelette.
+* Ajout des CMakelists pour générer le makefile avec CMake (plus simple, plus cool, plus mieux et tout)
+* Ca compile.
+....

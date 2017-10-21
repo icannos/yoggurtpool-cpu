@@ -259,11 +259,55 @@ bool Processor::cond_true(int cond) {
 
 void Processor::read_counter_from_pc(int& var) {
 
-    //
+    var = 0;
+    read_bit_from_pc(var);
+    read_bit_from_pc(var);
 }
 
 
 void Processor::read_size_from_pc(int& size) {
-	// begin sabote
-	// end sabote
+	int header = 0;
+    int toRead = 0;
+
+    read_bit_from_pc(header);
+    read_bit_from_pc(header);
+
+    switch (header)
+    {
+        case 0x0: // 1 bit
+            toRead = 1;
+            break;
+        case 0x1: // 4 bits
+            toRead = 4;
+            break;
+        case 0x2: // Changement de taille d'opcode dans hamming
+            read_bit_from_pc(header); // On lit un bit de plus
+
+            switch (header)
+            {
+                case 0x8: // 8 bits
+                    toRead = 8;
+                    break;
+                case 0x9: // 16 bits
+                    toRead = 16;
+                    break;
+                case 0x10: //32 bits
+                    toRead = 32;
+                    break;
+                case 0x11: // 64 bits
+                    toRead = 64;
+                    break;
+            }
+            break;
+    }
+
+    // Maintenant on sait combien de bits lire pour former notre size
+
+    for(int i = 0; i < toRead; i++) // On lit autant de bits qu'il faut et on les envoie dans size.
+    {
+        read_bit_from_pc(size);
+    }
+
+
+
 }
