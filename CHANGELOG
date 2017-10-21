@@ -7,4 +7,5 @@
 * J'ai envoyé le squelette.
 * Ajout des CMakelists pour générer le makefile avec CMake (plus simple, plus cool, plus mieux et tout)
 * Ca compile.
+* J'ai commencé à corriger les sabotages de processor.cpp
 ....
