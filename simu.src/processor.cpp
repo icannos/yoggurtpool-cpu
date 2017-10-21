@@ -6,6 +6,7 @@ Processor::Processor(Memory* m): m(m) {
 	sp=0;
 	a1=0;
 	a2=0;
+
 	for (int i=0; i<7; i++)
 		r[i]=0;
 }
@@ -257,8 +258,10 @@ bool Processor::cond_true(int cond) {
 
 
 void Processor::read_counter_from_pc(int& var) {
-	// begin sabote
-	// end sabote
+
+
+
+    return pc;
 }
 
 

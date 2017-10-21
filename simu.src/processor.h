@@ -25,6 +25,8 @@ class Processor {
 	uword a2;
 	// The registers. Beware, they are defined as unsigned integers:
 	// they should be cast to signed when needed
+
+	// On avait pas dit 16 registres ?
 	uword r[8];
 
 	// the flags
