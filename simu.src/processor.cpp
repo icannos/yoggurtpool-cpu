@@ -143,7 +143,7 @@ void Processor::von_Neuman_step(bool debug) {
 
                 case 110110: //setctr
                     break;
-                
+
                 case 110111: //getctr
                     break;
             }

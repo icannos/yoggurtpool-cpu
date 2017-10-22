@@ -3,6 +3,45 @@
 
 ## TO DO.
 
-- Implémenter toutes les commandes proco assez vite.
+================ Edwige ==============
+- Ecrire l'ASM
 - Envisager de recoder le parseur en python3 et en plus propre ? (orienté objet ?)
+
+================ Maxime ==============
+- Implémenter toutes les commandes proco assez vite.
 - Utiliser l'un des derniers opcode pour coder le jump ref
+
+add2 ok
+add2i ok
+sub2 wip
+sub2i wip
+cmp wip
+cmpi wip
+let ok
+leti ok
+shift ok
+readze
+readse
+jump ok
+jumpif ok
+or2 
+or2i
+and2
+and2i
+write ok
+call
+setctr
+getctr
+push
+return
+add3
+add3i
+sub3
+sub3i
+and3
+and3i
+or3
+or3i
+xor3
+xor3i
+
