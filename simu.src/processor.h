@@ -18,6 +18,14 @@ class Processor {
 	void read_cond_from_pc(int& var);
 	bool cond_true(int cond);
 
+	// ======== Instructions =========== \\
+
+
+	void jump(uword& offset, bool& manage_flags);
+	void jumpif(uword& offset, bool& manage_flags);
+
+
+
 	Memory *m;
 	uword pc;
 	uword sp;

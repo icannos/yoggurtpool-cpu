@@ -66,15 +66,44 @@ void Processor::von_Neuman_step(bool debug) {
             manage_flags=true;
             break;
 
-        case 0xa: // jump
-            read_addr_from_pc(offset);
-            pc += offset;
-            m -> set_counter(PC, (uword)pc);
-            manage_flags=false;
+        case 0x2: // sub2
             break;
 
-            // begin sabote
-            // end sabote
+        case 0x3: //sub2i
+            break;
+
+        case 0x4: //cmp
+            break;
+
+        case 0x5: //cmpi
+            break;
+
+        case 0x6: //let
+            read_reg_from_pc(regnum1);
+            read_reg_from_pc(regnum2);
+
+            r[regnum1] = r[regnum2];
+
+            break;
+
+        case 0x7: //leti
+            read_reg_from_pc(regnum1);
+            read_const_from_pc(constop);
+
+            r[regnum1] = constop;
+            break;
+
+
+        case 0xa: // jump
+            jump(offset, manage_flags);
+            break;
+
+        case 0xb: //jump if
+            jumpif(offset, manage_flags);
+            break;
+
+
+
 
         case 0x8: // shift
             read_bit_from_pc(dir);
@@ -247,29 +276,29 @@ bool Processor::cond_true(int cond) {
         case 0 : // Egalité
             return (zflag);
             break;
-        case 1 : // Différent
+        case 0x1 : // Différent
             return (! zflag);
 
-        case 2: // op1 > op2 (version signée, complément à 2
+        case 0x2: // op1 > op2 (version signée, complément à 2
 
             break;
 
-        case 3: // op1 < op2 (version signée, complément à 2)
+        case 0x3: // op1 < op2 (version signée, complément à 2)
             break;
 
-        case 4: //op1 > op2 non signée
+        case 0x4: //op1 > op2 non signée
             return (!nflag)|(!zflag);
             break;
 
-        case 5: //op1 >= op2 non signée
+        case 0x5: //op1 >= op2 non signée
             return !(nflag);
             break;
 
-        case 6: //op1 < op2 non signée
+        case 0x6: //op1 < op2 non signée
             return (nflag);
             break;
 
-        case 7: //op1 <= op2 non signée
+        case 0x7: //op1 <= op2 non signée
             return (nflag)|(zflag);
             break;
 
@@ -330,5 +359,28 @@ void Processor::read_size_from_pc(int& size) {
     }
 
 
+
+}
+
+// ==================== Instructions ======================= \\
+
+void Processor::jump(uword& offset, bool& manage_flags)
+{
+    read_addr_from_pc(offset);
+    pc += offset;
+    m -> set_counter(PC, (uword)pc);
+    manage_flags=false;
+}
+
+void Processor::jumpif(uword& offset, bool& manage_flags)
+{
+    int cond = 0;
+
+    read_cond_from_pc(cond);
+
+    if (cond_true(cond))
+    {
+        jump(offset, manage_flags);
+    }
 
 }
