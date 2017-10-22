@@ -5,3 +5,4 @@
 
 - Implémenter toutes les commandes proco assez vite.
 - Envisager de recoder le parseur en python3 et en plus propre ? (orienté objet ?)
+- Utiliser l'un des derniers opcode pour coder le jump ref

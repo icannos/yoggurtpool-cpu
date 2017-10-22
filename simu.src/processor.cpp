@@ -94,17 +94,6 @@ void Processor::von_Neuman_step(bool debug) {
             break;
 
 
-        case 0xa: // jump
-            jump(offset, manage_flags);
-            break;
-
-        case 0xb: //jump if
-            jumpif(offset, manage_flags);
-            break;
-
-
-
-
         case 0x8: // shift
             read_bit_from_pc(dir);
             read_reg_from_pc(regnum1);
@@ -126,6 +115,15 @@ void Processor::von_Neuman_step(bool debug) {
 
             // begin sabote
             //end sabote
+
+
+        case 0xa: // jump
+            jump(offset, manage_flags);
+            break;
+
+        case 0xb: //jump if
+            jumpif(offset, manage_flags);
+            break;
 
         case 0xc:
         case 0xd:
