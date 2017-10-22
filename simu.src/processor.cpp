@@ -1,39 +1,39 @@
 #include "processor.h"
+
 using namespace std;
 
-Processor::Processor(Memory* m): m(m) {
-    pc=0;
-    sp=0;
-    a1=0;
-    a2=0;
+Processor::Processor(Memory *m) : m(m) {
+    pc = 0;
+    sp = 0;
+    a1 = 0;
+    a2 = 0;
 
-    for (int i=0; i<7; i++)
-        r[i]=0;
+    for (int i = 0; i < 7; i++)
+        r[i] = 0;
 }
 
-Processor::~Processor()
-{}
+Processor::~Processor() {}
 
 
 void Processor::von_Neuman_step(bool debug) {
     // numbers read from the binary code
-    int opcode=0;
-    int regnum1=0;
-    int regnum2=0;
-    int shiftval=0;
-    int condcode=0;
-    int counter=0;
-    int size=0;
+    int opcode = 0;
+    int regnum1 = 0;
+    int regnum2 = 0;
+    int shiftval = 0;
+    int condcode = 0;
+    int counter = 0;
+    int size = 0;
     uword offset;
-    uint64_t constop=0;
-    int dir=0;
+    uint64_t constop = 0;
+    int dir = 0;
     // each instruction will use some of the following variables:
     // all unsigned, to be cast to signed when required.
     uword uop1;
     uword uop2;
-    uword ur=0;
+    uword ur = 0;
     doubleword fullr;
-    bool manage_flags=false; // used to factor out the flag management code
+    bool manage_flags = false; // used to factor out the flag management code
     int instr_pc = pc; // for the debug output
 
     // read 4 bits.
@@ -42,7 +42,7 @@ void Processor::von_Neuman_step(bool debug) {
     read_bit_from_pc(opcode);
     read_bit_from_pc(opcode);
 
-    switch(opcode) {
+    switch (opcode) {
 
         case 0x0: // add2
             read_reg_from_pc(regnum1);
@@ -52,7 +52,7 @@ void Processor::von_Neuman_step(bool debug) {
             fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
             ur = uop1 + uop2;
             r[regnum1] = ur;
-            manage_flags=true;
+            manage_flags = true;
             break;
 
         case 0x1: // add2i
@@ -63,7 +63,7 @@ void Processor::von_Neuman_step(bool debug) {
             fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
             ur = uop1 + uop2;
             r[regnum1] = ur;
-            manage_flags=true;
+            manage_flags = true;
             break;
 
         case 0x2: // sub2
@@ -99,18 +99,17 @@ void Processor::von_Neuman_step(bool debug) {
             read_reg_from_pc(regnum1);
             read_shiftval_from_pc(shiftval);
             uop1 = r[regnum1];
-            if(dir==1){ // right shift
+            if (dir == 1) { // right shift
                 ur = uop1 >> shiftval;
-                cflag = ( ((uop1 >> (shiftval-1))&1) == 1);
-            }
-            else{
-                cflag = ( ((uop1 << (shiftval-1)) & (1L<<(WORDSIZE-1))) != 0);
+                cflag = (((uop1 >> (shiftval - 1)) & 1) == 1);
+            } else {
+                cflag = (((uop1 << (shiftval - 1)) & (1L << (WORDSIZE - 1))) != 0);
                 ur = uop1 << shiftval;
             }
             r[regnum1] = ur;
-            zflag = (ur==0);
+            zflag = (ur == 0);
             // no change to nflag
-            manage_flags=false;
+            manage_flags = false;
             break;
 
             // begin sabote
@@ -128,13 +127,24 @@ void Processor::von_Neuman_step(bool debug) {
         case 0xc:
         case 0xd:
             //read two more bits
-            read_bit_from_pc(opcode);
-            read_bit_from_pc(opcode);
-            switch(opcode) {
 
-                case 0b110100: // write
-                    // begin sabote
-                    //end sabote
+            read_bit_from_pc(opcode);
+            read_bit_from_pc(opcode);
+
+            switch (opcode) {
+
+                case 110100: // write
+                    write(counter, size, regnum1);
+                    manage_flags=false;
+                    break;
+
+                case 110101: //call
+                    break;
+
+                case 110110: //setctr
+                    break;
+                
+                case 110111: //getctr
                     break;
             }
             break; // Do not forget this break!
@@ -152,9 +162,9 @@ void Processor::von_Neuman_step(bool debug) {
     }
 
     // flag management
-    if(manage_flags) {
-        zflag = (ur==0);
-        cflag = (fullr > ((doubleword) 1)<<WORDSIZE);
+    if (manage_flags) {
+        zflag = (ur == 0);
+        cflag = (fullr > ((doubleword) 1) << WORDSIZE);
         nflag = (0 > (sword) ur);
     }
 
@@ -167,9 +177,9 @@ void Processor::von_Neuman_step(bool debug) {
              << " ma0=" << hex << setw(8) << setfill('0') << m->counter[2]
              << " ma1=" << hex << setw(8) << setfill('0') << m->counter[3] << ") ";
         //				 << " newpc=" << hex << setw(9) << setfill('0') << pc;
-        cout << " zcn = " << (zflag?1:0) << (cflag?1:0) << (nflag?1:0);
-        for (int i=0; i<8; i++)
-            cout << " r"<< dec << i << "=" << hex << setw(8) << setfill('0') << r[i];
+        cout << " zcn = " << (zflag ? 1 : 0) << (cflag ? 1 : 0) << (nflag ? 1 : 0);
+        for (int i = 0; i < 8; i++)
+            cout << " r" << dec << i << "=" << hex << setw(8) << setfill('0') << r[i];
         cout << endl;
     }
 }
@@ -177,13 +187,18 @@ void Processor::von_Neuman_step(bool debug) {
 
 // form now on, helper methods. Read and understand...
 
-void Processor::read_bit_from_pc(int& var) {
-    var = (var<<1) + m->read_bit(PC); // the read_bit updates the memory's PC
-    pc++;                             // this updates the processor's PC
+void Processor::read_bit_from_pc(int &var) {
+    var = (var << 1) + m->read_bit(PC); // the read_bit updates the memory's PC
+    pc++;// this updates the processor's PC
+
+    // This is for evaluation of the ASM, it count the total number of bits which are read during the execution
+
+    nb_readbits++;
+
 }
 
-void Processor::read_reg_from_pc(int& var) {
-    var=0;
+void Processor::read_reg_from_pc(int &var) {
+    var = 0;
     read_bit_from_pc(var);
     read_bit_from_pc(var);
     read_bit_from_pc(var);
@@ -191,78 +206,89 @@ void Processor::read_reg_from_pc(int& var) {
 
 
 //unsigned
-void Processor::read_const_from_pc(uint64_t& var) {
-    var=0;
-    int header=0;
+void Processor::read_const_from_pc(uint64_t &var) {
+    var = 0;
+    int header = 0;
     int size;
     read_bit_from_pc(header);
-    if(header==0)
-        size=1;
-    else  {
+    if (header == 0)
+        size = 1;
+    else {
         read_bit_from_pc(header);
-        if(header==2)
-            size=8;
+        if (header == 2)
+            size = 8;
         else {
             read_bit_from_pc(header);
-            if(header==6)
-                size=32;
+            if (header == 6)
+                size = 32;
             else
-                size=64;
+                size = 64;
         }
     }
     // Now we know the size and we can read all the bits of the constant.
-    for(int i=0; i<size; i++) {
-        var = (var<<1) + m->read_bit(PC);
+    for (int i = 0; i < size; i++) {
+        var = (var << 1) + m->read_bit(PC);
         pc++;
     }
 }
 
 
 // Beware, this one is sign-extended
-void Processor::read_addr_from_pc(uword& var) {
-    var=0;
-    int header=0;
+void Processor::read_addr_from_pc(uword &var) {
+    var = 0;
+    int header = 0;
     int size;
-    var=0;
+    var = 0;
     read_bit_from_pc(header);
-    if(header==0)
-        size=8;
-    else  {
+    if (header == 0)
+        size = 8;
+    else {
         read_bit_from_pc(header);
-        if(header==2)
-            size=16;
+        if (header == 2)
+            size = 16;
         else {
             read_bit_from_pc(header);
-            if(header==6)
-                size=32;
+            if (header == 6)
+                size = 32;
             else
-                size=64;
+                size = 64;
         }
     }
     // Now we know the size and we can read all the bits of the constant.
-    for(int i=0; i<size; i++) {
-        var = (var<<1) + m->read_bit(PC);
+    for (int i = 0; i < size; i++) {
+        var = (var << 1) + m->read_bit(PC);
         pc++;
     }
     // cerr << "before signext " << var << endl;
     // sign extension
-    int sign=(var >> (size-1)) & 1;
-    for (int i=size; i<WORDSIZE; i++)
+    int sign = (var >> (size - 1)) & 1;
+    for (int i = size; i < WORDSIZE; i++)
         var += sign << i;
     // cerr << "after signext " << var << " " << (int)var << endl;
 
 }
 
 
+void Processor::read_shiftval_from_pc(int &var) {
+    int bit = 0;
+    var = 0;
+    read_bit_from_pc(bit);
 
+    switch (bit) {
+        case 1:
+            var = 1;
+            break;
+        case 0:
+            read_bit_from_pc(var);
+            break;
+        default:
+            break;
 
-void Processor::read_shiftval_from_pc(int& var) {
-    // begin sabote
-    //end sabote
+    }
 }
 
-void Processor::read_cond_from_pc(int& var) {
-    var =0;
+void Processor::read_cond_from_pc(int &var) {
+    var = 0;
     read_bit_from_pc(var);
     read_bit_from_pc(var);
     read_bit_from_pc(var);
@@ -270,12 +296,12 @@ void Processor::read_cond_from_pc(int& var) {
 
 
 bool Processor::cond_true(int cond) {
-    switch(cond) {
+    switch (cond) {
         case 0 : // Egalité
             return (zflag);
             break;
         case 0x1 : // Différent
-            return (! zflag);
+            return (!zflag);
 
         case 0x2: // op1 > op2 (version signée, complément à 2
 
@@ -285,7 +311,7 @@ bool Processor::cond_true(int cond) {
             break;
 
         case 0x4: //op1 > op2 non signée
-            return (!nflag)|(!zflag);
+            return (!nflag) | (!zflag);
             break;
 
         case 0x5: //op1 >= op2 non signée
@@ -297,7 +323,7 @@ bool Processor::cond_true(int cond) {
             break;
 
         case 0x7: //op1 <= op2 non signée
-            return (nflag)|(zflag);
+            return (nflag) | (zflag);
             break;
 
     }
@@ -305,23 +331,40 @@ bool Processor::cond_true(int cond) {
 }
 
 
-void Processor::read_counter_from_pc(int& var) {
+void Processor::read_counter_from_pc(int &var) {
 
     var = 0;
     read_bit_from_pc(var);
     read_bit_from_pc(var);
 }
 
+uword *Processor::getPtrToCounter(int counter) {
+    switch (counter) {
+        case 0x0:
+            return &pc;
+            break;
+        case 0x1:
+            return &sp;
+            break;
+        case 0x2:
+            return &a1;
+            break;
+        case 0x3:
+            return &a2;
+            break;
+        default:
+            return nullptr;
+    }
+}
 
-void Processor::read_size_from_pc(int& size) {
+void Processor::read_size_from_pc(int &size) {
     int header = 0;
     int toRead = 0;
 
     read_bit_from_pc(header);
     read_bit_from_pc(header);
 
-    switch (header)
-    {
+    switch (header) {
         case 0x0: // 1 bit
             toRead = 1;
             break;
@@ -331,8 +374,7 @@ void Processor::read_size_from_pc(int& size) {
         case 0x2: // Changement de taille d'opcode dans hamming
             read_bit_from_pc(header); // On lit un bit de plus
 
-            switch (header)
-            {
+            switch (header) {
                 case 0x8: // 8 bits
                     toRead = 8;
                     break;
@@ -351,34 +393,54 @@ void Processor::read_size_from_pc(int& size) {
 
     // Maintenant on sait combien de bits lire pour former notre size
 
-    for(int i = 0; i < toRead; i++) // On lit autant de bits qu'il faut et on les envoie dans size.
+    for (int i = 0; i < toRead; i++) // On lit autant de bits qu'il faut et on les envoie dans size.
     {
         read_bit_from_pc(size);
     }
-
 
 
 }
 
 // ==================== Instructions ======================= \\
 
-void Processor::jump(uword& offset, bool& manage_flags)
-{
+void Processor::jump(uword &offset, bool &manage_flags) {
     read_addr_from_pc(offset);
     pc += offset;
-    m -> set_counter(PC, (uword)pc);
-    manage_flags=false;
+    m->set_counter(PC, (uword) pc);
+    manage_flags = false;
 }
 
-void Processor::jumpif(uword& offset, bool& manage_flags)
-{
+void Processor::jumpif(uword &offset, bool &manage_flags) {
     int cond = 0;
 
     read_cond_from_pc(cond);
 
-    if (cond_true(cond))
-    {
+    if (cond_true(cond)) {
         jump(offset, manage_flags);
     }
 
 }
+void Processor::write(int& counter, int& size, int& regnum1) {
+    read_counter_from_pc(counter);
+    read_size_from_pc(size);
+    read_reg_from_pc(regnum1);
+
+    uword *p_Counter = getPtrToCounter(
+            counter); // On récupère un pointeur vers l'attribut correspond au bon counter.
+
+    for (int i = 0; i < size; i++) { // On écrit le bon nombre de bits, à partir de l'adresse du counter donné.
+        m->write_bit(counter, (r[regnum1] >> i) & 1);
+        (*p_Counter)++;
+    }
+
+}
+
+// ================= Getters && Setters ========================= \\
+
+int Processor::getNb_readbits() const {
+    return nb_readbits;
+}
+
+
+
+
