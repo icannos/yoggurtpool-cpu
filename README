@@ -24,7 +24,7 @@ readze
 readse
 jump ok
 jumpif ok
-or2 
+or2 ok
 or2i
 and2
 and2i
