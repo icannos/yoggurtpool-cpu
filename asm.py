@@ -11,6 +11,8 @@ import string
 import argparse
 from numpy import binary_repr
 
+#ceci est  un commentaire
+
 line=0 # global variable to make error reporting easier
 current_addr=0 # idem
 labels={} # global because shared between the two passe
