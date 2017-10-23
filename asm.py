@@ -29,7 +29,11 @@ def asm_reg(s):
     "converts the string s into its encoding"
     if s[0]!='r':
         error("invalid register: " + s)
-    val = int(s[1:]) # this removes the "r". TODO catch exception here
+    try :
+        val = int(s[1:]) # this removes the "r". TODO catch exception here
+        break
+    except ValueError, IndexError:
+        error("invalid integer: ")
     if val<0 or val>7:
         error("invalid register: " + s)
     else:
@@ -38,8 +42,9 @@ def asm_reg(s):
 
 
 def asm_addr_signed(s):
-    "converts the string s into its encoding"
-    # Is it a label or a constant? 
+    """converts the string s into its encoding"""
+    # Is it a label or a constant?
+    #ajouter le signe puis l' hexa ici
     if (s[0]>='0' and s[0]<='9') or s[0]=='-' or s[0]=='+': # TODO what it takes to catch hexa here
         val=int(s) # TODO  catch exception here
         # The following is not very elegant but easy to trust
