@@ -131,7 +131,53 @@ void Processor::von_Neuman_step(bool debug) {
             read_bit_from_pc(opcode);
             read_bit_from_pc(opcode);
 
+
+
             switch (opcode) {
+                case 110000: //or2
+
+                    read_reg_from_pc(regnum1);
+                    read_reg_from_pc(regnum2);
+                    uop1 = r[regnum1];
+                    uop2 = r[regnum2];
+
+                    ur = uop1 | uop2;
+                    r[regnum1] = ur;
+
+                    if (ur == 0)
+                    {
+                        zflag = true;
+                    }
+                    else
+                    {
+                        zflag=false;
+                    }
+
+                    manage_flags = false; // On ne touche pas aux autres flags.
+                    break;
+
+                case 110010: //and2
+
+                    read_reg_from_pc(regnum1);
+                    read_reg_from_pc(regnum2);
+                    uop1 = r[regnum1];
+                    uop2 = r[regnum2];
+
+                    ur = uop1 & uop2;
+                    r[regnum1] = ur;
+
+                    if (ur == 0)
+                    {
+                        zflag = true;
+                    }
+                    else
+                    {
+                        zflag=false;
+                    }
+
+                    manage_flags = false; // On ne touche pas aux autres flags.
+                    break;
+
 
                 case 110100: // write
                     write(counter, size, regnum1);
