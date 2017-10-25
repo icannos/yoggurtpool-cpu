@@ -25,9 +25,9 @@ readse
 jump ok
 jumpif ok
 or2 ok
-or2i
+or2i ok
 and2 ok
-and2i
+and2i ok
 write ok
 call
 setctr
