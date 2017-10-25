@@ -23,7 +23,7 @@ void Processor::von_Neuman_step(bool debug) {
 
     int regnum3 = 0; // Utile pour les instructions à 3 opérandes
 
-    uword * cptr = 0;
+    uword *cptr = 0;
     uword addr = 0;
 
     int shiftval = 0;
@@ -122,9 +122,8 @@ void Processor::von_Neuman_step(bool debug) {
         case 0x9:
             read_bit_from_pc(opcode);
 
-            switch (opcode)
-            {
-                case 0xf4:
+            switch (opcode) {
+                case 0xf4: //readze
                     read_counter_from_pc(counter);
                     read_size_from_pc(size);
                     read_reg_from_pc(regnum1);
@@ -132,16 +131,15 @@ void Processor::von_Neuman_step(bool debug) {
                     cptr = getPtrToCounter(counter);
 
                     ur = 0;
-                    for (int i = 0; i < size; i++)
-                    {
+                    for (int i = 0; i < size; i++) {
                         ur = (ur << 1) + m->read_bit(counter);
                         (*cptr)++;
                     }
-                    r[regnum1]=ur;
+                    r[regnum1] = ur;
                     manage_flags = false;
                     break;
 
-                case 0xf5:
+                case 0xf5: //readse
                     read_counter_from_pc(counter);
                     read_size_from_pc(size);
                     read_reg_from_pc(regnum1);
@@ -150,12 +148,11 @@ void Processor::von_Neuman_step(bool debug) {
 
                     ur = 0;
                     ur = ~ur;
-                    for (int i = 0; i < size; i++)
-                    {
+                    for (int i = 0; i < size; i++) {
                         ur = (ur << 1) + m->read_bit(counter);
                         (*cptr)++;
                     }
-                    r[regnum1]=ur;
+                    r[regnum1] = ur;
                     manage_flags = false;
                     break;
             }
@@ -178,7 +175,6 @@ void Processor::von_Neuman_step(bool debug) {
             read_bit_from_pc(opcode);
 
 
-
             switch (opcode) {
                 case 0x30: //or2
 
@@ -190,13 +186,10 @@ void Processor::von_Neuman_step(bool debug) {
                     ur = uop1 | uop2;
                     r[regnum1] = ur;
 
-                    if (ur == 0)
-                    {
+                    if (ur == 0) {
                         zflag = true;
-                    }
-                    else
-                    {
-                        zflag=false;
+                    } else {
+                        zflag = false;
                     }
 
                     manage_flags = false; // On ne touche pas aux autres flags.
@@ -211,13 +204,10 @@ void Processor::von_Neuman_step(bool debug) {
                     ur = uop1 | uop2;
                     r[regnum1] = ur;
 
-                    if (ur == 0)
-                    {
+                    if (ur == 0) {
                         zflag = true;
-                    }
-                    else
-                    {
-                        zflag=false;
+                    } else {
+                        zflag = false;
                     }
 
                     manage_flags = false; // On ne touche pas aux autres flags.
@@ -232,13 +222,10 @@ void Processor::von_Neuman_step(bool debug) {
                     ur = uop1 & uop2;
                     r[regnum1] = ur;
 
-                    if (ur == 0)
-                    {
+                    if (ur == 0) {
                         zflag = true;
-                    }
-                    else
-                    {
-                        zflag=false;
+                    } else {
+                        zflag = false;
                     }
 
                     manage_flags = false; // On ne touche pas aux autres flags.
@@ -253,13 +240,10 @@ void Processor::von_Neuman_step(bool debug) {
                     ur = uop1 & uop2;
                     r[regnum1] = ur;
 
-                    if (ur == 0)
-                    {
+                    if (ur == 0) {
                         zflag = true;
-                    }
-                    else
-                    {
-                        zflag=false;
+                    } else {
+                        zflag = false;
                     }
 
                     manage_flags = false; // On ne touche pas aux autres flags.
@@ -274,7 +258,7 @@ void Processor::von_Neuman_step(bool debug) {
                     read_reg_from_pc(regnum1);
 
                     write(counter, size, r[regnum1]);
-                    manage_flags=false;
+                    manage_flags = false;
                     break;
 
                 case 0x35: //call
@@ -310,14 +294,12 @@ void Processor::von_Neuman_step(bool debug) {
             read_bit_from_pc(opcode);
             read_bit_from_pc(opcode);
 
-            switch (opcode)
-            {
+            switch (opcode) {
                 case 0x70://push
                     read_reg_from_pc(regnum1);
 
-                    for(int i = WORDSIZE-1; i >= 0 ; i--)
-                    {
-                        m->write_bit(SP, (r[regnum1]>>i) & 1);
+                    for (int i = WORDSIZE - 1; i >= 0; i--) {
+                        m->write_bit(SP, (r[regnum1] >> i) & 1);
                         sp++;
                     }
 
@@ -362,13 +344,10 @@ void Processor::von_Neuman_step(bool debug) {
                     ur = uop1 & uop2;
                     r[regnum1] = ur;
 
-                    if (ur == 0)
-                    {
+                    if (ur == 0) {
                         zflag = true;
-                    }
-                    else
-                    {
-                        zflag=false;
+                    } else {
+                        zflag = false;
                     }
 
                     manage_flags = false; // On ne touche pas aux autres flags.
@@ -383,13 +362,10 @@ void Processor::von_Neuman_step(bool debug) {
                     ur = uop1 & uop2;
                     r[regnum1] = ur;
 
-                    if (ur == 0)
-                    {
+                    if (ur == 0) {
                         zflag = true;
-                    }
-                    else
-                    {
-                        zflag=false;
+                    } else {
+                        zflag = false;
                     }
 
                     manage_flags = false; // On ne touche pas aux autres flags.
@@ -405,13 +381,10 @@ void Processor::von_Neuman_step(bool debug) {
                     ur = uop1 | uop2;
                     r[regnum1] = ur;
 
-                    if (ur == 0)
-                    {
+                    if (ur == 0) {
                         zflag = true;
-                    }
-                    else
-                    {
-                        zflag=false;
+                    } else {
+                        zflag = false;
                     }
 
                     manage_flags = false; // On ne touche pas aux autres flags.
@@ -428,13 +401,10 @@ void Processor::von_Neuman_step(bool debug) {
                     ur = uop1 | uop2;
                     r[regnum1] = ur;
 
-                    if (ur == 0)
-                    {
+                    if (ur == 0) {
                         zflag = true;
-                    }
-                    else
-                    {
-                        zflag=false;
+                    } else {
+                        zflag = false;
                     }
 
                     manage_flags = false; // On ne touche pas aux autres flags.
@@ -451,13 +421,10 @@ void Processor::von_Neuman_step(bool debug) {
                     ur = uop1 ^ uop2;
                     r[regnum1] = ur;
 
-                    if (ur == 0)
-                    {
+                    if (ur == 0) {
                         zflag = true;
-                    }
-                    else
-                    {
-                        zflag=false;
+                    } else {
+                        zflag = false;
                     }
 
                     manage_flags = false; // On ne touche pas aux autres flags.
@@ -473,13 +440,10 @@ void Processor::von_Neuman_step(bool debug) {
                     ur = uop1 ^ uop2;
                     r[regnum1] = ur;
 
-                    if (ur == 0)
-                    {
+                    if (ur == 0) {
                         zflag = true;
-                    }
-                    else
-                    {
-                        zflag=false;
+                    } else {
+                        zflag = false;
                     }
 
                     manage_flags = false; // On ne touche pas aux autres flags.
@@ -488,7 +452,7 @@ void Processor::von_Neuman_step(bool debug) {
                     break;
 
 
-                // ============ Pour les trucs en plus =============== \\
+                    // ============ Pour les trucs en plus =============== \\
 
                 case 0x7d: //Jump reg
                     break;
@@ -760,13 +724,14 @@ void Processor::jumpif(uword &offset, bool &manage_flags) {
     }
 
 }
+
 void Processor::write(int counter, int size, int val) {
 
 
     uword *p_Counter = getPtrToCounter(
             counter); // On récupère un pointeur vers l'attribut correspond au bon counter.
 
-    for (int i = size-1; i>=0; i--) { // On écrit le bon nombre de bits, à partir de l'adresse du counter donné.
+    for (int i = size - 1; i >= 0; i--) { // On écrit le bon nombre de bits, à partir de l'adresse du counter donné.
         m->write_bit(counter, (val >> i) & 1);
         (*p_Counter)++;
     }
