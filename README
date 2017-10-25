@@ -20,8 +20,8 @@ cmpi wip
 let ok
 leti ok
 shift ok
-readze
-readse
+readze ok
+readse ok
 jump ok
 jumpif ok
 or2 ok

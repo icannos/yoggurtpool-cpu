@@ -117,8 +117,47 @@ void Processor::von_Neuman_step(bool debug) {
             manage_flags = false;
             break;
 
-            // begin sabote
-            //end sabote
+
+        case 0x9:
+            read_bit_from_pc(opcode);
+
+            switch (opcode)
+            {
+                case 0xf4:
+                    read_counter_from_pc(counter);
+                    read_size_from_pc(size);
+                    read_reg_from_pc(regnum1);
+
+                    cptr = getPtrToCounter(counter);
+
+                    ur = 0;
+                    for (int i = 0; i < size; i++)
+                    {
+                        ur = (ur << 1) + m->read_bit(counter);
+                        (*cptr)++;
+                    }
+                    r[regnum1]=ur;
+                    manage_flags = false;
+                    break;
+
+                case 0xf5:
+                    read_counter_from_pc(counter);
+                    read_size_from_pc(size);
+                    read_reg_from_pc(regnum1);
+
+                    cptr = getPtrToCounter(counter);
+
+                    ur = (1<<WORDSIZE) - 1;
+                    for (int i = 0; i < size; i++)
+                    {
+                        ur = (ur << 1) + m->read_bit(counter);
+                        (*cptr)++;
+                    }
+                    r[regnum1]=ur;
+                    manage_flags = false;
+                    break;
+            }
+            break;
 
 
         case 0xa: // jump
