@@ -30,9 +30,9 @@ and2 ok
 and2i ok
 write ok
 call
-setctr
-getctr
-push
+setctr ok
+getctr ok
+push ok
 return
 add3 ok
 add3i ok

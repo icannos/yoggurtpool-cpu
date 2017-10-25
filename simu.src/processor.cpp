@@ -23,6 +23,8 @@ void Processor::von_Neuman_step(bool debug) {
 
     int regnum3 = 0; // Utile pour les instructions à 3 opérandes
 
+    uword * cptr = 0;
+
     int shiftval = 0;
     int condcode = 0;
     int counter = 0;
@@ -234,9 +236,19 @@ void Processor::von_Neuman_step(bool debug) {
                     break;
 
                 case 110110: //setctr
+                    read_counter_from_pc(counter);
+                    read_reg_from_pc(regnum1);
+
+                    cptr = getPtrToCounter(counter);
+                    *cptr = r[regnum1];
                     break;
 
                 case 110111: //getctr
+                    read_counter_from_pc(counter);
+                    read_reg_from_pc(regnum1);
+
+                    cptr = getPtrToCounter(counter);
+                    r[regnum1] = *cptr;
                     break;
 
             }
@@ -252,6 +264,15 @@ void Processor::von_Neuman_step(bool debug) {
             switch (opcode)
             {
                 case 1110000://push
+                    read_reg_from_pc(regnum1);
+
+                    for(int i = WORDSIZE-1; i >= 0 ; i--)
+                    {
+                        m->write_bit(SP, (r[regnum1]>>i) & 1);
+                        sp++;
+                    }
+
+
                     break;
                 case 1110001://return
                     break;
@@ -698,7 +719,7 @@ void Processor::write(int& counter, int& size, int& regnum1) {
     uword *p_Counter = getPtrToCounter(
             counter); // On récupère un pointeur vers l'attribut correspond au bon counter.
 
-    for (int i = 0; i < size; i++) { // On écrit le bon nombre de bits, à partir de l'adresse du counter donné.
+    for (int i = size-1; i>=0; i--) { // On écrit le bon nombre de bits, à partir de l'adresse du counter donné.
         m->write_bit(counter, (r[regnum1] >> i) & 1);
         (*p_Counter)++;
     }
