@@ -44,6 +44,8 @@ private:
 	// On avait pas dit 16 registres ?
 	uword r[8];
 
+    int nb_reg = 8;
+
 	// the flags
 	bool zflag;
 	bool cflag;

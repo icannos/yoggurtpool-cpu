@@ -8,7 +8,7 @@ Processor::Processor(Memory *m) : m(m) {
     a1 = 0;
     a2 = 0;
 
-    for (int i = 0; i < 7; i++)
+    for (int i = 0; i < nb_reg; i++)
         r[i] = 0;
 }
 
