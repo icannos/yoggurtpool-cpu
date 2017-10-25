@@ -34,14 +34,14 @@ setctr
 getctr
 push
 return
-add3
-add3i
-sub3
+add3 ok
+add3i ok
+sub3 
 sub3i
-and3
-and3i
-or3
-or3i
+and3 ok
+and3i ok
+or3 ok 
+or3i ok
 xor3
 xor3i
 

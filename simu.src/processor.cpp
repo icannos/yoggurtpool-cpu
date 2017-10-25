@@ -20,6 +20,9 @@ void Processor::von_Neuman_step(bool debug) {
     int opcode = 0;
     int regnum1 = 0;
     int regnum2 = 0;
+
+    int regnum3 = 0; // Utile pour les instructions à 3 opérandes
+
     int shiftval = 0;
     int condcode = 0;
     int counter = 0;
@@ -155,7 +158,27 @@ void Processor::von_Neuman_step(bool debug) {
 
                     manage_flags = false; // On ne touche pas aux autres flags.
                     break;
+                case 11000: //or2
 
+                    read_reg_from_pc(regnum1);
+                    read_const_from_pc(constop);
+                    uop1 = r[regnum1];
+                    uop2 = constop;
+
+                    ur = uop1 | uop2;
+                    r[regnum1] = ur;
+
+                    if (ur == 0)
+                    {
+                        zflag = true;
+                    }
+                    else
+                    {
+                        zflag=false;
+                    }
+
+                    manage_flags = false; // On ne touche pas aux autres flags.
+                    break;
                 case 110010: //and2
 
                     read_reg_from_pc(regnum1);
@@ -178,6 +201,29 @@ void Processor::von_Neuman_step(bool debug) {
                     manage_flags = false; // On ne touche pas aux autres flags.
                     break;
 
+                case 110011://and2i
+                    read_reg_from_pc(regnum1);
+                    read_const_from_pc(constop);
+                    uop1 = r[regnum1];
+                    uop2 = r[constop];
+
+                    ur = uop1 & uop2;
+                    r[regnum1] = ur;
+
+                    if (ur == 0)
+                    {
+                        zflag = true;
+                    }
+                    else
+                    {
+                        zflag=false;
+                    }
+
+                    manage_flags = false; // On ne touche pas aux autres flags.
+                    break;
+
+                    break;
+
 
                 case 110100: // write
                     write(counter, size, regnum1);
@@ -192,6 +238,7 @@ void Processor::von_Neuman_step(bool debug) {
 
                 case 110111: //getctr
                     break;
+
             }
             break; // Do not forget this break!
 
@@ -202,8 +249,125 @@ void Processor::von_Neuman_step(bool debug) {
             read_bit_from_pc(opcode);
             read_bit_from_pc(opcode);
 
-            // begin sabote
-            // end sabote
+            switch (opcode)
+            {
+                case 1110000://push
+                    break;
+                case 1110001://return
+                    break;
+                case 1110010://add3
+                    read_reg_from_pc(regnum1);
+                    read_reg_from_pc(regnum2);
+                    read_reg_from_pc(regnum3);
+                    uop1 = r[regnum2];
+                    uop2 = r[regnum3];
+                    fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+                    ur = uop1 + uop2;
+                    r[regnum1] = ur;
+                    manage_flags = true;
+                    break;
+
+                case 1110011://add3i
+                    read_reg_from_pc(regnum1);
+                    read_reg_from_pc(regnum2);
+                    read_const_from_pc(constop);
+                    uop1 = r[regnum2];
+                    uop2 = constop;
+                    fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+                    ur = uop1 + uop2;
+                    r[regnum1] = ur;
+                    manage_flags = true;
+                    break;
+                case 1110100://sub3
+                    break;
+                case 1110101://sub3i
+                    break;
+                case 1110110: //and3
+                    read_reg_from_pc(regnum1);
+                    read_reg_from_pc(regnum2);
+                    read_reg_from_pc(regnum3);
+                    uop1 = r[regnum2];
+                    uop2 = r[regnum3];
+
+                    ur = uop1 & uop2;
+                    r[regnum1] = ur;
+
+                    if (ur == 0)
+                    {
+                        zflag = true;
+                    }
+                    else
+                    {
+                        zflag=false;
+                    }
+
+                    manage_flags = false; // On ne touche pas aux autres flags.
+                    break;
+                case 1110111: //and3i
+                    break;
+                case 1111000: //or3
+                    read_reg_from_pc(regnum1);
+                    read_reg_from_pc(regnum2);
+                    read_reg_from_pc(regnum3);
+
+                    uop1 = r[regnum2];
+                    uop2 = r[regnum3];
+
+                    ur = uop1 | uop2;
+                    r[regnum1] = ur;
+
+                    if (ur == 0)
+                    {
+                        zflag = true;
+                    }
+                    else
+                    {
+                        zflag=false;
+                    }
+
+                    manage_flags = false; // On ne touche pas aux autres flags.
+                    break;
+
+                case 1111001: //or3i
+                    read_reg_from_pc(regnum1);
+                    read_reg_from_pc(regnum2);
+                    read_const_from_pc(constop);
+
+                    uop1 = r[regnum2];
+                    uop2 = constop;
+
+                    ur = uop1 | uop2;
+                    r[regnum1] = ur;
+
+                    if (ur == 0)
+                    {
+                        zflag = true;
+                    }
+                    else
+                    {
+                        zflag=false;
+                    }
+
+                    manage_flags = false; // On ne touche pas aux autres flags.
+
+                    break;
+                case 1111010: //xor3
+                    break;
+                case 1111011: //xor3i
+                    break;
+                case 1111100: //asr3
+                    break;
+
+
+                // ============ Pour les trucs en plus =============== \\
+                case 1111101: //asr3
+                    break;
+                case 1111110: //asr3
+                    break;
+                case 1111111: //asr3
+                    break;
+
+            }
             break;
     }
 
