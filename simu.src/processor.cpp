@@ -352,19 +352,60 @@ void Processor::von_Neuman_step(bool debug) {
 
                     break;
                 case 1111010: //xor3
+                    read_reg_from_pc(regnum1);
+                    read_reg_from_pc(regnum2);
+                    read_reg_from_pc(regnum3);
+
+                    uop1 = r[regnum2];
+                    uop2 = r[regnum3];
+
+                    ur = uop1 ^ uop2;
+                    r[regnum1] = ur;
+
+                    if (ur == 0)
+                    {
+                        zflag = true;
+                    }
+                    else
+                    {
+                        zflag=false;
+                    }
+
+                    manage_flags = false; // On ne touche pas aux autres flags.
                     break;
                 case 1111011: //xor3i
+                    read_reg_from_pc(regnum1);
+                    read_reg_from_pc(regnum2);
+                    read_const_from_pc(constop);
+
+                    uop1 = r[regnum2];
+                    uop2 = constop;
+
+                    ur = uop1 ^ uop2;
+                    r[regnum1] = ur;
+
+                    if (ur == 0)
+                    {
+                        zflag = true;
+                    }
+                    else
+                    {
+                        zflag=false;
+                    }
+
+                    manage_flags = false; // On ne touche pas aux autres flags.
                     break;
                 case 1111100: //asr3
                     break;
 
 
                 // ============ Pour les trucs en plus =============== \\
-                case 1111101: //asr3
+
+                case 1111101: //Jump reg
                     break;
-                case 1111110: //asr3
+                case 1111110: //interruption
                     break;
-                case 1111111: //asr3
+                case 1111111: //img print
                     break;
 
             }
