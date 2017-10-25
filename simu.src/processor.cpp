@@ -304,6 +304,25 @@ void Processor::von_Neuman_step(bool debug) {
                     manage_flags = false; // On ne touche pas aux autres flags.
                     break;
                 case 1110111: //and3i
+                    read_reg_from_pc(regnum1);
+                    read_reg_from_pc(regnum2);
+                    read_const_from_pc(constop)
+                    uop1 = r[regnum2];
+                    uop2 = constop;
+
+                    ur = uop1 & uop2;
+                    r[regnum1] = ur;
+
+                    if (ur == 0)
+                    {
+                        zflag = true;
+                    }
+                    else
+                    {
+                        zflag=false;
+                    }
+
+                    manage_flags = false; // On ne touche pas aux autres flags.
                     break;
                 case 1111000: //or3
                     read_reg_from_pc(regnum1);
