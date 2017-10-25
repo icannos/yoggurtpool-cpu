@@ -178,7 +178,7 @@ void Processor::von_Neuman_step(bool debug) {
 
 
             switch (opcode) {
-                case 110000: //or2
+                case 0x30: //or2
 
                     read_reg_from_pc(regnum1);
                     read_reg_from_pc(regnum2);
@@ -199,7 +199,7 @@ void Processor::von_Neuman_step(bool debug) {
 
                     manage_flags = false; // On ne touche pas aux autres flags.
                     break;
-                case 11000: //or2
+                case 0x31: //or2
 
                     read_reg_from_pc(regnum1);
                     read_const_from_pc(constop);
@@ -220,7 +220,7 @@ void Processor::von_Neuman_step(bool debug) {
 
                     manage_flags = false; // On ne touche pas aux autres flags.
                     break;
-                case 110010: //and2
+                case 0x32: //and2
 
                     read_reg_from_pc(regnum1);
                     read_reg_from_pc(regnum2);
@@ -242,7 +242,7 @@ void Processor::von_Neuman_step(bool debug) {
                     manage_flags = false; // On ne touche pas aux autres flags.
                     break;
 
-                case 110011://and2i
+                case 0x33://and2i
                     read_reg_from_pc(regnum1);
                     read_const_from_pc(constop);
                     uop1 = r[regnum1];
@@ -266,15 +266,15 @@ void Processor::von_Neuman_step(bool debug) {
                     break;
 
 
-                case 110100: // write
+                case 0x34: // write
                     write(counter, size, regnum1);
                     manage_flags=false;
                     break;
 
-                case 110101: //call
+                case 0x35: //call
                     break;
 
-                case 110110: //setctr
+                case 0x36: //setctr
                     read_counter_from_pc(counter);
                     read_reg_from_pc(regnum1);
 
@@ -282,7 +282,7 @@ void Processor::von_Neuman_step(bool debug) {
                     *cptr = r[regnum1];
                     break;
 
-                case 110111: //getctr
+                case 0x37: //getctr
                     read_counter_from_pc(counter);
                     read_reg_from_pc(regnum1);
 
@@ -302,7 +302,7 @@ void Processor::von_Neuman_step(bool debug) {
 
             switch (opcode)
             {
-                case 1110000://push
+                case 0x70://push
                     read_reg_from_pc(regnum1);
 
                     for(int i = WORDSIZE-1; i >= 0 ; i--)
@@ -313,9 +313,9 @@ void Processor::von_Neuman_step(bool debug) {
 
 
                     break;
-                case 1110001://return
+                case 0x71://return
                     break;
-                case 1110010://add3
+                case 0x72://add3
                     read_reg_from_pc(regnum1);
                     read_reg_from_pc(regnum2);
                     read_reg_from_pc(regnum3);
@@ -327,7 +327,7 @@ void Processor::von_Neuman_step(bool debug) {
                     manage_flags = true;
                     break;
 
-                case 1110011://add3i
+                case 0x73://add3i
                     read_reg_from_pc(regnum1);
                     read_reg_from_pc(regnum2);
                     read_const_from_pc(constop);
@@ -338,11 +338,11 @@ void Processor::von_Neuman_step(bool debug) {
                     r[regnum1] = ur;
                     manage_flags = true;
                     break;
-                case 1110100://sub3
+                case 0x74://sub3
                     break;
-                case 1110101://sub3i
+                case 0x75://sub3i
                     break;
-                case 1110110: //and3
+                case 0x76: //and3
                     read_reg_from_pc(regnum1);
                     read_reg_from_pc(regnum2);
                     read_reg_from_pc(regnum3);
@@ -363,7 +363,7 @@ void Processor::von_Neuman_step(bool debug) {
 
                     manage_flags = false; // On ne touche pas aux autres flags.
                     break;
-                case 1110111: //and3i
+                case 0x77: //and3i
                     read_reg_from_pc(regnum1);
                     read_reg_from_pc(regnum2);
                     read_const_from_pc(constop)
@@ -384,7 +384,7 @@ void Processor::von_Neuman_step(bool debug) {
 
                     manage_flags = false; // On ne touche pas aux autres flags.
                     break;
-                case 1111000: //or3
+                case 0x78: //or3
                     read_reg_from_pc(regnum1);
                     read_reg_from_pc(regnum2);
                     read_reg_from_pc(regnum3);
@@ -407,7 +407,7 @@ void Processor::von_Neuman_step(bool debug) {
                     manage_flags = false; // On ne touche pas aux autres flags.
                     break;
 
-                case 1111001: //or3i
+                case 0x79: //or3i
                     read_reg_from_pc(regnum1);
                     read_reg_from_pc(regnum2);
                     read_const_from_pc(constop);
@@ -430,7 +430,7 @@ void Processor::von_Neuman_step(bool debug) {
                     manage_flags = false; // On ne touche pas aux autres flags.
 
                     break;
-                case 1111010: //xor3
+                case 0x7a: //xor3
                     read_reg_from_pc(regnum1);
                     read_reg_from_pc(regnum2);
                     read_reg_from_pc(regnum3);
@@ -452,7 +452,7 @@ void Processor::von_Neuman_step(bool debug) {
 
                     manage_flags = false; // On ne touche pas aux autres flags.
                     break;
-                case 1111011: //xor3i
+                case 0x7b: //xor3i
                     read_reg_from_pc(regnum1);
                     read_reg_from_pc(regnum2);
                     read_const_from_pc(constop);
@@ -474,17 +474,17 @@ void Processor::von_Neuman_step(bool debug) {
 
                     manage_flags = false; // On ne touche pas aux autres flags.
                     break;
-                case 1111100: //asr3
+                case 0x7c: //asr3
                     break;
 
 
                 // ============ Pour les trucs en plus =============== \\
 
-                case 1111101: //Jump reg
+                case 0x7d: //Jump reg
                     break;
-                case 1111110: //interruption
+                case 0x7e: //interruption
                     break;
-                case 1111111: //img print
+                case 0x7f: //img print
                     break;
 
             }
