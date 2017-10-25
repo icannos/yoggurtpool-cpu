@@ -29,7 +29,7 @@ or2i ok
 and2 ok
 and2i ok
 write ok
-call
+call ok
 setctr ok
 getctr ok
 push ok

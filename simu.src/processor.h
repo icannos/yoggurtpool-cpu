@@ -30,7 +30,7 @@ private:
 
 	void jump(uword& offset, bool& manage_flags);
 	void jumpif(uword& offset, bool& manage_flags);
-	void write(int& counter, int& size, int& regnum1);
+	void write(int counter, int size, int val);
 
 
 	Memory *m;

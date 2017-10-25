@@ -24,6 +24,7 @@ void Processor::von_Neuman_step(bool debug) {
     int regnum3 = 0; // Utile pour les instructions à 3 opérandes
 
     uword * cptr = 0;
+    uword addr = 0;
 
     int shiftval = 0;
     int condcode = 0;
@@ -147,7 +148,8 @@ void Processor::von_Neuman_step(bool debug) {
 
                     cptr = getPtrToCounter(counter);
 
-                    ur = (1<<WORDSIZE) - 1;
+                    ur = 0;
+                    ur = ~ur;
                     for (int i = 0; i < size; i++)
                     {
                         ur = (ur << 1) + m->read_bit(counter);
@@ -267,11 +269,19 @@ void Processor::von_Neuman_step(bool debug) {
 
 
                 case 0x34: // write
-                    write(counter, size, regnum1);
+                    read_counter_from_pc(counter);
+                    read_size_from_pc(size);
+                    read_reg_from_pc(regnum1);
+
+                    write(counter, size, r[regnum1]);
                     manage_flags=false;
                     break;
 
                 case 0x35: //call
+                    read_addr_from_pc(addr);
+
+                    write(SP, WORDSIZE, pc);
+                    pc = addr;
                     break;
 
                 case 0x36: //setctr
@@ -366,7 +376,7 @@ void Processor::von_Neuman_step(bool debug) {
                 case 0x77: //and3i
                     read_reg_from_pc(regnum1);
                     read_reg_from_pc(regnum2);
-                    read_const_from_pc(constop)
+                    read_const_from_pc(constop);
                     uop1 = r[regnum2];
                     uop2 = constop;
 
@@ -750,16 +760,14 @@ void Processor::jumpif(uword &offset, bool &manage_flags) {
     }
 
 }
-void Processor::write(int& counter, int& size, int& regnum1) {
-    read_counter_from_pc(counter);
-    read_size_from_pc(size);
-    read_reg_from_pc(regnum1);
+void Processor::write(int counter, int size, int val) {
+
 
     uword *p_Counter = getPtrToCounter(
             counter); // On récupère un pointeur vers l'attribut correspond au bon counter.
 
     for (int i = size-1; i>=0; i--) { // On écrit le bon nombre de bits, à partir de l'adresse du counter donné.
-        m->write_bit(counter, (r[regnum1] >> i) & 1);
+        m->write_bit(counter, (val >> i) & 1);
         (*p_Counter)++;
     }
 
