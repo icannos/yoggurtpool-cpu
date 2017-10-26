@@ -11,7 +11,6 @@ import string
 import argparse
 from numpy import binary_repr
 
-#ceci est  un commentaire
 
 line=0 # global variable to make error reporting easier
 current_addr=0 # idem
@@ -26,14 +25,14 @@ def error(e):
 # Many are still missing
 
 def asm_reg(s):
-    "converts the string s into its encoding"
+    #converts the string s into its encoding
     if s[0]!='r':
         error("invalid register: " + s)
     try :
-        val = int(s[1:]) # this removes the "r". TODO catch exception here
+        val = int(s[1:]) # this removes the "r".
         break
     except ValueError, IndexError:
-        error("invalid integer: ")
+        error("invalid integer: "+ s)
     if val<0 or val>7:
         error("invalid register: " + s)
     else:
@@ -42,20 +41,26 @@ def asm_reg(s):
 
 
 def asm_addr_signed(s):
-    """converts the string s into its encoding"""
+    #converts the string s into its encoding
     # Is it a label or a constant?
-    #ajouter le signe puis l' hexa ici
-    if (s[0]>='0' and s[0]<='9') or s[0]=='-' or s[0]=='+': # TODO what it takes to catch hexa here
-        val=int(s) # TODO  catch exception here
+    #pour l'hexa
+    try :
+        if s[0:2]=='0x' or s[0:3]=='+0x' or s[0:3]=='-0x':
+            val=int(s,16)#la fonction int est gentille
+        if (s[0]>='0' and s[0]<='9') or s[0]=='-' or s[0]=='+':
+            val=int(s)
+        break
+    except ValueError, IndexError :
+        error("invalid address: " + s)
         # The following is not very elegant but easy to trust
-        if val>=-128 and val<= 127:
-            return '0 ' + binary_repr(val, 8)
-        elif val>=-32768 and val<= 32767:
-            return '10 ' +  binary_repr(val, 16)
-        elif val>=-(1<<31) and val<= (1<<31)-1:
-            return '110 ' + binary_repr(val, 32)
-        else:
-            return '111 ' +  binary_repr(val, 64)
+    if val>=-128 and val<= 127:
+        return '0 ' + binary_repr(val, 8)
+    elif val>=-32768 and val<= 32767:
+        return '10 ' +  binary_repr(val, 16)
+    elif val>=-(1<<31) and val<= (1<<31)-1:
+        return '110 ' + binary_repr(val, 32)
+    elif:
+        return '111 ' +  binary_repr(val, 64)
     else:
         error("Fixme! labels currently unsupported")
     
@@ -64,33 +69,69 @@ def asm_addr_signed(s):
 
         
 def asm_const_unsigned(s):
-    "converts the string s into its encoding"
+    #converts the string s into its encoding
     # Is it a label or a constant? 
-    if (s[0]>='0' and s[0]<='9') or s[0:2]=="0x":
+    """if (s[0]>='0' and s[0]<='9') or s[0:2]=="0x":
         val=int(s,0) # TODO  catch exception here
+        je ne comprends pas du tout le concept de int(s,0),
+        il me semble qui'il faut faire comme précédemment"""
+    try :
+        if s[0:2]=='0x' :
+            val=int(s,16)
+        if (s[0]>='0' and s[0]<='9'):
+            val=int(s)
+        break
+    except ValueError, IndexError :
+        error("invalid const: " + s)
         # The follwing is not very elegant but easy to trust
-        if val==0 or val==1:
-            return '0 ' + str(val)
-        elif val< 256:
-            return '10 ' + binary_repr(val, 8)
-        elif  val< (1<<32):
-            return '110 ' + binary_repr(val, 32)
-        else:
-            return '111 ' +  binary_repr(val, 64)
+    if val==0 or val==1:
+        return '0 ' + str(val)
+    elif val< 256:
+        return '10 ' + binary_repr(val, 8)
+    elif  val< (1<<32):
+        return '110 ' + binary_repr(val, 32)
+    elif:
+        return '111 ' +  binary_repr(val, 64)
     else:
         error("Expecting a constant, got " + s)
 
         
 def asm_const_signed(s):
-    "converts the string s into its encoding"
-    # begin sabote
-    # end sabote
+    #converts the string s into its encoding
+    try :
+        if s[0:2]=='0x' or s[0:3]=='+0x' or s[0:3]=='-0x':
+            val=int(s,16)#la fonction int est gentille
+        if (s[0]>='0' and s[0]<='9') or s[0]=='-' or s[0]=='+':
+            val=int(s)
+        break
+    except ValueError, IndexError :
+        error("invalid const: " + s)
+    if val==0 or val==1:
+        return '0 ' + str(val)
+    elif val>=-128 and val<=127:
+        return '10 ' + binary_repr(val, 8)
+    elif val>=-32768 and val<= 32767:
+        return '110 ' + binary_repr(val, 32)
+    elif:
+        return '111 ' +  binary_repr(val, 64)
+    else:
+        error("Expecting a constant, got " + s)
+        
     
 def asm_shiftval(s):
-    "converts the string s into its encoding"
-    # begin sabote
-    # end sabote
-           
+    #converts the string s into its encoding
+    # vu la taille, il ne devrait pas y avoir d'hexa, non ?
+    # c'est quoi, d'ailleurs ?
+    if s=='1' :
+        return 1
+    else :
+        try :
+            val=int(s)
+            if val>=0 and val<= 63 :
+                return '0' + binary_repr(val,6)
+            break
+        except ValueError, IndexError :
+            error("invalid shiftval: " + s)
 
 def asm_condition(cond):
     """converts the string cond into its encoding in the condition code. """
@@ -128,12 +169,12 @@ def asm_pass(iteration, s_file):
     global labels
     global current_address
     code =[] # array of strings, one entry per instruction
-    print "\n PASS " + str(iteration)
+    print ("\n PASS " + str(iteration))
     current_address = 0
     source = open(s_file)
     for source_line in source:
         instruction_encoding="" 
-        print "processing " + source_line[0:-1] # just to get rid of the final newline
+        print ("processing " + source_line[0:-1]) # just to get rid of the final newline
 
         # if there is a comment, get rid of it
         index = str.find(";", source_line)
