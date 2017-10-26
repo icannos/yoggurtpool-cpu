@@ -1,15 +1,27 @@
  
 # DM ASR-1
 
+
+## Description
+
+### Gestion de la pile
+
+- Les 1000 derniers mots de 64 bits sont réservés à la pile
+
+### Opcodes Maison
+- OPCODE: 0x7d correspond au jumpreg reg. (J'implanterai peut-être un jumpif reg, ou alors juste un jumpregif).
+
+
 ## TO DO.
 
 ================ Edwige ==============
 - Ecrire l'ASM
 - Envisager de recoder le parseur en python3 et en plus propre ? (orienté objet ?)
+- Penser à implémenter mes instructions supplémentaires dans le parseur. (Voir Opcodes maison)
 
 ================ Maxime ==============
-- Implémenter toutes les commandes proco assez vite.
-- Utiliser l'un des derniers opcode pour coder le jump ref
+
+WIN.
 
 add2 ok
 add2i ok
@@ -44,4 +56,5 @@ or3 ok
 or3i ok
 xor3 ok
 xor3i ok
+asr3 C'est censé faire quoi ça ?
 

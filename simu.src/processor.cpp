@@ -4,9 +4,17 @@ using namespace std;
 
 Processor::Processor(Memory *m) : m(m) {
     pc = 0;
-    sp = 0;
+
+    sp = 0x3fff0600; // Début de notre pile (On a 1000 mots de 64 bits
+    m->m[0] = 0x3fff0600;
+
     a1 = 0;
     a2 = 0;
+
+
+    m->m[1] = 0;
+    m->m[0] = 0;
+    m->m[0] = 0;
 
     for (int i = 0; i < nb_reg; i++)
         r[i] = 0;
@@ -76,7 +84,7 @@ void Processor::von_Neuman_step(bool debug) {
             read_reg_from_pc(regnum1);
             read_reg_from_pc(regnum2);
             uop1 = r[regnum1];
-            uop2 = (~r[regnum2])+1;
+            uop2 = (~r[regnum2]) + 1;
             fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
             ur = uop1 + uop2;
             r[regnum1] = ur;
@@ -87,7 +95,7 @@ void Processor::von_Neuman_step(bool debug) {
             read_reg_from_pc(regnum1);
             read_const_from_pc(constop);
             uop1 = r[regnum1];
-            uop2 = (~constop)+1;
+            uop2 = (~constop) + 1;
             fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
             ur = uop1 + uop2;
             r[regnum1] = ur;
@@ -98,7 +106,7 @@ void Processor::von_Neuman_step(bool debug) {
             read_reg_from_pc(regnum1);
             read_reg_from_pc(regnum2);
             uop1 = r[regnum1];
-            uop2 = (~r[regnum2])+1;
+            uop2 = (~r[regnum2]) + 1;
             fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
             manage_flags = true;
             break;
@@ -107,7 +115,7 @@ void Processor::von_Neuman_step(bool debug) {
             read_reg_from_pc(regnum1);
             read_const_from_pc(constop);
             uop1 = r[regnum1];
-            uop2 = (~constop)+1;
+            uop2 = (~constop) + 1;
             fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
 
             manage_flags = true;
@@ -303,6 +311,7 @@ void Processor::von_Neuman_step(bool debug) {
 
                     cptr = getPtrToCounter(counter);
                     *cptr = r[regnum1];
+                    m->set_counter(counter, r[regnum1]);
                     break;
 
                 case 0x37: //getctr
@@ -328,7 +337,7 @@ void Processor::von_Neuman_step(bool debug) {
                     read_reg_from_pc(regnum1);
 
                     for (int i = WORDSIZE - 1; i >= 0; i--) {
-                        m->write_bit(SP, (r[regnum1] >> i) & 1);
+                        write_toRam(SP, (r[regnum1] >> i) & 1);
                         sp++;
                     }
 
@@ -364,7 +373,7 @@ void Processor::von_Neuman_step(bool debug) {
                     read_reg_from_pc(regnum2);
                     read_reg_from_pc(regnum3);
                     uop1 = r[regnum2];
-                    uop2 = (~r[regnum3])+1;
+                    uop2 = (~r[regnum3]) + 1;
                     fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
                     ur = uop1 + uop2;
                     r[regnum1] = ur;
@@ -375,7 +384,7 @@ void Processor::von_Neuman_step(bool debug) {
                     read_reg_from_pc(regnum2);
                     read_const_from_pc(constop);
                     uop1 = r[regnum2];
-                    uop2 = (~constop)+1;
+                    uop2 = (~constop) + 1;
                     fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
                     ur = uop1 + uop2;
                     r[regnum1] = ur;
@@ -502,6 +511,7 @@ void Processor::von_Neuman_step(bool debug) {
                     // ============ Pour les trucs en plus =============== \\
 
                 case 0x7d: //Jump reg
+                    jumpreg(regnum1, manage_flags);
                     break;
                 case 0x7e: //interruption
                     break;
@@ -544,7 +554,7 @@ void Processor::read_bit_from_pc(int &var) {
 
     // This is for evaluation of the ASM, it count the total number of bits which are read during the execution
 
-    nb_readbits++;
+    nb_read_bits_frompc++;
 
 }
 
@@ -761,6 +771,13 @@ void Processor::jump(uword &offset, bool &manage_flags) {
     manage_flags = false;
 }
 
+void Processor::jumpreg(int &regnum1, bool &manage_flags) {
+    read_reg_from_pc(regnum1);
+    pc += r[regnum1];
+    m->set_counter(PC, (uword) pc);
+    manage_flags = false;
+}
+
 void Processor::jumpif(uword &offset, bool &manage_flags) {
     int cond = 0;
 
@@ -779,17 +796,26 @@ void Processor::write(int counter, int size, int val) {
             counter); // On récupère un pointeur vers l'attribut correspond au bon counter.
 
     for (int i = size - 1; i >= 0; i--) { // On écrit le bon nombre de bits, à partir de l'adresse du counter donné.
-        m->write_bit(counter, (val >> i) & 1);
+        write_toRam(counter, (val >> i) & 1);
         (*p_Counter)++;
     }
 
 }
 
+// ================= Encapsulation pour pouvoir suivre le trajet des bits et les compter  ========================= \\
+
+void Processor::write_toRam(int counter, int bit) {
+    m->write_bit(counter, bit);
+    writed_bits_toram++;
+}
+
 // ================= Getters && Setters ========================= \\
 
 int Processor::getNb_readbits() const {
-    return nb_readbits;
+    return nb_read_bits_frompc;
 }
+
+
 
 
 
