@@ -73,15 +73,44 @@ void Processor::von_Neuman_step(bool debug) {
             break;
 
         case 0x2: // sub2
+            read_reg_from_pc(regnum1);
+            read_reg_from_pc(regnum2);
+            uop1 = r[regnum1];
+            uop2 = (~r[regnum2])+1;
+            fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+            ur = uop1 + uop2;
+            r[regnum1] = ur;
+            manage_flags = true;
             break;
 
         case 0x3: //sub2i
+            read_reg_from_pc(regnum1);
+            read_const_from_pc(constop);
+            uop1 = r[regnum1];
+            uop2 = (~constop)+1;
+            fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+            ur = uop1 + uop2;
+            r[regnum1] = ur;
+            manage_flags = true;
             break;
 
         case 0x4: //cmp
+            read_reg_from_pc(regnum1);
+            read_reg_from_pc(regnum2);
+            uop1 = r[regnum1];
+            uop2 = (~r[regnum2])+1;
+            fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+            manage_flags = true;
             break;
 
         case 0x5: //cmpi
+            read_reg_from_pc(regnum1);
+            read_const_from_pc(constop);
+            uop1 = r[regnum1];
+            uop2 = (~constop)+1;
+            fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+
+            manage_flags = true;
             break;
 
         case 0x6: //let
@@ -331,8 +360,26 @@ void Processor::von_Neuman_step(bool debug) {
                     manage_flags = true;
                     break;
                 case 0x74://sub3
+                    read_reg_from_pc(regnum1);
+                    read_reg_from_pc(regnum2);
+                    read_reg_from_pc(regnum3);
+                    uop1 = r[regnum2];
+                    uop2 = (~r[regnum3])+1;
+                    fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+                    ur = uop1 + uop2;
+                    r[regnum1] = ur;
+                    manage_flags = true;
                     break;
                 case 0x75://sub3i
+                    read_reg_from_pc(regnum1);
+                    read_reg_from_pc(regnum2);
+                    read_const_from_pc(constop);
+                    uop1 = r[regnum2];
+                    uop2 = (~constop)+1;
+                    fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+                    ur = uop1 + uop2;
+                    r[regnum1] = ur;
+                    manage_flags = true;
                     break;
                 case 0x76: //and3
                     read_reg_from_pc(regnum1);

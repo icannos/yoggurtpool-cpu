@@ -13,10 +13,10 @@
 
 add2 ok
 add2i ok
-sub2 wip
-sub2i wip
-cmp wip
-cmpi wip
+sub2 ok
+sub2i ok
+cmp ok
+cmpi ok
 let ok
 leti ok
 shift ok
@@ -36,8 +36,8 @@ push ok
 return
 add3 ok
 add3i ok
-sub3 
-sub3i
+sub3 ok
+sub3i ok
 and3 ok
 and3i ok
 or3 ok 
