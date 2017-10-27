@@ -39,4 +39,8 @@
 build/*
 cmake-build-debug/*
 .idea/*
+
+
+#Alain Ignore
+ASMAlain/*
  
