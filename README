@@ -45,7 +45,7 @@ call ok
 setctr ok
 getctr ok
 push ok
-return
+return ok
 add3 ok
 add3i ok
 sub3 ok
@@ -56,5 +56,5 @@ or3 ok
 or3i ok
 xor3 ok
 xor3i ok
-asr3 C'est censé faire quoi ça ?
+asr3 C'est censé faire quoi ça ? (arithmetic shit right)
 

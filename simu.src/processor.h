@@ -1,9 +1,9 @@
 #include "memory.h" 
 
-class Processor {
+class yogurtpool {
  public:
-	Processor(Memory* m);
-	~Processor();
+	yogurtpool(Memory* m);
+	~yogurtpool();
 	void von_Neuman_step(bool debug);
 
 	int getNb_readbits() const;
