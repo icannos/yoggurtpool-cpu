@@ -31,6 +31,13 @@ private:
 	void jump(uword& offset, bool& manage_flags);
 	void jumpif(uword& offset, bool& manage_flags);
 	void write(int counter, int size, int val);
+    void jumpreg(int &regnum1, bool &manage_flags);
+
+
+    // ======== Functions for Stats Gathering =========== \\
+
+    void write_toRam(int counter, int bit);
+
 
 
 	Memory *m;
@@ -54,6 +61,7 @@ private:
 
 	// ============= Data Simulation ========== \\
 
-	int nb_readbits = 0;
+	int nb_read_bits_frompc = 0;
+	int writed_bits_toram = 0;
 
 };
