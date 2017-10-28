@@ -198,16 +198,70 @@ def asm_pass(iteration, s_file):
             opcode = tokens[0]
             token_count = len(tokens)
             if opcode == "add2" and token_count==3:
-                    instruction_encoding = "0000 " + asm_reg(tokens[1]) + asm_reg(tokens[2])
+                instruction_encoding = "0000 " + asm_reg(tokens[1]) + asm_reg(tokens[2])
             if opcode == "add2i" and token_count==3:
-                    instruction_encoding = "0001 " + asm_reg(tokens[1]) + asm_const_unsigned(tokens[2])
-            # Here, a lot of constructive copypaste, for instance
+                instruction_encoding = "0001 " + asm_reg(tokens[1]) + asm_const_unsigned(tokens[2])
+            if opcode == "sub2" and token_count==3:
+                instruction_encoding = "0010 " + asm_reg(tokens[1]) + asm_reg(tokens[2])
+            if opcode == "sub2i" and token_count==3:
+                instruction_encoding = "0011 " + asm_reg(tokens[1]) + asm_const_unsigned(tokens[2])
+            if opcode == "cmp" and token_count==3:
+                instruction_encoding = "0100 " + asm_reg(tokens[1]) + asm_reg(tokens[2])
+            if opcode == "cmpi" and token_count==3:
+                instruction_encoding = "0101 " + asm_reg(tokens[1]) + asm_const_unsigned(tokens[2])
+            if opcode == "let" and token_count==3:
+                instruction_encoding = "0110 " + asm_reg(tokens[1]) + asm_reg(tokens[2])
+            if opcode == "leti" and token_count==3:
+                instruction_encoding = "0111 " + asm_reg(tokens[1]) + asm_const_unsigned(tokens[2])
+            if opcode == "shift" and token_count==4:#je ne sais que faire de dir
+                instruction_encoding = "1000 " + asm_dir(tokens[1])+ asm_reg(tokens[2]) + asm_shiftval(tokens[3])
+            if opcode == "readze" and token_count==4:
+                instruction_encoding = "10010 " + asm_counter(tokens[1]) + asm_size(tokens[2])+asm_reg(tokens[3])
+            if opcode == "readse" and token_count==4:
+                instruction_encoding = "10011 " + asm_counter(tokens[1]) + asm_size(tokens[2])+asm_reg(tokens[3])
             if opcode == "jump" and token_count==2:
-                    instruction_encoding = "1010 " + asm_addr_signed(tokens[1])
-         #begin sabote
-            #end sabote
-                    
-            # If the line wasn't assembled:
+                instruction_encoding = "1010 " + asm_addr_signed(tokens[1])
+            if opcode == "jumpif" and token_count==2:
+                instruction_encoding = "1011 " + asm_condition(tokens[1]) + asm_addr_signed(tokens[2])
+             if opcode == "or2" and token_count==3:
+                instruction_encoding = "110000 " + asm_reg(tokens[1]) + asm_reg(tokens[2])
+            if opcode == "or2i" and token_count==3:
+                instruction_encoding = "110001 " + asm_reg(tokens[1]) + asm_const_unsigned(tokens[2])
+            if opcode == "and2" and token_count==3:
+                instruction_encoding = "110010 " + asm_reg(tokens[1]) + asm_reg(tokens[2])
+            if opcode == "and2i" and token_count==3:
+                instruction_encoding = "110011 " + asm_reg(tokens[1]) + asm_const_unsigned(tokens[2])
+            if opcode == "write" and token_count==4:
+                instruction_encoding = "110100 " + asm_counter(tokens[1]) + asm_size(tokens[2])+asm_reg(tokens[3])
+            if opcode == "call" and token_count==2:
+                instruction_encoding = "110101 " + asm_addr_signed(tokens[1])
+            if opcode == "setctr" and token_count==3:
+                instruction_encoding = "110110 " + asm_counter(tokens[1]) + asm_reg(tokens[2])
+            if opcode == "getctr" and token_count==3:
+                instruction_encoding = "110111 " + asm_counter(tokens[1]) + asm_reg(tokens[2])
+            if opcode == "push" and token_count==2:
+                instruction_encoding = "1110000 " + asm_reg(tokens[1])
+            if opcode == "return" and token_count==1:
+                instruction_encoding = "1110001 "
+            if opcode == "add3" and token_count==4:
+                instruction_encoding = "1110010 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
+            if opcode == "add3i" and token_count==3:
+                instruction_encoding = "1110011 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_unsigned(tokens[3])
+            if opcode == "sub3" and token_count==4:
+                instruction_encoding = "1110100 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
+            if opcode == "sub3i" and token_count==3:
+                instruction_encoding = "1110101 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_unsigned(tokens[3])
+            if opcode == "or3" and token_count==4:
+                instruction_encoding = "1111000 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
+            if opcode == "or3i" and token_count==3:
+                instruction_encoding = "1111001 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_unsigned(tokens[3])
+            if opcode == "xor3" and token_count==4:
+                instruction_encoding = "1111010 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
+            if opcode == "xor3i" and token_count==3:
+                instruction_encoding = "1111011 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_unsigned(tokens[3])
+            if opcode == "asr3" and token_count==3:
+                instruction_encoding = "1111100 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_shiftval(tokens[3])
+                # If the line wasn't assembled:
             if instruction_encoding=="":
                 error("don't know what to do with: " + source_line)
             else:
@@ -215,8 +269,8 @@ def asm_pass(iteration, s_file):
                 compact_encoding = ''.join(instruction_encoding.split()) 
                 instr_size = len(compact_encoding)
                 # Debug output
-                print "... @" + str(current_address) + " " + binary_repr(current_address,16) + "  :  " + compact_encoding
-                print  "                          "+  instruction_encoding+ "   size=" + str(instr_size)    
+                print ("... @" + str(current_address) + " " + binary_repr(current_address,16) + "  :  " + compact_encoding)
+                print  ("                          "+  instruction_encoding+ "   size=" + str(instr_size)  )  
                 current_address += instr_size
 
                 
