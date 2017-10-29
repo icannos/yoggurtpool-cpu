@@ -90,7 +90,7 @@ def asm_const_unsigned(s):
         return '10 ' + binary_repr(val, 8)
     elif  val< (1<<32):
         return '110 ' + binary_repr(val, 32)
-    elif:
+    elif val< (1<<64):
         return '111 ' +  binary_repr(val, 64)
     else:
         error("Expecting a constant, got " + s)
