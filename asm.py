@@ -74,7 +74,7 @@ def asm_const_unsigned(s):
     """if (s[0]>='0' and s[0]<='9') or s[0:2]=="0x":
         val=int(s,0) # TODO  catch exception here
         je ne comprends pas du tout le concept de int(s,0),
-        il me semble qui'il faut faire comme précédemment"""
+        il me semble qui'il faut faire comme precedemment"""
     try :
         if s[0:2]=='0x' :
             val=int(s,16)
