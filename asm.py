@@ -31,7 +31,7 @@ def asm_reg(s):
     try :
         val = int(s[1:]) # this removes the "r".
         break
-    except ValueError, IndexError:
+    except (ValueError, IndexError):
         error("invalid integer: "+ s)
     if val<0 or val>7:
         error("invalid register: " + s)
@@ -59,7 +59,7 @@ def asm_addr_signed(s):
         return '10 ' +  binary_repr(val, 16)
     elif val>=-(1<<31) and val<= (1<<31)-1:
         return '110 ' + binary_repr(val, 32)
-    elif:
+    elif val>=-(1<<63) and val<= (1<<63)-1:
         return '111 ' +  binary_repr(val, 64)
     else:
         error("Fixme! labels currently unsupported")

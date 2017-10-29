@@ -132,7 +132,6 @@ void Processor::von_Neuman_step(bool debug) {
         case 0x7: //leti
             read_reg_from_pc(regnum1);
             read_const_from_pc(constop);
-
             r[regnum1] = constop;
             break;
 
