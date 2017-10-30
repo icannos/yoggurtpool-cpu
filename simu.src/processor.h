@@ -12,6 +12,7 @@ private:
 	void read_bit_from_pc(int& var);
 	void read_reg_from_pc(int& var);
 	void read_const_from_pc(uint64_t& var);
+    void read_sconst_from_pc(uint64_t &var);
 
 
 	void read_addr_from_pc(uword& var);

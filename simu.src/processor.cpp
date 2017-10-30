@@ -95,9 +95,9 @@ void Processor::von_Neuman_step(bool debug) {
             read_reg_from_pc(regnum1);
             read_const_from_pc(constop);
             uop1 = r[regnum1];
-            uop2 = (~constop) + 1;
-            fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
-            ur = uop1 + uop2;
+            uop2 = constop;
+            fullr = ((doubleword) uop1) - ((doubleword) uop2); // for flags
+            ur = uop1 - uop2;
             r[regnum1] = ur;
             manage_flags = true;
             break;
@@ -106,17 +106,20 @@ void Processor::von_Neuman_step(bool debug) {
             read_reg_from_pc(regnum1);
             read_reg_from_pc(regnum2);
             uop1 = r[regnum1];
-            uop2 = (~r[regnum2]) + 1;
+            uop2 = r[regnum2];
             fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+            ur = uop1 + uop2;
             manage_flags = true;
             break;
 
         case 0x5: //cmpi
             read_reg_from_pc(regnum1);
-            read_const_from_pc(constop);
+            read_sconst_from_pc(constop);
             uop1 = r[regnum1];
             uop2 = (~constop) + 1;
-            fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+            fullr = ((doubleword) uop1) + ((sword) uop2); // for flags
+
+            ur = uop1 + uop2;
 
             manage_flags = true;
             break;
@@ -131,7 +134,7 @@ void Processor::von_Neuman_step(bool debug) {
 
         case 0x7: //leti
             read_reg_from_pc(regnum1);
-            read_const_from_pc(constop);
+            read_sconst_from_pc(constop);
             r[regnum1] = constop;
             break;
 
@@ -372,9 +375,9 @@ void Processor::von_Neuman_step(bool debug) {
                     read_reg_from_pc(regnum2);
                     read_reg_from_pc(regnum3);
                     uop1 = r[regnum2];
-                    uop2 = (~r[regnum3]) + 1;
-                    fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
-                    ur = uop1 + uop2;
+                    uop2 = r[regnum3];
+                    fullr = ((doubleword) uop1) - ((doubleword) uop2); // for flags
+                    ur = uop1 - uop2;
                     r[regnum1] = ur;
                     manage_flags = true;
                     break;
@@ -383,9 +386,9 @@ void Processor::von_Neuman_step(bool debug) {
                     read_reg_from_pc(regnum2);
                     read_const_from_pc(constop);
                     uop1 = r[regnum2];
-                    uop2 = (~constop) + 1;
-                    fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
-                    ur = uop1 + uop2;
+                    uop2 = constop;
+                    fullr = ((doubleword) uop1) - ((doubleword) uop2); // for flags
+                    ur = uop1 - uop2;
                     r[regnum1] = ur;
                     manage_flags = true;
                     break;
@@ -592,6 +595,36 @@ void Processor::read_const_from_pc(uint64_t &var) {
     }
 }
 
+void Processor::read_sconst_from_pc(uint64_t &var) {
+    var = 0;
+    int header = 0;
+    int size;
+    read_bit_from_pc(header);
+    if (header == 0)
+        size = 1;
+    else {
+        read_bit_from_pc(header);
+        if (header == 2)
+            size = 8;
+        else {
+            read_bit_from_pc(header);
+            if (header == 6)
+                size = 32;
+            else
+                size = 64;
+        }
+    }
+    // Now we know the size and we can read all the bits of the constant.
+    for (int i = 0; i < size; i++) {
+        var = (var << 1) + m->read_bit(PC);
+        pc++;
+    }
+
+    int sign = (var >> (size - 1)) & 1;
+    for (int i = size; i < WORDSIZE; i++)
+        var += sign << i;
+}
+
 
 // Beware, this one is sign-extended
 void Processor::read_addr_from_pc(uword &var) {
@@ -765,14 +798,14 @@ void Processor::read_size_from_pc(int &size) {
 
 void Processor::jump(uword &offset, bool &manage_flags) {
     read_addr_from_pc(offset);
-    pc += offset;
+    pc += (sword)offset;
     m->set_counter(PC, (uword) pc);
     manage_flags = false;
 }
 
 void Processor::jumpreg(int &regnum1, bool &manage_flags) {
     read_reg_from_pc(regnum1);
-    pc += r[regnum1];
+    pc += (sword)r[regnum1];
     m->set_counter(PC, (uword) pc);
     manage_flags = false;
 }
