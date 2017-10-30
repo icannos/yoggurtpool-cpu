@@ -4,7 +4,7 @@ leti r1 8
 leti r2 0
 
 cmpi r0 0
-jumpif z 0 
+jumpif eq 0 
 
 and3i r3 r0 1
 jumpif z 11

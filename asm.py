@@ -30,7 +30,6 @@ def asm_reg(s):
         error("invalid register: " + s)
     try :
         val = int(s[1:]) # this removes the "r".
-        break
     except (ValueError, IndexError):
         error("invalid integer: "+ s)
     if val<0 or val>7:
@@ -49,7 +48,7 @@ def asm_addr_signed(s):
             val=int(s,16)#la fonction int est gentille
         if (s[0]>='0' and s[0]<='9') or s[0]=='-' or s[0]=='+':
             val=int(s)
-        break
+
     except ValueError, IndexError :
         error("invalid address: " + s)
         # The following is not very elegant but easy to trust
@@ -80,7 +79,6 @@ def asm_const_unsigned(s):
             val=int(s,16)
         if (s[0]>='0' and s[0]<='9'):
             val=int(s)
-        break
     except ValueError, IndexError :
         error("invalid const: " + s)
         # The follwing is not very elegant but easy to trust
@@ -103,7 +101,6 @@ def asm_const_signed(s):
             val=int(s,16)#la fonction int est gentille
         if (s[0]>='0' and s[0]<='9') or s[0]=='-' or s[0]=='+':
             val=int(s)
-        break
     except ValueError, IndexError :
         error("invalid const: " + s)
     if val==0 or val==1:
@@ -112,7 +109,7 @@ def asm_const_signed(s):
         return '10 ' + binary_repr(val, 8)
     elif val>=-32768 and val<= 32767:
         return '110 ' + binary_repr(val, 32)
-    elif:
+    elif val>=-2**63 and val <= 2**63: # Ajout de la cond sur le elif
         return '111 ' +  binary_repr(val, 64)
     else:
         error("Expecting a constant, got " + s)
@@ -129,7 +126,6 @@ def asm_shiftval(s):
             val=int(s)
             if val>=0 and val<= 63 :
                 return '0' + binary_repr(val,6)
-            break
         except ValueError, IndexError :
             error("invalid shiftval: " + s)
 
@@ -223,7 +219,7 @@ def asm_pass(iteration, s_file):
                 instruction_encoding = "1010 " + asm_addr_signed(tokens[1])
             if opcode == "jumpif" and token_count==2:
                 instruction_encoding = "1011 " + asm_condition(tokens[1]) + asm_addr_signed(tokens[2])
-             if opcode == "or2" and token_count==3:
+            if opcode == "or2" and token_count==3: # Correction de l'indentation.
                 instruction_encoding = "110000 " + asm_reg(tokens[1]) + asm_reg(tokens[2])
             if opcode == "or2i" and token_count==3:
                 instruction_encoding = "110001 " + asm_reg(tokens[1]) + asm_const_unsigned(tokens[2])

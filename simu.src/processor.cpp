@@ -5,7 +5,7 @@ using namespace std;
 Processor::Processor(Memory *m) : m(m) {
     pc = 0;
 
-    sp = 0x3fff0600; // Début de notre pile (On a 1000 mots de 64 bits
+    sp = 0x3fff0600; // Début de notre pile (On a 1000 mots de 64 bits)
     m->m[0] = 0x3fff0600;
 
     a1 = 0;
