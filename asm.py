@@ -120,7 +120,7 @@ def asm_shiftval(s):
     # vu la taille, il ne devrait pas y avoir d'hexa, non ?
     # c'est quoi, d'ailleurs ?
     if s=='1' :
-        return 1
+        return "1" # Il faut bien retourner des str sinon il veut pas les concatener ensuite.
     else :
         try :
             val=int(s)
@@ -147,6 +147,13 @@ def asm_counter(ctr):
         return val + " "
     else:
         error("Invalid counter: " + cond)
+        
+        
+def asm_dir(dirc):
+    if dirc == "left": return "0"
+    elif dirc == "right": return "1"
+    else: error("Invalid dir: " + dirc)
+    
 
 
 
@@ -179,7 +186,7 @@ def asm_pass(iteration, s_file):
 
         # split the non-comment part of the line into tokens (thanks Stack Overflow) 
         tokens = re.findall('[\S]+', source_line) # \S means: any non-whitespace
-        # print tokens # to debug
+        print tokens # to debug
 
         # if there is a label, consume it
         if tokens:
@@ -217,7 +224,7 @@ def asm_pass(iteration, s_file):
                 instruction_encoding = "10011 " + asm_counter(tokens[1]) + asm_size(tokens[2])+asm_reg(tokens[3])
             if opcode == "jump" and token_count==2:
                 instruction_encoding = "1010 " + asm_addr_signed(tokens[1])
-            if opcode == "jumpif" and token_count==2:
+            if opcode == "jumpif" and token_count==3: # Il faut bien penser que l'opcode est un token, donc si 2 arguments, il faut 3 tokens.
                 instruction_encoding = "1011 " + asm_condition(tokens[1]) + asm_addr_signed(tokens[2])
             if opcode == "or2" and token_count==3: # Correction de l'indentation.
                 instruction_encoding = "110000 " + asm_reg(tokens[1]) + asm_reg(tokens[2])
@@ -247,6 +254,10 @@ def asm_pass(iteration, s_file):
                 instruction_encoding = "1110100 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
             if opcode == "sub3i" and token_count==3:
                 instruction_encoding = "1110101 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_unsigned(tokens[3])
+            if opcode == "and3" and token_count==4:
+                instruction_encoding = "1110110 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
+            if opcode == "and3i" and token_count==4:
+                instruction_encoding = "1110111 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_unsigned(tokens[3])
             if opcode == "or3" and token_count==4:
                 instruction_encoding = "1111000 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
             if opcode == "or3i" and token_count==3:
