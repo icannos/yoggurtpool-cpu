@@ -696,15 +696,16 @@ bool Processor::cond_true(int cond) {
         case 0x1 : // Différent
             return (!zflag);
 
-        case 0x2: // op1 > op2 (version signée, complément à 2
-
+        case 0x2: // op1 > op2 (version signée, complément à 2)
+			return ((!nflag)||(cflag && nflag))&&(!zflag)
             break;
 
         case 0x3: // op1 < op2 (version signée, complément à 2)
+			return ((nflag)||(cflag && (!nflag))&&(!zflag)
             break;
 
         case 0x4: //op1 > op2 non signée
-            return (!nflag) | (!zflag);
+            return (!nflag) && (!zflag);
             break;
 
         case 0x5: //op1 >= op2 non signée
@@ -716,7 +717,7 @@ bool Processor::cond_true(int cond) {
             break;
 
         case 0x7: //op1 <= op2 non signée
-            return (nflag) | (zflag);
+            return (nflag) || (zflag);
             break;
 
     }
