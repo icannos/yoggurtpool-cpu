@@ -49,7 +49,7 @@ def asm_addr_signed(s):
         if (s[0]>='0' and s[0]<='9') or s[0]=='-' or s[0]=='+':
             val=int(s)
 
-    except ValueError, IndexError :
+    except (ValueError, IndexError) :
         error("invalid address: " + s)
         # The following is not very elegant but easy to trust
     if val>=-128 and val<= 127:
@@ -79,7 +79,7 @@ def asm_const_unsigned(s):
             val=int(s,16)
         if (s[0]>='0' and s[0]<='9'):
             val=int(s)
-    except ValueError, IndexError :
+    except (ValueError, IndexError) :
         error("invalid const: " + s)
         # The follwing is not very elegant but easy to trust
     if val==0 or val==1:
@@ -101,7 +101,7 @@ def asm_const_signed(s):
             val=int(s,16)#la fonction int est gentille
         if (s[0]>='0' and s[0]<='9') or s[0]=='-' or s[0]=='+':
             val=int(s)
-    except ValueError, IndexError :
+    except (ValueError, IndexError) :
         error("invalid const: " + s)
     if val==0 or val==1:
         return '0 ' + str(val)
@@ -117,8 +117,6 @@ def asm_const_signed(s):
     
 def asm_shiftval(s):
     #converts the string s into its encoding
-    # vu la taille, il ne devrait pas y avoir d'hexa, non ?
-    # c'est quoi, d'ailleurs ?
     if s=='1' :
         return "1" # Il faut bien retourner des str sinon il veut pas les concatener ensuite.
     else :
@@ -126,7 +124,7 @@ def asm_shiftval(s):
             val=int(s)
             if val>=0 and val<= 63 :
                 return '0' + binary_repr(val,6)
-        except ValueError, IndexError :
+        except (ValueError, IndexError) :
             error("invalid shiftval: " + s)
 
 def asm_condition(cond):
@@ -186,7 +184,7 @@ def asm_pass(iteration, s_file):
 
         # split the non-comment part of the line into tokens (thanks Stack Overflow) 
         tokens = re.findall('[\S]+', source_line) # \S means: any non-whitespace
-        print tokens # to debug
+        print (tokens) # to debug
 
         # if there is a label, consume it
         if tokens:
@@ -268,6 +266,8 @@ def asm_pass(iteration, s_file):
                 instruction_encoding = "1111011 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_unsigned(tokens[3])
             if opcode == "asr3" and token_count==3:
                 instruction_encoding = "1111100 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_shiftval(tokens[3])
+            if opcode =="jumpreg" and token_count==2 :
+                instruction_encoding = "1111101 " + asm_reg(tokens[1])
                 # If the line wasn't assembled:
             if instruction_encoding=="":
                 error("don't know what to do with: " + source_line)
@@ -304,7 +304,7 @@ if __name__ == '__main__':
      # code = asm_pass(2, filename) # second pass is for good, but is disabled now
 
     # statistics
-    print "Average instruction size is " + str(1.0*current_address/len(code))
+    print ("Average instruction size is " + str(1.0*current_address/len(code)))
     
     outfile = open(obj_file, "w")
     for instr in code:
