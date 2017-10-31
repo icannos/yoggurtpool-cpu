@@ -150,7 +150,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                 read_reg_from_pc(regnum1);
                 read_reg_from_pc(regnum2);
                 uop1 = r[regnum1];
-                uop2 = r[regnum2];
+                uop2 = (~r[regnum2])+1;
                 fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
                 ur = uop1 + uop2;
                 manage_flags = true;
@@ -782,19 +782,19 @@ bool YogurtPool::cond_true(int cond) {
             break;
 
         case 0x4: //op1 > op2 non signée
-            return (!nflag) && (!zflag);
+            return (cflag) && (!zflag);
             break;
 
         case 0x5: //op1 >= op2 non signée
-            return !(nflag);
+            return cflag;
             break;
 
-        case 0x6: // Test Cflag
-            return (cflag);
+        case 0x6:
+            return (!cflag); // <
             break;
 
-        case 0x7: // Test nc
-            return !(cflag);
+        case 0x7: // <=
+            return !(cflag) && (zflag);
             break;
 
     }

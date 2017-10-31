@@ -42,17 +42,6 @@ A0 = DATA;
 A1 = DATA;
 ```
 
-
-### Conditions
-
-Les conditions offertes dans l'ISA initiale ne permettent pas de réaliser des tests sur la valeur du flag carry uniquement. Donc nous avons décidé de nous séparer des conditions redondantes lt et le (110,111) pour les remplacer par des conditions plus utiles.
-
-| Code          |     Mnemonic    |    Desc        |
-| ------------- | -------------   | ------------   |
-|   110         |       c         |  Test carry=1  |
-|   111         |       nc        |    Non Carry   |
-
-
 ### Instructions Maison
 
 
