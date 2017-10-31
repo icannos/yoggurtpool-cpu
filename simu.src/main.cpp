@@ -59,7 +59,7 @@ int main(int argc, char* argv[]) {
 	YogurtPool* p;
 	std::thread* screen;
 
-    bool stop =0; // Tant que le programme ne s'arrête pas
+    bool stop =false; // Tant que le programme ne s'arrête pas
 
 	m= new Memory();
 	p = new YogurtPool(m);

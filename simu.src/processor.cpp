@@ -50,12 +50,6 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
     bool manage_flags = false; // used to factor out the flag management code
     int instr_pc = pc; // for the debug output
 
-    // read 4 bits.
-    read_bit_from_pc(opcode);
-    read_bit_from_pc(opcode);
-    read_bit_from_pc(opcode);
-    read_bit_from_pc(opcode);
-
 
     if((sword)pc < 0)
     {
@@ -64,8 +58,10 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
 
         switch ((sword)pc)
         {
+
             case -1:
-                stop = 1;
+                cout << "stop" << endl;
+                stop = true;
                 break;
 
                 // Place pour d'autres instructions.
@@ -76,6 +72,11 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
         pc = r[7];
     }
     else {
+        // read 4 bits.
+        read_bit_from_pc(opcode);
+        read_bit_from_pc(opcode);
+        read_bit_from_pc(opcode);
+        read_bit_from_pc(opcode);
 
         switch (opcode) {
 
