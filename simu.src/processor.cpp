@@ -515,7 +515,7 @@ void Processor::von_Neuman_step(bool debug) {
                 case 0x7d: //Jump reg
                     jumpreg(regnum1, manage_flags);
                     break;
-                case 0x7e: //interruption
+                case 0x7e: //Jumpifreg
                     break;
                 case 0x7f: //img print
                     break;
