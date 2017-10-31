@@ -1,7 +1,6 @@
 leti r0 6
 leti r1 8
 leti r2 0
-
 cmpi r0 0
 jumpif eq 57
 shift right r0 1
