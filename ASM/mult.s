@@ -9,3 +9,4 @@ jumpif nc 10
 add2 r2 r1
 shift left  r1 1
 jump -82
+call -1
