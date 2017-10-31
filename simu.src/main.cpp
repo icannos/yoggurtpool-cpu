@@ -56,11 +56,11 @@ int main(int argc, char* argv[]) {
 	}
 
 	Memory* m;
-	Processor* p;
+	YogurtPool* p;
 	std::thread* screen;
 		
 	m= new Memory();
-	p = new Processor(m);
+	p = new YogurtPool(m);
 
 	m->fill_with_obj_file(filename);
 

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-Processor::Processor(Memory *m) : m(m) {
+YogurtPool::YogurtPool(Memory *m) : m(m) {
     pc = 0;
 
     sp = 0x3fff0600; // Début de notre pile (On a 1000 mots de 64 bits)
@@ -20,10 +20,10 @@ Processor::Processor(Memory *m) : m(m) {
         r[i] = 0;
 }
 
-Processor::~Processor() {}
+YogurtPool::~YogurtPool() {}
 
 
-void Processor::von_Neuman_step(bool debug) {
+void YogurtPool::von_Neuman_step(bool debug) {
     // numbers read from the binary code
     int opcode = 0;
     int regnum1 = 0;
@@ -173,6 +173,7 @@ void Processor::von_Neuman_step(bool debug) {
                     for (int i = 0; i < size; i++) {
                         ur = (ur << 1) + m->read_bit(counter);
                         (*cptr)++;
+                        bitsFromRam++;
                     }
                     r[regnum1] = ur;
                     manage_flags = false;
@@ -190,6 +191,7 @@ void Processor::von_Neuman_step(bool debug) {
                     for (int i = 0; i < size; i++) {
                         ur = (ur << 1) + m->read_bit(counter);
                         (*cptr)++;
+                        bitsFromRam++;
                     }
                     r[regnum1] = ur;
                     manage_flags = false;
@@ -233,10 +235,10 @@ void Processor::von_Neuman_step(bool debug) {
 
                     manage_flags = false; // On ne touche pas aux autres flags.
                     break;
-                case 0x31: //or2
+                case 0x31: //or2i
 
                     read_reg_from_pc(regnum1);
-                    read_const_from_pc(constop);
+                    read_sconst_from_pc(constop);
                     uop1 = r[regnum1];
                     uop2 = constop;
 
@@ -272,7 +274,7 @@ void Processor::von_Neuman_step(bool debug) {
 
                 case 0x33://and2i
                     read_reg_from_pc(regnum1);
-                    read_const_from_pc(constop);
+                    read_sconst_from_pc(constop);
                     uop1 = r[regnum1];
                     uop2 = r[constop];
 
@@ -346,6 +348,7 @@ void Processor::von_Neuman_step(bool debug) {
 
                     break;
                 case 0x71://return
+                    pc = r[7];
                     break;
                 case 0x72://add3
                     read_reg_from_pc(regnum1);
@@ -362,7 +365,7 @@ void Processor::von_Neuman_step(bool debug) {
                 case 0x73://add3i
                     read_reg_from_pc(regnum1);
                     read_reg_from_pc(regnum2);
-                    read_const_from_pc(constop);
+                    read_sconst_from_pc(constop);
                     uop1 = r[regnum2];
                     uop2 = constop;
                     fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
@@ -413,7 +416,7 @@ void Processor::von_Neuman_step(bool debug) {
                 case 0x77: //and3i
                     read_reg_from_pc(regnum1);
                     read_reg_from_pc(regnum2);
-                    read_const_from_pc(constop);
+                    read_sconst_from_pc(constop);
                     uop1 = r[regnum2];
                     uop2 = constop;
 
@@ -451,7 +454,7 @@ void Processor::von_Neuman_step(bool debug) {
                 case 0x79: //or3i
                     read_reg_from_pc(regnum1);
                     read_reg_from_pc(regnum2);
-                    read_const_from_pc(constop);
+                    read_sconst_from_pc(constop);
 
                     uop1 = r[regnum2];
                     uop2 = constop;
@@ -490,7 +493,7 @@ void Processor::von_Neuman_step(bool debug) {
                 case 0x7b: //xor3i
                     read_reg_from_pc(regnum1);
                     read_reg_from_pc(regnum2);
-                    read_const_from_pc(constop);
+                    read_sconst_from_pc(constop);
 
                     uop1 = r[regnum2];
                     uop2 = constop;
@@ -555,8 +558,8 @@ void Processor::von_Neuman_step(bool debug) {
 
     if (debug) {
         cout << "Instruction: " << dec << opcode << " | 0x" << hex << setw(8) << setfill('0') << opcode << endl;
-        cout << "At pc= " << dec << instr_pc <<  " | 0x" << hex << setw(8) << setfill('0') << instr_pc << endl;
-        cout << "pc after instr = " << dec << pc <<  " | 0x" << hex << setw(8) << setfill('0') << pc << endl;
+        cout << "At pc= " << dec << instr_pc << " | 0x" << hex << setw(8) << setfill('0') << instr_pc << endl;
+        cout << "pc after instr = " << dec << pc << " | 0x" << hex << setw(8) << setfill('0') << pc << endl;
         cout << "flags: zcn = " << (zflag ? 1 : 0) << (cflag ? 1 : 0) << (nflag ? 1 : 0);
         cout << endl;
 
@@ -570,7 +573,7 @@ void Processor::von_Neuman_step(bool debug) {
             cout << endl;
         }
         cout << endl;
-        cout << "==============================="<< endl;
+        cout << "===============================" << endl;
     }
 
 }
@@ -578,7 +581,7 @@ void Processor::von_Neuman_step(bool debug) {
 
 // form now on, helper methods. Read and understand...
 
-void Processor::read_bit_from_pc(int &var) {
+void YogurtPool::read_bit_from_pc(int &var) {
     var = (var << 1) + m->read_bit(PC); // the read_bit updates the memory's PC
     pc++;// this updates the processor's PC
 
@@ -588,7 +591,7 @@ void Processor::read_bit_from_pc(int &var) {
 
 }
 
-void Processor::read_reg_from_pc(int &var) {
+void YogurtPool::read_reg_from_pc(int &var) {
     var = 0;
     read_bit_from_pc(var);
     read_bit_from_pc(var);
@@ -597,7 +600,7 @@ void Processor::read_reg_from_pc(int &var) {
 
 
 //unsigned
-void Processor::read_const_from_pc(uint64_t &var) {
+void YogurtPool::read_const_from_pc(uint64_t &var) {
     var = 0;
     int header = 0;
     int size;
@@ -623,7 +626,7 @@ void Processor::read_const_from_pc(uint64_t &var) {
     }
 }
 
-void Processor::read_sconst_from_pc(uint64_t &var) {
+void YogurtPool::read_sconst_from_pc(uint64_t &var) {
     var = 0;
     int header = 0;
     int size;
@@ -655,7 +658,7 @@ void Processor::read_sconst_from_pc(uint64_t &var) {
 
 
 // Beware, this one is sign-extended
-void Processor::read_addr_from_pc(uword &var) {
+void YogurtPool::read_addr_from_pc(uword &var) {
     var = 0;
     int header = 0;
     int size;
@@ -690,7 +693,7 @@ void Processor::read_addr_from_pc(uword &var) {
 }
 
 
-void Processor::read_shiftval_from_pc(int &var) {
+void YogurtPool::read_shiftval_from_pc(int &var) {
     int bit = 0;
     var = 0;
     read_bit_from_pc(bit);
@@ -708,7 +711,7 @@ void Processor::read_shiftval_from_pc(int &var) {
     }
 }
 
-void Processor::read_cond_from_pc(int &var) {
+void YogurtPool::read_cond_from_pc(int &var) {
     var = 0;
     read_bit_from_pc(var);
     read_bit_from_pc(var);
@@ -716,7 +719,7 @@ void Processor::read_cond_from_pc(int &var) {
 }
 
 
-bool Processor::cond_true(int cond) {
+bool YogurtPool::cond_true(int cond) {
     switch (cond) {
         case 0 : // Egalité
             return (zflag);
@@ -725,11 +728,11 @@ bool Processor::cond_true(int cond) {
             return (!zflag);
 
         case 0x2: // op1 > op2 (version signée, complément à 2)
-			return ((!nflag)||(cflag && nflag))&&(!zflag);
+            return ((!nflag) || (cflag && nflag)) && (!zflag);
             break;
 
         case 0x3: // op1 < op2 (version signée, complément à 2)
-			return ((nflag)||(cflag && (!nflag))&&(!zflag));
+            return ((nflag) || (cflag && (!nflag)) && (!zflag));
             break;
 
         case 0x4: //op1 > op2 non signée
@@ -753,14 +756,14 @@ bool Processor::cond_true(int cond) {
 }
 
 
-void Processor::read_counter_from_pc(int &var) {
+void YogurtPool::read_counter_from_pc(int &var) {
 
     var = 0;
     read_bit_from_pc(var);
     read_bit_from_pc(var);
 }
 
-uword *Processor::getPtrToCounter(int counter) {
+uword *YogurtPool::getPtrToCounter(int counter) {
     switch (counter) {
         case 0x0:
             return &pc;
@@ -779,7 +782,7 @@ uword *Processor::getPtrToCounter(int counter) {
     }
 }
 
-void Processor::read_size_from_pc(int &size) {
+void YogurtPool::read_size_from_pc(int &size) {
     int header = 0;
     int toRead = 0;
     size = 0;
@@ -826,40 +829,39 @@ void Processor::read_size_from_pc(int &size) {
 
 // ==================== Instructions ======================= \\
 
-void Processor::jump(uword &offset, bool &manage_flags) {
+void YogurtPool::jump(uword &offset, bool &manage_flags) {
     read_addr_from_pc(offset);
-    pc += (sword)offset;
+    pc += (sword) offset;
     m->set_counter(PC, (uword) pc);
     manage_flags = false;
 }
 
-void Processor::jumpreg(int &regnum1, bool &manage_flags) {
+void YogurtPool::jumpreg(int &regnum1, bool &manage_flags) {
     read_reg_from_pc(regnum1);
-    pc += (sword)r[regnum1];
+    pc += (sword) r[regnum1];
     m->set_counter(PC, (uword) pc);
     manage_flags = false;
 }
 
-void Processor::jumpifreg(int &regnum1, bool &manage_flags) {
+void YogurtPool::jumpifreg(int &regnum1, bool &manage_flags) {
     int cond = 0;
     read_cond_from_pc(cond);
     read_reg_from_pc(regnum1);
-    if (cond_true(cond))
-    {
-        pc += (sword)r[regnum1];
+    if (cond_true(cond)) {
+        pc += (sword) r[regnum1];
         m->set_counter(PC, (uword) pc);
     }
     manage_flags = false;
 }
 
-void Processor::jumpif(uword &offset, bool &manage_flags) {
+void YogurtPool::jumpif(uword &offset, bool &manage_flags) {
     int cond = 0;
 
     read_cond_from_pc(cond);
     read_addr_from_pc(offset);
 
     if (cond_true(cond)) {
-        pc += (sword)offset;
+        pc += (sword) offset;
         m->set_counter(PC, (uword) pc);
         manage_flags = false;
     }
@@ -868,7 +870,7 @@ void Processor::jumpif(uword &offset, bool &manage_flags) {
 
 }
 
-void Processor::write(int counter, int size, int val) {
+void YogurtPool::write(int counter, int size, int val) {
 
 
     uword *p_Counter = getPtrToCounter(
@@ -883,14 +885,14 @@ void Processor::write(int counter, int size, int val) {
 
 // ================= Encapsulation pour pouvoir suivre le trajet des bits et les compter  ========================= \\
 
-void Processor::write_toRam(int counter, int bit) {
+void YogurtPool::write_toRam(int counter, int bit) {
     m->write_bit(counter, bit);
-    writed_bits_toram++;
+    bitsToram++;
 }
 
 // ================= Getters && Setters ========================= \\
 
-int Processor::getNb_readbits() const {
+int YogurtPool::getNb_readbits() const {
     return nb_read_bits_frompc;
 }
 

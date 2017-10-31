@@ -1,9 +1,9 @@
 #include "memory.h" 
 
-class Processor {
+class YogurtPool {
  public:
-	Processor(Memory* m);
-	~Processor();
+	YogurtPool(Memory* m);
+	~YogurtPool();
 	void von_Neuman_step(bool debug);
 
 	int getNb_readbits() const;
@@ -65,6 +65,7 @@ private:
 	// ============= Data Simulation ========== \\
 
 	int nb_read_bits_frompc = 0;
-	int writed_bits_toram = 0;
+	int bitsToram = 0;
+	int bitsFromRam = 0;
 
 };
