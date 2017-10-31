@@ -717,8 +717,8 @@ bool Processor::cond_true(int cond) {
             return (cflag);
             break;
 
-        case 0x7: // A voir.
-            return false;
+        case 0x7: // Test nc
+            return !(cflag);
             break;
 
     }
@@ -755,6 +755,7 @@ uword *Processor::getPtrToCounter(int counter) {
 void Processor::read_size_from_pc(int &size) {
     int header = 0;
     int toRead = 0;
+    size = 0;
 
     read_bit_from_pc(header);
     read_bit_from_pc(header);
