@@ -533,7 +533,7 @@ void Processor::von_Neuman_step(bool debug) {
     }
 
     if (debug) {
-        cout << "after instr: " << opcode
+        cout << "after instr: " << (int)opcode
              << " at pc=" << hex << setw(8) << setfill('0') << instr_pc
              << " (newpc=" << hex << setw(8) << setfill('0') << pc
              << " mpc=" << hex << setw(8) << setfill('0') << m->counter[0]
@@ -542,8 +542,10 @@ void Processor::von_Neuman_step(bool debug) {
              << " ma1=" << hex << setw(8) << setfill('0') << m->counter[3] << ") ";
         //				 << " newpc=" << hex << setw(9) << setfill('0') << pc;
         cout << " zcn = " << (zflag ? 1 : 0) << (cflag ? 1 : 0) << (nflag ? 1 : 0);
-        for (int i = 0; i < 8; i++)
+        for (int i = 0; i < 8; i++) {
             cout << " r" << dec << i << "=" << hex << setw(8) << setfill('0') << r[i];
+            cout << " dec-r" << dec << i << "=" << r[i]; // Valeur en décimal par que c'est bien aussi !
+        }
         cout << endl;
     }
 }
@@ -829,10 +831,15 @@ void Processor::jumpif(uword &offset, bool &manage_flags) {
     int cond = 0;
 
     read_cond_from_pc(cond);
+    read_addr_from_pc(offset);
 
     if (cond_true(cond)) {
-        jump(offset, manage_flags);
+        pc += (sword)offset;
+        m->set_counter(PC, (uword) pc);
+        manage_flags = false;
     }
+    manage_flags = false;
+
 
 }
 
