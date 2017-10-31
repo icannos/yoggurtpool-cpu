@@ -58,7 +58,9 @@ int main(int argc, char* argv[]) {
 	Memory* m;
 	YogurtPool* p;
 	std::thread* screen;
-		
+
+    bool stop =0; // Tant que le programme ne s'arrête pas
+
 	m= new Memory();
 	p = new YogurtPool(m);
 
@@ -69,8 +71,8 @@ int main(int argc, char* argv[]) {
 		screen=new std::thread(simulate_screen, m, &refresh);
 
 	// The von Neuman cycle
-	while(1+1==2) {
-		p->von_Neuman_step(debug);
+	while(!stop) {
+        p->von_Neuman_step(debug, stop);
 		
 		if(step_by_step)
 			getchar();

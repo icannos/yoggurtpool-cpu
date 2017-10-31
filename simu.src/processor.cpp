@@ -23,7 +23,7 @@ YogurtPool::YogurtPool(Memory *m) : m(m) {
 YogurtPool::~YogurtPool() {}
 
 
-void YogurtPool::von_Neuman_step(bool debug) {
+void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
     // numbers read from the binary code
     int opcode = 0;
     int regnum1 = 0;
@@ -56,476 +56,499 @@ void YogurtPool::von_Neuman_step(bool debug) {
     read_bit_from_pc(opcode);
     read_bit_from_pc(opcode);
 
-    switch (opcode) {
-
-        case 0x0: // add2
-            read_reg_from_pc(regnum1);
-            read_reg_from_pc(regnum2);
-            uop1 = r[regnum1];
-            uop2 = r[regnum2];
-            fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
-            ur = uop1 + uop2;
-            r[regnum1] = ur;
-            manage_flags = true;
-            break;
-
-        case 0x1: // add2i
-            read_reg_from_pc(regnum1);
-            read_const_from_pc(constop);
-            uop1 = r[regnum1];
-            uop2 = constop;
-            fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
-            ur = uop1 + uop2;
-            r[regnum1] = ur;
-            manage_flags = true;
-            break;
-
-        case 0x2: // sub2
-            read_reg_from_pc(regnum1);
-            read_reg_from_pc(regnum2);
-            uop1 = r[regnum1];
-            uop2 = (~r[regnum2]) + 1;
-            fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
-            ur = uop1 + uop2;
-            r[regnum1] = ur;
-            manage_flags = true;
-            break;
-
-        case 0x3: //sub2i
-            read_reg_from_pc(regnum1);
-            read_const_from_pc(constop);
-            uop1 = r[regnum1];
-            uop2 = constop;
-            fullr = ((doubleword) uop1) - ((doubleword) uop2); // for flags
-            ur = uop1 - uop2;
-            r[regnum1] = ur;
-            manage_flags = true;
-            break;
-
-        case 0x4: //cmp
-            read_reg_from_pc(regnum1);
-            read_reg_from_pc(regnum2);
-            uop1 = r[regnum1];
-            uop2 = r[regnum2];
-            fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
-            ur = uop1 + uop2;
-            manage_flags = true;
-            break;
-
-        case 0x5: //cmpi
-            read_reg_from_pc(regnum1);
-            read_sconst_from_pc(constop);
-            uop1 = r[regnum1];
-            uop2 = (~constop) + 1;
-            fullr = ((doubleword) uop1) + ((sword) uop2); // for flags
-
-            ur = uop1 + uop2;
-
-            manage_flags = true;
-            break;
-
-        case 0x6: //let
-            read_reg_from_pc(regnum1);
-            read_reg_from_pc(regnum2);
-
-            r[regnum1] = r[regnum2];
-
-            break;
-
-        case 0x7: //leti
-            read_reg_from_pc(regnum1);
-            read_sconst_from_pc(constop);
-            r[regnum1] = constop;
-            break;
-
-
-        case 0x8: // shift
-            read_bit_from_pc(dir);
-            read_reg_from_pc(regnum1);
-            read_shiftval_from_pc(shiftval);
-            uop1 = r[regnum1];
-            if (dir == 1) { // right shift
-                ur = uop1 >> shiftval;
-                cflag = (((uop1 >> (shiftval - 1)) & 1) == 1);
-            } else {
-                cflag = (((uop1 << (shiftval - 1)) & (1L << (WORDSIZE - 1))) != 0);
-                ur = uop1 << shiftval;
-            }
-            r[regnum1] = ur;
-            zflag = (ur == 0);
-            // no change to nflag
-            manage_flags = false;
-            break;
-
 
-        case 0x9:
-            read_bit_from_pc(opcode);
-
-            switch (opcode) {
-                case 0xf4: //readze
-                    read_counter_from_pc(counter);
-                    read_size_from_pc(size);
-                    read_reg_from_pc(regnum1);
-
-                    cptr = getPtrToCounter(counter);
-
-                    ur = 0;
-                    for (int i = 0; i < size; i++) {
-                        ur = (ur << 1) + m->read_bit(counter);
-                        (*cptr)++;
-                        bitsFromRam++;
-                    }
-                    r[regnum1] = ur;
-                    manage_flags = false;
-                    break;
-
-                case 0xf5: //readse
-                    read_counter_from_pc(counter);
-                    read_size_from_pc(size);
-                    read_reg_from_pc(regnum1);
-
-                    cptr = getPtrToCounter(counter);
-
-                    ur = 0;
-                    ur = ~ur;
-                    for (int i = 0; i < size; i++) {
-                        ur = (ur << 1) + m->read_bit(counter);
-                        (*cptr)++;
-                        bitsFromRam++;
-                    }
-                    r[regnum1] = ur;
-                    manage_flags = false;
-                    break;
-            }
-            break;
-
-
-        case 0xa: // jump
-            jump(offset, manage_flags);
-            break;
-
-        case 0xb: //jump if
-            jumpif(offset, manage_flags);
-            break;
-
-        case 0xc:
-        case 0xd:
-            //read two more bits
-
-            read_bit_from_pc(opcode);
-            read_bit_from_pc(opcode);
-
-
-            switch (opcode) {
-                case 0x30: //or2
-
-                    read_reg_from_pc(regnum1);
-                    read_reg_from_pc(regnum2);
-                    uop1 = r[regnum1];
-                    uop2 = r[regnum2];
-
-                    ur = uop1 | uop2;
-                    r[regnum1] = ur;
-
-                    if (ur == 0) {
-                        zflag = true;
-                    } else {
-                        zflag = false;
-                    }
-
-                    manage_flags = false; // On ne touche pas aux autres flags.
-                    break;
-                case 0x31: //or2i
-
-                    read_reg_from_pc(regnum1);
-                    read_sconst_from_pc(constop);
-                    uop1 = r[regnum1];
-                    uop2 = constop;
-
-                    ur = uop1 | uop2;
-                    r[regnum1] = ur;
-
-                    if (ur == 0) {
-                        zflag = true;
-                    } else {
-                        zflag = false;
-                    }
-
-                    manage_flags = false; // On ne touche pas aux autres flags.
-                    break;
-                case 0x32: //and2
-
-                    read_reg_from_pc(regnum1);
-                    read_reg_from_pc(regnum2);
-                    uop1 = r[regnum1];
-                    uop2 = r[regnum2];
-
-                    ur = uop1 & uop2;
-                    r[regnum1] = ur;
-
-                    if (ur == 0) {
-                        zflag = true;
-                    } else {
-                        zflag = false;
-                    }
-
-                    manage_flags = false; // On ne touche pas aux autres flags.
-                    break;
-
-                case 0x33://and2i
-                    read_reg_from_pc(regnum1);
-                    read_sconst_from_pc(constop);
-                    uop1 = r[regnum1];
-                    uop2 = r[constop];
-
-                    ur = uop1 & uop2;
-                    r[regnum1] = ur;
-
-                    if (ur == 0) {
-                        zflag = true;
-                    } else {
-                        zflag = false;
-                    }
-
-                    manage_flags = false; // On ne touche pas aux autres flags.
-                    break;
-
-                    break;
-
-
-                case 0x34: // write
-                    read_counter_from_pc(counter);
-                    read_size_from_pc(size);
-                    read_reg_from_pc(regnum1);
-
-                    write(counter, size, r[regnum1]);
-                    manage_flags = false;
-                    break;
-
-                case 0x35: //call
-                    read_addr_from_pc(addr);
-
-                    write(SP, WORDSIZE, pc);
-                    pc = addr;
-                    break;
-
-                case 0x36: //setctr
-                    read_counter_from_pc(counter);
-                    read_reg_from_pc(regnum1);
-
-                    cptr = getPtrToCounter(counter);
-                    *cptr = r[regnum1];
-                    m->set_counter(counter, r[regnum1]);
-                    break;
-
-                case 0x37: //getctr
-                    read_counter_from_pc(counter);
-                    read_reg_from_pc(regnum1);
-
-                    cptr = getPtrToCounter(counter);
-                    r[regnum1] = *cptr;
-                    break;
-
-            }
-            break; // Do not forget this break!
-
-        case 0xe:
-        case 0xf:
-            //read 3 more bits
-            read_bit_from_pc(opcode);
-            read_bit_from_pc(opcode);
-            read_bit_from_pc(opcode);
-
-            switch (opcode) {
-                case 0x70://push
-                    read_reg_from_pc(regnum1);
-
-                    for (int i = WORDSIZE - 1; i >= 0; i--) {
-                        write_toRam(SP, (r[regnum1] >> i) & 1);
-                        sp++;
-                    }
-
-
-                    break;
-                case 0x71://return
-                    pc = r[7];
-                    break;
-                case 0x72://add3
-                    read_reg_from_pc(regnum1);
-                    read_reg_from_pc(regnum2);
-                    read_reg_from_pc(regnum3);
-                    uop1 = r[regnum2];
-                    uop2 = r[regnum3];
-                    fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
-                    ur = uop1 + uop2;
-                    r[regnum1] = ur;
-                    manage_flags = true;
-                    break;
-
-                case 0x73://add3i
-                    read_reg_from_pc(regnum1);
-                    read_reg_from_pc(regnum2);
-                    read_sconst_from_pc(constop);
-                    uop1 = r[regnum2];
-                    uop2 = constop;
-                    fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
-                    ur = uop1 + uop2;
-                    r[regnum1] = ur;
-                    manage_flags = true;
-                    break;
-                case 0x74://sub3
-                    read_reg_from_pc(regnum1);
-                    read_reg_from_pc(regnum2);
-                    read_reg_from_pc(regnum3);
-                    uop1 = r[regnum2];
-                    uop2 = r[regnum3];
-                    fullr = ((doubleword) uop1) - ((doubleword) uop2); // for flags
-                    ur = uop1 - uop2;
-                    r[regnum1] = ur;
-                    manage_flags = true;
-                    break;
-                case 0x75://sub3i
-                    read_reg_from_pc(regnum1);
-                    read_reg_from_pc(regnum2);
-                    read_const_from_pc(constop);
-                    uop1 = r[regnum2];
-                    uop2 = constop;
-                    fullr = ((doubleword) uop1) - ((doubleword) uop2); // for flags
-                    ur = uop1 - uop2;
-                    r[regnum1] = ur;
-                    manage_flags = true;
-                    break;
-                case 0x76: //and3
-                    read_reg_from_pc(regnum1);
-                    read_reg_from_pc(regnum2);
-                    read_reg_from_pc(regnum3);
-                    uop1 = r[regnum2];
-                    uop2 = r[regnum3];
-
-                    ur = uop1 & uop2;
-                    r[regnum1] = ur;
-
-                    if (ur == 0) {
-                        zflag = true;
-                    } else {
-                        zflag = false;
-                    }
-
-                    manage_flags = false; // On ne touche pas aux autres flags.
-                    break;
-                case 0x77: //and3i
-                    read_reg_from_pc(regnum1);
-                    read_reg_from_pc(regnum2);
-                    read_sconst_from_pc(constop);
-                    uop1 = r[regnum2];
-                    uop2 = constop;
-
-                    ur = uop1 & uop2;
-                    r[regnum1] = ur;
-
-                    if (ur == 0) {
-                        zflag = true;
-                    } else {
-                        zflag = false;
-                    }
-
-                    manage_flags = false; // On ne touche pas aux autres flags.
-                    break;
-                case 0x78: //or3
-                    read_reg_from_pc(regnum1);
-                    read_reg_from_pc(regnum2);
-                    read_reg_from_pc(regnum3);
-
-                    uop1 = r[regnum2];
-                    uop2 = r[regnum3];
-
-                    ur = uop1 | uop2;
-                    r[regnum1] = ur;
-
-                    if (ur == 0) {
-                        zflag = true;
-                    } else {
-                        zflag = false;
-                    }
-
-                    manage_flags = false; // On ne touche pas aux autres flags.
-                    break;
-
-                case 0x79: //or3i
-                    read_reg_from_pc(regnum1);
-                    read_reg_from_pc(regnum2);
-                    read_sconst_from_pc(constop);
-
-                    uop1 = r[regnum2];
-                    uop2 = constop;
-
-                    ur = uop1 | uop2;
-                    r[regnum1] = ur;
-
-                    if (ur == 0) {
-                        zflag = true;
-                    } else {
-                        zflag = false;
-                    }
-
-                    manage_flags = false; // On ne touche pas aux autres flags.
-
-                    break;
-                case 0x7a: //xor3
-                    read_reg_from_pc(regnum1);
-                    read_reg_from_pc(regnum2);
-                    read_reg_from_pc(regnum3);
-
-                    uop1 = r[regnum2];
-                    uop2 = r[regnum3];
-
-                    ur = uop1 ^ uop2;
-                    r[regnum1] = ur;
-
-                    if (ur == 0) {
-                        zflag = true;
-                    } else {
-                        zflag = false;
-                    }
-
-                    manage_flags = false; // On ne touche pas aux autres flags.
-                    break;
-                case 0x7b: //xor3i
-                    read_reg_from_pc(regnum1);
-                    read_reg_from_pc(regnum2);
-                    read_sconst_from_pc(constop);
-
-                    uop1 = r[regnum2];
-                    uop2 = constop;
-
-                    ur = uop1 ^ uop2;
-                    r[regnum1] = ur;
-
-                    if (ur == 0) {
-                        zflag = true;
-                    } else {
-                        zflag = false;
-                    }
-
-                    manage_flags = false; // On ne touche pas aux autres flags.
-                    break;
-                case 0x7c: //asr3
-                    break;
-
-
-                    // ============ Pour les trucs en plus =============== \\
-
-                case 0x7d: //Jump reg
-                    jumpreg(regnum1, manage_flags);
-                    break;
-                case 0x7e: //Jumpifreg
-                    jumpifreg(regnum1, manage_flags);
-                    break;
-                case 0x7f: //img print
-                    break;
-
-            }
-            break;
+    if((sword)pc < 0)
+    {
+
+        // Surtout ne pas toucher au pc là dedans ni au r[7] !
+
+        switch ((sword)pc)
+        {
+            case -1:
+                stop = 1;
+                break;
+
+                // Place pour d'autres instructions.
+        }
+
+
+        //On retourne au pc d'avant ici:
+        pc = r[7];
+    }
+    else {
+
+        switch (opcode) {
+
+            case 0x0: // add2
+                read_reg_from_pc(regnum1);
+                read_reg_from_pc(regnum2);
+                uop1 = r[regnum1];
+                uop2 = r[regnum2];
+                fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+                ur = uop1 + uop2;
+                r[regnum1] = ur;
+                manage_flags = true;
+                break;
+
+            case 0x1: // add2i
+                read_reg_from_pc(regnum1);
+                read_const_from_pc(constop);
+                uop1 = r[regnum1];
+                uop2 = constop;
+                fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+                ur = uop1 + uop2;
+                r[regnum1] = ur;
+                manage_flags = true;
+                break;
+
+            case 0x2: // sub2
+                read_reg_from_pc(regnum1);
+                read_reg_from_pc(regnum2);
+                uop1 = r[regnum1];
+                uop2 = (~r[regnum2]) + 1;
+                fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+                ur = uop1 + uop2;
+                r[regnum1] = ur;
+                manage_flags = true;
+                break;
+
+            case 0x3: //sub2i
+                read_reg_from_pc(regnum1);
+                read_const_from_pc(constop);
+                uop1 = r[regnum1];
+                uop2 = constop;
+                fullr = ((doubleword) uop1) - ((doubleword) uop2); // for flags
+                ur = uop1 - uop2;
+                r[regnum1] = ur;
+                manage_flags = true;
+                break;
+
+            case 0x4: //cmp
+                read_reg_from_pc(regnum1);
+                read_reg_from_pc(regnum2);
+                uop1 = r[regnum1];
+                uop2 = r[regnum2];
+                fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+                ur = uop1 + uop2;
+                manage_flags = true;
+                break;
+
+            case 0x5: //cmpi
+                read_reg_from_pc(regnum1);
+                read_sconst_from_pc(constop);
+                uop1 = r[regnum1];
+                uop2 = (~constop) + 1;
+                fullr = ((doubleword) uop1) + ((sword) uop2); // for flags
+
+                ur = uop1 + uop2;
+
+                manage_flags = true;
+                break;
+
+            case 0x6: //let
+                read_reg_from_pc(regnum1);
+                read_reg_from_pc(regnum2);
+
+                r[regnum1] = r[regnum2];
+
+                break;
+
+            case 0x7: //leti
+                read_reg_from_pc(regnum1);
+                read_sconst_from_pc(constop);
+                r[regnum1] = constop;
+                break;
+
+
+            case 0x8: // shift
+                read_bit_from_pc(dir);
+                read_reg_from_pc(regnum1);
+                read_shiftval_from_pc(shiftval);
+                uop1 = r[regnum1];
+                if (dir == 1) { // right shift
+                    ur = uop1 >> shiftval;
+                    cflag = (((uop1 >> (shiftval - 1)) & 1) == 1);
+                } else {
+                    cflag = (((uop1 << (shiftval - 1)) & (1L << (WORDSIZE - 1))) != 0);
+                    ur = uop1 << shiftval;
+                }
+                r[regnum1] = ur;
+                zflag = (ur == 0);
+                // no change to nflag
+                manage_flags = false;
+                break;
+
+
+            case 0x9:
+                read_bit_from_pc(opcode);
+
+                switch (opcode) {
+                    case 0xf4: //readze
+                        read_counter_from_pc(counter);
+                        read_size_from_pc(size);
+                        read_reg_from_pc(regnum1);
+
+                        cptr = getPtrToCounter(counter);
+
+                        ur = 0;
+                        for (int i = 0; i < size; i++) {
+                            ur = (ur << 1) + m->read_bit(counter);
+                            (*cptr)++;
+                            bitsFromRam++;
+                        }
+                        r[regnum1] = ur;
+                        manage_flags = false;
+                        break;
+
+                    case 0xf5: //readse
+                        read_counter_from_pc(counter);
+                        read_size_from_pc(size);
+                        read_reg_from_pc(regnum1);
+
+                        cptr = getPtrToCounter(counter);
+
+                        ur = 0;
+                        ur = ~ur;
+                        for (int i = 0; i < size; i++) {
+                            ur = (ur << 1) + m->read_bit(counter);
+                            (*cptr)++;
+                            bitsFromRam++;
+                        }
+                        r[regnum1] = ur;
+                        manage_flags = false;
+                        break;
+                }
+                break;
+
+
+            case 0xa: // jump
+                jump(offset, manage_flags);
+                break;
+
+            case 0xb: //jump if
+                jumpif(offset, manage_flags);
+                break;
+
+            case 0xc:
+            case 0xd:
+                //read two more bits
+
+                read_bit_from_pc(opcode);
+                read_bit_from_pc(opcode);
+
+
+                switch (opcode) {
+                    case 0x30: //or2
+
+                        read_reg_from_pc(regnum1);
+                        read_reg_from_pc(regnum2);
+                        uop1 = r[regnum1];
+                        uop2 = r[regnum2];
+
+                        ur = uop1 | uop2;
+                        r[regnum1] = ur;
+
+                        if (ur == 0) {
+                            zflag = true;
+                        } else {
+                            zflag = false;
+                        }
+
+                        manage_flags = false; // On ne touche pas aux autres flags.
+                        break;
+                    case 0x31: //or2i
+
+                        read_reg_from_pc(regnum1);
+                        read_sconst_from_pc(constop);
+                        uop1 = r[regnum1];
+                        uop2 = constop;
+
+                        ur = uop1 | uop2;
+                        r[regnum1] = ur;
+
+                        if (ur == 0) {
+                            zflag = true;
+                        } else {
+                            zflag = false;
+                        }
+
+                        manage_flags = false; // On ne touche pas aux autres flags.
+                        break;
+                    case 0x32: //and2
+
+                        read_reg_from_pc(regnum1);
+                        read_reg_from_pc(regnum2);
+                        uop1 = r[regnum1];
+                        uop2 = r[regnum2];
+
+                        ur = uop1 & uop2;
+                        r[regnum1] = ur;
+
+                        if (ur == 0) {
+                            zflag = true;
+                        } else {
+                            zflag = false;
+                        }
+
+                        manage_flags = false; // On ne touche pas aux autres flags.
+                        break;
+
+                    case 0x33://and2i
+                        read_reg_from_pc(regnum1);
+                        read_sconst_from_pc(constop);
+                        uop1 = r[regnum1];
+                        uop2 = r[constop];
+
+                        ur = uop1 & uop2;
+                        r[regnum1] = ur;
+
+                        if (ur == 0) {
+                            zflag = true;
+                        } else {
+                            zflag = false;
+                        }
+
+                        manage_flags = false; // On ne touche pas aux autres flags.
+                        break;
+
+                        break;
+
+
+                    case 0x34: // write
+                        read_counter_from_pc(counter);
+                        read_size_from_pc(size);
+                        read_reg_from_pc(regnum1);
+
+                        write(counter, size, r[regnum1]);
+                        manage_flags = false;
+                        break;
+
+                    case 0x35: //call
+                        read_addr_from_pc(addr);
+
+                        r[7] = pc;
+                        pc = addr;
+                        break;
+
+                    case 0x36: //setctr
+                        read_counter_from_pc(counter);
+                        read_reg_from_pc(regnum1);
+
+                        cptr = getPtrToCounter(counter);
+                        *cptr = r[regnum1];
+                        m->set_counter(counter, r[regnum1]);
+                        break;
+
+                    case 0x37: //getctr
+                        read_counter_from_pc(counter);
+                        read_reg_from_pc(regnum1);
+
+                        cptr = getPtrToCounter(counter);
+                        r[regnum1] = *cptr;
+                        break;
+
+                }
+                break; // Do not forget this break!
+
+            case 0xe:
+            case 0xf:
+                //read 3 more bits
+                read_bit_from_pc(opcode);
+                read_bit_from_pc(opcode);
+                read_bit_from_pc(opcode);
+
+                switch (opcode) {
+                    case 0x70://push
+                        read_reg_from_pc(regnum1);
+
+                        for (int i = WORDSIZE - 1; i >= 0; i--) {
+                            write_toRam(SP, (r[regnum1] >> i) & 1);
+                            sp++;
+                        }
+
+
+                        break;
+                    case 0x71://return
+                        pc = r[7];
+                        break;
+                    case 0x72://add3
+                        read_reg_from_pc(regnum1);
+                        read_reg_from_pc(regnum2);
+                        read_reg_from_pc(regnum3);
+                        uop1 = r[regnum2];
+                        uop2 = r[regnum3];
+                        fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+                        ur = uop1 + uop2;
+                        r[regnum1] = ur;
+                        manage_flags = true;
+                        break;
+
+                    case 0x73://add3i
+                        read_reg_from_pc(regnum1);
+                        read_reg_from_pc(regnum2);
+                        read_sconst_from_pc(constop);
+                        uop1 = r[regnum2];
+                        uop2 = constop;
+                        fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+                        ur = uop1 + uop2;
+                        r[regnum1] = ur;
+                        manage_flags = true;
+                        break;
+                    case 0x74://sub3
+                        read_reg_from_pc(regnum1);
+                        read_reg_from_pc(regnum2);
+                        read_reg_from_pc(regnum3);
+                        uop1 = r[regnum2];
+                        uop2 = r[regnum3];
+                        fullr = ((doubleword) uop1) - ((doubleword) uop2); // for flags
+                        ur = uop1 - uop2;
+                        r[regnum1] = ur;
+                        manage_flags = true;
+                        break;
+                    case 0x75://sub3i
+                        read_reg_from_pc(regnum1);
+                        read_reg_from_pc(regnum2);
+                        read_const_from_pc(constop);
+                        uop1 = r[regnum2];
+                        uop2 = constop;
+                        fullr = ((doubleword) uop1) - ((doubleword) uop2); // for flags
+                        ur = uop1 - uop2;
+                        r[regnum1] = ur;
+                        manage_flags = true;
+                        break;
+                    case 0x76: //and3
+                        read_reg_from_pc(regnum1);
+                        read_reg_from_pc(regnum2);
+                        read_reg_from_pc(regnum3);
+                        uop1 = r[regnum2];
+                        uop2 = r[regnum3];
+
+                        ur = uop1 & uop2;
+                        r[regnum1] = ur;
+
+                        if (ur == 0) {
+                            zflag = true;
+                        } else {
+                            zflag = false;
+                        }
+
+                        manage_flags = false; // On ne touche pas aux autres flags.
+                        break;
+                    case 0x77: //and3i
+                        read_reg_from_pc(regnum1);
+                        read_reg_from_pc(regnum2);
+                        read_sconst_from_pc(constop);
+                        uop1 = r[regnum2];
+                        uop2 = constop;
+
+                        ur = uop1 & uop2;
+                        r[regnum1] = ur;
+
+                        if (ur == 0) {
+                            zflag = true;
+                        } else {
+                            zflag = false;
+                        }
+
+                        manage_flags = false; // On ne touche pas aux autres flags.
+                        break;
+                    case 0x78: //or3
+                        read_reg_from_pc(regnum1);
+                        read_reg_from_pc(regnum2);
+                        read_reg_from_pc(regnum3);
+
+                        uop1 = r[regnum2];
+                        uop2 = r[regnum3];
+
+                        ur = uop1 | uop2;
+                        r[regnum1] = ur;
+
+                        if (ur == 0) {
+                            zflag = true;
+                        } else {
+                            zflag = false;
+                        }
+
+                        manage_flags = false; // On ne touche pas aux autres flags.
+                        break;
+
+                    case 0x79: //or3i
+                        read_reg_from_pc(regnum1);
+                        read_reg_from_pc(regnum2);
+                        read_sconst_from_pc(constop);
+
+                        uop1 = r[regnum2];
+                        uop2 = constop;
+
+                        ur = uop1 | uop2;
+                        r[regnum1] = ur;
+
+                        if (ur == 0) {
+                            zflag = true;
+                        } else {
+                            zflag = false;
+                        }
+
+                        manage_flags = false; // On ne touche pas aux autres flags.
+
+                        break;
+                    case 0x7a: //xor3
+                        read_reg_from_pc(regnum1);
+                        read_reg_from_pc(regnum2);
+                        read_reg_from_pc(regnum3);
+
+                        uop1 = r[regnum2];
+                        uop2 = r[regnum3];
+
+                        ur = uop1 ^ uop2;
+                        r[regnum1] = ur;
+
+                        if (ur == 0) {
+                            zflag = true;
+                        } else {
+                            zflag = false;
+                        }
+
+                        manage_flags = false; // On ne touche pas aux autres flags.
+                        break;
+                    case 0x7b: //xor3i
+                        read_reg_from_pc(regnum1);
+                        read_reg_from_pc(regnum2);
+                        read_sconst_from_pc(constop);
+
+                        uop1 = r[regnum2];
+                        uop2 = constop;
+
+                        ur = uop1 ^ uop2;
+                        r[regnum1] = ur;
+
+                        if (ur == 0) {
+                            zflag = true;
+                        } else {
+                            zflag = false;
+                        }
+
+                        manage_flags = false; // On ne touche pas aux autres flags.
+                        break;
+                    case 0x7c: //asr3
+                        break;
+
+
+                        // ============ Pour les trucs en plus =============== \\
+
+                    case 0x7d: //Jump reg
+                        jumpreg(regnum1, manage_flags);
+                        break;
+                    case 0x7e: //Jumpifreg
+                        jumpifreg(regnum1, manage_flags);
+                        break;
+                    case 0x7f: //img print
+                        break;
+
+                }
+                break;
+        }
+
     }
 
     // flag management
