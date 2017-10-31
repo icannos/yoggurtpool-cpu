@@ -516,6 +516,7 @@ void Processor::von_Neuman_step(bool debug) {
                     jumpreg(regnum1, manage_flags);
                     break;
                 case 0x7e: //Jumpifreg
+                    jumpifreg(regnum1, manage_flags);
                     break;
                 case 0x7f: //img print
                     break;
@@ -712,12 +713,12 @@ bool Processor::cond_true(int cond) {
             return !(nflag);
             break;
 
-        case 0x6: //op1 < op2 non signée
-            return (nflag);
+        case 0x6: // Test Cflag
+            return (cflag);
             break;
 
-        case 0x7: //op1 <= op2 non signée
-            return (nflag) || (zflag);
+        case 0x7: // A voir.
+            return false;
             break;
 
     }
@@ -808,6 +809,18 @@ void Processor::jumpreg(int &regnum1, bool &manage_flags) {
     read_reg_from_pc(regnum1);
     pc += (sword)r[regnum1];
     m->set_counter(PC, (uword) pc);
+    manage_flags = false;
+}
+
+void Processor::jumpifreg(int &regnum1, bool &manage_flags) {
+    int cond = 0;
+    read_cond_from_pc(cond);
+    read_reg_from_pc(regnum1);
+    if (cond_true(cond))
+    {
+        pc += (sword)r[regnum1];
+        m->set_counter(PC, (uword) pc);
+    }
     manage_flags = false;
 }
 
