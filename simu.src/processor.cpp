@@ -60,8 +60,30 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
         {
 
             case -1:
-                cout << "stop" << endl;
+
                 stop = true;
+
+                pc = r[7];
+
+                cout << "Instruction: " << dec << opcode << " | 0x" << hex << setw(8) << setfill('0') << opcode << endl;
+                cout << "At pc= " << dec << instr_pc << " | 0x" << hex << setw(8) << setfill('0') << instr_pc << endl;
+                cout << "pc after instr = " << dec << pc << " | 0x" << hex << setw(8) << setfill('0') << pc << endl;
+                cout << "flags: zcn = " << (zflag ? 1 : 0) << (cflag ? 1 : 0) << (nflag ? 1 : 0);
+                cout << endl;
+
+                cout << "Registre       Hexa      Dec" << endl;
+                for (int i = 0; i < 8; i++) {
+                    cout << "|";
+                    cout << " r" << dec << i << "= 0x" << hex << setw(8) << setfill('0') << r[i];
+                    cout << "        ";
+                    cout << dec << r[i]; // Valeur en décimal par que c'est bien aussi !
+                    cout << "|";
+                    cout << endl;
+                }
+                cout << endl;
+                cout << "===============================" << endl;
+
+
                 break;
 
                 // Place pour d'autres instructions.
