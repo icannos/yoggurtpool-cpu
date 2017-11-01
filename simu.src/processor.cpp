@@ -76,7 +76,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                     cout << "|";
                     cout << " r" << dec << i << "= 0x" << hex << setw(8) << setfill('0') << r[i];
                     cout << "        ";
-                    cout << dec << r[i]; // Valeur en décimal par que c'est bien aussi !
+                    cout << dec << (sword)r[i]; // Valeur en décimal par que c'est bien aussi !
                     cout << "|";
                     cout << endl;
                 }
@@ -614,7 +614,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
             cout << "|";
             cout << " r" << dec << i << "= 0x" << hex << setw(8) << setfill('0') << r[i];
             cout << "        ";
-            cout << dec << r[i]; // Valeur en décimal par que c'est bien aussi !
+            cout << dec << (sword)r[i]; // Valeur en décimal par que c'est bien aussi !
             cout << "|";
             cout << endl;
         }
