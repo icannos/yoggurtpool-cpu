@@ -19,7 +19,7 @@ set(SOURCE_FILES
     
     )
 
-add_executable(simu ${SOURCE_FILES})
+add_executable(simu.exe ${SOURCE_FILES})
 
 
 
