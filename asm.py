@@ -43,25 +43,32 @@ def asm_addr_signed(s):
     #converts the string s into its encoding
     # Is it a label or a constant?
     #pour l'hexa
-    try :
-        if s[0:2]=='0x' or s[0:3]=='+0x' or s[0:3]=='-0x':
-            val=int(s,16)#la fonction int est gentille
-        if (s[0]>='0' and s[0]<='9') or s[0]=='-' or s[0]=='+':
-            val=int(s)
+	if s[0] == '#' :
+		if s in labels :#le label est deja entre dans la liste de labels, on est au deuxieme passage
+			d = int(labels[s] - current_address)
+			return binary_repr(d, 16)#on encode la bonne taille
+		else :#premier passage
+			return binary_repr(0,16)#on intialise a 0, juste pour avoir le meme nombre de bit au second passage
+	else :
+		try :
+		    if s[0:2]=='0x' or s[0:3]=='+0x' or s[0:3]=='-0x':
+		        val=int(s,16)#la fonction int est gentille
+		    if (s[0]>='0' and s[0]<='9') or s[0]=='-' or s[0]=='+':
+		        val=int(s)
 
-    except (ValueError, IndexError) :
-        error("invalid address: " + s)
-        # The following is not very elegant but easy to trust
-    if val>=-128 and val<= 127:
-        return '0 ' + binary_repr(val, 8)
-    elif val>=-32768 and val<= 32767:
-        return '10 ' +  binary_repr(val, 16)
-    elif val>=-(1<<31) and val<= (1<<31)-1:
-        return '110 ' + binary_repr(val, 32)
-    elif val>=-(1<<63) and val<= (1<<63)-1:
-        return '111 ' +  binary_repr(val, 64)
-    else:
-        error("Fixme! labels currently unsupported")
+		except (ValueError, IndexError) :
+		    error("invalid address: " + s)
+		    # The following is not very elegant but easy to trust
+		if val>=-128 and val<= 127:
+		    return '0 ' + binary_repr(val, 8)
+		elif val>=-32768 and val<= 32767:
+		    return '10 ' +  binary_repr(val, 16)
+		elif val>=-(1<<31) and val<= (1<<31)-1:
+		    return '110 ' + binary_repr(val, 32)
+		elif val>=-(1<<63) and val<= (1<<63)-1:
+		    return '111 ' +  binary_repr(val, 64)
+		else:
+		    error("Fixme! labels currently unsupported")#il serait peut-etre judicieux de deplacer ou de changer cette ligne
     
     
 
@@ -303,7 +310,7 @@ if __name__ == '__main__':
     obj_file = basefilename+".obj"
     code = asm_pass(1, filename) # first pass essentially builds the labels
 
-     # code = asm_pass(2, filename) # second pass is for good, but is disabled now
+    code = asm_pass(2, filename) # second pass is for good, but is disabled now
 
     # statistics
     print ("Average instruction size is " + str(1.0*current_address/len(code)))
