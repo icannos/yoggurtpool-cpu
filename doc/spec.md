@@ -34,12 +34,12 @@
 ```
 
 ### Pointeurs
-A voir si on offre la possibilité de les changer.
+A voir si on offre la possibilité de les changer. A0 et A1 sont initialisés au début de la mémoire disponnible.
 ```C
 pc = 0;
 sp = 0x3FFF0600;
-A0 = DATA;
-A1 = DATA;
+A0 = 0x60000;
+A1 = 0x60000;
 ```
 
 ### Instructions Maison
@@ -62,4 +62,27 @@ En particulier call -1 correspond à la terminaison d'un programme. Dans ce cas 
 | Call id       |     Mnemonic        |    Desc                                |
 | ------------- | ------------------- | ---------------------------------------|
 |   -1          |   Term, return0     |  Indique au proco la terminaison       |
-|   ...         |                     |                                        |
+|   ...         |                     |              ...                       |
+
+
+### Syntaxe Assembleur
+
+La syntaxe des labels est la suivante: `label:` pour déclarer un label puis `#label` lorsqu'on souhaite l'utiliser dans jump (saut relatif) ou `@label` lorsqu'on l'utilise dans un call (saut absolu).
+
+Exemple de la multiplication.
+```
+leti r0 6
+leti r1 -8
+leti r2 0
+boucle:
+cmpi r0 0
+jumpif eq #end
+shift right r0 1
+jumpif nc #pair
+add2 r2 r1
+pair:
+shift left  r1 1
+jump #boucle
+end:
+call -1
+```
