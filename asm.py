@@ -44,11 +44,17 @@ def asm_addr_signed(s):
     # Is it a label or a constant?
     #pour l'hexa
 	if s[0] == '#' :
-		if s in labels :#le label est deja entre dans la liste de labels, on est au deuxieme passage
-			d = int(labels[s] - current_address)
-			return binary_repr(d, 16)#on encode la bonne taille
+		if s[1:] in labels :#le label est deja entre dans la liste de labels, on est au deuxieme passage
+			d = int(labels[s[1:]] - (current_address_for_label+2+16)) # Ajout des bits de l'instruction en cours qui ne sont pas encore comptes dans current_address !
+			return "10 " +  binary_repr(d, 16)#on encode la bonne taille
 		else :#premier passage
-			return binary_repr(0,16)#on intialise a 0, juste pour avoir le meme nombre de bit au second passage
+			return "10 " + binary_repr(0,16)#on intialise a 0, juste pour avoir le meme nombre de bit au second passage
+        
+	if s[0] == '@' :
+		if s[1:] in labels :#le label est deja entre dans la liste de labels, on est au deuxieme passage
+			return "10 " + binary_repr(labels[s[1:]], 16)#on encode la bonne taille
+		else :#premier passage
+			return "10 " + binary_repr(0,16)#on intialise a 0, juste pour avoir le meme nombre de bit au second passage
 	else :
 		try :
 		    if s[0:2]=='0x' or s[0:3]=='+0x' or s[0:3]=='-0x':
@@ -176,6 +182,9 @@ def asm_pass(iteration, s_file):
     global line
     global labels
     global current_address
+    
+    global current_address_for_label
+    
     code =[] # array of strings, one entry per instruction
     print ("\n PASS " + str(iteration))
     current_address = 0
@@ -228,8 +237,10 @@ def asm_pass(iteration, s_file):
             if opcode == "readse" and token_count==4:
                 instruction_encoding = "10011 " + asm_counter(tokens[1]) + asm_size(tokens[2])+asm_reg(tokens[3])
             if opcode == "jump" and token_count==2:
+                current_address_for_label = current_address+4
                 instruction_encoding = "1010 " + asm_addr_signed(tokens[1])
             if opcode == "jumpif" and token_count==3:
+                current_address_for_label = current_address+7
                 instruction_encoding = "1011 " + asm_condition(tokens[1]) + asm_addr_signed(tokens[2])
             if opcode == "or2" and token_count==3:
                 instruction_encoding = "110000 " + asm_reg(tokens[1]) + asm_reg(tokens[2])
