@@ -206,13 +206,12 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                 read_bit_from_pc(opcode);
 
                 switch (opcode) {
-                    case 0xf4: //readze
+                    case 0x12: //readze
                         read_counter_from_pc(counter);
                         read_size_from_pc(size);
                         read_reg_from_pc(regnum1);
 
                         cptr = getPtrToCounter(counter);
-
                         ur = 0;
                         for (int i = 0; i < size; i++) {
                             ur = (ur << 1) + m->read_bit(counter);
@@ -223,7 +222,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                         manage_flags = false;
                         break;
 
-                    case 0xf5: //readse
+                    case 0x13: //readse
                         read_counter_from_pc(counter);
                         read_size_from_pc(size);
                         read_reg_from_pc(regnum1);
@@ -332,8 +331,6 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                         }
 
                         manage_flags = false; // On ne touche pas aux autres flags.
-                        break;
-
                         break;
 
 
@@ -581,8 +578,8 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
         nflag = (0 > (sword) ur);
     }
 
-/*    if (debug) {
-        cout << "after instr: " << (int)opcode
+    if (debug) {
+        cout << "after instr: " << (int) opcode
              << " at pc=" << hex << setw(8) << setfill('0') << instr_pc
              << " (newpc=" << hex << setw(8) << setfill('0') << pc
              << " mpc=" << hex << setw(8) << setfill('0') << m->counter[0]
@@ -596,7 +593,8 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
             cout << " dec-r" << dec << i << "=" << r[i]; // Valeur en décimal par que c'est bien aussi !
         }
         cout << endl;
-    }*/
+    }
+
 
 
     // My debug print:
@@ -830,7 +828,6 @@ uword *YogurtPool::getPtrToCounter(int counter) {
 
 void YogurtPool::read_size_from_pc(int &size) {
     int header = 0;
-    int toRead = 0;
     size = 0;
 
     read_bit_from_pc(header);
@@ -838,37 +835,33 @@ void YogurtPool::read_size_from_pc(int &size) {
 
     switch (header) {
         case 0x0: // 1 bit
-            toRead = 1;
+            size = 1;
             break;
         case 0x1: // 4 bits
-            toRead = 4;
+            size = 4;
             break;
+        case 0x3:
         case 0x2: // Changement de taille d'opcode dans hamming
             read_bit_from_pc(header); // On lit un bit de plus
 
             switch (header) {
-                case 0x8: // 8 bits
-                    toRead = 8;
+                case 0x4: // 8 bits
+                    size = 8;
                     break;
-                case 0x9: // 16 bits
-                    toRead = 16;
+                case 0x5: // 16 bits
+                    size = 16;
                     break;
-                case 0x10: //32 bits
-                    toRead = 32;
+                case 0x6: //32 bits
+                    size = 32;
                     break;
-                case 0x11: // 64 bits
-                    toRead = 64;
+                case 0x7: // 64 bits
+                    size = 64;
                     break;
             }
+
             break;
     }
 
-    // Maintenant on sait combien de bits lire pour former notre size
-
-    for (int i = 0; i < toRead; i++) // On lit autant de bits qu'il faut et on les envoie dans size.
-    {
-        read_bit_from_pc(size);
-    }
 
 
 }
@@ -916,15 +909,16 @@ void YogurtPool::jumpif(uword &offset, bool &manage_flags) {
 
 }
 
-void YogurtPool::write(int counter, int size, int val) {
+void YogurtPool::write(int& counter, int& size, uword& val) {
 
 
-    uword *p_Counter = getPtrToCounter(
-            counter); // On récupère un pointeur vers l'attribut correspond au bon counter.
+    uword* p_Counter = getPtrToCounter(counter);
+    // On récupère un pointeur vers l'attribut correspond au bon counter.
+    uword val1 = (val << (WORDSIZE-size));
 
-    for (int i = size - 1; i >= 0; i--) { // On écrit le bon nombre de bits, à partir de l'adresse du counter donné.
-        write_toRam(counter, (val >> i) & 1);
-        (*p_Counter)++;
+    for (int i = WORDSIZE - 1; i >= WORDSIZE-size; i--) { // On écrit le bon nombre de bits, à partir de l'adresse du counter donné.
+        write_toRam(counter, (val1 >> i) & 1);
+        (*p_Counter) ++;
     }
 
 }

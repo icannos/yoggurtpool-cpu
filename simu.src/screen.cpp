@@ -33,10 +33,10 @@ void simulate_screen(Memory* m,  bool* refresh) {
 				uint64_t mword = m->m[ (MEM_SCREEN_BEGIN >>6) + (i>>2)];
 				uint16_t pixel = (mword >> ((i&3)<<4)) & 0xffff;
 				
-				uint32_t blue = pixel & ((1<<5)-1); 
-				uint32_t green = (pixel>>5) & ((1<<5)-1); 
-				uint32_t red = (pixel>>10) ;
-				tempscreen[i] = (red << (2+16)) + (green << (3+8)) + (blue << 3);
+				uint32_t blue = pixel & ((1<<5)-1); // 5 bits
+				uint32_t green = (pixel>>5) & ((1<<5)-1); // 5 bits
+				uint32_t red = (pixel>>10); // 6 bits
+				tempscreen[i] = (red << (3+16)) + (green << (3+8)) + (blue << 3); // Il y avait une erreur ici !
 			}
 			/* update the screen */
 			SDL_UpdateTexture(texture, NULL, tempscreen, WIDTH * sizeof(uint32_t));

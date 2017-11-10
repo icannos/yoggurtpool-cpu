@@ -33,7 +33,7 @@ private:
 	void jumpif(uword& offset, bool& manage_flags);
     void jumpifreg(int &regnum1, bool &manage_flags);
 
-	void write(int counter, int size, int val);
+	void write(int& counter, int& size, uword& val);
     void jumpreg(int &regnum1, bool &manage_flags);
 
 

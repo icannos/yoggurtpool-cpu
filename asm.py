@@ -120,7 +120,7 @@ def asm_const_signed(s):
         return '0 ' + str(val)
     elif val>=-128 and val<=127:
         return '10 ' + binary_repr(val, 8)
-    elif val>=-32768 and val<= 32767:
+    elif val>=-2**31 and val<= 2**31:
         return '110 ' + binary_repr(val, 32)
     elif val>=-2**63 and val <= 2**63: # Ajout de la cond sur le elif
         return '111 ' +  binary_repr(val, 64)

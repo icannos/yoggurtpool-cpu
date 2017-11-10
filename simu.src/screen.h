@@ -4,7 +4,7 @@
 //constants about the environnement
 const int WIDTH = 160;
 const int HEIGHT = 128;
-const int MEM_SCREEN_BEGIN = 0x10000;
+const int MEM_SCREEN_BEGIN = 1073350080;
 
 #include <SDL2/SDL.h>
 #include "memory.h"
