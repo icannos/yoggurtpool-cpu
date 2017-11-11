@@ -15,6 +15,8 @@ from numpy import binary_repr
 line=0 # global variable to make error reporting easier
 current_addr=0 # idem
 labels={} # global because shared between the two passe
+instr_bit = [9 , 18, 35]#contient le nombre de bit necessaire pour les differentes tailles des adresses
+nb_pass = 2
 
 def error(e):
     raise BaseException("Error at line " + str(line) + " : " + e)
@@ -45,10 +47,22 @@ def asm_addr_signed(s):
     #pour l'hexa
 	if s[0] == '#' :
 		if s[1:] in labels :#le label est deja entre dans la liste de labels, on est au deuxieme passage
-			d = int(labels[s[1:]] - (current_address_for_label+2+16)) # Ajout des bits de l'instruction en cours qui ne sont pas encore comptes dans current_address !
-			return "10 " +  binary_repr(d, 16)#on encode la bonne taille
+			try :
+				d = int(labels[s[1:]][0] - (current_address_for_label+instr_bit[ labels[s[1:]][1] ])) # Ajout des bits de l'instruction en cours qui ne sont pas encore comptes dans current_address !
+				if labels[s[1:]][1]==0 and d<= 127 and d>= -128 : #on est bien sur des adresses signees
+					return "0 " +  binary_repr(d, 8)#on encode la bonne taille
+				elif labels[s[1:]][1]==1 and d>=-32768 and d<= 32767:
+					return "10 " + binary_repr(d, 16)
+				elif labels[s[1:]][1]==2 :
+					return "110 " + binary_repr(d, 32)
+				else :#d etait trop grand, il faut tout recommencer
+					raise ValueError
+			except (ValueError) :
+				labels[s[1:]][1]+=1
+				nb_pass+=1
+				asm_pass(nb_pass, filename)
 		else :#premier passage
-			return "10 " + binary_repr(0,16)#on intialise a 0, juste pour avoir le meme nombre de bit au second passage
+			return "0 " + binary_repr(0,8)#on part de la plus petite taille
         
 	if s[0] == '@' :
 		if s[1:] in labels :#le label est deja entre dans la liste de labels, on est au deuxieme passage
@@ -207,7 +221,7 @@ def asm_pass(iteration, s_file):
             token=tokens[0]
             if token[-1] == ":": # last character
                 label = token[0: -1] # all the characters except last one
-                labels[label] = current_address
+                labels[label] = [current_address,0]
                 tokens = tokens[1:]
 
         # now all that remains should be an instruction... or nothing

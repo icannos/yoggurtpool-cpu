@@ -1,5 +1,5 @@
 leti r0 6
-leti r1 -8
+leti r1 8
 leti r2 0
 boucle:
 cmpi r0 0
