@@ -1,7 +1,7 @@
 
 ## YogurtPool CPU
 
-
+Tout ce qui est présenté dans la doc n'est pas encore nécessairement implémenté mais ça viendra.
 
 
 ### Memory
@@ -10,11 +10,7 @@
                  #                                   #
                  #              Code                 #
                  #                                   #
-0x10000 ----->   #===================================#
-                 #                                   #
-                 #         VRAM(Displayed)           #
-                 #                                   #
-0x60000 ----->   #===================================#
+                 #===================================#
                  #                                   #
                  #                                   #
                  #                                   #
@@ -28,18 +24,24 @@
                  #                                   #
                  #                                   #
                  #                                   #
+0x3FFA05C0 -->   #===================================#
+                 #                                   #
+                 #         VRAM(Displayed)           #
+                 #                                   #
 0x3FFF0600 --->  #===================================#
                  #              Stack                #
                  #===================================#                                                    
 ```
+### Mémoire vidéo
+On a déplacé la mémoire vidéo car on a réussi à avoir des programmes long qui commençaient à empiéter dessus.
+
 
 ### Pointeurs
-A voir si on offre la possibilité de les changer. A0 et A1 sont initialisés au début de la mémoire disponnible.
 ```C
 pc = 0;
 sp = 0x3FFF0600;
-A0 = 0x60000;
-A1 = 0x60000;
+A0 = 0;
+A1 = 0;
 ```
 
 ### Instructions Maison
@@ -55,13 +57,13 @@ A1 = 0x60000;
 
 Dans le cas où on effectue un call avec une adresse négative on appelle une fonction "built-in" du proco.
 
-En particulier call -1 correspond à la terminaison d'un programme. Dans ce cas le processeur affiche dans la console son état final.
+En particulier call -1 correspond à la terminaison d'un programme. Dans ce cas le processeur affiche dans la console son état final. (On le retirera au profit d'un détecteur de boucle infini.) Mais on garde la possibilité d'étendre le jeu d'Instructions de cette manière (reset, instruction pour la vidéo, le clavier, l'horloge).
 
 
 
 | Call id       |     Mnemonic        |    Desc                                |
 | ------------- | ------------------- | ---------------------------------------|
-|   -1          |   Term, return0     |  Indique au proco la terminaison       |
+|   -1          |          ...        |  Indique au proco la terminaison       |
 |   ...         |                     |              ...                       |
 
 
