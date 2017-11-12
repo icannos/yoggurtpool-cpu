@@ -33,7 +33,7 @@ Tout ce qui est présenté dans la doc n'est pas encore nécessairement impléme
                  #===================================#                                                    
 ```
 ### Mémoire vidéo
-On a déplacé la mémoire vidéo car on a réussi à avoir des programmes long qui commençaient à empiéter dessus.
+On a déplacé la mémoire vidéo car on a réussi à avoir des programmes long qui commençaient à empiéter dessus. (Lorsque l'on intègre des images).
 
 
 ### Pointeurs
@@ -53,11 +53,14 @@ A1 = 0;
 |   0x7e        | jumpifreg cond reg  |  Jump cond à la valeur du registre     |
 
 
+
 ### Addresse de call négatives
 
 Dans le cas où on effectue un call avec une adresse négative on appelle une fonction "built-in" du proco.
 
-En particulier call -1 correspond à la terminaison d'un programme. Dans ce cas le processeur affiche dans la console son état final. (On le retirera au profit d'un détecteur de boucle infini.) Mais on garde la possibilité d'étendre le jeu d'Instructions de cette manière (reset, instruction pour la vidéo, le clavier, l'horloge).
+En particulier call -1 correspond à la terminaison d'un programme. Dans ce cas le processeur affiche dans la console son état final. (On le retirera au profit d'un détecteur de boucle infini.) Mais on garde la possibilité d'étendre le jeu d'Instructions de cette manière (reset, instruction pour les images...).
+
+Actuellement lorsque le simulateur détecte qu'il doit terminer il ajoute affiche le dernier état des registres. (Nous avons ajouté un booléen permettant d'arrêter le cycle de von neuman).
 
 
 
@@ -65,6 +68,10 @@ En particulier call -1 correspond à la terminaison d'un programme. Dans ce cas 
 | ------------- | ------------------- | ---------------------------------------|
 |   -1          |          ...        |  Indique au proco la terminaison       |
 |   ...         |                     |              ...                       |
+
+### Flags et comparaisons
+
+Nous n'avons pas encore implémenté le flag overflow mais ça viendra. Donc certaines comparaisons ne marchent pas encore, celles qui sont nécessaires à la division et à la multiplication marche. (En tous cas celles dont on se sert dans nos programmes.)
 
 
 ### Syntaxe Assembleur
@@ -88,3 +95,8 @@ jump #boucle
 end:
 call -1
 ```
+
+
+### Statistiques
+
+Nous avons ajouté quelques variables de statistiques dans processor.h, qui comptent notamment les bits échangés avec la ram en lecture ou en écriture. On prévoit de faire générer au simulateur des fichiers de logs à la fin d'une exécution pour récupérer l'état des registres et de la ram ainsi que toutes les statistiques.

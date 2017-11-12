@@ -18,7 +18,7 @@ __   __                           _    ______           _   _____ ______ _   _
                        |___/                                                                          
 
 ```
-#### Installation / Compilation
+### Installation / Compilation
 
 Il est recommandé d'utiliser CMake. 
 
@@ -28,6 +28,25 @@ Il est recommandé d'utiliser CMake.
 
 La méthode orginelle doit encore exister mais on ne l'a jamais testée.
 
+### Simulateur
+
+Nous avons un peu amélioré la sortie de débuggage pour afficher les données en hexa mais aussi en décimal etc...
+
 ### Documentation
  
 Toute la documentation nécessaire se trouve dans le dossier `doc/`
+
+
+### Dans ce rendu:
+
+#### Multiplication
+
+La multiplication effectue le calcul r0 * r1 dans r2.
+
+#### Division
+
+La division s'effectue de r0 divisé par r1 dans r3 et le reste se trouvera dans r0.
+
+#### memory.s 
+
+C'est un teste d'écriture lecture dans la ram pour vérifier que tout marche à peu près bien. (Pas utile pour ce rendu mais fonctionne quand même.
