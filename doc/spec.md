@@ -1,5 +1,5 @@
 
-## YogurtPool CPU
+## YoggurtPool CPU
 
 Tout ce qui est présenté dans la doc n'est pas encore nécessairement implémenté mais ça viendra.
 

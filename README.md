@@ -45,7 +45,7 @@ La multiplication effectue le calcul r0 * r1 dans r2.
 
 #### Division
 
-La division s'effectue de r0 divisé par r1 dans r3 et le reste se trouvera dans r0.
+La division s'effectue de r0 divisé par r1 dans r2 et le reste se trouvera dans r0.
 
 #### memory.s 
 
