@@ -111,6 +111,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                 ur = uop1 + uop2;
                 r[regnum1] = ur;
                 manage_flags = true;
+                manage_vflag(uop1, uop2, ur);
                 break;
 
             case 0x1: // add2i
@@ -122,6 +123,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                 ur = uop1 + uop2;
                 r[regnum1] = ur;
                 manage_flags = true;
+                manage_vflag(uop1, uop2, ur);
                 break;
 
             case 0x2: // sub2
@@ -133,17 +135,19 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                 ur = uop1 + uop2;
                 r[regnum1] = ur;
                 manage_flags = true;
+                manage_vflag(uop1, uop2, ur);
                 break;
 
             case 0x3: //sub2i
                 read_reg_from_pc(regnum1);
                 read_const_from_pc(constop);
                 uop1 = r[regnum1];
-                uop2 = constop;
-                fullr = ((doubleword) uop1) - ((doubleword) uop2); // for flags
-                ur = uop1 - uop2;
+                uop2 = (~constop) + 1;
+                fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
+                ur = uop1 + uop2;
                 r[regnum1] = ur;
                 manage_flags = true;
+                manage_vflag(uop1, uop2, ur);
                 break;
 
             case 0x4: //cmp
@@ -154,6 +158,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                 fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
                 ur = uop1 + uop2;
                 manage_flags = true;
+                manage_vflag(uop1, uop2, ur);
                 break;
 
             case 0x5: //cmpi
@@ -166,6 +171,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                 ur = uop1 + uop2;
 
                 manage_flags = true;
+                manage_vflag(uop1, uop2, ur);
                 break;
 
             case 0x6: //let
@@ -401,6 +407,9 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                         ur = uop1 + uop2;
                         r[regnum1] = ur;
                         manage_flags = true;
+                        manage_vflag(uop1, uop2, ur);
+
+
                         break;
 
                     case 0x73://add3i
@@ -413,6 +422,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                         ur = uop1 + uop2;
                         r[regnum1] = ur;
                         manage_flags = true;
+                        manage_vflag(uop1, uop2, ur);
                         break;
                     case 0x74://sub3
                         read_reg_from_pc(regnum1);
@@ -424,6 +434,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                         ur = uop1 - uop2;
                         r[regnum1] = ur;
                         manage_flags = true;
+                        manage_vflag(uop1, uop2, ur);
                         break;
                     case 0x75://sub3i
                         read_reg_from_pc(regnum1);
@@ -435,6 +446,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                         ur = uop1 - uop2;
                         r[regnum1] = ur;
                         manage_flags = true;
+                        manage_vflag(uop1, uop2, ur);
                         break;
                     case 0x76: //and3
                         read_reg_from_pc(regnum1);
@@ -863,6 +875,20 @@ void YogurtPool::read_size_from_pc(int &size) {
     }
 
 
+
+}
+
+void YogurtPool::manage_vflag(uword& uop1, uword& uop2, uword& ur)
+{
+    if( ((int)uop1 >= 0 && (int)uop2 <= 0) || ((int)uop2 >= 0 && (int)uop1 <= 0)) // Si les 2 sont pas de même signes: pas d'overflow
+        vflag = false;
+    else
+    {
+        if (((int)uop1 >= 0 && (int)uop2 >= 0) && (int)ur <= 0)
+            vflag = true;
+        if (((int)uop1 <= 0 && (int)uop2 >= 0) && (int)ur <= 0)
+            vflag = true;
+    }
 
 }
 
