@@ -13,7 +13,7 @@ def buildAsm(path, name):
     im = Image.open(path)
     asm = ""
     asm  += "print_img_" + name + ":\n"
-    asm += "leti r4 1073350080 \n"
+    asm += "leti r4 1073350075 \n"
 
     asm += "setctr a0 r4 \n"
     asm += "leti r4 0 \n"
@@ -24,7 +24,7 @@ def buildAsm(path, name):
         bg = np.binary_repr(int(31*g/255), 5)
         br = np.binary_repr(int(63*r/255), 6)
 
-        print(len(br))
+        print(len(bg))
 
         bgr = bb + bg + br
         sbgr = int(bgr, 2)

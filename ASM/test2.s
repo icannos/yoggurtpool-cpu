@@ -1,5 +1,5 @@
 print_img_test2:
-leti r4 1073350080 
+leti r4 1073350075 
 setctr a0 r4 
 leti r4 0 
 leti r4 29530
