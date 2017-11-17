@@ -60,6 +60,7 @@ private:
 	bool zflag;
 	bool cflag;
 	bool nflag;
+    bool vflag;
 
 
 	// ============= Data Simulation ========== \\
