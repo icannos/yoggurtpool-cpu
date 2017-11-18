@@ -13,7 +13,7 @@ def buildAsm(path, name):
     im = Image.open(path)
     asm = ""
     asm  += "print_img_" + name + ":\n"
-    asm += "leti r4 1073350075 \n"
+    asm += "leti r4 1073350080 \n"
 
     asm += "setctr a0 r4 \n"
     asm += "leti r4 0 \n"

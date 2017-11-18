@@ -937,9 +937,9 @@ void YogurtPool::jumpif(uword &offset, bool &manage_flags) {
 
 void YogurtPool::write(int& counter, int& size, uword& val) {
 
-
-    uword* p_Counter = getPtrToCounter(counter);
     // On récupère un pointeur vers l'attribut correspond au bon counter.
+    uword* p_Counter = getPtrToCounter(counter);
+
     uword val1 = (val << (WORDSIZE-size));
 
     for (int i = WORDSIZE - 1; i >= WORDSIZE-size; i--) { // On écrit le bon nombre de bits, à partir de l'adresse du counter donné.
