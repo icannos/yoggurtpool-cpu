@@ -21,26 +21,31 @@ void simulate_screen(Memory *m, bool *refresh) {
         //Update Clock
         uint64_t time = (uint64_t) (clock() * 100 / CLOCKS_PER_SEC);
 
-        for(int i = 0; i < 64; i++)
-        {
-            m->m[(CLOCK_BEGIN + i) >> 6] = (m->m[(CLOCK_BEGIN + i) >> 6] & ~( 1 <<(63 - i))) + (time & (1 <<(63 - i)));
+        for (int i = 0; i < 64; i++) {
+            m->m[(CLOCK_BEGIN + i) >> 6] = (m->m[(CLOCK_BEGIN + i) >> 6] & ~(1 << (63 - i))) + (time & (1 << (63 - i)));
         }
 
 
         /*deal with events*/
         while (SDL_PollEvent(&e) != 0) { // S'il se passe qqchose
-            if (e.type == SDL_KEYDOWN) { // Si le qqchose c'est appuyer su une touche on met le bit de la mémoire à 1
 
-                if (e.key.keysym.scancode <= 283)
-                    m->m[((KEYBOARD_BEGIN + e.key.keysym.scancode)) >> 6] =
-                            (1 << (63 - (KEYBOARD_BEGIN + e.key.keysym.scancode % 64))) |
-                            m->m[((KEYBOARD_BEGIN + e.key.keysym.scancode)) >> 6];
-            } else if (e.type == SDL_KEYUP) // Si le qqchose c'est relacher: bah on met à 0
-            {
-                if (e.key.keysym.scancode <= 283)
-                    m->m[((KEYBOARD_BEGIN + e.key.keysym.scancode)) >> 6] =
-                            (~(1 << (63 - (KEYBOARD_BEGIN + e.key.keysym.scancode % 64)))) &
-                            m->m[((KEYBOARD_BEGIN + e.key.keysym.scancode)) >> 6];;
+            if (e.type == SDL_QUIT) {
+                escape = true;
+            } else {
+                if (e.type ==
+                    SDL_KEYDOWN) { // Si le qqchose c'est appuyer su une touche on met le bit de la mémoire à 1
+
+                    if (e.key.keysym.scancode <= 283)
+                        m->m[((KEYBOARD_BEGIN + e.key.keysym.scancode)) >> 6] =
+                                (1 << (63 - (KEYBOARD_BEGIN + e.key.keysym.scancode % 64))) |
+                                m->m[((KEYBOARD_BEGIN + e.key.keysym.scancode)) >> 6];
+                } else if (e.type == SDL_KEYUP) // Si le qqchose c'est relacher: bah on met à 0
+                {
+                    if (e.key.keysym.scancode <= 283)
+                        m->m[((KEYBOARD_BEGIN + e.key.keysym.scancode)) >> 6] =
+                                (~(1 << (63 - (KEYBOARD_BEGIN + e.key.keysym.scancode % 64)))) &
+                                m->m[((KEYBOARD_BEGIN + e.key.keysym.scancode)) >> 6];;
+                }
             }
         }
         /* if we need to refresh the screen*/
