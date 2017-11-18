@@ -1,8 +1,4 @@
-leti r1 0
-leti r2 0
-leti r0 54
-
-
+clear_screen:
 leti r1 1073350080
 setctr a0 r1
 boucle:
@@ -12,4 +8,4 @@ write a0 16 r0
 getctr a0 r1
 jump #boucle
 fin:
-jump -13
+return
