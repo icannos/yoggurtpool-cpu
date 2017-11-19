@@ -706,10 +706,13 @@ void YogurtPool::read_sconst_from_pc(uint64_t &var) {
         var = (var << 1) + m->read_bit(PC);
         pc++;
     }
+    if (header != 0)
+    {
+        int sign = (var >> (size - 1)) & 1;
+        for (int i = size; i < WORDSIZE; i++)
+            var += sign << i;
+    }
 
-    int sign = (var >> (size - 1)) & 1;
-    for (int i = size; i < WORDSIZE; i++)
-        var += sign << i;
 }
 
 
@@ -792,19 +795,19 @@ bool YogurtPool::cond_true(int cond) {
             break;
 
         case 0x4: //op1 > op2 non signée
-            return (!cflag) && (!zflag);
+            return (cflag) && (!zflag);
             break;
 
         case 0x5: //op1 >= op2 non signée
-            return !cflag;
+            return cflag;
             break;
 
         case 0x6:
-            return (cflag); // <
+            return !(cflag); // <
             break;
 
         case 0x7: // <=
-            return !(cflag) && (zflag);
+            return vflag;
             break;
 
     }

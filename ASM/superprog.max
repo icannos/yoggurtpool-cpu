@@ -1,0 +1,13 @@
+
+int8 bi; 
+bi = 5;
+
+
+if (bi < 8)
+{
+    return 3
+}
+else
+{
+    return 89
+}
