@@ -9,16 +9,17 @@ let r1 r0
 leti r0 8
 
 cmp r1 r0 
-jumpif ge #elseok35af840057f5b8
+jumpif ge #elseok35b01bc8c22266
 leti r0 1 
-jump #ifok35af840057f5b8
-elseok35af840057f5b8:
+jump #ifok35b01bc8c22266
+elseok35b01bc8c22266:
 leti r0 0 
-ifok35af840057f5b8:
+ifok35b01bc8c22266:
 cmpi r0 1 
-jumpif neq #ifelse35af840057f4e6
+jumpif neq #ifelse35b01bc8c22190
 leti r0 3
-jump #ifend35af840057f4e6
-ifelse35af840057f4e6: 
+jump #ifend35b01bc8c22190
+ifelse35b01bc8c22190: 
 leti r0 89
-ifend35af840057f4e6: 
+ifend35b01bc8c22190: 
+jump -13

@@ -354,6 +354,8 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
 
                         r[7] = pc;
                         pc = addr;
+
+                        m->set_counter(PC, (uword) pc);
                         break;
 
                     case 0x36: //setctr
