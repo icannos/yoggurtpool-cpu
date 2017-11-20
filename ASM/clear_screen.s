@@ -1,3 +1,8 @@
+leti r0 31
+call @clear_screen
+jump -13
+
+
 clear_screen:
 leti r1 1073350080
 setctr a0 r1

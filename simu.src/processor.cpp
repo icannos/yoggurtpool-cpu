@@ -797,15 +797,15 @@ bool YogurtPool::cond_true(int cond) {
             break;
 
         case 0x4: //op1 > op2 non signée
-            return (cflag) && (!zflag);
+            return (!cflag) && (!zflag);
             break;
 
         case 0x5: //op1 >= op2 non signée
-            return cflag;
+            return !cflag;
             break;
 
         case 0x6:
-            return !(cflag); // <
+            return (cflag); // <
             break;
 
         case 0x7: // <=

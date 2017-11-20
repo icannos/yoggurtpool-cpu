@@ -38,7 +38,7 @@ def buildAsm(path, name):
 
 
 
-buildAsm("test2.jpg", "test2")
+buildAsm("ASM/pc.jpg", "pc")
 
 
 
