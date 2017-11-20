@@ -1,40965 +1,40964 @@
-print_img_test2:
+print_img_pc:
 leti r4 1073350080 
 setctr a0 r4 
 leti r4 0 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 25366
+leti r4 62
 write a0 16 r4 
-leti r4 25365
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27349
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 25300
+leti r4 62
 write a0 16 r4 
-leti r4 27479
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 25301
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 35872
+leti r4 62
 write a0 16 r4 
-leti r4 35873
+leti r4 62
 write a0 16 r4 
-leti r4 33826
+leti r4 2110
 write a0 16 r4 
-leti r4 33825
+leti r4 2110
 write a0 16 r4 
-leti r4 25367
+leti r4 62
 write a0 16 r4 
-leti r4 23254
+leti r4 123
 write a0 16 r4 
-leti r4 27417
+leti r4 240
 write a0 16 r4 
-leti r4 27416
+leti r4 9663
 write a0 16 r4 
-leti r4 25302
+leti r4 7807
 write a0 16 r4 
-leti r4 27413
+leti r4 1535
 write a0 16 r4 
-leti r4 27414
+leti r4 425
 write a0 16 r4 
-leti r4 25366
+leti r4 238
 write a0 16 r4 
-leti r4 27415
+leti r4 187
 write a0 16 r4 
-leti r4 25301
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 2111
 write a0 16 r4 
-leti r4 27414
+leti r4 60
 write a0 16 r4 
-leti r4 25300
+leti r4 61
 write a0 16 r4 
-leti r4 29528
+leti r4 2175
 write a0 16 r4 
-leti r4 29465
+leti r4 122
 write a0 16 r4 
-leti r4 27417
+leti r4 121
 write a0 16 r4 
-leti r4 27416
+leti r4 58
 write a0 16 r4 
-leti r4 27416
+leti r4 6207
 write a0 16 r4 
-leti r4 29465
+leti r4 6206
 write a0 16 r4 
-leti r4 31579
+leti r4 2108
 write a0 16 r4 
-leti r4 29529
+leti r4 4159
 write a0 16 r4 
-leti r4 31644
+leti r4 61
 write a0 16 r4 
-leti r4 27417
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 25303
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 2108
 write a0 16 r4 
-leti r4 25368
+leti r4 2108
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 25301
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 25365
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 25301
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 25365
+leti r4 62
 write a0 16 r4 
-leti r4 25301
+leti r4 62
 write a0 16 r4 
-leti r4 29594
+leti r4 62
 write a0 16 r4 
-leti r4 33824
+leti r4 62
 write a0 16 r4 
-leti r4 33824
+leti r4 62
 write a0 16 r4 
-leti r4 35938
+leti r4 62
 write a0 16 r4 
-leti r4 33825
+leti r4 62
 write a0 16 r4 
-leti r4 21206
+leti r4 62
 write a0 16 r4 
-leti r4 25371
+leti r4 2175
 write a0 16 r4 
-leti r4 27485
+leti r4 61
 write a0 16 r4 
-leti r4 21077
+leti r4 56
 write a0 16 r4 
-leti r4 23251
+leti r4 311
 write a0 16 r4 
-leti r4 23315
+leti r4 13567
 write a0 16 r4 
-leti r4 27479
+leti r4 9599
 write a0 16 r4 
-leti r4 27415
+leti r4 7615
 write a0 16 r4 
-leti r4 35935
+leti r4 11711
 write a0 16 r4 
-leti r4 27479
+leti r4 15743
 write a0 16 r4 
-leti r4 27414
+leti r4 176
 write a0 16 r4 
-leti r4 25364
+leti r4 117
 write a0 16 r4 
-leti r4 25364
+leti r4 186
 write a0 16 r4 
-leti r4 27478
+leti r4 190
 write a0 16 r4 
-leti r4 27413
+leti r4 61
 write a0 16 r4 
-leti r4 25364
+leti r4 59
 write a0 16 r4 
-leti r4 29531
+leti r4 123
 write a0 16 r4 
-leti r4 29531
+leti r4 123
 write a0 16 r4 
-leti r4 27415
+leti r4 4223
 write a0 16 r4 
-leti r4 27416
+leti r4 2109
 write a0 16 r4 
-leti r4 27415
+leti r4 2110
 write a0 16 r4 
-leti r4 29530
+leti r4 2110
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 58
 write a0 16 r4 
-leti r4 29530
+leti r4 61
 write a0 16 r4 
-leti r4 29531
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 61
 write a0 16 r4 
-leti r4 27417
+leti r4 2108
 write a0 16 r4 
-leti r4 27418
+leti r4 2109
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29463
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 27350
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27349
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27349
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27480
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 25302
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 35871
+leti r4 62
 write a0 16 r4 
-leti r4 35937
+leti r4 62
 write a0 16 r4 
-leti r4 35937
+leti r4 62
 write a0 16 r4 
-leti r4 33825
+leti r4 62
 write a0 16 r4 
-leti r4 33826
+leti r4 62
 write a0 16 r4 
-leti r4 31714
+leti r4 60
 write a0 16 r4 
-leti r4 35940
+leti r4 57
 write a0 16 r4 
-leti r4 33825
+leti r4 58
 write a0 16 r4 
-leti r4 42281
+leti r4 255
 write a0 16 r4 
-leti r4 42280
+leti r4 188
 write a0 16 r4 
-leti r4 46506
+leti r4 54
 write a0 16 r4 
-leti r4 50734
+leti r4 248
 write a0 16 r4 
-leti r4 52847
+leti r4 17663
 write a0 16 r4 
-leti r4 52848
+leti r4 9599
 write a0 16 r4 
-leti r4 52846
+leti r4 5503
 write a0 16 r4 
-leti r4 52847
+leti r4 11775
 write a0 16 r4 
-leti r4 42277
+leti r4 11647
 write a0 16 r4 
-leti r4 44389
+leti r4 304
 write a0 16 r4 
-leti r4 31770
+leti r4 182
 write a0 16 r4 
-leti r4 25428
+leti r4 56
 write a0 16 r4 
-leti r4 25428
+leti r4 126
 write a0 16 r4 
-leti r4 25302
+leti r4 60
 write a0 16 r4 
-leti r4 27415
+leti r4 59
 write a0 16 r4 
-leti r4 25302
+leti r4 57
 write a0 16 r4 
-leti r4 25301
+leti r4 60
 write a0 16 r4 
-leti r4 27414
+leti r4 127
 write a0 16 r4 
-leti r4 27415
+leti r4 59
 write a0 16 r4 
-leti r4 27415
+leti r4 2175
 write a0 16 r4 
-leti r4 27414
+leti r4 2175
 write a0 16 r4 
-leti r4 27351
+leti r4 61
 write a0 16 r4 
-leti r4 31644
+leti r4 61
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 29530
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29528
+leti r4 62
 write a0 16 r4 
-leti r4 27349
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 25365
+leti r4 62
 write a0 16 r4 
-leti r4 25300
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 25366
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 35937
+leti r4 62
 write a0 16 r4 
-leti r4 44392
+leti r4 62
 write a0 16 r4 
-leti r4 52848
+leti r4 62
 write a0 16 r4 
-leti r4 50736
+leti r4 62
 write a0 16 r4 
-leti r4 50736
+leti r4 62
 write a0 16 r4 
-leti r4 48688
+leti r4 62
 write a0 16 r4 
-leti r4 48625
+leti r4 62
 write a0 16 r4 
-leti r4 48626
+leti r4 61
 write a0 16 r4 
-leti r4 50738
+leti r4 191
 write a0 16 r4 
-leti r4 59257
+leti r4 123
 write a0 16 r4 
-leti r4 61305
+leti r4 52
 write a0 16 r4 
-leti r4 61242
+leti r4 60
 write a0 16 r4 
-leti r4 61242
+leti r4 4287
 write a0 16 r4 
-leti r4 59192
+leti r4 60
 write a0 16 r4 
-leti r4 63416
+leti r4 184
 write a0 16 r4 
-leti r4 61304
+leti r4 15743
 write a0 16 r4 
-leti r4 61303
+leti r4 7615
 write a0 16 r4 
-leti r4 59190
+leti r4 3647
 write a0 16 r4 
-leti r4 61303
+leti r4 5695
 write a0 16 r4 
-leti r4 52910
+leti r4 5375
 write a0 16 r4 
-leti r4 52845
+leti r4 19903
 write a0 16 r4 
-leti r4 42339
+leti r4 309
 write a0 16 r4 
-leti r4 42274
+leti r4 183
 write a0 16 r4 
-leti r4 35936
+leti r4 121
 write a0 16 r4 
-leti r4 35935
+leti r4 2303
 write a0 16 r4 
-leti r4 31643
+leti r4 59
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 25366
+leti r4 127
 write a0 16 r4 
-leti r4 25301
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 2175
 write a0 16 r4 
-leti r4 27415
+leti r4 58
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 29530
+leti r4 60
 write a0 16 r4 
-leti r4 29531
+leti r4 60
 write a0 16 r4 
-leti r4 27417
+leti r4 61
 write a0 16 r4 
-leti r4 27417
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 25301
+leti r4 62
 write a0 16 r4 
-leti r4 27480
+leti r4 62
 write a0 16 r4 
-leti r4 25366
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27480
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27479
+leti r4 62
 write a0 16 r4 
-leti r4 33822
+leti r4 62
 write a0 16 r4 
-leti r4 44329
+leti r4 62
 write a0 16 r4 
-leti r4 52784
+leti r4 62
 write a0 16 r4 
-leti r4 59190
+leti r4 62
 write a0 16 r4 
-leti r4 63418
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 61306
+leti r4 62
 write a0 16 r4 
-leti r4 59259
+leti r4 62
 write a0 16 r4 
-leti r4 59194
+leti r4 62
 write a0 16 r4 
-leti r4 59255
+leti r4 62
 write a0 16 r4 
-leti r4 61306
+leti r4 60
 write a0 16 r4 
-leti r4 59128
+leti r4 126
 write a0 16 r4 
-leti r4 59192
+leti r4 61
 write a0 16 r4 
-leti r4 61370
+leti r4 2109
 write a0 16 r4 
-leti r4 59255
+leti r4 61
 write a0 16 r4 
-leti r4 61305
+leti r4 60
 write a0 16 r4 
-leti r4 59193
+leti r4 123
 write a0 16 r4 
-leti r4 52849
+leti r4 179
 write a0 16 r4 
-leti r4 50735
+leti r4 11583
 write a0 16 r4 
-leti r4 54962
+leti r4 3583
 write a0 16 r4 
-leti r4 52847
+leti r4 1534
 write a0 16 r4 
-leti r4 52846
+leti r4 7871
 write a0 16 r4 
-leti r4 52846
+leti r4 1407
 write a0 16 r4 
-leti r4 52910
+leti r4 11711
 write a0 16 r4 
-leti r4 54959
+leti r4 15743
 write a0 16 r4 
-leti r4 52847
+leti r4 237
 write a0 16 r4 
-leti r4 52847
+leti r4 178
 write a0 16 r4 
-leti r4 42278
+leti r4 190
 write a0 16 r4 
-leti r4 46442
+leti r4 61
 write a0 16 r4 
-leti r4 35871
+leti r4 60
 write a0 16 r4 
-leti r4 35872
+leti r4 63
 write a0 16 r4 
-leti r4 25302
+leti r4 58
 write a0 16 r4 
-leti r4 25302
+leti r4 2239
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 23188
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 29530
+leti r4 61
 write a0 16 r4 
-leti r4 29531
+leti r4 61
 write a0 16 r4 
-leti r4 31643
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 27417
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 23252
+leti r4 62
 write a0 16 r4 
-leti r4 27480
+leti r4 62
 write a0 16 r4 
-leti r4 35871
+leti r4 62
 write a0 16 r4 
-leti r4 33823
+leti r4 62
 write a0 16 r4 
-leti r4 42279
+leti r4 62
 write a0 16 r4 
-leti r4 50735
+leti r4 62
 write a0 16 r4 
-leti r4 54897
+leti r4 62
 write a0 16 r4 
-leti r4 61306
+leti r4 62
 write a0 16 r4 
-leti r4 61306
+leti r4 62
 write a0 16 r4 
-leti r4 63354
+leti r4 62
 write a0 16 r4 
-leti r4 61304
+leti r4 62
 write a0 16 r4 
-leti r4 61304
+leti r4 62
 write a0 16 r4 
-leti r4 59192
+leti r4 62
 write a0 16 r4 
-leti r4 59258
+leti r4 62
 write a0 16 r4 
-leti r4 59194
+leti r4 62
 write a0 16 r4 
-leti r4 61304
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 59
 write a0 16 r4 
-leti r4 61306
+leti r4 61
 write a0 16 r4 
-leti r4 61305
+leti r4 61
 write a0 16 r4 
-leti r4 59190
+leti r4 59
 write a0 16 r4 
-leti r4 61304
+leti r4 61
 write a0 16 r4 
-leti r4 52847
+leti r4 2111
 write a0 16 r4 
-leti r4 52848
+leti r4 58
 write a0 16 r4 
-leti r4 52847
+leti r4 187
 write a0 16 r4 
-leti r4 52848
+leti r4 243
 write a0 16 r4 
-leti r4 50734
+leti r4 9599
 write a0 16 r4 
-leti r4 52846
+leti r4 3647
 write a0 16 r4 
-leti r4 54960
+leti r4 1598
 write a0 16 r4 
-leti r4 52846
+leti r4 1662
 write a0 16 r4 
-leti r4 42275
+leti r4 1534
 write a0 16 r4 
-leti r4 40226
+leti r4 5631
 write a0 16 r4 
-leti r4 50797
+leti r4 11775
 write a0 16 r4 
-leti r4 52911
+leti r4 11519
 write a0 16 r4 
-leti r4 52848
+leti r4 245
 write a0 16 r4 
-leti r4 59191
+leti r4 120
 write a0 16 r4 
-leti r4 54898
+leti r4 190
 write a0 16 r4 
-leti r4 54898
+leti r4 59
 write a0 16 r4 
-leti r4 44328
+leti r4 4287
 write a0 16 r4 
-leti r4 44328
+leti r4 58
 write a0 16 r4 
-leti r4 35871
+leti r4 61
 write a0 16 r4 
-leti r4 27414
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 25367
+leti r4 61
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 25365
+leti r4 62
 write a0 16 r4 
-leti r4 23251
+leti r4 62
 write a0 16 r4 
-leti r4 33822
+leti r4 62
 write a0 16 r4 
-leti r4 44392
+leti r4 62
 write a0 16 r4 
-leti r4 52848
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 63419
+leti r4 62
 write a0 16 r4 
-leti r4 59191
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 59192
+leti r4 62
 write a0 16 r4 
-leti r4 59191
+leti r4 62
 write a0 16 r4 
-leti r4 61240
+leti r4 62
 write a0 16 r4 
-leti r4 59192
+leti r4 62
 write a0 16 r4 
-leti r4 61241
+leti r4 62
 write a0 16 r4 
-leti r4 61241
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 61306
+leti r4 62
 write a0 16 r4 
-leti r4 61241
+leti r4 2175
 write a0 16 r4 
-leti r4 61304
+leti r4 63
 write a0 16 r4 
-leti r4 59253
+leti r4 62
 write a0 16 r4 
-leti r4 50797
+leti r4 63
 write a0 16 r4 
-leti r4 52847
+leti r4 61
 write a0 16 r4 
-leti r4 52848
+leti r4 61
 write a0 16 r4 
-leti r4 52845
+leti r4 62
 write a0 16 r4 
-leti r4 42338
+leti r4 59
 write a0 16 r4 
-leti r4 44388
+leti r4 58
 write a0 16 r4 
-leti r4 40225
+leti r4 249
 write a0 16 r4 
-leti r4 44389
+leti r4 305
 write a0 16 r4 
-leti r4 42275
+leti r4 9599
 write a0 16 r4 
-leti r4 42274
+leti r4 1471
 write a0 16 r4 
-leti r4 42339
+leti r4 1727
 write a0 16 r4 
-leti r4 44387
+leti r4 1596
 write a0 16 r4 
-leti r4 42339
+leti r4 1663
 write a0 16 r4 
-leti r4 42338
+leti r4 1599
 write a0 16 r4 
-leti r4 42339
+leti r4 5631
 write a0 16 r4 
-leti r4 52845
+leti r4 9535
 write a0 16 r4 
-leti r4 52847
+leti r4 304
 write a0 16 r4 
-leti r4 59191
+leti r4 178
 write a0 16 r4 
-leti r4 61240
+leti r4 185
 write a0 16 r4 
-leti r4 61240
+leti r4 59
 write a0 16 r4 
-leti r4 63353
+leti r4 2175
 write a0 16 r4 
-leti r4 54897
+leti r4 62
 write a0 16 r4 
-leti r4 44328
+leti r4 62
 write a0 16 r4 
-leti r4 33757
+leti r4 62
 write a0 16 r4 
-leti r4 25367
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 27481
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 25367
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 25366
+leti r4 62
 write a0 16 r4 
-leti r4 25365
+leti r4 62
 write a0 16 r4 
-leti r4 42278
+leti r4 62
 write a0 16 r4 
-leti r4 50734
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 59191
+leti r4 62
 write a0 16 r4 
-leti r4 59191
+leti r4 62
 write a0 16 r4 
-leti r4 63354
+leti r4 62
 write a0 16 r4 
-leti r4 61240
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 61241
+leti r4 62
 write a0 16 r4 
-leti r4 61241
+leti r4 62
 write a0 16 r4 
-leti r4 61306
+leti r4 62
 write a0 16 r4 
-leti r4 61240
+leti r4 62
 write a0 16 r4 
-leti r4 61240
+leti r4 62
 write a0 16 r4 
-leti r4 61306
+leti r4 59
 write a0 16 r4 
-leti r4 61241
+leti r4 2110
 write a0 16 r4 
-leti r4 63354
+leti r4 61
 write a0 16 r4 
-leti r4 54897
+leti r4 63
 write a0 16 r4 
-leti r4 42275
+leti r4 62
 write a0 16 r4 
-leti r4 42337
+leti r4 62
 write a0 16 r4 
-leti r4 42337
+leti r4 60
 write a0 16 r4 
-leti r4 42338
+leti r4 126
 write a0 16 r4 
-leti r4 42336
+leti r4 60
 write a0 16 r4 
-leti r4 44385
+leti r4 121
 write a0 16 r4 
-leti r4 42336
+leti r4 180
 write a0 16 r4 
-leti r4 44386
+leti r4 435
 write a0 16 r4 
-leti r4 42337
+leti r4 9663
 write a0 16 r4 
-leti r4 44386
+leti r4 3583
 write a0 16 r4 
-leti r4 33880
+leti r4 3775
 write a0 16 r4 
-leti r4 33880
+leti r4 1531
 write a0 16 r4 
-leti r4 33881
+leti r4 1599
 write a0 16 r4 
-leti r4 33881
+leti r4 1535
 write a0 16 r4 
-leti r4 44388
+leti r4 5695
 write a0 16 r4 
-leti r4 42276
+leti r4 7615
 write a0 16 r4 
-leti r4 52846
+leti r4 15807
 write a0 16 r4 
-leti r4 52848
+leti r4 304
 write a0 16 r4 
-leti r4 52847
+leti r4 180
 write a0 16 r4 
-leti r4 52847
+leti r4 119
 write a0 16 r4 
-leti r4 59191
+leti r4 59
 write a0 16 r4 
-leti r4 61305
+leti r4 61
 write a0 16 r4 
-leti r4 52849
+leti r4 62
 write a0 16 r4 
-leti r4 44328
+leti r4 62
 write a0 16 r4 
-leti r4 35937
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 25302
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 61
 write a0 16 r4 
-leti r4 23187
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 25364
+leti r4 62
 write a0 16 r4 
-leti r4 35933
+leti r4 62
 write a0 16 r4 
-leti r4 40226
+leti r4 62
 write a0 16 r4 
-leti r4 52848
+leti r4 62
 write a0 16 r4 
-leti r4 59191
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 61240
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 61241
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 59191
+leti r4 62
 write a0 16 r4 
-leti r4 61306
+leti r4 62
 write a0 16 r4 
-leti r4 61306
+leti r4 62
 write a0 16 r4 
-leti r4 59193
+leti r4 62
 write a0 16 r4 
-leti r4 61241
+leti r4 62
 write a0 16 r4 
-leti r4 61307
+leti r4 62
 write a0 16 r4 
-leti r4 59193
+leti r4 62
 write a0 16 r4 
-leti r4 61243
+leti r4 60
 write a0 16 r4 
-leti r4 61241
+leti r4 60
 write a0 16 r4 
-leti r4 61303
+leti r4 61
 write a0 16 r4 
-leti r4 42275
+leti r4 62
 write a0 16 r4 
-leti r4 35931
+leti r4 62
 write a0 16 r4 
-leti r4 42338
+leti r4 62
 write a0 16 r4 
-leti r4 44387
+leti r4 62
 write a0 16 r4 
-leti r4 33882
+leti r4 61
 write a0 16 r4 
-leti r4 35930
+leti r4 123
 write a0 16 r4 
-leti r4 33881
+leti r4 120
 write a0 16 r4 
-leti r4 35930
+leti r4 185
 write a0 16 r4 
-leti r4 33881
+leti r4 116
 write a0 16 r4 
-leti r4 35930
+leti r4 308
 write a0 16 r4 
-leti r4 35995
+leti r4 13631
 write a0 16 r4 
-leti r4 33880
+leti r4 7615
 write a0 16 r4 
-leti r4 35930
+leti r4 1535
 write a0 16 r4 
-leti r4 27473
+leti r4 1599
 write a0 16 r4 
-leti r4 25424
+leti r4 1599
 write a0 16 r4 
-leti r4 33881
+leti r4 1791
 write a0 16 r4 
-leti r4 42337
+leti r4 1531
 write a0 16 r4 
-leti r4 42338
+leti r4 3583
 write a0 16 r4 
-leti r4 42338
+leti r4 9727
 write a0 16 r4 
-leti r4 42339
+leti r4 9471
 write a0 16 r4 
-leti r4 52844
+leti r4 371
 write a0 16 r4 
-leti r4 52845
+leti r4 248
 write a0 16 r4 
-leti r4 63417
+leti r4 56
 write a0 16 r4 
-leti r4 61240
+leti r4 126
 write a0 16 r4 
-leti r4 61242
+leti r4 61
 write a0 16 r4 
-leti r4 61307
+leti r4 62
 write a0 16 r4 
-leti r4 52785
+leti r4 60
 write a0 16 r4 
-leti r4 35873
+leti r4 61
 write a0 16 r4 
-leti r4 25367
+leti r4 127
 write a0 16 r4 
-leti r4 27414
+leti r4 2175
 write a0 16 r4 
-leti r4 25300
+leti r4 59
 write a0 16 r4 
-leti r4 31642
+leti r4 63
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 2111
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 25301
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 25365
+leti r4 62
 write a0 16 r4 
-leti r4 35935
+leti r4 62
 write a0 16 r4 
-leti r4 50732
+leti r4 62
 write a0 16 r4 
-leti r4 52911
+leti r4 62
 write a0 16 r4 
-leti r4 52848
+leti r4 62
 write a0 16 r4 
-leti r4 61304
+leti r4 62
 write a0 16 r4 
-leti r4 61303
+leti r4 62
 write a0 16 r4 
-leti r4 52847
+leti r4 62
 write a0 16 r4 
-leti r4 52847
+leti r4 62
 write a0 16 r4 
-leti r4 61240
+leti r4 62
 write a0 16 r4 
-leti r4 59192
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 59191
+leti r4 62
 write a0 16 r4 
-leti r4 63419
+leti r4 62
 write a0 16 r4 
-leti r4 50734
+leti r4 62
 write a0 16 r4 
-leti r4 42279
+leti r4 62
 write a0 16 r4 
-leti r4 46506
+leti r4 62
 write a0 16 r4 
-leti r4 42278
+leti r4 62
 write a0 16 r4 
-leti r4 44391
+leti r4 62
 write a0 16 r4 
-leti r4 44391
+leti r4 62
 write a0 16 r4 
-leti r4 44393
+leti r4 60
 write a0 16 r4 
-leti r4 52847
+leti r4 60
 write a0 16 r4 
-leti r4 54959
+leti r4 61
 write a0 16 r4 
-leti r4 33817
+leti r4 61
 write a0 16 r4 
-leti r4 35930
+leti r4 2109
 write a0 16 r4 
-leti r4 33881
+leti r4 2110
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 27474
+leti r4 61
 write a0 16 r4 
-leti r4 35930
+leti r4 58
 write a0 16 r4 
-leti r4 35930
+leti r4 122
 write a0 16 r4 
-leti r4 33880
+leti r4 58
 write a0 16 r4 
-leti r4 27539
+leti r4 123
 write a0 16 r4 
-leti r4 23310
+leti r4 187
 write a0 16 r4 
-leti r4 25359
+leti r4 48
 write a0 16 r4 
-leti r4 27539
+leti r4 19903
 write a0 16 r4 
-leti r4 35930
+leti r4 9663
 write a0 16 r4 
-leti r4 25423
+leti r4 3583
 write a0 16 r4 
-leti r4 27473
+leti r4 1663
 write a0 16 r4 
-leti r4 25359
+leti r4 1593
 write a0 16 r4 
-leti r4 35995
+leti r4 1789
 write a0 16 r4 
-leti r4 42337
+leti r4 1725
 write a0 16 r4 
-leti r4 44387
+leti r4 1597
 write a0 16 r4 
-leti r4 40224
+leti r4 5695
 write a0 16 r4 
-leti r4 44452
+leti r4 7551
 write a0 16 r4 
-leti r4 44331
+leti r4 9343
 write a0 16 r4 
-leti r4 44393
+leti r4 376
 write a0 16 r4 
-leti r4 50733
+leti r4 52
 write a0 16 r4 
-leti r4 61305
+leti r4 123
 write a0 16 r4 
-leti r4 61303
+leti r4 126
 write a0 16 r4 
-leti r4 59254
+leti r4 2175
 write a0 16 r4 
-leti r4 52783
+leti r4 62
 write a0 16 r4 
-leti r4 44330
+leti r4 61
 write a0 16 r4 
-leti r4 27414
+leti r4 58
 write a0 16 r4 
-leti r4 29528
+leti r4 127
 write a0 16 r4 
-leti r4 27350
+leti r4 63
 write a0 16 r4 
-leti r4 29528
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29529
+leti r4 2111
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29463
+leti r4 62
 write a0 16 r4 
-leti r4 27350
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 25302
+leti r4 62
 write a0 16 r4 
-leti r4 27480
+leti r4 62
 write a0 16 r4 
-leti r4 25366
+leti r4 62
 write a0 16 r4 
-leti r4 44327
+leti r4 62
 write a0 16 r4 
-leti r4 52848
+leti r4 62
 write a0 16 r4 
-leti r4 52847
+leti r4 62
 write a0 16 r4 
-leti r4 52848
+leti r4 62
 write a0 16 r4 
-leti r4 50797
+leti r4 62
 write a0 16 r4 
-leti r4 52846
+leti r4 62
 write a0 16 r4 
-leti r4 52846
+leti r4 62
 write a0 16 r4 
-leti r4 40227
+leti r4 62
 write a0 16 r4 
-leti r4 52848
+leti r4 62
 write a0 16 r4 
-leti r4 61304
+leti r4 62
 write a0 16 r4 
-leti r4 63417
+leti r4 62
 write a0 16 r4 
-leti r4 61303
+leti r4 62
 write a0 16 r4 
-leti r4 52848
+leti r4 62
 write a0 16 r4 
-leti r4 42278
+leti r4 62
 write a0 16 r4 
-leti r4 44390
+leti r4 62
 write a0 16 r4 
-leti r4 35934
+leti r4 62
 write a0 16 r4 
-leti r4 33818
+leti r4 62
 write a0 16 r4 
-leti r4 35997
+leti r4 62
 write a0 16 r4 
-leti r4 33882
+leti r4 62
 write a0 16 r4 
-leti r4 33817
+leti r4 62
 write a0 16 r4 
-leti r4 25362
+leti r4 62
 write a0 16 r4 
-leti r4 35931
+leti r4 61
 write a0 16 r4 
-leti r4 33881
+leti r4 61
 write a0 16 r4 
-leti r4 27538
+leti r4 2108
 write a0 16 r4 
-leti r4 25423
+leti r4 2108
 write a0 16 r4 
-leti r4 33880
+leti r4 60
 write a0 16 r4 
-leti r4 25423
+leti r4 61
 write a0 16 r4 
-leti r4 25425
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 59
 write a0 16 r4 
-leti r4 25425
+leti r4 127
 write a0 16 r4 
-leti r4 27473
+leti r4 2110
 write a0 16 r4 
-leti r4 25425
+leti r4 58
 write a0 16 r4 
-leti r4 27473
+leti r4 60
 write a0 16 r4 
-leti r4 27473
+leti r4 2303
 write a0 16 r4 
-leti r4 25424
+leti r4 47
 write a0 16 r4 
-leti r4 25424
+leti r4 15679
 write a0 16 r4 
-leti r4 27537
+leti r4 7679
 write a0 16 r4 
-leti r4 25424
+leti r4 3647
 write a0 16 r4 
-leti r4 27537
+leti r4 1599
 write a0 16 r4 
-leti r4 25424
+leti r4 1598
 write a0 16 r4 
-leti r4 35994
+leti r4 1657
 write a0 16 r4 
-leti r4 44386
+leti r4 1724
 write a0 16 r4 
-leti r4 42273
+leti r4 1727
 write a0 16 r4 
-leti r4 44386
+leti r4 1599
 write a0 16 r4 
-leti r4 42275
+leti r4 7807
 write a0 16 r4 
-leti r4 42278
+leti r4 7487
 write a0 16 r4 
-leti r4 46442
+leti r4 19839
 write a0 16 r4 
-leti r4 50733
+leti r4 242
 write a0 16 r4 
-leti r4 50733
+leti r4 56
 write a0 16 r4 
-leti r4 63419
+leti r4 127
 write a0 16 r4 
-leti r4 63354
+leti r4 59
 write a0 16 r4 
-leti r4 61302
+leti r4 63
 write a0 16 r4 
-leti r4 44327
+leti r4 62
 write a0 16 r4 
-leti r4 35871
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 59
 write a0 16 r4 
-leti r4 27414
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29463
+leti r4 63
 write a0 16 r4 
-leti r4 29463
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29463
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 25367
+leti r4 62
 write a0 16 r4 
-leti r4 25302
+leti r4 62
 write a0 16 r4 
-leti r4 35872
+leti r4 62
 write a0 16 r4 
-leti r4 44391
+leti r4 62
 write a0 16 r4 
-leti r4 52846
+leti r4 62
 write a0 16 r4 
-leti r4 42341
+leti r4 62
 write a0 16 r4 
-leti r4 42341
+leti r4 62
 write a0 16 r4 
-leti r4 40226
+leti r4 62
 write a0 16 r4 
-leti r4 42339
+leti r4 62
 write a0 16 r4 
-leti r4 42340
+leti r4 62
 write a0 16 r4 
-leti r4 40226
+leti r4 62
 write a0 16 r4 
-leti r4 44388
+leti r4 62
 write a0 16 r4 
-leti r4 52845
+leti r4 62
 write a0 16 r4 
-leti r4 61301
+leti r4 62
 write a0 16 r4 
-leti r4 50732
+leti r4 62
 write a0 16 r4 
-leti r4 42276
+leti r4 62
 write a0 16 r4 
-leti r4 42275
+leti r4 62
 write a0 16 r4 
-leti r4 35931
+leti r4 62
 write a0 16 r4 
-leti r4 35931
+leti r4 62
 write a0 16 r4 
-leti r4 35931
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 33880
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 35994
+leti r4 62
 write a0 16 r4 
-leti r4 25425
+leti r4 62
 write a0 16 r4 
-leti r4 27538
+leti r4 62
 write a0 16 r4 
-leti r4 23310
+leti r4 2109
 write a0 16 r4 
-leti r4 27536
+leti r4 2108
 write a0 16 r4 
-leti r4 23309
+leti r4 59
 write a0 16 r4 
-leti r4 27537
+leti r4 59
 write a0 16 r4 
-leti r4 27537
+leti r4 60
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 63
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 59
 write a0 16 r4 
-leti r4 25423
+leti r4 8319
 write a0 16 r4 
-leti r4 25424
+leti r4 2110
 write a0 16 r4 
-leti r4 27473
+leti r4 59
 write a0 16 r4 
-leti r4 25424
+leti r4 187
 write a0 16 r4 
-leti r4 27473
+leti r4 309
 write a0 16 r4 
-leti r4 23310
+leti r4 9535
 write a0 16 r4 
-leti r4 27537
+leti r4 9727
 write a0 16 r4 
-leti r4 25423
+leti r4 9791
 write a0 16 r4 
-leti r4 25424
+leti r4 3647
 write a0 16 r4 
-leti r4 25423
+leti r4 1662
 write a0 16 r4 
-leti r4 33881
+leti r4 1725
 write a0 16 r4 
-leti r4 35995
+leti r4 1659
 write a0 16 r4 
-leti r4 33881
+leti r4 1659
 write a0 16 r4 
-leti r4 44451
+leti r4 1531
 write a0 16 r4 
-leti r4 42335
+leti r4 5759
 write a0 16 r4 
-leti r4 42338
+leti r4 11775
 write a0 16 r4 
-leti r4 44393
+leti r4 13567
 write a0 16 r4 
-leti r4 44329
+leti r4 243
 write a0 16 r4 
-leti r4 52847
+leti r4 185
 write a0 16 r4 
-leti r4 52847
+leti r4 60
 write a0 16 r4 
-leti r4 52785
+leti r4 60
 write a0 16 r4 
-leti r4 52848
+leti r4 126
 write a0 16 r4 
-leti r4 52848
+leti r4 59
 write a0 16 r4 
-leti r4 35871
+leti r4 60
 write a0 16 r4 
-leti r4 27415
+leti r4 127
 write a0 16 r4 
-leti r4 25301
+leti r4 61
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 31577
+leti r4 2175
 write a0 16 r4 
-leti r4 31642
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 25303
+leti r4 62
 write a0 16 r4 
-leti r4 38051
+leti r4 62
 write a0 16 r4 
-leti r4 42277
+leti r4 62
 write a0 16 r4 
-leti r4 54959
+leti r4 62
 write a0 16 r4 
-leti r4 42274
+leti r4 62
 write a0 16 r4 
-leti r4 42273
+leti r4 62
 write a0 16 r4 
-leti r4 40224
+leti r4 62
 write a0 16 r4 
-leti r4 44450
+leti r4 62
 write a0 16 r4 
-leti r4 42273
+leti r4 62
 write a0 16 r4 
-leti r4 42339
+leti r4 62
 write a0 16 r4 
-leti r4 44452
+leti r4 62
 write a0 16 r4 
-leti r4 42273
+leti r4 62
 write a0 16 r4 
-leti r4 42339
+leti r4 62
 write a0 16 r4 
-leti r4 42339
+leti r4 62
 write a0 16 r4 
-leti r4 44388
+leti r4 62
 write a0 16 r4 
-leti r4 35932
+leti r4 62
 write a0 16 r4 
-leti r4 35994
+leti r4 62
 write a0 16 r4 
-leti r4 35994
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 35929
+leti r4 62
 write a0 16 r4 
-leti r4 33880
+leti r4 62
 write a0 16 r4 
-leti r4 27538
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 25359
+leti r4 62
 write a0 16 r4 
-leti r4 27538
+leti r4 2110
 write a0 16 r4 
-leti r4 25424
+leti r4 2109
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 25425
+leti r4 61
 write a0 16 r4 
-leti r4 25423
+leti r4 61
 write a0 16 r4 
-leti r4 27473
+leti r4 4159
 write a0 16 r4 
-leti r4 27473
+leti r4 6207
 write a0 16 r4 
-leti r4 27473
+leti r4 57
 write a0 16 r4 
-leti r4 25424
+leti r4 4287
 write a0 16 r4 
-leti r4 25423
+leti r4 58
 write a0 16 r4 
-leti r4 25423
+leti r4 126
 write a0 16 r4 
-leti r4 25424
+leti r4 120
 write a0 16 r4 
-leti r4 27537
+leti r4 373
 write a0 16 r4 
-leti r4 25423
+leti r4 17855
 write a0 16 r4 
-leti r4 27537
+leti r4 5439
 write a0 16 r4 
-leti r4 27473
+leti r4 9855
 write a0 16 r4 
-leti r4 27538
+leti r4 1469
 write a0 16 r4 
-leti r4 25425
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1727
 write a0 16 r4 
-leti r4 33880
+leti r4 1726
 write a0 16 r4 
-leti r4 33879
+leti r4 1725
 write a0 16 r4 
-leti r4 35996
+leti r4 1725
 write a0 16 r4 
-leti r4 33881
+leti r4 1531
 write a0 16 r4 
-leti r4 35993
+leti r4 9855
 write a0 16 r4 
-leti r4 42337
+leti r4 11711
 write a0 16 r4 
-leti r4 44392
+leti r4 15615
 write a0 16 r4 
-leti r4 42216
+leti r4 314
 write a0 16 r4 
-leti r4 46442
+leti r4 123
 write a0 16 r4 
-leti r4 52847
+leti r4 52
 write a0 16 r4 
-leti r4 50733
+leti r4 188
 write a0 16 r4 
-leti r4 54961
+leti r4 191
 write a0 16 r4 
-leti r4 33822
+leti r4 57
 write a0 16 r4 
-leti r4 27414
+leti r4 61
 write a0 16 r4 
-leti r4 27414
+leti r4 63
 write a0 16 r4 
-leti r4 29528
+leti r4 61
 write a0 16 r4 
-leti r4 27349
+leti r4 63
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 27350
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 44328
+leti r4 62
 write a0 16 r4 
-leti r4 52847
+leti r4 62
 write a0 16 r4 
-leti r4 52846
+leti r4 62
 write a0 16 r4 
-leti r4 42274
+leti r4 62
 write a0 16 r4 
-leti r4 42338
+leti r4 62
 write a0 16 r4 
-leti r4 44450
+leti r4 62
 write a0 16 r4 
-leti r4 44450
+leti r4 62
 write a0 16 r4 
-leti r4 42336
+leti r4 62
 write a0 16 r4 
-leti r4 44450
+leti r4 62
 write a0 16 r4 
-leti r4 40224
+leti r4 62
 write a0 16 r4 
-leti r4 35995
+leti r4 62
 write a0 16 r4 
-leti r4 40224
+leti r4 62
 write a0 16 r4 
-leti r4 33882
+leti r4 62
 write a0 16 r4 
-leti r4 35996
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 25361
+leti r4 62
 write a0 16 r4 
-leti r4 35928
+leti r4 62
 write a0 16 r4 
-leti r4 33880
+leti r4 62
 write a0 16 r4 
-leti r4 33879
+leti r4 62
 write a0 16 r4 
-leti r4 33880
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 35994
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 27538
+leti r4 62
 write a0 16 r4 
-leti r4 23310
+leti r4 62
 write a0 16 r4 
-leti r4 27538
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 25425
+leti r4 61
 write a0 16 r4 
-leti r4 25425
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 2110
 write a0 16 r4 
-leti r4 25424
+leti r4 4159
 write a0 16 r4 
-leti r4 25359
+leti r4 2109
 write a0 16 r4 
-leti r4 25423
+leti r4 4159
 write a0 16 r4 
-leti r4 27473
+leti r4 57
 write a0 16 r4 
-leti r4 27473
+leti r4 61
 write a0 16 r4 
-leti r4 27473
+leti r4 61
 write a0 16 r4 
-leti r4 27473
+leti r4 125
 write a0 16 r4 
-leti r4 27473
+leti r4 54
 write a0 16 r4 
-leti r4 25423
+leti r4 243
 write a0 16 r4 
-leti r4 25424
+leti r4 15743
 write a0 16 r4 
-leti r4 25424
+leti r4 5503
 write a0 16 r4 
-leti r4 23310
+leti r4 3583
 write a0 16 r4 
-leti r4 25424
+leti r4 1599
 write a0 16 r4 
-leti r4 27473
+leti r4 1663
 write a0 16 r4 
-leti r4 35994
+leti r4 1597
 write a0 16 r4 
-leti r4 35932
+leti r4 1661
 write a0 16 r4 
-leti r4 33880
+leti r4 1726
 write a0 16 r4 
-leti r4 35994
+leti r4 1659
 write a0 16 r4 
-leti r4 35931
+leti r4 1529
 write a0 16 r4 
-leti r4 33883
+leti r4 7807
 write a0 16 r4 
-leti r4 35995
+leti r4 7551
 write a0 16 r4 
-leti r4 42337
+leti r4 15679
 write a0 16 r4 
-leti r4 42275
+leti r4 178
 write a0 16 r4 
-leti r4 44388
+leti r4 377
 write a0 16 r4 
-leti r4 52910
+leti r4 117
 write a0 16 r4 
-leti r4 61303
+leti r4 121
 write a0 16 r4 
-leti r4 52847
+leti r4 59
 write a0 16 r4 
-leti r4 44392
+leti r4 127
 write a0 16 r4 
-leti r4 27480
+leti r4 63
 write a0 16 r4 
-leti r4 25301
+leti r4 59
 write a0 16 r4 
-leti r4 27415
+leti r4 2175
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 27350
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 31644
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 25367
+leti r4 62
 write a0 16 r4 
-leti r4 35872
+leti r4 62
 write a0 16 r4 
-leti r4 44394
+leti r4 62
 write a0 16 r4 
-leti r4 52847
+leti r4 62
 write a0 16 r4 
-leti r4 52847
+leti r4 62
 write a0 16 r4 
-leti r4 42274
+leti r4 62
 write a0 16 r4 
-leti r4 44451
+leti r4 62
 write a0 16 r4 
-leti r4 42336
+leti r4 62
 write a0 16 r4 
-leti r4 42336
+leti r4 62
 write a0 16 r4 
-leti r4 42337
+leti r4 62
 write a0 16 r4 
-leti r4 42337
+leti r4 62
 write a0 16 r4 
-leti r4 35931
+leti r4 62
 write a0 16 r4 
-leti r4 33817
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 35995
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 33815
+leti r4 62
 write a0 16 r4 
-leti r4 38044
+leti r4 62
 write a0 16 r4 
-leti r4 35929
+leti r4 62
 write a0 16 r4 
-leti r4 33880
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 35995
+leti r4 62
 write a0 16 r4 
-leti r4 35929
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25425
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25359
+leti r4 62
 write a0 16 r4 
-leti r4 23310
+leti r4 62
 write a0 16 r4 
-leti r4 25425
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 27473
+leti r4 61
 write a0 16 r4 
-leti r4 27537
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 2110
 write a0 16 r4 
-leti r4 25424
+leti r4 4223
 write a0 16 r4 
-leti r4 27538
+leti r4 58
 write a0 16 r4 
-leti r4 25424
+leti r4 127
 write a0 16 r4 
-leti r4 27473
+leti r4 127
 write a0 16 r4 
-leti r4 27473
+leti r4 60
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 25423
+leti r4 58
 write a0 16 r4 
-leti r4 25359
+leti r4 190
 write a0 16 r4 
-leti r4 27538
+leti r4 120
 write a0 16 r4 
-leti r4 25425
+leti r4 241
 write a0 16 r4 
-leti r4 27473
+leti r4 19967
 write a0 16 r4 
-leti r4 27538
+leti r4 9791
 write a0 16 r4 
-leti r4 19082
+leti r4 1468
 write a0 16 r4 
-leti r4 27473
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1599
 write a0 16 r4 
-leti r4 35993
+leti r4 1598
 write a0 16 r4 
-leti r4 33882
+leti r4 1663
 write a0 16 r4 
-leti r4 35933
+leti r4 3775
 write a0 16 r4 
-leti r4 35930
+leti r4 1597
 write a0 16 r4 
-leti r4 33881
+leti r4 1597
 write a0 16 r4 
-leti r4 33881
+leti r4 5759
 write a0 16 r4 
-leti r4 35995
+leti r4 1599
 write a0 16 r4 
-leti r4 42399
+leti r4 7615
 write a0 16 r4 
-leti r4 40224
+leti r4 13439
 write a0 16 r4 
-leti r4 42338
+leti r4 312
 write a0 16 r4 
-leti r4 42340
+leti r4 52
 write a0 16 r4 
-leti r4 52911
+leti r4 188
 write a0 16 r4 
-leti r4 50734
+leti r4 126
 write a0 16 r4 
-leti r4 44392
+leti r4 61
 write a0 16 r4 
-leti r4 25366
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 25302
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 42280
+leti r4 62
 write a0 16 r4 
-leti r4 50736
+leti r4 62
 write a0 16 r4 
-leti r4 52846
+leti r4 62
 write a0 16 r4 
-leti r4 52845
+leti r4 62
 write a0 16 r4 
-leti r4 42338
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 42338
+leti r4 62
 write a0 16 r4 
-leti r4 42338
+leti r4 62
 write a0 16 r4 
-leti r4 35931
+leti r4 62
 write a0 16 r4 
-leti r4 42339
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 61
 write a0 16 r4 
-leti r4 35931
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 35929
+leti r4 62
 write a0 16 r4 
-leti r4 35994
+leti r4 62
 write a0 16 r4 
-leti r4 33879
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 35931
+leti r4 62
 write a0 16 r4 
-leti r4 25361
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 42338
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 23375
+leti r4 62
 write a0 16 r4 
-leti r4 27538
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 2110
 write a0 16 r4 
-leti r4 27537
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27536
+leti r4 2110
 write a0 16 r4 
-leti r4 25423
+leti r4 2110
 write a0 16 r4 
-leti r4 25425
+leti r4 60
 write a0 16 r4 
-leti r4 25424
+leti r4 2175
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21197
+leti r4 63
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 23245
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 60
 write a0 16 r4 
-leti r4 27538
+leti r4 60
 write a0 16 r4 
-leti r4 21131
+leti r4 191
 write a0 16 r4 
-leti r4 21197
+leti r4 120
 write a0 16 r4 
-leti r4 25425
+leti r4 176
 write a0 16 r4 
-leti r4 25424
+leti r4 11583
 write a0 16 r4 
-leti r4 23309
+leti r4 9727
 write a0 16 r4 
-leti r4 25424
+leti r4 1471
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 35929
+leti r4 1534
 write a0 16 r4 
-leti r4 33879
+leti r4 3711
 write a0 16 r4 
-leti r4 25423
+leti r4 3711
 write a0 16 r4 
-leti r4 25424
+leti r4 1662
 write a0 16 r4 
-leti r4 35994
+leti r4 1595
 write a0 16 r4 
-leti r4 33817
+leti r4 1723
 write a0 16 r4 
-leti r4 35932
+leti r4 1598
 write a0 16 r4 
-leti r4 33881
+leti r4 15935
 write a0 16 r4 
-leti r4 42338
+leti r4 11391
 write a0 16 r4 
-leti r4 42274
+leti r4 436
 write a0 16 r4 
-leti r4 42275
+leti r4 177
 write a0 16 r4 
-leti r4 52848
+leti r4 184
 write a0 16 r4 
-leti r4 42279
+leti r4 58
 write a0 16 r4 
-leti r4 35937
+leti r4 62
 write a0 16 r4 
-leti r4 35937
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 2110
 write a0 16 r4 
-leti r4 29465
+leti r4 2110
 write a0 16 r4 
-leti r4 27415
+leti r4 2110
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 31644
+leti r4 63
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 25366
+leti r4 61
 write a0 16 r4 
-leti r4 35935
+leti r4 63
 write a0 16 r4 
-leti r4 52847
+leti r4 60
 write a0 16 r4 
-leti r4 61304
+leti r4 62
 write a0 16 r4 
-leti r4 52844
+leti r4 62
 write a0 16 r4 
-leti r4 44388
+leti r4 62
 write a0 16 r4 
-leti r4 33817
+leti r4 62
 write a0 16 r4 
-leti r4 42338
+leti r4 62
 write a0 16 r4 
-leti r4 42337
+leti r4 62
 write a0 16 r4 
-leti r4 35995
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 61
 write a0 16 r4 
-leti r4 35930
+leti r4 60
 write a0 16 r4 
-leti r4 33881
+leti r4 60
 write a0 16 r4 
-leti r4 35994
+leti r4 60
 write a0 16 r4 
-leti r4 33880
+leti r4 61
 write a0 16 r4 
-leti r4 33881
+leti r4 61
 write a0 16 r4 
-leti r4 27537
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 25486
+leti r4 61
 write a0 16 r4 
-leti r4 27536
+leti r4 61
 write a0 16 r4 
-leti r4 42274
+leti r4 61
 write a0 16 r4 
-leti r4 52845
+leti r4 61
 write a0 16 r4 
-leti r4 42340
+leti r4 61
 write a0 16 r4 
-leti r4 25425
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 2110
 write a0 16 r4 
-leti r4 21260
+leti r4 2110
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21194
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 23309
+leti r4 62
 write a0 16 r4 
-leti r4 23309
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 2110
 write a0 16 r4 
-leti r4 25422
+leti r4 2110
 write a0 16 r4 
-leti r4 23308
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21194
+leti r4 62
 write a0 16 r4 
-leti r4 23309
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21197
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 63
 write a0 16 r4 
-leti r4 23245
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 125
 write a0 16 r4 
-leti r4 23310
+leti r4 54
 write a0 16 r4 
-leti r4 23309
+leti r4 307
 write a0 16 r4 
-leti r4 19082
+leti r4 15679
 write a0 16 r4 
-leti r4 21196
+leti r4 9727
 write a0 16 r4 
-leti r4 25424
+leti r4 1535
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 33880
+leti r4 1598
 write a0 16 r4 
-leti r4 27537
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1531
 write a0 16 r4 
-leti r4 25424
+leti r4 3710
 write a0 16 r4 
-leti r4 25424
+leti r4 1661
 write a0 16 r4 
-leti r4 33815
+leti r4 1660
 write a0 16 r4 
-leti r4 35995
+leti r4 1727
 write a0 16 r4 
-leti r4 35931
+leti r4 1663
 write a0 16 r4 
-leti r4 44386
+leti r4 1535
 write a0 16 r4 
-leti r4 42336
+leti r4 11839
 write a0 16 r4 
-leti r4 42338
+leti r4 11519
 write a0 16 r4 
-leti r4 52847
+leti r4 240
 write a0 16 r4 
-leti r4 52784
+leti r4 248
 write a0 16 r4 
-leti r4 44328
+leti r4 60
 write a0 16 r4 
-leti r4 44393
+leti r4 60
 write a0 16 r4 
-leti r4 25365
+leti r4 63
 write a0 16 r4 
-leti r4 25365
+leti r4 60
 write a0 16 r4 
-leti r4 27414
+leti r4 58
 write a0 16 r4 
-leti r4 27414
+leti r4 123
 write a0 16 r4 
-leti r4 31578
+leti r4 2303
 write a0 16 r4 
-leti r4 29463
+leti r4 59
 write a0 16 r4 
-leti r4 27415
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 2111
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 2110
 write a0 16 r4 
-leti r4 29465
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29531
+leti r4 63
 write a0 16 r4 
-leti r4 25303
+leti r4 2111
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 27481
+leti r4 61
 write a0 16 r4 
-leti r4 44328
+leti r4 61
 write a0 16 r4 
-leti r4 54897
+leti r4 60
 write a0 16 r4 
-leti r4 61304
+leti r4 63
 write a0 16 r4 
-leti r4 52848
+leti r4 62
 write a0 16 r4 
-leti r4 44388
+leti r4 62
 write a0 16 r4 
-leti r4 33817
+leti r4 62
 write a0 16 r4 
-leti r4 35996
+leti r4 62
 write a0 16 r4 
-leti r4 42337
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 61
 write a0 16 r4 
-leti r4 35930
+leti r4 60
 write a0 16 r4 
-leti r4 33881
+leti r4 60
 write a0 16 r4 
-leti r4 35994
+leti r4 60
 write a0 16 r4 
-leti r4 35994
+leti r4 61
 write a0 16 r4 
-leti r4 25425
+leti r4 61
 write a0 16 r4 
-leti r4 25359
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27537
+leti r4 61
 write a0 16 r4 
-leti r4 25423
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 44389
+leti r4 61
 write a0 16 r4 
-leti r4 61304
+leti r4 61
 write a0 16 r4 
-leti r4 52847
+leti r4 61
 write a0 16 r4 
-leti r4 33882
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21198
+leti r4 62
 write a0 16 r4 
-leti r4 19084
+leti r4 61
 write a0 16 r4 
-leti r4 21197
+leti r4 61
 write a0 16 r4 
-leti r4 21197
+leti r4 61
 write a0 16 r4 
-leti r4 21132
+leti r4 62
 write a0 16 r4 
-leti r4 23246
+leti r4 62
 write a0 16 r4 
-leti r4 21198
+leti r4 62
 write a0 16 r4 
-leti r4 21133
+leti r4 62
 write a0 16 r4 
-leti r4 21197
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21131
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 23245
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 63
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 59
 write a0 16 r4 
-leti r4 21196
+leti r4 250
 write a0 16 r4 
-leti r4 21195
+leti r4 110
 write a0 16 r4 
-leti r4 23245
+leti r4 17855
 write a0 16 r4 
-leti r4 25423
+leti r4 9727
 write a0 16 r4 
-leti r4 25424
+leti r4 1470
 write a0 16 r4 
-leti r4 27538
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1662
 write a0 16 r4 
-leti r4 25424
+leti r4 3839
 write a0 16 r4 
-leti r4 25424
+leti r4 1529
 write a0 16 r4 
-leti r4 25423
+leti r4 3775
 write a0 16 r4 
-leti r4 29652
+leti r4 1596
 write a0 16 r4 
-leti r4 33880
+leti r4 1662
 write a0 16 r4 
-leti r4 35930
+leti r4 1595
 write a0 16 r4 
-leti r4 33816
+leti r4 1596
 write a0 16 r4 
-leti r4 38108
+leti r4 3647
 write a0 16 r4 
-leti r4 33880
+leti r4 9727
 write a0 16 r4 
-leti r4 42339
+leti r4 20031
 write a0 16 r4 
-leti r4 52846
+leti r4 237
 write a0 16 r4 
-leti r4 52848
+leti r4 249
 write a0 16 r4 
-leti r4 42279
+leti r4 124
 write a0 16 r4 
-leti r4 35937
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 27414
+leti r4 125
 write a0 16 r4 
-leti r4 27414
+leti r4 58
 write a0 16 r4 
-leti r4 29463
+leti r4 57
 write a0 16 r4 
-leti r4 27415
+leti r4 57
 write a0 16 r4 
-leti r4 29464
+leti r4 191
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 27418
+leti r4 61
 write a0 16 r4 
-leti r4 27418
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 33758
+leti r4 63
 write a0 16 r4 
-leti r4 52848
+leti r4 62
 write a0 16 r4 
-leti r4 61240
+leti r4 61
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 44328
+leti r4 62
 write a0 16 r4 
-leti r4 35931
+leti r4 62
 write a0 16 r4 
-leti r4 33882
+leti r4 62
 write a0 16 r4 
-leti r4 33882
+leti r4 62
 write a0 16 r4 
-leti r4 35995
+leti r4 62
 write a0 16 r4 
-leti r4 33816
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 35996
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 61
 write a0 16 r4 
-leti r4 25425
+leti r4 62
 write a0 16 r4 
-leti r4 25425
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27538
+leti r4 62
 write a0 16 r4 
-leti r4 23310
+leti r4 62
 write a0 16 r4 
-leti r4 27537
+leti r4 62
 write a0 16 r4 
-leti r4 21197
+leti r4 62
 write a0 16 r4 
-leti r4 33817
+leti r4 62
 write a0 16 r4 
-leti r4 54961
+leti r4 62
 write a0 16 r4 
-leti r4 59127
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 42339
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 23309
+leti r4 60
 write a0 16 r4 
-leti r4 21194
+leti r4 123
 write a0 16 r4 
-leti r4 21195
+leti r4 123
 write a0 16 r4 
-leti r4 23308
+leti r4 60
 write a0 16 r4 
-leti r4 21195
+leti r4 60
 write a0 16 r4 
-leti r4 19146
+leti r4 61
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 23309
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21197
+leti r4 62
 write a0 16 r4 
-leti r4 21197
+leti r4 62
 write a0 16 r4 
-leti r4 23245
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 63
 write a0 16 r4 
-leti r4 21196
+leti r4 127
 write a0 16 r4 
-leti r4 21195
+leti r4 58
 write a0 16 r4 
-leti r4 21195
+leti r4 57
 write a0 16 r4 
-leti r4 21196
+leti r4 317
 write a0 16 r4 
-leti r4 21196
+leti r4 111
 write a0 16 r4 
-leti r4 21196
+leti r4 11583
 write a0 16 r4 
-leti r4 25425
+leti r4 7679
 write a0 16 r4 
-leti r4 25425
+leti r4 3711
 write a0 16 r4 
-leti r4 25424
+leti r4 1660
 write a0 16 r4 
-leti r4 25424
+leti r4 1592
 write a0 16 r4 
-leti r4 27537
+leti r4 3839
 write a0 16 r4 
-leti r4 27473
+leti r4 1662
 write a0 16 r4 
-leti r4 25425
+leti r4 1468
 write a0 16 r4 
-leti r4 25425
+leti r4 5759
 write a0 16 r4 
-leti r4 35994
+leti r4 5695
 write a0 16 r4 
-leti r4 33881
+leti r4 7807
 write a0 16 r4 
-leti r4 33881
+leti r4 1535
 write a0 16 r4 
-leti r4 35995
+leti r4 1535
 write a0 16 r4 
-leti r4 42338
+leti r4 1407
 write a0 16 r4 
-leti r4 42339
+leti r4 9663
 write a0 16 r4 
-leti r4 52846
+leti r4 234
 write a0 16 r4 
-leti r4 52848
+leti r4 309
 write a0 16 r4 
-leti r4 50735
+leti r4 122
 write a0 16 r4 
-leti r4 42279
+leti r4 59
 write a0 16 r4 
-leti r4 37985
+leti r4 4158
 write a0 16 r4 
-leti r4 25301
+leti r4 2109
 write a0 16 r4 
-leti r4 29528
+leti r4 6335
 write a0 16 r4 
-leti r4 27415
+leti r4 57
 write a0 16 r4 
-leti r4 31578
+leti r4 190
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 27415
+leti r4 2110
 write a0 16 r4 
-leti r4 27415
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 19029
+leti r4 127
 write a0 16 r4 
-leti r4 27483
+leti r4 61
 write a0 16 r4 
-leti r4 31774
+leti r4 127
 write a0 16 r4 
-leti r4 52849
+leti r4 61
 write a0 16 r4 
-leti r4 54961
+leti r4 60
 write a0 16 r4 
-leti r4 59190
+leti r4 127
 write a0 16 r4 
-leti r4 54896
+leti r4 61
 write a0 16 r4 
-leti r4 44326
+leti r4 127
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 35995
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 33882
+leti r4 62
 write a0 16 r4 
-leti r4 35995
+leti r4 62
 write a0 16 r4 
-leti r4 33880
+leti r4 62
 write a0 16 r4 
-leti r4 27539
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25425
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 42276
+leti r4 62
 write a0 16 r4 
-leti r4 61240
+leti r4 62
 write a0 16 r4 
-leti r4 61305
+leti r4 62
 write a0 16 r4 
-leti r4 59191
+leti r4 62
 write a0 16 r4 
-leti r4 54960
+leti r4 62
 write a0 16 r4 
-leti r4 35996
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 60
 write a0 16 r4 
-leti r4 21195
+leti r4 123
 write a0 16 r4 
-leti r4 21196
+leti r4 123
 write a0 16 r4 
-leti r4 21131
+leti r4 124
 write a0 16 r4 
-leti r4 21195
+leti r4 60
 write a0 16 r4 
-leti r4 23310
+leti r4 61
 write a0 16 r4 
-leti r4 21197
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 127
 write a0 16 r4 
-leti r4 21196
+leti r4 57
 write a0 16 r4 
-leti r4 21196
+leti r4 126
 write a0 16 r4 
-leti r4 21196
+leti r4 127
 write a0 16 r4 
-leti r4 21196
+leti r4 59
 write a0 16 r4 
-leti r4 21196
+leti r4 120
 write a0 16 r4 
-leti r4 21195
+leti r4 374
 write a0 16 r4 
-leti r4 25424
+leti r4 9471
 write a0 16 r4 
-leti r4 25424
+leti r4 7743
 write a0 16 r4 
-leti r4 27473
+leti r4 1596
 write a0 16 r4 
-leti r4 25424
+leti r4 1727
 write a0 16 r4 
-leti r4 25424
+leti r4 1596
 write a0 16 r4 
-leti r4 25424
+leti r4 1599
 write a0 16 r4 
-leti r4 25423
+leti r4 5759
 write a0 16 r4 
-leti r4 27473
+leti r4 3583
 write a0 16 r4 
-leti r4 25423
+leti r4 3519
 write a0 16 r4 
-leti r4 27473
+leti r4 9855
 write a0 16 r4 
-leti r4 35931
+leti r4 1534
 write a0 16 r4 
-leti r4 33816
+leti r4 1663
 write a0 16 r4 
-leti r4 42337
+leti r4 3839
 write a0 16 r4 
-leti r4 33880
+leti r4 1599
 write a0 16 r4 
-leti r4 42340
+leti r4 11903
 write a0 16 r4 
-leti r4 61304
+leti r4 9471
 write a0 16 r4 
-leti r4 52848
+leti r4 179
 write a0 16 r4 
-leti r4 50734
+leti r4 186
 write a0 16 r4 
-leti r4 37985
+leti r4 2173
 write a0 16 r4 
-leti r4 29529
+leti r4 4158
 write a0 16 r4 
-leti r4 27351
+leti r4 56
 write a0 16 r4 
-leti r4 29530
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29465
+leti r4 124
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 21142
+leti r4 60
 write a0 16 r4 
-leti r4 31775
+leti r4 60
 write a0 16 r4 
-leti r4 52912
+leti r4 61
 write a0 16 r4 
-leti r4 50797
+leti r4 61
 write a0 16 r4 
-leti r4 50733
+leti r4 61
 write a0 16 r4 
-leti r4 52847
+leti r4 61
 write a0 16 r4 
-leti r4 54959
+leti r4 60
 write a0 16 r4 
-leti r4 33819
+leti r4 60
 write a0 16 r4 
-leti r4 23311
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 35994
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 25360
+leti r4 62
 write a0 16 r4 
-leti r4 25425
+leti r4 62
 write a0 16 r4 
-leti r4 23310
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25425
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 27535
+leti r4 61
 write a0 16 r4 
-leti r4 54960
+leti r4 61
 write a0 16 r4 
-leti r4 61241
+leti r4 61
 write a0 16 r4 
-leti r4 59190
+leti r4 61
 write a0 16 r4 
-leti r4 61368
+leti r4 61
 write a0 16 r4 
-leti r4 61241
+leti r4 62
 write a0 16 r4 
-leti r4 42277
+leti r4 2110
 write a0 16 r4 
-leti r4 21198
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 23245
+leti r4 61
 write a0 16 r4 
-leti r4 23309
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21131
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 17031
+leti r4 62
 write a0 16 r4 
-leti r4 19080
+leti r4 61
 write a0 16 r4 
-leti r4 19080
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 60
 write a0 16 r4 
-leti r4 21195
+leti r4 60
 write a0 16 r4 
-leti r4 21195
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 60
 write a0 16 r4 
-leti r4 21195
+leti r4 126
 write a0 16 r4 
-leti r4 21196
+leti r4 58
 write a0 16 r4 
-leti r4 21196
+leti r4 127
 write a0 16 r4 
-leti r4 21196
+leti r4 59
 write a0 16 r4 
-leti r4 21196
+leti r4 191
 write a0 16 r4 
-leti r4 21196
+leti r4 54
 write a0 16 r4 
-leti r4 25424
+leti r4 370
 write a0 16 r4 
-leti r4 25424
+leti r4 13759
 write a0 16 r4 
-leti r4 25424
+leti r4 3583
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1727
 write a0 16 r4 
-leti r4 25424
+leti r4 1533
 write a0 16 r4 
-leti r4 25424
+leti r4 5823
 write a0 16 r4 
-leti r4 27537
+leti r4 1471
 write a0 16 r4 
-leti r4 25422
+leti r4 7807
 write a0 16 r4 
-leti r4 35995
+leti r4 1470
 write a0 16 r4 
-leti r4 35931
+leti r4 1663
 write a0 16 r4 
-leti r4 35930
+leti r4 1727
 write a0 16 r4 
-leti r4 35993
+leti r4 1594
 write a0 16 r4 
-leti r4 33881
+leti r4 1595
 write a0 16 r4 
-leti r4 44388
+leti r4 1535
 write a0 16 r4 
-leti r4 50734
+leti r4 7679
 write a0 16 r4 
-leti r4 61370
+leti r4 17855
 write a0 16 r4 
-leti r4 50735
+leti r4 176
 write a0 16 r4 
-leti r4 42279
+leti r4 117
 write a0 16 r4 
-leti r4 35938
+leti r4 122
 write a0 16 r4 
-leti r4 37986
+leti r4 126
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 127
 write a0 16 r4 
-leti r4 27350
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 35939
+leti r4 61
 write a0 16 r4 
-leti r4 52914
+leti r4 191
 write a0 16 r4 
-leti r4 59254
+leti r4 58
 write a0 16 r4 
-leti r4 50797
+leti r4 124
 write a0 16 r4 
-leti r4 54961
+leti r4 124
 write a0 16 r4 
-leti r4 52846
+leti r4 57
 write a0 16 r4 
-leti r4 40225
+leti r4 191
 write a0 16 r4 
-leti r4 35995
+leti r4 61
 write a0 16 r4 
-leti r4 35995
+leti r4 61
 write a0 16 r4 
-leti r4 33815
+leti r4 62
 write a0 16 r4 
-leti r4 35994
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 35994
+leti r4 61
 write a0 16 r4 
-leti r4 27539
+leti r4 61
 write a0 16 r4 
-leti r4 33880
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 27537
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 23309
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 23374
+leti r4 61
 write a0 16 r4 
-leti r4 50733
+leti r4 60
 write a0 16 r4 
-leti r4 61306
+leti r4 60
 write a0 16 r4 
-leti r4 61304
+leti r4 60
 write a0 16 r4 
-leti r4 61304
+leti r4 61
 write a0 16 r4 
-leti r4 63356
+leti r4 61
 write a0 16 r4 
-leti r4 52785
+leti r4 2110
 write a0 16 r4 
-leti r4 25364
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 60
 write a0 16 r4 
-leti r4 21195
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 60
 write a0 16 r4 
-leti r4 23309
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 60
 write a0 16 r4 
-leti r4 21195
+leti r4 127
 write a0 16 r4 
-leti r4 21195
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 60
 write a0 16 r4 
-leti r4 21195
+leti r4 63
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 190
 write a0 16 r4 
-leti r4 27537
+leti r4 246
 write a0 16 r4 
-leti r4 27473
+leti r4 237
 write a0 16 r4 
-leti r4 25424
+leti r4 9663
 write a0 16 r4 
-leti r4 25424
+leti r4 1471
 write a0 16 r4 
-leti r4 27537
+leti r4 1599
 write a0 16 r4 
-leti r4 27538
+leti r4 1727
 write a0 16 r4 
-leti r4 25424
+leti r4 1469
 write a0 16 r4 
-leti r4 25422
+leti r4 3711
 write a0 16 r4 
-leti r4 27537
+leti r4 3711
 write a0 16 r4 
-leti r4 25424
+leti r4 1599
 write a0 16 r4 
-leti r4 23311
+leti r4 1662
 write a0 16 r4 
-leti r4 33881
+leti r4 1594
 write a0 16 r4 
-leti r4 33881
+leti r4 1725
 write a0 16 r4 
-leti r4 33818
+leti r4 1791
 write a0 16 r4 
-leti r4 35935
+leti r4 1663
 write a0 16 r4 
-leti r4 52848
+leti r4 1535
 write a0 16 r4 
-leti r4 59192
+leti r4 5503
 write a0 16 r4 
-leti r4 52850
+leti r4 11647
 write a0 16 r4 
-leti r4 44393
+leti r4 15615
 write a0 16 r4 
-leti r4 42280
+leti r4 243
 write a0 16 r4 
-leti r4 44328
+leti r4 250
 write a0 16 r4 
-leti r4 29530
+leti r4 58
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 29528
+leti r4 2175
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2109
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 2110
 write a0 16 r4 
-leti r4 27351
+leti r4 4158
 write a0 16 r4 
-leti r4 29465
+leti r4 2109
 write a0 16 r4 
-leti r4 42215
+leti r4 59
 write a0 16 r4 
-leti r4 52848
+leti r4 57
 write a0 16 r4 
-leti r4 61302
+leti r4 122
 write a0 16 r4 
-leti r4 54960
+leti r4 120
 write a0 16 r4 
-leti r4 52847
+leti r4 120
 write a0 16 r4 
-leti r4 52846
+leti r4 121
 write a0 16 r4 
-leti r4 40224
+leti r4 56
 write a0 16 r4 
-leti r4 27537
+leti r4 58
 write a0 16 r4 
-leti r4 35930
+leti r4 59
 write a0 16 r4 
-leti r4 35994
+leti r4 60
 write a0 16 r4 
-leti r4 33881
+leti r4 60
 write a0 16 r4 
-leti r4 35930
+leti r4 60
 write a0 16 r4 
-leti r4 35994
+leti r4 60
 write a0 16 r4 
-leti r4 33815
+leti r4 60
 write a0 16 r4 
-leti r4 25423
+leti r4 59
 write a0 16 r4 
-leti r4 27538
+leti r4 60
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 23245
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 35935
+leti r4 61
 write a0 16 r4 
-leti r4 61304
+leti r4 60
 write a0 16 r4 
-leti r4 59192
+leti r4 60
 write a0 16 r4 
-leti r4 52851
+leti r4 60
 write a0 16 r4 
-leti r4 48623
+leti r4 61
 write a0 16 r4 
-leti r4 59191
+leti r4 61
 write a0 16 r4 
-leti r4 52849
+leti r4 62
 write a0 16 r4 
-leti r4 35873
+leti r4 62
 write a0 16 r4 
-leti r4 25301
+leti r4 2110
 write a0 16 r4 
-leti r4 27480
+leti r4 2110
 write a0 16 r4 
-leti r4 27480
+leti r4 2110
 write a0 16 r4 
-leti r4 25300
+leti r4 2110
 write a0 16 r4 
-leti r4 27480
+leti r4 62
 write a0 16 r4 
-leti r4 35934
+leti r4 62
 write a0 16 r4 
-leti r4 35934
+leti r4 62
 write a0 16 r4 
-leti r4 35933
+leti r4 61
 write a0 16 r4 
-leti r4 35933
+leti r4 61
 write a0 16 r4 
-leti r4 40225
+leti r4 61
 write a0 16 r4 
-leti r4 44388
+leti r4 62
 write a0 16 r4 
-leti r4 42338
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 27474
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 2110
 write a0 16 r4 
-leti r4 21195
+leti r4 2110
 write a0 16 r4 
-leti r4 21196
+leti r4 2175
 write a0 16 r4 
-leti r4 21196
+leti r4 57
 write a0 16 r4 
-leti r4 21196
+leti r4 127
 write a0 16 r4 
-leti r4 21196
+leti r4 191
 write a0 16 r4 
-leti r4 21196
+leti r4 59
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 2111
 write a0 16 r4 
-leti r4 21195
+leti r4 59
 write a0 16 r4 
-leti r4 21194
+leti r4 58
 write a0 16 r4 
-leti r4 25423
+leti r4 250
 write a0 16 r4 
-leti r4 25424
+leti r4 241
 write a0 16 r4 
-leti r4 27473
+leti r4 11775
 write a0 16 r4 
-leti r4 25424
+leti r4 5695
 write a0 16 r4 
-leti r4 25359
+leti r4 1534
 write a0 16 r4 
-leti r4 25424
+leti r4 1597
 write a0 16 r4 
-leti r4 27472
+leti r4 1727
 write a0 16 r4 
-leti r4 25426
+leti r4 1598
 write a0 16 r4 
-leti r4 25425
+leti r4 1727
 write a0 16 r4 
-leti r4 27473
+leti r4 1659
 write a0 16 r4 
-leti r4 27474
+leti r4 3775
 write a0 16 r4 
-leti r4 35934
+leti r4 1660
 write a0 16 r4 
-leti r4 25365
+leti r4 1532
 write a0 16 r4 
-leti r4 35936
+leti r4 1599
 write a0 16 r4 
-leti r4 44328
+leti r4 3711
 write a0 16 r4 
-leti r4 61240
+leti r4 1535
 write a0 16 r4 
-leti r4 61241
+leti r4 3647
 write a0 16 r4 
-leti r4 52849
+leti r4 7743
 write a0 16 r4 
-leti r4 42280
+leti r4 11647
 write a0 16 r4 
-leti r4 46443
+leti r4 304
 write a0 16 r4 
-leti r4 35872
+leti r4 182
 write a0 16 r4 
-leti r4 25301
+leti r4 59
 write a0 16 r4 
-leti r4 27414
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 27415
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 61
 write a0 16 r4 
-leti r4 23187
+leti r4 4157
 write a0 16 r4 
-leti r4 27350
+leti r4 58
 write a0 16 r4 
-leti r4 46377
+leti r4 182
 write a0 16 r4 
-leti r4 52848
+leti r4 309
 write a0 16 r4 
-leti r4 54895
+leti r4 19647
 write a0 16 r4 
-leti r4 52782
+leti r4 19647
 write a0 16 r4 
-leti r4 52848
+leti r4 19711
 write a0 16 r4 
-leti r4 52847
+leti r4 17599
 write a0 16 r4 
-leti r4 35996
+leti r4 308
 write a0 16 r4 
-leti r4 25422
+leti r4 244
 write a0 16 r4 
-leti r4 35929
+leti r4 245
 write a0 16 r4 
-leti r4 33881
+leti r4 245
 write a0 16 r4 
-leti r4 35930
+leti r4 182
 write a0 16 r4 
-leti r4 35930
+leti r4 182
 write a0 16 r4 
-leti r4 25424
+leti r4 182
 write a0 16 r4 
-leti r4 27473
+leti r4 245
 write a0 16 r4 
-leti r4 27537
+leti r4 245
 write a0 16 r4 
-leti r4 25423
+leti r4 245
 write a0 16 r4 
-leti r4 25424
+leti r4 183
 write a0 16 r4 
-leti r4 27537
+leti r4 184
 write a0 16 r4 
-leti r4 25423
+leti r4 184
 write a0 16 r4 
-leti r4 21196
+leti r4 184
 write a0 16 r4 
-leti r4 21196
+leti r4 121
 write a0 16 r4 
-leti r4 21196
+leti r4 121
 write a0 16 r4 
-leti r4 21196
+leti r4 122
 write a0 16 r4 
-leti r4 21195
+leti r4 122
 write a0 16 r4 
-leti r4 44332
+leti r4 122
 write a0 16 r4 
-leti r4 59191
+leti r4 122
 write a0 16 r4 
-leti r4 61305
+leti r4 123
 write a0 16 r4 
-leti r4 50676
+leti r4 123
 write a0 16 r4 
-leti r4 52788
+leti r4 60
 write a0 16 r4 
-leti r4 61304
+leti r4 61
 write a0 16 r4 
-leti r4 61304
+leti r4 62
 write a0 16 r4 
-leti r4 44268
+leti r4 62
 write a0 16 r4 
-leti r4 44329
+leti r4 2109
 write a0 16 r4 
-leti r4 44328
+leti r4 2109
 write a0 16 r4 
-leti r4 44328
+leti r4 2110
 write a0 16 r4 
-leti r4 46442
+leti r4 2110
 write a0 16 r4 
-leti r4 50735
+leti r4 2110
 write a0 16 r4 
-leti r4 54896
+leti r4 62
 write a0 16 r4 
-leti r4 52782
+leti r4 62
 write a0 16 r4 
-leti r4 52846
+leti r4 61
 write a0 16 r4 
-leti r4 59191
+leti r4 61
 write a0 16 r4 
-leti r4 63354
+leti r4 61
 write a0 16 r4 
-leti r4 61303
+leti r4 62
 write a0 16 r4 
-leti r4 52845
+leti r4 62
 write a0 16 r4 
-leti r4 35932
+leti r4 62
 write a0 16 r4 
-leti r4 25360
+leti r4 2110
 write a0 16 r4 
-leti r4 19082
+leti r4 2110
 write a0 16 r4 
-leti r4 21195
+leti r4 2110
 write a0 16 r4 
-leti r4 21195
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 2175
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 127
 write a0 16 r4 
-leti r4 21196
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 63
 write a0 16 r4 
-leti r4 27472
+leti r4 125
 write a0 16 r4 
-leti r4 25424
+leti r4 119
 write a0 16 r4 
-leti r4 27473
+leti r4 17727
 write a0 16 r4 
-leti r4 25425
+leti r4 7487
 write a0 16 r4 
-leti r4 25423
+leti r4 1535
 write a0 16 r4 
-leti r4 27537
+leti r4 1727
 write a0 16 r4 
-leti r4 25423
+leti r4 1660
 write a0 16 r4 
-leti r4 35931
+leti r4 1662
 write a0 16 r4 
-leti r4 33881
+leti r4 1660
 write a0 16 r4 
-leti r4 33880
+leti r4 1727
 write a0 16 r4 
-leti r4 35930
+leti r4 1659
 write a0 16 r4 
-leti r4 35869
+leti r4 1595
 write a0 16 r4 
-leti r4 25302
+leti r4 5759
 write a0 16 r4 
-leti r4 29531
+leti r4 5759
 write a0 16 r4 
-leti r4 35872
+leti r4 1534
 write a0 16 r4 
-leti r4 61305
+leti r4 1663
 write a0 16 r4 
-leti r4 61241
+leti r4 1663
 write a0 16 r4 
-leti r4 50736
+leti r4 1596
 write a0 16 r4 
-leti r4 44395
+leti r4 5695
 write a0 16 r4 
-leti r4 42215
+leti r4 13759
 write a0 16 r4 
-leti r4 44392
+leti r4 305
 write a0 16 r4 
-leti r4 27415
+leti r4 121
 write a0 16 r4 
-leti r4 27413
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 57
 write a0 16 r4 
-leti r4 25367
+leti r4 2235
 write a0 16 r4 
-leti r4 35872
+leti r4 245
 write a0 16 r4 
-leti r4 52846
+leti r4 430
 write a0 16 r4 
-leti r4 52849
+leti r4 5503
 write a0 16 r4 
-leti r4 44394
+leti r4 9791
 write a0 16 r4 
-leti r4 42280
+leti r4 5567
 write a0 16 r4 
-leti r4 52848
+leti r4 5567
 write a0 16 r4 
-leti r4 44388
+leti r4 5567
 write a0 16 r4 
-leti r4 33881
+leti r4 5567
 write a0 16 r4 
-leti r4 25424
+leti r4 7615
 write a0 16 r4 
-leti r4 25424
+leti r4 9663
 write a0 16 r4 
-leti r4 33880
+leti r4 9663
 write a0 16 r4 
-leti r4 25425
+leti r4 9599
 write a0 16 r4 
-leti r4 25425
+leti r4 9599
 write a0 16 r4 
-leti r4 25424
+leti r4 9599
 write a0 16 r4 
-leti r4 25425
+leti r4 9663
 write a0 16 r4 
-leti r4 27473
+leti r4 9663
 write a0 16 r4 
-leti r4 21195
+leti r4 9663
 write a0 16 r4 
-leti r4 27536
+leti r4 9663
 write a0 16 r4 
-leti r4 21196
+leti r4 9663
 write a0 16 r4 
-leti r4 25424
+leti r4 7423
 write a0 16 r4 
-leti r4 27538
+leti r4 561
 write a0 16 r4 
-leti r4 21131
+leti r4 366
 write a0 16 r4 
-leti r4 16968
+leti r4 302
 write a0 16 r4 
-leti r4 21196
+leti r4 373
 write a0 16 r4 
-leti r4 27473
+leti r4 176
 write a0 16 r4 
-leti r4 52848
+leti r4 244
 write a0 16 r4 
-leti r4 61304
+leti r4 247
 write a0 16 r4 
-leti r4 50735
+leti r4 119
 write a0 16 r4 
-leti r4 50736
+leti r4 122
 write a0 16 r4 
-leti r4 50801
+leti r4 59
 write a0 16 r4 
-leti r4 50737
+leti r4 63
 write a0 16 r4 
-leti r4 59194
+leti r4 61
 write a0 16 r4 
-leti r4 50740
+leti r4 63
 write a0 16 r4 
-leti r4 52784
+leti r4 125
 write a0 16 r4 
-leti r4 63354
+leti r4 56
 write a0 16 r4 
-leti r4 61304
+leti r4 126
 write a0 16 r4 
-leti r4 59191
+leti r4 61
 write a0 16 r4 
-leti r4 61305
+leti r4 59
 write a0 16 r4 
-leti r4 59192
+leti r4 63
 write a0 16 r4 
-leti r4 61306
+leti r4 2111
 write a0 16 r4 
-leti r4 61241
+leti r4 61
 write a0 16 r4 
-leti r4 61240
+leti r4 62
 write a0 16 r4 
-leti r4 61304
+leti r4 61
 write a0 16 r4 
-leti r4 54959
+leti r4 61
 write a0 16 r4 
-leti r4 33882
+leti r4 61
 write a0 16 r4 
-leti r4 21197
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 19081
+leti r4 2109
 write a0 16 r4 
-leti r4 16966
+leti r4 2110
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 23245
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 60
 write a0 16 r4 
-leti r4 23309
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 60
 write a0 16 r4 
-leti r4 25423
+leti r4 2239
 write a0 16 r4 
-leti r4 25424
+leti r4 58
 write a0 16 r4 
-leti r4 25424
+leti r4 248
 write a0 16 r4 
-leti r4 25424
+leti r4 15679
 write a0 16 r4 
-leti r4 25424
+leti r4 7615
 write a0 16 r4 
-leti r4 27473
+leti r4 1598
 write a0 16 r4 
-leti r4 25424
+leti r4 1661
 write a0 16 r4 
-leti r4 35930
+leti r4 1596
 write a0 16 r4 
-leti r4 52909
+leti r4 1727
 write a0 16 r4 
-leti r4 52848
+leti r4 1659
 write a0 16 r4 
-leti r4 50735
+leti r4 1724
 write a0 16 r4 
-leti r4 42279
+leti r4 5823
 write a0 16 r4 
-leti r4 44329
+leti r4 1532
 write a0 16 r4 
-leti r4 33824
+leti r4 1599
 write a0 16 r4 
-leti r4 33825
+leti r4 1663
 write a0 16 r4 
-leti r4 50739
+leti r4 1663
 write a0 16 r4 
-leti r4 59194
+leti r4 1660
 write a0 16 r4 
-leti r4 61241
+leti r4 1725
 write a0 16 r4 
-leti r4 44393
+leti r4 1596
 write a0 16 r4 
-leti r4 44329
+leti r4 11903
 write a0 16 r4 
-leti r4 52850
+leti r4 11519
 write a0 16 r4 
-leti r4 44328
+leti r4 309
 write a0 16 r4 
-leti r4 25365
+leti r4 119
 write a0 16 r4 
-leti r4 27415
+leti r4 124
 write a0 16 r4 
-leti r4 29528
+leti r4 59
 write a0 16 r4 
-leti r4 29463
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 2111
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 2111
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 2111
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 63
 write a0 16 r4 
-leti r4 27415
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29465
+leti r4 127
 write a0 16 r4 
-leti r4 29465
+leti r4 56
 write a0 16 r4 
-leti r4 27416
+leti r4 248
 write a0 16 r4 
-leti r4 33758
+leti r4 178
 write a0 16 r4 
-leti r4 44392
+leti r4 300
 write a0 16 r4 
-leti r4 52848
+leti r4 1343
 write a0 16 r4 
-leti r4 52849
+leti r4 3711
 write a0 16 r4 
-leti r4 42279
+leti r4 1533
 write a0 16 r4 
-leti r4 44393
+leti r4 1533
 write a0 16 r4 
-leti r4 52845
+leti r4 1727
 write a0 16 r4 
-leti r4 42273
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1599
 write a0 16 r4 
-leti r4 27537
+leti r4 1599
 write a0 16 r4 
-leti r4 25424
+leti r4 1599
 write a0 16 r4 
-leti r4 27538
+leti r4 3647
 write a0 16 r4 
-leti r4 25424
+leti r4 3647
 write a0 16 r4 
-leti r4 25424
+leti r4 3647
 write a0 16 r4 
-leti r4 27538
+leti r4 3647
 write a0 16 r4 
-leti r4 25423
+leti r4 1599
 write a0 16 r4 
-leti r4 27473
+leti r4 1599
 write a0 16 r4 
-leti r4 27472
+leti r4 1599
 write a0 16 r4 
-leti r4 21196
+leti r4 1599
 write a0 16 r4 
-leti r4 21197
+leti r4 3647
 write a0 16 r4 
-leti r4 19081
+leti r4 5759
 write a0 16 r4 
-leti r4 21196
+leti r4 3519
 write a0 16 r4 
-leti r4 19081
+leti r4 7615
 write a0 16 r4 
-leti r4 16968
+leti r4 7551
 write a0 16 r4 
-leti r4 27477
+leti r4 13759
 write a0 16 r4 
-leti r4 35935
+leti r4 13695
 write a0 16 r4 
-leti r4 59189
+leti r4 13695
 write a0 16 r4 
-leti r4 63418
+leti r4 11455
 write a0 16 r4 
-leti r4 52848
+leti r4 17663
 write a0 16 r4 
-leti r4 61306
+leti r4 17535
 write a0 16 r4 
-leti r4 59193
+leti r4 378
 write a0 16 r4 
-leti r4 52852
+leti r4 117
 write a0 16 r4 
-leti r4 50739
+leti r4 249
 write a0 16 r4 
-leti r4 48626
+leti r4 182
 write a0 16 r4 
-leti r4 63353
+leti r4 178
 write a0 16 r4 
-leti r4 59190
+leti r4 309
 write a0 16 r4 
-leti r4 61304
+leti r4 180
 write a0 16 r4 
-leti r4 52849
+leti r4 54
 write a0 16 r4 
-leti r4 52848
+leti r4 2303
 write a0 16 r4 
-leti r4 61305
+leti r4 127
 write a0 16 r4 
-leti r4 61305
+leti r4 59
 write a0 16 r4 
-leti r4 61240
+leti r4 2111
 write a0 16 r4 
-leti r4 52846
+leti r4 62
 write a0 16 r4 
-leti r4 42275
+leti r4 62
 write a0 16 r4 
-leti r4 25361
+leti r4 61
 write a0 16 r4 
-leti r4 19083
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16967
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 60
 write a0 16 r4 
-leti r4 21131
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 4223
 write a0 16 r4 
-leti r4 25423
+leti r4 59
 write a0 16 r4 
-leti r4 27473
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 2303
 write a0 16 r4 
-leti r4 25424
+leti r4 111
 write a0 16 r4 
-leti r4 25423
+leti r4 15807
 write a0 16 r4 
-leti r4 27473
+leti r4 1535
 write a0 16 r4 
-leti r4 25424
+leti r4 1597
 write a0 16 r4 
-leti r4 25425
+leti r4 1727
 write a0 16 r4 
-leti r4 42339
+leti r4 1598
 write a0 16 r4 
-leti r4 61302
+leti r4 1663
 write a0 16 r4 
-leti r4 61304
+leti r4 1661
 write a0 16 r4 
-leti r4 61305
+leti r4 1531
 write a0 16 r4 
-leti r4 61305
+leti r4 5823
 write a0 16 r4 
-leti r4 52849
+leti r4 5823
 write a0 16 r4 
-leti r4 52850
+leti r4 1531
 write a0 16 r4 
-leti r4 50738
+leti r4 1597
 write a0 16 r4 
-leti r4 61241
+leti r4 1727
 write a0 16 r4 
-leti r4 59192
+leti r4 1724
 write a0 16 r4 
-leti r4 50734
+leti r4 1659
 write a0 16 r4 
-leti r4 44328
+leti r4 1403
 write a0 16 r4 
-leti r4 42279
+leti r4 9727
 write a0 16 r4 
-leti r4 44393
+leti r4 13695
 write a0 16 r4 
-leti r4 35937
+leti r4 309
 write a0 16 r4 
-leti r4 27416
+leti r4 186
 write a0 16 r4 
-leti r4 27414
+leti r4 124
 write a0 16 r4 
-leti r4 27349
+leti r4 58
 write a0 16 r4 
-leti r4 27414
+leti r4 2175
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 4159
 write a0 16 r4 
-leti r4 29529
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 27349
+leti r4 59
 write a0 16 r4 
-leti r4 29529
+leti r4 63
 write a0 16 r4 
-leti r4 27350
+leti r4 59
 write a0 16 r4 
-leti r4 21009
+leti r4 247
 write a0 16 r4 
-leti r4 27415
+leti r4 304
 write a0 16 r4 
-leti r4 46506
+leti r4 15743
 write a0 16 r4 
-leti r4 52784
+leti r4 9727
 write a0 16 r4 
-leti r4 42278
+leti r4 7807
 write a0 16 r4 
-leti r4 54898
+leti r4 3711
 write a0 16 r4 
-leti r4 44327
+leti r4 1596
 write a0 16 r4 
-leti r4 42277
+leti r4 1662
 write a0 16 r4 
-leti r4 42339
+leti r4 1727
 write a0 16 r4 
-leti r4 35930
+leti r4 1661
 write a0 16 r4 
-leti r4 25424
+leti r4 1597
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 25425
+leti r4 1599
 write a0 16 r4 
-leti r4 23375
+leti r4 1599
 write a0 16 r4 
-leti r4 25423
+leti r4 1599
 write a0 16 r4 
-leti r4 23310
+leti r4 1599
 write a0 16 r4 
-leti r4 27537
+leti r4 1599
 write a0 16 r4 
-leti r4 27472
+leti r4 1599
 write a0 16 r4 
-leti r4 27472
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 25425
+leti r4 1598
 write a0 16 r4 
-leti r4 21197
+leti r4 1532
 write a0 16 r4 
-leti r4 21198
+leti r4 1533
 write a0 16 r4 
-leti r4 25426
+leti r4 5695
 write a0 16 r4 
-leti r4 25426
+leti r4 7743
 write a0 16 r4 
-leti r4 33884
+leti r4 5631
 write a0 16 r4 
-leti r4 52783
+leti r4 5631
 write a0 16 r4 
-leti r4 52785
+leti r4 7743
 write a0 16 r4 
-leti r4 63354
+leti r4 7807
 write a0 16 r4 
-leti r4 61305
+leti r4 3583
 write a0 16 r4 
-leti r4 50737
+leti r4 5695
 write a0 16 r4 
-leti r4 59193
+leti r4 9855
 write a0 16 r4 
-leti r4 50739
+leti r4 3391
 write a0 16 r4 
-leti r4 50675
+leti r4 5503
 write a0 16 r4 
-leti r4 50675
+leti r4 9663
 write a0 16 r4 
-leti r4 50740
+leti r4 7615
 write a0 16 r4 
-leti r4 52847
+leti r4 5567
 write a0 16 r4 
-leti r4 54961
+leti r4 11775
 write a0 16 r4 
-leti r4 50735
+leti r4 13695
 write a0 16 r4 
-leti r4 50735
+leti r4 17663
 write a0 16 r4 
-leti r4 61304
+leti r4 181
 write a0 16 r4 
-leti r4 61303
+leti r4 55
 write a0 16 r4 
-leti r4 52846
+leti r4 58
 write a0 16 r4 
-leti r4 52847
+leti r4 4159
 write a0 16 r4 
-leti r4 33881
+leti r4 2110
 write a0 16 r4 
-leti r4 23310
+leti r4 2110
 write a0 16 r4 
-leti r4 16966
+leti r4 62
 write a0 16 r4 
-leti r4 16966
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 16969
+leti r4 62
 write a0 16 r4 
-leti r4 21131
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 23309
+leti r4 2109
 write a0 16 r4 
-leti r4 25424
+leti r4 4158
 write a0 16 r4 
-leti r4 25424
+leti r4 56
 write a0 16 r4 
-leti r4 27537
+leti r4 250
 write a0 16 r4 
-leti r4 25424
+leti r4 240
 write a0 16 r4 
-leti r4 27537
+leti r4 9727
 write a0 16 r4 
-leti r4 25424
+leti r4 1535
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 27474
+leti r4 1534
 write a0 16 r4 
-leti r4 40226
+leti r4 3711
 write a0 16 r4 
-leti r4 52847
+leti r4 1599
 write a0 16 r4 
-leti r4 59190
+leti r4 3647
 write a0 16 r4 
-leti r4 59191
+leti r4 3711
 write a0 16 r4 
-leti r4 61306
+leti r4 1532
 write a0 16 r4 
-leti r4 50672
+leti r4 3775
 write a0 16 r4 
-leti r4 59193
+leti r4 1661
 write a0 16 r4 
-leti r4 61306
+leti r4 1726
 write a0 16 r4 
-leti r4 61305
+leti r4 1528
 write a0 16 r4 
-leti r4 61240
+leti r4 1727
 write a0 16 r4 
-leti r4 46506
+leti r4 3711
 write a0 16 r4 
-leti r4 44329
+leti r4 1471
 write a0 16 r4 
-leti r4 42214
+leti r4 9791
 write a0 16 r4 
-leti r4 44328
+leti r4 5375
 write a0 16 r4 
-leti r4 35872
+leti r4 242
 write a0 16 r4 
-leti r4 29529
+leti r4 184
 write a0 16 r4 
-leti r4 29528
+leti r4 121
 write a0 16 r4 
-leti r4 27415
+leti r4 56
 write a0 16 r4 
-leti r4 29465
+leti r4 2175
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 4159
 write a0 16 r4 
-leti r4 29463
+leti r4 4223
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27350
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 4223
 write a0 16 r4 
-leti r4 31578
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 185
 write a0 16 r4 
-leti r4 27415
+leti r4 305
 write a0 16 r4 
-leti r4 29529
+leti r4 13695
 write a0 16 r4 
-leti r4 42279
+leti r4 7679
 write a0 16 r4 
-leti r4 52848
+leti r4 1598
 write a0 16 r4 
-leti r4 44393
+leti r4 1532
 write a0 16 r4 
-leti r4 44328
+leti r4 1663
 write a0 16 r4 
-leti r4 44391
+leti r4 1727
 write a0 16 r4 
-leti r4 42275
+leti r4 1727
 write a0 16 r4 
-leti r4 42273
+leti r4 1660
 write a0 16 r4 
-leti r4 35929
+leti r4 1660
 write a0 16 r4 
-leti r4 25424
+leti r4 1662
 write a0 16 r4 
-leti r4 27473
+leti r4 1662
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 27473
+leti r4 1663
 write a0 16 r4 
-leti r4 27537
+leti r4 1599
 write a0 16 r4 
-leti r4 27537
+leti r4 1599
 write a0 16 r4 
-leti r4 23309
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1662
 write a0 16 r4 
-leti r4 21195
+leti r4 1662
 write a0 16 r4 
-leti r4 21196
+leti r4 1662
 write a0 16 r4 
-leti r4 25425
+leti r4 3775
 write a0 16 r4 
-leti r4 25426
+leti r4 5759
 write a0 16 r4 
-leti r4 35935
+leti r4 3646
 write a0 16 r4 
-leti r4 44327
+leti r4 3647
 write a0 16 r4 
-leti r4 50735
+leti r4 1533
 write a0 16 r4 
-leti r4 54962
+leti r4 3711
 write a0 16 r4 
-leti r4 61304
+leti r4 1597
 write a0 16 r4 
-leti r4 61305
+leti r4 1597
 write a0 16 r4 
-leti r4 50736
+leti r4 1595
 write a0 16 r4 
-leti r4 61307
+leti r4 1725
 write a0 16 r4 
-leti r4 59194
+leti r4 1660
 write a0 16 r4 
-leti r4 52852
+leti r4 1595
 write a0 16 r4 
-leti r4 48626
+leti r4 1597
 write a0 16 r4 
-leti r4 50676
+leti r4 1663
 write a0 16 r4 
-leti r4 50740
+leti r4 1663
 write a0 16 r4 
-leti r4 50676
+leti r4 1599
 write a0 16 r4 
-leti r4 61303
+leti r4 3711
 write a0 16 r4 
-leti r4 50733
+leti r4 1471
 write a0 16 r4 
-leti r4 54961
+leti r4 9663
 write a0 16 r4 
-leti r4 61305
+leti r4 15679
 write a0 16 r4 
-leti r4 61304
+leti r4 178
 write a0 16 r4 
-leti r4 54961
+leti r4 188
 write a0 16 r4 
-leti r4 40226
+leti r4 2174
 write a0 16 r4 
-leti r4 25427
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 14853
+leti r4 2110
 write a0 16 r4 
-leti r4 19080
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 2108
 write a0 16 r4 
-leti r4 25424
+leti r4 6207
 write a0 16 r4 
-leti r4 25424
+leti r4 2109
 write a0 16 r4 
-leti r4 27473
+leti r4 58
 write a0 16 r4 
-leti r4 23310
+leti r4 247
 write a0 16 r4 
-leti r4 25423
+leti r4 367
 write a0 16 r4 
-leti r4 23309
+leti r4 7551
 write a0 16 r4 
-leti r4 25424
+leti r4 1471
 write a0 16 r4 
-leti r4 16968
+leti r4 3711
 write a0 16 r4 
-leti r4 21196
+leti r4 5759
 write a0 16 r4 
-leti r4 35932
+leti r4 1534
 write a0 16 r4 
-leti r4 52847
+leti r4 3647
 write a0 16 r4 
-leti r4 61305
+leti r4 3711
 write a0 16 r4 
-leti r4 61305
+leti r4 1532
 write a0 16 r4 
-leti r4 61306
+leti r4 3775
 write a0 16 r4 
-leti r4 61306
+leti r4 1594
 write a0 16 r4 
-leti r4 57078
+leti r4 1727
 write a0 16 r4 
-leti r4 63418
+leti r4 1661
 write a0 16 r4 
-leti r4 59191
+leti r4 1596
 write a0 16 r4 
-leti r4 50736
+leti r4 3775
 write a0 16 r4 
-leti r4 44330
+leti r4 1599
 write a0 16 r4 
-leti r4 44329
+leti r4 1404
 write a0 16 r4 
-leti r4 44330
+leti r4 11903
 write a0 16 r4 
-leti r4 35873
+leti r4 11519
 write a0 16 r4 
-leti r4 27415
+leti r4 308
 write a0 16 r4 
-leti r4 25300
+leti r4 180
 write a0 16 r4 
-leti r4 25301
+leti r4 252
 write a0 16 r4 
-leti r4 27416
+leti r4 124
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 27350
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27350
+leti r4 62
 write a0 16 r4 
-leti r4 25236
+leti r4 61
 write a0 16 r4 
-leti r4 23122
+leti r4 61
 write a0 16 r4 
-leti r4 23187
+leti r4 62
 write a0 16 r4 
-leti r4 27350
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 25237
+leti r4 62
 write a0 16 r4 
-leti r4 27350
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 59
 write a0 16 r4 
-leti r4 29529
+leti r4 122
 write a0 16 r4 
-leti r4 27350
+leti r4 314
 write a0 16 r4 
-leti r4 27350
+leti r4 109
 write a0 16 r4 
-leti r4 27480
+leti r4 13695
 write a0 16 r4 
-leti r4 35871
+leti r4 5567
 write a0 16 r4 
-leti r4 42279
+leti r4 3775
 write a0 16 r4 
-leti r4 44392
+leti r4 1726
 write a0 16 r4 
-leti r4 44392
+leti r4 1662
 write a0 16 r4 
-leti r4 42277
+leti r4 1663
 write a0 16 r4 
-leti r4 40227
+leti r4 1663
 write a0 16 r4 
-leti r4 44452
+leti r4 1661
 write a0 16 r4 
-leti r4 42337
+leti r4 1595
 write a0 16 r4 
-leti r4 27536
+leti r4 1726
 write a0 16 r4 
-leti r4 25424
+leti r4 1727
 write a0 16 r4 
-leti r4 27473
+leti r4 1596
 write a0 16 r4 
-leti r4 27538
+leti r4 1662
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 23310
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 23309
+leti r4 1662
 write a0 16 r4 
-leti r4 19082
+leti r4 1662
 write a0 16 r4 
-leti r4 27539
+leti r4 1661
 write a0 16 r4 
-leti r4 35930
+leti r4 1662
 write a0 16 r4 
-leti r4 35933
+leti r4 1532
 write a0 16 r4 
-leti r4 44390
+leti r4 1663
 write a0 16 r4 
-leti r4 61240
+leti r4 1599
 write a0 16 r4 
-leti r4 61240
+leti r4 3647
 write a0 16 r4 
-leti r4 63419
+leti r4 1534
 write a0 16 r4 
-leti r4 59192
+leti r4 3711
 write a0 16 r4 
-leti r4 59191
+leti r4 1599
 write a0 16 r4 
-leti r4 50736
+leti r4 1597
 write a0 16 r4 
-leti r4 61307
+leti r4 1727
 write a0 16 r4 
-leti r4 50737
+leti r4 1660
 write a0 16 r4 
-leti r4 48625
+leti r4 1726
 write a0 16 r4 
-leti r4 50739
+leti r4 1726
 write a0 16 r4 
-leti r4 52789
+leti r4 1727
 write a0 16 r4 
-leti r4 50675
+leti r4 1727
 write a0 16 r4 
-leti r4 50741
+leti r4 1663
 write a0 16 r4 
-leti r4 50741
+leti r4 1535
 write a0 16 r4 
-leti r4 52847
+leti r4 1471
 write a0 16 r4 
-leti r4 52849
+leti r4 7615
 write a0 16 r4 
-leti r4 52784
+leti r4 13695
 write a0 16 r4 
-leti r4 61240
+leti r4 241
 write a0 16 r4 
-leti r4 52783
+leti r4 185
 write a0 16 r4 
-leti r4 33819
+leti r4 124
 write a0 16 r4 
-leti r4 27540
+leti r4 60
 write a0 16 r4 
-leti r4 12740
+leti r4 2111
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 23309
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 19082
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 19082
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 4223
 write a0 16 r4 
-leti r4 25423
+leti r4 58
 write a0 16 r4 
-leti r4 25424
+leti r4 2110
 write a0 16 r4 
-leti r4 27537
+leti r4 126
 write a0 16 r4 
-leti r4 25424
+leti r4 56
 write a0 16 r4 
-leti r4 27473
+leti r4 181
 write a0 16 r4 
-leti r4 25423
+leti r4 436
 write a0 16 r4 
-leti r4 27473
+leti r4 13887
 write a0 16 r4 
-leti r4 21195
+leti r4 3583
 write a0 16 r4 
-leti r4 23245
+leti r4 1471
 write a0 16 r4 
-leti r4 25425
+leti r4 7807
 write a0 16 r4 
-leti r4 33885
+leti r4 5695
 write a0 16 r4 
-leti r4 52848
+leti r4 1599
 write a0 16 r4 
-leti r4 61240
+leti r4 3775
 write a0 16 r4 
-leti r4 59192
+leti r4 1596
 write a0 16 r4 
-leti r4 61241
+leti r4 1727
 write a0 16 r4 
-leti r4 63354
+leti r4 1595
 write a0 16 r4 
-leti r4 61240
+leti r4 1791
 write a0 16 r4 
-leti r4 63355
+leti r4 1595
 write a0 16 r4 
-leti r4 50737
+leti r4 1596
 write a0 16 r4 
-leti r4 44330
+leti r4 3839
 write a0 16 r4 
-leti r4 44395
+leti r4 1534
 write a0 16 r4 
-leti r4 42217
+leti r4 1535
 write a0 16 r4 
-leti r4 44394
+leti r4 9727
 write a0 16 r4 
-leti r4 33822
+leti r4 11583
 write a0 16 r4 
-leti r4 27480
+leti r4 17791
 write a0 16 r4 
-leti r4 27415
+leti r4 176
 write a0 16 r4 
-leti r4 29529
+leti r4 54
 write a0 16 r4 
-leti r4 29464
+leti r4 124
 write a0 16 r4 
-leti r4 29464
+leti r4 4287
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 23122
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27350
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 118
 write a0 16 r4 
-leti r4 29464
+leti r4 243
 write a0 16 r4 
-leti r4 29464
+leti r4 17727
 write a0 16 r4 
-leti r4 27414
+leti r4 11647
 write a0 16 r4 
-leti r4 25366
+leti r4 9791
 write a0 16 r4 
-leti r4 44393
+leti r4 1535
 write a0 16 r4 
-leti r4 52850
+leti r4 1531
 write a0 16 r4 
-leti r4 42280
+leti r4 1660
 write a0 16 r4 
-leti r4 40226
+leti r4 1663
 write a0 16 r4 
-leti r4 42340
+leti r4 1598
 write a0 16 r4 
-leti r4 44453
+leti r4 1663
 write a0 16 r4 
-leti r4 40224
+leti r4 1663
 write a0 16 r4 
-leti r4 35993
+leti r4 1661
 write a0 16 r4 
-leti r4 25424
+leti r4 1726
 write a0 16 r4 
-leti r4 19082
+leti r4 1662
 write a0 16 r4 
-leti r4 27473
+leti r4 1662
 write a0 16 r4 
-leti r4 25424
+leti r4 1662
 write a0 16 r4 
-leti r4 27473
+leti r4 1663
 write a0 16 r4 
-leti r4 27537
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 27473
+leti r4 1662
 write a0 16 r4 
-leti r4 25426
+leti r4 1662
 write a0 16 r4 
-leti r4 42339
+leti r4 1661
 write a0 16 r4 
-leti r4 52845
+leti r4 1661
 write a0 16 r4 
-leti r4 61307
+leti r4 1663
 write a0 16 r4 
-leti r4 61306
+leti r4 1663
 write a0 16 r4 
-leti r4 61304
+leti r4 1663
 write a0 16 r4 
-leti r4 52847
+leti r4 3775
 write a0 16 r4 
-leti r4 50733
+leti r4 1599
 write a0 16 r4 
-leti r4 52848
+leti r4 1663
 write a0 16 r4 
-leti r4 61307
+leti r4 1598
 write a0 16 r4 
-leti r4 50739
+leti r4 1662
 write a0 16 r4 
-leti r4 50737
+leti r4 1726
 write a0 16 r4 
-leti r4 50738
+leti r4 1659
 write a0 16 r4 
-leti r4 52788
+leti r4 1595
 write a0 16 r4 
-leti r4 50675
+leti r4 1660
 write a0 16 r4 
-leti r4 50675
+leti r4 1727
 write a0 16 r4 
-leti r4 50676
+leti r4 1598
 write a0 16 r4 
-leti r4 48626
+leti r4 1534
 write a0 16 r4 
-leti r4 50740
+leti r4 1535
 write a0 16 r4 
-leti r4 52850
+leti r4 11775
 write a0 16 r4 
-leti r4 50737
+leti r4 237
 write a0 16 r4 
-leti r4 57078
+leti r4 375
 write a0 16 r4 
-leti r4 54963
+leti r4 118
 write a0 16 r4 
-leti r4 35935
+leti r4 123
 write a0 16 r4 
-leti r4 21134
+leti r4 57
 write a0 16 r4 
-leti r4 16969
+leti r4 4223
 write a0 16 r4 
-leti r4 17032
+leti r4 63
 write a0 16 r4 
-leti r4 19018
+leti r4 62
 write a0 16 r4 
-leti r4 16969
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 19081
+leti r4 61
 write a0 16 r4 
-leti r4 19081
+leti r4 61
 write a0 16 r4 
-leti r4 16967
+leti r4 61
 write a0 16 r4 
-leti r4 16967
+leti r4 61
 write a0 16 r4 
-leti r4 16967
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16967
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 60
 write a0 16 r4 
-leti r4 21195
+leti r4 125
 write a0 16 r4 
-leti r4 23309
+leti r4 59
 write a0 16 r4 
-leti r4 25423
+leti r4 60
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 27473
+leti r4 59
 write a0 16 r4 
-leti r4 27473
+leti r4 116
 write a0 16 r4 
-leti r4 21131
+leti r4 11519
 write a0 16 r4 
-leti r4 27537
+leti r4 7679
 write a0 16 r4 
-leti r4 23373
+leti r4 5567
 write a0 16 r4 
-leti r4 19083
+leti r4 5759
 write a0 16 r4 
-leti r4 27477
+leti r4 3711
 write a0 16 r4 
-leti r4 35937
+leti r4 1532
 write a0 16 r4 
-leti r4 50736
+leti r4 1727
 write a0 16 r4 
-leti r4 61305
+leti r4 1662
 write a0 16 r4 
-leti r4 61241
+leti r4 1727
 write a0 16 r4 
-leti r4 59191
+leti r4 1531
 write a0 16 r4 
-leti r4 61305
+leti r4 1662
 write a0 16 r4 
-leti r4 61242
+leti r4 3775
 write a0 16 r4 
-leti r4 61242
+leti r4 1596
 write a0 16 r4 
-leti r4 50738
+leti r4 1597
 write a0 16 r4 
-leti r4 52786
+leti r4 1663
 write a0 16 r4 
-leti r4 44330
+leti r4 1599
 write a0 16 r4 
-leti r4 44329
+leti r4 1599
 write a0 16 r4 
-leti r4 35872
+leti r4 3519
 write a0 16 r4 
-leti r4 27414
+leti r4 9535
 write a0 16 r4 
-leti r4 27414
+leti r4 303
 write a0 16 r4 
-leti r4 29464
+leti r4 246
 write a0 16 r4 
-leti r4 29464
+leti r4 56
 write a0 16 r4 
-leti r4 29464
+leti r4 57
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 21009
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 183
 write a0 16 r4 
-leti r4 29463
+leti r4 371
 write a0 16 r4 
-leti r4 29464
+leti r4 15807
 write a0 16 r4 
-leti r4 27415
+leti r4 5567
 write a0 16 r4 
-leti r4 27416
+leti r4 1469
 write a0 16 r4 
-leti r4 33823
+leti r4 1598
 write a0 16 r4 
-leti r4 44328
+leti r4 3775
 write a0 16 r4 
-leti r4 44394
+leti r4 1599
 write a0 16 r4 
-leti r4 44329
+leti r4 1663
 write a0 16 r4 
-leti r4 42338
+leti r4 1535
 write a0 16 r4 
-leti r4 42339
+leti r4 1534
 write a0 16 r4 
-leti r4 40225
+leti r4 3711
 write a0 16 r4 
-leti r4 42337
+leti r4 1663
 write a0 16 r4 
-leti r4 35994
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1662
 write a0 16 r4 
-leti r4 21196
+leti r4 1596
 write a0 16 r4 
-leti r4 25425
+leti r4 1663
 write a0 16 r4 
-leti r4 27473
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1599
 write a0 16 r4 
-leti r4 25424
+leti r4 1599
 write a0 16 r4 
-leti r4 27537
+leti r4 1599
 write a0 16 r4 
-leti r4 44386
+leti r4 1663
 write a0 16 r4 
-leti r4 52844
+leti r4 1662
 write a0 16 r4 
-leti r4 61303
+leti r4 1661
 write a0 16 r4 
-leti r4 61305
+leti r4 1661
 write a0 16 r4 
-leti r4 61244
+leti r4 1727
 write a0 16 r4 
-leti r4 59193
+leti r4 1662
 write a0 16 r4 
-leti r4 52783
+leti r4 1597
 write a0 16 r4 
-leti r4 52846
+leti r4 1663
 write a0 16 r4 
-leti r4 54960
+leti r4 1598
 write a0 16 r4 
-leti r4 50734
+leti r4 1598
 write a0 16 r4 
-leti r4 50738
+leti r4 1598
 write a0 16 r4 
-leti r4 50742
+leti r4 3775
 write a0 16 r4 
-leti r4 50739
+leti r4 1595
 write a0 16 r4 
-leti r4 48625
+leti r4 1662
 write a0 16 r4 
-leti r4 50740
+leti r4 3775
 write a0 16 r4 
-leti r4 52790
+leti r4 1599
 write a0 16 r4 
-leti r4 48626
+leti r4 5759
 write a0 16 r4 
-leti r4 50740
+leti r4 3583
 write a0 16 r4 
-leti r4 50740
+leti r4 5631
 write a0 16 r4 
-leti r4 50739
+leti r4 11711
 write a0 16 r4 
-leti r4 50738
+leti r4 177
 write a0 16 r4 
-leti r4 50738
+leti r4 187
 write a0 16 r4 
-leti r4 46443
+leti r4 124
 write a0 16 r4 
-leti r4 35871
+leti r4 59
 write a0 16 r4 
-leti r4 19022
+leti r4 61
 write a0 16 r4 
-leti r4 12742
+leti r4 4223
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 16969
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 19082
+leti r4 61
 write a0 16 r4 
-leti r4 16903
+leti r4 61
 write a0 16 r4 
-leti r4 16967
+leti r4 61
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 2110
 write a0 16 r4 
-leti r4 19081
+leti r4 2110
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 127
 write a0 16 r4 
-leti r4 23310
+leti r4 58
 write a0 16 r4 
-leti r4 21195
+leti r4 127
 write a0 16 r4 
-leti r4 21195
+leti r4 60
 write a0 16 r4 
-leti r4 21195
+leti r4 2107
 write a0 16 r4 
-leti r4 21195
+leti r4 4349
 write a0 16 r4 
-leti r4 27474
+leti r4 436
 write a0 16 r4 
-leti r4 19081
+leti r4 9535
 write a0 16 r4 
-leti r4 23373
+leti r4 11903
 write a0 16 r4 
-leti r4 25424
+leti r4 1466
 write a0 16 r4 
-leti r4 25428
+leti r4 1592
 write a0 16 r4 
-leti r4 25365
+leti r4 1789
 write a0 16 r4 
-leti r4 33822
+leti r4 1791
 write a0 16 r4 
-leti r4 52849
+leti r4 1598
 write a0 16 r4 
-leti r4 61306
+leti r4 1470
 write a0 16 r4 
-leti r4 61305
+leti r4 5823
 write a0 16 r4 
-leti r4 61305
+leti r4 3711
 write a0 16 r4 
-leti r4 61306
+leti r4 3646
 write a0 16 r4 
-leti r4 61242
+leti r4 1596
 write a0 16 r4 
-leti r4 61242
+leti r4 1596
 write a0 16 r4 
-leti r4 50736
+leti r4 1727
 write a0 16 r4 
-leti r4 42279
+leti r4 1663
 write a0 16 r4 
-leti r4 42280
+leti r4 1726
 write a0 16 r4 
-leti r4 38051
+leti r4 1599
 write a0 16 r4 
-leti r4 25365
+leti r4 7743
 write a0 16 r4 
-leti r4 25365
+leti r4 13759
 write a0 16 r4 
-leti r4 27414
+leti r4 241
 write a0 16 r4 
-leti r4 27415
+leti r4 249
 write a0 16 r4 
-leti r4 29464
+leti r4 125
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 23122
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 120
 write a0 16 r4 
-leti r4 29464
+leti r4 182
 write a0 16 r4 
-leti r4 29464
+leti r4 305
 write a0 16 r4 
-leti r4 31577
+leti r4 11647
 write a0 16 r4 
-leti r4 27415
+leti r4 5631
 write a0 16 r4 
-leti r4 27350
+leti r4 1533
 write a0 16 r4 
-leti r4 25366
+leti r4 3839
 write a0 16 r4 
-leti r4 37986
+leti r4 1662
 write a0 16 r4 
-leti r4 44329
+leti r4 1530
 write a0 16 r4 
-leti r4 44329
+leti r4 3775
 write a0 16 r4 
-leti r4 44330
+leti r4 1535
 write a0 16 r4 
-leti r4 42401
+leti r4 3711
 write a0 16 r4 
-leti r4 40223
+leti r4 3647
 write a0 16 r4 
-leti r4 44452
+leti r4 1663
 write a0 16 r4 
-leti r4 42338
+leti r4 1532
 write a0 16 r4 
-leti r4 33880
+leti r4 1598
 write a0 16 r4 
-leti r4 27537
+leti r4 1727
 write a0 16 r4 
-leti r4 25424
+leti r4 1598
 write a0 16 r4 
-leti r4 25425
+leti r4 1663
 write a0 16 r4 
-leti r4 27472
+leti r4 1599
 write a0 16 r4 
-leti r4 25423
+leti r4 1599
 write a0 16 r4 
-leti r4 27537
+leti r4 1599
 write a0 16 r4 
-leti r4 25423
+leti r4 1599
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 44389
+leti r4 1662
 write a0 16 r4 
-leti r4 52783
+leti r4 1662
 write a0 16 r4 
-leti r4 61306
+leti r4 1662
 write a0 16 r4 
-leti r4 59191
+leti r4 1662
 write a0 16 r4 
-leti r4 61306
+leti r4 1662
 write a0 16 r4 
-leti r4 61305
+leti r4 1662
 write a0 16 r4 
-leti r4 61239
+leti r4 1662
 write a0 16 r4 
-leti r4 52847
+leti r4 1662
 write a0 16 r4 
-leti r4 52849
+leti r4 1662
 write a0 16 r4 
-leti r4 48625
+leti r4 1662
 write a0 16 r4 
-leti r4 50740
+leti r4 1597
 write a0 16 r4 
-leti r4 59195
+leti r4 5823
 write a0 16 r4 
-leti r4 50740
+leti r4 1466
 write a0 16 r4 
-leti r4 48627
+leti r4 5759
 write a0 16 r4 
-leti r4 50675
+leti r4 3647
 write a0 16 r4 
-leti r4 50739
+leti r4 3519
 write a0 16 r4 
-leti r4 50739
+leti r4 11775
 write a0 16 r4 
-leti r4 50737
+leti r4 9599
 write a0 16 r4 
-leti r4 50738
+leti r4 367
 write a0 16 r4 
-leti r4 50675
+leti r4 186
 write a0 16 r4 
-leti r4 61309
+leti r4 62
 write a0 16 r4 
-leti r4 50672
+leti r4 58
 write a0 16 r4 
-leti r4 25366
+leti r4 2111
 write a0 16 r4 
-leti r4 14793
+leti r4 4159
 write a0 16 r4 
-leti r4 16970
+leti r4 59
 write a0 16 r4 
-leti r4 21196
+leti r4 2111
 write a0 16 r4 
-leti r4 17031
+leti r4 63
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 19080
+leti r4 61
 write a0 16 r4 
-leti r4 16967
+leti r4 61
 write a0 16 r4 
-leti r4 19081
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 19017
+leti r4 61
 write a0 16 r4 
-leti r4 19017
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 127
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 25423
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 59
 write a0 16 r4 
-leti r4 23309
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 6207
 write a0 16 r4 
-leti r4 21196
+leti r4 58
 write a0 16 r4 
-leti r4 21196
+leti r4 50
 write a0 16 r4 
-leti r4 21195
+leti r4 500
 write a0 16 r4 
-leti r4 21259
+leti r4 7487
 write a0 16 r4 
-leti r4 25424
+leti r4 9919
 write a0 16 r4 
-leti r4 25428
+leti r4 1723
 write a0 16 r4 
-leti r4 23251
+leti r4 1786
 write a0 16 r4 
-leti r4 25366
+leti r4 1659
 write a0 16 r4 
-leti r4 35934
+leti r4 1663
 write a0 16 r4 
-leti r4 52848
+leti r4 1599
 write a0 16 r4 
-leti r4 61304
+leti r4 1535
 write a0 16 r4 
-leti r4 59191
+leti r4 3583
 write a0 16 r4 
-leti r4 61305
+leti r4 3646
 write a0 16 r4 
-leti r4 61241
+leti r4 3774
 write a0 16 r4 
-leti r4 61241
+leti r4 1726
 write a0 16 r4 
-leti r4 61305
+leti r4 1597
 write a0 16 r4 
-leti r4 52848
+leti r4 1662
 write a0 16 r4 
-leti r4 44330
+leti r4 1724
 write a0 16 r4 
-leti r4 42279
+leti r4 1659
 write a0 16 r4 
-leti r4 27414
+leti r4 3711
 write a0 16 r4 
-leti r4 27414
+leti r4 5567
 write a0 16 r4 
-leti r4 27414
+leti r4 13695
 write a0 16 r4 
-leti r4 27415
+leti r4 241
 write a0 16 r4 
-leti r4 27416
+leti r4 183
 write a0 16 r4 
-leti r4 29464
+leti r4 123
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 63
 write a0 16 r4 
-leti r4 31578
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 2175
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 4158
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 57
 write a0 16 r4 
-leti r4 29464
+leti r4 187
 write a0 16 r4 
-leti r4 29464
+leti r4 243
 write a0 16 r4 
-leti r4 29464
+leti r4 433
 write a0 16 r4 
-leti r4 29464
+leti r4 11583
 write a0 16 r4 
-leti r4 29464
+leti r4 7615
 write a0 16 r4 
-leti r4 29464
+leti r4 5631
 write a0 16 r4 
-leti r4 27417
+leti r4 1599
 write a0 16 r4 
-leti r4 25301
+leti r4 1599
 write a0 16 r4 
-leti r4 35874
+leti r4 1663
 write a0 16 r4 
-leti r4 44391
+leti r4 1663
 write a0 16 r4 
-leti r4 44393
+leti r4 1663
 write a0 16 r4 
-leti r4 42275
+leti r4 1663
 write a0 16 r4 
-leti r4 44388
+leti r4 1663
 write a0 16 r4 
-leti r4 35931
+leti r4 1599
 write a0 16 r4 
-leti r4 35931
+leti r4 1599
 write a0 16 r4 
-leti r4 42273
+leti r4 1663
 write a0 16 r4 
-leti r4 33882
+leti r4 1663
 write a0 16 r4 
-leti r4 35929
+leti r4 1663
 write a0 16 r4 
-leti r4 21197
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 27473
+leti r4 1663
 write a0 16 r4 
-leti r4 33880
+leti r4 1663
 write a0 16 r4 
-leti r4 35994
+leti r4 1662
 write a0 16 r4 
-leti r4 42336
+leti r4 1663
 write a0 16 r4 
-leti r4 44329
+leti r4 1598
 write a0 16 r4 
-leti r4 54896
+leti r4 1663
 write a0 16 r4 
-leti r4 52784
+leti r4 1662
 write a0 16 r4 
-leti r4 61240
+leti r4 1661
 write a0 16 r4 
-leti r4 61301
+leti r4 1725
 write a0 16 r4 
-leti r4 50799
+leti r4 1660
 write a0 16 r4 
-leti r4 50675
+leti r4 1662
 write a0 16 r4 
-leti r4 50740
+leti r4 1663
 write a0 16 r4 
-leti r4 50740
+leti r4 1663
 write a0 16 r4 
-leti r4 50676
+leti r4 3711
 write a0 16 r4 
-leti r4 50676
+leti r4 1469
 write a0 16 r4 
-leti r4 50740
+leti r4 5695
 write a0 16 r4 
-leti r4 50738
+leti r4 11775
 write a0 16 r4 
-leti r4 50738
+leti r4 13695
 write a0 16 r4 
-leti r4 52789
+leti r4 237
 write a0 16 r4 
-leti r4 48564
+leti r4 180
 write a0 16 r4 
-leti r4 52850
+leti r4 123
 write a0 16 r4 
-leti r4 50736
+leti r4 62
 write a0 16 r4 
-leti r4 52845
+leti r4 62
 write a0 16 r4 
-leti r4 35871
+leti r4 62
 write a0 16 r4 
-leti r4 16843
+leti r4 62
 write a0 16 r4 
-leti r4 14853
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 17032
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21131
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 2110
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 125
 write a0 16 r4 
-leti r4 25424
+leti r4 116
 write a0 16 r4 
-leti r4 27474
+leti r4 432
 write a0 16 r4 
-leti r4 25423
+leti r4 11775
 write a0 16 r4 
-leti r4 25487
+leti r4 1597
 write a0 16 r4 
-leti r4 21195
+leti r4 1724
 write a0 16 r4 
-leti r4 19087
+leti r4 1657
 write a0 16 r4 
-leti r4 21205
+leti r4 1663
 write a0 16 r4 
-leti r4 44328
+leti r4 1599
 write a0 16 r4 
-leti r4 61306
+leti r4 1535
 write a0 16 r4 
-leti r4 61242
+leti r4 1599
 write a0 16 r4 
-leti r4 59193
+leti r4 1662
 write a0 16 r4 
-leti r4 61304
+leti r4 1661
 write a0 16 r4 
-leti r4 63352
+leti r4 1661
 write a0 16 r4 
-leti r4 61239
+leti r4 1662
 write a0 16 r4 
-leti r4 61305
+leti r4 1663
 write a0 16 r4 
-leti r4 52848
+leti r4 1662
 write a0 16 r4 
-leti r4 44392
+leti r4 1662
 write a0 16 r4 
-leti r4 35873
+leti r4 1597
 write a0 16 r4 
-leti r4 25366
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 7807
 write a0 16 r4 
-leti r4 25365
+leti r4 3263
 write a0 16 r4 
-leti r4 27413
+leti r4 504
 write a0 16 r4 
-leti r4 29527
+leti r4 51
 write a0 16 r4 
-leti r4 29464
+leti r4 125
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 4223
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 27415
+leti r4 2175
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 58
 write a0 16 r4 
-leti r4 29464
+leti r4 2173
 write a0 16 r4 
-leti r4 29464
+leti r4 58
 write a0 16 r4 
-leti r4 29464
+leti r4 4287
 write a0 16 r4 
-leti r4 29464
+leti r4 120
 write a0 16 r4 
-leti r4 29464
+leti r4 245
 write a0 16 r4 
-leti r4 27415
+leti r4 367
 write a0 16 r4 
-leti r4 29464
+leti r4 9599
 write a0 16 r4 
-leti r4 29464
+leti r4 5631
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 27415
+leti r4 1599
 write a0 16 r4 
-leti r4 29528
+leti r4 1599
 write a0 16 r4 
-leti r4 25303
+leti r4 1599
 write a0 16 r4 
-leti r4 35934
+leti r4 1599
 write a0 16 r4 
-leti r4 44329
+leti r4 1663
 write a0 16 r4 
-leti r4 40226
+leti r4 1663
 write a0 16 r4 
-leti r4 42341
+leti r4 1662
 write a0 16 r4 
-leti r4 42338
+leti r4 1662
 write a0 16 r4 
-leti r4 33881
+leti r4 1662
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 44451
+leti r4 1663
 write a0 16 r4 
-leti r4 35995
+leti r4 1663
 write a0 16 r4 
-leti r4 27474
+leti r4 1663
 write a0 16 r4 
-leti r4 21131
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 27536
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 23310
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 1663
 write a0 16 r4 
-leti r4 19082
+leti r4 1599
 write a0 16 r4 
-leti r4 27536
+leti r4 1599
 write a0 16 r4 
-leti r4 33816
+leti r4 3711
 write a0 16 r4 
-leti r4 44392
+leti r4 1597
 write a0 16 r4 
-leti r4 46443
+leti r4 1662
 write a0 16 r4 
-leti r4 52848
+leti r4 1660
 write a0 16 r4 
-leti r4 52848
+leti r4 1726
 write a0 16 r4 
-leti r4 50739
+leti r4 1661
 write a0 16 r4 
-leti r4 48627
+leti r4 1530
 write a0 16 r4 
-leti r4 50740
+leti r4 1468
 write a0 16 r4 
-leti r4 48626
+leti r4 5695
 write a0 16 r4 
-leti r4 50738
+leti r4 7679
 write a0 16 r4 
-leti r4 50740
+leti r4 9663
 write a0 16 r4 
-leti r4 50676
+leti r4 13567
 write a0 16 r4 
-leti r4 50740
+leti r4 240
 write a0 16 r4 
-leti r4 50736
+leti r4 314
 write a0 16 r4 
-leti r4 52912
+leti r4 122
 write a0 16 r4 
-leti r4 50673
+leti r4 61
 write a0 16 r4 
-leti r4 52850
+leti r4 62
 write a0 16 r4 
-leti r4 52846
+leti r4 62
 write a0 16 r4 
-leti r4 44393
+leti r4 62
 write a0 16 r4 
-leti r4 27413
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 19083
+leti r4 62
 write a0 16 r4 
-leti r4 16969
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 27538
+leti r4 62
 write a0 16 r4 
-leti r4 25359
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 27474
+leti r4 124
 write a0 16 r4 
-leti r4 25425
+leti r4 242
 write a0 16 r4 
-leti r4 23244
+leti r4 13567
 write a0 16 r4 
-leti r4 27536
+leti r4 7743
 write a0 16 r4 
-leti r4 25424
+leti r4 1726
 write a0 16 r4 
-leti r4 23314
+leti r4 1791
 write a0 16 r4 
-leti r4 21202
+leti r4 1597
 write a0 16 r4 
-leti r4 44328
+leti r4 1599
 write a0 16 r4 
-leti r4 61241
+leti r4 1599
 write a0 16 r4 
-leti r4 59193
+leti r4 1599
 write a0 16 r4 
-leti r4 59193
+leti r4 1662
 write a0 16 r4 
-leti r4 61305
+leti r4 1661
 write a0 16 r4 
-leti r4 61305
+leti r4 1661
 write a0 16 r4 
-leti r4 61305
+leti r4 1663
 write a0 16 r4 
-leti r4 61306
+leti r4 1599
 write a0 16 r4 
-leti r4 52848
+leti r4 1597
 write a0 16 r4 
-leti r4 44392
+leti r4 3775
 write a0 16 r4 
-leti r4 33824
+leti r4 1727
 write a0 16 r4 
-leti r4 27415
+leti r4 1530
 write a0 16 r4 
-leti r4 23252
+leti r4 1467
 write a0 16 r4 
-leti r4 27479
+leti r4 9855
 write a0 16 r4 
-leti r4 29527
+leti r4 9471
 write a0 16 r4 
-leti r4 27415
+leti r4 374
 write a0 16 r4 
-leti r4 29464
+leti r4 120
 write a0 16 r4 
-leti r4 29464
+leti r4 126
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 2175
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 126
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2111
 write a0 16 r4 
-leti r4 29464
+leti r4 4223
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 190
 write a0 16 r4 
-leti r4 29464
+leti r4 52
 write a0 16 r4 
-leti r4 29464
+leti r4 245
 write a0 16 r4 
-leti r4 29464
+leti r4 370
 write a0 16 r4 
-leti r4 29464
+leti r4 9471
 write a0 16 r4 
-leti r4 29464
+leti r4 5503
 write a0 16 r4 
-leti r4 29464
+leti r4 5695
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 27415
+leti r4 1599
 write a0 16 r4 
-leti r4 27350
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1599
 write a0 16 r4 
-leti r4 46441
+leti r4 1599
 write a0 16 r4 
-leti r4 42277
+leti r4 1599
 write a0 16 r4 
-leti r4 44389
+leti r4 1663
 write a0 16 r4 
-leti r4 42338
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1662
 write a0 16 r4 
-leti r4 35994
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 42337
+leti r4 1663
 write a0 16 r4 
-leti r4 35929
+leti r4 1663
 write a0 16 r4 
-leti r4 23311
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 27537
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25359
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 1663
 write a0 16 r4 
-leti r4 16969
+leti r4 1599
 write a0 16 r4 
-leti r4 16969
+leti r4 3647
 write a0 16 r4 
-leti r4 21196
+leti r4 1535
 write a0 16 r4 
-leti r4 21193
+leti r4 5823
 write a0 16 r4 
-leti r4 19146
+leti r4 1598
 write a0 16 r4 
-leti r4 44391
+leti r4 1531
 write a0 16 r4 
-leti r4 52787
+leti r4 1726
 write a0 16 r4 
-leti r4 52786
+leti r4 1725
 write a0 16 r4 
-leti r4 52787
+leti r4 1791
 write a0 16 r4 
-leti r4 48690
+leti r4 3711
 write a0 16 r4 
-leti r4 50740
+leti r4 5503
 write a0 16 r4 
-leti r4 50676
+leti r4 11583
 write a0 16 r4 
-leti r4 50740
+leti r4 437
 write a0 16 r4 
-leti r4 50738
+leti r4 115
 write a0 16 r4 
-leti r4 50800
+leti r4 120
 write a0 16 r4 
-leti r4 50733
+leti r4 124
 write a0 16 r4 
-leti r4 50797
+leti r4 61
 write a0 16 r4 
-leti r4 50741
+leti r4 62
 write a0 16 r4 
-leti r4 50674
+leti r4 62
 write a0 16 r4 
-leti r4 61304
+leti r4 62
 write a0 16 r4 
-leti r4 52850
+leti r4 62
 write a0 16 r4 
-leti r4 25365
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 14790
+leti r4 62
 write a0 16 r4 
-leti r4 10628
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 2175
 write a0 16 r4 
-leti r4 25425
+leti r4 58
 write a0 16 r4 
-leti r4 25360
+leti r4 184
 write a0 16 r4 
-leti r4 19082
+leti r4 305
 write a0 16 r4 
-leti r4 23308
+leti r4 13823
 write a0 16 r4 
-leti r4 25423
+leti r4 1534
 write a0 16 r4 
-leti r4 25426
+leti r4 1467
 write a0 16 r4 
-leti r4 23314
+leti r4 1727
 write a0 16 r4 
-leti r4 44329
+leti r4 1663
 write a0 16 r4 
-leti r4 61241
+leti r4 1599
 write a0 16 r4 
-leti r4 59193
+leti r4 1599
 write a0 16 r4 
-leti r4 59192
+leti r4 1599
 write a0 16 r4 
-leti r4 61304
+leti r4 1661
 write a0 16 r4 
-leti r4 59192
+leti r4 1661
 write a0 16 r4 
-leti r4 61307
+leti r4 1663
 write a0 16 r4 
-leti r4 57146
+leti r4 1663
 write a0 16 r4 
-leti r4 52847
+leti r4 1662
 write a0 16 r4 
-leti r4 44327
+leti r4 1662
 write a0 16 r4 
-leti r4 35938
+leti r4 1598
 write a0 16 r4 
-leti r4 35937
+leti r4 1599
 write a0 16 r4 
-leti r4 25366
+leti r4 1663
 write a0 16 r4 
-leti r4 27479
+leti r4 3647
 write a0 16 r4 
-leti r4 27413
+leti r4 7551
 write a0 16 r4 
-leti r4 25301
+leti r4 11519
 write a0 16 r4 
-leti r4 29464
+leti r4 178
 write a0 16 r4 
-leti r4 29464
+leti r4 252
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 2175
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 125
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 58
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 126
 write a0 16 r4 
-leti r4 27415
+leti r4 183
 write a0 16 r4 
-leti r4 29464
+leti r4 243
 write a0 16 r4 
-leti r4 29464
+leti r4 17727
 write a0 16 r4 
-leti r4 29464
+leti r4 13695
 write a0 16 r4 
-leti r4 29464
+leti r4 7615
 write a0 16 r4 
-leti r4 29464
+leti r4 9919
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 1598
 write a0 16 r4 
-leti r4 25301
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 35934
+leti r4 1663
 write a0 16 r4 
-leti r4 50735
+leti r4 1599
 write a0 16 r4 
-leti r4 42339
+leti r4 1599
 write a0 16 r4 
-leti r4 33820
+leti r4 1599
 write a0 16 r4 
-leti r4 42336
+leti r4 1663
 write a0 16 r4 
-leti r4 33880
+leti r4 1663
 write a0 16 r4 
-leti r4 35929
+leti r4 1663
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 42337
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 19017
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 23309
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 23245
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 19145
+leti r4 3711
 write a0 16 r4 
-leti r4 19083
+leti r4 1468
 write a0 16 r4 
-leti r4 12805
+leti r4 3711
 write a0 16 r4 
-leti r4 16970
+leti r4 1599
 write a0 16 r4 
-leti r4 37986
+leti r4 3775
 write a0 16 r4 
-leti r4 52848
+leti r4 1596
 write a0 16 r4 
-leti r4 52845
+leti r4 1597
 write a0 16 r4 
-leti r4 52846
+leti r4 1468
 write a0 16 r4 
-leti r4 50675
+leti r4 5631
 write a0 16 r4 
-leti r4 50741
+leti r4 11647
 write a0 16 r4 
-leti r4 50675
+leti r4 241
 write a0 16 r4 
-leti r4 50672
+leti r4 184
 write a0 16 r4 
-leti r4 52847
+leti r4 2238
 write a0 16 r4 
-leti r4 52846
+leti r4 61
 write a0 16 r4 
-leti r4 54960
+leti r4 61
 write a0 16 r4 
-leti r4 54897
+leti r4 61
 write a0 16 r4 
-leti r4 50676
+leti r4 62
 write a0 16 r4 
-leti r4 48626
+leti r4 62
 write a0 16 r4 
-leti r4 61369
+leti r4 62
 write a0 16 r4 
-leti r4 50735
+leti r4 62
 write a0 16 r4 
-leti r4 35935
+leti r4 62
 write a0 16 r4 
-leti r4 16969
+leti r4 62
 write a0 16 r4 
-leti r4 12742
+leti r4 62
 write a0 16 r4 
-leti r4 19084
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21131
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 23309
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 63
 write a0 16 r4 
-leti r4 25425
+leti r4 127
 write a0 16 r4 
-leti r4 27474
+leti r4 125
 write a0 16 r4 
-leti r4 23245
+leti r4 49
 write a0 16 r4 
-leti r4 21195
+leti r4 15743
 write a0 16 r4 
-leti r4 25422
+leti r4 9663
 write a0 16 r4 
-leti r4 25424
+leti r4 3647
 write a0 16 r4 
-leti r4 27538
+leti r4 1599
 write a0 16 r4 
-leti r4 44393
+leti r4 1663
 write a0 16 r4 
-leti r4 59192
+leti r4 1663
 write a0 16 r4 
-leti r4 61305
+leti r4 1599
 write a0 16 r4 
-leti r4 61305
+leti r4 1599
 write a0 16 r4 
-leti r4 63417
+leti r4 1662
 write a0 16 r4 
-leti r4 59192
+leti r4 1662
 write a0 16 r4 
-leti r4 59194
+leti r4 1663
 write a0 16 r4 
-leti r4 50740
+leti r4 1663
 write a0 16 r4 
-leti r4 42278
+leti r4 1597
 write a0 16 r4 
-leti r4 35938
+leti r4 1727
 write a0 16 r4 
-leti r4 33823
+leti r4 1663
 write a0 16 r4 
-leti r4 35937
+leti r4 1599
 write a0 16 r4 
-leti r4 25365
+leti r4 3711
 write a0 16 r4 
-leti r4 25365
+leti r4 1535
 write a0 16 r4 
-leti r4 27413
+leti r4 3519
 write a0 16 r4 
-leti r4 29528
+leti r4 15935
 write a0 16 r4 
-leti r4 29464
+leti r4 13567
 write a0 16 r4 
-leti r4 29464
+leti r4 241
 write a0 16 r4 
-leti r4 29464
+leti r4 185
 write a0 16 r4 
-leti r4 29464
+leti r4 57
 write a0 16 r4 
-leti r4 29464
+leti r4 55
 write a0 16 r4 
-leti r4 29464
+leti r4 4287
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 31578
+leti r4 59
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 56
 write a0 16 r4 
-leti r4 29464
+leti r4 240
 write a0 16 r4 
-leti r4 29464
+leti r4 13695
 write a0 16 r4 
-leti r4 29464
+leti r4 9599
 write a0 16 r4 
-leti r4 29464
+leti r4 7679
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1464
 write a0 16 r4 
-leti r4 29464
+leti r4 1727
 write a0 16 r4 
-leti r4 27415
+leti r4 1662
 write a0 16 r4 
-leti r4 29593
+leti r4 1663
 write a0 16 r4 
-leti r4 44329
+leti r4 1599
 write a0 16 r4 
-leti r4 52911
+leti r4 1599
 write a0 16 r4 
-leti r4 42279
+leti r4 1599
 write a0 16 r4 
-leti r4 42338
+leti r4 1599
 write a0 16 r4 
-leti r4 33817
+leti r4 1663
 write a0 16 r4 
-leti r4 35994
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 42337
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 27537
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 19082
+leti r4 1663
 write a0 16 r4 
-leti r4 19081
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 1663
 write a0 16 r4 
-leti r4 21259
+leti r4 1597
 write a0 16 r4 
-leti r4 19083
+leti r4 3775
 write a0 16 r4 
-leti r4 17033
+leti r4 1533
 write a0 16 r4 
-leti r4 23312
+leti r4 3711
 write a0 16 r4 
-leti r4 44327
+leti r4 3711
 write a0 16 r4 
-leti r4 61304
+leti r4 1468
 write a0 16 r4 
-leti r4 50795
+leti r4 7935
 write a0 16 r4 
-leti r4 52910
+leti r4 7679
 write a0 16 r4 
-leti r4 50677
+leti r4 11647
 write a0 16 r4 
-leti r4 59194
+leti r4 306
 write a0 16 r4 
-leti r4 59256
+leti r4 119
 write a0 16 r4 
-leti r4 52848
+leti r4 2175
 write a0 16 r4 
-leti r4 52784
+leti r4 57
 write a0 16 r4 
-leti r4 52784
+leti r4 4158
 write a0 16 r4 
-leti r4 54898
+leti r4 4159
 write a0 16 r4 
-leti r4 50732
+leti r4 2111
 write a0 16 r4 
-leti r4 50675
+leti r4 62
 write a0 16 r4 
-leti r4 52851
+leti r4 62
 write a0 16 r4 
-leti r4 48685
+leti r4 62
 write a0 16 r4 
-leti r4 61306
+leti r4 62
 write a0 16 r4 
-leti r4 44391
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 12741
+leti r4 62
 write a0 16 r4 
-leti r4 16904
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 23245
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21131
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 19147
+leti r4 59
 write a0 16 r4 
-leti r4 25424
+leti r4 59
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 27474
+leti r4 189
 write a0 16 r4 
-leti r4 25423
+leti r4 178
 write a0 16 r4 
-leti r4 27537
+leti r4 17791
 write a0 16 r4 
-leti r4 21260
+leti r4 7615
 write a0 16 r4 
-leti r4 25422
+leti r4 1534
 write a0 16 r4 
-leti r4 50735
+leti r4 1663
 write a0 16 r4 
-leti r4 61305
+leti r4 1663
 write a0 16 r4 
-leti r4 59256
+leti r4 1599
 write a0 16 r4 
-leti r4 61304
+leti r4 1599
 write a0 16 r4 
-leti r4 61304
+leti r4 3647
 write a0 16 r4 
-leti r4 61305
+leti r4 1599
 write a0 16 r4 
-leti r4 59195
+leti r4 1663
 write a0 16 r4 
-leti r4 46578
+leti r4 1663
 write a0 16 r4 
-leti r4 35935
+leti r4 1663
 write a0 16 r4 
-leti r4 35937
+leti r4 1598
 write a0 16 r4 
-leti r4 35937
+leti r4 1663
 write a0 16 r4 
-leti r4 33824
+leti r4 3711
 write a0 16 r4 
-leti r4 27479
+leti r4 1533
 write a0 16 r4 
-leti r4 25365
+leti r4 3647
 write a0 16 r4 
-leti r4 25301
+leti r4 5759
 write a0 16 r4 
-leti r4 27349
+leti r4 1470
 write a0 16 r4 
-leti r4 29464
+leti r4 11839
 write a0 16 r4 
-leti r4 29464
+leti r4 15743
 write a0 16 r4 
-leti r4 29464
+leti r4 306
 write a0 16 r4 
-leti r4 29464
+leti r4 185
 write a0 16 r4 
-leti r4 29464
+leti r4 126
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 123
 write a0 16 r4 
-leti r4 29465
+leti r4 59
 write a0 16 r4 
-leti r4 29529
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 57
 write a0 16 r4 
-leti r4 29464
+leti r4 124
 write a0 16 r4 
-leti r4 29464
+leti r4 120
 write a0 16 r4 
-leti r4 29464
+leti r4 311
 write a0 16 r4 
-leti r4 29465
+leti r4 13759
 write a0 16 r4 
-leti r4 29464
+leti r4 5567
 write a0 16 r4 
-leti r4 27415
+leti r4 5631
 write a0 16 r4 
-leti r4 27415
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1727
 write a0 16 r4 
-leti r4 31578
+leti r4 1726
 write a0 16 r4 
-leti r4 31578
+leti r4 1791
 write a0 16 r4 
-leti r4 27416
+leti r4 1662
 write a0 16 r4 
-leti r4 29529
+leti r4 1662
 write a0 16 r4 
-leti r4 52850
+leti r4 1663
 write a0 16 r4 
-leti r4 50735
+leti r4 1599
 write a0 16 r4 
-leti r4 44391
+leti r4 1599
 write a0 16 r4 
-leti r4 44389
+leti r4 1599
 write a0 16 r4 
-leti r4 33817
+leti r4 1663
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 35931
+leti r4 1663
 write a0 16 r4 
-leti r4 33882
+leti r4 1663
 write a0 16 r4 
-leti r4 42337
+leti r4 1663
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 21197
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 23309
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21131
+leti r4 1662
 write a0 16 r4 
-leti r4 19019
+leti r4 1597
 write a0 16 r4 
-leti r4 21197
+leti r4 3775
 write a0 16 r4 
-leti r4 19080
+leti r4 1663
 write a0 16 r4 
-leti r4 27537
+leti r4 1663
 write a0 16 r4 
-leti r4 52846
+leti r4 1469
 write a0 16 r4 
-leti r4 63355
+leti r4 9855
 write a0 16 r4 
-leti r4 52784
+leti r4 3391
 write a0 16 r4 
-leti r4 52848
+leti r4 11583
 write a0 16 r4 
-leti r4 52849
+leti r4 306
 write a0 16 r4 
-leti r4 48686
+leti r4 118
 write a0 16 r4 
-leti r4 52848
+leti r4 191
 write a0 16 r4 
-leti r4 37987
+leti r4 60
 write a0 16 r4 
-leti r4 35873
+leti r4 4159
 write a0 16 r4 
-leti r4 44327
+leti r4 6271
 write a0 16 r4 
-leti r4 50733
+leti r4 59
 write a0 16 r4 
-leti r4 63415
+leti r4 60
 write a0 16 r4 
-leti r4 52850
+leti r4 62
 write a0 16 r4 
-leti r4 50737
+leti r4 62
 write a0 16 r4 
-leti r4 52911
+leti r4 62
 write a0 16 r4 
-leti r4 59191
+leti r4 62
 write a0 16 r4 
-leti r4 52848
+leti r4 62
 write a0 16 r4 
-leti r4 33880
+leti r4 62
 write a0 16 r4 
-leti r4 19018
+leti r4 62
 write a0 16 r4 
-leti r4 12741
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 23245
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 2175
 write a0 16 r4 
-leti r4 21196
+leti r4 2175
 write a0 16 r4 
-leti r4 21196
+leti r4 63
 write a0 16 r4 
-leti r4 25423
+leti r4 58
 write a0 16 r4 
-leti r4 25424
+leti r4 188
 write a0 16 r4 
-leti r4 27537
+leti r4 177
 write a0 16 r4 
-leti r4 21195
+leti r4 15807
 write a0 16 r4 
-leti r4 27536
+leti r4 7679
 write a0 16 r4 
-leti r4 54962
+leti r4 1599
 write a0 16 r4 
-leti r4 61305
+leti r4 1662
 write a0 16 r4 
-leti r4 61304
+leti r4 1662
 write a0 16 r4 
-leti r4 59191
+leti r4 1599
 write a0 16 r4 
-leti r4 59191
+leti r4 3647
 write a0 16 r4 
-leti r4 63355
+leti r4 1599
 write a0 16 r4 
-leti r4 59259
+leti r4 1663
 write a0 16 r4 
-leti r4 46577
+leti r4 1663
 write a0 16 r4 
-leti r4 33823
+leti r4 1663
 write a0 16 r4 
-leti r4 33823
+leti r4 1598
 write a0 16 r4 
-leti r4 35937
+leti r4 1596
 write a0 16 r4 
-leti r4 35937
+leti r4 3710
 write a0 16 r4 
-leti r4 35871
+leti r4 3647
 write a0 16 r4 
-leti r4 27480
+leti r4 1599
 write a0 16 r4 
-leti r4 27415
+leti r4 1599
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1531
 write a0 16 r4 
-leti r4 29464
+leti r4 9791
 write a0 16 r4 
-leti r4 29464
+leti r4 13567
 write a0 16 r4 
-leti r4 29464
+leti r4 243
 write a0 16 r4 
-leti r4 29464
+leti r4 122
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 2175
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2303
 write a0 16 r4 
-leti r4 29464
+leti r4 53
 write a0 16 r4 
-leti r4 29464
+leti r4 310
 write a0 16 r4 
-leti r4 29464
+leti r4 436
 write a0 16 r4 
-leti r4 29464
+leti r4 9471
 write a0 16 r4 
-leti r4 29529
+leti r4 3455
 write a0 16 r4 
-leti r4 29464
+leti r4 5759
 write a0 16 r4 
-leti r4 27415
+leti r4 1599
 write a0 16 r4 
-leti r4 27415
+leti r4 1727
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29529
+leti r4 1658
 write a0 16 r4 
-leti r4 31578
+leti r4 1726
 write a0 16 r4 
-leti r4 31578
+leti r4 1593
 write a0 16 r4 
-leti r4 21075
+leti r4 1662
 write a0 16 r4 
-leti r4 35874
+leti r4 1662
 write a0 16 r4 
-leti r4 52848
+leti r4 1663
 write a0 16 r4 
-leti r4 52787
+leti r4 1599
 write a0 16 r4 
-leti r4 35934
+leti r4 1599
 write a0 16 r4 
-leti r4 35872
+leti r4 1599
 write a0 16 r4 
-leti r4 44389
+leti r4 1663
 write a0 16 r4 
-leti r4 42275
+leti r4 1663
 write a0 16 r4 
-leti r4 35932
+leti r4 1663
 write a0 16 r4 
-leti r4 33883
+leti r4 1663
 write a0 16 r4 
-leti r4 42338
+leti r4 1663
 write a0 16 r4 
-leti r4 35996
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 27537
+leti r4 1663
 write a0 16 r4 
-leti r4 27473
+leti r4 1663
 write a0 16 r4 
-leti r4 23245
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21131
+leti r4 1663
 write a0 16 r4 
-leti r4 23245
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1662
 write a0 16 r4 
-leti r4 19016
+leti r4 1727
 write a0 16 r4 
-leti r4 21134
+leti r4 1595
 write a0 16 r4 
-leti r4 21074
+leti r4 1662
 write a0 16 r4 
-leti r4 35875
+leti r4 1535
 write a0 16 r4 
-leti r4 50734
+leti r4 3583
 write a0 16 r4 
-leti r4 52846
+leti r4 9599
 write a0 16 r4 
-leti r4 52848
+leti r4 369
 write a0 16 r4 
-leti r4 50735
+leti r4 245
 write a0 16 r4 
-leti r4 50795
+leti r4 121
 write a0 16 r4 
-leti r4 54961
+leti r4 191
 write a0 16 r4 
-leti r4 35936
+leti r4 59
 write a0 16 r4 
-leti r4 21139
+leti r4 62
 write a0 16 r4 
-leti r4 14793
+leti r4 62
 write a0 16 r4 
-leti r4 21132
+leti r4 63
 write a0 16 r4 
-leti r4 35996
+leti r4 63
 write a0 16 r4 
-leti r4 33882
+leti r4 2175
 write a0 16 r4 
-leti r4 52848
+leti r4 62
 write a0 16 r4 
-leti r4 52783
+leti r4 62
 write a0 16 r4 
-leti r4 61302
+leti r4 62
 write a0 16 r4 
-leti r4 61306
+leti r4 62
 write a0 16 r4 
-leti r4 50735
+leti r4 62
 write a0 16 r4 
-leti r4 44451
+leti r4 62
 write a0 16 r4 
-leti r4 25427
+leti r4 62
 write a0 16 r4 
-leti r4 12741
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21131
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 23309
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21194
+leti r4 59
 write a0 16 r4 
-leti r4 23308
+leti r4 127
 write a0 16 r4 
-leti r4 25424
+leti r4 126
 write a0 16 r4 
-leti r4 25423
+leti r4 51
 write a0 16 r4 
-leti r4 23245
+leti r4 366
 write a0 16 r4 
-leti r4 33880
+leti r4 13823
 write a0 16 r4 
-leti r4 50734
+leti r4 3647
 write a0 16 r4 
-leti r4 59190
+leti r4 1662
 write a0 16 r4 
-leti r4 63354
+leti r4 1661
 write a0 16 r4 
-leti r4 61240
+leti r4 1662
 write a0 16 r4 
-leti r4 57011
+leti r4 3647
 write a0 16 r4 
-leti r4 61240
+leti r4 1599
 write a0 16 r4 
-leti r4 59193
+leti r4 1663
 write a0 16 r4 
-leti r4 48690
+leti r4 1663
 write a0 16 r4 
-leti r4 44392
+leti r4 1532
 write a0 16 r4 
-leti r4 35937
+leti r4 3839
 write a0 16 r4 
-leti r4 33824
+leti r4 3775
 write a0 16 r4 
-leti r4 35937
+leti r4 1594
 write a0 16 r4 
-leti r4 35872
+leti r4 1663
 write a0 16 r4 
-leti r4 25301
+leti r4 1663
 write a0 16 r4 
-leti r4 25301
+leti r4 1597
 write a0 16 r4 
-leti r4 27415
+leti r4 1727
 write a0 16 r4 
-leti r4 29464
+leti r4 1659
 write a0 16 r4 
-leti r4 29464
+leti r4 5823
 write a0 16 r4 
-leti r4 29464
+leti r4 9663
 write a0 16 r4 
-leti r4 29464
+leti r4 302
 write a0 16 r4 
-leti r4 29464
+leti r4 187
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2111
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 55
 write a0 16 r4 
-leti r4 29464
+leti r4 307
 write a0 16 r4 
-leti r4 29464
+leti r4 15679
 write a0 16 r4 
-leti r4 29464
+leti r4 7487
 write a0 16 r4 
-leti r4 29464
+leti r4 7743
 write a0 16 r4 
-leti r4 31578
+leti r4 3647
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1595
 write a0 16 r4 
-leti r4 29464
+leti r4 1726
 write a0 16 r4 
-leti r4 29464
+leti r4 1724
 write a0 16 r4 
-leti r4 29464
+leti r4 1660
 write a0 16 r4 
-leti r4 27415
+leti r4 1725
 write a0 16 r4 
-leti r4 27417
+leti r4 1662
 write a0 16 r4 
-leti r4 35872
+leti r4 1662
 write a0 16 r4 
-leti r4 50674
+leti r4 1663
 write a0 16 r4 
-leti r4 44394
+leti r4 1599
 write a0 16 r4 
-leti r4 44330
+leti r4 1663
 write a0 16 r4 
-leti r4 52783
+leti r4 1663
 write a0 16 r4 
-leti r4 52847
+leti r4 1663
 write a0 16 r4 
-leti r4 44390
+leti r4 1663
 write a0 16 r4 
-leti r4 38046
+leti r4 1663
 write a0 16 r4 
-leti r4 33818
+leti r4 1663
 write a0 16 r4 
-leti r4 35932
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 19083
+leti r4 1663
 write a0 16 r4 
-leti r4 23310
+leti r4 1663
 write a0 16 r4 
-leti r4 23310
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21131
+leti r4 1663
 write a0 16 r4 
-leti r4 21197
+leti r4 1663
 write a0 16 r4 
-leti r4 21197
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 23309
+leti r4 1663
 write a0 16 r4 
-leti r4 19082
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 23061
+leti r4 1596
 write a0 16 r4 
-leti r4 23123
+leti r4 1727
 write a0 16 r4 
-leti r4 18962
+leti r4 1599
 write a0 16 r4 
-leti r4 35938
+leti r4 3583
 write a0 16 r4 
-leti r4 52909
+leti r4 9663
 write a0 16 r4 
-leti r4 52910
+leti r4 369
 write a0 16 r4 
-leti r4 52848
+leti r4 180
 write a0 16 r4 
-leti r4 61304
+leti r4 122
 write a0 16 r4 
-leti r4 52847
+leti r4 61
 write a0 16 r4 
-leti r4 33819
+leti r4 61
 write a0 16 r4 
-leti r4 21197
+leti r4 61
 write a0 16 r4 
-leti r4 16969
+leti r4 62
 write a0 16 r4 
-leti r4 12740
+leti r4 127
 write a0 16 r4 
-leti r4 14855
+leti r4 58
 write a0 16 r4 
-leti r4 16903
+leti r4 63
 write a0 16 r4 
-leti r4 27472
+leti r4 62
 write a0 16 r4 
-leti r4 27413
+leti r4 62
 write a0 16 r4 
-leti r4 44391
+leti r4 62
 write a0 16 r4 
-leti r4 52846
+leti r4 62
 write a0 16 r4 
-leti r4 61241
+leti r4 62
 write a0 16 r4 
-leti r4 61306
+leti r4 62
 write a0 16 r4 
-leti r4 52908
+leti r4 62
 write a0 16 r4 
-leti r4 25362
+leti r4 62
 write a0 16 r4 
-leti r4 12742
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 21131
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 23244
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21194
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 21197
+leti r4 189
 write a0 16 r4 
-leti r4 21197
+leti r4 176
 write a0 16 r4 
-leti r4 35930
+leti r4 17791
 write a0 16 r4 
-leti r4 52911
+leti r4 7679
 write a0 16 r4 
-leti r4 61239
+leti r4 1661
 write a0 16 r4 
-leti r4 61305
+leti r4 1660
 write a0 16 r4 
-leti r4 52849
+leti r4 1661
 write a0 16 r4 
-leti r4 44327
+leti r4 1599
 write a0 16 r4 
-leti r4 52785
+leti r4 1599
 write a0 16 r4 
-leti r4 59193
+leti r4 1663
 write a0 16 r4 
-leti r4 59259
+leti r4 1662
 write a0 16 r4 
-leti r4 44391
+leti r4 1663
 write a0 16 r4 
-leti r4 35936
+leti r4 1533
 write a0 16 r4 
-leti r4 35873
+leti r4 1597
 write a0 16 r4 
-leti r4 35938
+leti r4 1727
 write a0 16 r4 
-leti r4 35936
+leti r4 1662
 write a0 16 r4 
-leti r4 25366
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1727
 write a0 16 r4 
-leti r4 27415
+leti r4 1659
 write a0 16 r4 
-leti r4 29464
+leti r4 1725
 write a0 16 r4 
-leti r4 29464
+leti r4 1597
 write a0 16 r4 
-leti r4 29464
+leti r4 3583
 write a0 16 r4 
-leti r4 29464
+leti r4 11647
 write a0 16 r4 
-leti r4 29464
+leti r4 243
 write a0 16 r4 
-leti r4 29464
+leti r4 120
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2175
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 2175
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 190
 write a0 16 r4 
-leti r4 29464
+leti r4 183
 write a0 16 r4 
-leti r4 29464
+leti r4 242
 write a0 16 r4 
-leti r4 29464
+leti r4 13695
 write a0 16 r4 
-leti r4 29464
+leti r4 3391
 write a0 16 r4 
-leti r4 29464
+leti r4 7807
 write a0 16 r4 
-leti r4 29464
+leti r4 1598
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29465
+leti r4 1661
 write a0 16 r4 
-leti r4 27415
+leti r4 1661
 write a0 16 r4 
-leti r4 27416
+leti r4 1661
 write a0 16 r4 
-leti r4 29530
+leti r4 1662
 write a0 16 r4 
-leti r4 46442
+leti r4 1662
 write a0 16 r4 
-leti r4 50737
+leti r4 1663
 write a0 16 r4 
-leti r4 44329
+leti r4 1663
 write a0 16 r4 
-leti r4 52912
+leti r4 1663
 write a0 16 r4 
-leti r4 59254
+leti r4 1662
 write a0 16 r4 
-leti r4 52784
+leti r4 1662
 write a0 16 r4 
-leti r4 44329
+leti r4 1662
 write a0 16 r4 
-leti r4 35874
+leti r4 1663
 write a0 16 r4 
-leti r4 35871
+leti r4 1663
 write a0 16 r4 
-leti r4 33883
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 21194
+leti r4 1663
 write a0 16 r4 
-leti r4 21259
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 19081
+leti r4 1663
 write a0 16 r4 
-leti r4 14792
+leti r4 1663
 write a0 16 r4 
-leti r4 19022
+leti r4 1535
 write a0 16 r4 
-leti r4 27416
+leti r4 7743
 write a0 16 r4 
-leti r4 44330
+leti r4 9599
 write a0 16 r4 
-leti r4 61306
+leti r4 306
 write a0 16 r4 
-leti r4 59190
+leti r4 248
 write a0 16 r4 
-leti r4 54961
+leti r4 123
 write a0 16 r4 
-leti r4 52846
+leti r4 2108
 write a0 16 r4 
-leti r4 35993
+leti r4 2110
 write a0 16 r4 
-leti r4 21196
+leti r4 2110
 write a0 16 r4 
-leti r4 12741
+leti r4 61
 write a0 16 r4 
-leti r4 14855
+leti r4 60
 write a0 16 r4 
-leti r4 19018
+leti r4 123
 write a0 16 r4 
-leti r4 12741
+leti r4 123
 write a0 16 r4 
-leti r4 12741
+leti r4 60
 write a0 16 r4 
-leti r4 14791
+leti r4 61
 write a0 16 r4 
-leti r4 12741
+leti r4 62
 write a0 16 r4 
-leti r4 16970
+leti r4 62
 write a0 16 r4 
-leti r4 25427
+leti r4 62
 write a0 16 r4 
-leti r4 42339
+leti r4 62
 write a0 16 r4 
-leti r4 52844
+leti r4 62
 write a0 16 r4 
-leti r4 54957
+leti r4 62
 write a0 16 r4 
-leti r4 42273
+leti r4 62
 write a0 16 r4 
-leti r4 21197
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 23245
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 23245
+leti r4 61
 write a0 16 r4 
-leti r4 25423
+leti r4 121
 write a0 16 r4 
-leti r4 35993
+leti r4 305
 write a0 16 r4 
-leti r4 61241
+leti r4 11775
 write a0 16 r4 
-leti r4 61304
+leti r4 1530
 write a0 16 r4 
-leti r4 52783
+leti r4 1726
 write a0 16 r4 
-leti r4 35935
+leti r4 1791
 write a0 16 r4 
-leti r4 25365
+leti r4 1598
 write a0 16 r4 
-leti r4 35936
+leti r4 1599
 write a0 16 r4 
-leti r4 61241
+leti r4 1727
 write a0 16 r4 
-leti r4 61242
+leti r4 1661
 write a0 16 r4 
-leti r4 44391
+leti r4 1661
 write a0 16 r4 
-leti r4 35872
+leti r4 1662
 write a0 16 r4 
-leti r4 33761
+leti r4 1599
 write a0 16 r4 
-leti r4 37987
+leti r4 1663
 write a0 16 r4 
-leti r4 35872
+leti r4 1662
 write a0 16 r4 
-leti r4 25364
+leti r4 1661
 write a0 16 r4 
-leti r4 27479
+leti r4 1724
 write a0 16 r4 
-leti r4 27415
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 7679
 write a0 16 r4 
-leti r4 29464
+leti r4 13695
 write a0 16 r4 
-leti r4 27415
+leti r4 175
 write a0 16 r4 
-leti r4 27415
+leti r4 252
 write a0 16 r4 
-leti r4 27416
+leti r4 59
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 60
 write a0 16 r4 
-leti r4 31579
+leti r4 63
 write a0 16 r4 
-leti r4 31578
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2111
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 125
 write a0 16 r4 
-leti r4 29464
+leti r4 254
 write a0 16 r4 
-leti r4 29464
+leti r4 49
 write a0 16 r4 
-leti r4 29464
+leti r4 305
 write a0 16 r4 
-leti r4 29464
+leti r4 13759
 write a0 16 r4 
-leti r4 29464
+leti r4 7615
 write a0 16 r4 
-leti r4 29464
+leti r4 5695
 write a0 16 r4 
-leti r4 29464
+leti r4 3775
 write a0 16 r4 
-leti r4 29464
+leti r4 1595
 write a0 16 r4 
-leti r4 31578
+leti r4 1662
 write a0 16 r4 
-leti r4 29530
+leti r4 1662
 write a0 16 r4 
-leti r4 31578
+leti r4 1662
 write a0 16 r4 
-leti r4 31578
+leti r4 1662
 write a0 16 r4 
-leti r4 29465
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 27416
+leti r4 1662
 write a0 16 r4 
-leti r4 27416
+leti r4 1662
 write a0 16 r4 
-leti r4 27481
+leti r4 1662
 write a0 16 r4 
-leti r4 50672
+leti r4 1663
 write a0 16 r4 
-leti r4 61307
+leti r4 1663
 write a0 16 r4 
-leti r4 50736
+leti r4 1663
 write a0 16 r4 
-leti r4 61304
+leti r4 1662
 write a0 16 r4 
-leti r4 61304
+leti r4 1662
 write a0 16 r4 
-leti r4 46507
+leti r4 1662
 write a0 16 r4 
-leti r4 33760
+leti r4 1662
 write a0 16 r4 
-leti r4 35937
+leti r4 1663
 write a0 16 r4 
-leti r4 35936
+leti r4 1663
 write a0 16 r4 
-leti r4 35931
+leti r4 1663
 write a0 16 r4 
-leti r4 27473
+leti r4 1663
 write a0 16 r4 
-leti r4 21194
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 23245
+leti r4 1663
 write a0 16 r4 
-leti r4 21197
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 19082
+leti r4 1599
 write a0 16 r4 
-leti r4 19082
+leti r4 1535
 write a0 16 r4 
-leti r4 19019
+leti r4 5567
 write a0 16 r4 
-leti r4 27414
+leti r4 13759
 write a0 16 r4 
-leti r4 52784
+leti r4 173
 write a0 16 r4 
-leti r4 61305
+leti r4 249
 write a0 16 r4 
-leti r4 63417
+leti r4 58
 write a0 16 r4 
-leti r4 50797
+leti r4 60
 write a0 16 r4 
-leti r4 33819
+leti r4 4158
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 19018
+leti r4 2110
 write a0 16 r4 
-leti r4 16969
+leti r4 61
 write a0 16 r4 
-leti r4 16905
+leti r4 60
 write a0 16 r4 
-leti r4 16904
+leti r4 123
 write a0 16 r4 
-leti r4 16969
+leti r4 123
 write a0 16 r4 
-leti r4 19083
+leti r4 60
 write a0 16 r4 
-leti r4 16970
+leti r4 61
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 10627
+leti r4 62
 write a0 16 r4 
-leti r4 12678
+leti r4 62
 write a0 16 r4 
-leti r4 16971
+leti r4 62
 write a0 16 r4 
-leti r4 27476
+leti r4 62
 write a0 16 r4 
-leti r4 42273
+leti r4 62
 write a0 16 r4 
-leti r4 35995
+leti r4 62
 write a0 16 r4 
-leti r4 21132
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 21131
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 23309
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 35929
+leti r4 182
 write a0 16 r4 
-leti r4 52911
+leti r4 13631
 write a0 16 r4 
-leti r4 42340
+leti r4 9855
 write a0 16 r4 
-leti r4 35932
+leti r4 1598
 write a0 16 r4 
-leti r4 25362
+leti r4 1466
 write a0 16 r4 
-leti r4 27477
+leti r4 1727
 write a0 16 r4 
-leti r4 35934
+leti r4 1599
 write a0 16 r4 
-leti r4 54897
+leti r4 1727
 write a0 16 r4 
-leti r4 59192
+leti r4 1659
 write a0 16 r4 
-leti r4 52848
+leti r4 1661
 write a0 16 r4 
-leti r4 35936
+leti r4 1662
 write a0 16 r4 
-leti r4 27481
+leti r4 1599
 write a0 16 r4 
-leti r4 35937
+leti r4 1599
 write a0 16 r4 
-leti r4 35871
+leti r4 1662
 write a0 16 r4 
-leti r4 27415
+leti r4 1661
 write a0 16 r4 
-leti r4 27414
+leti r4 1724
 write a0 16 r4 
-leti r4 23252
+leti r4 1662
 write a0 16 r4 
-leti r4 27416
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 9727
 write a0 16 r4 
-leti r4 29464
+leti r4 19903
 write a0 16 r4 
-leti r4 29464
+leti r4 115
 write a0 16 r4 
-leti r4 29465
+leti r4 189
 write a0 16 r4 
-leti r4 31578
+leti r4 127
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 63
 write a0 16 r4 
-leti r4 29529
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 4287
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 57
 write a0 16 r4 
-leti r4 29464
+leti r4 184
 write a0 16 r4 
-leti r4 27415
+leti r4 174
 write a0 16 r4 
-leti r4 29464
+leti r4 17855
 write a0 16 r4 
-leti r4 29464
+leti r4 9663
 write a0 16 r4 
-leti r4 29464
+leti r4 1471
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 1727
 write a0 16 r4 
-leti r4 29464
+leti r4 1530
 write a0 16 r4 
-leti r4 29529
+leti r4 3775
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27351
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27482
+leti r4 1663
 write a0 16 r4 
-leti r4 52786
+leti r4 1663
 write a0 16 r4 
-leti r4 61243
+leti r4 1663
 write a0 16 r4 
-leti r4 61241
+leti r4 1662
 write a0 16 r4 
-leti r4 59192
+leti r4 1662
 write a0 16 r4 
-leti r4 52849
+leti r4 1662
 write a0 16 r4 
-leti r4 33824
+leti r4 1662
 write a0 16 r4 
-leti r4 27483
+leti r4 1662
 write a0 16 r4 
-leti r4 35933
+leti r4 1663
 write a0 16 r4 
-leti r4 42274
+leti r4 1663
 write a0 16 r4 
-leti r4 33882
+leti r4 1663
 write a0 16 r4 
-leti r4 27538
+leti r4 1663
 write a0 16 r4 
-leti r4 21194
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 19081
+leti r4 1663
 write a0 16 r4 
-leti r4 19017
+leti r4 1599
 write a0 16 r4 
-leti r4 16965
+leti r4 7679
 write a0 16 r4 
-leti r4 19081
+leti r4 561
 write a0 16 r4 
-leti r4 33819
+leti r4 110
 write a0 16 r4 
-leti r4 61304
+leti r4 184
 write a0 16 r4 
-leti r4 61304
+leti r4 2173
 write a0 16 r4 
-leti r4 52846
+leti r4 2109
 write a0 16 r4 
-leti r4 35932
+leti r4 2109
 write a0 16 r4 
-leti r4 16971
+leti r4 4159
 write a0 16 r4 
-leti r4 12741
+leti r4 62
 write a0 16 r4 
-leti r4 19018
+leti r4 62
 write a0 16 r4 
-leti r4 16969
+leti r4 61
 write a0 16 r4 
-leti r4 14856
+leti r4 61
 write a0 16 r4 
-leti r4 12741
+leti r4 61
 write a0 16 r4 
-leti r4 19017
+leti r4 61
 write a0 16 r4 
-leti r4 16969
+leti r4 2110
 write a0 16 r4 
-leti r4 12741
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 12741
+leti r4 62
 write a0 16 r4 
-leti r4 16905
+leti r4 62
 write a0 16 r4 
-leti r4 12677
+leti r4 62
 write a0 16 r4 
-leti r4 12677
+leti r4 62
 write a0 16 r4 
-leti r4 23246
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 33880
+leti r4 120
 write a0 16 r4 
-leti r4 42337
+leti r4 365
 write a0 16 r4 
-leti r4 25424
+leti r4 9663
 write a0 16 r4 
-leti r4 19147
+leti r4 7871
 write a0 16 r4 
-leti r4 19084
+leti r4 1663
 write a0 16 r4 
-leti r4 27475
+leti r4 1663
 write a0 16 r4 
-leti r4 25363
+leti r4 1663
 write a0 16 r4 
-leti r4 42277
+leti r4 1595
 write a0 16 r4 
-leti r4 63418
+leti r4 1726
 write a0 16 r4 
-leti r4 61305
+leti r4 1661
 write a0 16 r4 
-leti r4 35935
+leti r4 1662
 write a0 16 r4 
-leti r4 25364
+leti r4 1599
 write a0 16 r4 
-leti r4 35870
+leti r4 1663
 write a0 16 r4 
-leti r4 37987
+leti r4 1662
 write a0 16 r4 
-leti r4 25302
+leti r4 1661
 write a0 16 r4 
-leti r4 27415
+leti r4 1662
 write a0 16 r4 
-leti r4 27479
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1599
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 7807
 write a0 16 r4 
-leti r4 29464
+leti r4 11711
 write a0 16 r4 
-leti r4 29464
+leti r4 304
 write a0 16 r4 
-leti r4 29529
+leti r4 182
 write a0 16 r4 
-leti r4 31578
+leti r4 56
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 56
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 123
 write a0 16 r4 
-leti r4 29464
+leti r4 183
 write a0 16 r4 
-leti r4 29464
+leti r4 240
 write a0 16 r4 
-leti r4 29464
+leti r4 15743
 write a0 16 r4 
-leti r4 29464
+leti r4 7615
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1727
 write a0 16 r4 
-leti r4 29464
+leti r4 1596
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 31578
+leti r4 1597
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27481
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 33824
+leti r4 1663
 write a0 16 r4 
-leti r4 52785
+leti r4 1662
 write a0 16 r4 
-leti r4 61241
+leti r4 1662
 write a0 16 r4 
-leti r4 61306
+leti r4 1662
 write a0 16 r4 
-leti r4 61240
+leti r4 1662
 write a0 16 r4 
-leti r4 42280
+leti r4 1662
 write a0 16 r4 
-leti r4 35938
+leti r4 1662
 write a0 16 r4 
-leti r4 35938
+leti r4 1662
 write a0 16 r4 
-leti r4 33882
+leti r4 1663
 write a0 16 r4 
-leti r4 46501
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 27474
+leti r4 1663
 write a0 16 r4 
-leti r4 21131
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 23309
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 19082
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 1599
 write a0 16 r4 
-leti r4 19078
+leti r4 7615
 write a0 16 r4 
-leti r4 19082
+leti r4 299
 write a0 16 r4 
-leti r4 42274
+leti r4 179
 write a0 16 r4 
-leti r4 61302
+leti r4 186
 write a0 16 r4 
-leti r4 52847
+leti r4 59
 write a0 16 r4 
-leti r4 33818
+leti r4 6207
 write a0 16 r4 
-leti r4 21132
+leti r4 2110
 write a0 16 r4 
-leti r4 14854
+leti r4 61
 write a0 16 r4 
-leti r4 19018
+leti r4 62
 write a0 16 r4 
-leti r4 16904
+leti r4 62
 write a0 16 r4 
-leti r4 14790
+leti r4 62
 write a0 16 r4 
-leti r4 16904
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 19081
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 14789
+leti r4 2110
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16904
+leti r4 62
 write a0 16 r4 
-leti r4 14855
+leti r4 62
 write a0 16 r4 
-leti r4 12741
+leti r4 62
 write a0 16 r4 
-leti r4 12741
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 12741
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 27537
+leti r4 122
 write a0 16 r4 
-leti r4 25422
+leti r4 243
 write a0 16 r4 
-leti r4 27536
+leti r4 13631
 write a0 16 r4 
-leti r4 27537
+leti r4 7551
 write a0 16 r4 
-leti r4 25422
+leti r4 1535
 write a0 16 r4 
-leti r4 25423
+leti r4 1599
 write a0 16 r4 
-leti r4 25426
+leti r4 1599
 write a0 16 r4 
-leti r4 35932
+leti r4 3839
 write a0 16 r4 
-leti r4 52844
+leti r4 1660
 write a0 16 r4 
-leti r4 61241
+leti r4 1662
 write a0 16 r4 
-leti r4 35934
+leti r4 1662
 write a0 16 r4 
-leti r4 27476
+leti r4 1663
 write a0 16 r4 
-leti r4 25363
+leti r4 1663
 write a0 16 r4 
-leti r4 35872
+leti r4 1662
 write a0 16 r4 
-leti r4 37987
+leti r4 1662
 write a0 16 r4 
-leti r4 25302
+leti r4 1663
 write a0 16 r4 
-leti r4 25363
+leti r4 1599
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1535
 write a0 16 r4 
-leti r4 29463
+leti r4 1663
 write a0 16 r4 
-leti r4 29463
+leti r4 1663
 write a0 16 r4 
-leti r4 29463
+leti r4 1534
 write a0 16 r4 
-leti r4 29464
+leti r4 5567
 write a0 16 r4 
-leti r4 29465
+leti r4 17919
 write a0 16 r4 
-leti r4 29529
+leti r4 240
 write a0 16 r4 
-leti r4 29464
+leti r4 187
 write a0 16 r4 
-leti r4 27415
+leti r4 191
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 60
 write a0 16 r4 
-leti r4 31579
+leti r4 63
 write a0 16 r4 
-leti r4 31578
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 124
 write a0 16 r4 
-leti r4 29464
+leti r4 184
 write a0 16 r4 
-leti r4 29464
+leti r4 179
 write a0 16 r4 
-leti r4 29464
+leti r4 301
 write a0 16 r4 
-leti r4 29464
+leti r4 15871
 write a0 16 r4 
-leti r4 29464
+leti r4 5567
 write a0 16 r4 
-leti r4 29464
+leti r4 3711
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1726
 write a0 16 r4 
-leti r4 29464
+leti r4 1595
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 31579
+leti r4 3711
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 27416
+leti r4 1599
 write a0 16 r4 
-leti r4 27416
+leti r4 1599
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27417
+leti r4 1663
 write a0 16 r4 
-leti r4 25367
+leti r4 1663
 write a0 16 r4 
-leti r4 44394
+leti r4 1663
 write a0 16 r4 
-leti r4 59192
+leti r4 1662
 write a0 16 r4 
-leti r4 61305
+leti r4 1662
 write a0 16 r4 
-leti r4 63354
+leti r4 1662
 write a0 16 r4 
-leti r4 52784
+leti r4 1662
 write a0 16 r4 
-leti r4 35936
+leti r4 1663
 write a0 16 r4 
-leti r4 35937
+leti r4 1663
 write a0 16 r4 
-leti r4 33824
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 42337
+leti r4 1663
 write a0 16 r4 
-leti r4 33880
+leti r4 1663
 write a0 16 r4 
-leti r4 25425
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21197
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 23245
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 19017
+leti r4 1663
 write a0 16 r4 
-leti r4 19017
+leti r4 1599
 write a0 16 r4 
-leti r4 17032
+leti r4 7679
 write a0 16 r4 
-leti r4 25424
+leti r4 11647
 write a0 16 r4 
-leti r4 52845
+leti r4 373
 write a0 16 r4 
-leti r4 52846
+leti r4 182
 write a0 16 r4 
-leti r4 33884
+leti r4 190
 write a0 16 r4 
-leti r4 21133
+leti r4 61
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 16966
+leti r4 63
 write a0 16 r4 
-leti r4 16969
+leti r4 61
 write a0 16 r4 
-leti r4 14789
+leti r4 61
 write a0 16 r4 
-leti r4 14790
+leti r4 62
 write a0 16 r4 
-leti r4 19018
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16969
+leti r4 2110
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 12740
+leti r4 62
 write a0 16 r4 
-leti r4 12741
+leti r4 62
 write a0 16 r4 
-leti r4 16969
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 14854
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 60
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 25359
+leti r4 59
 write a0 16 r4 
-leti r4 27473
+leti r4 122
 write a0 16 r4 
-leti r4 25424
+leti r4 311
 write a0 16 r4 
-leti r4 25424
+leti r4 15743
 write a0 16 r4 
-leti r4 27537
+leti r4 7615
 write a0 16 r4 
-leti r4 25423
+leti r4 1535
 write a0 16 r4 
-leti r4 27473
+leti r4 3775
 write a0 16 r4 
-leti r4 25424
+leti r4 1529
 write a0 16 r4 
-leti r4 44386
+leti r4 1726
 write a0 16 r4 
-leti r4 52849
+leti r4 1663
 write a0 16 r4 
-leti r4 42275
+leti r4 1599
 write a0 16 r4 
-leti r4 25425
+leti r4 1662
 write a0 16 r4 
-leti r4 21133
+leti r4 1662
 write a0 16 r4 
-leti r4 25365
+leti r4 1662
 write a0 16 r4 
-leti r4 35874
+leti r4 1663
 write a0 16 r4 
-leti r4 25302
+leti r4 1599
 write a0 16 r4 
-leti r4 27477
+leti r4 1599
 write a0 16 r4 
-leti r4 27415
+leti r4 1532
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 29463
+leti r4 1727
 write a0 16 r4 
-leti r4 29463
+leti r4 5823
 write a0 16 r4 
-leti r4 29464
+leti r4 1471
 write a0 16 r4 
-leti r4 29464
+leti r4 3519
 write a0 16 r4 
-leti r4 29465
+leti r4 15807
 write a0 16 r4 
-leti r4 27415
+leti r4 180
 write a0 16 r4 
-leti r4 27415
+leti r4 59
 write a0 16 r4 
-leti r4 29465
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 63
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2175
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 57
 write a0 16 r4 
-leti r4 29464
+leti r4 249
 write a0 16 r4 
-leti r4 29464
+leti r4 306
 write a0 16 r4 
-leti r4 29464
+leti r4 15679
 write a0 16 r4 
-leti r4 29464
+leti r4 11711
 write a0 16 r4 
-leti r4 29464
+leti r4 3519
 write a0 16 r4 
-leti r4 29529
+leti r4 1599
 write a0 16 r4 
-leti r4 29465
+leti r4 1597
 write a0 16 r4 
-leti r4 29464
+leti r4 1595
 write a0 16 r4 
-leti r4 29464
+leti r4 1727
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1599
 write a0 16 r4 
-leti r4 31578
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 27351
+leti r4 1599
 write a0 16 r4 
-leti r4 27416
+leti r4 1599
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 25303
+leti r4 1663
 write a0 16 r4 
-leti r4 27417
+leti r4 1663
 write a0 16 r4 
-leti r4 42346
+leti r4 1662
 write a0 16 r4 
-leti r4 59257
+leti r4 1662
 write a0 16 r4 
-leti r4 59190
+leti r4 1662
 write a0 16 r4 
-leti r4 61304
+leti r4 1662
 write a0 16 r4 
-leti r4 42279
+leti r4 1663
 write a0 16 r4 
-leti r4 35937
+leti r4 1663
 write a0 16 r4 
-leti r4 33824
+leti r4 1599
 write a0 16 r4 
-leti r4 35936
+leti r4 1663
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 35994
+leti r4 1663
 write a0 16 r4 
-leti r4 35929
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 21197
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 16967
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 19081
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 1599
 write a0 16 r4 
-leti r4 16969
+leti r4 3583
 write a0 16 r4 
-leti r4 35931
+leti r4 11775
 write a0 16 r4 
-leti r4 52845
+leti r4 13631
 write a0 16 r4 
-leti r4 35932
+leti r4 239
 write a0 16 r4 
-leti r4 16970
+leti r4 115
 write a0 16 r4 
-leti r4 16968
+leti r4 121
 write a0 16 r4 
-leti r4 16967
+leti r4 191
 write a0 16 r4 
-leti r4 19015
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16904
+leti r4 62
 write a0 16 r4 
-leti r4 16969
+leti r4 62
 write a0 16 r4 
-leti r4 16969
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 16966
+leti r4 2110
 write a0 16 r4 
-leti r4 19081
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16903
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 16904
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 21131
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21131
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 27473
+leti r4 61
 write a0 16 r4 
-leti r4 27473
+leti r4 2109
 write a0 16 r4 
-leti r4 25423
+leti r4 2109
 write a0 16 r4 
-leti r4 27473
+leti r4 61
 write a0 16 r4 
-leti r4 27537
+leti r4 60
 write a0 16 r4 
-leti r4 27473
+leti r4 60
 write a0 16 r4 
-leti r4 25425
+leti r4 62
 write a0 16 r4 
-leti r4 23311
+leti r4 120
 write a0 16 r4 
-leti r4 25424
+leti r4 241
 write a0 16 r4 
-leti r4 27473
+leti r4 13759
 write a0 16 r4 
-leti r4 25424
+leti r4 5631
 write a0 16 r4 
-leti r4 35994
+leti r4 1534
 write a0 16 r4 
-leti r4 25423
+leti r4 3839
 write a0 16 r4 
-leti r4 33880
+leti r4 1726
 write a0 16 r4 
-leti r4 50734
+leti r4 1599
 write a0 16 r4 
-leti r4 44452
+leti r4 1599
 write a0 16 r4 
-leti r4 25422
+leti r4 1662
 write a0 16 r4 
-leti r4 19082
+leti r4 1662
 write a0 16 r4 
-leti r4 25365
+leti r4 1663
 write a0 16 r4 
-leti r4 35872
+leti r4 1599
 write a0 16 r4 
-leti r4 25366
+leti r4 1599
 write a0 16 r4 
-leti r4 27413
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1726
 write a0 16 r4 
-leti r4 27414
+leti r4 1725
 write a0 16 r4 
-leti r4 27414
+leti r4 1662
 write a0 16 r4 
-leti r4 29463
+leti r4 1533
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 3711
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 3455
 write a0 16 r4 
-leti r4 29464
+leti r4 311
 write a0 16 r4 
-leti r4 29464
+leti r4 55
 write a0 16 r4 
-leti r4 31578
+leti r4 59
 write a0 16 r4 
-leti r4 31579
+leti r4 125
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 127
 write a0 16 r4 
-leti r4 29465
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 2108
 write a0 16 r4 
-leti r4 29464
+leti r4 120
 write a0 16 r4 
-leti r4 29464
+leti r4 242
 write a0 16 r4 
-leti r4 29464
+leti r4 11583
 write a0 16 r4 
-leti r4 29464
+leti r4 7743
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1597
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1727
 write a0 16 r4 
-leti r4 29464
+leti r4 1534
 write a0 16 r4 
-leti r4 29464
+leti r4 3711
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1597
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27417
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 35938
+leti r4 1663
 write a0 16 r4 
-leti r4 48626
+leti r4 1662
 write a0 16 r4 
-leti r4 59258
+leti r4 1662
 write a0 16 r4 
-leti r4 61306
+leti r4 1662
 write a0 16 r4 
-leti r4 52849
+leti r4 1662
 write a0 16 r4 
-leti r4 42279
+leti r4 1599
 write a0 16 r4 
-leti r4 35937
+leti r4 1599
 write a0 16 r4 
-leti r4 35936
+leti r4 1599
 write a0 16 r4 
-leti r4 35936
+leti r4 1599
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 33880
+leti r4 1663
 write a0 16 r4 
-leti r4 35929
+leti r4 1663
 write a0 16 r4 
-leti r4 23309
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 19082
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 1663
 write a0 16 r4 
-leti r4 21197
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 19082
+leti r4 1663
 write a0 16 r4 
-leti r4 16967
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1534
 write a0 16 r4 
-leti r4 35996
+leti r4 5631
 write a0 16 r4 
-leti r4 19082
+leti r4 13823
 write a0 16 r4 
-leti r4 12740
+leti r4 433
 write a0 16 r4 
-leti r4 19081
+leti r4 243
 write a0 16 r4 
-leti r4 16968
+leti r4 55
 write a0 16 r4 
-leti r4 19017
+leti r4 126
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 16969
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 19080
+leti r4 61
 write a0 16 r4 
-leti r4 21194
+leti r4 61
 write a0 16 r4 
-leti r4 16969
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 14854
+leti r4 62
 write a0 16 r4 
-leti r4 19080
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 23245
+leti r4 62
 write a0 16 r4 
-leti r4 23309
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21131
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 2109
 write a0 16 r4 
-leti r4 25424
+leti r4 4157
 write a0 16 r4 
-leti r4 27473
+leti r4 4157
 write a0 16 r4 
-leti r4 25424
+leti r4 2108
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 25423
+leti r4 61
 write a0 16 r4 
-leti r4 27538
+leti r4 59
 write a0 16 r4 
-leti r4 27473
+leti r4 191
 write a0 16 r4 
-leti r4 27473
+leti r4 184
 write a0 16 r4 
-leti r4 25423
+leti r4 17663
 write a0 16 r4 
-leti r4 25423
+leti r4 9727
 write a0 16 r4 
-leti r4 35994
+leti r4 1532
 write a0 16 r4 
-leti r4 33881
+leti r4 1596
 write a0 16 r4 
-leti r4 35995
+leti r4 1662
 write a0 16 r4 
-leti r4 42340
+leti r4 1663
 write a0 16 r4 
-leti r4 40223
+leti r4 1599
 write a0 16 r4 
-leti r4 35993
+leti r4 1599
 write a0 16 r4 
-leti r4 19081
+leti r4 1599
 write a0 16 r4 
-leti r4 25362
+leti r4 3647
 write a0 16 r4 
-leti r4 35935
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1661
 write a0 16 r4 
-leti r4 25301
+leti r4 1660
 write a0 16 r4 
-leti r4 27414
+leti r4 1723
 write a0 16 r4 
-leti r4 27414
+leti r4 1724
 write a0 16 r4 
-leti r4 27414
+leti r4 1661
 write a0 16 r4 
-leti r4 27415
+leti r4 3711
 write a0 16 r4 
-leti r4 29464
+leti r4 3775
 write a0 16 r4 
-leti r4 29464
+leti r4 1467
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 5695
 write a0 16 r4 
-leti r4 29464
+leti r4 15551
 write a0 16 r4 
-leti r4 29464
+leti r4 255
 write a0 16 r4 
-leti r4 31578
+leti r4 124
 write a0 16 r4 
-leti r4 31579
+leti r4 59
 write a0 16 r4 
-leti r4 31578
+leti r4 57
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 2175
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 124
 write a0 16 r4 
-leti r4 29464
+leti r4 182
 write a0 16 r4 
-leti r4 29464
+leti r4 306
 write a0 16 r4 
-leti r4 29464
+leti r4 13695
 write a0 16 r4 
-leti r4 29464
+leti r4 5631
 write a0 16 r4 
-leti r4 29464
+leti r4 1533
 write a0 16 r4 
-leti r4 29465
+leti r4 1661
 write a0 16 r4 
-leti r4 29529
+leti r4 1726
 write a0 16 r4 
-leti r4 29465
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1597
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1534
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 3711
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29465
+leti r4 1662
 write a0 16 r4 
-leti r4 27350
+leti r4 1662
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27417
+leti r4 1663
 write a0 16 r4 
-leti r4 42280
+leti r4 1662
 write a0 16 r4 
-leti r4 48627
+leti r4 1662
 write a0 16 r4 
-leti r4 59194
+leti r4 1662
 write a0 16 r4 
-leti r4 61305
+leti r4 1662
 write a0 16 r4 
-leti r4 42279
+leti r4 1662
 write a0 16 r4 
-leti r4 35937
+leti r4 1663
 write a0 16 r4 
-leti r4 35874
+leti r4 1599
 write a0 16 r4 
-leti r4 33824
+leti r4 1599
 write a0 16 r4 
-leti r4 35936
+leti r4 1599
 write a0 16 r4 
-leti r4 33882
+leti r4 1663
 write a0 16 r4 
-leti r4 35931
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1599
 write a0 16 r4 
-leti r4 21195
+leti r4 1599
 write a0 16 r4 
-leti r4 19081
+leti r4 1599
 write a0 16 r4 
-leti r4 16967
+leti r4 1663
 write a0 16 r4 
-leti r4 23309
+leti r4 1662
 write a0 16 r4 
-leti r4 21195
+leti r4 1662
 write a0 16 r4 
-leti r4 21195
+leti r4 1662
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 1662
 write a0 16 r4 
-leti r4 16968
+leti r4 1662
 write a0 16 r4 
-leti r4 21196
+leti r4 1661
 write a0 16 r4 
-leti r4 25424
+leti r4 3775
 write a0 16 r4 
-leti r4 21195
+leti r4 1471
 write a0 16 r4 
-leti r4 19080
+leti r4 7615
 write a0 16 r4 
-leti r4 16966
+leti r4 15743
 write a0 16 r4 
-leti r4 19017
+leti r4 243
 write a0 16 r4 
-leti r4 19018
+leti r4 185
 write a0 16 r4 
-leti r4 16967
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 19080
+leti r4 61
 write a0 16 r4 
-leti r4 19080
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19080
+leti r4 62
 write a0 16 r4 
-leti r4 14854
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19080
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 27473
+leti r4 2110
 write a0 16 r4 
-leti r4 25423
+leti r4 6205
 write a0 16 r4 
-leti r4 27473
+leti r4 2108
 write a0 16 r4 
-leti r4 25423
+leti r4 60
 write a0 16 r4 
-leti r4 27473
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 25423
+leti r4 127
 write a0 16 r4 
-leti r4 25424
+leti r4 58
 write a0 16 r4 
-leti r4 25422
+leti r4 188
 write a0 16 r4 
-leti r4 27537
+leti r4 177
 write a0 16 r4 
-leti r4 25425
+leti r4 11775
 write a0 16 r4 
-leti r4 25424
+leti r4 5759
 write a0 16 r4 
-leti r4 35930
+leti r4 1598
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 42338
+leti r4 1663
 write a0 16 r4 
-leti r4 44450
+leti r4 1599
 write a0 16 r4 
-leti r4 25423
+leti r4 1599
 write a0 16 r4 
-leti r4 16967
+leti r4 1599
 write a0 16 r4 
-leti r4 21133
+leti r4 3647
 write a0 16 r4 
-leti r4 27478
+leti r4 1662
 write a0 16 r4 
-leti r4 33822
+leti r4 1661
 write a0 16 r4 
-leti r4 27415
+leti r4 1724
 write a0 16 r4 
-leti r4 25366
+leti r4 1659
 write a0 16 r4 
-leti r4 27414
+leti r4 1660
 write a0 16 r4 
-leti r4 27414
+leti r4 3711
 write a0 16 r4 
-leti r4 27415
+leti r4 1598
 write a0 16 r4 
-leti r4 29463
+leti r4 1532
 write a0 16 r4 
-leti r4 29463
+leti r4 3839
 write a0 16 r4 
-leti r4 29464
+leti r4 1660
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 13695
 write a0 16 r4 
-leti r4 29464
+leti r4 180
 write a0 16 r4 
-leti r4 29529
+leti r4 120
 write a0 16 r4 
-leti r4 31578
+leti r4 126
 write a0 16 r4 
-leti r4 31578
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 127
 write a0 16 r4 
-leti r4 31578
+leti r4 58
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 123
 write a0 16 r4 
-leti r4 29464
+leti r4 120
 write a0 16 r4 
-leti r4 29464
+leti r4 246
 write a0 16 r4 
-leti r4 29464
+leti r4 239
 write a0 16 r4 
-leti r4 29464
+leti r4 13695
 write a0 16 r4 
-leti r4 29464
+leti r4 7551
 write a0 16 r4 
-leti r4 29464
+leti r4 9919
 write a0 16 r4 
-leti r4 29464
+leti r4 1534
 write a0 16 r4 
-leti r4 29464
+leti r4 1595
 write a0 16 r4 
-leti r4 29464
+leti r4 3903
 write a0 16 r4 
-leti r4 29464
+leti r4 1594
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1662
 write a0 16 r4 
-leti r4 27417
+leti r4 1662
 write a0 16 r4 
-leti r4 27417
+leti r4 1662
 write a0 16 r4 
-leti r4 25368
+leti r4 1662
 write a0 16 r4 
-leti r4 21140
+leti r4 1662
 write a0 16 r4 
-leti r4 35938
+leti r4 1662
 write a0 16 r4 
-leti r4 42281
+leti r4 1662
 write a0 16 r4 
-leti r4 61306
+leti r4 1663
 write a0 16 r4 
-leti r4 59190
+leti r4 1663
 write a0 16 r4 
-leti r4 50738
+leti r4 1663
 write a0 16 r4 
-leti r4 42281
+leti r4 1663
 write a0 16 r4 
-leti r4 35872
+leti r4 1663
 write a0 16 r4 
-leti r4 35873
+leti r4 1663
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 27473
+leti r4 1599
 write a0 16 r4 
-leti r4 16969
+leti r4 1599
 write a0 16 r4 
-leti r4 16968
+leti r4 1599
 write a0 16 r4 
-leti r4 19081
+leti r4 3711
 write a0 16 r4 
-leti r4 16967
+leti r4 1661
 write a0 16 r4 
-leti r4 16968
+leti r4 1661
 write a0 16 r4 
-leti r4 21195
+leti r4 1661
 write a0 16 r4 
-leti r4 16968
+leti r4 1662
 write a0 16 r4 
-leti r4 16968
+leti r4 1599
 write a0 16 r4 
-leti r4 21195
+leti r4 1599
 write a0 16 r4 
-leti r4 21196
+leti r4 1599
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1662
 write a0 16 r4 
-leti r4 21195
+leti r4 1727
 write a0 16 r4 
-leti r4 16968
+leti r4 1661
 write a0 16 r4 
-leti r4 16968
+leti r4 1727
 write a0 16 r4 
-leti r4 21195
+leti r4 1662
 write a0 16 r4 
-leti r4 21195
+leti r4 1535
 write a0 16 r4 
-leti r4 19081
+leti r4 9855
 write a0 16 r4 
-leti r4 16967
+leti r4 7423
 write a0 16 r4 
-leti r4 19080
+leti r4 372
 write a0 16 r4 
-leti r4 17032
+leti r4 182
 write a0 16 r4 
-leti r4 16968
+leti r4 58
 write a0 16 r4 
-leti r4 16968
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 127
 write a0 16 r4 
-leti r4 16968
+leti r4 60
 write a0 16 r4 
-leti r4 17032
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 2109
 write a0 16 r4 
-leti r4 25424
+leti r4 4157
 write a0 16 r4 
-leti r4 25423
+leti r4 2109
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 27473
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 61
 write a0 16 r4 
-leti r4 27473
+leti r4 180
 write a0 16 r4 
-leti r4 25424
+leti r4 11647
 write a0 16 r4 
-leti r4 25425
+leti r4 5695
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 35931
+leti r4 1663
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 33815
+leti r4 1663
 write a0 16 r4 
-leti r4 19082
+leti r4 1663
 write a0 16 r4 
-leti r4 12740
+leti r4 1663
 write a0 16 r4 
-leti r4 25363
+leti r4 1663
 write a0 16 r4 
-leti r4 35934
+leti r4 1662
 write a0 16 r4 
-leti r4 25366
+leti r4 1662
 write a0 16 r4 
-leti r4 27414
+leti r4 1662
 write a0 16 r4 
-leti r4 27414
+leti r4 1662
 write a0 16 r4 
-leti r4 27414
+leti r4 1662
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 29463
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 5695
 write a0 16 r4 
-leti r4 29463
+leti r4 7487
 write a0 16 r4 
-leti r4 29463
+leti r4 118
 write a0 16 r4 
-leti r4 29464
+leti r4 126
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 2175
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 191
 write a0 16 r4 
-leti r4 29464
+leti r4 56
 write a0 16 r4 
-leti r4 29464
+leti r4 184
 write a0 16 r4 
-leti r4 27415
+leti r4 241
 write a0 16 r4 
-leti r4 29464
+leti r4 15935
 write a0 16 r4 
-leti r4 29464
+leti r4 3583
 write a0 16 r4 
-leti r4 29464
+leti r4 3711
 write a0 16 r4 
-leti r4 29464
+leti r4 1468
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1727
 write a0 16 r4 
-leti r4 29464
+leti r4 1595
 write a0 16 r4 
-leti r4 29464
+leti r4 1727
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 27414
+leti r4 1599
 write a0 16 r4 
-leti r4 27350
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1662
 write a0 16 r4 
-leti r4 25368
+leti r4 1662
 write a0 16 r4 
-leti r4 25369
+leti r4 1662
 write a0 16 r4 
-leti r4 21140
+leti r4 1662
 write a0 16 r4 
-leti r4 33825
+leti r4 1662
 write a0 16 r4 
-leti r4 52786
+leti r4 1662
 write a0 16 r4 
-leti r4 61305
+leti r4 1663
 write a0 16 r4 
-leti r4 59255
+leti r4 1663
 write a0 16 r4 
-leti r4 52852
+leti r4 1663
 write a0 16 r4 
-leti r4 44394
+leti r4 1663
 write a0 16 r4 
-leti r4 35938
+leti r4 1663
 write a0 16 r4 
-leti r4 35873
+leti r4 1663
 write a0 16 r4 
-leti r4 33882
+leti r4 1662
 write a0 16 r4 
-leti r4 33882
+leti r4 1662
 write a0 16 r4 
-leti r4 35930
+leti r4 1532
 write a0 16 r4 
-leti r4 33881
+leti r4 1727
 write a0 16 r4 
-leti r4 27473
+leti r4 1468
 write a0 16 r4 
-leti r4 19017
+leti r4 3711
 write a0 16 r4 
-leti r4 16967
+leti r4 1599
 write a0 16 r4 
-leti r4 16968
+leti r4 1532
 write a0 16 r4 
-leti r4 16968
+leti r4 1727
 write a0 16 r4 
-leti r4 16969
+leti r4 1661
 write a0 16 r4 
-leti r4 23309
+leti r4 1662
 write a0 16 r4 
-leti r4 21195
+leti r4 1599
 write a0 16 r4 
-leti r4 21196
+leti r4 1599
 write a0 16 r4 
-leti r4 21196
+leti r4 1599
 write a0 16 r4 
-leti r4 21196
+leti r4 1599
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1662
 write a0 16 r4 
-leti r4 21195
+leti r4 1662
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 19081
+leti r4 1598
 write a0 16 r4 
-leti r4 16967
+leti r4 1727
 write a0 16 r4 
-leti r4 19081
+leti r4 1727
 write a0 16 r4 
-leti r4 21195
+leti r4 1594
 write a0 16 r4 
-leti r4 21131
+leti r4 1599
 write a0 16 r4 
-leti r4 19017
+leti r4 7743
 write a0 16 r4 
-leti r4 16967
+leti r4 7423
 write a0 16 r4 
-leti r4 16967
+leti r4 240
 write a0 16 r4 
-leti r4 16968
+leti r4 314
 write a0 16 r4 
-leti r4 16969
+leti r4 56
 write a0 16 r4 
-leti r4 19017
+leti r4 2174
 write a0 16 r4 
-leti r4 19017
+leti r4 58
 write a0 16 r4 
-leti r4 16969
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 63
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21131
+leti r4 62
 write a0 16 r4 
-leti r4 23309
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 2109
 write a0 16 r4 
-leti r4 27473
+leti r4 2109
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 25423
+leti r4 61
 write a0 16 r4 
-leti r4 27473
+leti r4 61
 write a0 16 r4 
-leti r4 25423
+leti r4 61
 write a0 16 r4 
-leti r4 25423
+leti r4 58
 write a0 16 r4 
-leti r4 25424
+leti r4 315
 write a0 16 r4 
-leti r4 25424
+leti r4 11519
 write a0 16 r4 
-leti r4 27473
+leti r4 7679
 write a0 16 r4 
-leti r4 35930
+leti r4 1599
 write a0 16 r4 
-leti r4 33881
+leti r4 1598
 write a0 16 r4 
-leti r4 31768
+leti r4 1663
 write a0 16 r4 
-leti r4 35996
+leti r4 1663
 write a0 16 r4 
-leti r4 35995
+leti r4 1663
 write a0 16 r4 
-leti r4 23310
+leti r4 1663
 write a0 16 r4 
-leti r4 14790
+leti r4 1663
 write a0 16 r4 
-leti r4 21135
+leti r4 1663
 write a0 16 r4 
-leti r4 35935
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 29463
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29463
+leti r4 1660
 write a0 16 r4 
-leti r4 29463
+leti r4 9855
 write a0 16 r4 
-leti r4 29463
+leti r4 309
 write a0 16 r4 
-leti r4 29464
+leti r4 124
 write a0 16 r4 
-leti r4 29465
+leti r4 60
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 60
 write a0 16 r4 
-leti r4 29465
+leti r4 126
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 123
 write a0 16 r4 
-leti r4 29464
+leti r4 251
 write a0 16 r4 
-leti r4 29464
+leti r4 15551
 write a0 16 r4 
-leti r4 29464
+leti r4 1407
 write a0 16 r4 
-leti r4 29464
+leti r4 1532
 write a0 16 r4 
-leti r4 29464
+leti r4 1598
 write a0 16 r4 
-leti r4 29464
+leti r4 1534
 write a0 16 r4 
-leti r4 29464
+leti r4 7871
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1598
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29530
+leti r4 1599
 write a0 16 r4 
-leti r4 27416
+leti r4 1662
 write a0 16 r4 
-leti r4 25369
+leti r4 1661
 write a0 16 r4 
-leti r4 21205
+leti r4 1725
 write a0 16 r4 
-leti r4 35938
+leti r4 1725
 write a0 16 r4 
-leti r4 59192
+leti r4 1661
 write a0 16 r4 
-leti r4 61306
+leti r4 1662
 write a0 16 r4 
-leti r4 61305
+leti r4 1663
 write a0 16 r4 
-leti r4 50739
+leti r4 1599
 write a0 16 r4 
-leti r4 40167
+leti r4 1599
 write a0 16 r4 
-leti r4 35937
+leti r4 1663
 write a0 16 r4 
-leti r4 35936
+leti r4 1663
 write a0 16 r4 
-leti r4 35931
+leti r4 1662
 write a0 16 r4 
-leti r4 35931
+leti r4 1662
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 35994
+leti r4 1598
 write a0 16 r4 
-leti r4 25423
+leti r4 1727
 write a0 16 r4 
-leti r4 14854
+leti r4 1660
 write a0 16 r4 
-leti r4 16968
+leti r4 1791
 write a0 16 r4 
-leti r4 16968
+leti r4 1595
 write a0 16 r4 
-leti r4 16967
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1599
 write a0 16 r4 
-leti r4 21195
+leti r4 1599
 write a0 16 r4 
-leti r4 21195
+leti r4 1599
 write a0 16 r4 
-leti r4 21195
+leti r4 1599
 write a0 16 r4 
-leti r4 21195
+leti r4 1599
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1662
 write a0 16 r4 
-leti r4 21131
+leti r4 1662
 write a0 16 r4 
-leti r4 16968
+leti r4 1662
 write a0 16 r4 
-leti r4 21196
+leti r4 3711
 write a0 16 r4 
-leti r4 16969
+leti r4 1535
 write a0 16 r4 
-leti r4 16968
+leti r4 1599
 write a0 16 r4 
-leti r4 19082
+leti r4 1727
 write a0 16 r4 
-leti r4 21196
+leti r4 1662
 write a0 16 r4 
-leti r4 21131
+leti r4 1597
 write a0 16 r4 
-leti r4 19082
+leti r4 3711
 write a0 16 r4 
-leti r4 19081
+leti r4 9855
 write a0 16 r4 
-leti r4 16968
+leti r4 9599
 write a0 16 r4 
-leti r4 16968
+leti r4 15679
 write a0 16 r4 
-leti r4 16969
+leti r4 242
 write a0 16 r4 
-leti r4 16969
+leti r4 182
 write a0 16 r4 
-leti r4 16968
+leti r4 189
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 2111
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 23245
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 2110
 write a0 16 r4 
-leti r4 25424
+leti r4 2110
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 27538
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 2111
 write a0 16 r4 
-leti r4 27537
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 186
 write a0 16 r4 
-leti r4 27537
+leti r4 366
 write a0 16 r4 
-leti r4 27473
+leti r4 5439
 write a0 16 r4 
-leti r4 33880
+leti r4 3647
 write a0 16 r4 
-leti r4 35995
+leti r4 1599
 write a0 16 r4 
-leti r4 35931
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 27474
+leti r4 1663
 write a0 16 r4 
-leti r4 12742
+leti r4 1663
 write a0 16 r4 
-leti r4 23249
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 25302
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 29463
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 27415
+leti r4 1594
 write a0 16 r4 
-leti r4 27415
+leti r4 1471
 write a0 16 r4 
-leti r4 29463
+leti r4 17727
 write a0 16 r4 
-leti r4 29463
+leti r4 120
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 125
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 2175
 write a0 16 r4 
-leti r4 31578
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 63
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 58
 write a0 16 r4 
-leti r4 29464
+leti r4 123
 write a0 16 r4 
-leti r4 29464
+leti r4 23615
 write a0 16 r4 
-leti r4 29464
+leti r4 17663
 write a0 16 r4 
-leti r4 29464
+leti r4 5695
 write a0 16 r4 
-leti r4 29464
+leti r4 1727
 write a0 16 r4 
-leti r4 29464
+leti r4 5823
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 3583
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 3711
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1725
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 27350
+leti r4 3647
 write a0 16 r4 
-leti r4 29465
+leti r4 1599
 write a0 16 r4 
-leti r4 25303
+leti r4 1662
 write a0 16 r4 
-leti r4 21141
+leti r4 1661
 write a0 16 r4 
-leti r4 25368
+leti r4 1725
 write a0 16 r4 
-leti r4 42281
+leti r4 1725
 write a0 16 r4 
-leti r4 61307
+leti r4 1661
 write a0 16 r4 
-leti r4 61306
+leti r4 1662
 write a0 16 r4 
-leti r4 59193
+leti r4 1663
 write a0 16 r4 
-leti r4 48624
+leti r4 1599
 write a0 16 r4 
-leti r4 35939
+leti r4 1599
 write a0 16 r4 
-leti r4 33888
+leti r4 1663
 write a0 16 r4 
-leti r4 35934
+leti r4 1662
 write a0 16 r4 
-leti r4 35932
+leti r4 1662
 write a0 16 r4 
-leti r4 35931
+leti r4 1662
 write a0 16 r4 
-leti r4 35929
+leti r4 3647
 write a0 16 r4 
-leti r4 33880
+leti r4 5823
 write a0 16 r4 
-leti r4 21197
+leti r4 1593
 write a0 16 r4 
-leti r4 14853
+leti r4 1788
 write a0 16 r4 
-leti r4 19081
+leti r4 1723
 write a0 16 r4 
-leti r4 19017
+leti r4 1659
 write a0 16 r4 
-leti r4 16967
+leti r4 1727
 write a0 16 r4 
-leti r4 21197
+leti r4 1535
 write a0 16 r4 
-leti r4 21195
+leti r4 3647
 write a0 16 r4 
-leti r4 21196
+leti r4 3647
 write a0 16 r4 
-leti r4 21196
+leti r4 1599
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1662
 write a0 16 r4 
-leti r4 23245
+leti r4 1662
 write a0 16 r4 
-leti r4 21196
+leti r4 1661
 write a0 16 r4 
-leti r4 19081
+leti r4 1662
 write a0 16 r4 
-leti r4 16967
+leti r4 3647
 write a0 16 r4 
-leti r4 21195
+leti r4 3647
 write a0 16 r4 
-leti r4 21195
+leti r4 1599
 write a0 16 r4 
-leti r4 16968
+leti r4 1598
 write a0 16 r4 
-leti r4 16968
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1727
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 1534
 write a0 16 r4 
-leti r4 16968
+leti r4 3583
 write a0 16 r4 
-leti r4 16968
+leti r4 7679
 write a0 16 r4 
-leti r4 16968
+leti r4 13695
 write a0 16 r4 
-leti r4 16968
+leti r4 239
 write a0 16 r4 
-leti r4 16968
+leti r4 182
 write a0 16 r4 
-leti r4 16968
+leti r4 122
 write a0 16 r4 
-leti r4 16968
+leti r4 59
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 19017
+leti r4 60
 write a0 16 r4 
-leti r4 19017
+leti r4 123
 write a0 16 r4 
-leti r4 16968
+leti r4 123
 write a0 16 r4 
-leti r4 19017
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 23309
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 23310
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27537
+leti r4 63
 write a0 16 r4 
-leti r4 23310
+leti r4 61
 write a0 16 r4 
-leti r4 25423
+leti r4 61
 write a0 16 r4 
-leti r4 27472
+leti r4 121
 write a0 16 r4 
-leti r4 25423
+leti r4 174
 write a0 16 r4 
-leti r4 27473
+leti r4 17983
 write a0 16 r4 
-leti r4 33881
+leti r4 3583
 write a0 16 r4 
-leti r4 33881
+leti r4 1599
 write a0 16 r4 
-leti r4 44386
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 25360
+leti r4 1663
 write a0 16 r4 
-leti r4 12677
+leti r4 1663
 write a0 16 r4 
-leti r4 14793
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 35937
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 29463
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 27414
+leti r4 1727
 write a0 16 r4 
-leti r4 27415
+leti r4 3583
 write a0 16 r4 
-leti r4 27415
+leti r4 13631
 write a0 16 r4 
-leti r4 29464
+leti r4 245
 write a0 16 r4 
-leti r4 29464
+leti r4 123
 write a0 16 r4 
-leti r4 29464
+leti r4 2303
 write a0 16 r4 
-leti r4 29464
+leti r4 54
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27350
+leti r4 62
 write a0 16 r4 
-leti r4 25237
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29465
+leti r4 2111
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 58
 write a0 16 r4 
-leti r4 29464
+leti r4 55
 write a0 16 r4 
-leti r4 29464
+leti r4 19711
 write a0 16 r4 
-leti r4 29464
+leti r4 9727
 write a0 16 r4 
-leti r4 29464
+leti r4 1468
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 3711
 write a0 16 r4 
-leti r4 29464
+leti r4 5823
 write a0 16 r4 
-leti r4 29464
+leti r4 1598
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 3583
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 27351
+leti r4 1599
 write a0 16 r4 
-leti r4 33693
+leti r4 3647
 write a0 16 r4 
-leti r4 29465
+leti r4 1599
 write a0 16 r4 
-leti r4 27416
+leti r4 1662
 write a0 16 r4 
-leti r4 35938
+leti r4 1662
 write a0 16 r4 
-leti r4 33890
+leti r4 1661
 write a0 16 r4 
-leti r4 40233
+leti r4 1661
 write a0 16 r4 
-leti r4 59194
+leti r4 1662
 write a0 16 r4 
-leti r4 59193
+leti r4 1663
 write a0 16 r4 
-leti r4 59194
+leti r4 1599
 write a0 16 r4 
-leti r4 48624
+leti r4 1599
 write a0 16 r4 
-leti r4 33825
+leti r4 1599
 write a0 16 r4 
-leti r4 33887
+leti r4 1663
 write a0 16 r4 
-leti r4 33883
+leti r4 1662
 write a0 16 r4 
-leti r4 33883
+leti r4 1661
 write a0 16 r4 
-leti r4 33881
+leti r4 1662
 write a0 16 r4 
-leti r4 35930
+leti r4 5695
 write a0 16 r4 
-leti r4 27538
+leti r4 1470
 write a0 16 r4 
-leti r4 21195
+leti r4 3839
 write a0 16 r4 
-leti r4 19081
+leti r4 1656
 write a0 16 r4 
-leti r4 16968
+leti r4 1723
 write a0 16 r4 
-leti r4 16968
+leti r4 1726
 write a0 16 r4 
-leti r4 19017
+leti r4 1599
 write a0 16 r4 
-leti r4 16968
+leti r4 1599
 write a0 16 r4 
-leti r4 21195
+leti r4 1599
 write a0 16 r4 
-leti r4 21131
+leti r4 1599
 write a0 16 r4 
-leti r4 21195
+leti r4 1599
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1662
 write a0 16 r4 
-leti r4 19082
+leti r4 3709
 write a0 16 r4 
-leti r4 16968
+leti r4 3710
 write a0 16 r4 
-leti r4 21196
+leti r4 1597
 write a0 16 r4 
-leti r4 21196
+leti r4 3711
 write a0 16 r4 
-leti r4 21196
+leti r4 3711
 write a0 16 r4 
-leti r4 23308
+leti r4 1534
 write a0 16 r4 
-leti r4 21196
+leti r4 1599
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1662
 write a0 16 r4 
-leti r4 16966
+leti r4 1661
 write a0 16 r4 
-leti r4 16967
+leti r4 1663
 write a0 16 r4 
-leti r4 16967
+leti r4 1471
 write a0 16 r4 
-leti r4 19080
+leti r4 9663
 write a0 16 r4 
-leti r4 19081
+leti r4 370
 write a0 16 r4 
-leti r4 16968
+leti r4 247
 write a0 16 r4 
-leti r4 16968
+leti r4 190
 write a0 16 r4 
-leti r4 19017
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 124
 write a0 16 r4 
-leti r4 16968
+leti r4 123
 write a0 16 r4 
-leti r4 16968
+leti r4 59
 write a0 16 r4 
-leti r4 16967
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 19082
+leti r4 62
 write a0 16 r4 
-leti r4 23245
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 27537
+leti r4 63
 write a0 16 r4 
-leti r4 27537
+leti r4 60
 write a0 16 r4 
-leti r4 25423
+leti r4 57
 write a0 16 r4 
-leti r4 25424
+leti r4 379
 write a0 16 r4 
-leti r4 25359
+leti r4 9343
 write a0 16 r4 
-leti r4 29588
+leti r4 1343
 write a0 16 r4 
-leti r4 33881
+leti r4 3711
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 35995
+leti r4 1663
 write a0 16 r4 
-leti r4 33880
+leti r4 1663
 write a0 16 r4 
-leti r4 38044
+leti r4 1663
 write a0 16 r4 
-leti r4 19020
+leti r4 1663
 write a0 16 r4 
-leti r4 12743
+leti r4 1663
 write a0 16 r4 
-leti r4 25363
+leti r4 1663
 write a0 16 r4 
-leti r4 35935
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 29463
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 27414
+leti r4 1660
 write a0 16 r4 
-leti r4 27415
+leti r4 1534
 write a0 16 r4 
-leti r4 29464
+leti r4 7551
 write a0 16 r4 
-leti r4 29464
+leti r4 15615
 write a0 16 r4 
-leti r4 29464
+leti r4 55
 write a0 16 r4 
-leti r4 29464
+leti r4 56
 write a0 16 r4 
-leti r4 29464
+leti r4 189
 write a0 16 r4 
-leti r4 29464
+leti r4 2238
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27350
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 58
 write a0 16 r4 
-leti r4 29464
+leti r4 319
 write a0 16 r4 
-leti r4 29464
+leti r4 114
 write a0 16 r4 
-leti r4 29464
+leti r4 13631
 write a0 16 r4 
-leti r4 29464
+leti r4 7615
 write a0 16 r4 
-leti r4 29464
+leti r4 9855
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1595
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 3583
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 31579
+leti r4 1663
 write a0 16 r4 
-leti r4 29530
+leti r4 1663
 write a0 16 r4 
-leti r4 29530
+leti r4 1663
 write a0 16 r4 
-leti r4 35938
+leti r4 1662
 write a0 16 r4 
-leti r4 42281
+leti r4 1662
 write a0 16 r4 
-leti r4 42217
+leti r4 1662
 write a0 16 r4 
-leti r4 42283
+leti r4 1663
 write a0 16 r4 
-leti r4 48625
+leti r4 1599
 write a0 16 r4 
-leti r4 59192
+leti r4 1599
 write a0 16 r4 
-leti r4 61243
+leti r4 1599
 write a0 16 r4 
-leti r4 52849
+leti r4 1599
 write a0 16 r4 
-leti r4 33824
+leti r4 1599
 write a0 16 r4 
-leti r4 33885
+leti r4 1662
 write a0 16 r4 
-leti r4 33881
+leti r4 1661
 write a0 16 r4 
-leti r4 35932
+leti r4 1724
 write a0 16 r4 
-leti r4 35930
+leti r4 1662
 write a0 16 r4 
-leti r4 33880
+leti r4 7743
 write a0 16 r4 
-leti r4 25425
+leti r4 7615
 write a0 16 r4 
-leti r4 21195
+leti r4 3583
 write a0 16 r4 
-leti r4 19081
+leti r4 1599
 write a0 16 r4 
-leti r4 16968
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 1599
 write a0 16 r4 
-leti r4 16968
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1599
 write a0 16 r4 
-leti r4 21131
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1662
 write a0 16 r4 
-leti r4 21196
+leti r4 1662
 write a0 16 r4 
-leti r4 21196
+leti r4 1662
 write a0 16 r4 
-leti r4 21196
+leti r4 1662
 write a0 16 r4 
-leti r4 21196
+leti r4 3710
 write a0 16 r4 
-leti r4 21195
+leti r4 1662
 write a0 16 r4 
-leti r4 21196
+leti r4 1661
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 19082
+leti r4 1599
 write a0 16 r4 
-leti r4 19082
+leti r4 3647
 write a0 16 r4 
-leti r4 19082
+leti r4 1599
 write a0 16 r4 
-leti r4 19017
+leti r4 1662
 write a0 16 r4 
-leti r4 16968
+leti r4 1726
 write a0 16 r4 
-leti r4 19080
+leti r4 1724
 write a0 16 r4 
-leti r4 16968
+leti r4 1659
 write a0 16 r4 
-leti r4 16968
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 1535
 write a0 16 r4 
-leti r4 16967
+leti r4 5375
 write a0 16 r4 
-leti r4 16903
+leti r4 369
 write a0 16 r4 
-leti r4 16968
+leti r4 114
 write a0 16 r4 
-leti r4 19017
+leti r4 188
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 2108
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 124
 write a0 16 r4 
-leti r4 16968
+leti r4 123
 write a0 16 r4 
-leti r4 19081
+leti r4 123
 write a0 16 r4 
-leti r4 19081
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 62
 write a0 16 r4 
-leti r4 21131
+leti r4 62
 write a0 16 r4 
-leti r4 23245
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27538
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 63
 write a0 16 r4 
-leti r4 27537
+leti r4 127
 write a0 16 r4 
-leti r4 27537
+leti r4 58
 write a0 16 r4 
-leti r4 27473
+leti r4 119
 write a0 16 r4 
-leti r4 27474
+leti r4 306
 write a0 16 r4 
-leti r4 31767
+leti r4 11775
 write a0 16 r4 
-leti r4 33881
+leti r4 5759
 write a0 16 r4 
-leti r4 33881
+leti r4 1599
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 33816
+leti r4 1663
 write a0 16 r4 
-leti r4 25361
+leti r4 1663
 write a0 16 r4 
-leti r4 12742
+leti r4 1663
 write a0 16 r4 
-leti r4 21134
+leti r4 1663
 write a0 16 r4 
-leti r4 27476
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 29463
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 27415
+leti r4 1595
 write a0 16 r4 
-leti r4 27415
+leti r4 7935
 write a0 16 r4 
-leti r4 29464
+leti r4 3519
 write a0 16 r4 
-leti r4 29464
+leti r4 13695
 write a0 16 r4 
-leti r4 29464
+leti r4 316
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 58
 write a0 16 r4 
-leti r4 29464
+leti r4 58
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 2111
 write a0 16 r4 
-leti r4 31579
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 127
 write a0 16 r4 
-leti r4 29465
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 125
 write a0 16 r4 
-leti r4 29464
+leti r4 56
 write a0 16 r4 
-leti r4 29464
+leti r4 186
 write a0 16 r4 
-leti r4 29464
+leti r4 181
 write a0 16 r4 
-leti r4 29464
+leti r4 371
 write a0 16 r4 
-leti r4 29464
+leti r4 9599
 write a0 16 r4 
-leti r4 29464
+leti r4 3583
 write a0 16 r4 
-leti r4 29464
+leti r4 1598
 write a0 16 r4 
-leti r4 29464
+leti r4 1791
 write a0 16 r4 
-leti r4 29464
+leti r4 1530
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 27416
+leti r4 1724
 write a0 16 r4 
-leti r4 25302
+leti r4 1661
 write a0 16 r4 
-leti r4 27416
+leti r4 1661
 write a0 16 r4 
-leti r4 35874
+leti r4 1662
 write a0 16 r4 
-leti r4 44394
+leti r4 1599
 write a0 16 r4 
-leti r4 44331
+leti r4 1599
 write a0 16 r4 
-leti r4 42283
+leti r4 3647
 write a0 16 r4 
-leti r4 48625
+leti r4 3647
 write a0 16 r4 
-leti r4 61304
+leti r4 3647
 write a0 16 r4 
-leti r4 61243
+leti r4 1599
 write a0 16 r4 
-leti r4 52848
+leti r4 1599
 write a0 16 r4 
-leti r4 33823
+leti r4 1663
 write a0 16 r4 
-leti r4 35932
+leti r4 1662
 write a0 16 r4 
-leti r4 33879
+leti r4 1661
 write a0 16 r4 
-leti r4 35932
+leti r4 1661
 write a0 16 r4 
-leti r4 33880
+leti r4 1599
 write a0 16 r4 
-leti r4 27538
+leti r4 7615
 write a0 16 r4 
-leti r4 27473
+leti r4 11711
 write a0 16 r4 
-leti r4 21195
+leti r4 429
 write a0 16 r4 
-leti r4 16967
+leti r4 9663
 write a0 16 r4 
-leti r4 19080
+leti r4 5503
 write a0 16 r4 
-leti r4 16968
+leti r4 3583
 write a0 16 r4 
-leti r4 16967
+leti r4 5823
 write a0 16 r4 
-leti r4 19082
+leti r4 1595
 write a0 16 r4 
-leti r4 19081
+leti r4 1661
 write a0 16 r4 
-leti r4 16968
+leti r4 1662
 write a0 16 r4 
-leti r4 16968
+leti r4 1662
 write a0 16 r4 
-leti r4 19081
+leti r4 1661
 write a0 16 r4 
-leti r4 19082
+leti r4 1661
 write a0 16 r4 
-leti r4 21195
+leti r4 1662
 write a0 16 r4 
-leti r4 21196
+leti r4 1599
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21197
+leti r4 1725
 write a0 16 r4 
-leti r4 19018
+leti r4 1659
 write a0 16 r4 
-leti r4 16969
+leti r4 1661
 write a0 16 r4 
-leti r4 19083
+leti r4 1663
 write a0 16 r4 
-leti r4 19083
+leti r4 5759
 write a0 16 r4 
-leti r4 16968
+leti r4 3647
 write a0 16 r4 
-leti r4 16904
+leti r4 1599
 write a0 16 r4 
-leti r4 19018
+leti r4 1597
 write a0 16 r4 
-leti r4 16969
+leti r4 1727
 write a0 16 r4 
-leti r4 16969
+leti r4 1659
 write a0 16 r4 
-leti r4 16969
+leti r4 1660
 write a0 16 r4 
-leti r4 16968
+leti r4 3775
 write a0 16 r4 
-leti r4 14855
+leti r4 7743
 write a0 16 r4 
-leti r4 14790
+leti r4 7487
 write a0 16 r4 
-leti r4 14855
+leti r4 15743
 write a0 16 r4 
-leti r4 16905
+leti r4 177
 write a0 16 r4 
-leti r4 16968
+leti r4 122
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 2109
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 124
 write a0 16 r4 
-leti r4 16968
+leti r4 124
 write a0 16 r4 
-leti r4 19081
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 2109
 write a0 16 r4 
-leti r4 21195
+leti r4 2110
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 23309
+leti r4 62
 write a0 16 r4 
-leti r4 25359
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 2110
 write a0 16 r4 
-leti r4 25424
+leti r4 2110
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27538
+leti r4 60
 write a0 16 r4 
-leti r4 25424
+leti r4 58
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 33880
+leti r4 61
 write a0 16 r4 
-leti r4 35994
+leti r4 247
 write a0 16 r4 
-leti r4 35930
+leti r4 13759
 write a0 16 r4 
-leti r4 35930
+leti r4 3519
 write a0 16 r4 
-leti r4 35995
+leti r4 1599
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 35996
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 25425
+leti r4 1663
 write a0 16 r4 
-leti r4 19082
+leti r4 1663
 write a0 16 r4 
-leti r4 16903
+leti r4 1663
 write a0 16 r4 
-leti r4 25425
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 29463
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29463
+leti r4 1661
 write a0 16 r4 
-leti r4 29463
+leti r4 3775
 write a0 16 r4 
-leti r4 29463
+leti r4 1598
 write a0 16 r4 
-leti r4 29463
+leti r4 9663
 write a0 16 r4 
-leti r4 29464
+leti r4 115
 write a0 16 r4 
-leti r4 29464
+leti r4 124
 write a0 16 r4 
-leti r4 27416
+leti r4 56
 write a0 16 r4 
-leti r4 27416
+leti r4 124
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 2110
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 4223
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 124
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 58
 write a0 16 r4 
-leti r4 29464
+leti r4 119
 write a0 16 r4 
-leti r4 29464
+leti r4 305
 write a0 16 r4 
-leti r4 29464
+leti r4 9599
 write a0 16 r4 
-leti r4 29464
+leti r4 5695
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1726
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 27416
+leti r4 1723
 write a0 16 r4 
-leti r4 29530
+leti r4 1723
 write a0 16 r4 
-leti r4 35873
+leti r4 1661
 write a0 16 r4 
-leti r4 42281
+leti r4 1663
 write a0 16 r4 
-leti r4 50737
+leti r4 3647
 write a0 16 r4 
-leti r4 48625
+leti r4 3647
 write a0 16 r4 
-leti r4 42284
+leti r4 3647
 write a0 16 r4 
-leti r4 50740
+leti r4 3647
 write a0 16 r4 
-leti r4 61303
+leti r4 1599
 write a0 16 r4 
-leti r4 61242
+leti r4 1599
 write a0 16 r4 
-leti r4 52847
+leti r4 1662
 write a0 16 r4 
-leti r4 35870
+leti r4 1662
 write a0 16 r4 
-leti r4 35996
+leti r4 1663
 write a0 16 r4 
-leti r4 33942
+leti r4 1663
 write a0 16 r4 
-leti r4 33817
+leti r4 1599
 write a0 16 r4 
-leti r4 27474
+leti r4 5631
 write a0 16 r4 
-leti r4 19082
+leti r4 13759
 write a0 16 r4 
-leti r4 21196
+leti r4 302
 write a0 16 r4 
-leti r4 21195
+leti r4 242
 write a0 16 r4 
-leti r4 16968
+leti r4 372
 write a0 16 r4 
-leti r4 16968
+leti r4 15679
 write a0 16 r4 
-leti r4 19017
+leti r4 11711
 write a0 16 r4 
-leti r4 16968
+leti r4 5631
 write a0 16 r4 
-leti r4 16968
+leti r4 1662
 write a0 16 r4 
-leti r4 16968
+leti r4 1661
 write a0 16 r4 
-leti r4 16968
+leti r4 1725
 write a0 16 r4 
-leti r4 16968
+leti r4 1661
 write a0 16 r4 
-leti r4 16968
+leti r4 1661
 write a0 16 r4 
-leti r4 19081
+leti r4 1661
 write a0 16 r4 
-leti r4 21195
+leti r4 1662
 write a0 16 r4 
-leti r4 21196
+leti r4 1599
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 12742
+leti r4 1724
 write a0 16 r4 
-leti r4 14791
+leti r4 1723
 write a0 16 r4 
-leti r4 12742
+leti r4 1726
 write a0 16 r4 
-leti r4 12677
+leti r4 1599
 write a0 16 r4 
-leti r4 12678
+leti r4 1535
 write a0 16 r4 
-leti r4 14791
+leti r4 3583
 write a0 16 r4 
-leti r4 14791
+leti r4 5759
 write a0 16 r4 
-leti r4 12742
+leti r4 3711
 write a0 16 r4 
-leti r4 12742
+leti r4 1597
 write a0 16 r4 
-leti r4 14855
+leti r4 1727
 write a0 16 r4 
-leti r4 16969
+leti r4 1727
 write a0 16 r4 
-leti r4 19018
+leti r4 1465
 write a0 16 r4 
-leti r4 16905
+leti r4 1599
 write a0 16 r4 
-leti r4 14791
+leti r4 7743
 write a0 16 r4 
-leti r4 12678
+leti r4 7615
 write a0 16 r4 
-leti r4 14792
+leti r4 13695
 write a0 16 r4 
-leti r4 16968
+leti r4 245
 write a0 16 r4 
-leti r4 16968
+leti r4 121
 write a0 16 r4 
-leti r4 16968
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 16968
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 124
 write a0 16 r4 
-leti r4 16968
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 19081
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 2110
 write a0 16 r4 
-leti r4 21196
+leti r4 2110
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27537
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 27538
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 27537
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 27537
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 27473
+leti r4 60
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27537
+leti r4 2110
 write a0 16 r4 
-leti r4 33879
+leti r4 2110
 write a0 16 r4 
-leti r4 35993
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 60
 write a0 16 r4 
-leti r4 35929
+leti r4 191
 write a0 16 r4 
-leti r4 35994
+leti r4 59
 write a0 16 r4 
-leti r4 33881
+leti r4 63
 write a0 16 r4 
-leti r4 35930
+leti r4 63
 write a0 16 r4 
-leti r4 35930
+leti r4 118
 write a0 16 r4 
-leti r4 35930
+leti r4 431
 write a0 16 r4 
-leti r4 35930
+leti r4 7615
 write a0 16 r4 
-leti r4 33882
+leti r4 3647
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 35930
+leti r4 1663
 write a0 16 r4 
-leti r4 35994
+leti r4 1663
 write a0 16 r4 
-leti r4 33880
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 19081
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 29463
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 3711
 write a0 16 r4 
-leti r4 29463
+leti r4 1596
 write a0 16 r4 
-leti r4 29463
+leti r4 1660
 write a0 16 r4 
-leti r4 29463
+leti r4 5631
 write a0 16 r4 
-leti r4 29464
+leti r4 19775
 write a0 16 r4 
-leti r4 27416
+leti r4 57
 write a0 16 r4 
-leti r4 29464
+leti r4 190
 write a0 16 r4 
-leti r4 29464
+leti r4 58
 write a0 16 r4 
-leti r4 27351
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 57
 write a0 16 r4 
-leti r4 29464
+leti r4 254
 write a0 16 r4 
-leti r4 29464
+leti r4 244
 write a0 16 r4 
-leti r4 29464
+leti r4 11583
 write a0 16 r4 
-leti r4 29464
+leti r4 5631
 write a0 16 r4 
-leti r4 29464
+leti r4 1598
 write a0 16 r4 
-leti r4 29464
+leti r4 1725
 write a0 16 r4 
-leti r4 29464
+leti r4 1725
 write a0 16 r4 
-leti r4 29464
+leti r4 1594
 write a0 16 r4 
-leti r4 29464
+leti r4 1727
 write a0 16 r4 
-leti r4 29464
+leti r4 1596
 write a0 16 r4 
-leti r4 29464
+leti r4 3710
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1597
 write a0 16 r4 
-leti r4 29464
+leti r4 1726
 write a0 16 r4 
-leti r4 27353
+leti r4 1723
 write a0 16 r4 
-leti r4 27481
+leti r4 1723
 write a0 16 r4 
-leti r4 44392
+leti r4 1726
 write a0 16 r4 
-leti r4 50679
+leti r4 1599
 write a0 16 r4 
-leti r4 50734
+leti r4 1535
 write a0 16 r4 
-leti r4 44394
+leti r4 3583
 write a0 16 r4 
-leti r4 42280
+leti r4 5759
 write a0 16 r4 
-leti r4 52849
+leti r4 3711
 write a0 16 r4 
-leti r4 52847
+leti r4 1597
 write a0 16 r4 
-leti r4 50733
+leti r4 1791
 write a0 16 r4 
-leti r4 54895
+leti r4 1528
 write a0 16 r4 
-leti r4 37983
+leti r4 1662
 write a0 16 r4 
-leti r4 33819
+leti r4 5823
 write a0 16 r4 
-leti r4 25425
+leti r4 1471
 write a0 16 r4 
-leti r4 27536
+leti r4 7615
 write a0 16 r4 
-leti r4 19078
+leti r4 11647
 write a0 16 r4 
-leti r4 16969
+leti r4 305
 write a0 16 r4 
-leti r4 16969
+leti r4 246
 write a0 16 r4 
-leti r4 19081
+leti r4 183
 write a0 16 r4 
-leti r4 16968
+leti r4 117
 write a0 16 r4 
-leti r4 14790
+leti r4 246
 write a0 16 r4 
-leti r4 14792
+leti r4 19711
 write a0 16 r4 
-leti r4 14793
+leti r4 9535
 write a0 16 r4 
-leti r4 12680
+leti r4 7743
 write a0 16 r4 
-leti r4 16968
+leti r4 1663
 write a0 16 r4 
-leti r4 19082
+leti r4 1724
 write a0 16 r4 
-leti r4 16903
+leti r4 1724
 write a0 16 r4 
-leti r4 16968
+leti r4 1658
 write a0 16 r4 
-leti r4 21259
+leti r4 1727
 write a0 16 r4 
-leti r4 21194
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 1598
 write a0 16 r4 
-leti r4 17033
+leti r4 1663
 write a0 16 r4 
-leti r4 12678
+leti r4 1724
 write a0 16 r4 
-leti r4 12743
+leti r4 1724
 write a0 16 r4 
-leti r4 14856
+leti r4 1661
 write a0 16 r4 
-leti r4 12742
+leti r4 1663
 write a0 16 r4 
-leti r4 14791
+leti r4 1599
 write a0 16 r4 
-leti r4 14727
+leti r4 3647
 write a0 16 r4 
-leti r4 14792
+leti r4 3647
 write a0 16 r4 
-leti r4 12679
+leti r4 3647
 write a0 16 r4 
-leti r4 12742
+leti r4 1599
 write a0 16 r4 
-leti r4 19018
+leti r4 1599
 write a0 16 r4 
-leti r4 19082
+leti r4 1663
 write a0 16 r4 
-leti r4 16967
+leti r4 1663
 write a0 16 r4 
-leti r4 19080
+leti r4 1663
 write a0 16 r4 
-leti r4 19081
+leti r4 1599
 write a0 16 r4 
-leti r4 16967
+leti r4 1599
 write a0 16 r4 
-leti r4 16968
+leti r4 5631
 write a0 16 r4 
-leti r4 16968
+leti r4 11647
 write a0 16 r4 
-leti r4 16968
+leti r4 239
 write a0 16 r4 
-leti r4 16968
+leti r4 250
 write a0 16 r4 
-leti r4 16968
+leti r4 56
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 190
 write a0 16 r4 
-leti r4 16967
+leti r4 56
 write a0 16 r4 
-leti r4 16968
+leti r4 61
 write a0 16 r4 
-leti r4 19017
+leti r4 62
 write a0 16 r4 
-leti r4 21131
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 4159
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27472
+leti r4 60
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 25359
+leti r4 62
 write a0 16 r4 
-leti r4 29588
+leti r4 62
 write a0 16 r4 
-leti r4 33880
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 2110
 write a0 16 r4 
-leti r4 35929
+leti r4 2110
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 60
 write a0 16 r4 
-leti r4 33881
+leti r4 126
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 42338
+leti r4 63
 write a0 16 r4 
-leti r4 35930
+leti r4 61
 write a0 16 r4 
-leti r4 33882
+leti r4 186
 write a0 16 r4 
-leti r4 35931
+leti r4 301
 write a0 16 r4 
-leti r4 33881
+leti r4 11711
 write a0 16 r4 
-leti r4 33881
+leti r4 3647
 write a0 16 r4 
-leti r4 44451
+leti r4 1663
 write a0 16 r4 
-leti r4 42336
+leti r4 1663
 write a0 16 r4 
-leti r4 42338
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 27413
+leti r4 1663
 write a0 16 r4 
-leti r4 25365
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1725
 write a0 16 r4 
-leti r4 27351
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 11455
 write a0 16 r4 
-leti r4 29465
+leti r4 186
 write a0 16 r4 
-leti r4 29464
+leti r4 57
 write a0 16 r4 
-leti r4 29464
+leti r4 125
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 63
 write a0 16 r4 
-leti r4 27415
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 57
 write a0 16 r4 
-leti r4 29464
+leti r4 244
 write a0 16 r4 
-leti r4 29464
+leti r4 13695
 write a0 16 r4 
-leti r4 29464
+leti r4 7743
 write a0 16 r4 
-leti r4 29464
+leti r4 1534
 write a0 16 r4 
-leti r4 29464
+leti r4 1531
 write a0 16 r4 
-leti r4 29464
+leti r4 1791
 write a0 16 r4 
-leti r4 29464
+leti r4 1596
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 3775
 write a0 16 r4 
-leti r4 29464
+leti r4 5823
 write a0 16 r4 
-leti r4 29464
+leti r4 1596
 write a0 16 r4 
-leti r4 29464
+leti r4 1660
 write a0 16 r4 
-leti r4 29467
+leti r4 1724
 write a0 16 r4 
-leti r4 25366
+leti r4 1659
 write a0 16 r4 
-leti r4 35872
+leti r4 1661
 write a0 16 r4 
-leti r4 50677
+leti r4 3711
 write a0 16 r4 
-leti r4 44394
+leti r4 5759
 write a0 16 r4 
-leti r4 42281
+leti r4 3647
 write a0 16 r4 
-leti r4 44393
+leti r4 1599
 write a0 16 r4 
-leti r4 44328
+leti r4 1596
 write a0 16 r4 
-leti r4 42346
+leti r4 1727
 write a0 16 r4 
-leti r4 52849
+leti r4 1659
 write a0 16 r4 
-leti r4 52847
+leti r4 1791
 write a0 16 r4 
-leti r4 35934
+leti r4 1599
 write a0 16 r4 
-leti r4 19085
+leti r4 1407
 write a0 16 r4 
-leti r4 17035
+leti r4 7551
 write a0 16 r4 
-leti r4 14856
+leti r4 17791
 write a0 16 r4 
-leti r4 19018
+leti r4 373
 write a0 16 r4 
-leti r4 14790
+leti r4 314
 write a0 16 r4 
-leti r4 16904
+leti r4 55
 write a0 16 r4 
-leti r4 19017
+leti r4 122
 write a0 16 r4 
-leti r4 16968
+leti r4 2303
 write a0 16 r4 
-leti r4 14790
+leti r4 54
 write a0 16 r4 
-leti r4 12678
+leti r4 185
 write a0 16 r4 
-leti r4 14791
+leti r4 375
 write a0 16 r4 
-leti r4 14792
+leti r4 9471
 write a0 16 r4 
-leti r4 16968
+leti r4 1471
 write a0 16 r4 
-leti r4 23245
+leti r4 1663
 write a0 16 r4 
-leti r4 27474
+leti r4 1660
 write a0 16 r4 
-leti r4 21197
+leti r4 1725
 write a0 16 r4 
-leti r4 21131
+leti r4 1727
 write a0 16 r4 
-leti r4 19081
+leti r4 1532
 write a0 16 r4 
-leti r4 16904
+leti r4 1727
 write a0 16 r4 
-leti r4 12742
+leti r4 1530
 write a0 16 r4 
-leti r4 14793
+leti r4 1661
 write a0 16 r4 
-leti r4 12679
+leti r4 1661
 write a0 16 r4 
-leti r4 12679
+leti r4 1662
 write a0 16 r4 
-leti r4 12743
+leti r4 1663
 write a0 16 r4 
-leti r4 14791
+leti r4 1599
 write a0 16 r4 
-leti r4 12677
+leti r4 1599
 write a0 16 r4 
-leti r4 14790
+leti r4 3647
 write a0 16 r4 
-leti r4 14855
+leti r4 3647
 write a0 16 r4 
-leti r4 12742
+leti r4 3647
 write a0 16 r4 
-leti r4 16969
+leti r4 1599
 write a0 16 r4 
-leti r4 16968
+leti r4 1599
 write a0 16 r4 
-leti r4 16967
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 1662
 write a0 16 r4 
-leti r4 16967
+leti r4 1662
 write a0 16 r4 
-leti r4 16967
+leti r4 1661
 write a0 16 r4 
-leti r4 19017
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 3583
 write a0 16 r4 
-leti r4 16968
+leti r4 11711
 write a0 16 r4 
-leti r4 16968
+leti r4 372
 write a0 16 r4 
-leti r4 16968
+leti r4 181
 write a0 16 r4 
-leti r4 16968
+leti r4 123
 write a0 16 r4 
-leti r4 16968
+leti r4 127
 write a0 16 r4 
-leti r4 16968
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 59
 write a0 16 r4 
-leti r4 23309
+leti r4 55
 write a0 16 r4 
-leti r4 21196
+leti r4 191
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 4159
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 21195
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 63
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 27539
+leti r4 62
 write a0 16 r4 
-leti r4 31766
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 2110
 write a0 16 r4 
-leti r4 35930
+leti r4 2110
 write a0 16 r4 
-leti r4 35994
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 61
 write a0 16 r4 
-leti r4 35995
+leti r4 60
 write a0 16 r4 
-leti r4 33880
+leti r4 60
 write a0 16 r4 
-leti r4 44386
+leti r4 2111
 write a0 16 r4 
-leti r4 40225
+leti r4 63
 write a0 16 r4 
-leti r4 42338
+leti r4 123
 write a0 16 r4 
-leti r4 42338
+leti r4 240
 write a0 16 r4 
-leti r4 42339
+leti r4 11583
 write a0 16 r4 
-leti r4 42338
+leti r4 3647
 write a0 16 r4 
-leti r4 42337
+leti r4 1663
 write a0 16 r4 
-leti r4 42338
+leti r4 1663
 write a0 16 r4 
-leti r4 40224
+leti r4 1663
 write a0 16 r4 
-leti r4 44450
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 27413
+leti r4 1663
 write a0 16 r4 
-leti r4 29527
+leti r4 1663
 write a0 16 r4 
-leti r4 25300
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 25301
+leti r4 1663
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 3711
 write a0 16 r4 
-leti r4 29464
+leti r4 1597
 write a0 16 r4 
-leti r4 29464
+leti r4 1658
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 13631
 write a0 16 r4 
-leti r4 29464
+leti r4 247
 write a0 16 r4 
-leti r4 27415
+leti r4 123
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 60
 write a0 16 r4 
-leti r4 29465
+leti r4 2175
 write a0 16 r4 
-leti r4 29465
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 124
 write a0 16 r4 
-leti r4 29464
+leti r4 182
 write a0 16 r4 
-leti r4 29464
+leti r4 240
 write a0 16 r4 
-leti r4 29464
+leti r4 13823
 write a0 16 r4 
-leti r4 29464
+leti r4 7743
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1596
 write a0 16 r4 
-leti r4 29464
+leti r4 1660
 write a0 16 r4 
-leti r4 29464
+leti r4 3775
 write a0 16 r4 
-leti r4 29531
+leti r4 1661
 write a0 16 r4 
-leti r4 31644
+leti r4 1663
 write a0 16 r4 
-leti r4 33823
+leti r4 1663
 write a0 16 r4 
-leti r4 50676
+leti r4 1599
 write a0 16 r4 
-leti r4 44330
+leti r4 3711
 write a0 16 r4 
-leti r4 44329
+leti r4 1599
 write a0 16 r4 
-leti r4 42279
+leti r4 1661
 write a0 16 r4 
-leti r4 44328
+leti r4 1725
 write a0 16 r4 
-leti r4 31776
+leti r4 1659
 write a0 16 r4 
-leti r4 42281
+leti r4 1593
 write a0 16 r4 
-leti r4 44395
+leti r4 1598
 write a0 16 r4 
-leti r4 25368
+leti r4 5759
 write a0 16 r4 
-leti r4 8455
+leti r4 9599
 write a0 16 r4 
-leti r4 10633
+leti r4 17727
 write a0 16 r4 
-leti r4 10630
+leti r4 180
 write a0 16 r4 
-leti r4 12743
+leti r4 55
 write a0 16 r4 
-leti r4 12678
+leti r4 125
 write a0 16 r4 
-leti r4 14791
+leti r4 60
 write a0 16 r4 
-leti r4 14792
+leti r4 58
 write a0 16 r4 
-leti r4 14792
+leti r4 58
 write a0 16 r4 
-leti r4 14791
+leti r4 57
 write a0 16 r4 
-leti r4 14790
+leti r4 125
 write a0 16 r4 
-leti r4 14790
+leti r4 57
 write a0 16 r4 
-leti r4 16903
+leti r4 312
 write a0 16 r4 
-leti r4 27471
+leti r4 13759
 write a0 16 r4 
-leti r4 27538
+leti r4 1407
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1531
 write a0 16 r4 
-leti r4 16968
+leti r4 1727
 write a0 16 r4 
-leti r4 16969
+leti r4 1662
 write a0 16 r4 
-leti r4 19019
+leti r4 3775
 write a0 16 r4 
-leti r4 14792
+leti r4 5823
 write a0 16 r4 
-leti r4 10567
+leti r4 1663
 write a0 16 r4 
-leti r4 12680
+leti r4 1599
 write a0 16 r4 
-leti r4 12680
+leti r4 1663
 write a0 16 r4 
-leti r4 12743
+leti r4 1663
 write a0 16 r4 
-leti r4 14855
+leti r4 1663
 write a0 16 r4 
-leti r4 16969
+leti r4 1663
 write a0 16 r4 
-leti r4 19082
+leti r4 1663
 write a0 16 r4 
-leti r4 19082
+leti r4 1599
 write a0 16 r4 
-leti r4 16969
+leti r4 1599
 write a0 16 r4 
-leti r4 19018
+leti r4 1599
 write a0 16 r4 
-leti r4 16968
+leti r4 1599
 write a0 16 r4 
-leti r4 16968
+leti r4 1599
 write a0 16 r4 
-leti r4 16968
+leti r4 1663
 write a0 16 r4 
-leti r4 16967
+leti r4 1662
 write a0 16 r4 
-leti r4 16969
+leti r4 1661
 write a0 16 r4 
-leti r4 21197
+leti r4 1661
 write a0 16 r4 
-leti r4 21195
+leti r4 1532
 write a0 16 r4 
-leti r4 21195
+leti r4 3647
 write a0 16 r4 
-leti r4 21195
+leti r4 3391
 write a0 16 r4 
-leti r4 21196
+leti r4 13631
 write a0 16 r4 
-leti r4 21195
+leti r4 247
 write a0 16 r4 
-leti r4 21195
+leti r4 56
 write a0 16 r4 
-leti r4 21195
+leti r4 60
 write a0 16 r4 
-leti r4 21131
+leti r4 63
 write a0 16 r4 
-leti r4 19082
+leti r4 2110
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 58
 write a0 16 r4 
-leti r4 27473
+leti r4 2175
 write a0 16 r4 
-leti r4 27473
+leti r4 126
 write a0 16 r4 
-leti r4 25423
+leti r4 59
 write a0 16 r4 
-leti r4 21196
+leti r4 63
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 27473
+leti r4 61
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 35931
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 33880
+leti r4 61
 write a0 16 r4 
-leti r4 35931
+leti r4 62
 write a0 16 r4 
-leti r4 44387
+leti r4 2111
 write a0 16 r4 
-leti r4 42338
+leti r4 61
 write a0 16 r4 
-leti r4 42337
+leti r4 58
 write a0 16 r4 
-leti r4 44452
+leti r4 246
 write a0 16 r4 
-leti r4 42338
+leti r4 17791
 write a0 16 r4 
-leti r4 42273
+leti r4 5631
 write a0 16 r4 
-leti r4 42338
+leti r4 1663
 write a0 16 r4 
-leti r4 42339
+leti r4 1663
 write a0 16 r4 
-leti r4 42338
+leti r4 1663
 write a0 16 r4 
-leti r4 42338
+leti r4 1663
 write a0 16 r4 
-leti r4 35995
+leti r4 1663
 write a0 16 r4 
-leti r4 35994
+leti r4 1663
 write a0 16 r4 
-leti r4 33881
+leti r4 1663
 write a0 16 r4 
-leti r4 27413
+leti r4 1663
 write a0 16 r4 
-leti r4 23251
+leti r4 1663
 write a0 16 r4 
-leti r4 27479
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 23123
+leti r4 1663
 write a0 16 r4 
-leti r4 21010
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 9599
 write a0 16 r4 
-leti r4 27415
+leti r4 177
 write a0 16 r4 
-leti r4 27415
+leti r4 121
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 127
 write a0 16 r4 
-leti r4 29529
+leti r4 59
 write a0 16 r4 
-leti r4 29465
+leti r4 2175
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 251
 write a0 16 r4 
-leti r4 29464
+leti r4 177
 write a0 16 r4 
-leti r4 29464
+leti r4 11583
 write a0 16 r4 
-leti r4 29464
+leti r4 5567
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 1598
 write a0 16 r4 
-leti r4 29464
+leti r4 1597
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 3711
 write a0 16 r4 
-leti r4 29464
+leti r4 3710
 write a0 16 r4 
-leti r4 29466
+leti r4 1597
 write a0 16 r4 
-leti r4 27480
+leti r4 3711
 write a0 16 r4 
-leti r4 35872
+leti r4 3711
 write a0 16 r4 
-leti r4 52788
+leti r4 1534
 write a0 16 r4 
-leti r4 42217
+leti r4 1599
 write a0 16 r4 
-leti r4 42280
+leti r4 1663
 write a0 16 r4 
-leti r4 37985
+leti r4 1662
 write a0 16 r4 
-leti r4 35873
+leti r4 1661
 write a0 16 r4 
-leti r4 25439
+leti r4 1726
 write a0 16 r4 
-leti r4 19030
+leti r4 1727
 write a0 16 r4 
-leti r4 19091
+leti r4 1471
 write a0 16 r4 
-leti r4 10633
+leti r4 9663
 write a0 16 r4 
-leti r4 8582
+leti r4 171
 write a0 16 r4 
-leti r4 8519
+leti r4 313
 write a0 16 r4 
-leti r4 10635
+leti r4 122
 write a0 16 r4 
-leti r4 8523
+leti r4 59
 write a0 16 r4 
-leti r4 10632
+leti r4 60
 write a0 16 r4 
-leti r4 10632
+leti r4 2109
 write a0 16 r4 
-leti r4 10631
+leti r4 60
 write a0 16 r4 
-leti r4 10631
+leti r4 125
 write a0 16 r4 
-leti r4 12680
+leti r4 63
 write a0 16 r4 
-leti r4 12679
+leti r4 63
 write a0 16 r4 
-leti r4 14791
+leti r4 62
 write a0 16 r4 
-leti r4 19081
+leti r4 57
 write a0 16 r4 
-leti r4 35992
+leti r4 179
 write a0 16 r4 
-leti r4 27472
+leti r4 13695
 write a0 16 r4 
-leti r4 25425
+leti r4 5631
 write a0 16 r4 
-leti r4 19017
+leti r4 1535
 write a0 16 r4 
-leti r4 14855
+leti r4 1663
 write a0 16 r4 
-leti r4 14790
+leti r4 1597
 write a0 16 r4 
-leti r4 14791
+leti r4 1465
 write a0 16 r4 
-leti r4 12679
+leti r4 3711
 write a0 16 r4 
-leti r4 12680
+leti r4 3647
 write a0 16 r4 
-leti r4 12679
+leti r4 3647
 write a0 16 r4 
-leti r4 12743
+leti r4 1599
 write a0 16 r4 
-leti r4 16970
+leti r4 1663
 write a0 16 r4 
-leti r4 16968
+leti r4 1662
 write a0 16 r4 
-leti r4 16967
+leti r4 1662
 write a0 16 r4 
-leti r4 16967
+leti r4 1662
 write a0 16 r4 
-leti r4 19082
+leti r4 1662
 write a0 16 r4 
-leti r4 21196
+leti r4 1599
 write a0 16 r4 
-leti r4 21196
+leti r4 1599
 write a0 16 r4 
-leti r4 21195
+leti r4 1599
 write a0 16 r4 
-leti r4 21195
+leti r4 1599
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 21195
+leti r4 1662
 write a0 16 r4 
-leti r4 21197
+leti r4 1661
 write a0 16 r4 
-leti r4 25424
+leti r4 1724
 write a0 16 r4 
-leti r4 21195
+leti r4 3839
 write a0 16 r4 
-leti r4 21196
+leti r4 1531
 write a0 16 r4 
-leti r4 23309
+leti r4 3711
 write a0 16 r4 
-leti r4 23310
+leti r4 5567
 write a0 16 r4 
-leti r4 25424
+leti r4 11583
 write a0 16 r4 
-leti r4 25424
+leti r4 245
 write a0 16 r4 
-leti r4 27473
+leti r4 188
 write a0 16 r4 
-leti r4 27537
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 4159
 write a0 16 r4 
-leti r4 23245
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 59
 write a0 16 r4 
-leti r4 25424
+leti r4 125
 write a0 16 r4 
-leti r4 25424
+leti r4 59
 write a0 16 r4 
-leti r4 27473
+leti r4 60
 write a0 16 r4 
-leti r4 25423
+leti r4 2175
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 61
 write a0 16 r4 
-leti r4 25360
+leti r4 61
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 35931
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 61
 write a0 16 r4 
-leti r4 33882
+leti r4 61
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 33882
+leti r4 63
 write a0 16 r4 
-leti r4 35931
+leti r4 63
 write a0 16 r4 
-leti r4 44387
+leti r4 60
 write a0 16 r4 
-leti r4 42273
+leti r4 58
 write a0 16 r4 
-leti r4 42338
+leti r4 249
 write a0 16 r4 
-leti r4 42273
+leti r4 11391
 write a0 16 r4 
-leti r4 44388
+leti r4 5631
 write a0 16 r4 
-leti r4 52909
+leti r4 1663
 write a0 16 r4 
-leti r4 52844
+leti r4 1663
 write a0 16 r4 
-leti r4 42340
+leti r4 1663
 write a0 16 r4 
-leti r4 42274
+leti r4 1663
 write a0 16 r4 
-leti r4 42338
+leti r4 1663
 write a0 16 r4 
-leti r4 31768
+leti r4 1663
 write a0 16 r4 
-leti r4 35931
+leti r4 1663
 write a0 16 r4 
-leti r4 35935
+leti r4 1663
 write a0 16 r4 
-leti r4 25300
+leti r4 1663
 write a0 16 r4 
-leti r4 27479
+leti r4 1663
 write a0 16 r4 
-leti r4 25366
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 21009
+leti r4 1663
 write a0 16 r4 
-leti r4 21010
+leti r4 1663
 write a0 16 r4 
-leti r4 31578
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1597
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 7551
 write a0 16 r4 
-leti r4 29464
+leti r4 566
 write a0 16 r4 
-leti r4 29464
+leti r4 119
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 2109
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 57
 write a0 16 r4 
-leti r4 29465
+leti r4 188
 write a0 16 r4 
-leti r4 29464
+leti r4 181
 write a0 16 r4 
-leti r4 29464
+leti r4 17727
 write a0 16 r4 
-leti r4 29464
+leti r4 9663
 write a0 16 r4 
-leti r4 29464
+leti r4 7807
 write a0 16 r4 
-leti r4 29464
+leti r4 3711
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 29529
+leti r4 3711
 write a0 16 r4 
-leti r4 33693
+leti r4 3647
 write a0 16 r4 
-leti r4 25301
+leti r4 3647
 write a0 16 r4 
-leti r4 25368
+leti r4 1599
 write a0 16 r4 
-leti r4 46445
+leti r4 1598
 write a0 16 r4 
-leti r4 48561
+leti r4 1663
 write a0 16 r4 
-leti r4 44459
+leti r4 1727
 write a0 16 r4 
-leti r4 33888
+leti r4 1663
 write a0 16 r4 
-leti r4 33824
+leti r4 1534
 write a0 16 r4 
-leti r4 16979
+leti r4 1535
 write a0 16 r4 
-leti r4 8589
+leti r4 7615
 write a0 16 r4 
-leti r4 4295
+leti r4 11647
 write a0 16 r4 
-leti r4 6409
+leti r4 304
 write a0 16 r4 
-leti r4 6473
+leti r4 247
 write a0 16 r4 
-leti r4 6473
+leti r4 121
 write a0 16 r4 
-leti r4 8521
+leti r4 60
 write a0 16 r4 
-leti r4 8520
+leti r4 4223
 write a0 16 r4 
-leti r4 6472
+leti r4 4158
 write a0 16 r4 
-leti r4 8586
+leti r4 2109
 write a0 16 r4 
-leti r4 8586
+leti r4 60
 write a0 16 r4 
-leti r4 8522
+leti r4 63
 write a0 16 r4 
-leti r4 8521
+leti r4 62
 write a0 16 r4 
-leti r4 8519
+leti r4 58
 write a0 16 r4 
-leti r4 12809
+leti r4 61
 write a0 16 r4 
-leti r4 19150
+leti r4 127
 write a0 16 r4 
-leti r4 25424
+leti r4 122
 write a0 16 r4 
-leti r4 25425
+leti r4 182
 write a0 16 r4 
-leti r4 16904
+leti r4 13631
 write a0 16 r4 
-leti r4 16904
+leti r4 7615
 write a0 16 r4 
-leti r4 12675
+leti r4 3583
 write a0 16 r4 
-leti r4 12740
+leti r4 7935
 write a0 16 r4 
-leti r4 14790
+leti r4 3647
 write a0 16 r4 
-leti r4 12678
+leti r4 1535
 write a0 16 r4 
-leti r4 16969
+leti r4 3647
 write a0 16 r4 
-leti r4 21197
+leti r4 3647
 write a0 16 r4 
-leti r4 21197
+leti r4 1599
 write a0 16 r4 
-leti r4 19082
+leti r4 1663
 write a0 16 r4 
-leti r4 19080
+leti r4 1662
 write a0 16 r4 
-leti r4 23308
+leti r4 1661
 write a0 16 r4 
-leti r4 21196
+leti r4 1661
 write a0 16 r4 
-leti r4 21195
+leti r4 1662
 write a0 16 r4 
-leti r4 21196
+leti r4 1663
 write a0 16 r4 
-leti r4 23309
+leti r4 1599
 write a0 16 r4 
-leti r4 25423
+leti r4 1599
 write a0 16 r4 
-leti r4 25424
+leti r4 1599
 write a0 16 r4 
-leti r4 25424
+leti r4 1599
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1662
 write a0 16 r4 
-leti r4 27473
+leti r4 1662
 write a0 16 r4 
-leti r4 25424
+leti r4 1662
 write a0 16 r4 
-leti r4 25424
+leti r4 1661
 write a0 16 r4 
-leti r4 25424
+leti r4 1727
 write a0 16 r4 
-leti r4 25424
+leti r4 1534
 write a0 16 r4 
-leti r4 25424
+leti r4 3583
 write a0 16 r4 
-leti r4 25424
+leti r4 11583
 write a0 16 r4 
-leti r4 25424
+leti r4 179
 write a0 16 r4 
-leti r4 25424
+leti r4 122
 write a0 16 r4 
-leti r4 27473
+leti r4 55
 write a0 16 r4 
-leti r4 25424
+leti r4 2175
 write a0 16 r4 
-leti r4 25424
+leti r4 191
 write a0 16 r4 
-leti r4 25423
+leti r4 55
 write a0 16 r4 
-leti r4 25423
+leti r4 57
 write a0 16 r4 
-leti r4 25424
+leti r4 125
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 27537
+leti r4 2111
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27538
+leti r4 62
 write a0 16 r4 
-leti r4 25425
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 2110
 write a0 16 r4 
-leti r4 35930
+leti r4 2110
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 35930
+leti r4 61
 write a0 16 r4 
-leti r4 35930
+leti r4 61
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 35996
+leti r4 62
 write a0 16 r4 
-leti r4 42272
+leti r4 62
 write a0 16 r4 
-leti r4 42337
+leti r4 61
 write a0 16 r4 
-leti r4 42337
+leti r4 62
 write a0 16 r4 
-leti r4 42338
+leti r4 189
 write a0 16 r4 
-leti r4 44452
+leti r4 55
 write a0 16 r4 
-leti r4 42338
+leti r4 440
 write a0 16 r4 
-leti r4 42276
+leti r4 5631
 write a0 16 r4 
-leti r4 50732
+leti r4 1663
 write a0 16 r4 
-leti r4 52910
+leti r4 1663
 write a0 16 r4 
-leti r4 52911
+leti r4 1663
 write a0 16 r4 
-leti r4 52910
+leti r4 1663
 write a0 16 r4 
-leti r4 40226
+leti r4 1663
 write a0 16 r4 
-leti r4 44390
+leti r4 1663
 write a0 16 r4 
-leti r4 42339
+leti r4 1663
 write a0 16 r4 
-leti r4 44391
+leti r4 1663
 write a0 16 r4 
-leti r4 38050
+leti r4 1663
 write a0 16 r4 
-leti r4 25365
+leti r4 1663
 write a0 16 r4 
-leti r4 25301
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 21010
+leti r4 1662
 write a0 16 r4 
-leti r4 27351
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1662
 write a0 16 r4 
-leti r4 29465
+leti r4 1598
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 5631
 write a0 16 r4 
-leti r4 29464
+leti r4 7359
 write a0 16 r4 
-leti r4 29464
+leti r4 184
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 2108
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 2175
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 58
 write a0 16 r4 
-leti r4 29464
+leti r4 116
 write a0 16 r4 
-leti r4 29464
+leti r4 17727
 write a0 16 r4 
-leti r4 29464
+leti r4 9535
 write a0 16 r4 
-leti r4 29464
+leti r4 1407
 write a0 16 r4 
-leti r4 29464
+leti r4 5759
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 31578
+leti r4 1599
 write a0 16 r4 
-leti r4 27416
+leti r4 3647
 write a0 16 r4 
-leti r4 27416
+leti r4 1534
 write a0 16 r4 
-leti r4 25368
+leti r4 1662
 write a0 16 r4 
-leti r4 42281
+leti r4 1727
 write a0 16 r4 
-leti r4 48563
+leti r4 1661
 write a0 16 r4 
-leti r4 31775
+leti r4 1597
 write a0 16 r4 
-leti r4 25367
+leti r4 3711
 write a0 16 r4 
-leti r4 35939
+leti r4 9855
 write a0 16 r4 
-leti r4 23325
+leti r4 11711
 write a0 16 r4 
-leti r4 19095
+leti r4 15679
 write a0 16 r4 
-leti r4 8521
+leti r4 243
 write a0 16 r4 
-leti r4 8585
+leti r4 249
 write a0 16 r4 
-leti r4 8585
+leti r4 57
 write a0 16 r4 
-leti r4 8585
+leti r4 61
 write a0 16 r4 
-leti r4 6473
+leti r4 58
 write a0 16 r4 
-leti r4 8525
+leti r4 61
 write a0 16 r4 
-leti r4 6474
+leti r4 2109
 write a0 16 r4 
-leti r4 6474
+leti r4 4158
 write a0 16 r4 
-leti r4 8522
+leti r4 61
 write a0 16 r4 
-leti r4 8522
+leti r4 59
 write a0 16 r4 
-leti r4 8522
+leti r4 61
 write a0 16 r4 
-leti r4 8520
+leti r4 126
 write a0 16 r4 
-leti r4 10633
+leti r4 2175
 write a0 16 r4 
-leti r4 14923
+leti r4 59
 write a0 16 r4 
-leti r4 19086
+leti r4 127
 write a0 16 r4 
-leti r4 12808
+leti r4 55
 write a0 16 r4 
-leti r4 12743
+leti r4 182
 write a0 16 r4 
-leti r4 10627
+leti r4 370
 write a0 16 r4 
-leti r4 16968
+leti r4 7487
 write a0 16 r4 
-leti r4 19082
+leti r4 5567
 write a0 16 r4 
-leti r4 21196
+leti r4 5695
 write a0 16 r4 
-leti r4 27473
+leti r4 1535
 write a0 16 r4 
-leti r4 21195
+leti r4 3647
 write a0 16 r4 
-leti r4 21195
+leti r4 3647
 write a0 16 r4 
-leti r4 21195
+leti r4 1599
 write a0 16 r4 
-leti r4 21195
+leti r4 1663
 write a0 16 r4 
-leti r4 21194
+leti r4 1662
 write a0 16 r4 
-leti r4 21196
+leti r4 1661
 write a0 16 r4 
-leti r4 23310
+leti r4 1661
 write a0 16 r4 
-leti r4 25425
+leti r4 1662
 write a0 16 r4 
-leti r4 25423
+leti r4 1662
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 27473
+leti r4 1599
 write a0 16 r4 
-leti r4 27473
+leti r4 1599
 write a0 16 r4 
-leti r4 25424
+leti r4 1599
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1662
 write a0 16 r4 
-leti r4 25424
+leti r4 1597
 write a0 16 r4 
-leti r4 25424
+leti r4 1661
 write a0 16 r4 
-leti r4 25424
+leti r4 1659
 write a0 16 r4 
-leti r4 25424
+leti r4 1595
 write a0 16 r4 
-leti r4 25424
+leti r4 3775
 write a0 16 r4 
-leti r4 25424
+leti r4 9791
 write a0 16 r4 
-leti r4 27473
+leti r4 11519
 write a0 16 r4 
-leti r4 27473
+leti r4 308
 write a0 16 r4 
-leti r4 25424
+leti r4 316
 write a0 16 r4 
-leti r4 25424
+leti r4 56
 write a0 16 r4 
-leti r4 27473
+leti r4 122
 write a0 16 r4 
-leti r4 27473
+leti r4 122
 write a0 16 r4 
-leti r4 27473
+leti r4 124
 write a0 16 r4 
-leti r4 27473
+leti r4 124
 write a0 16 r4 
-leti r4 25423
+leti r4 57
 write a0 16 r4 
-leti r4 25423
+leti r4 2175
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27537
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 31767
+leti r4 62
 write a0 16 r4 
-leti r4 35995
+leti r4 2110
 write a0 16 r4 
-leti r4 35930
+leti r4 2110
 write a0 16 r4 
-leti r4 35930
+leti r4 2110
 write a0 16 r4 
-leti r4 35930
+leti r4 62
 write a0 16 r4 
-leti r4 35929
+leti r4 60
 write a0 16 r4 
-leti r4 33881
+leti r4 60
 write a0 16 r4 
-leti r4 33880
+leti r4 62
 write a0 16 r4 
-leti r4 42337
+leti r4 63
 write a0 16 r4 
-leti r4 44386
+leti r4 2111
 write a0 16 r4 
-leti r4 44386
+leti r4 61
 write a0 16 r4 
-leti r4 42336
+leti r4 59
 write a0 16 r4 
-leti r4 42339
+leti r4 189
 write a0 16 r4 
-leti r4 40224
+leti r4 57
 write a0 16 r4 
-leti r4 44387
+leti r4 179
 write a0 16 r4 
-leti r4 42275
+leti r4 7615
 write a0 16 r4 
-leti r4 42276
+leti r4 1663
 write a0 16 r4 
-leti r4 42340
+leti r4 1663
 write a0 16 r4 
-leti r4 52845
+leti r4 1663
 write a0 16 r4 
-leti r4 52846
+leti r4 1663
 write a0 16 r4 
-leti r4 52911
+leti r4 1663
 write a0 16 r4 
-leti r4 50733
+leti r4 1663
 write a0 16 r4 
-leti r4 50796
+leti r4 1663
 write a0 16 r4 
-leti r4 42213
+leti r4 1663
 write a0 16 r4 
-leti r4 35936
+leti r4 1663
 write a0 16 r4 
-leti r4 25366
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 27351
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 23123
+leti r4 1662
 write a0 16 r4 
-leti r4 23123
+leti r4 1661
 write a0 16 r4 
-leti r4 27351
+leti r4 1662
 write a0 16 r4 
-leti r4 29465
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 3583
 write a0 16 r4 
-leti r4 27415
+leti r4 3583
 write a0 16 r4 
-leti r4 29464
+leti r4 13823
 write a0 16 r4 
-leti r4 29464
+leti r4 182
 write a0 16 r4 
-leti r4 29464
+leti r4 125
 write a0 16 r4 
-leti r4 29464
+leti r4 2107
 write a0 16 r4 
-leti r4 29464
+leti r4 4155
 write a0 16 r4 
-leti r4 29464
+leti r4 2109
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2175
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 126
 write a0 16 r4 
-leti r4 29464
+leti r4 57
 write a0 16 r4 
-leti r4 29464
+leti r4 126
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 190
 write a0 16 r4 
-leti r4 29464
+leti r4 119
 write a0 16 r4 
-leti r4 29464
+leti r4 308
 write a0 16 r4 
-leti r4 29464
+leti r4 15807
 write a0 16 r4 
-leti r4 29464
+leti r4 5567
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 31578
+leti r4 1659
 write a0 16 r4 
-leti r4 31578
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1597
 write a0 16 r4 
-leti r4 27483
+leti r4 1727
 write a0 16 r4 
-leti r4 42281
+leti r4 1727
 write a0 16 r4 
-leti r4 48629
+leti r4 1594
 write a0 16 r4 
-leti r4 33889
+leti r4 1598
 write a0 16 r4 
-leti r4 19092
+leti r4 7743
 write a0 16 r4 
-leti r4 19094
+leti r4 7423
 write a0 16 r4 
-leti r4 31842
+leti r4 239
 write a0 16 r4 
-leti r4 19093
+leti r4 180
 write a0 16 r4 
-leti r4 8458
+leti r4 187
 write a0 16 r4 
-leti r4 8458
+leti r4 58
 write a0 16 r4 
-leti r4 8523
+leti r4 2175
 write a0 16 r4 
-leti r4 8523
+leti r4 63
 write a0 16 r4 
-leti r4 6473
+leti r4 127
 write a0 16 r4 
-leti r4 8520
+leti r4 62
 write a0 16 r4 
-leti r4 8523
+leti r4 60
 write a0 16 r4 
-leti r4 6473
+leti r4 60
 write a0 16 r4 
-leti r4 6473
+leti r4 62
 write a0 16 r4 
-leti r4 6473
+leti r4 2175
 write a0 16 r4 
-leti r4 8522
+leti r4 61
 write a0 16 r4 
-leti r4 8521
+leti r4 60
 write a0 16 r4 
-leti r4 8521
+leti r4 59
 write a0 16 r4 
-leti r4 8520
+leti r4 126
 write a0 16 r4 
-leti r4 8520
+leti r4 57
 write a0 16 r4 
-leti r4 8520
+leti r4 2239
 write a0 16 r4 
-leti r4 8520
+leti r4 122
 write a0 16 r4 
-leti r4 19152
+leti r4 183
 write a0 16 r4 
-leti r4 25426
+leti r4 307
 write a0 16 r4 
-leti r4 23310
+leti r4 9535
 write a0 16 r4 
-leti r4 21195
+leti r4 3583
 write a0 16 r4 
-leti r4 21195
+leti r4 1599
 write a0 16 r4 
-leti r4 25423
+leti r4 1599
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 23308
+leti r4 1662
 write a0 16 r4 
-leti r4 23309
+leti r4 1662
 write a0 16 r4 
-leti r4 25423
+leti r4 1662
 write a0 16 r4 
-leti r4 27537
+leti r4 1662
 write a0 16 r4 
-leti r4 25425
+leti r4 1662
 write a0 16 r4 
-leti r4 27537
+leti r4 1663
 write a0 16 r4 
-leti r4 27473
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1599
 write a0 16 r4 
-leti r4 25424
+leti r4 1599
 write a0 16 r4 
-leti r4 25423
+leti r4 1599
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1662
 write a0 16 r4 
-leti r4 27473
+leti r4 1531
 write a0 16 r4 
-leti r4 27473
+leti r4 3775
 write a0 16 r4 
-leti r4 25424
+leti r4 5887
 write a0 16 r4 
-leti r4 25424
+leti r4 1662
 write a0 16 r4 
-leti r4 25424
+leti r4 1465
 write a0 16 r4 
-leti r4 25424
+leti r4 1533
 write a0 16 r4 
-leti r4 25424
+leti r4 5695
 write a0 16 r4 
-leti r4 25424
+leti r4 7615
 write a0 16 r4 
-leti r4 25424
+leti r4 7359
 write a0 16 r4 
-leti r4 25423
+leti r4 376
 write a0 16 r4 
-leti r4 25424
+leti r4 55
 write a0 16 r4 
-leti r4 25423
+leti r4 127
 write a0 16 r4 
-leti r4 25424
+leti r4 2175
 write a0 16 r4 
-leti r4 25424
+leti r4 60
 write a0 16 r4 
-leti r4 25424
+leti r4 59
 write a0 16 r4 
-leti r4 27473
+leti r4 60
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27539
+leti r4 62
 write a0 16 r4 
-leti r4 31766
+leti r4 62
 write a0 16 r4 
-leti r4 35929
+leti r4 62
 write a0 16 r4 
-leti r4 35993
+leti r4 62
 write a0 16 r4 
-leti r4 33880
+leti r4 62
 write a0 16 r4 
-leti r4 35994
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 62
 write a0 16 r4 
-leti r4 33881
+leti r4 2110
 write a0 16 r4 
-leti r4 33881
+leti r4 4158
 write a0 16 r4 
-leti r4 33881
+leti r4 2110
 write a0 16 r4 
-leti r4 35929
+leti r4 61
 write a0 16 r4 
-leti r4 35994
+leti r4 60
 write a0 16 r4 
-leti r4 35929
+leti r4 124
 write a0 16 r4 
-leti r4 35995
+leti r4 61
 write a0 16 r4 
-leti r4 35930
+leti r4 63
 write a0 16 r4 
-leti r4 33880
+leti r4 2111
 write a0 16 r4 
-leti r4 35930
+leti r4 60
 write a0 16 r4 
-leti r4 33882
+leti r4 56
 write a0 16 r4 
-leti r4 42337
+leti r4 121
 write a0 16 r4 
-leti r4 42338
+leti r4 125
 write a0 16 r4 
-leti r4 42337
+leti r4 248
 write a0 16 r4 
-leti r4 42338
+leti r4 7615
 write a0 16 r4 
-leti r4 54958
+leti r4 1663
 write a0 16 r4 
-leti r4 50795
+leti r4 1663
 write a0 16 r4 
-leti r4 42339
+leti r4 1663
 write a0 16 r4 
-leti r4 54959
+leti r4 1663
 write a0 16 r4 
-leti r4 50732
+leti r4 1663
 write a0 16 r4 
-leti r4 52911
+leti r4 1663
 write a0 16 r4 
-leti r4 54959
+leti r4 1663
 write a0 16 r4 
-leti r4 52849
+leti r4 1663
 write a0 16 r4 
-leti r4 44392
+leti r4 1663
 write a0 16 r4 
-leti r4 35872
+leti r4 1663
 write a0 16 r4 
-leti r4 25366
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27351
+leti r4 1662
 write a0 16 r4 
-leti r4 23123
+leti r4 1596
 write a0 16 r4 
-leti r4 27350
+leti r4 1727
 write a0 16 r4 
-leti r4 29464
+leti r4 5695
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 1533
 write a0 16 r4 
-leti r4 29464
+leti r4 7679
 write a0 16 r4 
-leti r4 29464
+leti r4 179
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 4154
 write a0 16 r4 
-leti r4 29529
+leti r4 6203
 write a0 16 r4 
-leti r4 29465
+leti r4 2109
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 59
 write a0 16 r4 
-leti r4 31578
+leti r4 126
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 119
 write a0 16 r4 
-leti r4 29464
+leti r4 241
 write a0 16 r4 
-leti r4 27415
+leti r4 13759
 write a0 16 r4 
-leti r4 29464
+leti r4 1471
 write a0 16 r4 
-leti r4 29464
+leti r4 3775
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1598
 write a0 16 r4 
-leti r4 27419
+leti r4 1663
 write a0 16 r4 
-leti r4 33824
+leti r4 1662
 write a0 16 r4 
-leti r4 48565
+leti r4 1534
 write a0 16 r4 
-leti r4 40233
+leti r4 9855
 write a0 16 r4 
-leti r4 19156
+leti r4 7487
 write a0 16 r4 
-leti r4 17046
+leti r4 434
 write a0 16 r4 
-leti r4 19094
+leti r4 246
 write a0 16 r4 
-leti r4 19093
+leti r4 124
 write a0 16 r4 
-leti r4 21207
+leti r4 59
 write a0 16 r4 
-leti r4 19093
+leti r4 4159
 write a0 16 r4 
-leti r4 6474
+leti r4 2109
 write a0 16 r4 
-leti r4 19093
+leti r4 2111
 write a0 16 r4 
-leti r4 19093
+leti r4 61
 write a0 16 r4 
-leti r4 8522
+leti r4 62
 write a0 16 r4 
-leti r4 8522
+leti r4 62
 write a0 16 r4 
-leti r4 6472
+leti r4 62
 write a0 16 r4 
-leti r4 8521
+leti r4 61
 write a0 16 r4 
-leti r4 8585
+leti r4 60
 write a0 16 r4 
-leti r4 8521
+leti r4 58
 write a0 16 r4 
-leti r4 8522
+leti r4 127
 write a0 16 r4 
-leti r4 8522
+leti r4 61
 write a0 16 r4 
-leti r4 8521
+leti r4 61
 write a0 16 r4 
-leti r4 8524
+leti r4 2174
 write a0 16 r4 
-leti r4 6409
+leti r4 58
 write a0 16 r4 
-leti r4 8521
+leti r4 60
 write a0 16 r4 
-leti r4 10632
+leti r4 59
 write a0 16 r4 
-leti r4 14857
+leti r4 186
 write a0 16 r4 
-leti r4 19082
+leti r4 307
 write a0 16 r4 
-leti r4 21195
+leti r4 9599
 write a0 16 r4 
-leti r4 21195
+leti r4 5567
 write a0 16 r4 
-leti r4 27474
+leti r4 1599
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1599
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 27473
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1662
 write a0 16 r4 
-leti r4 25424
+leti r4 1662
 write a0 16 r4 
-leti r4 25425
+leti r4 1662
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1599
 write a0 16 r4 
-leti r4 27473
+leti r4 1599
 write a0 16 r4 
-leti r4 27473
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1662
 write a0 16 r4 
-leti r4 25423
+leti r4 1662
 write a0 16 r4 
-leti r4 25424
+leti r4 1727
 write a0 16 r4 
-leti r4 25424
+leti r4 1597
 write a0 16 r4 
-leti r4 25424
+leti r4 1533
 write a0 16 r4 
-leti r4 25424
+leti r4 3775
 write a0 16 r4 
-leti r4 25424
+leti r4 1597
 write a0 16 r4 
-leti r4 25424
+leti r4 1662
 write a0 16 r4 
-leti r4 25424
+leti r4 1727
 write a0 16 r4 
-leti r4 25424
+leti r4 1534
 write a0 16 r4 
-leti r4 25424
+leti r4 9855
 write a0 16 r4 
-leti r4 25424
+leti r4 5247
 write a0 16 r4 
-leti r4 27473
+leti r4 377
 write a0 16 r4 
-leti r4 25424
+leti r4 55
 write a0 16 r4 
-leti r4 25424
+leti r4 123
 write a0 16 r4 
-leti r4 25424
+leti r4 58
 write a0 16 r4 
-leti r4 25423
+leti r4 123
 write a0 16 r4 
-leti r4 25424
+leti r4 59
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 27537
+leti r4 62
 write a0 16 r4 
-leti r4 25424
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 25423
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 62
 write a0 16 r4 
-leti r4 19017
+leti r4 2110
 write a0 16 r4 
-leti r4 16969
+leti r4 2110
 write a0 16 r4 
-leti r4 16969
+leti r4 62
 write a0 16 r4 
-leti r4 16969
+leti r4 62
 write a0 16 r4 
-leti r4 16969
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 60
 write a0 16 r4 
-leti r4 16968
+leti r4 62
 write a0 16 r4 
-leti r4 16967
+leti r4 61
 write a0 16 r4 
-leti r4 19081
+leti r4 63
 write a0 16 r4 
-leti r4 16969
+leti r4 61
 write a0 16 r4 
-leti r4 21196
+leti r4 122
 write a0 16 r4 
-leti r4 21197
+leti r4 122
 write a0 16 r4 
-leti r4 25424
+leti r4 61
 write a0 16 r4 
-leti r4 25426
+leti r4 182
 write a0 16 r4 
-leti r4 25424
+leti r4 7615
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25426
+leti r4 1663
 write a0 16 r4 
-leti r4 35931
+leti r4 1663
 write a0 16 r4 
-leti r4 33818
+leti r4 1663
 write a0 16 r4 
-leti r4 35997
+leti r4 1663
 write a0 16 r4 
-leti r4 33883
+leti r4 1663
 write a0 16 r4 
-leti r4 42274
+leti r4 1663
 write a0 16 r4 
-leti r4 44393
+leti r4 1663
 write a0 16 r4 
-leti r4 42280
+leti r4 1663
 write a0 16 r4 
-leti r4 35873
+leti r4 1663
 write a0 16 r4 
-leti r4 35872
+leti r4 1663
 write a0 16 r4 
-leti r4 31579
+leti r4 1663
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 3583
 write a0 16 r4 
-leti r4 29464
+leti r4 3775
 write a0 16 r4 
-leti r4 29464
+leti r4 7679
 write a0 16 r4 
-leti r4 29464
+leti r4 244
 write a0 16 r4 
-leti r4 29464
+leti r4 123
 write a0 16 r4 
-leti r4 31578
+leti r4 2107
 write a0 16 r4 
-leti r4 31578
+leti r4 4155
 write a0 16 r4 
-leti r4 31578
+leti r4 2109
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 123
 write a0 16 r4 
-leti r4 29465
+leti r4 116
 write a0 16 r4 
-leti r4 27415
+leti r4 374
 write a0 16 r4 
-leti r4 29464
+leti r4 11391
 write a0 16 r4 
-leti r4 29464
+leti r4 17919
 write a0 16 r4 
-leti r4 29531
+leti r4 5631
 write a0 16 r4 
-leti r4 31580
+leti r4 3711
 write a0 16 r4 
-leti r4 27481
+leti r4 1468
 write a0 16 r4 
-leti r4 35937
+leti r4 9855
 write a0 16 r4 
-leti r4 44392
+leti r4 11711
 write a0 16 r4 
-leti r4 50735
+leti r4 11583
 write a0 16 r4 
-leti r4 35936
+leti r4 305
 write a0 16 r4 
-leti r4 21139
+leti r4 179
 write a0 16 r4 
-leti r4 19094
+leti r4 121
 write a0 16 r4 
-leti r4 19092
+leti r4 60
 write a0 16 r4 
-leti r4 19030
+leti r4 2110
 write a0 16 r4 
-leti r4 8522
+leti r4 2110
 write a0 16 r4 
-leti r4 8522
+leti r4 2110
 write a0 16 r4 
-leti r4 19096
+leti r4 2110
 write a0 16 r4 
-leti r4 19092
+leti r4 2110
 write a0 16 r4 
-leti r4 19095
+leti r4 62
 write a0 16 r4 
-leti r4 6472
+leti r4 62
 write a0 16 r4 
-leti r4 8587
+leti r4 62
 write a0 16 r4 
-leti r4 6409
+leti r4 62
 write a0 16 r4 
-leti r4 8522
+leti r4 62
 write a0 16 r4 
-leti r4 8586
+leti r4 62
 write a0 16 r4 
-leti r4 6472
+leti r4 62
 write a0 16 r4 
-leti r4 8521
+leti r4 62
 write a0 16 r4 
-leti r4 8521
+leti r4 62
 write a0 16 r4 
-leti r4 8520
+leti r4 61
 write a0 16 r4 
-leti r4 8520
+leti r4 62
 write a0 16 r4 
-leti r4 6472
+leti r4 60
 write a0 16 r4 
-leti r4 8586
+leti r4 60
 write a0 16 r4 
-leti r4 8522
+leti r4 124
 write a0 16 r4 
-leti r4 6473
+leti r4 52
 write a0 16 r4 
-leti r4 8522
+leti r4 314
 write a0 16 r4 
-leti r4 19093
+leti r4 15551
 write a0 16 r4 
-leti r4 21197
+leti r4 7679
 write a0 16 r4 
-leti r4 21195
+leti r4 1599
 write a0 16 r4 
-leti r4 19146
+leti r4 3647
 write a0 16 r4 
-leti r4 21196
+leti r4 3647
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1595
 write a0 16 r4 
-leti r4 25422
+leti r4 1725
 write a0 16 r4 
-leti r4 27536
+leti r4 1791
 write a0 16 r4 
-leti r4 25423
+leti r4 1662
 write a0 16 r4 
-leti r4 27537
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1599
 write a0 16 r4 
-leti r4 27473
+leti r4 1599
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 27474
+leti r4 1662
 write a0 16 r4 
-leti r4 27473
+leti r4 1661
 write a0 16 r4 
-leti r4 25425
+leti r4 1661
 write a0 16 r4 
-leti r4 27475
+leti r4 1662
 write a0 16 r4 
-leti r4 25425
+leti r4 1663
 write a0 16 r4 
-leti r4 27474
+leti r4 1599
 write a0 16 r4 
-leti r4 27472
+leti r4 1599
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 25424
+leti r4 1662
 write a0 16 r4 
-leti r4 25425
+leti r4 1662
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 27472
+leti r4 1535
 write a0 16 r4 
-leti r4 25423
+leti r4 7679
 write a0 16 r4 
-leti r4 27539
+leti r4 9535
 write a0 16 r4 
-leti r4 25359
+leti r4 303
 write a0 16 r4 
-leti r4 27537
+leti r4 311
 write a0 16 r4 
-leti r4 25423
+leti r4 118
 write a0 16 r4 
-leti r4 27472
+leti r4 58
 write a0 16 r4 
-leti r4 27473
+leti r4 61
 write a0 16 r4 
-leti r4 27537
+leti r4 63
 write a0 16 r4 
-leti r4 25422
+leti r4 61
 write a0 16 r4 
-leti r4 27473
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 2111
 write a0 16 r4 
-leti r4 23244
+leti r4 63
 write a0 16 r4 
-leti r4 21195
+leti r4 59
 write a0 16 r4 
-leti r4 21195
+leti r4 127
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 21195
+leti r4 62
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16968
+leti r4 2110
 write a0 16 r4 
-leti r4 16969
+leti r4 62
 write a0 16 r4 
-leti r4 12742
+leti r4 61
 write a0 16 r4 
-leti r4 12743
+leti r4 61
 write a0 16 r4 
-leti r4 10632
+leti r4 62
 write a0 16 r4 
-leti r4 10567
+leti r4 62
 write a0 16 r4 
-leti r4 8457
+leti r4 62
 write a0 16 r4 
-leti r4 8523
+leti r4 62
 write a0 16 r4 
-leti r4 6409
+leti r4 62
 write a0 16 r4 
-leti r4 8588
+leti r4 61
 write a0 16 r4 
-leti r4 6474
+leti r4 62
 write a0 16 r4 
-leti r4 6408
+leti r4 62
 write a0 16 r4 
-leti r4 10637
+leti r4 62
 write a0 16 r4 
-leti r4 6408
+leti r4 2110
 write a0 16 r4 
-leti r4 8585
+leti r4 2110
 write a0 16 r4 
-leti r4 8519
+leti r4 62
 write a0 16 r4 
-leti r4 8520
+leti r4 62
 write a0 16 r4 
-leti r4 8521
+leti r4 61
 write a0 16 r4 
-leti r4 8521
+leti r4 60
 write a0 16 r4 
-leti r4 8586
+leti r4 60
 write a0 16 r4 
-leti r4 8521
+leti r4 61
 write a0 16 r4 
-leti r4 8521
+leti r4 182
 write a0 16 r4 
-leti r4 8583
+leti r4 7615
 write a0 16 r4 
-leti r4 4365
+leti r4 1663
 write a0 16 r4 
-leti r4 10632
+leti r4 1663
 write a0 16 r4 
-leti r4 6410
+leti r4 1663
 write a0 16 r4 
-leti r4 8585
+leti r4 1663
 write a0 16 r4 
-leti r4 19081
+leti r4 1663
 write a0 16 r4 
-leti r4 16980
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 25438
+leti r4 1663
 write a0 16 r4 
-leti r4 33827
+leti r4 1663
 write a0 16 r4 
-leti r4 33825
+leti r4 1663
 write a0 16 r4 
-leti r4 37986
+leti r4 1663
 write a0 16 r4 
-leti r4 25301
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 27417
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 3711
 write a0 16 r4 
-leti r4 29529
+leti r4 1595
 write a0 16 r4 
-leti r4 31578
+leti r4 5631
 write a0 16 r4 
-leti r4 31578
+leti r4 306
 write a0 16 r4 
-leti r4 31578
+leti r4 121
 write a0 16 r4 
-leti r4 31578
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 2109
 write a0 16 r4 
-leti r4 31578
+leti r4 2110
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 126
 write a0 16 r4 
-leti r4 29529
+leti r4 188
 write a0 16 r4 
-leti r4 29464
+leti r4 52
 write a0 16 r4 
-leti r4 29465
+leti r4 312
 write a0 16 r4 
-leti r4 29464
+leti r4 15487
 write a0 16 r4 
-leti r4 29531
+leti r4 11711
 write a0 16 r4 
-leti r4 37987
+leti r4 7679
 write a0 16 r4 
-leti r4 33823
+leti r4 13887
 write a0 16 r4 
-leti r4 35873
+leti r4 9471
 write a0 16 r4 
-leti r4 44393
+leti r4 13503
 write a0 16 r4 
-leti r4 52849
+leti r4 373
 write a0 16 r4 
-leti r4 42280
+leti r4 182
 write a0 16 r4 
-leti r4 35938
+leti r4 252
 write a0 16 r4 
-leti r4 16980
+leti r4 60
 write a0 16 r4 
-leti r4 19158
+leti r4 61
 write a0 16 r4 
-leti r4 19094
+leti r4 2110
 write a0 16 r4 
-leti r4 6473
+leti r4 2110
 write a0 16 r4 
-leti r4 8522
+leti r4 2110
 write a0 16 r4 
-leti r4 19093
+leti r4 2110
 write a0 16 r4 
-leti r4 19092
+leti r4 62
 write a0 16 r4 
-leti r4 16979
+leti r4 62
 write a0 16 r4 
-leti r4 19157
+leti r4 62
 write a0 16 r4 
-leti r4 19093
+leti r4 62
 write a0 16 r4 
-leti r4 16981
+leti r4 62
 write a0 16 r4 
-leti r4 21207
+leti r4 62
 write a0 16 r4 
-leti r4 17044
+leti r4 62
 write a0 16 r4 
-leti r4 8521
+leti r4 62
 write a0 16 r4 
-leti r4 6408
+leti r4 62
 write a0 16 r4 
-leti r4 8523
+leti r4 62
 write a0 16 r4 
-leti r4 8523
+leti r4 62
 write a0 16 r4 
-leti r4 8522
+leti r4 63
 write a0 16 r4 
-leti r4 8523
+leti r4 60
 write a0 16 r4 
-leti r4 6474
+leti r4 59
 write a0 16 r4 
-leti r4 6474
+leti r4 2175
 write a0 16 r4 
-leti r4 8524
+leti r4 125
 write a0 16 r4 
-leti r4 16980
+leti r4 58
 write a0 16 r4 
-leti r4 19095
+leti r4 315
 write a0 16 r4 
-leti r4 16968
+leti r4 13695
 write a0 16 r4 
-leti r4 16966
+leti r4 3391
 write a0 16 r4 
-leti r4 21194
+leti r4 7679
 write a0 16 r4 
-leti r4 16968
+leti r4 1471
 write a0 16 r4 
-leti r4 16968
+leti r4 3775
 write a0 16 r4 
-leti r4 21198
+leti r4 1663
 write a0 16 r4 
-leti r4 21198
+leti r4 1725
 write a0 16 r4 
-leti r4 19083
+leti r4 1659
 write a0 16 r4 
-leti r4 21259
+leti r4 1662
 write a0 16 r4 
-leti r4 21194
+leti r4 1662
 write a0 16 r4 
-leti r4 21195
+leti r4 1599
 write a0 16 r4 
-leti r4 19145
+leti r4 1599
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1662
 write a0 16 r4 
-leti r4 23374
+leti r4 1724
 write a0 16 r4 
-leti r4 27472
+leti r4 1725
 write a0 16 r4 
-leti r4 19081
+leti r4 1662
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 27536
+leti r4 1599
 write a0 16 r4 
-leti r4 25424
+leti r4 1663
 write a0 16 r4 
-leti r4 25423
+leti r4 1663
 write a0 16 r4 
-leti r4 25425
+leti r4 1662
 write a0 16 r4 
-leti r4 19149
+leti r4 1662
 write a0 16 r4 
-leti r4 21196
+leti r4 3775
 write a0 16 r4 
-leti r4 21196
+leti r4 1599
 write a0 16 r4 
-leti r4 19148
+leti r4 3519
 write a0 16 r4 
-leti r4 21196
+leti r4 9599
 write a0 16 r4 
-leti r4 19147
+leti r4 15679
 write a0 16 r4 
-leti r4 21260
+leti r4 242
 write a0 16 r4 
-leti r4 16968
+leti r4 252
 write a0 16 r4 
-leti r4 16969
+leti r4 58
 write a0 16 r4 
-leti r4 19083
+leti r4 62
 write a0 16 r4 
-leti r4 21196
+leti r4 60
 write a0 16 r4 
-leti r4 21196
+leti r4 61
 write a0 16 r4 
-leti r4 17034
+leti r4 62
 write a0 16 r4 
-leti r4 14858
+leti r4 61
 write a0 16 r4 
-leti r4 8519
+leti r4 2175
 write a0 16 r4 
-leti r4 10636
+leti r4 57
 write a0 16 r4 
-leti r4 8460
+leti r4 63
 write a0 16 r4 
-leti r4 10570
+leti r4 62
 write a0 16 r4 
-leti r4 8521
+leti r4 62
 write a0 16 r4 
-leti r4 8520
+leti r4 62
 write a0 16 r4 
-leti r4 10635
+leti r4 62
 write a0 16 r4 
-leti r4 8456
+leti r4 61
 write a0 16 r4 
-leti r4 8523
+leti r4 61
 write a0 16 r4 
-leti r4 8523
+leti r4 62
 write a0 16 r4 
-leti r4 8458
+leti r4 62
 write a0 16 r4 
-leti r4 8585
+leti r4 62
 write a0 16 r4 
-leti r4 8585
+leti r4 62
 write a0 16 r4 
-leti r4 8520
+leti r4 62
 write a0 16 r4 
-leti r4 4358
+leti r4 61
 write a0 16 r4 
-leti r4 8586
+leti r4 62
 write a0 16 r4 
-leti r4 8585
+leti r4 62
 write a0 16 r4 
-leti r4 6472
+leti r4 2110
 write a0 16 r4 
-leti r4 8585
+leti r4 4158
 write a0 16 r4 
-leti r4 8523
+leti r4 2110
 write a0 16 r4 
-leti r4 8523
+leti r4 62
 write a0 16 r4 
-leti r4 6474
+leti r4 62
 write a0 16 r4 
-leti r4 6474
+leti r4 62
 write a0 16 r4 
-leti r4 8523
+leti r4 61
 write a0 16 r4 
-leti r4 6410
+leti r4 61
 write a0 16 r4 
-leti r4 4295
+leti r4 62
 write a0 16 r4 
-leti r4 8523
+leti r4 182
 write a0 16 r4 
-leti r4 6474
+leti r4 7615
 write a0 16 r4 
-leti r4 10567
+leti r4 1663
 write a0 16 r4 
-leti r4 6538
+leti r4 1663
 write a0 16 r4 
-leti r4 8520
+leti r4 1663
 write a0 16 r4 
-leti r4 8457
+leti r4 1663
 write a0 16 r4 
-leti r4 17046
+leti r4 1663
 write a0 16 r4 
-leti r4 37988
+leti r4 1663
 write a0 16 r4 
-leti r4 31777
+leti r4 1663
 write a0 16 r4 
-leti r4 19030
+leti r4 1663
 write a0 16 r4 
-leti r4 25370
+leti r4 1663
 write a0 16 r4 
-leti r4 35938
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 29527
+leti r4 1663
 write a0 16 r4 
-leti r4 21073
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27350
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 3711
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 27415
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 1532
 write a0 16 r4 
-leti r4 29529
+leti r4 1661
 write a0 16 r4 
-leti r4 29530
+leti r4 3647
 write a0 16 r4 
-leti r4 31578
+leti r4 239
 write a0 16 r4 
-leti r4 31578
+leti r4 187
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 2110
 write a0 16 r4 
-leti r4 31578
+leti r4 2110
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2175
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29529
+leti r4 127
 write a0 16 r4 
-leti r4 29529
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 121
 write a0 16 r4 
-leti r4 29464
+leti r4 117
 write a0 16 r4 
-leti r4 29464
+leti r4 376
 write a0 16 r4 
-leti r4 27416
+leti r4 369
 write a0 16 r4 
-leti r4 31644
+leti r4 11455
 write a0 16 r4 
-leti r4 35938
+leti r4 15615
 write a0 16 r4 
-leti r4 35872
+leti r4 374
 write a0 16 r4 
-leti r4 35938
+leti r4 180
 write a0 16 r4 
-leti r4 42280
+leti r4 54
 write a0 16 r4 
-leti r4 42281
+leti r4 255
 write a0 16 r4 
-leti r4 33825
+leti r4 56
 write a0 16 r4 
-leti r4 19094
+leti r4 61
 write a0 16 r4 
-leti r4 19094
+leti r4 62
 write a0 16 r4 
-leti r4 6408
+leti r4 62
 write a0 16 r4 
-leti r4 19157
+leti r4 62
 write a0 16 r4 
-leti r4 21205
+leti r4 62
 write a0 16 r4 
-leti r4 19156
+leti r4 62
 write a0 16 r4 
-leti r4 14930
+leti r4 62
 write a0 16 r4 
-leti r4 10636
+leti r4 62
 write a0 16 r4 
-leti r4 17045
+leti r4 62
 write a0 16 r4 
-leti r4 16981
+leti r4 62
 write a0 16 r4 
-leti r4 25439
+leti r4 62
 write a0 16 r4 
-leti r4 16981
+leti r4 62
 write a0 16 r4 
-leti r4 6410
+leti r4 62
 write a0 16 r4 
-leti r4 8523
+leti r4 62
 write a0 16 r4 
-leti r4 8523
+leti r4 62
 write a0 16 r4 
-leti r4 6411
+leti r4 62
 write a0 16 r4 
-leti r4 6410
+leti r4 62
 write a0 16 r4 
-leti r4 6411
+leti r4 63
 write a0 16 r4 
-leti r4 8524
+leti r4 62
 write a0 16 r4 
-leti r4 4362
+leti r4 60
 write a0 16 r4 
-leti r4 16982
+leti r4 61
 write a0 16 r4 
-leti r4 25438
+leti r4 126
 write a0 16 r4 
-leti r4 25439
+leti r4 58
 write a0 16 r4 
-leti r4 29668
+leti r4 54
 write a0 16 r4 
-leti r4 25374
+leti r4 182
 write a0 16 r4 
-leti r4 27486
+leti r4 369
 write a0 16 r4 
-leti r4 16981
+leti r4 9727
 write a0 16 r4 
-leti r4 16981
+leti r4 1599
 write a0 16 r4 
-leti r4 17046
+leti r4 1533
 write a0 16 r4 
-leti r4 17046
+leti r4 1663
 write a0 16 r4 
-leti r4 19093
+leti r4 1598
 write a0 16 r4 
-leti r4 8523
+leti r4 1662
 write a0 16 r4 
-leti r4 14856
+leti r4 1662
 write a0 16 r4 
-leti r4 16970
+leti r4 1662
 write a0 16 r4 
-leti r4 16970
+leti r4 1663
 write a0 16 r4 
-leti r4 16970
+leti r4 1599
 write a0 16 r4 
-leti r4 16970
+leti r4 1663
 write a0 16 r4 
-leti r4 17035
+leti r4 1662
 write a0 16 r4 
-leti r4 10628
+leti r4 1662
 write a0 16 r4 
-leti r4 16970
+leti r4 1662
 write a0 16 r4 
-leti r4 17034
+leti r4 1662
 write a0 16 r4 
-leti r4 17033
+leti r4 1663
 write a0 16 r4 
-leti r4 14854
+leti r4 1663
 write a0 16 r4 
-leti r4 16970
+leti r4 1599
 write a0 16 r4 
-leti r4 16971
+leti r4 1599
 write a0 16 r4 
-leti r4 10630
+leti r4 1663
 write a0 16 r4 
-leti r4 8583
+leti r4 1662
 write a0 16 r4 
-leti r4 8519
+leti r4 1662
 write a0 16 r4 
-leti r4 8522
+leti r4 1661
 write a0 16 r4 
-leti r4 8458
+leti r4 1532
 write a0 16 r4 
-leti r4 10572
+leti r4 5695
 write a0 16 r4 
-leti r4 8459
+leti r4 9727
 write a0 16 r4 
-leti r4 8523
+leti r4 11647
 write a0 16 r4 
-leti r4 8522
+leti r4 15615
 write a0 16 r4 
-leti r4 8522
+leti r4 242
 write a0 16 r4 
-leti r4 8459
+leti r4 118
 write a0 16 r4 
-leti r4 8523
+leti r4 57
 write a0 16 r4 
-leti r4 8523
+leti r4 2175
 write a0 16 r4 
-leti r4 16981
+leti r4 58
 write a0 16 r4 
-leti r4 14868
+leti r4 58
 write a0 16 r4 
-leti r4 19094
+leti r4 60
 write a0 16 r4 
-leti r4 19093
+leti r4 59
 write a0 16 r4 
-leti r4 17042
+leti r4 4223
 write a0 16 r4 
-leti r4 17107
+leti r4 60
 write a0 16 r4 
-leti r4 17045
+leti r4 61
 write a0 16 r4 
-leti r4 19093
+leti r4 61
 write a0 16 r4 
-leti r4 17045
+leti r4 62
 write a0 16 r4 
-leti r4 17042
+leti r4 62
 write a0 16 r4 
-leti r4 8586
+leti r4 62
 write a0 16 r4 
-leti r4 6473
+leti r4 2110
 write a0 16 r4 
-leti r4 6472
+leti r4 62
 write a0 16 r4 
-leti r4 8585
+leti r4 62
 write a0 16 r4 
-leti r4 6473
+leti r4 62
 write a0 16 r4 
-leti r4 6473
+leti r4 62
 write a0 16 r4 
-leti r4 8522
+leti r4 62
 write a0 16 r4 
-leti r4 8522
+leti r4 62
 write a0 16 r4 
-leti r4 8522
+leti r4 62
 write a0 16 r4 
-leti r4 8522
+leti r4 62
 write a0 16 r4 
-leti r4 6473
+leti r4 2110
 write a0 16 r4 
-leti r4 8522
+leti r4 2110
 write a0 16 r4 
-leti r4 6408
+leti r4 2110
 write a0 16 r4 
-leti r4 8523
+leti r4 62
 write a0 16 r4 
-leti r4 6474
+leti r4 62
 write a0 16 r4 
-leti r4 8587
+leti r4 62
 write a0 16 r4 
-leti r4 6473
+leti r4 62
 write a0 16 r4 
-leti r4 6473
+leti r4 62
 write a0 16 r4 
-leti r4 6472
+leti r4 62
 write a0 16 r4 
-leti r4 8521
+leti r4 183
 write a0 16 r4 
-leti r4 8524
+leti r4 7615
 write a0 16 r4 
-leti r4 4294
+leti r4 1663
 write a0 16 r4 
-leti r4 6473
+leti r4 1663
 write a0 16 r4 
-leti r4 19093
+leti r4 1663
 write a0 16 r4 
-leti r4 33893
+leti r4 1663
 write a0 16 r4 
-leti r4 44531
+leti r4 1663
 write a0 16 r4 
-leti r4 48562
+leti r4 1663
 write a0 16 r4 
-leti r4 40236
+leti r4 1663
 write a0 16 r4 
-leti r4 33891
+leti r4 1663
 write a0 16 r4 
-leti r4 35939
+leti r4 1663
 write a0 16 r4 
-leti r4 33824
+leti r4 1663
 write a0 16 r4 
-leti r4 25366
+leti r4 1663
 write a0 16 r4 
-leti r4 27413
+leti r4 1663
 write a0 16 r4 
-leti r4 27413
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1534
 write a0 16 r4 
-leti r4 29464
+leti r4 3711
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 3775
 write a0 16 r4 
-leti r4 29529
+leti r4 1594
 write a0 16 r4 
-leti r4 29530
+leti r4 5695
 write a0 16 r4 
-leti r4 31578
+leti r4 17727
 write a0 16 r4 
-leti r4 31578
+leti r4 55
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 2110
 write a0 16 r4 
-leti r4 31578
+leti r4 2110
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 57
 write a0 16 r4 
-leti r4 29464
+leti r4 191
 write a0 16 r4 
-leti r4 29464
+leti r4 188
 write a0 16 r4 
-leti r4 29464
+leti r4 50
 write a0 16 r4 
-leti r4 27417
+leti r4 182
 write a0 16 r4 
-leti r4 25302
+leti r4 379
 write a0 16 r4 
-leti r4 35873
+leti r4 51
 write a0 16 r4 
-leti r4 35938
+leti r4 184
 write a0 16 r4 
-leti r4 33823
+leti r4 122
 write a0 16 r4 
-leti r4 35873
+leti r4 191
 write a0 16 r4 
-leti r4 44395
+leti r4 61
 write a0 16 r4 
-leti r4 33825
+leti r4 62
 write a0 16 r4 
-leti r4 19028
+leti r4 62
 write a0 16 r4 
-leti r4 21209
+leti r4 62
 write a0 16 r4 
-leti r4 8585
+leti r4 62
 write a0 16 r4 
-leti r4 6409
+leti r4 62
 write a0 16 r4 
-leti r4 6474
+leti r4 62
 write a0 16 r4 
-leti r4 4358
+leti r4 62
 write a0 16 r4 
-leti r4 19095
+leti r4 61
 write a0 16 r4 
-leti r4 16980
+leti r4 61
 write a0 16 r4 
-leti r4 19095
+leti r4 62
 write a0 16 r4 
-leti r4 23389
+leti r4 62
 write a0 16 r4 
-leti r4 23326
+leti r4 62
 write a0 16 r4 
-leti r4 16984
+leti r4 62
 write a0 16 r4 
-leti r4 8527
+leti r4 62
 write a0 16 r4 
-leti r4 6411
+leti r4 62
 write a0 16 r4 
-leti r4 6476
+leti r4 62
 write a0 16 r4 
-leti r4 8525
+leti r4 62
 write a0 16 r4 
-leti r4 6412
+leti r4 63
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 63
 write a0 16 r4 
-leti r4 14935
+leti r4 63
 write a0 16 r4 
-leti r4 25440
+leti r4 60
 write a0 16 r4 
-leti r4 29670
+leti r4 59
 write a0 16 r4 
-leti r4 31784
+leti r4 61
 write a0 16 r4 
-leti r4 31783
+leti r4 126
 write a0 16 r4 
-leti r4 33890
+leti r4 59
 write a0 16 r4 
-leti r4 31776
+leti r4 183
 write a0 16 r4 
-leti r4 33891
+leti r4 366
 write a0 16 r4 
-leti r4 33892
+leti r4 9727
 write a0 16 r4 
-leti r4 27485
+leti r4 1535
 write a0 16 r4 
-leti r4 25374
+leti r4 1599
 write a0 16 r4 
-leti r4 25373
+leti r4 3711
 write a0 16 r4 
-leti r4 19096
+leti r4 1599
 write a0 16 r4 
-leti r4 19094
+leti r4 1662
 write a0 16 r4 
-leti r4 19093
+leti r4 1662
 write a0 16 r4 
-leti r4 16979
+leti r4 1663
 write a0 16 r4 
-leti r4 19093
+leti r4 1663
 write a0 16 r4 
-leti r4 16980
+leti r4 1663
 write a0 16 r4 
-leti r4 19092
+leti r4 1663
 write a0 16 r4 
-leti r4 8457
+leti r4 1663
 write a0 16 r4 
-leti r4 8522
+leti r4 1663
 write a0 16 r4 
-leti r4 6407
+leti r4 1662
 write a0 16 r4 
-leti r4 8521
+leti r4 1662
 write a0 16 r4 
-leti r4 10635
+leti r4 1663
 write a0 16 r4 
-leti r4 8522
+leti r4 1599
 write a0 16 r4 
-leti r4 8458
+leti r4 1599
 write a0 16 r4 
-leti r4 6411
+leti r4 1663
 write a0 16 r4 
-leti r4 8590
+leti r4 1663
 write a0 16 r4 
-leti r4 16982
+leti r4 1662
 write a0 16 r4 
-leti r4 6474
+leti r4 1596
 write a0 16 r4 
-leti r4 8588
+leti r4 3839
 write a0 16 r4 
-leti r4 14931
+leti r4 1599
 write a0 16 r4 
-leti r4 14931
+leti r4 3583
 write a0 16 r4 
-leti r4 19158
+leti r4 5503
 write a0 16 r4 
-leti r4 17043
+leti r4 11711
 write a0 16 r4 
-leti r4 19093
+leti r4 15743
 write a0 16 r4 
-leti r4 17045
+leti r4 373
 write a0 16 r4 
-leti r4 14872
+leti r4 185
 write a0 16 r4 
-leti r4 14871
+leti r4 56
 write a0 16 r4 
-leti r4 14934
+leti r4 190
 write a0 16 r4 
-leti r4 14934
+leti r4 124
 write a0 16 r4 
-leti r4 17047
+leti r4 59
 write a0 16 r4 
-leti r4 14934
+leti r4 2110
 write a0 16 r4 
-leti r4 14935
+leti r4 2111
 write a0 16 r4 
-leti r4 14935
+leti r4 60
 write a0 16 r4 
-leti r4 14874
+leti r4 60
 write a0 16 r4 
-leti r4 14874
+leti r4 61
 write a0 16 r4 
-leti r4 14938
+leti r4 62
 write a0 16 r4 
-leti r4 16986
+leti r4 62
 write a0 16 r4 
-leti r4 14872
+leti r4 62
 write a0 16 r4 
-leti r4 14937
+leti r4 2110
 write a0 16 r4 
-leti r4 16984
+leti r4 2110
 write a0 16 r4 
-leti r4 14871
+leti r4 2110
 write a0 16 r4 
-leti r4 8462
+leti r4 2110
 write a0 16 r4 
-leti r4 8527
+leti r4 62
 write a0 16 r4 
-leti r4 4363
+leti r4 62
 write a0 16 r4 
-leti r4 8527
+leti r4 62
 write a0 16 r4 
-leti r4 6411
+leti r4 62
 write a0 16 r4 
-leti r4 6412
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6412
+leti r4 2110
 write a0 16 r4 
-leti r4 8526
+leti r4 2110
 write a0 16 r4 
-leti r4 4300
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 14869
+leti r4 62
 write a0 16 r4 
-leti r4 8526
+leti r4 62
 write a0 16 r4 
-leti r4 6412
+leti r4 62
 write a0 16 r4 
-leti r4 8525
+leti r4 62
 write a0 16 r4 
-leti r4 6412
+leti r4 183
 write a0 16 r4 
-leti r4 6411
+leti r4 9663
 write a0 16 r4 
-leti r4 6416
+leti r4 1663
 write a0 16 r4 
-leti r4 16983
+leti r4 1663
 write a0 16 r4 
-leti r4 31717
+leti r4 1663
 write a0 16 r4 
-leti r4 46578
+leti r4 1663
 write a0 16 r4 
-leti r4 57210
+leti r4 1663
 write a0 16 r4 
-leti r4 46579
+leti r4 1663
 write a0 16 r4 
-leti r4 38186
+leti r4 1663
 write a0 16 r4 
-leti r4 42282
+leti r4 1663
 write a0 16 r4 
-leti r4 40167
+leti r4 1663
 write a0 16 r4 
-leti r4 33824
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 25365
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29529
+leti r4 1597
 write a0 16 r4 
-leti r4 31578
+leti r4 1661
 write a0 16 r4 
-leti r4 31578
+leti r4 5695
 write a0 16 r4 
-leti r4 31578
+leti r4 17663
 write a0 16 r4 
-leti r4 29530
+leti r4 121
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 2110
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 2175
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 127
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 126
 write a0 16 r4 
-leti r4 29531
+leti r4 57
 write a0 16 r4 
-leti r4 27416
+leti r4 124
 write a0 16 r4 
-leti r4 29595
+leti r4 191
 write a0 16 r4 
-leti r4 35872
+leti r4 125
 write a0 16 r4 
-leti r4 35938
+leti r4 60
 write a0 16 r4 
-leti r4 35874
+leti r4 62
 write a0 16 r4 
-leti r4 42281
+leti r4 60
 write a0 16 r4 
-leti r4 44395
+leti r4 4223
 write a0 16 r4 
-leti r4 33890
+leti r4 62
 write a0 16 r4 
-leti r4 19029
+leti r4 62
 write a0 16 r4 
-leti r4 8521
+leti r4 62
 write a0 16 r4 
-leti r4 8524
+leti r4 62
 write a0 16 r4 
-leti r4 17046
+leti r4 62
 write a0 16 r4 
-leti r4 19160
+leti r4 62
 write a0 16 r4 
-leti r4 16984
+leti r4 62
 write a0 16 r4 
-leti r4 16918
+leti r4 61
 write a0 16 r4 
-leti r4 25438
+leti r4 62
 write a0 16 r4 
-leti r4 16984
+leti r4 62
 write a0 16 r4 
-leti r4 16983
+leti r4 62
 write a0 16 r4 
-leti r4 14869
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 8527
+leti r4 62
 write a0 16 r4 
-leti r4 4299
+leti r4 62
 write a0 16 r4 
-leti r4 6412
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 63
 write a0 16 r4 
-leti r4 6414
+leti r4 60
 write a0 16 r4 
-leti r4 16984
+leti r4 61
 write a0 16 r4 
-leti r4 23328
+leti r4 2175
 write a0 16 r4 
-leti r4 29670
+leti r4 62
 write a0 16 r4 
-leti r4 31786
+leti r4 60
 write a0 16 r4 
-leti r4 27558
+leti r4 60
 write a0 16 r4 
-leti r4 31785
+leti r4 61
 write a0 16 r4 
-leti r4 31787
+leti r4 62
 write a0 16 r4 
-leti r4 31722
+leti r4 59
 write a0 16 r4 
-leti r4 29671
+leti r4 187
 write a0 16 r4 
-leti r4 29671
+leti r4 243
 write a0 16 r4 
-leti r4 31785
+leti r4 9535
 write a0 16 r4 
-leti r4 29736
+leti r4 5567
 write a0 16 r4 
-leti r4 19230
+leti r4 1469
 write a0 16 r4 
-leti r4 21342
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 3647
 write a0 16 r4 
-leti r4 21279
+leti r4 3647
 write a0 16 r4 
-leti r4 23327
+leti r4 3710
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 25441
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 21214
+leti r4 1599
 write a0 16 r4 
-leti r4 16985
+leti r4 1599
 write a0 16 r4 
-leti r4 16984
+leti r4 1662
 write a0 16 r4 
-leti r4 16983
+leti r4 1662
 write a0 16 r4 
-leti r4 14870
+leti r4 1663
 write a0 16 r4 
-leti r4 14871
+leti r4 1599
 write a0 16 r4 
-leti r4 14936
+leti r4 1599
 write a0 16 r4 
-leti r4 14871
+leti r4 1599
 write a0 16 r4 
-leti r4 12822
+leti r4 1663
 write a0 16 r4 
-leti r4 14936
+leti r4 1662
 write a0 16 r4 
-leti r4 14936
+leti r4 1661
 write a0 16 r4 
-leti r4 14936
+leti r4 1660
 write a0 16 r4 
-leti r4 14871
+leti r4 1727
 write a0 16 r4 
-leti r4 14872
+leti r4 1598
 write a0 16 r4 
-leti r4 14871
+leti r4 5759
 write a0 16 r4 
-leti r4 14935
+leti r4 7679
 write a0 16 r4 
-leti r4 14871
+leti r4 5503
 write a0 16 r4 
-leti r4 14872
+leti r4 9535
 write a0 16 r4 
-leti r4 14870
+leti r4 434
 write a0 16 r4 
-leti r4 14934
+leti r4 111
 write a0 16 r4 
-leti r4 16983
+leti r4 54
 write a0 16 r4 
-leti r4 14936
+leti r4 56
 write a0 16 r4 
-leti r4 14936
+leti r4 2175
 write a0 16 r4 
-leti r4 12824
+leti r4 61
 write a0 16 r4 
-leti r4 14874
+leti r4 59
 write a0 16 r4 
-leti r4 14874
+leti r4 126
 write a0 16 r4 
-leti r4 14935
+leti r4 60
 write a0 16 r4 
-leti r4 14934
+leti r4 61
 write a0 16 r4 
-leti r4 14935
+leti r4 61
 write a0 16 r4 
-leti r4 12822
+leti r4 61
 write a0 16 r4 
-leti r4 14870
+leti r4 62
 write a0 16 r4 
-leti r4 14870
+leti r4 62
 write a0 16 r4 
-leti r4 16983
+leti r4 2110
 write a0 16 r4 
-leti r4 14935
+leti r4 4158
 write a0 16 r4 
-leti r4 16921
+leti r4 2110
 write a0 16 r4 
-leti r4 14872
+leti r4 62
 write a0 16 r4 
-leti r4 6415
+leti r4 62
 write a0 16 r4 
-leti r4 6350
+leti r4 62
 write a0 16 r4 
-leti r4 8528
+leti r4 62
 write a0 16 r4 
-leti r4 8464
+leti r4 62
 write a0 16 r4 
-leti r4 8464
+leti r4 62
 write a0 16 r4 
-leti r4 8464
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 6415
+leti r4 62
 write a0 16 r4 
-leti r4 16984
+leti r4 62
 write a0 16 r4 
-leti r4 16984
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 6415
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 183
 write a0 16 r4 
-leti r4 16984
+leti r4 9663
 write a0 16 r4 
-leti r4 35946
+leti r4 1663
 write a0 16 r4 
-leti r4 40240
+leti r4 1663
 write a0 16 r4 
-leti r4 46581
+leti r4 1663
 write a0 16 r4 
-leti r4 55036
+leti r4 1663
 write a0 16 r4 
-leti r4 46642
+leti r4 1663
 write a0 16 r4 
-leti r4 40171
+leti r4 1663
 write a0 16 r4 
-leti r4 40236
+leti r4 1663
 write a0 16 r4 
-leti r4 42281
+leti r4 1663
 write a0 16 r4 
-leti r4 35938
+leti r4 1663
 write a0 16 r4 
-leti r4 31645
+leti r4 1663
 write a0 16 r4 
-leti r4 25302
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 25301
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 25365
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1598
 write a0 16 r4 
-leti r4 31578
+leti r4 1597
 write a0 16 r4 
-leti r4 31579
+leti r4 1661
 write a0 16 r4 
-leti r4 31578
+leti r4 5695
 write a0 16 r4 
-leti r4 29530
+leti r4 17663
 write a0 16 r4 
-leti r4 29530
+leti r4 122
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 63
 write a0 16 r4 
-leti r4 31578
+leti r4 60
 write a0 16 r4 
-leti r4 29465
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 127
 write a0 16 r4 
-leti r4 29530
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 35873
+leti r4 60
 write a0 16 r4 
-leti r4 35873
+leti r4 63
 write a0 16 r4 
-leti r4 33824
+leti r4 2111
 write a0 16 r4 
-leti r4 33890
+leti r4 59
 write a0 16 r4 
-leti r4 42280
+leti r4 61
 write a0 16 r4 
-leti r4 33824
+leti r4 62
 write a0 16 r4 
-leti r4 27485
+leti r4 62
 write a0 16 r4 
-leti r4 19094
+leti r4 62
 write a0 16 r4 
-leti r4 19095
+leti r4 62
 write a0 16 r4 
-leti r4 14934
+leti r4 62
 write a0 16 r4 
-leti r4 23325
+leti r4 62
 write a0 16 r4 
-leti r4 14871
+leti r4 62
 write a0 16 r4 
-leti r4 16985
+leti r4 62
 write a0 16 r4 
-leti r4 16983
+leti r4 62
 write a0 16 r4 
-leti r4 16982
+leti r4 62
 write a0 16 r4 
-leti r4 6412
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 8464
+leti r4 62
 write a0 16 r4 
-leti r4 8527
+leti r4 62
 write a0 16 r4 
-leti r4 8462
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 63
 write a0 16 r4 
-leti r4 16984
+leti r4 62
 write a0 16 r4 
-leti r4 25441
+leti r4 62
 write a0 16 r4 
-leti r4 27622
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 38063
+leti r4 62
 write a0 16 r4 
-leti r4 38127
+leti r4 61
 write a0 16 r4 
-leti r4 38060
+leti r4 63
 write a0 16 r4 
-leti r4 38060
+leti r4 63
 write a0 16 r4 
-leti r4 33896
+leti r4 60
 write a0 16 r4 
-leti r4 31782
+leti r4 188
 write a0 16 r4 
-leti r4 25377
+leti r4 439
 write a0 16 r4 
-leti r4 23264
+leti r4 11583
 write a0 16 r4 
-leti r4 23329
+leti r4 9791
 write a0 16 r4 
-leti r4 25377
+leti r4 1535
 write a0 16 r4 
-leti r4 21279
+leti r4 3647
 write a0 16 r4 
-leti r4 23328
+leti r4 3647
 write a0 16 r4 
-leti r4 23393
+leti r4 3647
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 21214
+leti r4 1663
 write a0 16 r4 
-leti r4 21214
+leti r4 1663
 write a0 16 r4 
-leti r4 25442
+leti r4 1599
 write a0 16 r4 
-leti r4 21279
+leti r4 1599
 write a0 16 r4 
-leti r4 21280
+leti r4 1662
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 21214
+leti r4 1662
 write a0 16 r4 
-leti r4 25441
+leti r4 1663
 write a0 16 r4 
-leti r4 23392
+leti r4 1599
 write a0 16 r4 
-leti r4 14936
+leti r4 1599
 write a0 16 r4 
-leti r4 14936
+leti r4 1663
 write a0 16 r4 
-leti r4 12887
+leti r4 1662
 write a0 16 r4 
-leti r4 14871
+leti r4 1727
 write a0 16 r4 
-leti r4 14871
+leti r4 1463
 write a0 16 r4 
-leti r4 14872
+leti r4 1659
 write a0 16 r4 
-leti r4 14937
+leti r4 3903
 write a0 16 r4 
-leti r4 14936
+leti r4 1532
 write a0 16 r4 
-leti r4 12822
+leti r4 1534
 write a0 16 r4 
-leti r4 14871
+leti r4 3647
 write a0 16 r4 
-leti r4 14872
+leti r4 7743
 write a0 16 r4 
-leti r4 16984
+leti r4 5439
 write a0 16 r4 
-leti r4 16921
+leti r4 19903
 write a0 16 r4 
-leti r4 23264
+leti r4 377
 write a0 16 r4 
-leti r4 21216
+leti r4 188
 write a0 16 r4 
-leti r4 23329
+leti r4 58
 write a0 16 r4 
-leti r4 23327
+leti r4 2175
 write a0 16 r4 
-leti r4 16982
+leti r4 56
 write a0 16 r4 
-leti r4 14933
+leti r4 59
 write a0 16 r4 
-leti r4 12821
+leti r4 60
 write a0 16 r4 
-leti r4 17049
+leti r4 61
 write a0 16 r4 
-leti r4 23326
+leti r4 61
 write a0 16 r4 
-leti r4 23391
+leti r4 61
 write a0 16 r4 
-leti r4 25440
+leti r4 61
 write a0 16 r4 
-leti r4 23327
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 2110
 write a0 16 r4 
-leti r4 25376
+leti r4 4158
 write a0 16 r4 
-leti r4 23328
+leti r4 2110
 write a0 16 r4 
-leti r4 16984
+leti r4 62
 write a0 16 r4 
-leti r4 14871
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 61
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6411
+leti r4 62
 write a0 16 r4 
-leti r4 6411
+leti r4 62
 write a0 16 r4 
-leti r4 17047
+leti r4 62
 write a0 16 r4 
-leti r4 14869
+leti r4 62
 write a0 16 r4 
-leti r4 12821
+leti r4 62
 write a0 16 r4 
-leti r4 16984
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 182
 write a0 16 r4 
-leti r4 23325
+leti r4 7615
 write a0 16 r4 
-leti r4 38191
+leti r4 1663
 write a0 16 r4 
-leti r4 57144
+leti r4 1663
 write a0 16 r4 
-leti r4 46579
+leti r4 1663
 write a0 16 r4 
-leti r4 46519
+leti r4 1663
 write a0 16 r4 
-leti r4 48628
+leti r4 1663
 write a0 16 r4 
-leti r4 46583
+leti r4 1663
 write a0 16 r4 
-leti r4 40168
+leti r4 1663
 write a0 16 r4 
-leti r4 37987
+leti r4 1663
 write a0 16 r4 
-leti r4 33760
+leti r4 1663
 write a0 16 r4 
-leti r4 27417
+leti r4 1663
 write a0 16 r4 
-leti r4 27417
+leti r4 1663
 write a0 16 r4 
-leti r4 27351
+leti r4 1663
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1596
 write a0 16 r4 
-leti r4 29464
+leti r4 1727
 write a0 16 r4 
-leti r4 29464
+leti r4 1598
 write a0 16 r4 
-leti r4 29529
+leti r4 3775
 write a0 16 r4 
-leti r4 31578
+leti r4 1595
 write a0 16 r4 
-leti r4 29530
+leti r4 5695
 write a0 16 r4 
-leti r4 29530
+leti r4 19711
 write a0 16 r4 
-leti r4 31578
+leti r4 56
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 2111
 write a0 16 r4 
-leti r4 29465
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 31578
+leti r4 58
 write a0 16 r4 
-leti r4 31578
+leti r4 60
 write a0 16 r4 
-leti r4 29465
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 35872
+leti r4 62
 write a0 16 r4 
-leti r4 35873
+leti r4 59
 write a0 16 r4 
-leti r4 35872
+leti r4 2111
 write a0 16 r4 
-leti r4 35938
+leti r4 62
 write a0 16 r4 
-leti r4 33825
+leti r4 63
 write a0 16 r4 
-leti r4 33825
+leti r4 62
 write a0 16 r4 
-leti r4 33825
+leti r4 62
 write a0 16 r4 
-leti r4 25373
+leti r4 62
 write a0 16 r4 
-leti r4 16983
+leti r4 62
 write a0 16 r4 
-leti r4 16985
+leti r4 62
 write a0 16 r4 
-leti r4 21215
+leti r4 62
 write a0 16 r4 
-leti r4 25440
+leti r4 62
 write a0 16 r4 
-leti r4 23327
+leti r4 62
 write a0 16 r4 
-leti r4 19095
+leti r4 62
 write a0 16 r4 
-leti r4 6411
+leti r4 62
 write a0 16 r4 
-leti r4 6476
+leti r4 62
 write a0 16 r4 
-leti r4 8526
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6415
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 8462
+leti r4 62
 write a0 16 r4 
-leti r4 14870
+leti r4 63
 write a0 16 r4 
-leti r4 31784
+leti r4 63
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 61
 write a0 16 r4 
-leti r4 36014
+leti r4 62
 write a0 16 r4 
-leti r4 38127
+leti r4 63
 write a0 16 r4 
-leti r4 36012
+leti r4 63
 write a0 16 r4 
-leti r4 38127
+leti r4 60
 write a0 16 r4 
-leti r4 36012
+leti r4 63
 write a0 16 r4 
-leti r4 31783
+leti r4 63
 write a0 16 r4 
-leti r4 23327
+leti r4 57
 write a0 16 r4 
-leti r4 14871
+leti r4 55
 write a0 16 r4 
-leti r4 16984
+leti r4 247
 write a0 16 r4 
-leti r4 14933
+leti r4 302
 write a0 16 r4 
-leti r4 21340
+leti r4 11775
 write a0 16 r4 
-leti r4 23391
+leti r4 5631
 write a0 16 r4 
-leti r4 23327
+leti r4 1599
 write a0 16 r4 
-leti r4 23327
+leti r4 1599
 write a0 16 r4 
-leti r4 23327
+leti r4 1599
 write a0 16 r4 
-leti r4 23327
+leti r4 1663
 write a0 16 r4 
-leti r4 25441
+leti r4 1662
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 21279
+leti r4 1663
 write a0 16 r4 
-leti r4 21279
+leti r4 1661
 write a0 16 r4 
-leti r4 23393
+leti r4 1661
 write a0 16 r4 
-leti r4 21214
+leti r4 1662
 write a0 16 r4 
-leti r4 21279
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1599
 write a0 16 r4 
-leti r4 23326
+leti r4 1599
 write a0 16 r4 
-leti r4 21278
+leti r4 1663
 write a0 16 r4 
-leti r4 14934
+leti r4 1663
 write a0 16 r4 
-leti r4 23391
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1727
 write a0 16 r4 
-leti r4 23393
+leti r4 1726
 write a0 16 r4 
-leti r4 21213
+leti r4 1528
 write a0 16 r4 
-leti r4 21278
+leti r4 1791
 write a0 16 r4 
-leti r4 17049
+leti r4 1596
 write a0 16 r4 
-leti r4 23327
+leti r4 3775
 write a0 16 r4 
-leti r4 23328
+leti r4 1599
 write a0 16 r4 
-leti r4 23264
+leti r4 5695
 write a0 16 r4 
-leti r4 23329
+leti r4 3455
 write a0 16 r4 
-leti r4 21278
+leti r4 9471
 write a0 16 r4 
-leti r4 23326
+leti r4 110
 write a0 16 r4 
-leti r4 23391
+leti r4 187
 write a0 16 r4 
-leti r4 23326
+leti r4 59
 write a0 16 r4 
-leti r4 21214
+leti r4 4223
 write a0 16 r4 
-leti r4 16986
+leti r4 4158
 write a0 16 r4 
-leti r4 25441
+leti r4 2109
 write a0 16 r4 
-leti r4 23327
+leti r4 61
 write a0 16 r4 
-leti r4 21214
+leti r4 61
 write a0 16 r4 
-leti r4 23328
+leti r4 61
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 25377
+leti r4 62
 write a0 16 r4 
-leti r4 23263
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 29671
+leti r4 62
 write a0 16 r4 
-leti r4 21279
+leti r4 62
 write a0 16 r4 
-leti r4 25440
+leti r4 62
 write a0 16 r4 
-leti r4 14934
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 8527
+leti r4 61
 write a0 16 r4 
-leti r4 6413
+leti r4 61
 write a0 16 r4 
-leti r4 8526
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 17049
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 25442
+leti r4 62
 write a0 16 r4 
-leti r4 21214
+leti r4 62
 write a0 16 r4 
-leti r4 21215
+leti r4 61
 write a0 16 r4 
-leti r4 31783
+leti r4 181
 write a0 16 r4 
-leti r4 40238
+leti r4 7615
 write a0 16 r4 
-leti r4 42485
+leti r4 1663
 write a0 16 r4 
-leti r4 59256
+leti r4 1663
 write a0 16 r4 
-leti r4 46579
+leti r4 1663
 write a0 16 r4 
-leti r4 48631
+leti r4 1663
 write a0 16 r4 
-leti r4 52724
+leti r4 1663
 write a0 16 r4 
-leti r4 44469
+leti r4 1663
 write a0 16 r4 
-leti r4 44393
+leti r4 1663
 write a0 16 r4 
-leti r4 25302
+leti r4 1663
 write a0 16 r4 
-leti r4 31644
+leti r4 1663
 write a0 16 r4 
-leti r4 29530
+leti r4 1663
 write a0 16 r4 
-leti r4 29531
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 27351
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1727
 write a0 16 r4 
-leti r4 29464
+leti r4 1596
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 31578
+leti r4 1596
 write a0 16 r4 
-leti r4 31578
+leti r4 1662
 write a0 16 r4 
-leti r4 29530
+leti r4 5631
 write a0 16 r4 
-leti r4 29530
+leti r4 241
 write a0 16 r4 
-leti r4 31578
+leti r4 188
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 2111
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 27415
+leti r4 59
 write a0 16 r4 
-leti r4 31578
+leti r4 2175
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27350
+leti r4 60
 write a0 16 r4 
-leti r4 27415
+leti r4 59
 write a0 16 r4 
-leti r4 27480
+leti r4 62
 write a0 16 r4 
-leti r4 35872
+leti r4 2239
 write a0 16 r4 
-leti r4 35937
+leti r4 59
 write a0 16 r4 
-leti r4 42280
+leti r4 127
 write a0 16 r4 
-leti r4 35873
+leti r4 61
 write a0 16 r4 
-leti r4 35939
+leti r4 61
 write a0 16 r4 
-leti r4 33825
+leti r4 62
 write a0 16 r4 
-leti r4 25376
+leti r4 62
 write a0 16 r4 
-leti r4 19032
+leti r4 62
 write a0 16 r4 
-leti r4 21213
+leti r4 62
 write a0 16 r4 
-leti r4 31850
+leti r4 2110
 write a0 16 r4 
-leti r4 36074
+leti r4 2110
 write a0 16 r4 
-leti r4 38188
+leti r4 62
 write a0 16 r4 
-leti r4 23388
+leti r4 62
 write a0 16 r4 
-leti r4 6474
+leti r4 62
 write a0 16 r4 
-leti r4 8523
+leti r4 62
 write a0 16 r4 
-leti r4 6411
+leti r4 62
 write a0 16 r4 
-leti r4 8462
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 8461
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 23327
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 61
 write a0 16 r4 
-leti r4 36013
+leti r4 63
 write a0 16 r4 
-leti r4 38127
+leti r4 2175
 write a0 16 r4 
-leti r4 36013
+leti r4 63
 write a0 16 r4 
-leti r4 36013
+leti r4 60
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 31719
+leti r4 63
 write a0 16 r4 
-leti r4 25441
+leti r4 62
 write a0 16 r4 
-leti r4 14871
+leti r4 61
 write a0 16 r4 
-leti r4 16919
+leti r4 6335
 write a0 16 r4 
-leti r4 6415
+leti r4 62
 write a0 16 r4 
-leti r4 6350
+leti r4 58
 write a0 16 r4 
-leti r4 8528
+leti r4 248
 write a0 16 r4 
-leti r4 6413
+leti r4 302
 write a0 16 r4 
-leti r4 6414
+leti r4 9663
 write a0 16 r4 
-leti r4 6414
+leti r4 3583
 write a0 16 r4 
-leti r4 16983
+leti r4 1599
 write a0 16 r4 
-leti r4 14871
+leti r4 1599
 write a0 16 r4 
-leti r4 23327
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1662
 write a0 16 r4 
-leti r4 23327
+leti r4 1662
 write a0 16 r4 
-leti r4 25376
+leti r4 1662
 write a0 16 r4 
-leti r4 23328
+leti r4 1661
 write a0 16 r4 
-leti r4 21279
+leti r4 1661
 write a0 16 r4 
-leti r4 23329
+leti r4 1662
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 23263
+leti r4 1599
 write a0 16 r4 
-leti r4 25376
+leti r4 1599
 write a0 16 r4 
-leti r4 23328
+leti r4 1599
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1660
 write a0 16 r4 
-leti r4 23264
+leti r4 1661
 write a0 16 r4 
-leti r4 23329
+leti r4 1791
 write a0 16 r4 
-leti r4 23328
+leti r4 1659
 write a0 16 r4 
-leti r4 21214
+leti r4 1725
 write a0 16 r4 
-leti r4 23328
+leti r4 1595
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 23326
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1599
 write a0 16 r4 
-leti r4 25442
+leti r4 5631
 write a0 16 r4 
-leti r4 23264
+leti r4 11647
 write a0 16 r4 
-leti r4 21215
+leti r4 308
 write a0 16 r4 
-leti r4 25442
+leti r4 53
 write a0 16 r4 
-leti r4 23327
+leti r4 125
 write a0 16 r4 
-leti r4 23327
+leti r4 61
 write a0 16 r4 
-leti r4 21214
+leti r4 2110
 write a0 16 r4 
-leti r4 23328
+leti r4 2110
 write a0 16 r4 
-leti r4 23329
+leti r4 61
 write a0 16 r4 
-leti r4 31785
+leti r4 61
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 31783
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 23327
+leti r4 62
 write a0 16 r4 
-leti r4 31786
+leti r4 62
 write a0 16 r4 
-leti r4 29671
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 16985
+leti r4 62
 write a0 16 r4 
-leti r4 4365
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 61
 write a0 16 r4 
-leti r4 6414
+leti r4 61
 write a0 16 r4 
-leti r4 8522
+leti r4 62
 write a0 16 r4 
-leti r4 6473
+leti r4 62
 write a0 16 r4 
-leti r4 6475
+leti r4 62
 write a0 16 r4 
-leti r4 14933
+leti r4 62
 write a0 16 r4 
-leti r4 23325
+leti r4 62
 write a0 16 r4 
-leti r4 23326
+leti r4 61
 write a0 16 r4 
-leti r4 40238
+leti r4 59
 write a0 16 r4 
-leti r4 38124
+leti r4 244
 write a0 16 r4 
-leti r4 42421
+leti r4 7615
 write a0 16 r4 
-leti r4 48627
+leti r4 1663
 write a0 16 r4 
-leti r4 44533
+leti r4 1663
 write a0 16 r4 
-leti r4 50676
+leti r4 1663
 write a0 16 r4 
-leti r4 50675
+leti r4 1663
 write a0 16 r4 
-leti r4 46578
+leti r4 1663
 write a0 16 r4 
-leti r4 46441
+leti r4 1663
 write a0 16 r4 
-leti r4 33888
+leti r4 1663
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 37985
+leti r4 1663
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 29530
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29463
+leti r4 1663
 write a0 16 r4 
-leti r4 29463
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1660
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 31579
+leti r4 1663
 write a0 16 r4 
-leti r4 31643
+leti r4 1532
 write a0 16 r4 
-leti r4 31578
+leti r4 5631
 write a0 16 r4 
-leti r4 29530
+leti r4 243
 write a0 16 r4 
-leti r4 31578
+leti r4 122
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 31579
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29529
+leti r4 60
 write a0 16 r4 
-leti r4 37986
+leti r4 60
 write a0 16 r4 
-leti r4 42214
+leti r4 60
 write a0 16 r4 
-leti r4 35938
+leti r4 60
 write a0 16 r4 
-leti r4 35936
+leti r4 60
 write a0 16 r4 
-leti r4 33827
+leti r4 61
 write a0 16 r4 
-leti r4 25374
+leti r4 61
 write a0 16 r4 
-leti r4 25438
+leti r4 62
 write a0 16 r4 
-leti r4 23326
+leti r4 2110
 write a0 16 r4 
-leti r4 38126
+leti r4 2110
 write a0 16 r4 
-leti r4 46581
+leti r4 2110
 write a0 16 r4 
-leti r4 38186
+leti r4 2110
 write a0 16 r4 
-leti r4 19092
+leti r4 62
 write a0 16 r4 
-leti r4 6475
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6479
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 6412
+leti r4 62
 write a0 16 r4 
-leti r4 8461
+leti r4 62
 write a0 16 r4 
-leti r4 8463
+leti r4 62
 write a0 16 r4 
-leti r4 23329
+leti r4 62
 write a0 16 r4 
-leti r4 29670
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 29672
+leti r4 62
 write a0 16 r4 
-leti r4 23326
+leti r4 61
 write a0 16 r4 
-leti r4 16984
+leti r4 61
 write a0 16 r4 
-leti r4 12821
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 2110
 write a0 16 r4 
-leti r4 8461
+leti r4 61
 write a0 16 r4 
-leti r4 8527
+leti r4 60
 write a0 16 r4 
-leti r4 6413
+leti r4 184
 write a0 16 r4 
-leti r4 6413
+leti r4 241
 write a0 16 r4 
-leti r4 6413
+leti r4 11711
 write a0 16 r4 
-leti r4 6414
+leti r4 3583
 write a0 16 r4 
-leti r4 6413
+leti r4 1599
 write a0 16 r4 
-leti r4 6413
+leti r4 1663
 write a0 16 r4 
-leti r4 8528
+leti r4 3711
 write a0 16 r4 
-leti r4 14871
+leti r4 3711
 write a0 16 r4 
-leti r4 16920
+leti r4 1594
 write a0 16 r4 
-leti r4 23327
+leti r4 1661
 write a0 16 r4 
-leti r4 23327
+leti r4 1595
 write a0 16 r4 
-leti r4 31783
+leti r4 1727
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1598
 write a0 16 r4 
-leti r4 23327
+leti r4 1599
 write a0 16 r4 
-leti r4 25441
+leti r4 1599
 write a0 16 r4 
-leti r4 29670
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1599
 write a0 16 r4 
-leti r4 21279
+leti r4 1663
 write a0 16 r4 
-leti r4 23329
+leti r4 1662
 write a0 16 r4 
-leti r4 23327
+leti r4 1661
 write a0 16 r4 
-leti r4 23328
+leti r4 1661
 write a0 16 r4 
-leti r4 25441
+leti r4 1661
 write a0 16 r4 
-leti r4 23327
+leti r4 1661
 write a0 16 r4 
-leti r4 23327
+leti r4 1662
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 29735
+leti r4 1663
 write a0 16 r4 
-leti r4 23393
+leti r4 1598
 write a0 16 r4 
-leti r4 21279
+leti r4 7743
 write a0 16 r4 
-leti r4 23328
+leti r4 13759
 write a0 16 r4 
-leti r4 23328
+leti r4 302
 write a0 16 r4 
-leti r4 21214
+leti r4 248
 write a0 16 r4 
-leti r4 14937
+leti r4 59
 write a0 16 r4 
-leti r4 14871
+leti r4 62
 write a0 16 r4 
-leti r4 23392
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 61
 write a0 16 r4 
-leti r4 29671
+leti r4 2110
 write a0 16 r4 
-leti r4 31784
+leti r4 60
 write a0 16 r4 
-leti r4 31785
+leti r4 2175
 write a0 16 r4 
-leti r4 29671
+leti r4 60
 write a0 16 r4 
-leti r4 31785
+leti r4 127
 write a0 16 r4 
-leti r4 29672
+leti r4 62
 write a0 16 r4 
-leti r4 29672
+leti r4 62
 write a0 16 r4 
-leti r4 31785
+leti r4 62
 write a0 16 r4 
-leti r4 29735
+leti r4 62
 write a0 16 r4 
-leti r4 14871
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 60
 write a0 16 r4 
-leti r4 6413
+leti r4 60
 write a0 16 r4 
-leti r4 6342
+leti r4 127
 write a0 16 r4 
-leti r4 4294
+leti r4 61
 write a0 16 r4 
-leti r4 10633
+leti r4 63
 write a0 16 r4 
-leti r4 19093
+leti r4 58
 write a0 16 r4 
-leti r4 16980
+leti r4 62
 write a0 16 r4 
-leti r4 25440
+leti r4 61
 write a0 16 r4 
-leti r4 40235
+leti r4 122
 write a0 16 r4 
-leti r4 38188
+leti r4 241
 write a0 16 r4 
-leti r4 44533
+leti r4 7679
 write a0 16 r4 
-leti r4 44531
+leti r4 1663
 write a0 16 r4 
-leti r4 46582
+leti r4 1663
 write a0 16 r4 
-leti r4 50740
+leti r4 1663
 write a0 16 r4 
-leti r4 46516
+leti r4 1663
 write a0 16 r4 
-leti r4 42282
+leti r4 1663
 write a0 16 r4 
-leti r4 35874
+leti r4 1663
 write a0 16 r4 
-leti r4 27478
+leti r4 1663
 write a0 16 r4 
-leti r4 35871
+leti r4 1663
 write a0 16 r4 
-leti r4 33693
+leti r4 1663
 write a0 16 r4 
-leti r4 29530
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29463
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 27415
+leti r4 1660
 write a0 16 r4 
-leti r4 29465
+leti r4 1727
 write a0 16 r4 
-leti r4 29530
+leti r4 1662
 write a0 16 r4 
-leti r4 31578
+leti r4 1599
 write a0 16 r4 
-leti r4 31578
+leti r4 1598
 write a0 16 r4 
-leti r4 31578
+leti r4 9791
 write a0 16 r4 
-leti r4 31578
+leti r4 179
 write a0 16 r4 
-leti r4 31578
+leti r4 59
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 31579
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 60
 write a0 16 r4 
-leti r4 35873
+leti r4 60
 write a0 16 r4 
-leti r4 37986
+leti r4 60
 write a0 16 r4 
-leti r4 42215
+leti r4 60
 write a0 16 r4 
-leti r4 35938
+leti r4 60
 write a0 16 r4 
-leti r4 35937
+leti r4 61
 write a0 16 r4 
-leti r4 31778
+leti r4 61
 write a0 16 r4 
-leti r4 23327
+leti r4 61
 write a0 16 r4 
-leti r4 29671
+leti r4 62
 write a0 16 r4 
-leti r4 44532
+leti r4 2110
 write a0 16 r4 
-leti r4 44532
+leti r4 2110
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 21204
+leti r4 62
 write a0 16 r4 
-leti r4 8524
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 4300
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 8527
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 29671
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 36012
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 23263
+leti r4 61
 write a0 16 r4 
-leti r4 12824
+leti r4 61
 write a0 16 r4 
-leti r4 16985
+leti r4 62
 write a0 16 r4 
-leti r4 14936
+leti r4 62
 write a0 16 r4 
-leti r4 25375
+leti r4 62
 write a0 16 r4 
-leti r4 14870
+leti r4 62
 write a0 16 r4 
-leti r4 12756
+leti r4 62
 write a0 16 r4 
-leti r4 16984
+leti r4 61
 write a0 16 r4 
-leti r4 8528
+leti r4 121
 write a0 16 r4 
-leti r4 4300
+leti r4 241
 write a0 16 r4 
-leti r4 8528
+leti r4 9599
 write a0 16 r4 
-leti r4 6414
+leti r4 5631
 write a0 16 r4 
-leti r4 4365
+leti r4 1535
 write a0 16 r4 
-leti r4 8527
+leti r4 1468
 write a0 16 r4 
-leti r4 4300
+leti r4 3711
 write a0 16 r4 
-leti r4 6414
+leti r4 3710
 write a0 16 r4 
-leti r4 14872
+leti r4 3774
 write a0 16 r4 
-leti r4 16985
+leti r4 1662
 write a0 16 r4 
-leti r4 23326
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 21215
+leti r4 1663
 write a0 16 r4 
-leti r4 21214
+leti r4 1599
 write a0 16 r4 
-leti r4 25442
+leti r4 1599
 write a0 16 r4 
-leti r4 23328
+leti r4 1599
 write a0 16 r4 
-leti r4 21279
+leti r4 1599
 write a0 16 r4 
-leti r4 21279
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 21214
+leti r4 1662
 write a0 16 r4 
-leti r4 29670
+leti r4 1661
 write a0 16 r4 
-leti r4 23327
+leti r4 1661
 write a0 16 r4 
-leti r4 23392
+leti r4 1662
 write a0 16 r4 
-leti r4 23327
+leti r4 1599
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 21212
+leti r4 1727
 write a0 16 r4 
-leti r4 16984
+leti r4 1531
 write a0 16 r4 
-leti r4 16984
+leti r4 7743
 write a0 16 r4 
-leti r4 16984
+leti r4 9599
 write a0 16 r4 
-leti r4 14870
+leti r4 15615
 write a0 16 r4 
-leti r4 16984
+leti r4 312
 write a0 16 r4 
-leti r4 16983
+leti r4 121
 write a0 16 r4 
-leti r4 14871
+leti r4 59
 write a0 16 r4 
-leti r4 14935
+leti r4 2175
 write a0 16 r4 
-leti r4 14936
+leti r4 4223
 write a0 16 r4 
-leti r4 23328
+leti r4 60
 write a0 16 r4 
-leti r4 21215
+leti r4 59
 write a0 16 r4 
-leti r4 33898
+leti r4 127
 write a0 16 r4 
-leti r4 29671
+leti r4 59
 write a0 16 r4 
-leti r4 29672
+leti r4 62
 write a0 16 r4 
-leti r4 31786
+leti r4 62
 write a0 16 r4 
-leti r4 33899
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 16985
+leti r4 62
 write a0 16 r4 
-leti r4 6415
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 60
 write a0 16 r4 
-leti r4 8526
+leti r4 60
 write a0 16 r4 
-leti r4 8521
+leti r4 61
 write a0 16 r4 
-leti r4 8521
+leti r4 59
 write a0 16 r4 
-leti r4 8519
+leti r4 2111
 write a0 16 r4 
-leti r4 6476
+leti r4 2239
 write a0 16 r4 
-leti r4 8589
+leti r4 127
 write a0 16 r4 
-leti r4 21213
+leti r4 59
 write a0 16 r4 
-leti r4 38123
+leti r4 182
 write a0 16 r4 
-leti r4 44467
+leti r4 17727
 write a0 16 r4 
-leti r4 42420
+leti r4 5631
 write a0 16 r4 
-leti r4 44467
+leti r4 1663
 write a0 16 r4 
-leti r4 46516
+leti r4 1663
 write a0 16 r4 
-leti r4 40234
+leti r4 1663
 write a0 16 r4 
-leti r4 42221
+leti r4 1663
 write a0 16 r4 
-leti r4 35938
+leti r4 1663
 write a0 16 r4 
-leti r4 35874
+leti r4 1663
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 27416
+leti r4 1727
 write a0 16 r4 
-leti r4 27416
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 3711
 write a0 16 r4 
-leti r4 29529
+leti r4 1599
 write a0 16 r4 
-leti r4 29530
+leti r4 3711
 write a0 16 r4 
-leti r4 31578
+leti r4 5503
 write a0 16 r4 
-leti r4 31578
+leti r4 179
 write a0 16 r4 
-leti r4 31578
+leti r4 126
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 31643
+leti r4 62
 write a0 16 r4 
-leti r4 27350
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29531
+leti r4 62
 write a0 16 r4 
-leti r4 35938
+leti r4 62
 write a0 16 r4 
-leti r4 44394
+leti r4 61
 write a0 16 r4 
-leti r4 42215
+leti r4 61
 write a0 16 r4 
-leti r4 44394
+leti r4 61
 write a0 16 r4 
-leti r4 35941
+leti r4 61
 write a0 16 r4 
-leti r4 23327
+leti r4 61
 write a0 16 r4 
-leti r4 23329
+leti r4 62
 write a0 16 r4 
-leti r4 42355
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 31720
+leti r4 62
 write a0 16 r4 
-leti r4 19025
+leti r4 62
 write a0 16 r4 
-leti r4 8458
+leti r4 62
 write a0 16 r4 
-leti r4 8526
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 16985
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 40175
+leti r4 62
 write a0 16 r4 
-leti r4 40175
+leti r4 62
 write a0 16 r4 
-leti r4 38127
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 31786
+leti r4 60
 write a0 16 r4 
-leti r4 31785
+leti r4 60
 write a0 16 r4 
-leti r4 27623
+leti r4 61
 write a0 16 r4 
-leti r4 31719
+leti r4 62
 write a0 16 r4 
-leti r4 31849
+leti r4 62
 write a0 16 r4 
-leti r4 31718
+leti r4 62
 write a0 16 r4 
-leti r4 33898
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 23263
+leti r4 127
 write a0 16 r4 
-leti r4 25441
+leti r4 121
 write a0 16 r4 
-leti r4 12758
+leti r4 378
 write a0 16 r4 
-leti r4 14871
+leti r4 366
 write a0 16 r4 
-leti r4 14935
+leti r4 5567
 write a0 16 r4 
-leti r4 14934
+leti r4 3647
 write a0 16 r4 
-leti r4 16983
+leti r4 5759
 write a0 16 r4 
-leti r4 6413
+leti r4 3646
 write a0 16 r4 
-leti r4 4366
+leti r4 1597
 write a0 16 r4 
-leti r4 14871
+leti r4 1662
 write a0 16 r4 
-leti r4 16985
+leti r4 1532
 write a0 16 r4 
-leti r4 23328
+leti r4 1597
 write a0 16 r4 
-leti r4 31783
+leti r4 1663
 write a0 16 r4 
-leti r4 33898
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 21214
+leti r4 1663
 write a0 16 r4 
-leti r4 29735
+leti r4 1599
 write a0 16 r4 
-leti r4 31784
+leti r4 1599
 write a0 16 r4 
-leti r4 23329
+leti r4 1599
 write a0 16 r4 
-leti r4 23393
+leti r4 1599
 write a0 16 r4 
-leti r4 23327
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1662
 write a0 16 r4 
-leti r4 16984
+leti r4 1662
 write a0 16 r4 
-leti r4 14870
+leti r4 1662
 write a0 16 r4 
-leti r4 14870
+leti r4 1660
 write a0 16 r4 
-leti r4 6414
+leti r4 1663
 write a0 16 r4 
-leti r4 8527
+leti r4 1663
 write a0 16 r4 
-leti r4 8463
+leti r4 1599
 write a0 16 r4 
-leti r4 4299
+leti r4 5823
 write a0 16 r4 
-leti r4 8527
+leti r4 1535
 write a0 16 r4 
-leti r4 8528
+leti r4 7679
 write a0 16 r4 
-leti r4 6413
+leti r4 9535
 write a0 16 r4 
-leti r4 6479
+leti r4 305
 write a0 16 r4 
-leti r4 4364
+leti r4 117
 write a0 16 r4 
-leti r4 6414
+leti r4 57
 write a0 16 r4 
-leti r4 6414
+leti r4 58
 write a0 16 r4 
-leti r4 14936
+leti r4 61
 write a0 16 r4 
-leti r4 14872
+leti r4 62
 write a0 16 r4 
-leti r4 21278
+leti r4 61
 write a0 16 r4 
-leti r4 29735
+leti r4 4223
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 36078
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 21279
+leti r4 62
 write a0 16 r4 
-leti r4 14871
+leti r4 62
 write a0 16 r4 
-leti r4 8527
+leti r4 60
 write a0 16 r4 
-leti r4 6348
+leti r4 60
 write a0 16 r4 
-leti r4 8521
+leti r4 61
 write a0 16 r4 
-leti r4 10636
+leti r4 2175
 write a0 16 r4 
-leti r4 6473
+leti r4 62
 write a0 16 r4 
-leti r4 6412
+leti r4 57
 write a0 16 r4 
-leti r4 16981
+leti r4 126
 write a0 16 r4 
-leti r4 31784
+leti r4 54
 write a0 16 r4 
-leti r4 40238
+leti r4 244
 write a0 16 r4 
-leti r4 46581
+leti r4 11519
 write a0 16 r4 
-leti r4 44534
+leti r4 5631
 write a0 16 r4 
-leti r4 46581
+leti r4 1663
 write a0 16 r4 
-leti r4 48628
+leti r4 1663
 write a0 16 r4 
-leti r4 40233
+leti r4 1663
 write a0 16 r4 
-leti r4 42284
+leti r4 1663
 write a0 16 r4 
-leti r4 42281
+leti r4 1663
 write a0 16 r4 
-leti r4 35873
+leti r4 1663
 write a0 16 r4 
-leti r4 31642
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1726
 write a0 16 r4 
-leti r4 27416
+leti r4 1595
 write a0 16 r4 
-leti r4 27416
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 29529
+leti r4 5759
 write a0 16 r4 
-leti r4 31578
+leti r4 7551
 write a0 16 r4 
-leti r4 31578
+leti r4 181
 write a0 16 r4 
-leti r4 31578
+leti r4 126
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 33760
+leti r4 62
 write a0 16 r4 
-leti r4 44330
+leti r4 62
 write a0 16 r4 
-leti r4 44394
+leti r4 62
 write a0 16 r4 
-leti r4 42283
+leti r4 62
 write a0 16 r4 
-leti r4 38059
+leti r4 62
 write a0 16 r4 
-leti r4 33896
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 33900
+leti r4 62
 write a0 16 r4 
-leti r4 36015
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 21139
+leti r4 62
 write a0 16 r4 
-leti r4 8458
+leti r4 62
 write a0 16 r4 
-leti r4 8461
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 8462
+leti r4 62
 write a0 16 r4 
-leti r4 8462
+leti r4 62
 write a0 16 r4 
-leti r4 6415
+leti r4 62
 write a0 16 r4 
-leti r4 23393
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 42353
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 42289
+leti r4 62
 write a0 16 r4 
-leti r4 42353
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 61
 write a0 16 r4 
-leti r4 36079
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 27688
+leti r4 62
 write a0 16 r4 
-leti r4 31718
+leti r4 62
 write a0 16 r4 
-leti r4 31848
+leti r4 62
 write a0 16 r4 
-leti r4 25375
+leti r4 62
 write a0 16 r4 
-leti r4 21278
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 59
 write a0 16 r4 
-leti r4 23328
+leti r4 2175
 write a0 16 r4 
-leti r4 25440
+leti r4 56
 write a0 16 r4 
-leti r4 23392
+leti r4 182
 write a0 16 r4 
-leti r4 25440
+leti r4 431
 write a0 16 r4 
-leti r4 21278
+leti r4 9663
 write a0 16 r4 
-leti r4 14935
+leti r4 3519
 write a0 16 r4 
-leti r4 14935
+leti r4 3647
 write a0 16 r4 
-leti r4 14936
+leti r4 3647
 write a0 16 r4 
-leti r4 14936
+leti r4 5823
 write a0 16 r4 
-leti r4 14872
+leti r4 1663
 write a0 16 r4 
-leti r4 21279
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 29670
+leti r4 1599
 write a0 16 r4 
-leti r4 31784
+leti r4 1599
 write a0 16 r4 
-leti r4 31785
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1599
 write a0 16 r4 
-leti r4 23328
+leti r4 1599
 write a0 16 r4 
-leti r4 21215
+leti r4 1599
 write a0 16 r4 
-leti r4 23328
+leti r4 1599
 write a0 16 r4 
-leti r4 14870
+leti r4 1599
 write a0 16 r4 
-leti r4 16984
+leti r4 1663
 write a0 16 r4 
-leti r4 6414
+leti r4 1662
 write a0 16 r4 
-leti r4 6414
+leti r4 1662
 write a0 16 r4 
-leti r4 6414
+leti r4 1660
 write a0 16 r4 
-leti r4 6413
+leti r4 1727
 write a0 16 r4 
-leti r4 6414
+leti r4 1599
 write a0 16 r4 
-leti r4 6414
+leti r4 1470
 write a0 16 r4 
-leti r4 6414
+leti r4 1599
 write a0 16 r4 
-leti r4 6414
+leti r4 1599
 write a0 16 r4 
-leti r4 4364
+leti r4 1533
 write a0 16 r4 
-leti r4 6413
+leti r4 7807
 write a0 16 r4 
-leti r4 4365
+leti r4 11711
 write a0 16 r4 
-leti r4 6414
+leti r4 367
 write a0 16 r4 
-leti r4 6415
+leti r4 244
 write a0 16 r4 
-leti r4 16984
+leti r4 186
 write a0 16 r4 
-leti r4 14936
+leti r4 59
 write a0 16 r4 
-leti r4 14872
+leti r4 191
 write a0 16 r4 
-leti r4 23326
+leti r4 59
 write a0 16 r4 
-leti r4 25441
+leti r4 60
 write a0 16 r4 
-leti r4 31784
+leti r4 61
 write a0 16 r4 
-leti r4 36013
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 31783
+leti r4 62
 write a0 16 r4 
-leti r4 16984
+leti r4 62
 write a0 16 r4 
-leti r4 4300
+leti r4 60
 write a0 16 r4 
-leti r4 10640
+leti r4 60
 write a0 16 r4 
-leti r4 8525
+leti r4 60
 write a0 16 r4 
-leti r4 4362
+leti r4 63
 write a0 16 r4 
-leti r4 6475
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 61
 write a0 16 r4 
-leti r4 6477
+leti r4 255
 write a0 16 r4 
-leti r4 31784
+leti r4 182
 write a0 16 r4 
-leti r4 44531
+leti r4 369
 write a0 16 r4 
-leti r4 46516
+leti r4 13823
 write a0 16 r4 
-leti r4 40241
+leti r4 3647
 write a0 16 r4 
-leti r4 42352
+leti r4 1663
 write a0 16 r4 
-leti r4 44397
+leti r4 1663
 write a0 16 r4 
-leti r4 42280
+leti r4 1663
 write a0 16 r4 
-leti r4 44394
+leti r4 1663
 write a0 16 r4 
-leti r4 50736
+leti r4 1663
 write a0 16 r4 
-leti r4 35874
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1662
 write a0 16 r4 
-leti r4 29465
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 27415
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29465
+leti r4 3647
 write a0 16 r4 
-leti r4 31578
+leti r4 13823
 write a0 16 r4 
-leti r4 31578
+leti r4 183
 write a0 16 r4 
-leti r4 29529
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29463
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 37988
+leti r4 62
 write a0 16 r4 
-leti r4 35876
+leti r4 62
 write a0 16 r4 
-leti r4 35940
+leti r4 62
 write a0 16 r4 
-leti r4 37992
+leti r4 62
 write a0 16 r4 
-leti r4 38060
+leti r4 62
 write a0 16 r4 
-leti r4 38060
+leti r4 62
 write a0 16 r4 
-leti r4 38124
+leti r4 62
 write a0 16 r4 
-leti r4 38128
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 23390
+leti r4 62
 write a0 16 r4 
-leti r4 21074
+leti r4 62
 write a0 16 r4 
-leti r4 10571
+leti r4 62
 write a0 16 r4 
-leti r4 8462
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 8527
+leti r4 62
 write a0 16 r4 
-leti r4 12757
+leti r4 62
 write a0 16 r4 
-leti r4 31785
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 42289
+leti r4 62
 write a0 16 r4 
-leti r4 42289
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 40174
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 38060
+leti r4 62
 write a0 16 r4 
-leti r4 29735
+leti r4 62
 write a0 16 r4 
-leti r4 25375
+leti r4 61
 write a0 16 r4 
-leti r4 16984
+leti r4 61
 write a0 16 r4 
-leti r4 19031
+leti r4 61
 write a0 16 r4 
-leti r4 6412
+leti r4 62
 write a0 16 r4 
-leti r4 8461
+leti r4 62
 write a0 16 r4 
-leti r4 6478
+leti r4 62
 write a0 16 r4 
-leti r4 14870
+leti r4 61
 write a0 16 r4 
-leti r4 14935
+leti r4 58
 write a0 16 r4 
-leti r4 14871
+leti r4 126
 write a0 16 r4 
-leti r4 21278
+leti r4 185
 write a0 16 r4 
-leti r4 23328
+leti r4 308
 write a0 16 r4 
-leti r4 29736
+leti r4 11711
 write a0 16 r4 
-leti r4 29671
+leti r4 3519
 write a0 16 r4 
-leti r4 23326
+leti r4 3583
 write a0 16 r4 
-leti r4 23328
+leti r4 3647
 write a0 16 r4 
-leti r4 23328
+leti r4 1599
 write a0 16 r4 
-leti r4 23327
+leti r4 1599
 write a0 16 r4 
-leti r4 25441
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1663
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1662
 write a0 16 r4 
-leti r4 29736
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1663
 write a0 16 r4 
-leti r4 21214
+leti r4 1599
 write a0 16 r4 
-leti r4 23393
+leti r4 1599
 write a0 16 r4 
-leti r4 14936
+leti r4 1599
 write a0 16 r4 
-leti r4 12822
+leti r4 1663
 write a0 16 r4 
-leti r4 6479
+leti r4 1663
 write a0 16 r4 
-leti r4 6415
+leti r4 1662
 write a0 16 r4 
-leti r4 14871
+leti r4 3773
 write a0 16 r4 
-leti r4 16986
+leti r4 1594
 write a0 16 r4 
-leti r4 14871
+leti r4 1727
 write a0 16 r4 
-leti r4 14871
+leti r4 1663
 write a0 16 r4 
-leti r4 16984
+leti r4 1535
 write a0 16 r4 
-leti r4 14871
+leti r4 3775
 write a0 16 r4 
-leti r4 14935
+leti r4 1727
 write a0 16 r4 
-leti r4 16985
+leti r4 1530
 write a0 16 r4 
-leti r4 14871
+leti r4 1530
 write a0 16 r4 
-leti r4 14872
+leti r4 9791
 write a0 16 r4 
-leti r4 23327
+leti r4 15807
 write a0 16 r4 
-leti r4 21214
+leti r4 243
 write a0 16 r4 
-leti r4 21214
+leti r4 56
 write a0 16 r4 
-leti r4 25441
+leti r4 59
 write a0 16 r4 
-leti r4 23328
+leti r4 2239
 write a0 16 r4 
-leti r4 23327
+leti r4 58
 write a0 16 r4 
-leti r4 33897
+leti r4 60
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 25440
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 60
 write a0 16 r4 
-leti r4 6411
+leti r4 60
 write a0 16 r4 
-leti r4 6412
+leti r4 2175
 write a0 16 r4 
-leti r4 6413
+leti r4 61
 write a0 16 r4 
-leti r4 6413
+leti r4 63
 write a0 16 r4 
-leti r4 6416
+leti r4 127
 write a0 16 r4 
-leti r4 6477
+leti r4 55
 write a0 16 r4 
-leti r4 31783
+leti r4 245
 write a0 16 r4 
-leti r4 38188
+leti r4 365
 write a0 16 r4 
-leti r4 40238
+leti r4 7551
 write a0 16 r4 
-leti r4 42355
+leti r4 3647
 write a0 16 r4 
-leti r4 42352
+leti r4 1663
 write a0 16 r4 
-leti r4 42282
+leti r4 1663
 write a0 16 r4 
-leti r4 44330
+leti r4 1663
 write a0 16 r4 
-leti r4 44392
+leti r4 1663
 write a0 16 r4 
-leti r4 44328
+leti r4 1663
 write a0 16 r4 
-leti r4 37986
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 29530
+leti r4 1663
 write a0 16 r4 
-leti r4 29530
+leti r4 1663
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 29530
+leti r4 1663
 write a0 16 r4 
-leti r4 31578
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 5695
 write a0 16 r4 
-leti r4 29464
+leti r4 5631
 write a0 16 r4 
-leti r4 29464
+leti r4 5311
 write a0 16 r4 
-leti r4 29464
+leti r4 184
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 27350
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31645
+leti r4 62
 write a0 16 r4 
-leti r4 35874
+leti r4 62
 write a0 16 r4 
-leti r4 35941
+leti r4 62
 write a0 16 r4 
-leti r4 44270
+leti r4 62
 write a0 16 r4 
-leti r4 35877
+leti r4 62
 write a0 16 r4 
-leti r4 35879
+leti r4 62
 write a0 16 r4 
-leti r4 40175
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 38124
+leti r4 62
 write a0 16 r4 
-leti r4 31782
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 19026
+leti r4 62
 write a0 16 r4 
-leti r4 8524
+leti r4 62
 write a0 16 r4 
-leti r4 8462
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 19098
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 42353
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 42289
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 38060
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 31717
+leti r4 62
 write a0 16 r4 
-leti r4 23392
+leti r4 62
 write a0 16 r4 
-leti r4 16919
+leti r4 62
 write a0 16 r4 
-leti r4 12822
+leti r4 61
 write a0 16 r4 
-leti r4 19030
+leti r4 61
 write a0 16 r4 
-leti r4 16981
+leti r4 60
 write a0 16 r4 
-leti r4 21142
+leti r4 61
 write a0 16 r4 
-leti r4 8458
+leti r4 62
 write a0 16 r4 
-leti r4 6478
+leti r4 61
 write a0 16 r4 
-leti r4 4364
+leti r4 2111
 write a0 16 r4 
-leti r4 6413
+leti r4 4159
 write a0 16 r4 
-leti r4 6414
+leti r4 4223
 write a0 16 r4 
-leti r4 14872
+leti r4 57
 write a0 16 r4 
-leti r4 14872
+leti r4 54
 write a0 16 r4 
-leti r4 23329
+leti r4 371
 write a0 16 r4 
-leti r4 31785
+leti r4 11647
 write a0 16 r4 
-leti r4 31784
+leti r4 11839
 write a0 16 r4 
-leti r4 21213
+leti r4 3583
 write a0 16 r4 
-leti r4 23328
+leti r4 3583
 write a0 16 r4 
-leti r4 31784
+leti r4 1535
 write a0 16 r4 
-leti r4 29671
+leti r4 1598
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1662
 write a0 16 r4 
-leti r4 29736
+leti r4 1662
 write a0 16 r4 
-leti r4 31785
+leti r4 1662
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 21279
+leti r4 1663
 write a0 16 r4 
-leti r4 25441
+leti r4 1663
 write a0 16 r4 
-leti r4 23392
+leti r4 1663
 write a0 16 r4 
-leti r4 21213
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1662
 write a0 16 r4 
-leti r4 21279
+leti r4 1661
 write a0 16 r4 
-leti r4 23328
+leti r4 1595
 write a0 16 r4 
-leti r4 21279
+leti r4 1663
 write a0 16 r4 
-leti r4 23393
+leti r4 1727
 write a0 16 r4 
-leti r4 23392
+leti r4 1599
 write a0 16 r4 
-leti r4 21278
+leti r4 1599
 write a0 16 r4 
-leti r4 23392
+leti r4 1597
 write a0 16 r4 
-leti r4 21277
+leti r4 1726
 write a0 16 r4 
-leti r4 25441
+leti r4 1724
 write a0 16 r4 
-leti r4 31783
+leti r4 5823
 write a0 16 r4 
-leti r4 31785
+leti r4 1278
 write a0 16 r4 
-leti r4 29671
+leti r4 11519
 write a0 16 r4 
-leti r4 31785
+leti r4 444
 write a0 16 r4 
-leti r4 29671
+leti r4 122
 write a0 16 r4 
-leti r4 29671
+leti r4 59
 write a0 16 r4 
-leti r4 31784
+leti r4 125
 write a0 16 r4 
-leti r4 36012
+leti r4 60
 write a0 16 r4 
-leti r4 38061
+leti r4 60
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 42352
+leti r4 62
 write a0 16 r4 
-leti r4 25438
+leti r4 62
 write a0 16 r4 
-leti r4 6410
+leti r4 60
 write a0 16 r4 
-leti r4 10573
+leti r4 60
 write a0 16 r4 
-leti r4 8526
+leti r4 61
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 8465
+leti r4 60
 write a0 16 r4 
-leti r4 6412
+leti r4 187
 write a0 16 r4 
-leti r4 31782
+leti r4 308
 write a0 16 r4 
-leti r4 40237
+leti r4 9535
 write a0 16 r4 
-leti r4 40238
+leti r4 9791
 write a0 16 r4 
-leti r4 46582
+leti r4 1599
 write a0 16 r4 
-leti r4 38124
+leti r4 1663
 write a0 16 r4 
-leti r4 44395
+leti r4 1663
 write a0 16 r4 
-leti r4 42216
+leti r4 1663
 write a0 16 r4 
-leti r4 35871
+leti r4 1663
 write a0 16 r4 
-leti r4 35938
+leti r4 1663
 write a0 16 r4 
-leti r4 25302
+leti r4 1663
 write a0 16 r4 
-leti r4 27417
+leti r4 1663
 write a0 16 r4 
-leti r4 31579
+leti r4 1663
 write a0 16 r4 
-leti r4 31579
+leti r4 1663
 write a0 16 r4 
-leti r4 31578
+leti r4 1663
 write a0 16 r4 
-leti r4 31578
+leti r4 1663
 write a0 16 r4 
-leti r4 31578
+leti r4 1663
 write a0 16 r4 
-leti r4 31578
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 27351
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1727
 write a0 16 r4 
-leti r4 29464
+leti r4 1597
 write a0 16 r4 
-leti r4 29464
+leti r4 5759
 write a0 16 r4 
-leti r4 29464
+leti r4 5567
 write a0 16 r4 
-leti r4 29464
+leti r4 5631
 write a0 16 r4 
-leti r4 29464
+leti r4 626
 write a0 16 r4 
-leti r4 29464
+leti r4 119
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29465
+leti r4 60
 write a0 16 r4 
-leti r4 31643
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29531
+leti r4 61
 write a0 16 r4 
-leti r4 35876
+leti r4 62
 write a0 16 r4 
-leti r4 35877
+leti r4 62
 write a0 16 r4 
-leti r4 46448
+leti r4 62
 write a0 16 r4 
-leti r4 44333
+leti r4 62
 write a0 16 r4 
-leti r4 44399
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 62
 write a0 16 r4 
-leti r4 40176
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 38124
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 19027
+leti r4 62
 write a0 16 r4 
-leti r4 8525
+leti r4 62
 write a0 16 r4 
-leti r4 6412
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 8527
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 23327
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 44469
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 42289
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 33833
+leti r4 62
 write a0 16 r4 
-leti r4 33831
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 25442
+leti r4 62
 write a0 16 r4 
-leti r4 21279
+leti r4 62
 write a0 16 r4 
-leti r4 23326
+leti r4 61
 write a0 16 r4 
-leti r4 33895
+leti r4 60
 write a0 16 r4 
-leti r4 35877
+leti r4 123
 write a0 16 r4 
-leti r4 25371
+leti r4 60
 write a0 16 r4 
-leti r4 21077
+leti r4 60
 write a0 16 r4 
-leti r4 4364
+leti r4 4159
 write a0 16 r4 
-leti r4 6478
+leti r4 2110
 write a0 16 r4 
-leti r4 16984
+leti r4 59
 write a0 16 r4 
-leti r4 14871
+leti r4 63
 write a0 16 r4 
-leti r4 16985
+leti r4 127
 write a0 16 r4 
-leti r4 14871
+leti r4 190
 write a0 16 r4 
-leti r4 14872
+leti r4 56
 write a0 16 r4 
-leti r4 21279
+leti r4 245
 write a0 16 r4 
-leti r4 23328
+leti r4 11647
 write a0 16 r4 
-leti r4 23327
+leti r4 1343
 write a0 16 r4 
-leti r4 25441
+leti r4 7807
 write a0 16 r4 
-leti r4 31783
+leti r4 3711
 write a0 16 r4 
-leti r4 31784
+leti r4 1533
 write a0 16 r4 
-leti r4 31784
+leti r4 1727
 write a0 16 r4 
-leti r4 29671
+leti r4 1661
 write a0 16 r4 
-leti r4 31785
+leti r4 1661
 write a0 16 r4 
-leti r4 29736
+leti r4 1661
 write a0 16 r4 
-leti r4 27557
+leti r4 1662
 write a0 16 r4 
-leti r4 31785
+leti r4 1662
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 21215
+leti r4 1662
 write a0 16 r4 
-leti r4 31849
+leti r4 1662
 write a0 16 r4 
-leti r4 23327
+leti r4 1662
 write a0 16 r4 
-leti r4 23327
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 3775
 write a0 16 r4 
-leti r4 16985
+leti r4 1596
 write a0 16 r4 
-leti r4 12822
+leti r4 1464
 write a0 16 r4 
-leti r4 14871
+leti r4 1726
 write a0 16 r4 
-leti r4 14870
+leti r4 1726
 write a0 16 r4 
-leti r4 16984
+leti r4 1596
 write a0 16 r4 
-leti r4 23391
+leti r4 1662
 write a0 16 r4 
-leti r4 23328
+leti r4 1599
 write a0 16 r4 
-leti r4 21214
+leti r4 1599
 write a0 16 r4 
-leti r4 31783
+leti r4 5695
 write a0 16 r4 
-leti r4 31785
+leti r4 5503
 write a0 16 r4 
-leti r4 29671
+leti r4 13631
 write a0 16 r4 
-leti r4 31785
+leti r4 309
 write a0 16 r4 
-leti r4 31784
+leti r4 54
 write a0 16 r4 
-leti r4 38126
+leti r4 124
 write a0 16 r4 
-leti r4 38126
+leti r4 123
 write a0 16 r4 
-leti r4 40240
+leti r4 60
 write a0 16 r4 
-leti r4 40176
+leti r4 61
 write a0 16 r4 
-leti r4 42288
+leti r4 62
 write a0 16 r4 
-leti r4 42352
+leti r4 62
 write a0 16 r4 
-leti r4 31779
+leti r4 62
 write a0 16 r4 
-leti r4 10571
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 60
 write a0 16 r4 
-leti r4 4295
+leti r4 61
 write a0 16 r4 
-leti r4 8461
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6351
+leti r4 61
 write a0 16 r4 
-leti r4 6413
+leti r4 251
 write a0 16 r4 
-leti r4 25441
+leti r4 173
 write a0 16 r4 
-leti r4 36010
+leti r4 9663
 write a0 16 r4 
-leti r4 42355
+leti r4 5695
 write a0 16 r4 
-leti r4 40240
+leti r4 1599
 write a0 16 r4 
-leti r4 44402
+leti r4 1663
 write a0 16 r4 
-leti r4 40168
+leti r4 1663
 write a0 16 r4 
-leti r4 44395
+leti r4 1663
 write a0 16 r4 
-leti r4 35935
+leti r4 1663
 write a0 16 r4 
-leti r4 27483
+leti r4 1663
 write a0 16 r4 
-leti r4 27480
+leti r4 1663
 write a0 16 r4 
-leti r4 27417
+leti r4 1663
 write a0 16 r4 
-leti r4 27351
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1533
 write a0 16 r4 
-leti r4 29464
+leti r4 5695
 write a0 16 r4 
-leti r4 29464
+leti r4 5567
 write a0 16 r4 
-leti r4 29464
+leti r4 7679
 write a0 16 r4 
-leti r4 29464
+leti r4 297
 write a0 16 r4 
-leti r4 29464
+leti r4 120
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 123
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 29529
+leti r4 60
 write a0 16 r4 
-leti r4 31579
+leti r4 61
 write a0 16 r4 
-leti r4 29531
+leti r4 61
 write a0 16 r4 
-leti r4 35876
+leti r4 62
 write a0 16 r4 
-leti r4 35876
+leti r4 62
 write a0 16 r4 
-leti r4 33825
+leti r4 62
 write a0 16 r4 
-leti r4 46448
+leti r4 62
 write a0 16 r4 
-leti r4 42222
+leti r4 62
 write a0 16 r4 
-leti r4 38059
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 42291
+leti r4 62
 write a0 16 r4 
-leti r4 42292
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 8459
+leti r4 62
 write a0 16 r4 
-leti r4 8460
+leti r4 62
 write a0 16 r4 
-leti r4 8527
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 31783
+leti r4 62
 write a0 16 r4 
-leti r4 42290
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 61
 write a0 16 r4 
-leti r4 40241
+leti r4 61
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 40175
+leti r4 62
 write a0 16 r4 
-leti r4 35947
+leti r4 62
 write a0 16 r4 
-leti r4 40174
+leti r4 62
 write a0 16 r4 
-leti r4 38127
+leti r4 62
 write a0 16 r4 
-leti r4 33899
+leti r4 62
 write a0 16 r4 
-leti r4 31850
+leti r4 62
 write a0 16 r4 
-leti r4 29736
+leti r4 61
 write a0 16 r4 
-leti r4 31718
+leti r4 60
 write a0 16 r4 
-leti r4 33830
+leti r4 59
 write a0 16 r4 
-leti r4 27421
+leti r4 60
 write a0 16 r4 
-leti r4 19029
+leti r4 60
 write a0 16 r4 
-leti r4 16984
+leti r4 2108
 write a0 16 r4 
-leti r4 16920
+leti r4 6271
 write a0 16 r4 
-leti r4 23326
+leti r4 2111
 write a0 16 r4 
-leti r4 23327
+leti r4 60
 write a0 16 r4 
-leti r4 23326
+leti r4 60
 write a0 16 r4 
-leti r4 16984
+leti r4 127
 write a0 16 r4 
-leti r4 14935
+leti r4 61
 write a0 16 r4 
-leti r4 23327
+leti r4 122
 write a0 16 r4 
-leti r4 23327
+leti r4 306
 write a0 16 r4 
-leti r4 23393
+leti r4 493
 write a0 16 r4 
-leti r4 23327
+leti r4 5439
 write a0 16 r4 
-leti r4 31783
+leti r4 7743
 write a0 16 r4 
-leti r4 31784
+leti r4 1534
 write a0 16 r4 
-leti r4 31784
+leti r4 1727
 write a0 16 r4 
-leti r4 31784
+leti r4 1661
 write a0 16 r4 
-leti r4 31720
+leti r4 1662
 write a0 16 r4 
-leti r4 29671
+leti r4 1662
 write a0 16 r4 
-leti r4 33898
+leti r4 1662
 write a0 16 r4 
-leti r4 29670
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 23329
+leti r4 1662
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 23327
+leti r4 1663
 write a0 16 r4 
-leti r4 16919
+leti r4 1663
 write a0 16 r4 
-leti r4 6414
+leti r4 1534
 write a0 16 r4 
-leti r4 6413
+leti r4 1662
 write a0 16 r4 
-leti r4 8462
+leti r4 3775
 write a0 16 r4 
-leti r4 6414
+leti r4 3774
 write a0 16 r4 
-leti r4 8462
+leti r4 1594
 write a0 16 r4 
-leti r4 6414
+leti r4 1727
 write a0 16 r4 
-leti r4 6413
+leti r4 1662
 write a0 16 r4 
-leti r4 14872
+leti r4 1663
 write a0 16 r4 
-leti r4 16985
+leti r4 1599
 write a0 16 r4 
-leti r4 23327
+leti r4 1599
 write a0 16 r4 
-leti r4 23328
+leti r4 5695
 write a0 16 r4 
-leti r4 31783
+leti r4 7615
 write a0 16 r4 
-leti r4 31783
+leti r4 13631
 write a0 16 r4 
-leti r4 31783
+leti r4 308
 write a0 16 r4 
-leti r4 38125
+leti r4 183
 write a0 16 r4 
-leti r4 38062
+leti r4 121
 write a0 16 r4 
-leti r4 40241
+leti r4 123
 write a0 16 r4 
-leti r4 42290
+leti r4 61
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 42351
+leti r4 62
 write a0 16 r4 
-leti r4 31778
+leti r4 62
 write a0 16 r4 
-leti r4 10571
+leti r4 61
 write a0 16 r4 
-leti r4 6340
+leti r4 60
 write a0 16 r4 
-leti r4 8521
+leti r4 62
 write a0 16 r4 
-leti r4 8459
+leti r4 61
 write a0 16 r4 
-leti r4 8525
+leti r4 127
 write a0 16 r4 
-leti r4 6415
+leti r4 58
 write a0 16 r4 
-leti r4 6413
+leti r4 116
 write a0 16 r4 
-leti r4 23328
+leti r4 17791
 write a0 16 r4 
-leti r4 38125
+leti r4 7615
 write a0 16 r4 
-leti r4 42291
+leti r4 3646
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 46515
+leti r4 1663
 write a0 16 r4 
-leti r4 50802
+leti r4 1663
 write a0 16 r4 
-leti r4 42218
+leti r4 1663
 write a0 16 r4 
-leti r4 35936
+leti r4 1662
 write a0 16 r4 
-leti r4 25305
+leti r4 1662
 write a0 16 r4 
-leti r4 25366
+leti r4 1662
 write a0 16 r4 
-leti r4 27482
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 9727
 write a0 16 r4 
-leti r4 29464
+leti r4 11711
 write a0 16 r4 
-leti r4 29464
+leti r4 303
 write a0 16 r4 
-leti r4 29464
+leti r4 188
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31512
+leti r4 60
 write a0 16 r4 
-leti r4 27349
+leti r4 60
 write a0 16 r4 
-leti r4 33692
+leti r4 60
 write a0 16 r4 
-leti r4 29528
+leti r4 61
 write a0 16 r4 
-leti r4 35873
+leti r4 62
 write a0 16 r4 
-leti r4 35874
+leti r4 62
 write a0 16 r4 
-leti r4 35875
+leti r4 62
 write a0 16 r4 
-leti r4 33828
+leti r4 62
 write a0 16 r4 
-leti r4 44337
+leti r4 62
 write a0 16 r4 
-leti r4 42285
+leti r4 62
 write a0 16 r4 
-leti r4 40173
+leti r4 62
 write a0 16 r4 
-leti r4 40108
+leti r4 62
 write a0 16 r4 
-leti r4 42350
+leti r4 62
 write a0 16 r4 
-leti r4 48630
+leti r4 61
 write a0 16 r4 
-leti r4 31780
+leti r4 61
 write a0 16 r4 
-leti r4 12619
+leti r4 60
 write a0 16 r4 
-leti r4 8522
+leti r4 62
 write a0 16 r4 
-leti r4 6479
+leti r4 63
 write a0 16 r4 
-leti r4 6415
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 63
 write a0 16 r4 
-leti r4 8460
+leti r4 63
 write a0 16 r4 
-leti r4 31784
+leti r4 60
 write a0 16 r4 
-leti r4 40305
+leti r4 62
 write a0 16 r4 
-leti r4 42353
+leti r4 61
 write a0 16 r4 
-leti r4 44468
+leti r4 61
 write a0 16 r4 
-leti r4 44532
+leti r4 60
 write a0 16 r4 
-leti r4 44468
+leti r4 60
 write a0 16 r4 
-leti r4 44469
+leti r4 60
 write a0 16 r4 
-leti r4 42354
+leti r4 60
 write a0 16 r4 
-leti r4 42354
+leti r4 61
 write a0 16 r4 
-leti r4 38062
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 40172
+leti r4 62
 write a0 16 r4 
-leti r4 35877
+leti r4 62
 write a0 16 r4 
-leti r4 35878
+leti r4 61
 write a0 16 r4 
-leti r4 33829
+leti r4 61
 write a0 16 r4 
-leti r4 25437
+leti r4 62
 write a0 16 r4 
-leti r4 19028
+leti r4 2110
 write a0 16 r4 
-leti r4 16917
+leti r4 2110
 write a0 16 r4 
-leti r4 23326
+leti r4 62
 write a0 16 r4 
-leti r4 31785
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 14871
+leti r4 62
 write a0 16 r4 
-leti r4 14935
+leti r4 62
 write a0 16 r4 
-leti r4 14936
+leti r4 61
 write a0 16 r4 
-leti r4 23263
+leti r4 123
 write a0 16 r4 
-leti r4 23328
+leti r4 247
 write a0 16 r4 
-leti r4 23328
+leti r4 306
 write a0 16 r4 
-leti r4 29671
+leti r4 11647
 write a0 16 r4 
-leti r4 31785
+leti r4 3519
 write a0 16 r4 
-leti r4 36012
+leti r4 1534
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1599
 write a0 16 r4 
-leti r4 27622
+leti r4 1599
 write a0 16 r4 
-leti r4 31784
+leti r4 1599
 write a0 16 r4 
-leti r4 23329
+leti r4 3775
 write a0 16 r4 
-leti r4 23328
+leti r4 1599
 write a0 16 r4 
-leti r4 23392
+leti r4 1597
 write a0 16 r4 
-leti r4 14871
+leti r4 1663
 write a0 16 r4 
-leti r4 16983
+leti r4 1596
 write a0 16 r4 
-leti r4 14872
+leti r4 1663
 write a0 16 r4 
-leti r4 14871
+leti r4 1663
 write a0 16 r4 
-leti r4 8528
+leti r4 1663
 write a0 16 r4 
-leti r4 6412
+leti r4 1663
 write a0 16 r4 
-leti r4 6478
+leti r4 1662
 write a0 16 r4 
-leti r4 6414
+leti r4 1662
 write a0 16 r4 
-leti r4 4300
+leti r4 1662
 write a0 16 r4 
-leti r4 14936
+leti r4 1662
 write a0 16 r4 
-leti r4 14871
+leti r4 1727
 write a0 16 r4 
-leti r4 14936
+leti r4 1597
 write a0 16 r4 
-leti r4 14936
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1599
 write a0 16 r4 
-leti r4 23328
+leti r4 3583
 write a0 16 r4 
-leti r4 29735
+leti r4 11903
 write a0 16 r4 
-leti r4 31784
+leti r4 5439
 write a0 16 r4 
-leti r4 36013
+leti r4 433
 write a0 16 r4 
-leti r4 38126
+leti r4 245
 write a0 16 r4 
-leti r4 40240
+leti r4 122
 write a0 16 r4 
-leti r4 40240
+leti r4 126
 write a0 16 r4 
-leti r4 42354
+leti r4 61
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 31782
+leti r4 2175
 write a0 16 r4 
-leti r4 8524
+leti r4 60
 write a0 16 r4 
-leti r4 4293
+leti r4 59
 write a0 16 r4 
-leti r4 6415
+leti r4 61
 write a0 16 r4 
-leti r4 6415
+leti r4 60
 write a0 16 r4 
-leti r4 8463
+leti r4 61
 write a0 16 r4 
-leti r4 6413
+leti r4 121
 write a0 16 r4 
-leti r4 6414
+leti r4 309
 write a0 16 r4 
-leti r4 23391
+leti r4 13759
 write a0 16 r4 
-leti r4 38124
+leti r4 7615
 write a0 16 r4 
-leti r4 40240
+leti r4 3644
 write a0 16 r4 
-leti r4 42219
+leti r4 1599
 write a0 16 r4 
-leti r4 42282
+leti r4 1599
 write a0 16 r4 
-leti r4 42281
+leti r4 1663
 write a0 16 r4 
-leti r4 42278
+leti r4 1662
 write a0 16 r4 
-leti r4 37985
+leti r4 1662
 write a0 16 r4 
-leti r4 37921
+leti r4 1662
 write a0 16 r4 
-leti r4 29530
+leti r4 1662
 write a0 16 r4 
-leti r4 27417
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29465
+leti r4 1660
 write a0 16 r4 
-leti r4 29464
+leti r4 1727
 write a0 16 r4 
-leti r4 29464
+leti r4 1534
 write a0 16 r4 
-leti r4 29464
+leti r4 11839
 write a0 16 r4 
-leti r4 29464
+leti r4 15679
 write a0 16 r4 
-leti r4 29464
+leti r4 244
 write a0 16 r4 
-leti r4 29464
+leti r4 124
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27351
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 31645
+leti r4 62
 write a0 16 r4 
-leti r4 37989
+leti r4 62
 write a0 16 r4 
-leti r4 35875
+leti r4 62
 write a0 16 r4 
-leti r4 35875
+leti r4 62
 write a0 16 r4 
-leti r4 37989
+leti r4 61
 write a0 16 r4 
-leti r4 44332
+leti r4 61
 write a0 16 r4 
-leti r4 35876
+leti r4 61
 write a0 16 r4 
-leti r4 35878
+leti r4 61
 write a0 16 r4 
-leti r4 35878
+leti r4 61
 write a0 16 r4 
-leti r4 42284
+leti r4 61
 write a0 16 r4 
-leti r4 46514
+leti r4 61
 write a0 16 r4 
-leti r4 35941
+leti r4 61
 write a0 16 r4 
-leti r4 14668
+leti r4 127
 write a0 16 r4 
-leti r4 6408
+leti r4 63
 write a0 16 r4 
-leti r4 4301
+leti r4 60
 write a0 16 r4 
-leti r4 4302
+leti r4 61
 write a0 16 r4 
-leti r4 8461
+leti r4 61
 write a0 16 r4 
-leti r4 8461
+leti r4 62
 write a0 16 r4 
-leti r4 33833
+leti r4 63
 write a0 16 r4 
-leti r4 44469
+leti r4 61
 write a0 16 r4 
-leti r4 44468
+leti r4 61
 write a0 16 r4 
-leti r4 44468
+leti r4 61
 write a0 16 r4 
-leti r4 46581
+leti r4 60
 write a0 16 r4 
-leti r4 44533
+leti r4 60
 write a0 16 r4 
-leti r4 44469
+leti r4 60
 write a0 16 r4 
-leti r4 44468
+leti r4 60
 write a0 16 r4 
-leti r4 42354
+leti r4 61
 write a0 16 r4 
-leti r4 40240
+leti r4 61
 write a0 16 r4 
-leti r4 42289
+leti r4 61
 write a0 16 r4 
-leti r4 40240
+leti r4 61
 write a0 16 r4 
-leti r4 38125
+leti r4 61
 write a0 16 r4 
-leti r4 33830
+leti r4 62
 write a0 16 r4 
-leti r4 35879
+leti r4 62
 write a0 16 r4 
-leti r4 35878
+leti r4 62
 write a0 16 r4 
-leti r4 33829
+leti r4 62
 write a0 16 r4 
-leti r4 25373
+leti r4 62
 write a0 16 r4 
-leti r4 27419
+leti r4 62
 write a0 16 r4 
-leti r4 27486
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 29671
+leti r4 62
 write a0 16 r4 
-leti r4 21279
+leti r4 62
 write a0 16 r4 
-leti r4 14872
+leti r4 62
 write a0 16 r4 
-leti r4 16984
+leti r4 62
 write a0 16 r4 
-leti r4 21213
+leti r4 62
 write a0 16 r4 
-leti r4 25441
+leti r4 61
 write a0 16 r4 
-leti r4 23328
+leti r4 57
 write a0 16 r4 
-leti r4 23328
+leti r4 117
 write a0 16 r4 
-leti r4 31785
+leti r4 307
 write a0 16 r4 
-leti r4 38126
+leti r4 13695
 write a0 16 r4 
-leti r4 38126
+leti r4 7615
 write a0 16 r4 
-leti r4 36012
+leti r4 3583
 write a0 16 r4 
-leti r4 29670
+leti r4 1599
 write a0 16 r4 
-leti r4 36078
+leti r4 5823
 write a0 16 r4 
-leti r4 31785
+leti r4 1470
 write a0 16 r4 
-leti r4 29736
+leti r4 1663
 write a0 16 r4 
-leti r4 21215
+leti r4 1535
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 21278
+leti r4 1663
 write a0 16 r4 
-leti r4 14935
+leti r4 1596
 write a0 16 r4 
-leti r4 6414
+leti r4 3839
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1599
 write a0 16 r4 
-leti r4 14870
+leti r4 1599
 write a0 16 r4 
-leti r4 6478
+leti r4 1599
 write a0 16 r4 
-leti r4 6413
+leti r4 1599
 write a0 16 r4 
-leti r4 6414
+leti r4 1599
 write a0 16 r4 
-leti r4 16985
+leti r4 1662
 write a0 16 r4 
-leti r4 21278
+leti r4 1662
 write a0 16 r4 
-leti r4 23393
+leti r4 1662
 write a0 16 r4 
-leti r4 21213
+leti r4 1596
 write a0 16 r4 
-leti r4 14937
+leti r4 1727
 write a0 16 r4 
-leti r4 14871
+leti r4 1727
 write a0 16 r4 
-leti r4 25441
+leti r4 1533
 write a0 16 r4 
-leti r4 23328
+leti r4 1535
 write a0 16 r4 
-leti r4 31784
+leti r4 5695
 write a0 16 r4 
-leti r4 38126
+leti r4 5439
 write a0 16 r4 
-leti r4 36012
+leti r4 15615
 write a0 16 r4 
-leti r4 40175
+leti r4 180
 write a0 16 r4 
-leti r4 40241
+leti r4 120
 write a0 16 r4 
-leti r4 42354
+leti r4 126
 write a0 16 r4 
-leti r4 46517
+leti r4 62
 write a0 16 r4 
-leti r4 40236
+leti r4 58
 write a0 16 r4 
-leti r4 19029
+leti r4 2175
 write a0 16 r4 
-leti r4 10634
+leti r4 2109
 write a0 16 r4 
-leti r4 6476
+leti r4 125
 write a0 16 r4 
-leti r4 6411
+leti r4 124
 write a0 16 r4 
-leti r4 6412
+leti r4 56
 write a0 16 r4 
-leti r4 8526
+leti r4 314
 write a0 16 r4 
-leti r4 6415
+leti r4 9343
 write a0 16 r4 
-leti r4 29670
+leti r4 5439
 write a0 16 r4 
-leti r4 42355
+leti r4 9919
 write a0 16 r4 
-leti r4 42291
+leti r4 5823
 write a0 16 r4 
-leti r4 33828
+leti r4 1663
 write a0 16 r4 
-leti r4 35875
+leti r4 1663
 write a0 16 r4 
-leti r4 35938
+leti r4 1663
 write a0 16 r4 
-leti r4 35936
+leti r4 1662
 write a0 16 r4 
-leti r4 27481
+leti r4 1662
 write a0 16 r4 
-leti r4 29465
+leti r4 1662
 write a0 16 r4 
-leti r4 33692
+leti r4 1662
 write a0 16 r4 
-leti r4 27351
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1725
 write a0 16 r4 
-leti r4 27415
+leti r4 1660
 write a0 16 r4 
-leti r4 29464
+leti r4 1596
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 7551
 write a0 16 r4 
-leti r4 29464
+leti r4 238
 write a0 16 r4 
-leti r4 29464
+leti r4 118
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 2111
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29463
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29531
+leti r4 62
 write a0 16 r4 
-leti r4 40036
+leti r4 62
 write a0 16 r4 
-leti r4 37923
+leti r4 62
 write a0 16 r4 
-leti r4 35874
+leti r4 62
 write a0 16 r4 
-leti r4 44330
+leti r4 62
 write a0 16 r4 
-leti r4 46445
+leti r4 61
 write a0 16 r4 
-leti r4 44399
+leti r4 59
 write a0 16 r4 
-leti r4 42284
+leti r4 58
 write a0 16 r4 
-leti r4 33832
+leti r4 121
 write a0 16 r4 
-leti r4 31784
+leti r4 121
 write a0 16 r4 
-leti r4 38125
+leti r4 59
 write a0 16 r4 
-leti r4 38062
+leti r4 60
 write a0 16 r4 
-leti r4 44533
+leti r4 61
 write a0 16 r4 
-leti r4 40305
+leti r4 62
 write a0 16 r4 
-leti r4 21076
+leti r4 59
 write a0 16 r4 
-leti r4 8522
+leti r4 59
 write a0 16 r4 
-leti r4 6414
+leti r4 61
 write a0 16 r4 
-leti r4 6415
+leti r4 4223
 write a0 16 r4 
-leti r4 6413
+leti r4 2109
 write a0 16 r4 
-leti r4 6413
+leti r4 61
 write a0 16 r4 
-leti r4 31719
+leti r4 4223
 write a0 16 r4 
-leti r4 44469
+leti r4 61
 write a0 16 r4 
-leti r4 46581
+leti r4 62
 write a0 16 r4 
-leti r4 44468
+leti r4 62
 write a0 16 r4 
-leti r4 44532
+leti r4 62
 write a0 16 r4 
-leti r4 44533
+leti r4 62
 write a0 16 r4 
-leti r4 44467
+leti r4 62
 write a0 16 r4 
-leti r4 44533
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 61
 write a0 16 r4 
-leti r4 42355
+leti r4 61
 write a0 16 r4 
-leti r4 40240
+leti r4 60
 write a0 16 r4 
-leti r4 38126
+leti r4 60
 write a0 16 r4 
-leti r4 38060
+leti r4 61
 write a0 16 r4 
-leti r4 33830
+leti r4 61
 write a0 16 r4 
-leti r4 33766
+leti r4 2109
 write a0 16 r4 
-leti r4 35945
+leti r4 2109
 write a0 16 r4 
-leti r4 33830
+leti r4 2109
 write a0 16 r4 
-leti r4 35876
+leti r4 62
 write a0 16 r4 
-leti r4 25372
+leti r4 62
 write a0 16 r4 
-leti r4 25376
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 23327
+leti r4 62
 write a0 16 r4 
-leti r4 23393
+leti r4 62
 write a0 16 r4 
-leti r4 29671
+leti r4 127
 write a0 16 r4 
-leti r4 29736
+leti r4 124
 write a0 16 r4 
-leti r4 29670
+leti r4 123
 write a0 16 r4 
-leti r4 31785
+leti r4 185
 write a0 16 r4 
-leti r4 36013
+leti r4 178
 write a0 16 r4 
-leti r4 38126
+leti r4 17791
 write a0 16 r4 
-leti r4 38126
+leti r4 13823
 write a0 16 r4 
-leti r4 33833
+leti r4 1407
 write a0 16 r4 
-leti r4 36013
+leti r4 1467
 write a0 16 r4 
-leti r4 29671
+leti r4 1727
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1533
 write a0 16 r4 
-leti r4 23329
+leti r4 1599
 write a0 16 r4 
-leti r4 23393
+leti r4 1532
 write a0 16 r4 
-leti r4 14871
+leti r4 3839
 write a0 16 r4 
-leti r4 14936
+leti r4 1530
 write a0 16 r4 
-leti r4 21279
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1599
 write a0 16 r4 
-leti r4 16983
+leti r4 1599
 write a0 16 r4 
-leti r4 6415
+leti r4 1599
 write a0 16 r4 
-leti r4 14936
+leti r4 1599
 write a0 16 r4 
-leti r4 23327
+leti r4 1663
 write a0 16 r4 
-leti r4 29736
+leti r4 1662
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 23329
+leti r4 1596
 write a0 16 r4 
-leti r4 23329
+leti r4 1662
 write a0 16 r4 
-leti r4 23328
+leti r4 1727
 write a0 16 r4 
-leti r4 31784
+leti r4 1599
 write a0 16 r4 
-leti r4 29671
+leti r4 1599
 write a0 16 r4 
-leti r4 31784
+leti r4 5695
 write a0 16 r4 
-leti r4 38061
+leti r4 9855
 write a0 16 r4 
-leti r4 38126
+leti r4 13887
 write a0 16 r4 
-leti r4 40240
+leti r4 11583
 write a0 16 r4 
-leti r4 42353
+leti r4 242
 write a0 16 r4 
-leti r4 40240
+leti r4 250
 write a0 16 r4 
-leti r4 46580
+leti r4 59
 write a0 16 r4 
-leti r4 40236
+leti r4 62
 write a0 16 r4 
-leti r4 19092
+leti r4 2111
 write a0 16 r4 
-leti r4 8520
+leti r4 59
 write a0 16 r4 
-leti r4 8524
+leti r4 124
 write a0 16 r4 
-leti r4 6476
+leti r4 53
 write a0 16 r4 
-leti r4 6476
+leti r4 248
 write a0 16 r4 
-leti r4 6478
+leti r4 372
 write a0 16 r4 
-leti r4 12757
+leti r4 11647
 write a0 16 r4 
-leti r4 31785
+leti r4 5695
 write a0 16 r4 
-leti r4 40241
+leti r4 1663
 write a0 16 r4 
-leti r4 36014
+leti r4 1658
 write a0 16 r4 
-leti r4 29533
+leti r4 1662
 write a0 16 r4 
-leti r4 31712
+leti r4 1663
 write a0 16 r4 
-leti r4 42215
+leti r4 1663
 write a0 16 r4 
-leti r4 35938
+leti r4 1662
 write a0 16 r4 
-leti r4 27416
+leti r4 1662
 write a0 16 r4 
-leti r4 29465
+leti r4 1662
 write a0 16 r4 
-leti r4 27350
+leti r4 1662
 write a0 16 r4 
-leti r4 29463
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 27415
+leti r4 1727
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 5631
 write a0 16 r4 
-leti r4 29464
+leti r4 13759
 write a0 16 r4 
-leti r4 29464
+leti r4 438
 write a0 16 r4 
-leti r4 29464
+leti r4 185
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27350
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31577
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 37922
+leti r4 62
 write a0 16 r4 
-leti r4 35874
+leti r4 62
 write a0 16 r4 
-leti r4 46379
+leti r4 62
 write a0 16 r4 
-leti r4 44266
+leti r4 62
 write a0 16 r4 
-leti r4 44330
+leti r4 62
 write a0 16 r4 
-leti r4 42217
+leti r4 61
 write a0 16 r4 
-leti r4 46444
+leti r4 2107
 write a0 16 r4 
-leti r4 42281
+leti r4 2105
 write a0 16 r4 
-leti r4 35878
+leti r4 2169
 write a0 16 r4 
-leti r4 40237
+leti r4 2105
 write a0 16 r4 
-leti r4 46514
+leti r4 2107
 write a0 16 r4 
-leti r4 46517
+leti r4 2108
 write a0 16 r4 
-leti r4 48692
+leti r4 2110
 write a0 16 r4 
-leti r4 46581
+leti r4 62
 write a0 16 r4 
-leti r4 21143
+leti r4 127
 write a0 16 r4 
-leti r4 8523
+leti r4 126
 write a0 16 r4 
-leti r4 8462
+leti r4 2175
 write a0 16 r4 
-leti r4 6415
+leti r4 2110
 write a0 16 r4 
-leti r4 8525
+leti r4 2109
 write a0 16 r4 
-leti r4 6414
+leti r4 2109
 write a0 16 r4 
-leti r4 31719
+leti r4 2110
 write a0 16 r4 
-leti r4 46581
+leti r4 2110
 write a0 16 r4 
-leti r4 46581
+leti r4 62
 write a0 16 r4 
-leti r4 44468
+leti r4 62
 write a0 16 r4 
-leti r4 44468
+leti r4 62
 write a0 16 r4 
-leti r4 44532
+leti r4 62
 write a0 16 r4 
-leti r4 44468
+leti r4 62
 write a0 16 r4 
-leti r4 44533
+leti r4 62
 write a0 16 r4 
-leti r4 40306
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 42289
+leti r4 2109
 write a0 16 r4 
-leti r4 42353
+leti r4 2108
 write a0 16 r4 
-leti r4 36012
+leti r4 2109
 write a0 16 r4 
-leti r4 40174
+leti r4 2109
 write a0 16 r4 
-leti r4 40174
+leti r4 2109
 write a0 16 r4 
-leti r4 38059
+leti r4 2109
 write a0 16 r4 
-leti r4 31718
+leti r4 2109
 write a0 16 r4 
-leti r4 33831
+leti r4 61
 write a0 16 r4 
-leti r4 33827
+leti r4 61
 write a0 16 r4 
-leti r4 35943
+leti r4 62
 write a0 16 r4 
-leti r4 23327
+leti r4 62
 write a0 16 r4 
-leti r4 23327
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 21214
+leti r4 62
 write a0 16 r4 
-leti r4 29736
+leti r4 62
 write a0 16 r4 
-leti r4 29736
+leti r4 60
 write a0 16 r4 
-leti r4 31785
+leti r4 126
 write a0 16 r4 
-leti r4 29736
+leti r4 61
 write a0 16 r4 
-leti r4 31784
+leti r4 127
 write a0 16 r4 
-leti r4 38126
+leti r4 187
 write a0 16 r4 
-leti r4 38127
+leti r4 116
 write a0 16 r4 
-leti r4 38062
+leti r4 237
 write a0 16 r4 
-leti r4 31719
+leti r4 13823
 write a0 16 r4 
-leti r4 31785
+leti r4 7807
 write a0 16 r4 
-leti r4 31785
+leti r4 1535
 write a0 16 r4 
-leti r4 29670
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1727
 write a0 16 r4 
-leti r4 29670
+leti r4 1727
 write a0 16 r4 
-leti r4 25441
+leti r4 1662
 write a0 16 r4 
-leti r4 21213
+leti r4 1595
 write a0 16 r4 
-leti r4 14871
+leti r4 1726
 write a0 16 r4 
-leti r4 23327
+leti r4 1663
 write a0 16 r4 
-leti r4 23393
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1599
 write a0 16 r4 
-leti r4 23328
+leti r4 1599
 write a0 16 r4 
-leti r4 14871
+leti r4 1599
 write a0 16 r4 
-leti r4 21214
+leti r4 1599
 write a0 16 r4 
-leti r4 31784
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1662
 write a0 16 r4 
-leti r4 31784
+leti r4 1662
 write a0 16 r4 
-leti r4 29670
+leti r4 1597
 write a0 16 r4 
-leti r4 38127
+leti r4 1598
 write a0 16 r4 
-leti r4 36013
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 3711
 write a0 16 r4 
-leti r4 38127
+leti r4 1599
 write a0 16 r4 
-leti r4 38061
+leti r4 1534
 write a0 16 r4 
-leti r4 42354
+leti r4 1533
 write a0 16 r4 
-leti r4 42353
+leti r4 9855
 write a0 16 r4 
-leti r4 42353
+leti r4 11647
 write a0 16 r4 
-leti r4 42353
+leti r4 239
 write a0 16 r4 
-leti r4 46580
+leti r4 315
 write a0 16 r4 
-leti r4 40236
+leti r4 58
 write a0 16 r4 
-leti r4 19092
+leti r4 61
 write a0 16 r4 
-leti r4 8585
+leti r4 61
 write a0 16 r4 
-leti r4 6413
+leti r4 123
 write a0 16 r4 
-leti r4 8462
+leti r4 117
 write a0 16 r4 
-leti r4 6415
+leti r4 305
 write a0 16 r4 
-leti r4 6414
+leti r4 13631
 write a0 16 r4 
-leti r4 25441
+leti r4 5503
 write a0 16 r4 
-leti r4 36076
+leti r4 3711
 write a0 16 r4 
-leti r4 40240
+leti r4 1531
 write a0 16 r4 
-leti r4 38125
+leti r4 1727
 write a0 16 r4 
-leti r4 33826
+leti r4 1662
 write a0 16 r4 
-leti r4 33825
+leti r4 1662
 write a0 16 r4 
-leti r4 35938
+leti r4 1662
 write a0 16 r4 
-leti r4 35938
+leti r4 1662
 write a0 16 r4 
-leti r4 25303
+leti r4 1662
 write a0 16 r4 
-leti r4 27416
+leti r4 1662
 write a0 16 r4 
-leti r4 29529
+leti r4 1663
 write a0 16 r4 
-leti r4 27413
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 7615
 write a0 16 r4 
-leti r4 29464
+leti r4 15743
 write a0 16 r4 
-leti r4 27415
+leti r4 178
 write a0 16 r4 
-leti r4 29464
+leti r4 53
 write a0 16 r4 
-leti r4 29529
+leti r4 2175
 write a0 16 r4 
-leti r4 31579
+leti r4 2111
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29463
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 25303
+leti r4 62
 write a0 16 r4 
-leti r4 29531
+leti r4 62
 write a0 16 r4 
-leti r4 31644
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 61
 write a0 16 r4 
-leti r4 35938
+leti r4 60
 write a0 16 r4 
-leti r4 35938
+leti r4 60
 write a0 16 r4 
-leti r4 27417
+leti r4 2108
 write a0 16 r4 
-leti r4 35874
+leti r4 2108
 write a0 16 r4 
-leti r4 44393
+leti r4 2108
 write a0 16 r4 
-leti r4 44335
+leti r4 2108
 write a0 16 r4 
-leti r4 46514
+leti r4 2109
 write a0 16 r4 
-leti r4 46580
+leti r4 2109
 write a0 16 r4 
-leti r4 46583
+leti r4 2110
 write a0 16 r4 
-leti r4 46579
+leti r4 2110
 write a0 16 r4 
-leti r4 46515
+leti r4 2110
 write a0 16 r4 
-leti r4 21143
+leti r4 61
 write a0 16 r4 
-leti r4 8458
+leti r4 61
 write a0 16 r4 
-leti r4 6413
+leti r4 61
 write a0 16 r4 
-leti r4 6414
+leti r4 59
 write a0 16 r4 
-leti r4 6413
+leti r4 2111
 write a0 16 r4 
-leti r4 8527
+leti r4 4223
 write a0 16 r4 
-leti r4 31784
+leti r4 59
 write a0 16 r4 
-leti r4 44468
+leti r4 2111
 write a0 16 r4 
-leti r4 46517
+leti r4 62
 write a0 16 r4 
-leti r4 46581
+leti r4 62
 write a0 16 r4 
-leti r4 44532
+leti r4 61
 write a0 16 r4 
-leti r4 44468
+leti r4 61
 write a0 16 r4 
-leti r4 46581
+leti r4 62
 write a0 16 r4 
-leti r4 44532
+leti r4 62
 write a0 16 r4 
-leti r4 44468
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 42353
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 2110
 write a0 16 r4 
-leti r4 36013
+leti r4 2110
 write a0 16 r4 
-leti r4 36012
+leti r4 2110
 write a0 16 r4 
-leti r4 40175
+leti r4 62
 write a0 16 r4 
-leti r4 40174
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 37993
+leti r4 62
 write a0 16 r4 
-leti r4 31782
+leti r4 62
 write a0 16 r4 
-leti r4 31783
+leti r4 62
 write a0 16 r4 
-leti r4 21214
+leti r4 62
 write a0 16 r4 
-leti r4 25441
+leti r4 62
 write a0 16 r4 
-leti r4 25441
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 31785
+leti r4 62
 write a0 16 r4 
-leti r4 29736
+leti r4 62
 write a0 16 r4 
-leti r4 29671
+leti r4 60
 write a0 16 r4 
-leti r4 29671
+leti r4 62
 write a0 16 r4 
-leti r4 31785
+leti r4 57
 write a0 16 r4 
-leti r4 36013
+leti r4 2110
 write a0 16 r4 
-leti r4 36013
+leti r4 122
 write a0 16 r4 
-leti r4 38126
+leti r4 182
 write a0 16 r4 
-leti r4 38061
+leti r4 304
 write a0 16 r4 
-leti r4 29671
+leti r4 9599
 write a0 16 r4 
-leti r4 31784
+leti r4 3519
 write a0 16 r4 
-leti r4 31785
+leti r4 1599
 write a0 16 r4 
-leti r4 31784
+leti r4 1662
 write a0 16 r4 
-leti r4 31784
+leti r4 1594
 write a0 16 r4 
-leti r4 29671
+leti r4 1726
 write a0 16 r4 
-leti r4 23328
+leti r4 1661
 write a0 16 r4 
-leti r4 23392
+leti r4 3775
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 21214
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 21279
+leti r4 1663
 write a0 16 r4 
-leti r4 23393
+leti r4 1599
 write a0 16 r4 
-leti r4 23328
+leti r4 1599
 write a0 16 r4 
-leti r4 31784
+leti r4 1599
 write a0 16 r4 
-leti r4 31785
+leti r4 1599
 write a0 16 r4 
-leti r4 31720
+leti r4 1598
 write a0 16 r4 
-leti r4 29671
+leti r4 1727
 write a0 16 r4 
-leti r4 38127
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1596
 write a0 16 r4 
-leti r4 40240
+leti r4 1598
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 1662
 write a0 16 r4 
-leti r4 40241
+leti r4 1659
 write a0 16 r4 
-leti r4 42289
+leti r4 3710
 write a0 16 r4 
-leti r4 40240
+leti r4 3519
 write a0 16 r4 
-leti r4 42353
+leti r4 13823
 write a0 16 r4 
-leti r4 44467
+leti r4 369
 write a0 16 r4 
-leti r4 40236
+leti r4 248
 write a0 16 r4 
-leti r4 19092
+leti r4 190
 write a0 16 r4 
-leti r4 8521
+leti r4 61
 write a0 16 r4 
-leti r4 6413
+leti r4 56
 write a0 16 r4 
-leti r4 8462
+leti r4 309
 write a0 16 r4 
-leti r4 6414
+leti r4 15679
 write a0 16 r4 
-leti r4 4302
+leti r4 11839
 write a0 16 r4 
-leti r4 29736
+leti r4 7871
 write a0 16 r4 
-leti r4 42354
+leti r4 1661
 write a0 16 r4 
-leti r4 42353
+leti r4 1534
 write a0 16 r4 
-leti r4 36076
+leti r4 1727
 write a0 16 r4 
-leti r4 42216
+leti r4 1663
 write a0 16 r4 
-leti r4 35939
+leti r4 1662
 write a0 16 r4 
-leti r4 27481
+leti r4 1662
 write a0 16 r4 
-leti r4 25303
+leti r4 1662
 write a0 16 r4 
-leti r4 27482
+leti r4 1662
 write a0 16 r4 
-leti r4 29530
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 27413
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 5631
 write a0 16 r4 
-leti r4 29464
+leti r4 13695
 write a0 16 r4 
-leti r4 29464
+leti r4 239
 write a0 16 r4 
-leti r4 29464
+leti r4 315
 write a0 16 r4 
-leti r4 29465
+leti r4 190
 write a0 16 r4 
-leti r4 31578
+leti r4 59
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31577
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 31645
+leti r4 62
 write a0 16 r4 
-leti r4 35874
+leti r4 62
 write a0 16 r4 
-leti r4 35874
+leti r4 62
 write a0 16 r4 
-leti r4 31580
+leti r4 62
 write a0 16 r4 
-leti r4 29531
+leti r4 62
 write a0 16 r4 
-leti r4 35937
+leti r4 62
 write a0 16 r4 
-leti r4 35873
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 27481
+leti r4 60
 write a0 16 r4 
-leti r4 25303
+leti r4 60
 write a0 16 r4 
-leti r4 35873
+leti r4 60
 write a0 16 r4 
-leti r4 33825
+leti r4 60
 write a0 16 r4 
-leti r4 31713
+leti r4 61
 write a0 16 r4 
-leti r4 42283
+leti r4 61
 write a0 16 r4 
-leti r4 46581
+leti r4 62
 write a0 16 r4 
-leti r4 44468
+leti r4 62
 write a0 16 r4 
-leti r4 44534
+leti r4 2110
 write a0 16 r4 
-leti r4 42356
+leti r4 2110
 write a0 16 r4 
-leti r4 46581
+leti r4 2110
 write a0 16 r4 
-leti r4 46581
+leti r4 62
 write a0 16 r4 
-leti r4 25374
+leti r4 62
 write a0 16 r4 
-leti r4 12686
+leti r4 63
 write a0 16 r4 
-leti r4 8461
+leti r4 127
 write a0 16 r4 
-leti r4 6414
+leti r4 60
 write a0 16 r4 
-leti r4 6413
+leti r4 124
 write a0 16 r4 
-leti r4 6414
+leti r4 124
 write a0 16 r4 
-leti r4 29671
+leti r4 58
 write a0 16 r4 
-leti r4 42353
+leti r4 190
 write a0 16 r4 
-leti r4 44468
+leti r4 61
 write a0 16 r4 
-leti r4 46581
+leti r4 61
 write a0 16 r4 
-leti r4 44532
+leti r4 61
 write a0 16 r4 
-leti r4 44467
+leti r4 61
 write a0 16 r4 
-leti r4 46581
+leti r4 62
 write a0 16 r4 
-leti r4 46516
+leti r4 62
 write a0 16 r4 
-leti r4 46582
+leti r4 61
 write a0 16 r4 
-leti r4 42353
+leti r4 61
 write a0 16 r4 
-leti r4 42222
+leti r4 62
 write a0 16 r4 
-leti r4 42353
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 36012
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 31782
+leti r4 62
 write a0 16 r4 
-leti r4 29670
+leti r4 61
 write a0 16 r4 
-leti r4 31785
+leti r4 61
 write a0 16 r4 
-leti r4 33898
+leti r4 61
 write a0 16 r4 
-leti r4 21279
+leti r4 61
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 29672
+leti r4 62
 write a0 16 r4 
-leti r4 29671
+leti r4 59
 write a0 16 r4 
-leti r4 31850
+leti r4 2239
 write a0 16 r4 
-leti r4 36013
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 4223
 write a0 16 r4 
-leti r4 38126
+leti r4 60
 write a0 16 r4 
-leti r4 38061
+leti r4 2175
 write a0 16 r4 
-leti r4 38126
+leti r4 58
 write a0 16 r4 
-leti r4 38126
+leti r4 182
 write a0 16 r4 
-leti r4 38126
+leti r4 304
 write a0 16 r4 
-leti r4 38126
+leti r4 13759
 write a0 16 r4 
-leti r4 27557
+leti r4 7679
 write a0 16 r4 
-leti r4 31785
+leti r4 1469
 write a0 16 r4 
-leti r4 31785
+leti r4 3775
 write a0 16 r4 
-leti r4 29670
+leti r4 1662
 write a0 16 r4 
-leti r4 23327
+leti r4 1596
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 23327
+leti r4 1662
 write a0 16 r4 
-leti r4 23329
+leti r4 1662
 write a0 16 r4 
-leti r4 31785
+leti r4 1662
 write a0 16 r4 
-leti r4 27622
+leti r4 1662
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 29736
+leti r4 1663
 write a0 16 r4 
-leti r4 29671
+leti r4 1599
 write a0 16 r4 
-leti r4 29671
+leti r4 1599
 write a0 16 r4 
-leti r4 31784
+leti r4 1599
 write a0 16 r4 
-leti r4 36014
+leti r4 1663
 write a0 16 r4 
-leti r4 36012
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 40241
+leti r4 1661
 write a0 16 r4 
-leti r4 42290
+leti r4 1726
 write a0 16 r4 
-leti r4 42355
+leti r4 1659
 write a0 16 r4 
-leti r4 46581
+leti r4 1725
 write a0 16 r4 
-leti r4 46516
+leti r4 3710
 write a0 16 r4 
-leti r4 46581
+leti r4 5631
 write a0 16 r4 
-leti r4 46516
+leti r4 9535
 write a0 16 r4 
-leti r4 42351
+leti r4 11455
 write a0 16 r4 
-leti r4 19095
+leti r4 180
 write a0 16 r4 
-leti r4 8522
+leti r4 249
 write a0 16 r4 
-leti r4 8523
+leti r4 247
 write a0 16 r4 
-leti r4 6476
+leti r4 17727
 write a0 16 r4 
-leti r4 4364
+leti r4 9599
 write a0 16 r4 
-leti r4 8530
+leti r4 7742
 write a0 16 r4 
-leti r4 31785
+leti r4 1593
 write a0 16 r4 
-leti r4 44469
+leti r4 1660
 write a0 16 r4 
-leti r4 42289
+leti r4 1727
 write a0 16 r4 
-leti r4 31785
+leti r4 1534
 write a0 16 r4 
-leti r4 35939
+leti r4 1663
 write a0 16 r4 
-leti r4 27417
+leti r4 1662
 write a0 16 r4 
-leti r4 25368
+leti r4 1662
 write a0 16 r4 
-leti r4 21140
+leti r4 1662
 write a0 16 r4 
-leti r4 25304
+leti r4 1663
 write a0 16 r4 
-leti r4 27417
+leti r4 1663
 write a0 16 r4 
-leti r4 27351
+leti r4 1663
 write a0 16 r4 
-leti r4 29463
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 3519
 write a0 16 r4 
-leti r4 29464
+leti r4 9663
 write a0 16 r4 
-leti r4 29464
+leti r4 15679
 write a0 16 r4 
-leti r4 29465
+leti r4 180
 write a0 16 r4 
-leti r4 31578
+leti r4 187
 write a0 16 r4 
-leti r4 31578
+leti r4 58
 write a0 16 r4 
-leti r4 31578
+leti r4 4223
 write a0 16 r4 
-leti r4 31578
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29466
+leti r4 62
 write a0 16 r4 
-leti r4 35875
+leti r4 62
 write a0 16 r4 
-leti r4 37990
+leti r4 62
 write a0 16 r4 
-leti r4 37990
+leti r4 62
 write a0 16 r4 
-leti r4 33762
+leti r4 62
 write a0 16 r4 
-leti r4 35876
+leti r4 62
 write a0 16 r4 
-leti r4 44330
+leti r4 62
 write a0 16 r4 
-leti r4 35938
+leti r4 61
 write a0 16 r4 
-leti r4 35872
+leti r4 61
 write a0 16 r4 
-leti r4 35872
+leti r4 60
 write a0 16 r4 
-leti r4 27480
+leti r4 60
 write a0 16 r4 
-leti r4 27417
+leti r4 60
 write a0 16 r4 
-leti r4 25369
+leti r4 61
 write a0 16 r4 
-leti r4 19094
+leti r4 61
 write a0 16 r4 
-leti r4 35936
+leti r4 62
 write a0 16 r4 
-leti r4 42216
+leti r4 62
 write a0 16 r4 
-leti r4 42347
+leti r4 62
 write a0 16 r4 
-leti r4 46514
+leti r4 62
 write a0 16 r4 
-leti r4 46515
+leti r4 62
 write a0 16 r4 
-leti r4 50741
+leti r4 62
 write a0 16 r4 
-leti r4 50676
+leti r4 62
 write a0 16 r4 
-leti r4 52787
+leti r4 61
 write a0 16 r4 
-leti r4 33830
+leti r4 62
 write a0 16 r4 
-leti r4 16915
+leti r4 61
 write a0 16 r4 
-leti r4 8461
+leti r4 56
 write a0 16 r4 
-leti r4 6414
+leti r4 249
 write a0 16 r4 
-leti r4 6414
+leti r4 244
 write a0 16 r4 
-leti r4 6415
+leti r4 176
 write a0 16 r4 
-leti r4 31721
+leti r4 311
 write a0 16 r4 
-leti r4 42352
+leti r4 51
 write a0 16 r4 
-leti r4 44468
+leti r4 123
 write a0 16 r4 
-leti r4 46581
+leti r4 61
 write a0 16 r4 
-leti r4 44468
+leti r4 2109
 write a0 16 r4 
-leti r4 44468
+leti r4 2110
 write a0 16 r4 
-leti r4 46580
+leti r4 62
 write a0 16 r4 
-leti r4 46516
+leti r4 61
 write a0 16 r4 
-leti r4 44467
+leti r4 124
 write a0 16 r4 
-leti r4 42289
+leti r4 124
 write a0 16 r4 
-leti r4 44335
+leti r4 61
 write a0 16 r4 
-leti r4 42287
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 33834
+leti r4 62
 write a0 16 r4 
-leti r4 29671
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 61
 write a0 16 r4 
-leti r4 29670
+leti r4 61
 write a0 16 r4 
-leti r4 31786
+leti r4 61
 write a0 16 r4 
-leti r4 29670
+leti r4 61
 write a0 16 r4 
-leti r4 31783
+leti r4 61
 write a0 16 r4 
-leti r4 31719
+leti r4 62
 write a0 16 r4 
-leti r4 33833
+leti r4 62
 write a0 16 r4 
-leti r4 29672
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 2111
 write a0 16 r4 
-leti r4 38061
+leti r4 58
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 35948
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 59
 write a0 16 r4 
-leti r4 36012
+leti r4 190
 write a0 16 r4 
-leti r4 36013
+leti r4 184
 write a0 16 r4 
-leti r4 38126
+leti r4 242
 write a0 16 r4 
-leti r4 40240
+leti r4 9471
 write a0 16 r4 
-leti r4 29671
+leti r4 9727
 write a0 16 r4 
-leti r4 31785
+leti r4 3583
 write a0 16 r4 
-leti r4 31785
+leti r4 1599
 write a0 16 r4 
-leti r4 29671
+leti r4 5823
 write a0 16 r4 
-leti r4 29735
+leti r4 1597
 write a0 16 r4 
-leti r4 23329
+leti r4 1661
 write a0 16 r4 
-leti r4 29671
+leti r4 1661
 write a0 16 r4 
-leti r4 29671
+leti r4 1661
 write a0 16 r4 
-leti r4 31785
+leti r4 1661
 write a0 16 r4 
-leti r4 29735
+leti r4 1662
 write a0 16 r4 
-leti r4 29670
+leti r4 1662
 write a0 16 r4 
-leti r4 31849
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 40175
+leti r4 1727
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 40175
+leti r4 1596
 write a0 16 r4 
-leti r4 42354
+leti r4 1595
 write a0 16 r4 
-leti r4 42355
+leti r4 1726
 write a0 16 r4 
-leti r4 44468
+leti r4 1595
 write a0 16 r4 
-leti r4 46581
+leti r4 3775
 write a0 16 r4 
-leti r4 46516
+leti r4 1532
 write a0 16 r4 
-leti r4 46516
+leti r4 11967
 write a0 16 r4 
-leti r4 40238
+leti r4 9727
 write a0 16 r4 
-leti r4 19031
+leti r4 7487
 write a0 16 r4 
-leti r4 6411
+leti r4 432
 write a0 16 r4 
-leti r4 8521
+leti r4 7423
 write a0 16 r4 
-leti r4 6474
+leti r4 11775
 write a0 16 r4 
-leti r4 6477
+leti r4 3519
 write a0 16 r4 
-leti r4 14870
+leti r4 1532
 write a0 16 r4 
-leti r4 38061
+leti r4 3775
 write a0 16 r4 
-leti r4 48631
+leti r4 1661
 write a0 16 r4 
-leti r4 46516
+leti r4 1663
 write a0 16 r4 
-leti r4 44400
+leti r4 1663
 write a0 16 r4 
-leti r4 35875
+leti r4 1663
 write a0 16 r4 
-leti r4 33825
+leti r4 1662
 write a0 16 r4 
-leti r4 27481
+leti r4 1662
 write a0 16 r4 
-leti r4 25368
+leti r4 1663
 write a0 16 r4 
-leti r4 27417
+leti r4 1663
 write a0 16 r4 
-leti r4 25304
+leti r4 1663
 write a0 16 r4 
-leti r4 27417
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 11775
 write a0 16 r4 
-leti r4 29464
+leti r4 11519
 write a0 16 r4 
-leti r4 29464
+leti r4 310
 write a0 16 r4 
-leti r4 29465
+leti r4 253
 write a0 16 r4 
-leti r4 31578
+leti r4 57
 write a0 16 r4 
-leti r4 31578
+leti r4 2175
 write a0 16 r4 
-leti r4 29529
+leti r4 59
 write a0 16 r4 
-leti r4 29465
+leti r4 4158
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 35874
+leti r4 62
 write a0 16 r4 
-leti r4 35876
+leti r4 62
 write a0 16 r4 
-leti r4 35877
+leti r4 62
 write a0 16 r4 
-leti r4 35876
+leti r4 62
 write a0 16 r4 
-leti r4 35942
+leti r4 62
 write a0 16 r4 
-leti r4 35876
+leti r4 62
 write a0 16 r4 
-leti r4 37989
+leti r4 2110
 write a0 16 r4 
-leti r4 33761
+leti r4 2109
 write a0 16 r4 
-leti r4 37986
+leti r4 61
 write a0 16 r4 
-leti r4 44328
+leti r4 60
 write a0 16 r4 
-leti r4 42279
+leti r4 60
 write a0 16 r4 
-leti r4 35873
+leti r4 60
 write a0 16 r4 
-leti r4 35940
+leti r4 61
 write a0 16 r4 
-leti r4 25372
+leti r4 61
 write a0 16 r4 
-leti r4 33888
+leti r4 60
 write a0 16 r4 
-leti r4 40235
+leti r4 123
 write a0 16 r4 
-leti r4 46641
+leti r4 123
 write a0 16 r4 
-leti r4 44469
+leti r4 122
 write a0 16 r4 
-leti r4 44469
+leti r4 122
 write a0 16 r4 
-leti r4 46579
+leti r4 121
 write a0 16 r4 
-leti r4 48630
+leti r4 185
 write a0 16 r4 
-leti r4 50675
+leti r4 121
 write a0 16 r4 
-leti r4 40172
+leti r4 122
 write a0 16 r4 
-leti r4 19094
+leti r4 121
 write a0 16 r4 
-leti r4 8461
+leti r4 313
 write a0 16 r4 
-leti r4 6414
+leti r4 13503
 write a0 16 r4 
-leti r4 6478
+leti r4 13759
 write a0 16 r4 
-leti r4 4366
+leti r4 9535
 write a0 16 r4 
-leti r4 31785
+leti r4 13695
 write a0 16 r4 
-leti r4 42351
+leti r4 370
 write a0 16 r4 
-leti r4 44469
+leti r4 182
 write a0 16 r4 
-leti r4 44468
+leti r4 123
 write a0 16 r4 
-leti r4 46581
+leti r4 2109
 write a0 16 r4 
-leti r4 46581
+leti r4 2110
 write a0 16 r4 
-leti r4 46516
+leti r4 2110
 write a0 16 r4 
-leti r4 46580
+leti r4 61
 write a0 16 r4 
-leti r4 42288
+leti r4 60
 write a0 16 r4 
-leti r4 42287
+leti r4 123
 write a0 16 r4 
-leti r4 44334
+leti r4 61
 write a0 16 r4 
-leti r4 44335
+leti r4 61
 write a0 16 r4 
-leti r4 40174
+leti r4 61
 write a0 16 r4 
-leti r4 36012
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 38127
+leti r4 61
 write a0 16 r4 
-leti r4 36014
+leti r4 61
 write a0 16 r4 
-leti r4 29736
+leti r4 61
 write a0 16 r4 
-leti r4 29671
+leti r4 61
 write a0 16 r4 
-leti r4 29737
+leti r4 61
 write a0 16 r4 
-leti r4 29736
+leti r4 61
 write a0 16 r4 
-leti r4 29736
+leti r4 61
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 31783
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 4159
 write a0 16 r4 
-leti r4 36012
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 42289
+leti r4 2175
 write a0 16 r4 
-leti r4 38062
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 59
 write a0 16 r4 
-leti r4 36013
+leti r4 121
 write a0 16 r4 
-leti r4 36013
+leti r4 179
 write a0 16 r4 
-leti r4 31785
+leti r4 303
 write a0 16 r4 
-leti r4 29671
+leti r4 11711
 write a0 16 r4 
-leti r4 31784
+leti r4 3455
 write a0 16 r4 
-leti r4 29735
+leti r4 3647
 write a0 16 r4 
-leti r4 29735
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1661
 write a0 16 r4 
-leti r4 29670
+leti r4 1724
 write a0 16 r4 
-leti r4 31785
+leti r4 1724
 write a0 16 r4 
-leti r4 29671
+leti r4 1724
 write a0 16 r4 
-leti r4 31784
+leti r4 1661
 write a0 16 r4 
-leti r4 29736
+leti r4 1661
 write a0 16 r4 
-leti r4 29735
+leti r4 1662
 write a0 16 r4 
-leti r4 29735
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 38127
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 40240
+leti r4 1596
 write a0 16 r4 
-leti r4 42289
+leti r4 1661
 write a0 16 r4 
-leti r4 44402
+leti r4 1727
 write a0 16 r4 
-leti r4 42289
+leti r4 1727
 write a0 16 r4 
-leti r4 46582
+leti r4 1663
 write a0 16 r4 
-leti r4 44468
+leti r4 1598
 write a0 16 r4 
-leti r4 44533
+leti r4 1662
 write a0 16 r4 
-leti r4 44469
+leti r4 1662
 write a0 16 r4 
-leti r4 46517
+leti r4 1596
 write a0 16 r4 
-leti r4 38060
+leti r4 1469
 write a0 16 r4 
-leti r4 16983
+leti r4 5759
 write a0 16 r4 
-leti r4 6413
+leti r4 1471
 write a0 16 r4 
-leti r4 8523
+leti r4 5695
 write a0 16 r4 
-leti r4 6412
+leti r4 1471
 write a0 16 r4 
-leti r4 8527
+leti r4 1599
 write a0 16 r4 
-leti r4 14871
+leti r4 1663
 write a0 16 r4 
-leti r4 42352
+leti r4 1663
 write a0 16 r4 
-leti r4 46579
+leti r4 1596
 write a0 16 r4 
-leti r4 48691
+leti r4 1663
 write a0 16 r4 
-leti r4 59194
+leti r4 1663
 write a0 16 r4 
-leti r4 61244
+leti r4 1663
 write a0 16 r4 
-leti r4 52786
+leti r4 1662
 write a0 16 r4 
-leti r4 42281
+leti r4 1663
 write a0 16 r4 
-leti r4 42280
+leti r4 1663
 write a0 16 r4 
-leti r4 35873
+leti r4 1599
 write a0 16 r4 
-leti r4 37988
+leti r4 1599
 write a0 16 r4 
-leti r4 27352
+leti r4 1663
 write a0 16 r4 
-leti r4 23123
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 3583
 write a0 16 r4 
-leti r4 29464
+leti r4 11647
 write a0 16 r4 
-leti r4 29464
+leti r4 370
 write a0 16 r4 
-leti r4 29464
+leti r4 119
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 4223
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 31578
+leti r4 2110
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 37985
+leti r4 62
 write a0 16 r4 
-leti r4 35937
+leti r4 61
 write a0 16 r4 
-leti r4 35872
+leti r4 63
 write a0 16 r4 
-leti r4 29530
+leti r4 2175
 write a0 16 r4 
-leti r4 31643
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 60
 write a0 16 r4 
-leti r4 27418
+leti r4 2111
 write a0 16 r4 
-leti r4 25303
+leti r4 2110
 write a0 16 r4 
-leti r4 31643
+leti r4 2111
 write a0 16 r4 
-leti r4 35871
+leti r4 59
 write a0 16 r4 
-leti r4 44328
+leti r4 62
 write a0 16 r4 
-leti r4 42280
+leti r4 60
 write a0 16 r4 
-leti r4 42281
+leti r4 60
 write a0 16 r4 
-leti r4 40233
+leti r4 123
 write a0 16 r4 
-leti r4 40234
+leti r4 119
 write a0 16 r4 
-leti r4 42409
+leti r4 311
 write a0 16 r4 
-leti r4 44465
+leti r4 242
 write a0 16 r4 
-leti r4 44531
+leti r4 15551
 write a0 16 r4 
-leti r4 48692
+leti r4 17727
 write a0 16 r4 
-leti r4 63230
+leti r4 305
 write a0 16 r4 
-leti r4 63288
+leti r4 238
 write a0 16 r4 
-leti r4 61303
+leti r4 371
 write a0 16 r4 
-leti r4 40170
+leti r4 176
 write a0 16 r4 
-leti r4 19030
+leti r4 373
 write a0 16 r4 
-leti r4 8524
+leti r4 9407
 write a0 16 r4 
-leti r4 8461
+leti r4 13887
 write a0 16 r4 
-leti r4 6415
+leti r4 1471
 write a0 16 r4 
-leti r4 6416
+leti r4 3647
 write a0 16 r4 
-leti r4 23328
+leti r4 7743
 write a0 16 r4 
-leti r4 44531
+leti r4 9599
 write a0 16 r4 
-leti r4 44532
+leti r4 304
 write a0 16 r4 
-leti r4 44468
+leti r4 182
 write a0 16 r4 
-leti r4 46581
+leti r4 60
 write a0 16 r4 
-leti r4 44468
+leti r4 2175
 write a0 16 r4 
-leti r4 46582
+leti r4 2111
 write a0 16 r4 
-leti r4 46581
+leti r4 61
 write a0 16 r4 
-leti r4 42288
+leti r4 59
 write a0 16 r4 
-leti r4 42352
+leti r4 126
 write a0 16 r4 
-leti r4 44334
+leti r4 124
 write a0 16 r4 
-leti r4 44335
+leti r4 58
 write a0 16 r4 
-leti r4 42287
+leti r4 123
 write a0 16 r4 
-leti r4 40175
+leti r4 58
 write a0 16 r4 
-leti r4 36012
+leti r4 124
 write a0 16 r4 
-leti r4 36013
+leti r4 58
 write a0 16 r4 
-leti r4 31785
+leti r4 59
 write a0 16 r4 
-leti r4 31784
+leti r4 59
 write a0 16 r4 
-leti r4 38062
+leti r4 60
 write a0 16 r4 
-leti r4 38126
+leti r4 60
 write a0 16 r4 
-leti r4 38061
+leti r4 61
 write a0 16 r4 
-leti r4 38061
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 36078
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 44335
+leti r4 62
 write a0 16 r4 
-leti r4 46384
+leti r4 62
 write a0 16 r4 
-leti r4 44336
+leti r4 62
 write a0 16 r4 
-leti r4 42223
+leti r4 61
 write a0 16 r4 
-leti r4 38061
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 60
 write a0 16 r4 
-leti r4 36013
+leti r4 124
 write a0 16 r4 
-leti r4 36013
+leti r4 117
 write a0 16 r4 
-leti r4 31785
+leti r4 307
 write a0 16 r4 
-leti r4 29736
+leti r4 11583
 write a0 16 r4 
-leti r4 29671
+leti r4 5631
 write a0 16 r4 
-leti r4 29736
+leti r4 1535
 write a0 16 r4 
-leti r4 31784
+leti r4 1727
 write a0 16 r4 
-leti r4 31784
+leti r4 1659
 write a0 16 r4 
-leti r4 31784
+leti r4 1595
 write a0 16 r4 
-leti r4 31784
+leti r4 1791
 write a0 16 r4 
-leti r4 29671
+leti r4 1659
 write a0 16 r4 
-leti r4 29671
+leti r4 1725
 write a0 16 r4 
-leti r4 36013
+leti r4 1791
 write a0 16 r4 
-leti r4 38126
+leti r4 1596
 write a0 16 r4 
-leti r4 38062
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 42289
+leti r4 1599
 write a0 16 r4 
-leti r4 42353
+leti r4 1663
 write a0 16 r4 
-leti r4 40240
+leti r4 1662
 write a0 16 r4 
-leti r4 42353
+leti r4 1661
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 44468
+leti r4 1599
 write a0 16 r4 
-leti r4 40305
+leti r4 1599
 write a0 16 r4 
-leti r4 46582
+leti r4 1663
 write a0 16 r4 
-leti r4 44469
+leti r4 1662
 write a0 16 r4 
-leti r4 46517
+leti r4 1661
 write a0 16 r4 
-leti r4 31782
+leti r4 1661
 write a0 16 r4 
-leti r4 6412
+leti r4 1662
 write a0 16 r4 
-leti r4 6475
+leti r4 1663
 write a0 16 r4 
-leti r4 4426
+leti r4 1663
 write a0 16 r4 
-leti r4 8519
+leti r4 1599
 write a0 16 r4 
-leti r4 8523
+leti r4 1599
 write a0 16 r4 
-leti r4 35937
+leti r4 1599
 write a0 16 r4 
-leti r4 40169
+leti r4 1599
 write a0 16 r4 
-leti r4 40306
+leti r4 1663
 write a0 16 r4 
-leti r4 42352
+leti r4 1662
 write a0 16 r4 
-leti r4 44469
+leti r4 1662
 write a0 16 r4 
-leti r4 48628
+leti r4 1663
 write a0 16 r4 
-leti r4 50740
+leti r4 1663
 write a0 16 r4 
-leti r4 50738
+leti r4 1599
 write a0 16 r4 
-leti r4 50673
+leti r4 1599
 write a0 16 r4 
-leti r4 50738
+leti r4 1599
 write a0 16 r4 
-leti r4 44331
+leti r4 1599
 write a0 16 r4 
-leti r4 35874
+leti r4 1663
 write a0 16 r4 
-leti r4 35874
+leti r4 1662
 write a0 16 r4 
-leti r4 29465
+leti r4 1727
 write a0 16 r4 
-leti r4 27415
+leti r4 1659
 write a0 16 r4 
-leti r4 23123
+leti r4 1725
 write a0 16 r4 
-leti r4 21073
+leti r4 1661
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 31578
+leti r4 1662
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 23122
+leti r4 5567
 write a0 16 r4 
-leti r4 27416
+leti r4 13567
 write a0 16 r4 
-leti r4 27416
+leti r4 375
 write a0 16 r4 
-leti r4 27416
+leti r4 53
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 2110
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 61
 write a0 16 r4 
-leti r4 35872
+leti r4 63
 write a0 16 r4 
-leti r4 35871
+leti r4 63
 write a0 16 r4 
-leti r4 31643
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 63
 write a0 16 r4 
-leti r4 27416
+leti r4 2111
 write a0 16 r4 
-leti r4 27354
+leti r4 63
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 25367
+leti r4 59
 write a0 16 r4 
-leti r4 35936
+leti r4 191
 write a0 16 r4 
-leti r4 33824
+leti r4 125
 write a0 16 r4 
-leti r4 46445
+leti r4 122
 write a0 16 r4 
-leti r4 46514
+leti r4 185
 write a0 16 r4 
-leti r4 48630
+leti r4 180
 write a0 16 r4 
-leti r4 46517
+leti r4 437
 write a0 16 r4 
-leti r4 44467
+leti r4 11455
 write a0 16 r4 
-leti r4 50742
+leti r4 15807
 write a0 16 r4 
-leti r4 61304
+leti r4 13759
 write a0 16 r4 
-leti r4 61240
+leti r4 9663
 write a0 16 r4 
-leti r4 59192
+leti r4 5439
 write a0 16 r4 
-leti r4 59319
+leti r4 9663
 write a0 16 r4 
-leti r4 50674
+leti r4 9599
 write a0 16 r4 
-leti r4 35877
+leti r4 495
 write a0 16 r4 
-leti r4 18964
+leti r4 11583
 write a0 16 r4 
-leti r4 6344
+leti r4 11775
 write a0 16 r4 
-leti r4 8459
+leti r4 1405
 write a0 16 r4 
-leti r4 6412
+leti r4 1598
 write a0 16 r4 
-leti r4 8464
+leti r4 1726
 write a0 16 r4 
-leti r4 14871
+leti r4 1597
 write a0 16 r4 
-leti r4 42353
+leti r4 5695
 write a0 16 r4 
-leti r4 44533
+leti r4 11711
 write a0 16 r4 
-leti r4 44533
+leti r4 17727
 write a0 16 r4 
-leti r4 46581
+leti r4 247
 write a0 16 r4 
-leti r4 44468
+leti r4 53
 write a0 16 r4 
-leti r4 46517
+leti r4 59
 write a0 16 r4 
-leti r4 46517
+leti r4 126
 write a0 16 r4 
-leti r4 42353
+leti r4 127
 write a0 16 r4 
-leti r4 44401
+leti r4 61
 write a0 16 r4 
-leti r4 44335
+leti r4 2174
 write a0 16 r4 
-leti r4 44334
+leti r4 58
 write a0 16 r4 
-leti r4 44335
+leti r4 56
 write a0 16 r4 
-leti r4 40173
+leti r4 4351
 write a0 16 r4 
-leti r4 38125
+leti r4 57
 write a0 16 r4 
-leti r4 38126
+leti r4 125
 write a0 16 r4 
-leti r4 36013
+leti r4 59
 write a0 16 r4 
-leti r4 36013
+leti r4 59
 write a0 16 r4 
-leti r4 38061
+leti r4 60
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 42287
+leti r4 62
 write a0 16 r4 
-leti r4 42222
+leti r4 62
 write a0 16 r4 
-leti r4 44335
+leti r4 62
 write a0 16 r4 
-leti r4 42286
+leti r4 62
 write a0 16 r4 
-leti r4 42223
+leti r4 62
 write a0 16 r4 
-leti r4 40175
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 61
 write a0 16 r4 
-leti r4 38061
+leti r4 61
 write a0 16 r4 
-leti r4 36012
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 2110
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 31784
+leti r4 249
 write a0 16 r4 
-leti r4 29671
+leti r4 109
 write a0 16 r4 
-leti r4 29671
+leti r4 15871
 write a0 16 r4 
-leti r4 29736
+leti r4 5631
 write a0 16 r4 
-leti r4 31785
+leti r4 1535
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 29671
+leti r4 5887
 write a0 16 r4 
-leti r4 31784
+leti r4 1529
 write a0 16 r4 
-leti r4 31784
+leti r4 1660
 write a0 16 r4 
-leti r4 33898
+leti r4 1660
 write a0 16 r4 
-leti r4 36013
+leti r4 1594
 write a0 16 r4 
-leti r4 36013
+leti r4 1727
 write a0 16 r4 
-leti r4 38061
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 42289
+leti r4 1599
 write a0 16 r4 
-leti r4 42353
+leti r4 1663
 write a0 16 r4 
-leti r4 40241
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 42353
+leti r4 1662
 write a0 16 r4 
-leti r4 46581
+leti r4 1599
 write a0 16 r4 
-leti r4 40240
+leti r4 1599
 write a0 16 r4 
-leti r4 46581
+leti r4 1599
 write a0 16 r4 
-leti r4 46581
+leti r4 1662
 write a0 16 r4 
-leti r4 46581
+leti r4 1724
 write a0 16 r4 
-leti r4 25439
+leti r4 1724
 write a0 16 r4 
-leti r4 6412
+leti r4 1724
 write a0 16 r4 
-leti r4 6475
+leti r4 1724
 write a0 16 r4 
-leti r4 6474
+leti r4 1661
 write a0 16 r4 
-leti r4 8522
+leti r4 1662
 write a0 16 r4 
-leti r4 10570
+leti r4 1663
 write a0 16 r4 
-leti r4 42283
+leti r4 1663
 write a0 16 r4 
-leti r4 48693
+leti r4 1663
 write a0 16 r4 
-leti r4 46516
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 3710
 write a0 16 r4 
-leti r4 38061
+leti r4 1662
 write a0 16 r4 
-leti r4 35874
+leti r4 1663
 write a0 16 r4 
-leti r4 42216
+leti r4 1663
 write a0 16 r4 
-leti r4 44331
+leti r4 1599
 write a0 16 r4 
-leti r4 52788
+leti r4 1599
 write a0 16 r4 
-leti r4 52723
+leti r4 1599
 write a0 16 r4 
-leti r4 52786
+leti r4 1663
 write a0 16 r4 
-leti r4 42279
+leti r4 1662
 write a0 16 r4 
-leti r4 44392
+leti r4 1661
 write a0 16 r4 
-leti r4 44328
+leti r4 1593
 write a0 16 r4 
-leti r4 35873
+leti r4 1791
 write a0 16 r4 
-leti r4 29529
+leti r4 1659
 write a0 16 r4 
-leti r4 29465
+leti r4 1727
 write a0 16 r4 
-leti r4 23188
+leti r4 1598
 write a0 16 r4 
-leti r4 21074
+leti r4 1599
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 27416
+leti r4 9727
 write a0 16 r4 
-leti r4 27415
+leti r4 436
 write a0 16 r4 
-leti r4 27416
+leti r4 117
 write a0 16 r4 
-leti r4 29464
+leti r4 125
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29465
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 2110
 write a0 16 r4 
-leti r4 31578
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 63
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29531
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 31580
+leti r4 61
 write a0 16 r4 
-leti r4 29530
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 27417
+leti r4 191
 write a0 16 r4 
-leti r4 35875
+leti r4 54
 write a0 16 r4 
-leti r4 35875
+leti r4 50
 write a0 16 r4 
-leti r4 42219
+leti r4 310
 write a0 16 r4 
-leti r4 48627
+leti r4 369
 write a0 16 r4 
-leti r4 48628
+leti r4 429
 write a0 16 r4 
-leti r4 48629
+leti r4 9535
 write a0 16 r4 
-leti r4 59260
+leti r4 9727
 write a0 16 r4 
-leti r4 61242
+leti r4 7743
 write a0 16 r4 
-leti r4 65400
+leti r4 3582
 write a0 16 r4 
-leti r4 61305
+leti r4 5695
 write a0 16 r4 
-leti r4 48692
+leti r4 5759
 write a0 16 r4 
-leti r4 50740
+leti r4 1598
 write a0 16 r4 
-leti r4 61242
+leti r4 5695
 write a0 16 r4 
-leti r4 37990
+leti r4 1341
 write a0 16 r4 
-leti r4 10507
+leti r4 9855
 write a0 16 r4 
-leti r4 6342
+leti r4 3583
 write a0 16 r4 
-leti r4 8457
+leti r4 1535
 write a0 16 r4 
-leti r4 8459
+leti r4 1663
 write a0 16 r4 
-leti r4 8462
+leti r4 1661
 write a0 16 r4 
-leti r4 14872
+leti r4 1727
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 44532
+leti r4 5695
 write a0 16 r4 
-leti r4 44532
+leti r4 7615
 write a0 16 r4 
-leti r4 44468
+leti r4 13631
 write a0 16 r4 
-leti r4 42354
+leti r4 435
 write a0 16 r4 
-leti r4 42353
+leti r4 245
 write a0 16 r4 
-leti r4 42353
+leti r4 54
 write a0 16 r4 
-leti r4 42287
+leti r4 61
 write a0 16 r4 
-leti r4 42287
+leti r4 61
 write a0 16 r4 
-leti r4 44335
+leti r4 2109
 write a0 16 r4 
-leti r4 44334
+leti r4 59
 write a0 16 r4 
-leti r4 44336
+leti r4 6271
 write a0 16 r4 
-leti r4 40108
+leti r4 2109
 write a0 16 r4 
-leti r4 38125
+leti r4 4159
 write a0 16 r4 
-leti r4 38126
+leti r4 58
 write a0 16 r4 
-leti r4 38126
+leti r4 2110
 write a0 16 r4 
-leti r4 40175
+leti r4 61
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 61
 write a0 16 r4 
-leti r4 46384
+leti r4 61
 write a0 16 r4 
-leti r4 46384
+leti r4 60
 write a0 16 r4 
-leti r4 44335
+leti r4 61
 write a0 16 r4 
-leti r4 42286
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 36078
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 2110
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 4159
 write a0 16 r4 
-leti r4 38126
+leti r4 2111
 write a0 16 r4 
-leti r4 38126
+leti r4 57
 write a0 16 r4 
-leti r4 36013
+leti r4 122
 write a0 16 r4 
-leti r4 38126
+leti r4 380
 write a0 16 r4 
-leti r4 38126
+leti r4 45
 write a0 16 r4 
-leti r4 38126
+leti r4 13631
 write a0 16 r4 
-leti r4 38126
+leti r4 9727
 write a0 16 r4 
-leti r4 36012
+leti r4 1342
 write a0 16 r4 
-leti r4 31784
+leti r4 1535
 write a0 16 r4 
-leti r4 31785
+leti r4 3711
 write a0 16 r4 
-leti r4 31784
+leti r4 3775
 write a0 16 r4 
-leti r4 36012
+leti r4 1660
 write a0 16 r4 
-leti r4 38126
+leti r4 1660
 write a0 16 r4 
-leti r4 38126
+leti r4 1726
 write a0 16 r4 
-leti r4 38061
+leti r4 1662
 write a0 16 r4 
-leti r4 40175
+leti r4 1663
 write a0 16 r4 
-leti r4 40240
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1599
 write a0 16 r4 
-leti r4 42289
+leti r4 1599
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 46581
+leti r4 1599
 write a0 16 r4 
-leti r4 44465
+leti r4 1599
 write a0 16 r4 
-leti r4 46580
+leti r4 1663
 write a0 16 r4 
-leti r4 48630
+leti r4 1662
 write a0 16 r4 
-leti r4 42288
+leti r4 1661
 write a0 16 r4 
-leti r4 14870
+leti r4 1661
 write a0 16 r4 
-leti r4 6412
+leti r4 1662
 write a0 16 r4 
-leti r4 8524
+leti r4 1662
 write a0 16 r4 
-leti r4 8522
+leti r4 1662
 write a0 16 r4 
-leti r4 8525
+leti r4 1662
 write a0 16 r4 
-leti r4 21075
+leti r4 1662
 write a0 16 r4 
-leti r4 40172
+leti r4 1661
 write a0 16 r4 
-leti r4 46581
+leti r4 1661
 write a0 16 r4 
-leti r4 48628
+leti r4 1662
 write a0 16 r4 
-leti r4 40242
+leti r4 1662
 write a0 16 r4 
-leti r4 33830
+leti r4 1663
 write a0 16 r4 
-leti r4 35873
+leti r4 1663
 write a0 16 r4 
-leti r4 29465
+leti r4 1599
 write a0 16 r4 
-leti r4 25303
+leti r4 1599
 write a0 16 r4 
-leti r4 31582
+leti r4 1599
 write a0 16 r4 
-leti r4 35875
+leti r4 1599
 write a0 16 r4 
-leti r4 44330
+leti r4 1663
 write a0 16 r4 
-leti r4 46506
+leti r4 1662
 write a0 16 r4 
-leti r4 42277
+leti r4 1661
 write a0 16 r4 
-leti r4 44394
+leti r4 1791
 write a0 16 r4 
-leti r4 52785
+leti r4 1593
 write a0 16 r4 
-leti r4 44329
+leti r4 1727
 write a0 16 r4 
-leti r4 35938
+leti r4 1727
 write a0 16 r4 
-leti r4 25367
+leti r4 1469
 write a0 16 r4 
-leti r4 21075
+leti r4 7807
 write a0 16 r4 
-leti r4 27351
+leti r4 5567
 write a0 16 r4 
-leti r4 31579
+leti r4 9471
 write a0 16 r4 
-leti r4 27416
+leti r4 112
 write a0 16 r4 
-leti r4 29529
+leti r4 56
 write a0 16 r4 
-leti r4 29465
+leti r4 126
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 2111
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31643
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 37921
+leti r4 63
 write a0 16 r4 
-leti r4 29530
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 25303
+leti r4 2175
 write a0 16 r4 
-leti r4 27482
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 25303
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 27419
+leti r4 59
 write a0 16 r4 
-leti r4 27417
+leti r4 254
 write a0 16 r4 
-leti r4 27414
+leti r4 52
 write a0 16 r4 
-leti r4 35934
+leti r4 310
 write a0 16 r4 
-leti r4 35935
+leti r4 21951
 write a0 16 r4 
-leti r4 42344
+leti r4 13631
 write a0 16 r4 
-leti r4 50738
+leti r4 11647
 write a0 16 r4 
-leti r4 50740
+leti r4 7615
 write a0 16 r4 
-leti r4 59258
+leti r4 9855
 write a0 16 r4 
-leti r4 61239
+leti r4 3646
 write a0 16 r4 
-leti r4 52723
+leti r4 1596
 write a0 16 r4 
-leti r4 46515
+leti r4 1594
 write a0 16 r4 
-leti r4 44465
+leti r4 1660
 write a0 16 r4 
-leti r4 46516
+leti r4 1725
 write a0 16 r4 
-leti r4 50676
+leti r4 1528
 write a0 16 r4 
-leti r4 61241
+leti r4 1661
 write a0 16 r4 
-leti r4 37924
+leti r4 7935
 write a0 16 r4 
-leti r4 12620
+leti r4 1467
 write a0 16 r4 
-leti r4 6276
+leti r4 1532
 write a0 16 r4 
-leti r4 6342
+leti r4 5887
 write a0 16 r4 
-leti r4 4294
+leti r4 1663
 write a0 16 r4 
-leti r4 6412
+leti r4 1596
 write a0 16 r4 
-leti r4 8464
+leti r4 1791
 write a0 16 r4 
-leti r4 38126
+leti r4 1596
 write a0 16 r4 
-leti r4 44533
+leti r4 1597
 write a0 16 r4 
-leti r4 46581
+leti r4 3647
 write a0 16 r4 
-leti r4 44467
+leti r4 9791
 write a0 16 r4 
-leti r4 42353
+leti r4 7423
 write a0 16 r4 
-leti r4 42288
+leti r4 17727
 write a0 16 r4 
-leti r4 42288
+leti r4 308
 write a0 16 r4 
-leti r4 42287
+leti r4 183
 write a0 16 r4 
-leti r4 42286
+leti r4 56
 write a0 16 r4 
-leti r4 44334
+leti r4 59
 write a0 16 r4 
-leti r4 44334
+leti r4 4223
 write a0 16 r4 
-leti r4 44336
+leti r4 59
 write a0 16 r4 
-leti r4 40173
+leti r4 59
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 4223
 write a0 16 r4 
-leti r4 38061
+leti r4 2110
 write a0 16 r4 
-leti r4 38061
+leti r4 4159
 write a0 16 r4 
-leti r4 38062
+leti r4 2110
 write a0 16 r4 
-leti r4 38062
+leti r4 2110
 write a0 16 r4 
-leti r4 38062
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 61
 write a0 16 r4 
-leti r4 44269
+leti r4 60
 write a0 16 r4 
-leti r4 46384
+leti r4 60
 write a0 16 r4 
-leti r4 44334
+leti r4 60
 write a0 16 r4 
-leti r4 42286
+leti r4 60
 write a0 16 r4 
-leti r4 38125
+leti r4 61
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 38127
+leti r4 2110
 write a0 16 r4 
-leti r4 38062
+leti r4 2110
 write a0 16 r4 
-leti r4 38061
+leti r4 4159
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 59
 write a0 16 r4 
-leti r4 38061
+leti r4 2239
 write a0 16 r4 
-leti r4 38061
+leti r4 124
 write a0 16 r4 
-leti r4 38126
+leti r4 57
 write a0 16 r4 
-leti r4 38126
+leti r4 185
 write a0 16 r4 
-leti r4 36013
+leti r4 310
 write a0 16 r4 
-leti r4 38126
+leti r4 13631
 write a0 16 r4 
-leti r4 38126
+leti r4 13759
 write a0 16 r4 
-leti r4 36013
+leti r4 9663
 write a0 16 r4 
-leti r4 36013
+leti r4 3519
 write a0 16 r4 
-leti r4 36012
+leti r4 1470
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1596
 write a0 16 r4 
-leti r4 36013
+leti r4 1725
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 40241
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1599
 write a0 16 r4 
-leti r4 42289
+leti r4 1599
 write a0 16 r4 
-leti r4 40241
+leti r4 1663
 write a0 16 r4 
-leti r4 42353
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 46515
+leti r4 1662
 write a0 16 r4 
-leti r4 46580
+leti r4 1662
 write a0 16 r4 
-leti r4 46579
+leti r4 1663
 write a0 16 r4 
-leti r4 46582
+leti r4 1663
 write a0 16 r4 
-leti r4 31783
+leti r4 1663
 write a0 16 r4 
-leti r4 8464
+leti r4 1663
 write a0 16 r4 
-leti r4 6413
+leti r4 1663
 write a0 16 r4 
-leti r4 6412
+leti r4 1662
 write a0 16 r4 
-leti r4 21076
+leti r4 1662
 write a0 16 r4 
-leti r4 8458
+leti r4 1661
 write a0 16 r4 
-leti r4 21076
+leti r4 1661
 write a0 16 r4 
-leti r4 40171
+leti r4 1661
 write a0 16 r4 
-leti r4 42352
+leti r4 1662
 write a0 16 r4 
-leti r4 44400
+leti r4 1662
 write a0 16 r4 
-leti r4 42352
+leti r4 1662
 write a0 16 r4 
-leti r4 35941
+leti r4 1662
 write a0 16 r4 
-leti r4 37989
+leti r4 1663
 write a0 16 r4 
-leti r4 35875
+leti r4 1599
 write a0 16 r4 
-leti r4 31644
+leti r4 1599
 write a0 16 r4 
-leti r4 25302
+leti r4 1599
 write a0 16 r4 
-leti r4 27415
+leti r4 1599
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 37922
+leti r4 1662
 write a0 16 r4 
-leti r4 44328
+leti r4 1661
 write a0 16 r4 
-leti r4 42280
+leti r4 1659
 write a0 16 r4 
-leti r4 44330
+leti r4 1726
 write a0 16 r4 
-leti r4 46443
+leti r4 1662
 write a0 16 r4 
-leti r4 42215
+leti r4 1534
 write a0 16 r4 
-leti r4 44330
+leti r4 3519
 write a0 16 r4 
-leti r4 33824
+leti r4 9663
 write a0 16 r4 
-leti r4 31643
+leti r4 11647
 write a0 16 r4 
-leti r4 21073
+leti r4 370
 write a0 16 r4 
-leti r4 27415
+leti r4 250
 write a0 16 r4 
-leti r4 29464
+leti r4 124
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29529
+leti r4 2111
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 35872
+leti r4 62
 write a0 16 r4 
-leti r4 31644
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 63
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 29532
+leti r4 60
 write a0 16 r4 
-leti r4 27417
+leti r4 59
 write a0 16 r4 
-leti r4 29531
+leti r4 61
 write a0 16 r4 
-leti r4 27417
+leti r4 189
 write a0 16 r4 
-leti r4 25302
+leti r4 116
 write a0 16 r4 
-leti r4 27416
+leti r4 308
 write a0 16 r4 
-leti r4 27417
+leti r4 15615
 write a0 16 r4 
-leti r4 33760
+leti r4 11583
 write a0 16 r4 
-leti r4 44330
+leti r4 11711
 write a0 16 r4 
-leti r4 50737
+leti r4 5567
 write a0 16 r4 
-leti r4 57144
+leti r4 7807
 write a0 16 r4 
-leti r4 57143
+leti r4 3711
 write a0 16 r4 
-leti r4 59192
+leti r4 1596
 write a0 16 r4 
-leti r4 48562
+leti r4 1662
 write a0 16 r4 
-leti r4 42288
+leti r4 1727
 write a0 16 r4 
-leti r4 38130
+leti r4 1727
 write a0 16 r4 
-leti r4 48696
+leti r4 1662
 write a0 16 r4 
-leti r4 59255
+leti r4 1661
 write a0 16 r4 
-leti r4 61303
+leti r4 1725
 write a0 16 r4 
-leti r4 48630
+leti r4 1727
 write a0 16 r4 
-leti r4 37923
+leti r4 1599
 write a0 16 r4 
-leti r4 14732
+leti r4 1599
 write a0 16 r4 
-leti r4 8389
+leti r4 1663
 write a0 16 r4 
-leti r4 8454
+leti r4 1599
 write a0 16 r4 
-leti r4 6342
+leti r4 1598
 write a0 16 r4 
-leti r4 8524
+leti r4 1663
 write a0 16 r4 
-leti r4 6413
+leti r4 1596
 write a0 16 r4 
-leti r4 36012
+leti r4 1727
 write a0 16 r4 
-leti r4 44469
+leti r4 1727
 write a0 16 r4 
-leti r4 44469
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 3647
 write a0 16 r4 
-leti r4 42354
+leti r4 7807
 write a0 16 r4 
-leti r4 42353
+leti r4 5439
 write a0 16 r4 
-leti r4 42287
+leti r4 13759
 write a0 16 r4 
-leti r4 44400
+leti r4 15679
 write a0 16 r4 
-leti r4 44335
+leti r4 370
 write a0 16 r4 
-leti r4 44334
+leti r4 249
 write a0 16 r4 
-leti r4 44335
+leti r4 124
 write a0 16 r4 
-leti r4 44336
+leti r4 125
 write a0 16 r4 
-leti r4 42223
+leti r4 191
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 38127
+leti r4 63
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38127
+leti r4 61
 write a0 16 r4 
-leti r4 38061
+leti r4 61
 write a0 16 r4 
-leti r4 38124
+leti r4 61
 write a0 16 r4 
-leti r4 42287
+leti r4 61
 write a0 16 r4 
-leti r4 44334
+leti r4 60
 write a0 16 r4 
-leti r4 44335
+leti r4 60
 write a0 16 r4 
-leti r4 42222
+leti r4 61
 write a0 16 r4 
-leti r4 38062
+leti r4 61
 write a0 16 r4 
-leti r4 38127
+leti r4 2110
 write a0 16 r4 
-leti r4 36013
+leti r4 4158
 write a0 16 r4 
-leti r4 38061
+leti r4 2109
 write a0 16 r4 
-leti r4 40175
+leti r4 2111
 write a0 16 r4 
-leti r4 42289
+leti r4 126
 write a0 16 r4 
-leti r4 42289
+leti r4 56
 write a0 16 r4 
-leti r4 40175
+leti r4 255
 write a0 16 r4 
-leti r4 38061
+leti r4 57
 write a0 16 r4 
-leti r4 38062
+leti r4 125
 write a0 16 r4 
-leti r4 36013
+leti r4 57
 write a0 16 r4 
-leti r4 36013
+leti r4 246
 write a0 16 r4 
-leti r4 38062
+leti r4 240
 write a0 16 r4 
-leti r4 40175
+leti r4 13631
 write a0 16 r4 
-leti r4 38126
+leti r4 11711
 write a0 16 r4 
-leti r4 38127
+leti r4 7679
 write a0 16 r4 
-leti r4 38126
+leti r4 5759
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 38061
+leti r4 1661
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1599
 write a0 16 r4 
-leti r4 42289
+leti r4 1599
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 42353
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1661
 write a0 16 r4 
-leti r4 44468
+leti r4 1723
 write a0 16 r4 
-leti r4 46581
+leti r4 1723
 write a0 16 r4 
-leti r4 44467
+leti r4 1663
 write a0 16 r4 
-leti r4 44468
+leti r4 1599
 write a0 16 r4 
-leti r4 23394
+leti r4 1599
 write a0 16 r4 
-leti r4 4302
+leti r4 1599
 write a0 16 r4 
-leti r4 6414
+leti r4 1599
 write a0 16 r4 
-leti r4 6412
+leti r4 1661
 write a0 16 r4 
-leti r4 10506
+leti r4 1660
 write a0 16 r4 
-leti r4 21075
+leti r4 1660
 write a0 16 r4 
-leti r4 19029
+leti r4 1662
 write a0 16 r4 
-leti r4 42283
+leti r4 1663
 write a0 16 r4 
-leti r4 44397
+leti r4 1599
 write a0 16 r4 
-leti r4 40172
+leti r4 1663
 write a0 16 r4 
-leti r4 42217
+leti r4 1661
 write a0 16 r4 
-leti r4 48689
+leti r4 1661
 write a0 16 r4 
-leti r4 50676
+leti r4 1662
 write a0 16 r4 
-leti r4 52788
+leti r4 1663
 write a0 16 r4 
-leti r4 50672
+leti r4 1599
 write a0 16 r4 
-leti r4 44329
+leti r4 1599
 write a0 16 r4 
-leti r4 31644
+leti r4 1599
 write a0 16 r4 
-leti r4 21076
+leti r4 1663
 write a0 16 r4 
-leti r4 27417
+leti r4 1662
 write a0 16 r4 
-leti r4 33693
+leti r4 1661
 write a0 16 r4 
-leti r4 44330
+leti r4 1659
 write a0 16 r4 
-leti r4 44394
+leti r4 1662
 write a0 16 r4 
-leti r4 42281
+leti r4 1599
 write a0 16 r4 
-leti r4 33760
+leti r4 7743
 write a0 16 r4 
-leti r4 35939
+leti r4 11711
 write a0 16 r4 
-leti r4 35939
+leti r4 11519
 write a0 16 r4 
-leti r4 35872
+leti r4 370
 write a0 16 r4 
-leti r4 35873
+leti r4 180
 write a0 16 r4 
-leti r4 31579
+leti r4 123
 write a0 16 r4 
-leti r4 29530
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2175
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29465
+leti r4 2111
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 61
 write a0 16 r4 
-leti r4 29530
+leti r4 127
 write a0 16 r4 
-leti r4 27417
+leti r4 61
 write a0 16 r4 
-leti r4 29595
+leti r4 60
 write a0 16 r4 
-leti r4 35873
+leti r4 61
 write a0 16 r4 
-leti r4 35938
+leti r4 62
 write a0 16 r4 
-leti r4 35873
+leti r4 59
 write a0 16 r4 
-leti r4 27416
+leti r4 53
 write a0 16 r4 
-leti r4 27419
+leti r4 370
 write a0 16 r4 
-leti r4 27416
+leti r4 7487
 write a0 16 r4 
-leti r4 27481
+leti r4 11775
 write a0 16 r4 
-leti r4 33824
+leti r4 5567
 write a0 16 r4 
-leti r4 50737
+leti r4 5631
 write a0 16 r4 
-leti r4 48561
+leti r4 3647
 write a0 16 r4 
-leti r4 48563
+leti r4 3775
 write a0 16 r4 
-leti r4 46451
+leti r4 1594
 write a0 16 r4 
-leti r4 35877
+leti r4 1726
 write a0 16 r4 
-leti r4 40176
+leti r4 1661
 write a0 16 r4 
-leti r4 40239
+leti r4 1531
 write a0 16 r4 
-leti r4 59195
+leti r4 1663
 write a0 16 r4 
-leti r4 61240
+leti r4 1727
 write a0 16 r4 
-leti r4 61305
+leti r4 1596
 write a0 16 r4 
-leti r4 44466
+leti r4 1597
 write a0 16 r4 
-leti r4 38061
+leti r4 1531
 write a0 16 r4 
-leti r4 29466
+leti r4 1598
 write a0 16 r4 
-leti r4 8325
+leti r4 1663
 write a0 16 r4 
-leti r4 8390
+leti r4 1727
 write a0 16 r4 
-leti r4 6341
+leti r4 1532
 write a0 16 r4 
-leti r4 6341
+leti r4 1663
 write a0 16 r4 
-leti r4 6344
+leti r4 3775
 write a0 16 r4 
-leti r4 8527
+leti r4 1531
 write a0 16 r4 
-leti r4 31719
+leti r4 1727
 write a0 16 r4 
-leti r4 44469
+leti r4 1663
 write a0 16 r4 
-leti r4 44468
+leti r4 1531
 write a0 16 r4 
-leti r4 42353
+leti r4 1663
 write a0 16 r4 
-leti r4 42355
+leti r4 1599
 write a0 16 r4 
-leti r4 42289
+leti r4 1535
 write a0 16 r4 
-leti r4 40174
+leti r4 7807
 write a0 16 r4 
-leti r4 42287
+leti r4 7679
 write a0 16 r4 
-leti r4 40173
+leti r4 9599
 write a0 16 r4 
-leti r4 44334
+leti r4 13503
 write a0 16 r4 
-leti r4 44335
+leti r4 308
 write a0 16 r4 
-leti r4 44336
+leti r4 180
 write a0 16 r4 
-leti r4 42287
+leti r4 182
 write a0 16 r4 
-leti r4 38061
+leti r4 118
 write a0 16 r4 
-leti r4 38127
+leti r4 55
 write a0 16 r4 
-leti r4 36013
+leti r4 2367
 write a0 16 r4 
-leti r4 38126
+leti r4 58
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 38061
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 36012
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 38061
+leti r4 61
 write a0 16 r4 
-leti r4 36077
+leti r4 62
 write a0 16 r4 
-leti r4 40238
+leti r4 62
 write a0 16 r4 
-leti r4 44334
+leti r4 61
 write a0 16 r4 
-leti r4 46383
+leti r4 60
 write a0 16 r4 
-leti r4 44271
+leti r4 61
 write a0 16 r4 
-leti r4 40174
+leti r4 61
 write a0 16 r4 
-leti r4 38062
+leti r4 2110
 write a0 16 r4 
-leti r4 36013
+leti r4 2110
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 40174
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 60
 write a0 16 r4 
-leti r4 40175
+leti r4 127
 write a0 16 r4 
-leti r4 38062
+leti r4 57
 write a0 16 r4 
-leti r4 36013
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 2110
 write a0 16 r4 
-leti r4 38126
+leti r4 2110
 write a0 16 r4 
-leti r4 38126
+leti r4 123
 write a0 16 r4 
-leti r4 38061
+leti r4 249
 write a0 16 r4 
-leti r4 38126
+leti r4 111
 write a0 16 r4 
-leti r4 35947
+leti r4 15679
 write a0 16 r4 
-leti r4 38126
+leti r4 9599
 write a0 16 r4 
-leti r4 38061
+leti r4 3519
 write a0 16 r4 
-leti r4 38061
+leti r4 3647
 write a0 16 r4 
-leti r4 38126
+leti r4 1598
 write a0 16 r4 
-leti r4 38061
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1599
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 42353
+leti r4 1663
 write a0 16 r4 
-leti r4 42353
+leti r4 1661
 write a0 16 r4 
-leti r4 46582
+leti r4 1722
 write a0 16 r4 
-leti r4 44533
+leti r4 1723
 write a0 16 r4 
-leti r4 44469
+leti r4 1663
 write a0 16 r4 
-leti r4 40305
+leti r4 1599
 write a0 16 r4 
-leti r4 21280
+leti r4 1535
 write a0 16 r4 
-leti r4 6415
+leti r4 1599
 write a0 16 r4 
-leti r4 8526
+leti r4 1599
 write a0 16 r4 
-leti r4 8524
+leti r4 1662
 write a0 16 r4 
-leti r4 12620
+leti r4 1660
 write a0 16 r4 
-leti r4 23186
+leti r4 1661
 write a0 16 r4 
-leti r4 31778
+leti r4 1662
 write a0 16 r4 
-leti r4 44393
+leti r4 1599
 write a0 16 r4 
-leti r4 44395
+leti r4 1599
 write a0 16 r4 
-leti r4 33828
+leti r4 1599
 write a0 16 r4 
-leti r4 40100
+leti r4 1662
 write a0 16 r4 
-leti r4 40166
+leti r4 1662
 write a0 16 r4 
-leti r4 40234
+leti r4 1662
 write a0 16 r4 
-leti r4 50738
+leti r4 1663
 write a0 16 r4 
-leti r4 50739
+leti r4 1663
 write a0 16 r4 
-leti r4 50675
+leti r4 1663
 write a0 16 r4 
-leti r4 52789
+leti r4 1663
 write a0 16 r4 
-leti r4 35875
+leti r4 1662
 write a0 16 r4 
-leti r4 27352
+leti r4 1662
 write a0 16 r4 
-leti r4 21073
+leti r4 1661
 write a0 16 r4 
-leti r4 27416
+leti r4 1727
 write a0 16 r4 
-leti r4 33759
+leti r4 1597
 write a0 16 r4 
-leti r4 52850
+leti r4 5695
 write a0 16 r4 
-leti r4 52850
+leti r4 7615
 write a0 16 r4 
-leti r4 40168
+leti r4 15743
 write a0 16 r4 
-leti r4 42216
+leti r4 241
 write a0 16 r4 
-leti r4 44329
+leti r4 246
 write a0 16 r4 
-leti r4 44328
+leti r4 188
 write a0 16 r4 
-leti r4 35872
+leti r4 60
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 63
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31644
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31644
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 63
 write a0 16 r4 
-leti r4 29531
+leti r4 59
 write a0 16 r4 
-leti r4 35872
+leti r4 59
 write a0 16 r4 
-leti r4 44394
+leti r4 2175
 write a0 16 r4 
-leti r4 50671
+leti r4 62
 write a0 16 r4 
-leti r4 46442
+leti r4 60
 write a0 16 r4 
-leti r4 33823
+leti r4 315
 write a0 16 r4 
-leti r4 35871
+leti r4 11647
 write a0 16 r4 
-leti r4 35873
+leti r4 5631
 write a0 16 r4 
-leti r4 35938
+leti r4 3583
 write a0 16 r4 
-leti r4 42283
+leti r4 1535
 write a0 16 r4 
-leti r4 48625
+leti r4 1599
 write a0 16 r4 
-leti r4 42221
+leti r4 3775
 write a0 16 r4 
-leti r4 33765
+leti r4 1534
 write a0 16 r4 
-leti r4 33765
+leti r4 1727
 write a0 16 r4 
-leti r4 35879
+leti r4 1597
 write a0 16 r4 
-leti r4 40173
+leti r4 1727
 write a0 16 r4 
-leti r4 57146
+leti r4 1727
 write a0 16 r4 
-leti r4 61305
+leti r4 1663
 write a0 16 r4 
-leti r4 61304
+leti r4 1598
 write a0 16 r4 
-leti r4 42286
+leti r4 1663
 write a0 16 r4 
-leti r4 35821
+leti r4 3775
 write a0 16 r4 
-leti r4 27484
+leti r4 1599
 write a0 16 r4 
-leti r4 21074
+leti r4 3775
 write a0 16 r4 
-leti r4 12618
+leti r4 1597
 write a0 16 r4 
-leti r4 8391
+leti r4 1597
 write a0 16 r4 
-leti r4 8391
+leti r4 1663
 write a0 16 r4 
-leti r4 6341
+leti r4 1663
 write a0 16 r4 
-leti r4 6343
+leti r4 1663
 write a0 16 r4 
-leti r4 6411
+leti r4 1599
 write a0 16 r4 
-leti r4 33832
+leti r4 1599
 write a0 16 r4 
-leti r4 46581
+leti r4 1663
 write a0 16 r4 
-leti r4 46581
+leti r4 1727
 write a0 16 r4 
-leti r4 42354
+leti r4 1663
 write a0 16 r4 
-leti r4 44469
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 1465
 write a0 16 r4 
-leti r4 42288
+leti r4 6015
 write a0 16 r4 
-leti r4 40109
+leti r4 1467
 write a0 16 r4 
-leti r4 44335
+leti r4 7871
 write a0 16 r4 
-leti r4 44335
+leti r4 3455
 write a0 16 r4 
-leti r4 44336
+leti r4 7615
 write a0 16 r4 
-leti r4 40174
+leti r4 11711
 write a0 16 r4 
-leti r4 38061
+leti r4 498
 write a0 16 r4 
-leti r4 36078
+leti r4 239
 write a0 16 r4 
-leti r4 36013
+leti r4 179
 write a0 16 r4 
-leti r4 38062
+leti r4 118
 write a0 16 r4 
-leti r4 38126
+leti r4 121
 write a0 16 r4 
-leti r4 38061
+leti r4 60
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 36012
+leti r4 62
 write a0 16 r4 
-leti r4 33833
+leti r4 62
 write a0 16 r4 
-leti r4 33898
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 42222
+leti r4 62
 write a0 16 r4 
-leti r4 44335
+leti r4 62
 write a0 16 r4 
-leti r4 44335
+leti r4 62
 write a0 16 r4 
-leti r4 42223
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 44402
+leti r4 127
 write a0 16 r4 
-leti r4 42289
+leti r4 57
 write a0 16 r4 
-leti r4 42289
+leti r4 127
 write a0 16 r4 
-leti r4 38126
+leti r4 2175
 write a0 16 r4 
-leti r4 38062
+leti r4 60
 write a0 16 r4 
-leti r4 38061
+leti r4 2110
 write a0 16 r4 
-leti r4 38127
+leti r4 2110
 write a0 16 r4 
-leti r4 38061
+leti r4 60
 write a0 16 r4 
-leti r4 38062
+leti r4 61
 write a0 16 r4 
-leti r4 38061
+leti r4 59
 write a0 16 r4 
-leti r4 38126
+leti r4 316
 write a0 16 r4 
-leti r4 38061
+leti r4 175
 write a0 16 r4 
-leti r4 38127
+leti r4 15807
 write a0 16 r4 
-leti r4 38126
+leti r4 9663
 write a0 16 r4 
-leti r4 36012
+leti r4 3519
 write a0 16 r4 
-leti r4 38126
+leti r4 5823
 write a0 16 r4 
-leti r4 38061
+leti r4 1662
 write a0 16 r4 
-leti r4 42290
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 46517
+leti r4 1660
 write a0 16 r4 
-leti r4 46517
+leti r4 1660
 write a0 16 r4 
-leti r4 46581
+leti r4 1662
 write a0 16 r4 
-leti r4 36012
+leti r4 1663
 write a0 16 r4 
-leti r4 16920
+leti r4 1599
 write a0 16 r4 
-leti r4 8527
+leti r4 1599
 write a0 16 r4 
-leti r4 8459
+leti r4 1599
 write a0 16 r4 
-leti r4 8458
+leti r4 1663
 write a0 16 r4 
-leti r4 6342
+leti r4 1662
 write a0 16 r4 
-leti r4 19025
+leti r4 1662
 write a0 16 r4 
-leti r4 33824
+leti r4 1662
 write a0 16 r4 
-leti r4 46506
+leti r4 1662
 write a0 16 r4 
-leti r4 33759
+leti r4 1663
 write a0 16 r4 
-leti r4 27417
+leti r4 1599
 write a0 16 r4 
-leti r4 27351
+leti r4 1599
 write a0 16 r4 
-leti r4 37987
+leti r4 1599
 write a0 16 r4 
-leti r4 37989
+leti r4 1663
 write a0 16 r4 
-leti r4 35874
+leti r4 1662
 write a0 16 r4 
-leti r4 29533
+leti r4 1663
 write a0 16 r4 
-leti r4 35876
+leti r4 1663
 write a0 16 r4 
-leti r4 52788
+leti r4 1663
 write a0 16 r4 
-leti r4 50673
+leti r4 1662
 write a0 16 r4 
-leti r4 46443
+leti r4 1662
 write a0 16 r4 
-leti r4 29595
+leti r4 1661
 write a0 16 r4 
-leti r4 23122
+leti r4 1597
 write a0 16 r4 
-leti r4 21073
+leti r4 1599
 write a0 16 r4 
-leti r4 37987
+leti r4 5631
 write a0 16 r4 
-leti r4 42281
+leti r4 11711
 write a0 16 r4 
-leti r4 50737
+leti r4 172
 write a0 16 r4 
-leti r4 44395
+leti r4 313
 write a0 16 r4 
-leti r4 44330
+leti r4 57
 write a0 16 r4 
-leti r4 44394
+leti r4 61
 write a0 16 r4 
-leti r4 37986
+leti r4 63
 write a0 16 r4 
-leti r4 29530
+leti r4 63
 write a0 16 r4 
-leti r4 27350
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 58
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 31577
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31643
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31644
+leti r4 62
 write a0 16 r4 
-leti r4 35871
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31643
+leti r4 62
 write a0 16 r4 
-leti r4 35872
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 63
 write a0 16 r4 
-leti r4 35872
+leti r4 60
 write a0 16 r4 
-leti r4 35937
+leti r4 61
 write a0 16 r4 
-leti r4 33824
+leti r4 125
 write a0 16 r4 
-leti r4 35937
+leti r4 54
 write a0 16 r4 
-leti r4 35937
+leti r4 254
 write a0 16 r4 
-leti r4 35873
+leti r4 17535
 write a0 16 r4 
-leti r4 35874
+leti r4 7679
 write a0 16 r4 
-leti r4 42281
+leti r4 1595
 write a0 16 r4 
-leti r4 50736
+leti r4 1663
 write a0 16 r4 
-leti r4 42280
+leti r4 1663
 write a0 16 r4 
-leti r4 44393
+leti r4 1663
 write a0 16 r4 
-leti r4 33890
+leti r4 1535
 write a0 16 r4 
-leti r4 35939
+leti r4 1663
 write a0 16 r4 
-leti r4 35940
+leti r4 1599
 write a0 16 r4 
-leti r4 44335
+leti r4 1727
 write a0 16 r4 
-leti r4 52724
+leti r4 1597
 write a0 16 r4 
-leti r4 63353
+leti r4 1597
 write a0 16 r4 
-leti r4 46515
+leti r4 1663
 write a0 16 r4 
-leti r4 36015
+leti r4 1599
 write a0 16 r4 
-leti r4 33890
+leti r4 1599
 write a0 16 r4 
-leti r4 31578
+leti r4 1535
 write a0 16 r4 
-leti r4 31576
+leti r4 1599
 write a0 16 r4 
-leti r4 27416
+leti r4 1596
 write a0 16 r4 
-leti r4 12619
+leti r4 1726
 write a0 16 r4 
-leti r4 8391
+leti r4 1661
 write a0 16 r4 
-leti r4 6277
+leti r4 1727
 write a0 16 r4 
-leti r4 8391
+leti r4 1662
 write a0 16 r4 
-leti r4 6342
+leti r4 1597
 write a0 16 r4 
-leti r4 8460
+leti r4 1663
 write a0 16 r4 
-leti r4 25374
+leti r4 1599
 write a0 16 r4 
-leti r4 46516
+leti r4 1599
 write a0 16 r4 
-leti r4 44468
+leti r4 1663
 write a0 16 r4 
-leti r4 42353
+leti r4 1598
 write a0 16 r4 
-leti r4 46517
+leti r4 1597
 write a0 16 r4 
-leti r4 42354
+leti r4 1727
 write a0 16 r4 
-leti r4 38061
+leti r4 1727
 write a0 16 r4 
-leti r4 42288
+leti r4 1594
 write a0 16 r4 
-leti r4 40174
+leti r4 1727
 write a0 16 r4 
-leti r4 44335
+leti r4 1659
 write a0 16 r4 
-leti r4 42286
+leti r4 1663
 write a0 16 r4 
-leti r4 44336
+leti r4 3711
 write a0 16 r4 
-leti r4 38061
+leti r4 3519
 write a0 16 r4 
-leti r4 38125
+leti r4 9727
 write a0 16 r4 
-leti r4 36013
+leti r4 11647
 write a0 16 r4 
-leti r4 36078
+leti r4 15743
 write a0 16 r4 
-leti r4 38062
+leti r4 17727
 write a0 16 r4 
-leti r4 38126
+leti r4 306
 write a0 16 r4 
-leti r4 38061
+leti r4 244
 write a0 16 r4 
-leti r4 38061
+leti r4 182
 write a0 16 r4 
-leti r4 33898
+leti r4 184
 write a0 16 r4 
-leti r4 29605
+leti r4 121
 write a0 16 r4 
-leti r4 31719
+leti r4 122
 write a0 16 r4 
-leti r4 36013
+leti r4 123
 write a0 16 r4 
-leti r4 38126
+leti r4 123
 write a0 16 r4 
-leti r4 44272
+leti r4 123
 write a0 16 r4 
-leti r4 46384
+leti r4 123
 write a0 16 r4 
-leti r4 48564
+leti r4 123
 write a0 16 r4 
-leti r4 46515
+leti r4 123
 write a0 16 r4 
-leti r4 42353
+leti r4 123
 write a0 16 r4 
-leti r4 40240
+leti r4 123
 write a0 16 r4 
-leti r4 42289
+leti r4 121
 write a0 16 r4 
-leti r4 46517
+leti r4 121
 write a0 16 r4 
-leti r4 42289
+leti r4 119
 write a0 16 r4 
-leti r4 42289
+leti r4 188
 write a0 16 r4 
-leti r4 42355
+leti r4 122
 write a0 16 r4 
-leti r4 40240
+leti r4 58
 write a0 16 r4 
-leti r4 38126
+leti r4 124
 write a0 16 r4 
-leti r4 36013
+leti r4 58
 write a0 16 r4 
-leti r4 38126
+leti r4 122
 write a0 16 r4 
-leti r4 36013
+leti r4 121
 write a0 16 r4 
-leti r4 38126
+leti r4 121
 write a0 16 r4 
-leti r4 38126
+leti r4 53
 write a0 16 r4 
-leti r4 38061
+leti r4 181
 write a0 16 r4 
-leti r4 38062
+leti r4 305
 write a0 16 r4 
-leti r4 36013
+leti r4 362
 write a0 16 r4 
-leti r4 38126
+leti r4 487
 write a0 16 r4 
-leti r4 36013
+leti r4 7807
 write a0 16 r4 
-leti r4 42354
+leti r4 1532
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 40241
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 40240
+leti r4 1663
 write a0 16 r4 
-leti r4 42353
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 46516
+leti r4 1662
 write a0 16 r4 
-leti r4 46516
+leti r4 1662
 write a0 16 r4 
-leti r4 33831
+leti r4 1662
 write a0 16 r4 
-leti r4 6413
+leti r4 1663
 write a0 16 r4 
-leti r4 8461
+leti r4 1663
 write a0 16 r4 
-leti r4 4230
+leti r4 1599
 write a0 16 r4 
-leti r4 8455
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 1663
 write a0 16 r4 
-leti r4 21142
+leti r4 1663
 write a0 16 r4 
-leti r4 35935
+leti r4 1662
 write a0 16 r4 
-leti r4 33823
+leti r4 1662
 write a0 16 r4 
-leti r4 27416
+leti r4 1599
 write a0 16 r4 
-leti r4 16714
+leti r4 1599
 write a0 16 r4 
-leti r4 21076
+leti r4 1599
 write a0 16 r4 
-leti r4 27415
+leti r4 1599
 write a0 16 r4 
-leti r4 35812
+leti r4 1663
 write a0 16 r4 
-leti r4 40038
+leti r4 1662
 write a0 16 r4 
-leti r4 27416
+leti r4 1662
 write a0 16 r4 
-leti r4 27416
+leti r4 1662
 write a0 16 r4 
-leti r4 29531
+leti r4 1662
 write a0 16 r4 
-leti r4 35939
+leti r4 1662
 write a0 16 r4 
-leti r4 44330
+leti r4 1661
 write a0 16 r4 
-leti r4 42282
+leti r4 1662
 write a0 16 r4 
-leti r4 31576
+leti r4 3711
 write a0 16 r4 
-leti r4 29529
+leti r4 5631
 write a0 16 r4 
-leti r4 27351
+leti r4 9599
 write a0 16 r4 
-leti r4 35874
+leti r4 15679
 write a0 16 r4 
-leti r4 44331
+leti r4 311
 write a0 16 r4 
-leti r4 50737
+leti r4 121
 write a0 16 r4 
-leti r4 42281
+leti r4 61
 write a0 16 r4 
-leti r4 44330
+leti r4 2111
 write a0 16 r4 
-leti r4 44328
+leti r4 61
 write a0 16 r4 
-leti r4 31644
+leti r4 60
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 29465
+leti r4 2174
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29463
+leti r4 61
 write a0 16 r4 
-leti r4 31513
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 33692
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 63
 write a0 16 r4 
-leti r4 29465
+leti r4 127
 write a0 16 r4 
-leti r4 29529
+leti r4 60
 write a0 16 r4 
-leti r4 31579
+leti r4 61
 write a0 16 r4 
-leti r4 29530
+leti r4 127
 write a0 16 r4 
-leti r4 29530
+leti r4 59
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 63
 write a0 16 r4 
-leti r4 29530
+leti r4 63
 write a0 16 r4 
-leti r4 29529
+leti r4 60
 write a0 16 r4 
-leti r4 35937
+leti r4 62
 write a0 16 r4 
-leti r4 33823
+leti r4 125
 write a0 16 r4 
-leti r4 35936
+leti r4 119
 write a0 16 r4 
-leti r4 35873
+leti r4 247
 write a0 16 r4 
-leti r4 33824
+leti r4 309
 write a0 16 r4 
-leti r4 35874
+leti r4 11519
 write a0 16 r4 
-leti r4 42283
+leti r4 3647
 write a0 16 r4 
-leti r4 50737
+leti r4 1724
 write a0 16 r4 
-leti r4 44394
+leti r4 1662
 write a0 16 r4 
-leti r4 44329
+leti r4 1663
 write a0 16 r4 
-leti r4 44393
+leti r4 1599
 write a0 16 r4 
-leti r4 35937
+leti r4 1599
 write a0 16 r4 
-leti r4 27417
+leti r4 1599
 write a0 16 r4 
-leti r4 35873
+leti r4 1599
 write a0 16 r4 
-leti r4 48628
+leti r4 1599
 write a0 16 r4 
-leti r4 50741
+leti r4 1663
 write a0 16 r4 
-leti r4 50676
+leti r4 1663
 write a0 16 r4 
-leti r4 33762
+leti r4 1663
 write a0 16 r4 
-leti r4 29597
+leti r4 1599
 write a0 16 r4 
-leti r4 21010
+leti r4 1599
 write a0 16 r4 
-leti r4 27416
+leti r4 1599
 write a0 16 r4 
-leti r4 29530
+leti r4 1599
 write a0 16 r4 
-leti r4 29531
+leti r4 1598
 write a0 16 r4 
-leti r4 21074
+leti r4 1727
 write a0 16 r4 
-leti r4 12617
+leti r4 1596
 write a0 16 r4 
-leti r4 8388
+leti r4 1596
 write a0 16 r4 
-leti r4 8390
+leti r4 1596
 write a0 16 r4 
-leti r4 6342
+leti r4 1727
 write a0 16 r4 
-leti r4 8460
+leti r4 1662
 write a0 16 r4 
-leti r4 25438
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1663
 write a0 16 r4 
-leti r4 44468
+leti r4 1599
 write a0 16 r4 
-leti r4 40240
+leti r4 1599
 write a0 16 r4 
-leti r4 42353
+leti r4 1599
 write a0 16 r4 
-leti r4 40241
+leti r4 1663
 write a0 16 r4 
-leti r4 42290
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1725
 write a0 16 r4 
-leti r4 40175
+leti r4 1725
 write a0 16 r4 
-leti r4 44335
+leti r4 1662
 write a0 16 r4 
-leti r4 42287
+leti r4 1663
 write a0 16 r4 
-leti r4 40174
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 3647
 write a0 16 r4 
-leti r4 38126
+leti r4 5631
 write a0 16 r4 
-leti r4 38062
+leti r4 5631
 write a0 16 r4 
-leti r4 38126
+leti r4 5631
 write a0 16 r4 
-leti r4 29670
+leti r4 5567
 write a0 16 r4 
-leti r4 31785
+leti r4 7679
 write a0 16 r4 
-leti r4 29671
+leti r4 7615
 write a0 16 r4 
-leti r4 31784
+leti r4 9535
 write a0 16 r4 
-leti r4 31784
+leti r4 367
 write a0 16 r4 
-leti r4 29671
+leti r4 306
 write a0 16 r4 
-leti r4 36013
+leti r4 243
 write a0 16 r4 
-leti r4 42354
+leti r4 310
 write a0 16 r4 
-leti r4 46517
+leti r4 244
 write a0 16 r4 
-leti r4 48631
+leti r4 244
 write a0 16 r4 
-leti r4 44467
+leti r4 244
 write a0 16 r4 
-leti r4 42354
+leti r4 244
 write a0 16 r4 
-leti r4 42289
+leti r4 244
 write a0 16 r4 
-leti r4 40240
+leti r4 244
 write a0 16 r4 
-leti r4 42354
+leti r4 244
 write a0 16 r4 
-leti r4 40240
+leti r4 243
 write a0 16 r4 
-leti r4 42354
+leti r4 243
 write a0 16 r4 
-leti r4 42288
+leti r4 244
 write a0 16 r4 
-leti r4 44402
+leti r4 244
 write a0 16 r4 
-leti r4 40241
+leti r4 244
 write a0 16 r4 
-leti r4 40240
+leti r4 244
 write a0 16 r4 
-leti r4 38127
+leti r4 244
 write a0 16 r4 
-leti r4 38126
+leti r4 244
 write a0 16 r4 
-leti r4 29671
+leti r4 306
 write a0 16 r4 
-leti r4 38061
+leti r4 368
 write a0 16 r4 
-leti r4 38126
+leti r4 365
 write a0 16 r4 
-leti r4 38061
+leti r4 560
 write a0 16 r4 
-leti r4 38061
+leti r4 5439
 write a0 16 r4 
-leti r4 38126
+leti r4 7679
 write a0 16 r4 
-leti r4 38062
+leti r4 5695
 write a0 16 r4 
-leti r4 36013
+leti r4 1468
 write a0 16 r4 
-leti r4 38126
+leti r4 3775
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 40240
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1599
 write a0 16 r4 
-leti r4 42289
+leti r4 1599
 write a0 16 r4 
-leti r4 42289
+leti r4 1599
 write a0 16 r4 
-leti r4 40242
+leti r4 1599
 write a0 16 r4 
-leti r4 46581
+leti r4 1599
 write a0 16 r4 
-leti r4 40241
+leti r4 1599
 write a0 16 r4 
-leti r4 25438
+leti r4 1599
 write a0 16 r4 
-leti r4 8460
+leti r4 1663
 write a0 16 r4 
-leti r4 8461
+leti r4 1662
 write a0 16 r4 
-leti r4 6405
+leti r4 1662
 write a0 16 r4 
-leti r4 6342
+leti r4 1662
 write a0 16 r4 
-leti r4 6342
+leti r4 1663
 write a0 16 r4 
-leti r4 21076
+leti r4 1663
 write a0 16 r4 
-leti r4 27417
+leti r4 1599
 write a0 16 r4 
-leti r4 27416
+leti r4 1599
 write a0 16 r4 
-leti r4 12619
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 23123
+leti r4 1599
 write a0 16 r4 
-leti r4 29530
+leti r4 1599
 write a0 16 r4 
-leti r4 37921
+leti r4 1599
 write a0 16 r4 
-leti r4 31579
+leti r4 1662
 write a0 16 r4 
-leti r4 21009
+leti r4 1662
 write a0 16 r4 
-leti r4 16780
+leti r4 1661
 write a0 16 r4 
-leti r4 23123
+leti r4 1725
 write a0 16 r4 
-leti r4 35872
+leti r4 1661
 write a0 16 r4 
-leti r4 44329
+leti r4 1662
 write a0 16 r4 
-leti r4 44329
+leti r4 1470
 write a0 16 r4 
-leti r4 35872
+leti r4 11775
 write a0 16 r4 
-leti r4 25367
+leti r4 17727
 write a0 16 r4 
-leti r4 21139
+leti r4 114
 write a0 16 r4 
-leti r4 35937
+leti r4 188
 write a0 16 r4 
-leti r4 44394
+leti r4 60
 write a0 16 r4 
-leti r4 44329
+leti r4 59
 write a0 16 r4 
-leti r4 44328
+leti r4 6271
 write a0 16 r4 
-leti r4 44329
+leti r4 62
 write a0 16 r4 
-leti r4 35873
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 35807
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31643
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 59
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 31644
+leti r4 2175
 write a0 16 r4 
-leti r4 29530
+leti r4 63
 write a0 16 r4 
-leti r4 29530
+leti r4 63
 write a0 16 r4 
-leti r4 35873
+leti r4 60
 write a0 16 r4 
-leti r4 27481
+leti r4 60
 write a0 16 r4 
-leti r4 33759
+leti r4 124
 write a0 16 r4 
-leti r4 46507
+leti r4 184
 write a0 16 r4 
-leti r4 42280
+leti r4 243
 write a0 16 r4 
-leti r4 42281
+leti r4 237
 write a0 16 r4 
-leti r4 46444
+leti r4 15743
 write a0 16 r4 
-leti r4 42217
+leti r4 11775
 write a0 16 r4 
-leti r4 50738
+leti r4 1599
 write a0 16 r4 
-leti r4 42282
+leti r4 1661
 write a0 16 r4 
-leti r4 33824
+leti r4 1662
 write a0 16 r4 
-leti r4 35873
+leti r4 1663
 write a0 16 r4 
-leti r4 25304
+leti r4 1599
 write a0 16 r4 
-leti r4 27417
+leti r4 1599
 write a0 16 r4 
-leti r4 27417
+leti r4 1599
 write a0 16 r4 
-leti r4 44331
+leti r4 1599
 write a0 16 r4 
-leti r4 50676
+leti r4 1663
 write a0 16 r4 
-leti r4 50741
+leti r4 1663
 write a0 16 r4 
-leti r4 42218
+leti r4 1663
 write a0 16 r4 
-leti r4 29534
+leti r4 1663
 write a0 16 r4 
-leti r4 21076
+leti r4 1599
 write a0 16 r4 
-leti r4 21075
+leti r4 1599
 write a0 16 r4 
-leti r4 29466
+leti r4 1599
 write a0 16 r4 
-leti r4 29530
+leti r4 1599
 write a0 16 r4 
-leti r4 27416
+leti r4 1727
 write a0 16 r4 
-leti r4 23188
+leti r4 1661
 write a0 16 r4 
-leti r4 14732
+leti r4 1727
 write a0 16 r4 
-leti r4 8389
+leti r4 1727
 write a0 16 r4 
-leti r4 8390
+leti r4 3839
 write a0 16 r4 
-leti r4 6343
+leti r4 1596
 write a0 16 r4 
-leti r4 6345
+leti r4 1597
 write a0 16 r4 
-leti r4 19030
+leti r4 1662
 write a0 16 r4 
-leti r4 40240
+leti r4 1663
 write a0 16 r4 
-leti r4 44468
+leti r4 1599
 write a0 16 r4 
-leti r4 42355
+leti r4 1599
 write a0 16 r4 
-leti r4 40241
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 38060
+leti r4 1662
 write a0 16 r4 
-leti r4 42222
+leti r4 1662
 write a0 16 r4 
-leti r4 42222
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38125
+leti r4 1599
 write a0 16 r4 
-leti r4 36013
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 38127
+leti r4 1662
 write a0 16 r4 
-leti r4 38127
+leti r4 1727
 write a0 16 r4 
-leti r4 36013
+leti r4 1662
 write a0 16 r4 
-leti r4 29671
+leti r4 1599
 write a0 16 r4 
-leti r4 29671
+leti r4 7871
 write a0 16 r4 
-leti r4 33898
+leti r4 3455
 write a0 16 r4 
-leti r4 36013
+leti r4 9663
 write a0 16 r4 
-leti r4 42355
+leti r4 13695
 write a0 16 r4 
-leti r4 44469
+leti r4 11583
 write a0 16 r4 
-leti r4 40240
+leti r4 11647
 write a0 16 r4 
-leti r4 40240
+leti r4 11647
 write a0 16 r4 
-leti r4 42353
+leti r4 11647
 write a0 16 r4 
-leti r4 42289
+leti r4 11647
 write a0 16 r4 
-leti r4 42289
+leti r4 11647
 write a0 16 r4 
-leti r4 38126
+leti r4 11647
 write a0 16 r4 
-leti r4 38126
+leti r4 11647
 write a0 16 r4 
-leti r4 38126
+leti r4 11647
 write a0 16 r4 
-leti r4 42289
+leti r4 11647
 write a0 16 r4 
-leti r4 40240
+leti r4 11647
 write a0 16 r4 
-leti r4 42354
+leti r4 11647
 write a0 16 r4 
-leti r4 42289
+leti r4 11647
 write a0 16 r4 
-leti r4 42354
+leti r4 11647
 write a0 16 r4 
-leti r4 40241
+leti r4 11647
 write a0 16 r4 
-leti r4 38127
+leti r4 11647
 write a0 16 r4 
-leti r4 31785
+leti r4 11647
 write a0 16 r4 
-leti r4 31784
+leti r4 7551
 write a0 16 r4 
-leti r4 36013
+leti r4 5567
 write a0 16 r4 
-leti r4 38127
+leti r4 1407
 write a0 16 r4 
-leti r4 36013
+leti r4 5695
 write a0 16 r4 
-leti r4 36012
+leti r4 3583
 write a0 16 r4 
-leti r4 38126
+leti r4 3711
 write a0 16 r4 
-leti r4 38127
+leti r4 1533
 write a0 16 r4 
-leti r4 38126
+leti r4 1598
 write a0 16 r4 
-leti r4 40240
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 40241
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1599
 write a0 16 r4 
-leti r4 42353
+leti r4 1599
 write a0 16 r4 
-leti r4 42353
+leti r4 1599
 write a0 16 r4 
-leti r4 44401
+leti r4 1599
 write a0 16 r4 
-leti r4 46578
+leti r4 1599
 write a0 16 r4 
-leti r4 42287
+leti r4 1599
 write a0 16 r4 
-leti r4 19029
+leti r4 1663
 write a0 16 r4 
-leti r4 8459
+leti r4 1662
 write a0 16 r4 
-leti r4 8394
+leti r4 1662
 write a0 16 r4 
-leti r4 8390
+leti r4 1662
 write a0 16 r4 
-leti r4 8326
+leti r4 1662
 write a0 16 r4 
-leti r4 12618
+leti r4 1662
 write a0 16 r4 
-leti r4 14797
+leti r4 1599
 write a0 16 r4 
-leti r4 21074
+leti r4 1599
 write a0 16 r4 
-leti r4 14732
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 1599
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 21074
+leti r4 1599
 write a0 16 r4 
-leti r4 31579
+leti r4 1599
 write a0 16 r4 
-leti r4 29530
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1662
 write a0 16 r4 
-leti r4 12553
+leti r4 1725
 write a0 16 r4 
-leti r4 12618
+leti r4 1724
 write a0 16 r4 
-leti r4 14732
+leti r4 1661
 write a0 16 r4 
-leti r4 21074
+leti r4 3647
 write a0 16 r4 
-leti r4 35937
+leti r4 9727
 write a0 16 r4 
-leti r4 44329
+leti r4 13631
 write a0 16 r4 
-leti r4 37986
+leti r4 180
 write a0 16 r4 
-leti r4 27481
+leti r4 189
 write a0 16 r4 
-leti r4 27481
+leti r4 61
 write a0 16 r4 
-leti r4 27481
+leti r4 4287
 write a0 16 r4 
-leti r4 37986
+leti r4 60
 write a0 16 r4 
-leti r4 35937
+leti r4 59
 write a0 16 r4 
-leti r4 37987
+leti r4 62
 write a0 16 r4 
-leti r4 31644
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29463
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 60
 write a0 16 r4 
-leti r4 29530
+leti r4 60
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 2110
 write a0 16 r4 
-leti r4 29529
+leti r4 2110
 write a0 16 r4 
-leti r4 31578
+leti r4 2110
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 37986
+leti r4 62
 write a0 16 r4 
-leti r4 33823
+leti r4 62
 write a0 16 r4 
-leti r4 35937
+leti r4 62
 write a0 16 r4 
-leti r4 33823
+leti r4 62
 write a0 16 r4 
-leti r4 31644
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 2175
 write a0 16 r4 
-leti r4 31643
+leti r4 2175
 write a0 16 r4 
-leti r4 25367
+leti r4 59
 write a0 16 r4 
-leti r4 27416
+leti r4 4223
 write a0 16 r4 
-leti r4 29531
+leti r4 61
 write a0 16 r4 
-leti r4 29530
+leti r4 59
 write a0 16 r4 
-leti r4 31643
+leti r4 60
 write a0 16 r4 
-leti r4 29530
+leti r4 61
 write a0 16 r4 
-leti r4 35937
+leti r4 127
 write a0 16 r4 
-leti r4 35939
+leti r4 186
 write a0 16 r4 
-leti r4 35939
+leti r4 114
 write a0 16 r4 
-leti r4 42282
+leti r4 238
 write a0 16 r4 
-leti r4 50738
+leti r4 15871
 write a0 16 r4 
-leti r4 52787
+leti r4 7615
 write a0 16 r4 
-leti r4 50738
+leti r4 5695
 write a0 16 r4 
-leti r4 52786
+leti r4 1471
 write a0 16 r4 
-leti r4 42281
+leti r4 3583
 write a0 16 r4 
-leti r4 38053
+leti r4 3647
 write a0 16 r4 
-leti r4 37987
+leti r4 1599
 write a0 16 r4 
-leti r4 29531
+leti r4 1662
 write a0 16 r4 
-leti r4 23189
+leti r4 1661
 write a0 16 r4 
-leti r4 25369
+leti r4 1724
 write a0 16 r4 
-leti r4 44331
+leti r4 1724
 write a0 16 r4 
-leti r4 50675
+leti r4 1724
 write a0 16 r4 
-leti r4 52788
+leti r4 1662
 write a0 16 r4 
-leti r4 44331
+leti r4 1663
 write a0 16 r4 
-leti r4 35875
+leti r4 1663
 write a0 16 r4 
-leti r4 27418
+leti r4 1599
 write a0 16 r4 
-leti r4 21011
+leti r4 1599
 write a0 16 r4 
-leti r4 21010
+leti r4 1663
 write a0 16 r4 
-leti r4 23123
+leti r4 1662
 write a0 16 r4 
-leti r4 23123
+leti r4 1661
 write a0 16 r4 
-leti r4 23122
+leti r4 1660
 write a0 16 r4 
-leti r4 21009
+leti r4 1659
 write a0 16 r4 
-leti r4 12618
+leti r4 1596
 write a0 16 r4 
-leti r4 8390
+leti r4 1596
 write a0 16 r4 
-leti r4 6342
+leti r4 1532
 write a0 16 r4 
-leti r4 6342
+leti r4 1599
 write a0 16 r4 
-leti r4 6342
+leti r4 5759
 write a0 16 r4 
-leti r4 19027
+leti r4 3647
 write a0 16 r4 
-leti r4 42353
+leti r4 1599
 write a0 16 r4 
-leti r4 44469
+leti r4 1662
 write a0 16 r4 
-leti r4 44468
+leti r4 1661
 write a0 16 r4 
-leti r4 42353
+leti r4 1724
 write a0 16 r4 
-leti r4 42353
+leti r4 1661
 write a0 16 r4 
-leti r4 40239
+leti r4 1662
 write a0 16 r4 
-leti r4 44401
+leti r4 1599
 write a0 16 r4 
-leti r4 40173
+leti r4 1599
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 1662
 write a0 16 r4 
-leti r4 38061
+leti r4 1599
 write a0 16 r4 
-leti r4 36013
+leti r4 1599
 write a0 16 r4 
-leti r4 36013
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1662
 write a0 16 r4 
-leti r4 36013
+leti r4 1530
 write a0 16 r4 
-leti r4 31785
+leti r4 1596
 write a0 16 r4 
-leti r4 29671
+leti r4 1596
 write a0 16 r4 
-leti r4 31784
+leti r4 5695
 write a0 16 r4 
-leti r4 31785
+leti r4 5631
 write a0 16 r4 
-leti r4 36013
+leti r4 11839
 write a0 16 r4 
-leti r4 38126
+leti r4 7615
 write a0 16 r4 
-leti r4 40175
+leti r4 7679
 write a0 16 r4 
-leti r4 38125
+leti r4 5695
 write a0 16 r4 
-leti r4 38126
+leti r4 5695
 write a0 16 r4 
-leti r4 36012
+leti r4 5695
 write a0 16 r4 
-leti r4 38127
+leti r4 5695
 write a0 16 r4 
-leti r4 36013
+leti r4 5695
 write a0 16 r4 
-leti r4 36012
+leti r4 5695
 write a0 16 r4 
-leti r4 38126
+leti r4 5695
 write a0 16 r4 
-leti r4 38125
+leti r4 5695
 write a0 16 r4 
-leti r4 38127
+leti r4 5695
 write a0 16 r4 
-leti r4 40241
+leti r4 5695
 write a0 16 r4 
-leti r4 40240
+leti r4 5695
 write a0 16 r4 
-leti r4 40241
+leti r4 5695
 write a0 16 r4 
-leti r4 40241
+leti r4 5695
 write a0 16 r4 
-leti r4 38126
+leti r4 5695
 write a0 16 r4 
-leti r4 29670
+leti r4 5631
 write a0 16 r4 
-leti r4 31784
+leti r4 5631
 write a0 16 r4 
-leti r4 31785
+leti r4 7743
 write a0 16 r4 
-leti r4 36012
+leti r4 7743
 write a0 16 r4 
-leti r4 38127
+leti r4 3583
 write a0 16 r4 
-leti r4 38126
+leti r4 1535
 write a0 16 r4 
-leti r4 36012
+leti r4 1599
 write a0 16 r4 
-leti r4 38062
+leti r4 1663
 write a0 16 r4 
-leti r4 40240
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 42353
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 40241
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1599
 write a0 16 r4 
-leti r4 42354
+leti r4 1599
 write a0 16 r4 
-leti r4 46579
+leti r4 1663
 write a0 16 r4 
-leti r4 46578
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 1662
 write a0 16 r4 
-leti r4 10510
+leti r4 1662
 write a0 16 r4 
-leti r4 6279
+leti r4 1661
 write a0 16 r4 
-leti r4 6279
+leti r4 1661
 write a0 16 r4 
-leti r4 8389
+leti r4 1661
 write a0 16 r4 
-leti r4 10441
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 12552
+leti r4 1663
 write a0 16 r4 
-leti r4 16780
+leti r4 1663
 write a0 16 r4 
-leti r4 12552
+leti r4 1663
 write a0 16 r4 
-leti r4 12617
+leti r4 1663
 write a0 16 r4 
-leti r4 14667
+leti r4 1662
 write a0 16 r4 
-leti r4 14732
+leti r4 1662
 write a0 16 r4 
-leti r4 14731
+leti r4 1662
 write a0 16 r4 
-leti r4 14667
+leti r4 1662
 write a0 16 r4 
-leti r4 12553
+leti r4 1662
 write a0 16 r4 
-leti r4 21009
+leti r4 1663
 write a0 16 r4 
-leti r4 29530
+leti r4 1663
 write a0 16 r4 
-leti r4 23123
+leti r4 1725
 write a0 16 r4 
-leti r4 12618
+leti r4 1724
 write a0 16 r4 
-leti r4 10439
+leti r4 1660
 write a0 16 r4 
-leti r4 14732
+leti r4 5695
 write a0 16 r4 
-leti r4 12618
+leti r4 13695
 write a0 16 r4 
-leti r4 27416
+leti r4 305
 write a0 16 r4 
-leti r4 35872
+leti r4 121
 write a0 16 r4 
-leti r4 37986
+leti r4 60
 write a0 16 r4 
-leti r4 35807
+leti r4 59
 write a0 16 r4 
-leti r4 31644
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 63
 write a0 16 r4 
-leti r4 27416
+leti r4 127
 write a0 16 r4 
-leti r4 35808
+leti r4 61
 write a0 16 r4 
-leti r4 31580
+leti r4 61
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29463
+leti r4 62
 write a0 16 r4 
-leti r4 29528
+leti r4 62
 write a0 16 r4 
-leti r4 29463
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 123
 write a0 16 r4 
-leti r4 31578
+leti r4 60
 write a0 16 r4 
-leti r4 31579
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 2110
 write a0 16 r4 
-leti r4 29529
+leti r4 2110
 write a0 16 r4 
-leti r4 29530
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 61
 write a0 16 r4 
-leti r4 29531
+leti r4 61
 write a0 16 r4 
-leti r4 29531
+leti r4 62
 write a0 16 r4 
-leti r4 35872
+leti r4 62
 write a0 16 r4 
-leti r4 35937
+leti r4 62
 write a0 16 r4 
-leti r4 35873
+leti r4 62
 write a0 16 r4 
-leti r4 35872
+leti r4 57
 write a0 16 r4 
-leti r4 33824
+leti r4 4223
 write a0 16 r4 
-leti r4 37987
+leti r4 2110
 write a0 16 r4 
-leti r4 35873
+leti r4 4159
 write a0 16 r4 
-leti r4 33759
+leti r4 61
 write a0 16 r4 
-leti r4 33824
+leti r4 60
 write a0 16 r4 
-leti r4 35873
+leti r4 2239
 write a0 16 r4 
-leti r4 42280
+leti r4 121
 write a0 16 r4 
-leti r4 44328
+leti r4 52
 write a0 16 r4 
-leti r4 42216
+leti r4 243
 write a0 16 r4 
-leti r4 44331
+leti r4 17727
 write a0 16 r4 
-leti r4 42282
+leti r4 13759
 write a0 16 r4 
-leti r4 50739
+leti r4 5631
 write a0 16 r4 
-leti r4 50739
+leti r4 1599
 write a0 16 r4 
-leti r4 42282
+leti r4 1598
 write a0 16 r4 
-leti r4 33825
+leti r4 1663
 write a0 16 r4 
-leti r4 37987
+leti r4 3583
 write a0 16 r4 
-leti r4 29466
+leti r4 3583
 write a0 16 r4 
-leti r4 29531
+leti r4 1599
 write a0 16 r4 
-leti r4 27352
+leti r4 1662
 write a0 16 r4 
-leti r4 21077
+leti r4 1724
 write a0 16 r4 
-leti r4 37989
+leti r4 1723
 write a0 16 r4 
-leti r4 50675
+leti r4 1723
 write a0 16 r4 
-leti r4 52790
+leti r4 1723
 write a0 16 r4 
-leti r4 42217
+leti r4 1661
 write a0 16 r4 
-leti r4 37988
+leti r4 1662
 write a0 16 r4 
-leti r4 27417
+leti r4 1663
 write a0 16 r4 
-leti r4 23124
+leti r4 1663
 write a0 16 r4 
-leti r4 23124
+leti r4 1662
 write a0 16 r4 
-leti r4 21074
+leti r4 1661
 write a0 16 r4 
-leti r4 23123
+leti r4 1724
 write a0 16 r4 
-leti r4 12618
+leti r4 1724
 write a0 16 r4 
-leti r4 16778
+leti r4 1791
 write a0 16 r4 
-leti r4 14731
+leti r4 1597
 write a0 16 r4 
-leti r4 8391
+leti r4 1599
 write a0 16 r4 
-leti r4 8391
+leti r4 3775
 write a0 16 r4 
-leti r4 6342
+leti r4 5759
 write a0 16 r4 
-leti r4 6342
+leti r4 1535
 write a0 16 r4 
-leti r4 8389
+leti r4 1535
 write a0 16 r4 
-leti r4 23123
+leti r4 1534
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 46581
+leti r4 1661
 write a0 16 r4 
-leti r4 44468
+leti r4 1724
 write a0 16 r4 
-leti r4 42352
+leti r4 1724
 write a0 16 r4 
-leti r4 42353
+leti r4 1661
 write a0 16 r4 
-leti r4 42287
+leti r4 1663
 write a0 16 r4 
-leti r4 44336
+leti r4 3647
 write a0 16 r4 
-leti r4 44336
+leti r4 3647
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1661
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38062
+leti r4 1599
 write a0 16 r4 
-leti r4 38062
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1727
 write a0 16 r4 
-leti r4 36013
+leti r4 1726
 write a0 16 r4 
-leti r4 38127
+leti r4 3839
 write a0 16 r4 
-leti r4 36013
+leti r4 1660
 write a0 16 r4 
-leti r4 33898
+leti r4 3774
 write a0 16 r4 
-leti r4 29670
+leti r4 1594
 write a0 16 r4 
-leti r4 31784
+leti r4 7806
 write a0 16 r4 
-leti r4 31784
+leti r4 5694
 write a0 16 r4 
-leti r4 21214
+leti r4 1597
 write a0 16 r4 
-leti r4 23263
+leti r4 1598
 write a0 16 r4 
-leti r4 23328
+leti r4 1598
 write a0 16 r4 
-leti r4 25377
+leti r4 1598
 write a0 16 r4 
-leti r4 29671
+leti r4 1598
 write a0 16 r4 
-leti r4 31784
+leti r4 1598
 write a0 16 r4 
-leti r4 31784
+leti r4 1598
 write a0 16 r4 
-leti r4 31784
+leti r4 1598
 write a0 16 r4 
-leti r4 31784
+leti r4 1598
 write a0 16 r4 
-leti r4 29735
+leti r4 1598
 write a0 16 r4 
-leti r4 29735
+leti r4 1598
 write a0 16 r4 
-leti r4 29671
+leti r4 1598
 write a0 16 r4 
-leti r4 33898
+leti r4 1598
 write a0 16 r4 
-leti r4 36013
+leti r4 1598
 write a0 16 r4 
-leti r4 38061
+leti r4 1598
 write a0 16 r4 
-leti r4 33833
+leti r4 1599
 write a0 16 r4 
-leti r4 29736
+leti r4 1471
 write a0 16 r4 
-leti r4 29671
+leti r4 1471
 write a0 16 r4 
-leti r4 33898
+leti r4 3583
 write a0 16 r4 
-leti r4 36013
+leti r4 3647
 write a0 16 r4 
-leti r4 38062
+leti r4 3711
 write a0 16 r4 
-leti r4 38126
+leti r4 1598
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 38062
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1661
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 42353
+leti r4 1662
 write a0 16 r4 
-leti r4 42353
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 46581
+leti r4 1661
 write a0 16 r4 
-leti r4 44534
+leti r4 1661
 write a0 16 r4 
-leti r4 31785
+leti r4 1661
 write a0 16 r4 
-leti r4 8462
+leti r4 1661
 write a0 16 r4 
-leti r4 2181
+leti r4 1661
 write a0 16 r4 
-leti r4 6405
+leti r4 1661
 write a0 16 r4 
-leti r4 8452
+leti r4 1662
 write a0 16 r4 
-leti r4 12683
+leti r4 1662
 write a0 16 r4 
-leti r4 16779
+leti r4 1662
 write a0 16 r4 
-leti r4 16778
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14731
+leti r4 1662
 write a0 16 r4 
-leti r4 10439
+leti r4 1661
 write a0 16 r4 
-leti r4 6276
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 14732
+leti r4 1661
 write a0 16 r4 
-leti r4 8390
+leti r4 1662
 write a0 16 r4 
-leti r4 14667
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 29530
+leti r4 1725
 write a0 16 r4 
-leti r4 23188
+leti r4 1725
 write a0 16 r4 
-leti r4 12617
+leti r4 1661
 write a0 16 r4 
-leti r4 12553
+leti r4 7679
 write a0 16 r4 
-leti r4 8389
+leti r4 495
 write a0 16 r4 
-leti r4 12618
+leti r4 242
 write a0 16 r4 
-leti r4 23123
+leti r4 121
 write a0 16 r4 
-leti r4 29530
+leti r4 126
 write a0 16 r4 
-leti r4 37986
+leti r4 2111
 write a0 16 r4 
-leti r4 35872
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 29529
+leti r4 59
 write a0 16 r4 
-leti r4 29530
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29463
+leti r4 62
 write a0 16 r4 
-leti r4 29463
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31579
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 2110
 write a0 16 r4 
-leti r4 35936
+leti r4 8319
 write a0 16 r4 
-leti r4 35936
+leti r4 57
 write a0 16 r4 
-leti r4 33823
+leti r4 2111
 write a0 16 r4 
-leti r4 35938
+leti r4 59
 write a0 16 r4 
-leti r4 35937
+leti r4 60
 write a0 16 r4 
-leti r4 35938
+leti r4 252
 write a0 16 r4 
-leti r4 44393
+leti r4 117
 write a0 16 r4 
-leti r4 44394
+leti r4 176
 write a0 16 r4 
-leti r4 50736
+leti r4 500
 write a0 16 r4 
-leti r4 44394
+leti r4 7423
 write a0 16 r4 
-leti r4 42281
+leti r4 13887
 write a0 16 r4 
-leti r4 52787
+leti r4 5631
 write a0 16 r4 
-leti r4 50738
+leti r4 1535
 write a0 16 r4 
-leti r4 50738
+leti r4 1597
 write a0 16 r4 
-leti r4 35938
+leti r4 1661
 write a0 16 r4 
-leti r4 27416
+leti r4 1727
 write a0 16 r4 
-leti r4 29466
+leti r4 1599
 write a0 16 r4 
-leti r4 31579
+leti r4 1599
 write a0 16 r4 
-leti r4 21010
+leti r4 1599
 write a0 16 r4 
-leti r4 23125
+leti r4 1663
 write a0 16 r4 
-leti r4 25304
+leti r4 1662
 write a0 16 r4 
-leti r4 50674
+leti r4 1662
 write a0 16 r4 
-leti r4 63358
+leti r4 1661
 write a0 16 r4 
-leti r4 42219
+leti r4 1661
 write a0 16 r4 
-leti r4 40036
+leti r4 1661
 write a0 16 r4 
-leti r4 29466
+leti r4 1661
 write a0 16 r4 
-leti r4 21075
+leti r4 1661
 write a0 16 r4 
-leti r4 21075
+leti r4 1660
 write a0 16 r4 
-leti r4 21074
+leti r4 1660
 write a0 16 r4 
-leti r4 21009
+leti r4 1723
 write a0 16 r4 
-leti r4 14666
+leti r4 1723
 write a0 16 r4 
-leti r4 16780
+leti r4 1661
 write a0 16 r4 
-leti r4 14664
+leti r4 1599
 write a0 16 r4 
-leti r4 12617
+leti r4 1471
 write a0 16 r4 
-leti r4 8390
+leti r4 7743
 write a0 16 r4 
-leti r4 6343
+leti r4 1407
 write a0 16 r4 
-leti r4 6343
+leti r4 5695
 write a0 16 r4 
-leti r4 8390
+leti r4 1534
 write a0 16 r4 
-leti r4 6276
+leti r4 1727
 write a0 16 r4 
-leti r4 16779
+leti r4 1660
 write a0 16 r4 
-leti r4 27557
+leti r4 1724
 write a0 16 r4 
-leti r4 46582
+leti r4 1724
 write a0 16 r4 
-leti r4 46581
+leti r4 1662
 write a0 16 r4 
-leti r4 42288
+leti r4 1663
 write a0 16 r4 
-leti r4 42353
+leti r4 1599
 write a0 16 r4 
-leti r4 44400
+leti r4 1599
 write a0 16 r4 
-leti r4 42286
+leti r4 1599
 write a0 16 r4 
-leti r4 44336
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1660
 write a0 16 r4 
-leti r4 38126
+leti r4 1660
 write a0 16 r4 
-leti r4 38126
+leti r4 1661
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38062
+leti r4 1599
 write a0 16 r4 
-leti r4 38062
+leti r4 1599
 write a0 16 r4 
-leti r4 38062
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1662
 write a0 16 r4 
-leti r4 36013
+leti r4 1661
 write a0 16 r4 
-leti r4 38126
+leti r4 1660
 write a0 16 r4 
-leti r4 38061
+leti r4 1594
 write a0 16 r4 
-leti r4 35947
+leti r4 1726
 write a0 16 r4 
-leti r4 31785
+leti r4 1661
 write a0 16 r4 
-leti r4 31784
+leti r4 3709
 write a0 16 r4 
-leti r4 31784
+leti r4 3710
 write a0 16 r4 
-leti r4 25377
+leti r4 1662
 write a0 16 r4 
-leti r4 25441
+leti r4 1663
 write a0 16 r4 
-leti r4 23263
+leti r4 1663
 write a0 16 r4 
-leti r4 21215
+leti r4 1663
 write a0 16 r4 
-leti r4 25441
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1663
 write a0 16 r4 
-leti r4 23329
+leti r4 1663
 write a0 16 r4 
-leti r4 21280
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 21279
+leti r4 1663
 write a0 16 r4 
-leti r4 21279
+leti r4 1663
 write a0 16 r4 
-leti r4 25443
+leti r4 1663
 write a0 16 r4 
-leti r4 29670
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 31720
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 5823
 write a0 16 r4 
-leti r4 29670
+leti r4 3647
 write a0 16 r4 
-leti r4 31784
+leti r4 3711
 write a0 16 r4 
-leti r4 36012
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 3775
 write a0 16 r4 
-leti r4 38126
+leti r4 1596
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1661
 write a0 16 r4 
-leti r4 42289
+leti r4 1661
 write a0 16 r4 
-leti r4 42353
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 40241
+leti r4 1661
 write a0 16 r4 
-leti r4 44467
+leti r4 1660
 write a0 16 r4 
-leti r4 42290
+leti r4 1660
 write a0 16 r4 
-leti r4 23327
+leti r4 1660
 write a0 16 r4 
-leti r4 8462
+leti r4 1661
 write a0 16 r4 
-leti r4 4295
+leti r4 1661
 write a0 16 r4 
-leti r4 6340
+leti r4 1662
 write a0 16 r4 
-leti r4 6340
+leti r4 1663
 write a0 16 r4 
-leti r4 12618
+leti r4 1663
 write a0 16 r4 
-leti r4 14665
+leti r4 1599
 write a0 16 r4 
-leti r4 16779
+leti r4 1663
 write a0 16 r4 
-leti r4 14665
+leti r4 1663
 write a0 16 r4 
-leti r4 14667
+leti r4 1662
 write a0 16 r4 
-leti r4 14731
+leti r4 1662
 write a0 16 r4 
-leti r4 8390
+leti r4 1661
 write a0 16 r4 
-leti r4 8390
+leti r4 1660
 write a0 16 r4 
-leti r4 12619
+leti r4 1660
 write a0 16 r4 
-leti r4 8389
+leti r4 1661
 write a0 16 r4 
-leti r4 8390
+leti r4 1662
 write a0 16 r4 
-leti r4 14732
+leti r4 1663
 write a0 16 r4 
-leti r4 12553
+leti r4 1663
 write a0 16 r4 
-leti r4 21074
+leti r4 1662
 write a0 16 r4 
-leti r4 21074
+leti r4 1662
 write a0 16 r4 
-leti r4 21009
+leti r4 3647
 write a0 16 r4 
-leti r4 16781
+leti r4 7679
 write a0 16 r4 
-leti r4 14666
+leti r4 9471
 write a0 16 r4 
-leti r4 14731
+leti r4 436
 write a0 16 r4 
-leti r4 14667
+leti r4 116
 write a0 16 r4 
-leti r4 14666
+leti r4 57
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 27416
+leti r4 4223
 write a0 16 r4 
-leti r4 29529
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29463
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 31513
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 61
 write a0 16 r4 
-leti r4 27351
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 2110
 write a0 16 r4 
-leti r4 29465
+leti r4 2110
 write a0 16 r4 
-leti r4 27480
+leti r4 59
 write a0 16 r4 
-leti r4 25301
+leti r4 8383
 write a0 16 r4 
-leti r4 27415
+leti r4 59
 write a0 16 r4 
-leti r4 27415
+leti r4 189
 write a0 16 r4 
-leti r4 29530
+leti r4 182
 write a0 16 r4 
-leti r4 35872
+leti r4 242
 write a0 16 r4 
-leti r4 35872
+leti r4 13567
 write a0 16 r4 
-leti r4 33824
+leti r4 13759
 write a0 16 r4 
-leti r4 42281
+leti r4 5439
 write a0 16 r4 
-leti r4 44394
+leti r4 9791
 write a0 16 r4 
-leti r4 44330
+leti r4 1471
 write a0 16 r4 
-leti r4 50673
+leti r4 1468
 write a0 16 r4 
-leti r4 50737
+leti r4 1663
 write a0 16 r4 
-leti r4 35874
+leti r4 1662
 write a0 16 r4 
-leti r4 29530
+leti r4 1727
 write a0 16 r4 
-leti r4 27416
+leti r4 1596
 write a0 16 r4 
-leti r4 21074
+leti r4 1663
 write a0 16 r4 
-leti r4 23123
+leti r4 1663
 write a0 16 r4 
-leti r4 23124
+leti r4 1663
 write a0 16 r4 
-leti r4 21075
+leti r4 1663
 write a0 16 r4 
-leti r4 37988
+leti r4 1663
 write a0 16 r4 
-leti r4 44330
+leti r4 1663
 write a0 16 r4 
-leti r4 44332
+leti r4 1662
 write a0 16 r4 
-leti r4 35876
+leti r4 1662
 write a0 16 r4 
-leti r4 27417
+leti r4 3710
 write a0 16 r4 
-leti r4 29465
+leti r4 3709
 write a0 16 r4 
-leti r4 23123
+leti r4 1661
 write a0 16 r4 
-leti r4 21074
+leti r4 1661
 write a0 16 r4 
-leti r4 23122
+leti r4 1660
 write a0 16 r4 
-leti r4 16780
+leti r4 1660
 write a0 16 r4 
-leti r4 14731
+leti r4 1724
 write a0 16 r4 
-leti r4 12617
+leti r4 1599
 write a0 16 r4 
-leti r4 14731
+leti r4 5503
 write a0 16 r4 
-leti r4 14667
+leti r4 13759
 write a0 16 r4 
-leti r4 8391
+leti r4 7487
 write a0 16 r4 
-leti r4 6342
+leti r4 9727
 write a0 16 r4 
-leti r4 6342
+leti r4 3519
 write a0 16 r4 
-leti r4 8456
+leti r4 3711
 write a0 16 r4 
-leti r4 8324
+leti r4 1595
 write a0 16 r4 
-leti r4 8389
+leti r4 1789
 write a0 16 r4 
-leti r4 23393
+leti r4 1723
 write a0 16 r4 
-leti r4 46581
+leti r4 1724
 write a0 16 r4 
-leti r4 46581
+leti r4 1662
 write a0 16 r4 
-leti r4 42352
+leti r4 1599
 write a0 16 r4 
-leti r4 42352
+leti r4 3647
 write a0 16 r4 
-leti r4 42287
+leti r4 1599
 write a0 16 r4 
-leti r4 40108
+leti r4 1599
 write a0 16 r4 
-leti r4 44336
+leti r4 1663
 write a0 16 r4 
-leti r4 38062
+leti r4 1661
 write a0 16 r4 
-leti r4 38062
+leti r4 1660
 write a0 16 r4 
-leti r4 38062
+leti r4 1661
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1663
 write a0 16 r4 
-leti r4 38062
+leti r4 1663
 write a0 16 r4 
-leti r4 38062
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1727
 write a0 16 r4 
-leti r4 38126
+leti r4 1661
 write a0 16 r4 
-leti r4 38061
+leti r4 1661
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 36013
+leti r4 1597
 write a0 16 r4 
-leti r4 36013
+leti r4 1598
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 36012
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1663
 write a0 16 r4 
-leti r4 29670
+leti r4 1663
 write a0 16 r4 
-leti r4 25442
+leti r4 1663
 write a0 16 r4 
-leti r4 29670
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 31719
+leti r4 1663
 write a0 16 r4 
-leti r4 29670
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1599
 write a0 16 r4 
-leti r4 31784
+leti r4 1598
 write a0 16 r4 
-leti r4 31785
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1533
 write a0 16 r4 
-leti r4 40175
+leti r4 1663
 write a0 16 r4 
-leti r4 36012
+leti r4 1598
 write a0 16 r4 
-leti r4 36012
+leti r4 1663
 write a0 16 r4 
-leti r4 40175
+leti r4 1597
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 42353
+leti r4 1662
 write a0 16 r4 
-leti r4 42353
+leti r4 1662
 write a0 16 r4 
-leti r4 42353
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1661
 write a0 16 r4 
-leti r4 40241
+leti r4 1661
 write a0 16 r4 
-leti r4 42289
+leti r4 1661
 write a0 16 r4 
-leti r4 42354
+leti r4 1661
 write a0 16 r4 
-leti r4 50741
+leti r4 1660
 write a0 16 r4 
-leti r4 40171
+leti r4 1660
 write a0 16 r4 
-leti r4 19029
+leti r4 1661
 write a0 16 r4 
-leti r4 10508
+leti r4 1661
 write a0 16 r4 
-leti r4 10507
+leti r4 1662
 write a0 16 r4 
-leti r4 8391
+leti r4 1663
 write a0 16 r4 
-leti r4 10441
+leti r4 1599
 write a0 16 r4 
-leti r4 16716
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 14731
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14667
+leti r4 1662
 write a0 16 r4 
-leti r4 12617
+leti r4 1662
 write a0 16 r4 
-leti r4 14731
+leti r4 1661
 write a0 16 r4 
-leti r4 8389
+leti r4 1661
 write a0 16 r4 
-leti r4 14731
+leti r4 1662
 write a0 16 r4 
-leti r4 12618
+leti r4 1663
 write a0 16 r4 
-leti r4 8390
+leti r4 1662
 write a0 16 r4 
-leti r4 8391
+leti r4 1663
 write a0 16 r4 
-leti r4 14731
+leti r4 1663
 write a0 16 r4 
-leti r4 23123
+leti r4 1599
 write a0 16 r4 
-leti r4 23188
+leti r4 3647
 write a0 16 r4 
-leti r4 27351
+leti r4 5631
 write a0 16 r4 
-leti r4 14666
+leti r4 11775
 write a0 16 r4 
-leti r4 14666
+leti r4 13695
 write a0 16 r4 
-leti r4 12617
+leti r4 306
 write a0 16 r4 
-leti r4 14732
+leti r4 182
 write a0 16 r4 
-leti r4 23122
+leti r4 124
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 21074
+leti r4 60
 write a0 16 r4 
-leti r4 21073
+leti r4 2111
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 31644
+leti r4 61
 write a0 16 r4 
-leti r4 29530
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 29529
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29465
+leti r4 60
 write a0 16 r4 
-leti r4 27351
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 31578
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 21138
+leti r4 127
 write a0 16 r4 
-leti r4 25366
+leti r4 60
 write a0 16 r4 
-leti r4 25366
+leti r4 185
 write a0 16 r4 
-leti r4 27415
+leti r4 177
 write a0 16 r4 
-leti r4 27416
+leti r4 366
 write a0 16 r4 
-leti r4 25367
+leti r4 9599
 write a0 16 r4 
-leti r4 31644
+leti r4 7679
 write a0 16 r4 
-leti r4 35873
+leti r4 5695
 write a0 16 r4 
-leti r4 42218
+leti r4 5823
 write a0 16 r4 
-leti r4 50739
+leti r4 1533
 write a0 16 r4 
-leti r4 50673
+leti r4 1663
 write a0 16 r4 
-leti r4 52851
+leti r4 1663
 write a0 16 r4 
-leti r4 35874
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1599
 write a0 16 r4 
-leti r4 21074
+leti r4 1599
 write a0 16 r4 
-leti r4 21074
+leti r4 1599
 write a0 16 r4 
-leti r4 21075
+leti r4 1663
 write a0 16 r4 
-leti r4 21075
+leti r4 1663
 write a0 16 r4 
-leti r4 23124
+leti r4 1662
 write a0 16 r4 
-leti r4 27416
+leti r4 1662
 write a0 16 r4 
-leti r4 40035
+leti r4 1662
 write a0 16 r4 
-leti r4 27417
+leti r4 3710
 write a0 16 r4 
-leti r4 27351
+leti r4 3710
 write a0 16 r4 
-leti r4 31580
+leti r4 3710
 write a0 16 r4 
-leti r4 21075
+leti r4 3647
 write a0 16 r4 
-leti r4 21009
+leti r4 1599
 write a0 16 r4 
-leti r4 23189
+leti r4 1599
 write a0 16 r4 
-leti r4 21074
+leti r4 1599
 write a0 16 r4 
-leti r4 23123
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 12618
+leti r4 3647
 write a0 16 r4 
-leti r4 14731
+leti r4 7615
 write a0 16 r4 
-leti r4 14667
+leti r4 307
 write a0 16 r4 
-leti r4 12618
+leti r4 246
 write a0 16 r4 
-leti r4 8391
+leti r4 304
 write a0 16 r4 
-leti r4 6342
+leti r4 5375
 write a0 16 r4 
-leti r4 6341
+leti r4 7743
 write a0 16 r4 
-leti r4 8391
+leti r4 3711
 write a0 16 r4 
-leti r4 8391
+leti r4 1335
 write a0 16 r4 
-leti r4 6277
+leti r4 5951
 write a0 16 r4 
-leti r4 23326
+leti r4 1661
 write a0 16 r4 
-leti r4 42353
+leti r4 1661
 write a0 16 r4 
-leti r4 44532
+leti r4 1661
 write a0 16 r4 
-leti r4 42353
+leti r4 1661
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 40174
+leti r4 1663
 write a0 16 r4 
-leti r4 40109
+leti r4 1599
 write a0 16 r4 
-leti r4 42288
+leti r4 1599
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1597
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38061
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 40240
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 36012
+leti r4 1663
 write a0 16 r4 
-leti r4 38127
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1663
 write a0 16 r4 
-leti r4 29670
+leti r4 1663
 write a0 16 r4 
-leti r4 29672
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 42355
+leti r4 1663
 write a0 16 r4 
-leti r4 40241
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1597
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1662
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1596
 write a0 16 r4 
-leti r4 40240
+leti r4 1663
 write a0 16 r4 
-leti r4 40240
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 42353
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1661
 write a0 16 r4 
-leti r4 42354
+leti r4 1661
 write a0 16 r4 
-leti r4 44468
+leti r4 1661
 write a0 16 r4 
-leti r4 48628
+leti r4 1661
 write a0 16 r4 
-leti r4 31714
+leti r4 1661
 write a0 16 r4 
-leti r4 10633
+leti r4 1662
 write a0 16 r4 
-leti r4 6342
+leti r4 1663
 write a0 16 r4 
-leti r4 8392
+leti r4 1599
 write a0 16 r4 
-leti r4 6277
+leti r4 1599
 write a0 16 r4 
-leti r4 8327
+leti r4 1599
 write a0 16 r4 
-leti r4 14665
+leti r4 1599
 write a0 16 r4 
-leti r4 12619
+leti r4 1599
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 14732
+leti r4 1599
 write a0 16 r4 
-leti r4 14731
+leti r4 1599
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 10438
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 1599
 write a0 16 r4 
-leti r4 6276
+leti r4 1663
 write a0 16 r4 
-leti r4 8455
+leti r4 1663
 write a0 16 r4 
-leti r4 10569
+leti r4 3647
 write a0 16 r4 
-leti r4 14732
+leti r4 3647
 write a0 16 r4 
-leti r4 12552
+leti r4 3647
 write a0 16 r4 
-leti r4 21074
+leti r4 3647
 write a0 16 r4 
-leti r4 31579
+leti r4 3647
 write a0 16 r4 
-leti r4 29529
+leti r4 3647
 write a0 16 r4 
-leti r4 21073
+leti r4 3583
 write a0 16 r4 
-leti r4 12618
+leti r4 9663
 write a0 16 r4 
-leti r4 14732
+leti r4 301
 write a0 16 r4 
-leti r4 12617
+leti r4 182
 write a0 16 r4 
-leti r4 23188
+leti r4 123
 write a0 16 r4 
-leti r4 21073
+leti r4 4223
 write a0 16 r4 
-leti r4 23188
+leti r4 60
 write a0 16 r4 
-leti r4 23187
+leti r4 62
 write a0 16 r4 
-leti r4 25301
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 23188
+leti r4 61
 write a0 16 r4 
-leti r4 21009
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 59
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29463
+leti r4 60
 write a0 16 r4 
-leti r4 29463
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 4158
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 27415
+leti r4 124
 write a0 16 r4 
-leti r4 29464
+leti r4 124
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 123
 write a0 16 r4 
-leti r4 27415
+leti r4 121
 write a0 16 r4 
-leti r4 27480
+leti r4 182
 write a0 16 r4 
-leti r4 25366
+leti r4 306
 write a0 16 r4 
-leti r4 27350
+leti r4 15807
 write a0 16 r4 
-leti r4 29529
+leti r4 7615
 write a0 16 r4 
-leti r4 27351
+leti r4 7807
 write a0 16 r4 
-leti r4 29531
+leti r4 1597
 write a0 16 r4 
-leti r4 44329
+leti r4 1660
 write a0 16 r4 
-leti r4 50741
+leti r4 1594
 write a0 16 r4 
-leti r4 50740
+leti r4 1727
 write a0 16 r4 
-leti r4 50739
+leti r4 1663
 write a0 16 r4 
-leti r4 33825
+leti r4 1599
 write a0 16 r4 
-leti r4 27418
+leti r4 1535
 write a0 16 r4 
-leti r4 21010
+leti r4 3711
 write a0 16 r4 
-leti r4 25237
+leti r4 1534
 write a0 16 r4 
-leti r4 23058
+leti r4 1599
 write a0 16 r4 
-leti r4 23124
+leti r4 1663
 write a0 16 r4 
-leti r4 12618
+leti r4 1662
 write a0 16 r4 
-leti r4 23123
+leti r4 1662
 write a0 16 r4 
-leti r4 27417
+leti r4 1662
 write a0 16 r4 
-leti r4 29530
+leti r4 1662
 write a0 16 r4 
-leti r4 27416
+leti r4 3710
 write a0 16 r4 
-leti r4 23187
+leti r4 3710
 write a0 16 r4 
-leti r4 21074
+leti r4 1662
 write a0 16 r4 
-leti r4 21075
+leti r4 1663
 write a0 16 r4 
-leti r4 23124
+leti r4 1599
 write a0 16 r4 
-leti r4 21074
+leti r4 1599
 write a0 16 r4 
-leti r4 21074
+leti r4 3583
 write a0 16 r4 
-leti r4 14667
+leti r4 5631
 write a0 16 r4 
-leti r4 12617
+leti r4 7615
 write a0 16 r4 
-leti r4 14666
+leti r4 9663
 write a0 16 r4 
-leti r4 14666
+leti r4 15679
 write a0 16 r4 
-leti r4 8391
+leti r4 121
 write a0 16 r4 
-leti r4 8325
+leti r4 122
 write a0 16 r4 
-leti r4 8390
+leti r4 247
 write a0 16 r4 
-leti r4 8455
+leti r4 369
 write a0 16 r4 
-leti r4 8390
+leti r4 9599
 write a0 16 r4 
-leti r4 6277
+leti r4 9727
 write a0 16 r4 
-leti r4 8391
+leti r4 7743
 write a0 16 r4 
-leti r4 6342
+leti r4 1470
 write a0 16 r4 
-leti r4 16984
+leti r4 1599
 write a0 16 r4 
-leti r4 36076
+leti r4 1662
 write a0 16 r4 
-leti r4 46581
+leti r4 1661
 write a0 16 r4 
-leti r4 42289
+leti r4 1661
 write a0 16 r4 
-leti r4 42289
+leti r4 1661
 write a0 16 r4 
-leti r4 40240
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1599
 write a0 16 r4 
-leti r4 40109
+leti r4 1599
 write a0 16 r4 
-leti r4 38125
+leti r4 1599
 write a0 16 r4 
-leti r4 38125
+leti r4 1599
 write a0 16 r4 
-leti r4 38125
+leti r4 1599
 write a0 16 r4 
-leti r4 38125
+leti r4 1663
 write a0 16 r4 
-leti r4 38062
+leti r4 1663
 write a0 16 r4 
-leti r4 38062
+leti r4 1663
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1727
 write a0 16 r4 
-leti r4 38061
+leti r4 1597
 write a0 16 r4 
-leti r4 38061
+leti r4 1727
 write a0 16 r4 
-leti r4 38061
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 38062
+leti r4 1599
 write a0 16 r4 
-leti r4 36013
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 42354
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1663
 write a0 16 r4 
-leti r4 29736
+leti r4 1663
 write a0 16 r4 
-leti r4 29736
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 40240
+leti r4 1663
 write a0 16 r4 
-leti r4 40240
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 38062
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1661
 write a0 16 r4 
-leti r4 38061
+leti r4 1661
 write a0 16 r4 
-leti r4 36013
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1598
 write a0 16 r4 
-leti r4 36013
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1727
 write a0 16 r4 
-leti r4 38125
+leti r4 1663
 write a0 16 r4 
-leti r4 38127
+leti r4 1663
 write a0 16 r4 
-leti r4 40240
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1661
 write a0 16 r4 
-leti r4 44468
+leti r4 1661
 write a0 16 r4 
-leti r4 46582
+leti r4 1661
 write a0 16 r4 
-leti r4 46516
+leti r4 1662
 write a0 16 r4 
-leti r4 25439
+leti r4 1663
 write a0 16 r4 
-leti r4 8583
+leti r4 1663
 write a0 16 r4 
-leti r4 6472
+leti r4 1599
 write a0 16 r4 
-leti r4 6344
+leti r4 1599
 write a0 16 r4 
-leti r4 8455
+leti r4 1599
 write a0 16 r4 
-leti r4 6341
+leti r4 1599
 write a0 16 r4 
-leti r4 14791
+leti r4 1599
 write a0 16 r4 
-leti r4 25304
+leti r4 1663
 write a0 16 r4 
-leti r4 23190
+leti r4 1663
 write a0 16 r4 
-leti r4 21075
+leti r4 1663
 write a0 16 r4 
-leti r4 21075
+leti r4 1663
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 10503
+leti r4 1599
 write a0 16 r4 
-leti r4 6276
+leti r4 1599
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 1663
 write a0 16 r4 
-leti r4 8389
+leti r4 3647
 write a0 16 r4 
-leti r4 8389
+leti r4 3647
 write a0 16 r4 
-leti r4 12619
+leti r4 5631
 write a0 16 r4 
-leti r4 14667
+leti r4 3583
 write a0 16 r4 
-leti r4 23123
+leti r4 1599
 write a0 16 r4 
-leti r4 21074
+leti r4 1663
 write a0 16 r4 
-leti r4 29529
+leti r4 1726
 write a0 16 r4 
-leti r4 25237
+leti r4 1661
 write a0 16 r4 
-leti r4 21009
+leti r4 1535
 write a0 16 r4 
-leti r4 21073
+leti r4 11775
 write a0 16 r4 
-leti r4 14732
+leti r4 17727
 write a0 16 r4 
-leti r4 12617
+leti r4 116
 write a0 16 r4 
-leti r4 23122
+leti r4 57
 write a0 16 r4 
-leti r4 14666
+leti r4 2111
 write a0 16 r4 
-leti r4 25300
+leti r4 62
 write a0 16 r4 
-leti r4 29527
+leti r4 62
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 21009
+leti r4 61
 write a0 16 r4 
-leti r4 16781
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 27417
+leti r4 60
 write a0 16 r4 
-leti r4 27417
+leti r4 61
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29463
+leti r4 61
 write a0 16 r4 
-leti r4 29463
+leti r4 60
 write a0 16 r4 
-leti r4 29463
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 4158
 write a0 16 r4 
-leti r4 29464
+leti r4 4158
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 190
 write a0 16 r4 
-leti r4 29464
+leti r4 123
 write a0 16 r4 
-leti r4 29464
+leti r4 58
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 58
 write a0 16 r4 
-leti r4 27351
+leti r4 6271
 write a0 16 r4 
-leti r4 29465
+leti r4 2110
 write a0 16 r4 
-leti r4 27415
+leti r4 58
 write a0 16 r4 
-leti r4 29465
+leti r4 254
 write a0 16 r4 
-leti r4 29464
+leti r4 184
 write a0 16 r4 
-leti r4 29530
+leti r4 178
 write a0 16 r4 
-leti r4 27415
+leti r4 435
 write a0 16 r4 
-leti r4 27418
+leti r4 7423
 write a0 16 r4 
-leti r4 25368
+leti r4 11839
 write a0 16 r4 
-leti r4 27417
+leti r4 5567
 write a0 16 r4 
-leti r4 27414
+leti r4 3583
 write a0 16 r4 
-leti r4 31579
+leti r4 3711
 write a0 16 r4 
-leti r4 33825
+leti r4 1596
 write a0 16 r4 
-leti r4 50740
+leti r4 1662
 write a0 16 r4 
-leti r4 59194
+leti r4 1663
 write a0 16 r4 
-leti r4 50737
+leti r4 1599
 write a0 16 r4 
-leti r4 35938
+leti r4 1599
 write a0 16 r4 
-leti r4 21074
+leti r4 1599
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 16779
+leti r4 1599
 write a0 16 r4 
-leti r4 14730
+leti r4 1662
 write a0 16 r4 
-leti r4 14665
+leti r4 1662
 write a0 16 r4 
-leti r4 21074
+leti r4 1662
 write a0 16 r4 
-leti r4 23124
+leti r4 1663
 write a0 16 r4 
-leti r4 21074
+leti r4 5823
 write a0 16 r4 
-leti r4 27417
+leti r4 1599
 write a0 16 r4 
-leti r4 23124
+leti r4 1599
 write a0 16 r4 
-leti r4 21010
+leti r4 1599
 write a0 16 r4 
-leti r4 23124
+leti r4 3775
 write a0 16 r4 
-leti r4 21075
+leti r4 1662
 write a0 16 r4 
-leti r4 21075
+leti r4 1661
 write a0 16 r4 
-leti r4 23123
+leti r4 1597
 write a0 16 r4 
-leti r4 23124
+leti r4 3647
 write a0 16 r4 
-leti r4 12617
+leti r4 7679
 write a0 16 r4 
-leti r4 14731
+leti r4 9535
 write a0 16 r4 
-leti r4 12618
+leti r4 17727
 write a0 16 r4 
-leti r4 12619
+leti r4 180
 write a0 16 r4 
-leti r4 8390
+leti r4 185
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 58
 write a0 16 r4 
-leti r4 8390
+leti r4 121
 write a0 16 r4 
-leti r4 8390
+leti r4 115
 write a0 16 r4 
-leti r4 8390
+leti r4 437
 write a0 16 r4 
-leti r4 8390
+leti r4 7359
 write a0 16 r4 
-leti r4 8390
+leti r4 11903
 write a0 16 r4 
-leti r4 6414
+leti r4 1535
 write a0 16 r4 
-leti r4 31783
+leti r4 1663
 write a0 16 r4 
-leti r4 46517
+leti r4 1662
 write a0 16 r4 
-leti r4 46517
+leti r4 1663
 write a0 16 r4 
-leti r4 42353
+leti r4 1663
 write a0 16 r4 
-leti r4 42353
+leti r4 1597
 write a0 16 r4 
-leti r4 38061
+leti r4 1727
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38062
+leti r4 1599
 write a0 16 r4 
-leti r4 38062
+leti r4 1599
 write a0 16 r4 
-leti r4 38062
+leti r4 1599
 write a0 16 r4 
-leti r4 38062
+leti r4 1599
 write a0 16 r4 
-leti r4 36013
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 31850
+leti r4 1597
 write a0 16 r4 
-leti r4 36012
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 38125
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1663
 write a0 16 r4 
-leti r4 42353
+leti r4 1663
 write a0 16 r4 
-leti r4 40240
+leti r4 1662
 write a0 16 r4 
-leti r4 38127
+leti r4 1661
 write a0 16 r4 
-leti r4 36013
+leti r4 1661
 write a0 16 r4 
-leti r4 38061
+leti r4 1661
 write a0 16 r4 
-leti r4 36012
+leti r4 1661
 write a0 16 r4 
-leti r4 38126
+leti r4 1661
 write a0 16 r4 
-leti r4 38126
+leti r4 1661
 write a0 16 r4 
-leti r4 38061
+leti r4 1661
 write a0 16 r4 
-leti r4 40241
+leti r4 1661
 write a0 16 r4 
-leti r4 42354
+leti r4 1661
 write a0 16 r4 
-leti r4 42354
+leti r4 1661
 write a0 16 r4 
-leti r4 40240
+leti r4 1661
 write a0 16 r4 
-leti r4 42353
+leti r4 1661
 write a0 16 r4 
-leti r4 42353
+leti r4 1661
 write a0 16 r4 
-leti r4 42354
+leti r4 1661
 write a0 16 r4 
-leti r4 38125
+leti r4 1661
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 38061
+leti r4 1662
 write a0 16 r4 
-leti r4 38127
+leti r4 1662
 write a0 16 r4 
-leti r4 36013
+leti r4 1662
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1663
 write a0 16 r4 
-leti r4 36014
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 42353
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 46581
+leti r4 1662
 write a0 16 r4 
-leti r4 44532
+leti r4 1662
 write a0 16 r4 
-leti r4 42281
+leti r4 1663
 write a0 16 r4 
-leti r4 19093
+leti r4 1663
 write a0 16 r4 
-leti r4 8587
+leti r4 1663
 write a0 16 r4 
-leti r4 4360
+leti r4 1663
 write a0 16 r4 
-leti r4 8522
+leti r4 1533
 write a0 16 r4 
-leti r4 8455
+leti r4 3711
 write a0 16 r4 
-leti r4 8325
+leti r4 1599
 write a0 16 r4 
-leti r4 14667
+leti r4 1663
 write a0 16 r4 
-leti r4 25303
+leti r4 1727
 write a0 16 r4 
-leti r4 23189
+leti r4 1727
 write a0 16 r4 
-leti r4 21140
+leti r4 1661
 write a0 16 r4 
-leti r4 14733
+leti r4 1596
 write a0 16 r4 
-leti r4 12619
+leti r4 1663
 write a0 16 r4 
-leti r4 6341
+leti r4 1663
 write a0 16 r4 
-leti r4 8391
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 1663
 write a0 16 r4 
-leti r4 6277
+leti r4 1663
 write a0 16 r4 
-leti r4 8390
+leti r4 1599
 write a0 16 r4 
-leti r4 8391
+leti r4 3583
 write a0 16 r4 
-leti r4 6342
+leti r4 5695
 write a0 16 r4 
-leti r4 6341
+leti r4 3647
 write a0 16 r4 
-leti r4 14731
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 23122
+leti r4 1724
 write a0 16 r4 
-leti r4 21073
+leti r4 1659
 write a0 16 r4 
-leti r4 21074
+leti r4 1727
 write a0 16 r4 
-leti r4 21074
+leti r4 1535
 write a0 16 r4 
-leti r4 14731
+leti r4 13887
 write a0 16 r4 
-leti r4 14731
+leti r4 13567
 write a0 16 r4 
-leti r4 21009
+leti r4 247
 write a0 16 r4 
-leti r4 14731
+leti r4 57
 write a0 16 r4 
-leti r4 21073
+leti r4 59
 write a0 16 r4 
-leti r4 27414
+leti r4 63
 write a0 16 r4 
-leti r4 27416
+leti r4 63
 write a0 16 r4 
-leti r4 14666
+leti r4 63
 write a0 16 r4 
-leti r4 10438
+leti r4 62
 write a0 16 r4 
-leti r4 21074
+leti r4 61
 write a0 16 r4 
-leti r4 29530
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 2111
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 2111
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 126
 write a0 16 r4 
-leti r4 29464
+leti r4 2175
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29529
+leti r4 6271
 write a0 16 r4 
-leti r4 29465
+leti r4 59
 write a0 16 r4 
-leti r4 29465
+leti r4 59
 write a0 16 r4 
-leti r4 27350
+leti r4 120
 write a0 16 r4 
-leti r4 29464
+leti r4 180
 write a0 16 r4 
-leti r4 27416
+leti r4 304
 write a0 16 r4 
-leti r4 29464
+leti r4 13695
 write a0 16 r4 
-leti r4 29464
+leti r4 3391
 write a0 16 r4 
-leti r4 27416
+leti r4 5695
 write a0 16 r4 
-leti r4 25369
+leti r4 1535
 write a0 16 r4 
-leti r4 27416
+leti r4 1470
 write a0 16 r4 
-leti r4 31644
+leti r4 3711
 write a0 16 r4 
-leti r4 42215
+leti r4 1727
 write a0 16 r4 
-leti r4 52851
+leti r4 1597
 write a0 16 r4 
-leti r4 50740
+leti r4 1663
 write a0 16 r4 
-leti r4 50737
+leti r4 1599
 write a0 16 r4 
-leti r4 35874
+leti r4 1599
 write a0 16 r4 
-leti r4 21075
+leti r4 1599
 write a0 16 r4 
-leti r4 14731
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 12553
+leti r4 1662
 write a0 16 r4 
-leti r4 12616
+leti r4 1661
 write a0 16 r4 
-leti r4 14731
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1598
 write a0 16 r4 
-leti r4 21010
+leti r4 1599
 write a0 16 r4 
-leti r4 21075
+leti r4 1468
 write a0 16 r4 
-leti r4 21075
+leti r4 3711
 write a0 16 r4 
-leti r4 21075
+leti r4 1663
 write a0 16 r4 
-leti r4 23124
+leti r4 1599
 write a0 16 r4 
-leti r4 21010
+leti r4 1599
 write a0 16 r4 
-leti r4 21075
+leti r4 1533
 write a0 16 r4 
-leti r4 21075
+leti r4 3711
 write a0 16 r4 
-leti r4 23123
+leti r4 3583
 write a0 16 r4 
-leti r4 23122
+leti r4 9663
 write a0 16 r4 
-leti r4 14667
+leti r4 15807
 write a0 16 r4 
-leti r4 14732
+leti r4 307
 write a0 16 r4 
-leti r4 14731
+leti r4 117
 write a0 16 r4 
-leti r4 8390
+leti r4 191
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 2175
 write a0 16 r4 
-leti r4 8390
+leti r4 190
 write a0 16 r4 
-leti r4 8390
+leti r4 53
 write a0 16 r4 
-leti r4 8390
+leti r4 374
 write a0 16 r4 
-leti r4 8390
+leti r4 9407
 write a0 16 r4 
-leti r4 6412
+leti r4 11775
 write a0 16 r4 
-leti r4 25440
+leti r4 5567
 write a0 16 r4 
-leti r4 44467
+leti r4 3583
 write a0 16 r4 
-leti r4 44468
+leti r4 1535
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 40241
+leti r4 1727
 write a0 16 r4 
-leti r4 40174
+leti r4 1662
 write a0 16 r4 
-leti r4 40175
+leti r4 1663
 write a0 16 r4 
-leti r4 38062
+leti r4 1599
 write a0 16 r4 
-leti r4 38061
+leti r4 1535
 write a0 16 r4 
-leti r4 38062
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 36013
+leti r4 1727
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 29736
+leti r4 1598
 write a0 16 r4 
-leti r4 31785
+leti r4 1662
 write a0 16 r4 
-leti r4 31784
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 38127
+leti r4 1662
 write a0 16 r4 
-leti r4 36013
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 40175
+leti r4 1661
 write a0 16 r4 
-leti r4 42353
+leti r4 1661
 write a0 16 r4 
-leti r4 44403
+leti r4 1662
 write a0 16 r4 
-leti r4 40176
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 40240
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 40240
+leti r4 1662
 write a0 16 r4 
-leti r4 38127
+leti r4 1662
 write a0 16 r4 
-leti r4 36013
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 38127
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 42353
+leti r4 1662
 write a0 16 r4 
-leti r4 40240
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 38061
+leti r4 1662
 write a0 16 r4 
-leti r4 38127
+leti r4 1662
 write a0 16 r4 
-leti r4 29671
+leti r4 1662
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 33899
+leti r4 1663
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38127
+leti r4 1599
 write a0 16 r4 
-leti r4 36013
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 40240
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1663
 write a0 16 r4 
-leti r4 44469
+leti r4 1662
 write a0 16 r4 
-leti r4 44532
+leti r4 1662
 write a0 16 r4 
-leti r4 33825
+leti r4 1727
 write a0 16 r4 
-leti r4 10635
+leti r4 1597
 write a0 16 r4 
-leti r4 6473
+leti r4 1599
 write a0 16 r4 
-leti r4 8522
+leti r4 1599
 write a0 16 r4 
-leti r4 6343
+leti r4 3711
 write a0 16 r4 
-leti r4 6276
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 1663
 write a0 16 r4 
-leti r4 8391
+leti r4 1597
 write a0 16 r4 
-leti r4 12684
+leti r4 1659
 write a0 16 r4 
-leti r4 12684
+leti r4 1658
 write a0 16 r4 
-leti r4 12619
+leti r4 1724
 write a0 16 r4 
-leti r4 10505
+leti r4 1727
 write a0 16 r4 
-leti r4 8455
+leti r4 1663
 write a0 16 r4 
-leti r4 6342
+leti r4 1599
 write a0 16 r4 
-leti r4 6342
+leti r4 1535
 write a0 16 r4 
-leti r4 8390
+leti r4 1663
 write a0 16 r4 
-leti r4 6341
+leti r4 1662
 write a0 16 r4 
-leti r4 8390
+leti r4 1662
 write a0 16 r4 
-leti r4 8390
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 1599
 write a0 16 r4 
-leti r4 8391
+leti r4 3647
 write a0 16 r4 
-leti r4 8390
+leti r4 1663
 write a0 16 r4 
-leti r4 12618
+leti r4 1661
 write a0 16 r4 
-leti r4 16779
+leti r4 1725
 write a0 16 r4 
-leti r4 14667
+leti r4 1660
 write a0 16 r4 
-leti r4 14731
+leti r4 1791
 write a0 16 r4 
-leti r4 14667
+leti r4 1726
 write a0 16 r4 
-leti r4 14731
+leti r4 1597
 write a0 16 r4 
-leti r4 12617
+leti r4 1404
 write a0 16 r4 
-leti r4 12617
+leti r4 11775
 write a0 16 r4 
-leti r4 16780
+leti r4 15743
 write a0 16 r4 
-leti r4 12617
+leti r4 310
 write a0 16 r4 
-leti r4 23187
+leti r4 185
 write a0 16 r4 
-leti r4 27416
+leti r4 124
 write a0 16 r4 
-leti r4 27350
+leti r4 59
 write a0 16 r4 
-leti r4 12617
+leti r4 62
 write a0 16 r4 
-leti r4 6276
+leti r4 59
 write a0 16 r4 
-leti r4 21074
+leti r4 63
 write a0 16 r4 
-leti r4 31644
+leti r4 62
 write a0 16 r4 
-leti r4 27351
+leti r4 61
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 4158
 write a0 16 r4 
-leti r4 27415
+leti r4 6207
 write a0 16 r4 
-leti r4 27350
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 56
 write a0 16 r4 
-leti r4 29464
+leti r4 310
 write a0 16 r4 
-leti r4 29464
+leti r4 366
 write a0 16 r4 
-leti r4 27415
+leti r4 7615
 write a0 16 r4 
-leti r4 29463
+leti r4 5631
 write a0 16 r4 
-leti r4 27416
+leti r4 7807
 write a0 16 r4 
-leti r4 27417
+leti r4 5759
 write a0 16 r4 
-leti r4 27417
+leti r4 1598
 write a0 16 r4 
-leti r4 33825
+leti r4 1599
 write a0 16 r4 
-leti r4 44329
+leti r4 1663
 write a0 16 r4 
-leti r4 44329
+leti r4 1599
 write a0 16 r4 
-leti r4 50673
+leti r4 1599
 write a0 16 r4 
-leti r4 50739
+leti r4 1663
 write a0 16 r4 
-leti r4 46442
+leti r4 1599
 write a0 16 r4 
-leti r4 27415
+leti r4 1599
 write a0 16 r4 
-leti r4 14667
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1660
 write a0 16 r4 
-leti r4 16781
+leti r4 1723
 write a0 16 r4 
-leti r4 21073
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 23188
+leti r4 9983
 write a0 16 r4 
-leti r4 21075
+leti r4 3711
 write a0 16 r4 
-leti r4 21074
+leti r4 1597
 write a0 16 r4 
-leti r4 23123
+leti r4 1727
 write a0 16 r4 
-leti r4 14667
+leti r4 1598
 write a0 16 r4 
-leti r4 23123
+leti r4 1599
 write a0 16 r4 
-leti r4 23124
+leti r4 5695
 write a0 16 r4 
-leti r4 23189
+leti r4 5503
 write a0 16 r4 
-leti r4 23124
+leti r4 11583
 write a0 16 r4 
-leti r4 21008
+leti r4 242
 write a0 16 r4 
-leti r4 14666
+leti r4 50
 write a0 16 r4 
-leti r4 14666
+leti r4 187
 write a0 16 r4 
-leti r4 14731
+leti r4 57
 write a0 16 r4 
-leti r4 6275
+leti r4 61
 write a0 16 r4 
-leti r4 8391
+leti r4 127
 write a0 16 r4 
-leti r4 8390
+leti r4 2175
 write a0 16 r4 
-leti r4 8390
+leti r4 58
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 56
 write a0 16 r4 
-leti r4 8390
+leti r4 316
 write a0 16 r4 
-leti r4 6343
+leti r4 177
 write a0 16 r4 
-leti r4 19029
+leti r4 17791
 write a0 16 r4 
-leti r4 42350
+leti r4 9663
 write a0 16 r4 
-leti r4 46581
+leti r4 5631
 write a0 16 r4 
-leti r4 38127
+leti r4 1599
 write a0 16 r4 
-leti r4 40241
+leti r4 1663
 write a0 16 r4 
-leti r4 40239
+leti r4 1598
 write a0 16 r4 
-leti r4 40174
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1598
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 3775
 write a0 16 r4 
-leti r4 38126
+leti r4 1531
 write a0 16 r4 
-leti r4 38126
+leti r4 1531
 write a0 16 r4 
-leti r4 31784
+leti r4 1595
 write a0 16 r4 
-leti r4 29671
+leti r4 1727
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 29672
+leti r4 1663
 write a0 16 r4 
-leti r4 31720
+leti r4 1663
 write a0 16 r4 
-leti r4 36014
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1661
 write a0 16 r4 
-leti r4 42290
+leti r4 1660
 write a0 16 r4 
-leti r4 42354
+leti r4 1660
 write a0 16 r4 
-leti r4 42353
+leti r4 1660
 write a0 16 r4 
-leti r4 40240
+leti r4 1662
 write a0 16 r4 
-leti r4 38125
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 36012
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 40241
+leti r4 1663
 write a0 16 r4 
-leti r4 42355
+leti r4 1663
 write a0 16 r4 
-leti r4 40240
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1663
 write a0 16 r4 
-leti r4 40241
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 29670
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1663
 write a0 16 r4 
-leti r4 27622
+leti r4 1663
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1599
 write a0 16 r4 
-leti r4 38061
+leti r4 1599
 write a0 16 r4 
-leti r4 42354
+leti r4 1599
 write a0 16 r4 
-leti r4 36013
+leti r4 1599
 write a0 16 r4 
-leti r4 42353
+leti r4 1599
 write a0 16 r4 
-leti r4 42354
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 40176
+leti r4 1663
 write a0 16 r4 
-leti r4 46582
+leti r4 1663
 write a0 16 r4 
-leti r4 44468
+leti r4 1663
 write a0 16 r4 
-leti r4 19092
+leti r4 1596
 write a0 16 r4 
-leti r4 6409
+leti r4 1662
 write a0 16 r4 
-leti r4 8522
+leti r4 1663
 write a0 16 r4 
-leti r4 8457
+leti r4 3711
 write a0 16 r4 
-leti r4 6342
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 1598
 write a0 16 r4 
-leti r4 8391
+leti r4 3711
 write a0 16 r4 
-leti r4 6342
+leti r4 5823
 write a0 16 r4 
-leti r4 6277
+leti r4 1725
 write a0 16 r4 
-leti r4 8390
+leti r4 1722
 write a0 16 r4 
-leti r4 6342
+leti r4 1722
 write a0 16 r4 
-leti r4 8456
+leti r4 1724
 write a0 16 r4 
-leti r4 6341
+leti r4 1661
 write a0 16 r4 
-leti r4 8391
+leti r4 1662
 write a0 16 r4 
-leti r4 6341
+leti r4 1663
 write a0 16 r4 
-leti r4 8390
+leti r4 1599
 write a0 16 r4 
-leti r4 6342
+leti r4 1662
 write a0 16 r4 
-leti r4 8391
+leti r4 1662
 write a0 16 r4 
-leti r4 8390
+leti r4 1662
 write a0 16 r4 
-leti r4 6277
+leti r4 1662
 write a0 16 r4 
-leti r4 6277
+leti r4 1662
 write a0 16 r4 
-leti r4 6341
+leti r4 1662
 write a0 16 r4 
-leti r4 8390
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 12617
+leti r4 1663
 write a0 16 r4 
-leti r4 14731
+leti r4 1727
 write a0 16 r4 
-leti r4 12617
+leti r4 1530
 write a0 16 r4 
-leti r4 12618
+leti r4 1791
 write a0 16 r4 
-leti r4 14731
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1469
 write a0 16 r4 
-leti r4 14731
+leti r4 7807
 write a0 16 r4 
-leti r4 14666
+leti r4 5375
 write a0 16 r4 
-leti r4 14666
+leti r4 304
 write a0 16 r4 
-leti r4 18960
+leti r4 180
 write a0 16 r4 
-leti r4 29465
+leti r4 185
 write a0 16 r4 
-leti r4 12617
+leti r4 124
 write a0 16 r4 
-leti r4 10504
+leti r4 127
 write a0 16 r4 
-leti r4 16781
+leti r4 127
 write a0 16 r4 
-leti r4 27416
+leti r4 59
 write a0 16 r4 
-leti r4 37987
+leti r4 2175
 write a0 16 r4 
-leti r4 25368
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 61
 write a0 16 r4 
-leti r4 29465
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29463
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 27415
+leti r4 2109
 write a0 16 r4 
-leti r4 29464
+leti r4 56
 write a0 16 r4 
-leti r4 29465
+leti r4 122
 write a0 16 r4 
-leti r4 31578
+leti r4 180
 write a0 16 r4 
-leti r4 29465
+leti r4 21951
 write a0 16 r4 
-leti r4 29464
+leti r4 5503
 write a0 16 r4 
-leti r4 29464
+leti r4 3583
 write a0 16 r4 
-leti r4 29465
+leti r4 1599
 write a0 16 r4 
-leti r4 27416
+leti r4 1531
 write a0 16 r4 
-leti r4 33824
+leti r4 3709
 write a0 16 r4 
-leti r4 35939
+leti r4 3775
 write a0 16 r4 
-leti r4 42280
+leti r4 1663
 write a0 16 r4 
-leti r4 44394
+leti r4 1599
 write a0 16 r4 
-leti r4 52786
+leti r4 1599
 write a0 16 r4 
-leti r4 52852
+leti r4 1599
 write a0 16 r4 
-leti r4 40169
+leti r4 1599
 write a0 16 r4 
-leti r4 27351
+leti r4 1663
 write a0 16 r4 
-leti r4 16780
+leti r4 1663
 write a0 16 r4 
-leti r4 12553
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1660
 write a0 16 r4 
-leti r4 14666
+leti r4 1660
 write a0 16 r4 
-leti r4 14666
+leti r4 1660
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 12618
+leti r4 1534
 write a0 16 r4 
-leti r4 21074
+leti r4 1599
 write a0 16 r4 
-leti r4 23188
+leti r4 1468
 write a0 16 r4 
-leti r4 23123
+leti r4 3775
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 21010
+leti r4 3583
 write a0 16 r4 
-leti r4 21010
+leti r4 5567
 write a0 16 r4 
-leti r4 21074
+leti r4 493
 write a0 16 r4 
-leti r4 21010
+leti r4 306
 write a0 16 r4 
-leti r4 21008
+leti r4 182
 write a0 16 r4 
-leti r4 16781
+leti r4 122
 write a0 16 r4 
-leti r4 14666
+leti r4 191
 write a0 16 r4 
-leti r4 12617
+leti r4 127
 write a0 16 r4 
-leti r4 14731
+leti r4 63
 write a0 16 r4 
-leti r4 6341
+leti r4 127
 write a0 16 r4 
-leti r4 8391
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 2111
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 127
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 58
 write a0 16 r4 
-leti r4 8390
+leti r4 4223
 write a0 16 r4 
-leti r4 8390
+leti r4 2111
 write a0 16 r4 
-leti r4 8390
+leti r4 55
 write a0 16 r4 
-leti r4 6276
+leti r4 123
 write a0 16 r4 
-leti r4 10571
+leti r4 181
 write a0 16 r4 
-leti r4 31779
+leti r4 304
 write a0 16 r4 
-leti r4 46580
+leti r4 11647
 write a0 16 r4 
-leti r4 42419
+leti r4 7679
 write a0 16 r4 
-leti r4 40242
+leti r4 1471
 write a0 16 r4 
-leti r4 38127
+leti r4 3711
 write a0 16 r4 
-leti r4 38061
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1598
 write a0 16 r4 
-leti r4 38062
+leti r4 3711
 write a0 16 r4 
-leti r4 38061
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 31784
+leti r4 1727
 write a0 16 r4 
-leti r4 29736
+leti r4 1727
 write a0 16 r4 
-leti r4 29736
+leti r4 1598
 write a0 16 r4 
-leti r4 31785
+leti r4 1599
 write a0 16 r4 
-leti r4 29671
+leti r4 1599
 write a0 16 r4 
-leti r4 31785
+leti r4 1599
 write a0 16 r4 
-leti r4 38125
+leti r4 1599
 write a0 16 r4 
-leti r4 40240
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1661
 write a0 16 r4 
-leti r4 36011
+leti r4 1723
 write a0 16 r4 
-leti r4 38126
+leti r4 1660
 write a0 16 r4 
-leti r4 31719
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 33833
+leti r4 1663
 write a0 16 r4 
-leti r4 31783
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 31783
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 31783
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 29670
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 38125
+leti r4 1663
 write a0 16 r4 
-leti r4 44403
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 42355
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 31850
+leti r4 1663
 write a0 16 r4 
-leti r4 33898
+leti r4 1663
 write a0 16 r4 
-leti r4 36012
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 40240
+leti r4 1663
 write a0 16 r4 
-leti r4 40240
+leti r4 1663
 write a0 16 r4 
-leti r4 42290
+leti r4 1599
 write a0 16 r4 
-leti r4 46583
+leti r4 1599
 write a0 16 r4 
-leti r4 46517
+leti r4 1663
 write a0 16 r4 
-leti r4 38124
+leti r4 1663
 write a0 16 r4 
-leti r4 8523
+leti r4 1662
 write a0 16 r4 
-leti r4 6407
+leti r4 1791
 write a0 16 r4 
-leti r4 8457
+leti r4 1663
 write a0 16 r4 
-leti r4 6343
+leti r4 1599
 write a0 16 r4 
-leti r4 6277
+leti r4 5695
 write a0 16 r4 
-leti r4 8391
+leti r4 5695
 write a0 16 r4 
-leti r4 8390
+leti r4 5695
 write a0 16 r4 
-leti r4 6342
+leti r4 1466
 write a0 16 r4 
-leti r4 8390
+leti r4 3709
 write a0 16 r4 
-leti r4 8391
+leti r4 1724
 write a0 16 r4 
-leti r4 6341
+leti r4 1724
 write a0 16 r4 
-leti r4 8455
+leti r4 1722
 write a0 16 r4 
-leti r4 6277
+leti r4 1658
 write a0 16 r4 
-leti r4 8391
+leti r4 1725
 write a0 16 r4 
-leti r4 6342
+leti r4 1727
 write a0 16 r4 
-leti r4 8391
+leti r4 1598
 write a0 16 r4 
-leti r4 10570
+leti r4 1663
 write a0 16 r4 
-leti r4 12618
+leti r4 1662
 write a0 16 r4 
-leti r4 10504
+leti r4 1661
 write a0 16 r4 
-leti r4 8391
+leti r4 1724
 write a0 16 r4 
-leti r4 8390
+leti r4 1724
 write a0 16 r4 
-leti r4 8455
+leti r4 1661
 write a0 16 r4 
-leti r4 12617
+leti r4 1663
 write a0 16 r4 
-leti r4 14731
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1534
 write a0 16 r4 
-leti r4 16780
+leti r4 3775
 write a0 16 r4 
-leti r4 12618
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1596
 write a0 16 r4 
-leti r4 16780
+leti r4 3839
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14666
+leti r4 1465
 write a0 16 r4 
-leti r4 14666
+leti r4 9983
 write a0 16 r4 
-leti r4 14667
+leti r4 11647
 write a0 16 r4 
-leti r4 14732
+leti r4 21887
 write a0 16 r4 
-leti r4 21074
+leti r4 243
 write a0 16 r4 
-leti r4 21074
+leti r4 249
 write a0 16 r4 
-leti r4 8325
+leti r4 56
 write a0 16 r4 
-leti r4 8389
+leti r4 59
 write a0 16 r4 
-leti r4 21009
+leti r4 61
 write a0 16 r4 
-leti r4 29531
+leti r4 60
 write a0 16 r4 
-leti r4 25368
+leti r4 62
 write a0 16 r4 
-leti r4 27417
+leti r4 61
 write a0 16 r4 
-leti r4 27417
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 188
 write a0 16 r4 
-leti r4 29465
+leti r4 183
 write a0 16 r4 
-leti r4 29529
+leti r4 307
 write a0 16 r4 
-leti r4 29464
+leti r4 13631
 write a0 16 r4 
-leti r4 29464
+leti r4 5439
 write a0 16 r4 
-leti r4 29465
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27350
+leti r4 1662
 write a0 16 r4 
-leti r4 35938
+leti r4 3711
 write a0 16 r4 
-leti r4 44329
+leti r4 5759
 write a0 16 r4 
-leti r4 42280
+leti r4 3711
 write a0 16 r4 
-leti r4 42280
+leti r4 1599
 write a0 16 r4 
-leti r4 42281
+leti r4 1534
 write a0 16 r4 
-leti r4 50737
+leti r4 1663
 write a0 16 r4 
-leti r4 42281
+leti r4 1727
 write a0 16 r4 
-leti r4 29532
+leti r4 1597
 write a0 16 r4 
-leti r4 14731
+leti r4 1662
 write a0 16 r4 
-leti r4 12553
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 16779
+leti r4 1661
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1662
 write a0 16 r4 
-leti r4 12617
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1726
 write a0 16 r4 
-leti r4 14667
+leti r4 1660
 write a0 16 r4 
-leti r4 18960
+leti r4 3775
 write a0 16 r4 
-leti r4 12618
+leti r4 1535
 write a0 16 r4 
-leti r4 14732
+leti r4 5631
 write a0 16 r4 
-leti r4 23124
+leti r4 11711
 write a0 16 r4 
-leti r4 23189
+leti r4 303
 write a0 16 r4 
-leti r4 21074
+leti r4 179
 write a0 16 r4 
-leti r4 14667
+leti r4 186
 write a0 16 r4 
-leti r4 14731
+leti r4 57
 write a0 16 r4 
-leti r4 14666
+leti r4 61
 write a0 16 r4 
-leti r4 14731
+leti r4 60
 write a0 16 r4 
-leti r4 14666
+leti r4 60
 write a0 16 r4 
-leti r4 14731
+leti r4 61
 write a0 16 r4 
-leti r4 12617
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 2175
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 2111
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 127
 write a0 16 r4 
-leti r4 8389
+leti r4 61
 write a0 16 r4 
-leti r4 6341
+leti r4 57
 write a0 16 r4 
-leti r4 19093
+leti r4 187
 write a0 16 r4 
-leti r4 40236
+leti r4 116
 write a0 16 r4 
-leti r4 46582
+leti r4 304
 write a0 16 r4 
-leti r4 40241
+leti r4 11647
 write a0 16 r4 
-leti r4 38126
+leti r4 7679
 write a0 16 r4 
-leti r4 38061
+leti r4 3519
 write a0 16 r4 
-leti r4 38126
+leti r4 5695
 write a0 16 r4 
-leti r4 38062
+leti r4 5695
 write a0 16 r4 
-leti r4 38062
+leti r4 1531
 write a0 16 r4 
-leti r4 38062
+leti r4 5823
 write a0 16 r4 
-leti r4 36013
+leti r4 1596
 write a0 16 r4 
-leti r4 31784
+leti r4 1661
 write a0 16 r4 
-leti r4 31784
+leti r4 1595
 write a0 16 r4 
-leti r4 31784
+leti r4 1727
 write a0 16 r4 
-leti r4 23393
+leti r4 1599
 write a0 16 r4 
-leti r4 21279
+leti r4 1599
 write a0 16 r4 
-leti r4 23328
+leti r4 1599
 write a0 16 r4 
-leti r4 23327
+leti r4 1599
 write a0 16 r4 
-leti r4 23326
+leti r4 1599
 write a0 16 r4 
-leti r4 25440
+leti r4 1662
 write a0 16 r4 
-leti r4 23327
+leti r4 1661
 write a0 16 r4 
-leti r4 23327
+leti r4 1661
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 21214
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 25441
+leti r4 1663
 write a0 16 r4 
-leti r4 29670
+leti r4 1663
 write a0 16 r4 
-leti r4 29735
+leti r4 1663
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1663
 write a0 16 r4 
-leti r4 29670
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1663
 write a0 16 r4 
-leti r4 40175
+leti r4 1663
 write a0 16 r4 
-leti r4 36012
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 1663
 write a0 16 r4 
-leti r4 44467
+leti r4 1663
 write a0 16 r4 
-leti r4 40241
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1663
 write a0 16 r4 
-leti r4 46517
+leti r4 1663
 write a0 16 r4 
-leti r4 42353
+leti r4 1599
 write a0 16 r4 
-leti r4 25438
+leti r4 1663
 write a0 16 r4 
-leti r4 8522
+leti r4 1594
 write a0 16 r4 
-leti r4 4228
+leti r4 1661
 write a0 16 r4 
-leti r4 6342
+leti r4 3775
 write a0 16 r4 
-leti r4 8455
+leti r4 1470
 write a0 16 r4 
-leti r4 6277
+leti r4 9791
 write a0 16 r4 
-leti r4 8390
+leti r4 5567
 write a0 16 r4 
-leti r4 6342
+leti r4 9727
 write a0 16 r4 
-leti r4 6343
+leti r4 7679
 write a0 16 r4 
-leti r4 8391
+leti r4 1534
 write a0 16 r4 
-leti r4 8391
+leti r4 1598
 write a0 16 r4 
-leti r4 6342
+leti r4 1726
 write a0 16 r4 
-leti r4 6342
+leti r4 1726
 write a0 16 r4 
-leti r4 6342
+leti r4 1660
 write a0 16 r4 
-leti r4 8390
+leti r4 1660
 write a0 16 r4 
-leti r4 8390
+leti r4 1661
 write a0 16 r4 
-leti r4 8390
+leti r4 1663
 write a0 16 r4 
-leti r4 8455
+leti r4 1599
 write a0 16 r4 
-leti r4 8391
+leti r4 1663
 write a0 16 r4 
-leti r4 6277
+leti r4 1723
 write a0 16 r4 
-leti r4 8390
+leti r4 1722
 write a0 16 r4 
-leti r4 6277
+leti r4 1723
 write a0 16 r4 
-leti r4 6341
+leti r4 1662
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 3711
 write a0 16 r4 
-leti r4 14666
+leti r4 1534
 write a0 16 r4 
-leti r4 14666
+leti r4 5823
 write a0 16 r4 
-leti r4 14667
+leti r4 1596
 write a0 16 r4 
-leti r4 14666
+leti r4 1597
 write a0 16 r4 
-leti r4 12618
+leti r4 1791
 write a0 16 r4 
-leti r4 14667
+leti r4 1658
 write a0 16 r4 
-leti r4 14666
+leti r4 1596
 write a0 16 r4 
-leti r4 14667
+leti r4 5631
 write a0 16 r4 
-leti r4 12617
+leti r4 9663
 write a0 16 r4 
-leti r4 21074
+leti r4 11583
 write a0 16 r4 
-leti r4 14731
+leti r4 304
 write a0 16 r4 
-leti r4 8390
+leti r4 313
 write a0 16 r4 
-leti r4 10503
+leti r4 120
 write a0 16 r4 
-leti r4 14732
+leti r4 125
 write a0 16 r4 
-leti r4 25303
+leti r4 126
 write a0 16 r4 
-leti r4 27417
+leti r4 61
 write a0 16 r4 
-leti r4 27417
+leti r4 61
 write a0 16 r4 
-leti r4 27417
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 61
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29463
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29465
+leti r4 54
 write a0 16 r4 
-leti r4 29464
+leti r4 114
 write a0 16 r4 
-leti r4 27415
+leti r4 303
 write a0 16 r4 
-leti r4 29464
+leti r4 11647
 write a0 16 r4 
-leti r4 27415
+leti r4 7615
 write a0 16 r4 
-leti r4 27416
+leti r4 5759
 write a0 16 r4 
-leti r4 27415
+leti r4 1599
 write a0 16 r4 
-leti r4 29529
+leti r4 3775
 write a0 16 r4 
-leti r4 31644
+leti r4 1662
 write a0 16 r4 
-leti r4 42216
+leti r4 3711
 write a0 16 r4 
-leti r4 46443
+leti r4 3647
 write a0 16 r4 
-leti r4 44328
+leti r4 1599
 write a0 16 r4 
-leti r4 35873
+leti r4 1663
 write a0 16 r4 
-leti r4 44394
+leti r4 1662
 write a0 16 r4 
-leti r4 50738
+leti r4 1662
 write a0 16 r4 
-leti r4 35939
+leti r4 1662
 write a0 16 r4 
-leti r4 21074
+leti r4 1660
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 12553
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14731
+leti r4 1663
 write a0 16 r4 
-leti r4 14731
+leti r4 1662
 write a0 16 r4 
-leti r4 14667
+leti r4 1724
 write a0 16 r4 
-leti r4 14732
+leti r4 1726
 write a0 16 r4 
-leti r4 14667
+leti r4 1467
 write a0 16 r4 
-leti r4 14732
+leti r4 5631
 write a0 16 r4 
-leti r4 18960
+leti r4 9599
 write a0 16 r4 
-leti r4 21074
+leti r4 304
 write a0 16 r4 
-leti r4 21075
+leti r4 181
 write a0 16 r4 
-leti r4 21074
+leti r4 123
 write a0 16 r4 
-leti r4 12618
+leti r4 60
 write a0 16 r4 
-leti r4 14666
+leti r4 4159
 write a0 16 r4 
-leti r4 12618
+leti r4 4159
 write a0 16 r4 
-leti r4 14730
+leti r4 4159
 write a0 16 r4 
-leti r4 14666
+leti r4 62
 write a0 16 r4 
-leti r4 14666
+leti r4 59
 write a0 16 r4 
-leti r4 14732
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 125
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 2111
 write a0 16 r4 
-leti r4 8390
+leti r4 2111
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 8391
+leti r4 63
 write a0 16 r4 
-leti r4 6276
+leti r4 63
 write a0 16 r4 
-leti r4 10570
+leti r4 61
 write a0 16 r4 
-leti r4 31713
+leti r4 58
 write a0 16 r4 
-leti r4 46579
+leti r4 184
 write a0 16 r4 
-leti r4 42289
+leti r4 243
 write a0 16 r4 
-leti r4 38126
+leti r4 302
 write a0 16 r4 
-leti r4 38061
+leti r4 15807
 write a0 16 r4 
-leti r4 38061
+leti r4 7487
 write a0 16 r4 
-leti r4 38062
+leti r4 13887
 write a0 16 r4 
-leti r4 38126
+leti r4 5567
 write a0 16 r4 
-leti r4 38126
+leti r4 3583
 write a0 16 r4 
-leti r4 36013
+leti r4 1534
 write a0 16 r4 
-leti r4 31784
+leti r4 5887
 write a0 16 r4 
-leti r4 29736
+leti r4 1597
 write a0 16 r4 
-leti r4 29736
+leti r4 1596
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1599
 write a0 16 r4 
-leti r4 23327
+leti r4 1599
 write a0 16 r4 
-leti r4 16984
+leti r4 1599
 write a0 16 r4 
-leti r4 6414
+leti r4 1599
 write a0 16 r4 
-leti r4 6413
+leti r4 1599
 write a0 16 r4 
-leti r4 6415
+leti r4 1662
 write a0 16 r4 
-leti r4 6413
+leti r4 1662
 write a0 16 r4 
-leti r4 23327
+leti r4 1662
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 23327
+leti r4 1662
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 23327
+leti r4 1662
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 25441
+leti r4 1662
 write a0 16 r4 
-leti r4 31783
+leti r4 1662
 write a0 16 r4 
-leti r4 23327
+leti r4 1662
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 14871
+leti r4 1662
 write a0 16 r4 
-leti r4 16984
+leti r4 1662
 write a0 16 r4 
-leti r4 14936
+leti r4 1662
 write a0 16 r4 
-leti r4 16985
+leti r4 1662
 write a0 16 r4 
-leti r4 23329
+leti r4 1662
 write a0 16 r4 
-leti r4 23328
+leti r4 1662
 write a0 16 r4 
-leti r4 25442
+leti r4 1663
 write a0 16 r4 
-leti r4 21215
+leti r4 1663
 write a0 16 r4 
-leti r4 23329
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 29671
+leti r4 1662
 write a0 16 r4 
-leti r4 38127
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 38061
+leti r4 1662
 write a0 16 r4 
-leti r4 40175
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1662
 write a0 16 r4 
-leti r4 40241
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 42354
+leti r4 1663
 write a0 16 r4 
-leti r4 46581
+leti r4 1663
 write a0 16 r4 
-leti r4 31715
+leti r4 1663
 write a0 16 r4 
-leti r4 10574
+leti r4 1663
 write a0 16 r4 
-leti r4 8456
+leti r4 1726
 write a0 16 r4 
-leti r4 6342
+leti r4 1727
 write a0 16 r4 
-leti r4 6341
+leti r4 1469
 write a0 16 r4 
-leti r4 8390
+leti r4 5631
 write a0 16 r4 
-leti r4 8390
+leti r4 5503
 write a0 16 r4 
-leti r4 10439
+leti r4 11711
 write a0 16 r4 
-leti r4 6277
+leti r4 5375
 write a0 16 r4 
-leti r4 6343
+leti r4 13887
 write a0 16 r4 
-leti r4 8390
+leti r4 9791
 write a0 16 r4 
-leti r4 6342
+leti r4 5695
 write a0 16 r4 
-leti r4 8390
+leti r4 1534
 write a0 16 r4 
-leti r4 6341
+leti r4 1662
 write a0 16 r4 
-leti r4 8390
+leti r4 1727
 write a0 16 r4 
-leti r4 6342
+leti r4 1661
 write a0 16 r4 
-leti r4 8390
+leti r4 1596
 write a0 16 r4 
-leti r4 6342
+leti r4 1663
 write a0 16 r4 
-leti r4 6341
+leti r4 1599
 write a0 16 r4 
-leti r4 6277
+leti r4 1663
 write a0 16 r4 
-leti r4 8390
+leti r4 1724
 write a0 16 r4 
-leti r4 8391
+leti r4 1722
 write a0 16 r4 
-leti r4 8390
+leti r4 1724
 write a0 16 r4 
-leti r4 8390
+leti r4 1662
 write a0 16 r4 
-leti r4 14732
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 14731
+leti r4 5759
 write a0 16 r4 
-leti r4 14666
+leti r4 1533
 write a0 16 r4 
-leti r4 14731
+leti r4 1662
 write a0 16 r4 
-leti r4 14731
+leti r4 3775
 write a0 16 r4 
-leti r4 14666
+leti r4 1596
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14731
+leti r4 1726
 write a0 16 r4 
-leti r4 14667
+leti r4 1660
 write a0 16 r4 
-leti r4 12617
+leti r4 1663
 write a0 16 r4 
-leti r4 23188
+leti r4 1535
 write a0 16 r4 
-leti r4 14731
+leti r4 7679
 write a0 16 r4 
-leti r4 12618
+leti r4 7487
 write a0 16 r4 
-leti r4 8390
+leti r4 236
 write a0 16 r4 
-leti r4 8325
+leti r4 375
 write a0 16 r4 
-leti r4 8325
+leti r4 185
 write a0 16 r4 
-leti r4 23189
+leti r4 58
 write a0 16 r4 
-leti r4 25303
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 4223
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 120
 write a0 16 r4 
-leti r4 29464
+leti r4 376
 write a0 16 r4 
-leti r4 29463
+leti r4 15807
 write a0 16 r4 
-leti r4 29464
+leti r4 7615
 write a0 16 r4 
-leti r4 31578
+leti r4 1471
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1597
 write a0 16 r4 
-leti r4 27416
+leti r4 1662
 write a0 16 r4 
-leti r4 35873
+leti r4 1597
 write a0 16 r4 
-leti r4 44328
+leti r4 1598
 write a0 16 r4 
-leti r4 52787
+leti r4 1535
 write a0 16 r4 
-leti r4 27417
+leti r4 1599
 write a0 16 r4 
-leti r4 29530
+leti r4 1663
 write a0 16 r4 
-leti r4 44330
+leti r4 1727
 write a0 16 r4 
-leti r4 50737
+leti r4 1725
 write a0 16 r4 
-leti r4 33826
+leti r4 1658
 write a0 16 r4 
-leti r4 21074
+leti r4 1658
 write a0 16 r4 
-leti r4 14731
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 3710
 write a0 16 r4 
-leti r4 12618
+leti r4 3647
 write a0 16 r4 
-leti r4 14731
+leti r4 1599
 write a0 16 r4 
-leti r4 14731
+leti r4 1599
 write a0 16 r4 
-leti r4 14731
+leti r4 1599
 write a0 16 r4 
-leti r4 14731
+leti r4 1599
 write a0 16 r4 
-leti r4 12617
+leti r4 1663
 write a0 16 r4 
-leti r4 12617
+leti r4 1663
 write a0 16 r4 
-leti r4 12617
+leti r4 1725
 write a0 16 r4 
-leti r4 12618
+leti r4 1727
 write a0 16 r4 
-leti r4 23123
+leti r4 1535
 write a0 16 r4 
-leti r4 18895
+leti r4 7551
 write a0 16 r4 
-leti r4 23188
+leti r4 17727
 write a0 16 r4 
-leti r4 23188
+leti r4 180
 write a0 16 r4 
-leti r4 21009
+leti r4 122
 write a0 16 r4 
-leti r4 14667
+leti r4 127
 write a0 16 r4 
-leti r4 14731
+leti r4 61
 write a0 16 r4 
-leti r4 14731
+leti r4 4159
 write a0 16 r4 
-leti r4 14666
+leti r4 60
 write a0 16 r4 
-leti r4 14666
+leti r4 62
 write a0 16 r4 
-leti r4 12618
+leti r4 4223
 write a0 16 r4 
-leti r4 14666
+leti r4 2175
 write a0 16 r4 
-leti r4 12618
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 2175
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 2175
 write a0 16 r4 
-leti r4 8390
+leti r4 58
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 6341
+leti r4 62
 write a0 16 r4 
-leti r4 8454
+leti r4 58
 write a0 16 r4 
-leti r4 19028
+leti r4 125
 write a0 16 r4 
-leti r4 38122
+leti r4 125
 write a0 16 r4 
-leti r4 42289
+leti r4 123
 write a0 16 r4 
-leti r4 38127
+leti r4 122
 write a0 16 r4 
-leti r4 36013
+leti r4 116
 write a0 16 r4 
-leti r4 38061
+leti r4 371
 write a0 16 r4 
-leti r4 38062
+leti r4 7359
 write a0 16 r4 
-leti r4 38126
+leti r4 15935
 write a0 16 r4 
-leti r4 38126
+leti r4 5503
 write a0 16 r4 
-leti r4 36013
+leti r4 1471
 write a0 16 r4 
-leti r4 31784
+leti r4 1599
 write a0 16 r4 
-leti r4 29736
+leti r4 1598
 write a0 16 r4 
-leti r4 29736
+leti r4 1727
 write a0 16 r4 
-leti r4 29671
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1663
 write a0 16 r4 
-leti r4 29735
+leti r4 1599
 write a0 16 r4 
-leti r4 25441
+leti r4 1599
 write a0 16 r4 
-leti r4 23327
+leti r4 1599
 write a0 16 r4 
-leti r4 14871
+leti r4 1599
 write a0 16 r4 
-leti r4 4301
+leti r4 1663
 write a0 16 r4 
-leti r4 6415
+leti r4 1663
 write a0 16 r4 
-leti r4 16985
+leti r4 1663
 write a0 16 r4 
-leti r4 21278
+leti r4 1662
 write a0 16 r4 
-leti r4 25440
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1662
 write a0 16 r4 
-leti r4 21278
+leti r4 1663
 write a0 16 r4 
-leti r4 21214
+leti r4 1662
 write a0 16 r4 
-leti r4 25441
+leti r4 1663
 write a0 16 r4 
-leti r4 31783
+leti r4 1662
 write a0 16 r4 
-leti r4 23327
+leti r4 1663
 write a0 16 r4 
-leti r4 14936
+leti r4 1662
 write a0 16 r4 
-leti r4 6414
+leti r4 1663
 write a0 16 r4 
-leti r4 6415
+leti r4 1662
 write a0 16 r4 
-leti r4 6415
+leti r4 1663
 write a0 16 r4 
-leti r4 4366
+leti r4 1662
 write a0 16 r4 
-leti r4 14872
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1663
 write a0 16 r4 
-leti r4 29736
+leti r4 1663
 write a0 16 r4 
-leti r4 21215
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1663
 write a0 16 r4 
-leti r4 31785
+leti r4 1662
 write a0 16 r4 
-leti r4 29736
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1661
 write a0 16 r4 
-leti r4 38061
+leti r4 1661
 write a0 16 r4 
-leti r4 38062
+leti r4 1661
 write a0 16 r4 
-leti r4 38061
+leti r4 1661
 write a0 16 r4 
-leti r4 40241
+leti r4 1661
 write a0 16 r4 
-leti r4 44469
+leti r4 1662
 write a0 16 r4 
-leti r4 44468
+leti r4 1662
 write a0 16 r4 
-leti r4 42285
+leti r4 1662
 write a0 16 r4 
-leti r4 21143
+leti r4 1663
 write a0 16 r4 
-leti r4 6341
+leti r4 1663
 write a0 16 r4 
-leti r4 6276
+leti r4 1595
 write a0 16 r4 
-leti r4 8455
+leti r4 1599
 write a0 16 r4 
-leti r4 6342
+leti r4 1471
 write a0 16 r4 
-leti r4 6277
+leti r4 9791
 write a0 16 r4 
-leti r4 10439
+leti r4 9599
 write a0 16 r4 
-leti r4 12618
+leti r4 13695
 write a0 16 r4 
-leti r4 8390
+leti r4 433
 write a0 16 r4 
-leti r4 6341
+leti r4 299
 write a0 16 r4 
-leti r4 8390
+leti r4 5375
 write a0 16 r4 
-leti r4 8390
+leti r4 7679
 write a0 16 r4 
-leti r4 8391
+leti r4 1471
 write a0 16 r4 
-leti r4 6342
+leti r4 1535
 write a0 16 r4 
-leti r4 8391
+leti r4 3775
 write a0 16 r4 
-leti r4 6342
+leti r4 1663
 write a0 16 r4 
-leti r4 8390
+leti r4 1597
 write a0 16 r4 
-leti r4 6342
+leti r4 1663
 write a0 16 r4 
-leti r4 8390
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 1599
 write a0 16 r4 
-leti r4 12619
+leti r4 1662
 write a0 16 r4 
-leti r4 8391
+leti r4 1661
 write a0 16 r4 
-leti r4 8391
+leti r4 1661
 write a0 16 r4 
-leti r4 8390
+leti r4 1662
 write a0 16 r4 
-leti r4 12617
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1470
 write a0 16 r4 
-leti r4 14666
+leti r4 3775
 write a0 16 r4 
-leti r4 14731
+leti r4 1727
 write a0 16 r4 
-leti r4 14666
+leti r4 1659
 write a0 16 r4 
-leti r4 12618
+leti r4 1659
 write a0 16 r4 
-leti r4 14666
+leti r4 1597
 write a0 16 r4 
-leti r4 14666
+leti r4 3711
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 14732
+leti r4 1597
 write a0 16 r4 
-leti r4 14666
+leti r4 1727
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 14667
+leti r4 5631
 write a0 16 r4 
-leti r4 12619
+leti r4 11775
 write a0 16 r4 
-leti r4 8390
+leti r4 15679
 write a0 16 r4 
-leti r4 6277
+leti r4 176
 write a0 16 r4 
-leti r4 12620
+leti r4 184
 write a0 16 r4 
-leti r4 27480
+leti r4 60
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29465
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 126
 write a0 16 r4 
-leti r4 29464
+leti r4 52
 write a0 16 r4 
-leti r4 29464
+leti r4 376
 write a0 16 r4 
-leti r4 29464
+leti r4 9471
 write a0 16 r4 
-leti r4 29464
+leti r4 3519
 write a0 16 r4 
-leti r4 31578
+leti r4 1535
 write a0 16 r4 
-leti r4 29464
+leti r4 1727
 write a0 16 r4 
-leti r4 23123
+leti r4 1661
 write a0 16 r4 
-leti r4 27415
+leti r4 1662
 write a0 16 r4 
-leti r4 35873
+leti r4 1597
 write a0 16 r4 
-leti r4 44329
+leti r4 3711
 write a0 16 r4 
-leti r4 44329
+leti r4 3711
 write a0 16 r4 
-leti r4 35875
+leti r4 1663
 write a0 16 r4 
-leti r4 27418
+leti r4 1663
 write a0 16 r4 
-leti r4 37921
+leti r4 1662
 write a0 16 r4 
-leti r4 44329
+leti r4 1596
 write a0 16 r4 
-leti r4 44330
+leti r4 1724
 write a0 16 r4 
-leti r4 29597
+leti r4 1725
 write a0 16 r4 
-leti r4 21073
+leti r4 3773
 write a0 16 r4 
-leti r4 16778
+leti r4 3709
 write a0 16 r4 
-leti r4 14667
+leti r4 3647
 write a0 16 r4 
-leti r4 12618
+leti r4 3647
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 14730
+leti r4 1599
 write a0 16 r4 
-leti r4 12617
+leti r4 1599
 write a0 16 r4 
-leti r4 14730
+leti r4 1663
 write a0 16 r4 
-leti r4 14731
+leti r4 1662
 write a0 16 r4 
-leti r4 12617
+leti r4 1533
 write a0 16 r4 
-leti r4 14666
+leti r4 9791
 write a0 16 r4 
-leti r4 23188
+leti r4 13695
 write a0 16 r4 
-leti r4 21074
+leti r4 243
 write a0 16 r4 
-leti r4 21009
+leti r4 187
 write a0 16 r4 
-leti r4 23188
+leti r4 59
 write a0 16 r4 
-leti r4 14667
+leti r4 61
 write a0 16 r4 
-leti r4 12618
+leti r4 2110
 write a0 16 r4 
-leti r4 14666
+leti r4 60
 write a0 16 r4 
-leti r4 14666
+leti r4 2111
 write a0 16 r4 
-leti r4 14666
+leti r4 2111
 write a0 16 r4 
-leti r4 14666
+leti r4 59
 write a0 16 r4 
-leti r4 14731
+leti r4 2111
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 2110
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 2175
 write a0 16 r4 
-leti r4 6280
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 6340
+leti r4 127
 write a0 16 r4 
-leti r4 8456
+leti r4 60
 write a0 16 r4 
-leti r4 29600
+leti r4 61
 write a0 16 r4 
-leti r4 42288
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 61
 write a0 16 r4 
-leti r4 36078
+leti r4 126
 write a0 16 r4 
-leti r4 38126
+leti r4 185
 write a0 16 r4 
-leti r4 38126
+leti r4 245
 write a0 16 r4 
-leti r4 38062
+leti r4 241
 write a0 16 r4 
-leti r4 38061
+leti r4 369
 write a0 16 r4 
-leti r4 36013
+leti r4 9535
 write a0 16 r4 
-leti r4 31784
+leti r4 9727
 write a0 16 r4 
-leti r4 31784
+leti r4 5567
 write a0 16 r4 
-leti r4 31784
+leti r4 3519
 write a0 16 r4 
-leti r4 36014
+leti r4 3583
 write a0 16 r4 
-leti r4 38128
+leti r4 3647
 write a0 16 r4 
-leti r4 36014
+leti r4 3647
 write a0 16 r4 
-leti r4 29671
+leti r4 1599
 write a0 16 r4 
-leti r4 31784
+leti r4 1599
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 23328
+leti r4 1663
 write a0 16 r4 
-leti r4 23327
+leti r4 1663
 write a0 16 r4 
-leti r4 14872
+leti r4 1663
 write a0 16 r4 
-leti r4 23326
+leti r4 1599
 write a0 16 r4 
-leti r4 23327
+leti r4 1599
 write a0 16 r4 
-leti r4 14936
+leti r4 1599
 write a0 16 r4 
-leti r4 14872
+leti r4 1599
 write a0 16 r4 
-leti r4 16985
+leti r4 1663
 write a0 16 r4 
-leti r4 21213
+leti r4 1663
 write a0 16 r4 
-leti r4 23392
+leti r4 1663
 write a0 16 r4 
-leti r4 14935
+leti r4 1663
 write a0 16 r4 
-leti r4 14870
+leti r4 1663
 write a0 16 r4 
-leti r4 16984
+leti r4 1663
 write a0 16 r4 
-leti r4 23326
+leti r4 1663
 write a0 16 r4 
-leti r4 23326
+leti r4 1663
 write a0 16 r4 
-leti r4 31783
+leti r4 1663
 write a0 16 r4 
-leti r4 29735
+leti r4 1663
 write a0 16 r4 
-leti r4 38126
+leti r4 1663
 write a0 16 r4 
-leti r4 36078
+leti r4 1663
 write a0 16 r4 
-leti r4 31784
+leti r4 1663
 write a0 16 r4 
-leti r4 29671
+leti r4 1662
 write a0 16 r4 
-leti r4 29671
+leti r4 1662
 write a0 16 r4 
-leti r4 31785
+leti r4 1662
 write a0 16 r4 
-leti r4 36012
+leti r4 1661
 write a0 16 r4 
-leti r4 38061
+leti r4 1661
 write a0 16 r4 
-leti r4 38126
+leti r4 1661
 write a0 16 r4 
-leti r4 42291
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 36013
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1599
 write a0 16 r4 
-leti r4 42353
+leti r4 3647
 write a0 16 r4 
-leti r4 33828
+leti r4 3647
 write a0 16 r4 
-leti r4 12685
+leti r4 3647
 write a0 16 r4 
-leti r4 8389
+leti r4 3583
 write a0 16 r4 
-leti r4 10439
+leti r4 7679
 write a0 16 r4 
-leti r4 6277
+leti r4 7615
 write a0 16 r4 
-leti r4 8455
+leti r4 11647
 write a0 16 r4 
-leti r4 14732
+leti r4 301
 write a0 16 r4 
-leti r4 12554
+leti r4 305
 write a0 16 r4 
-leti r4 16781
+leti r4 308
 write a0 16 r4 
-leti r4 14667
+leti r4 243
 write a0 16 r4 
-leti r4 8390
+leti r4 309
 write a0 16 r4 
-leti r4 6342
+leti r4 437
 write a0 16 r4 
-leti r4 6342
+leti r4 7359
 write a0 16 r4 
-leti r4 6342
+leti r4 13887
 write a0 16 r4 
-leti r4 6342
+leti r4 5567
 write a0 16 r4 
-leti r4 6342
+leti r4 3583
 write a0 16 r4 
-leti r4 8390
+leti r4 1663
 write a0 16 r4 
-leti r4 8390
+leti r4 1597
 write a0 16 r4 
-leti r4 8390
+leti r4 1663
 write a0 16 r4 
-leti r4 8390
+leti r4 1599
 write a0 16 r4 
-leti r4 6277
+leti r4 1599
 write a0 16 r4 
-leti r4 14733
+leti r4 1663
 write a0 16 r4 
-leti r4 6276
+leti r4 1662
 write a0 16 r4 
-leti r4 8390
+leti r4 1662
 write a0 16 r4 
-leti r4 6341
+leti r4 1662
 write a0 16 r4 
-leti r4 8390
+leti r4 1599
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 14667
+leti r4 1596
 write a0 16 r4 
-leti r4 12617
+leti r4 1660
 write a0 16 r4 
-leti r4 14731
+leti r4 1725
 write a0 16 r4 
-leti r4 14731
+leti r4 3711
 write a0 16 r4 
-leti r4 14666
+leti r4 1535
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1596
 write a0 16 r4 
-leti r4 23123
+leti r4 3711
 write a0 16 r4 
-leti r4 21075
+leti r4 3519
 write a0 16 r4 
-leti r4 12618
+leti r4 9599
 write a0 16 r4 
-leti r4 8391
+leti r4 17855
 write a0 16 r4 
-leti r4 8390
+leti r4 241
 write a0 16 r4 
-leti r4 35871
+leti r4 120
 write a0 16 r4 
-leti r4 29594
+leti r4 60
 write a0 16 r4 
-leti r4 27414
+leti r4 62
 write a0 16 r4 
-leti r4 27350
+leti r4 2110
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 29464
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 59
 write a0 16 r4 
-leti r4 29464
+leti r4 122
 write a0 16 r4 
-leti r4 29464
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 62
 write a0 16 r4 
-leti r4 27415
+leti r4 61
 write a0 16 r4 
-leti r4 27415
+leti r4 60
 write a0 16 r4 
-leti r4 27415
+leti r4 186
 write a0 16 r4 
-leti r4 29529
+leti r4 244
 write a0 16 r4 
-leti r4 27416
+leti r4 11583
 write a0 16 r4 
-leti r4 29530
+leti r4 7679
 write a0 16 r4 
-leti r4 27417
+leti r4 1599
 write a0 16 r4 
-leti r4 29465
+leti r4 1663
 write a0 16 r4 
-leti r4 23058
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 37987
+leti r4 1599
 write a0 16 r4 
-leti r4 40232
+leti r4 1599
 write a0 16 r4 
-leti r4 44331
+leti r4 1599
 write a0 16 r4 
-leti r4 37924
+leti r4 1599
 write a0 16 r4 
-leti r4 31449
+leti r4 1663
 write a0 16 r4 
-leti r4 40037
+leti r4 1663
 write a0 16 r4 
-leti r4 40169
+leti r4 1663
 write a0 16 r4 
-leti r4 48689
+leti r4 1662
 write a0 16 r4 
-leti r4 35873
+leti r4 1662
 write a0 16 r4 
-leti r4 21073
+leti r4 1663
 write a0 16 r4 
-leti r4 14667
+leti r4 1663
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 3711
 write a0 16 r4 
-leti r4 14666
+leti r4 1534
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 14731
+leti r4 3647
 write a0 16 r4 
-leti r4 12618
+leti r4 5631
 write a0 16 r4 
-leti r4 21009
+leti r4 13759
 write a0 16 r4 
-leti r4 23189
+leti r4 177
 write a0 16 r4 
-leti r4 21074
+leti r4 120
 write a0 16 r4 
-leti r4 21073
+leti r4 127
 write a0 16 r4 
-leti r4 16780
+leti r4 60
 write a0 16 r4 
-leti r4 14665
+leti r4 61
 write a0 16 r4 
-leti r4 14666
+leti r4 61
 write a0 16 r4 
-leti r4 14667
+leti r4 60
 write a0 16 r4 
-leti r4 14732
+leti r4 61
 write a0 16 r4 
-leti r4 12618
+leti r4 62
 write a0 16 r4 
-leti r4 12617
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6341
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 14730
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6280
+leti r4 62
 write a0 16 r4 
-leti r4 6278
+leti r4 62
 write a0 16 r4 
-leti r4 23187
+leti r4 62
 write a0 16 r4 
-leti r4 35937
+leti r4 62
 write a0 16 r4 
-leti r4 46515
+leti r4 62
 write a0 16 r4 
-leti r4 36016
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 59
 write a0 16 r4 
-leti r4 36012
+leti r4 124
 write a0 16 r4 
-leti r4 38126
+leti r4 57
 write a0 16 r4 
-leti r4 38125
+leti r4 121
 write a0 16 r4 
-leti r4 38061
+leti r4 248
 write a0 16 r4 
-leti r4 38127
+leti r4 111
 write a0 16 r4 
-leti r4 38062
+leti r4 436
 write a0 16 r4 
-leti r4 38062
+leti r4 11519
 write a0 16 r4 
-leti r4 38126
+leti r4 13759
 write a0 16 r4 
-leti r4 42290
+leti r4 5503
 write a0 16 r4 
-leti r4 40241
+leti r4 7743
 write a0 16 r4 
-leti r4 38126
+leti r4 3583
 write a0 16 r4 
-leti r4 38061
+leti r4 1599
 write a0 16 r4 
-leti r4 38126
+leti r4 3775
 write a0 16 r4 
-leti r4 36013
+leti r4 1596
 write a0 16 r4 
-leti r4 29736
+leti r4 1662
 write a0 16 r4 
-leti r4 31784
+leti r4 1599
 write a0 16 r4 
-leti r4 29671
+leti r4 1535
 write a0 16 r4 
-leti r4 23328
+leti r4 3647
 write a0 16 r4 
-leti r4 23328
+leti r4 5759
 write a0 16 r4 
-leti r4 23329
+leti r4 1599
 write a0 16 r4 
-leti r4 25441
+leti r4 1534
 write a0 16 r4 
-leti r4 21215
+leti r4 1599
 write a0 16 r4 
-leti r4 23329
+leti r4 3711
 write a0 16 r4 
-leti r4 23328
+leti r4 1599
 write a0 16 r4 
-leti r4 23329
+leti r4 1599
 write a0 16 r4 
-leti r4 29671
+leti r4 1599
 write a0 16 r4 
-leti r4 31784
+leti r4 1599
 write a0 16 r4 
-leti r4 38061
+leti r4 1599
 write a0 16 r4 
-leti r4 38062
+leti r4 1599
 write a0 16 r4 
-leti r4 40241
+leti r4 1599
 write a0 16 r4 
-leti r4 42290
+leti r4 1663
 write a0 16 r4 
-leti r4 42354
+leti r4 1727
 write a0 16 r4 
-leti r4 38062
+leti r4 1661
 write a0 16 r4 
-leti r4 38062
+leti r4 1661
 write a0 16 r4 
-leti r4 31784
+leti r4 1727
 write a0 16 r4 
-leti r4 31719
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 38061
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1598
 write a0 16 r4 
-leti r4 42353
+leti r4 1599
 write a0 16 r4 
-leti r4 36078
+leti r4 1535
 write a0 16 r4 
-leti r4 36015
+leti r4 5695
 write a0 16 r4 
-leti r4 42353
+leti r4 5631
 write a0 16 r4 
-leti r4 35941
+leti r4 7679
 write a0 16 r4 
-leti r4 18961
+leti r4 5503
 write a0 16 r4 
-leti r4 8455
+leti r4 7615
 write a0 16 r4 
-leti r4 6278
+leti r4 13695
 write a0 16 r4 
-leti r4 8391
+leti r4 243
 write a0 16 r4 
-leti r4 8390
+leti r4 183
 write a0 16 r4 
-leti r4 14666
+leti r4 184
 write a0 16 r4 
-leti r4 14666
+leti r4 121
 write a0 16 r4 
-leti r4 14731
+leti r4 122
 write a0 16 r4 
-leti r4 14666
+leti r4 123
 write a0 16 r4 
-leti r4 12553
+leti r4 123
 write a0 16 r4 
-leti r4 8391
+leti r4 122
 write a0 16 r4 
-leti r4 8390
+leti r4 185
 write a0 16 r4 
-leti r4 8390
+leti r4 182
 write a0 16 r4 
-leti r4 8390
+leti r4 19711
 write a0 16 r4 
-leti r4 8390
+leti r4 11519
 write a0 16 r4 
-leti r4 8390
+leti r4 5503
 write a0 16 r4 
-leti r4 8390
+leti r4 5759
 write a0 16 r4 
-leti r4 8390
+leti r4 1596
 write a0 16 r4 
-leti r4 8390
+leti r4 1660
 write a0 16 r4 
-leti r4 8391
+leti r4 1663
 write a0 16 r4 
-leti r4 6342
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 1727
 write a0 16 r4 
-leti r4 8391
+leti r4 1594
 write a0 16 r4 
-leti r4 6342
+leti r4 1727
 write a0 16 r4 
-leti r4 6341
+leti r4 1661
 write a0 16 r4 
-leti r4 8456
+leti r4 1597
 write a0 16 r4 
-leti r4 12619
+leti r4 3711
 write a0 16 r4 
-leti r4 14666
+leti r4 3647
 write a0 16 r4 
-leti r4 14667
+leti r4 3647
 write a0 16 r4 
-leti r4 14667
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14730
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 27415
+leti r4 1599
 write a0 16 r4 
-leti r4 27413
+leti r4 1599
 write a0 16 r4 
-leti r4 25363
+leti r4 3647
 write a0 16 r4 
-leti r4 14794
+leti r4 5631
 write a0 16 r4 
-leti r4 12680
+leti r4 9599
 write a0 16 r4 
-leti r4 27414
+leti r4 307
 write a0 16 r4 
-leti r4 27414
+leti r4 184
 write a0 16 r4 
-leti r4 27413
+leti r4 61
 write a0 16 r4 
-leti r4 25364
+leti r4 2111
 write a0 16 r4 
-leti r4 27414
+leti r4 60
 write a0 16 r4 
-leti r4 29528
+leti r4 60
 write a0 16 r4 
-leti r4 27416
+leti r4 126
 write a0 16 r4 
-leti r4 29465
+leti r4 59
 write a0 16 r4 
-leti r4 27350
+leti r4 60
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29465
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 252
 write a0 16 r4 
-leti r4 27416
+leti r4 177
 write a0 16 r4 
-leti r4 29464
+leti r4 15679
 write a0 16 r4 
-leti r4 27416
+leti r4 7679
 write a0 16 r4 
-leti r4 31578
+leti r4 1469
 write a0 16 r4 
-leti r4 31577
+leti r4 1663
 write a0 16 r4 
-leti r4 23121
+leti r4 1663
 write a0 16 r4 
-leti r4 31580
+leti r4 1663
 write a0 16 r4 
-leti r4 44330
+leti r4 1599
 write a0 16 r4 
-leti r4 50673
+leti r4 1599
 write a0 16 r4 
-leti r4 44395
+leti r4 1599
 write a0 16 r4 
-leti r4 35872
+leti r4 1662
 write a0 16 r4 
-leti r4 29464
+leti r4 1661
 write a0 16 r4 
-leti r4 29531
+leti r4 1662
 write a0 16 r4 
-leti r4 44331
+leti r4 1663
 write a0 16 r4 
-leti r4 48690
+leti r4 1663
 write a0 16 r4 
-leti r4 44395
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 18828
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1533
 write a0 16 r4 
-leti r4 14666
+leti r4 3775
 write a0 16 r4 
-leti r4 14666
+leti r4 1598
 write a0 16 r4 
-leti r4 14666
+leti r4 1531
 write a0 16 r4 
-leti r4 14666
+leti r4 1727
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1533
 write a0 16 r4 
-leti r4 14666
+leti r4 5759
 write a0 16 r4 
-leti r4 12617
+leti r4 5631
 write a0 16 r4 
-leti r4 14732
+leti r4 11711
 write a0 16 r4 
-leti r4 25236
+leti r4 238
 write a0 16 r4 
-leti r4 21010
+leti r4 248
 write a0 16 r4 
-leti r4 14732
+leti r4 59
 write a0 16 r4 
-leti r4 12618
+leti r4 63
 write a0 16 r4 
-leti r4 12617
+leti r4 63
 write a0 16 r4 
-leti r4 14730
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 10438
+leti r4 60
 write a0 16 r4 
-leti r4 10504
+leti r4 61
 write a0 16 r4 
-leti r4 10503
+leti r4 62
 write a0 16 r4 
-leti r4 8455
+leti r4 62
 write a0 16 r4 
-leti r4 6341
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6278
+leti r4 62
 write a0 16 r4 
-leti r4 8393
+leti r4 62
 write a0 16 r4 
-leti r4 12684
+leti r4 62
 write a0 16 r4 
-leti r4 21073
+leti r4 62
 write a0 16 r4 
-leti r4 33824
+leti r4 62
 write a0 16 r4 
-leti r4 35942
+leti r4 62
 write a0 16 r4 
-leti r4 40173
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 2111
 write a0 16 r4 
-leti r4 38061
+leti r4 60
 write a0 16 r4 
-leti r4 38126
+leti r4 60
 write a0 16 r4 
-leti r4 38061
+leti r4 191
 write a0 16 r4 
-leti r4 38061
+leti r4 123
 write a0 16 r4 
-leti r4 38062
+leti r4 118
 write a0 16 r4 
-leti r4 36013
+leti r4 377
 write a0 16 r4 
-leti r4 36013
+leti r4 110
 write a0 16 r4 
-leti r4 38062
+leti r4 501
 write a0 16 r4 
-leti r4 38126
+leti r4 9471
 write a0 16 r4 
-leti r4 38062
+leti r4 13759
 write a0 16 r4 
-leti r4 38126
+leti r4 9663
 write a0 16 r4 
-leti r4 36012
+leti r4 7615
 write a0 16 r4 
-leti r4 31784
+leti r4 3455
 write a0 16 r4 
-leti r4 31785
+leti r4 7679
 write a0 16 r4 
-leti r4 38127
+leti r4 5567
 write a0 16 r4 
-leti r4 36013
+leti r4 7743
 write a0 16 r4 
-leti r4 33898
+leti r4 7743
 write a0 16 r4 
-leti r4 29671
+leti r4 1471
 write a0 16 r4 
-leti r4 29671
+leti r4 3519
 write a0 16 r4 
-leti r4 29671
+leti r4 5695
 write a0 16 r4 
-leti r4 31784
+leti r4 3647
 write a0 16 r4 
-leti r4 31784
+leti r4 1471
 write a0 16 r4 
-leti r4 31784
+leti r4 1599
 write a0 16 r4 
-leti r4 29671
+leti r4 1599
 write a0 16 r4 
-leti r4 31785
+leti r4 1599
 write a0 16 r4 
-leti r4 36013
+leti r4 1599
 write a0 16 r4 
-leti r4 38127
+leti r4 1662
 write a0 16 r4 
-leti r4 38062
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1662
 write a0 16 r4 
-leti r4 42289
+leti r4 1599
 write a0 16 r4 
-leti r4 42289
+leti r4 1599
 write a0 16 r4 
-leti r4 38061
+leti r4 1535
 write a0 16 r4 
-leti r4 31719
+leti r4 3647
 write a0 16 r4 
-leti r4 33899
+leti r4 3647
 write a0 16 r4 
-leti r4 36013
+leti r4 3583
 write a0 16 r4 
-leti r4 36013
+leti r4 3583
 write a0 16 r4 
-leti r4 40240
+leti r4 7743
 write a0 16 r4 
-leti r4 36013
+leti r4 7679
 write a0 16 r4 
-leti r4 38061
+leti r4 13951
 write a0 16 r4 
-leti r4 38062
+leti r4 7551
 write a0 16 r4 
-leti r4 40242
+leti r4 9599
 write a0 16 r4 
-leti r4 38125
+leti r4 13759
 write a0 16 r4 
-leti r4 25371
+leti r4 9407
 write a0 16 r4 
-leti r4 8455
+leti r4 565
 write a0 16 r4 
-leti r4 6341
+leti r4 302
 write a0 16 r4 
-leti r4 8391
+leti r4 243
 write a0 16 r4 
-leti r4 6342
+leti r4 123
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 12617
+leti r4 62
 write a0 16 r4 
-leti r4 14731
+leti r4 62
 write a0 16 r4 
-leti r4 14731
+leti r4 62
 write a0 16 r4 
-leti r4 14666
+leti r4 62
 write a0 16 r4 
-leti r4 10503
+leti r4 62
 write a0 16 r4 
-leti r4 6341
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 56
 write a0 16 r4 
-leti r4 8390
+leti r4 314
 write a0 16 r4 
-leti r4 8390
+leti r4 240
 write a0 16 r4 
-leti r4 8390
+leti r4 15807
 write a0 16 r4 
-leti r4 8390
+leti r4 3455
 write a0 16 r4 
-leti r4 8390
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 1791
 write a0 16 r4 
-leti r4 8390
+leti r4 1727
 write a0 16 r4 
-leti r4 6342
+leti r4 1663
 write a0 16 r4 
-leti r4 8390
+leti r4 1595
 write a0 16 r4 
-leti r4 8391
+leti r4 1791
 write a0 16 r4 
-leti r4 8390
+leti r4 1529
 write a0 16 r4 
-leti r4 6341
+leti r4 1662
 write a0 16 r4 
-leti r4 8391
+leti r4 3775
 write a0 16 r4 
-leti r4 10505
+leti r4 1532
 write a0 16 r4 
-leti r4 14666
+leti r4 3647
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 25301
+leti r4 1599
 write a0 16 r4 
-leti r4 25301
+leti r4 1663
 write a0 16 r4 
-leti r4 27479
+leti r4 1662
 write a0 16 r4 
-leti r4 23250
+leti r4 1663
 write a0 16 r4 
-leti r4 27477
+leti r4 5631
 write a0 16 r4 
-leti r4 27415
+leti r4 9599
 write a0 16 r4 
-leti r4 25301
+leti r4 307
 write a0 16 r4 
-leti r4 27479
+leti r4 52
 write a0 16 r4 
-leti r4 27415
+leti r4 123
 write a0 16 r4 
-leti r4 25366
+leti r4 127
 write a0 16 r4 
-leti r4 25236
+leti r4 127
 write a0 16 r4 
-leti r4 29529
+leti r4 58
 write a0 16 r4 
-leti r4 29464
+leti r4 127
 write a0 16 r4 
-leti r4 29464
+leti r4 2175
 write a0 16 r4 
-leti r4 27350
+leti r4 55
 write a0 16 r4 
-leti r4 27415
+leti r4 186
 write a0 16 r4 
-leti r4 27415
+leti r4 309
 write a0 16 r4 
-leti r4 29529
+leti r4 15743
 write a0 16 r4 
-leti r4 29529
+leti r4 11775
 write a0 16 r4 
-leti r4 29464
+leti r4 1469
 write a0 16 r4 
-leti r4 29464
+leti r4 1727
 write a0 16 r4 
-leti r4 31575
+leti r4 1662
 write a0 16 r4 
-leti r4 31578
+leti r4 1663
 write a0 16 r4 
-leti r4 42281
+leti r4 1599
 write a0 16 r4 
-leti r4 50740
+leti r4 1599
 write a0 16 r4 
-leti r4 42283
+leti r4 1599
 write a0 16 r4 
-leti r4 35875
+leti r4 1662
 write a0 16 r4 
-leti r4 27416
+leti r4 1723
 write a0 16 r4 
-leti r4 29463
+leti r4 1723
 write a0 16 r4 
-leti r4 42346
+leti r4 1661
 write a0 16 r4 
-leti r4 48689
+leti r4 1662
 write a0 16 r4 
-leti r4 50737
+leti r4 1662
 write a0 16 r4 
-leti r4 29531
+leti r4 1662
 write a0 16 r4 
-leti r4 16715
+leti r4 1662
 write a0 16 r4 
-leti r4 14600
+leti r4 1662
 write a0 16 r4 
-leti r4 14667
+leti r4 1662
 write a0 16 r4 
-leti r4 12683
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1598
 write a0 16 r4 
-leti r4 14666
+leti r4 3711
 write a0 16 r4 
-leti r4 14666
+leti r4 5823
 write a0 16 r4 
-leti r4 14666
+leti r4 1530
 write a0 16 r4 
-leti r4 14666
+leti r4 3839
 write a0 16 r4 
-leti r4 14666
+leti r4 1469
 write a0 16 r4 
-leti r4 14731
+leti r4 9727
 write a0 16 r4 
-leti r4 14667
+leti r4 15743
 write a0 16 r4 
-leti r4 18960
+leti r4 308
 write a0 16 r4 
-leti r4 14667
+leti r4 119
 write a0 16 r4 
-leti r4 14666
+leti r4 126
 write a0 16 r4 
-leti r4 14666
+leti r4 63
 write a0 16 r4 
-leti r4 12618
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 2111
 write a0 16 r4 
-leti r4 8389
+leti r4 61
 write a0 16 r4 
-leti r4 8389
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8389
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6341
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 4229
+leti r4 62
 write a0 16 r4 
-leti r4 8456
+leti r4 62
 write a0 16 r4 
-leti r4 8325
+leti r4 62
 write a0 16 r4 
-leti r4 21075
+leti r4 62
 write a0 16 r4 
-leti r4 42281
+leti r4 62
 write a0 16 r4 
-leti r4 35939
+leti r4 62
 write a0 16 r4 
-leti r4 25305
+leti r4 62
 write a0 16 r4 
-leti r4 35875
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 62
 write a0 16 r4 
-leti r4 38127
+leti r4 2111
 write a0 16 r4 
-leti r4 36014
+leti r4 62
 write a0 16 r4 
-leti r4 38127
+leti r4 60
 write a0 16 r4 
-leti r4 38127
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 126
 write a0 16 r4 
-leti r4 40175
+leti r4 59
 write a0 16 r4 
-leti r4 38061
+leti r4 56
 write a0 16 r4 
-leti r4 38061
+leti r4 189
 write a0 16 r4 
-leti r4 40241
+leti r4 56
 write a0 16 r4 
-leti r4 42354
+leti r4 186
 write a0 16 r4 
-leti r4 38061
+leti r4 120
 write a0 16 r4 
-leti r4 38126
+leti r4 118
 write a0 16 r4 
-leti r4 38127
+leti r4 248
 write a0 16 r4 
-leti r4 31784
+leti r4 182
 write a0 16 r4 
-leti r4 29736
+leti r4 243
 write a0 16 r4 
-leti r4 29736
+leti r4 13695
 write a0 16 r4 
-leti r4 31784
+leti r4 7551
 write a0 16 r4 
-leti r4 36013
+leti r4 5439
 write a0 16 r4 
-leti r4 36013
+leti r4 7551
 write a0 16 r4 
-leti r4 38126
+leti r4 7679
 write a0 16 r4 
-leti r4 36078
+leti r4 5567
 write a0 16 r4 
-leti r4 38127
+leti r4 1471
 write a0 16 r4 
-leti r4 36012
+leti r4 5695
 write a0 16 r4 
-leti r4 38126
+leti r4 1599
 write a0 16 r4 
-leti r4 36012
+leti r4 1599
 write a0 16 r4 
-leti r4 33898
+leti r4 1663
 write a0 16 r4 
-leti r4 36013
+leti r4 1662
 write a0 16 r4 
-leti r4 38126
+leti r4 1661
 write a0 16 r4 
-leti r4 36012
+leti r4 1724
 write a0 16 r4 
-leti r4 38127
+leti r4 1723
 write a0 16 r4 
-leti r4 42289
+leti r4 1663
 write a0 16 r4 
-leti r4 38061
+leti r4 7551
 write a0 16 r4 
-leti r4 38062
+leti r4 15743
 write a0 16 r4 
-leti r4 38061
+leti r4 13631
 write a0 16 r4 
-leti r4 36013
+leti r4 9407
 write a0 16 r4 
-leti r4 31785
+leti r4 15679
 write a0 16 r4 
-leti r4 31719
+leti r4 22015
 write a0 16 r4 
-leti r4 35948
+leti r4 9279
 write a0 16 r4 
-leti r4 38061
+leti r4 303
 write a0 16 r4 
-leti r4 36013
+leti r4 305
 write a0 16 r4 
-leti r4 42354
+leti r4 240
 write a0 16 r4 
-leti r4 36013
+leti r4 243
 write a0 16 r4 
-leti r4 25440
+leti r4 310
 write a0 16 r4 
-leti r4 10508
+leti r4 312
 write a0 16 r4 
-leti r4 6277
+leti r4 117
 write a0 16 r4 
-leti r4 6277
+leti r4 119
 write a0 16 r4 
-leti r4 8391
+leti r4 187
 write a0 16 r4 
-leti r4 6342
+leti r4 61
 write a0 16 r4 
-leti r4 8389
+leti r4 62
 write a0 16 r4 
-leti r4 10503
+leti r4 62
 write a0 16 r4 
-leti r4 14667
+leti r4 62
 write a0 16 r4 
-leti r4 12617
+leti r4 62
 write a0 16 r4 
-leti r4 12618
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 121
 write a0 16 r4 
-leti r4 8390
+leti r4 246
 write a0 16 r4 
-leti r4 8390
+leti r4 304
 write a0 16 r4 
-leti r4 8390
+leti r4 9599
 write a0 16 r4 
-leti r4 8390
+leti r4 9791
 write a0 16 r4 
-leti r4 8390
+leti r4 1404
 write a0 16 r4 
-leti r4 6342
+leti r4 1662
 write a0 16 r4 
-leti r4 8390
+leti r4 1596
 write a0 16 r4 
-leti r4 8390
+leti r4 1663
 write a0 16 r4 
-leti r4 8390
+leti r4 3711
 write a0 16 r4 
-leti r4 6342
+leti r4 1599
 write a0 16 r4 
-leti r4 6342
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 1663
 write a0 16 r4 
-leti r4 8391
+leti r4 1661
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14730
+leti r4 1662
 write a0 16 r4 
-leti r4 14730
+leti r4 1662
 write a0 16 r4 
-leti r4 14795
+leti r4 1662
 write a0 16 r4 
-leti r4 21073
+leti r4 1662
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 25363
+leti r4 3647
 write a0 16 r4 
-leti r4 25426
+leti r4 3647
 write a0 16 r4 
-leti r4 35934
+leti r4 5695
 write a0 16 r4 
-leti r4 27414
+leti r4 9663
 write a0 16 r4 
-leti r4 25366
+leti r4 433
 write a0 16 r4 
-leti r4 25301
+leti r4 244
 write a0 16 r4 
-leti r4 27417
+leti r4 55
 write a0 16 r4 
-leti r4 29529
+leti r4 61
 write a0 16 r4 
-leti r4 25301
+leti r4 61
 write a0 16 r4 
-leti r4 29528
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 27415
+leti r4 2239
 write a0 16 r4 
-leti r4 29528
+leti r4 116
 write a0 16 r4 
-leti r4 29464
+leti r4 237
 write a0 16 r4 
-leti r4 31643
+leti r4 9599
 write a0 16 r4 
-leti r4 29529
+leti r4 1469
 write a0 16 r4 
-leti r4 27415
+leti r4 1726
 write a0 16 r4 
-leti r4 27415
+leti r4 1724
 write a0 16 r4 
-leti r4 27351
+leti r4 1661
 write a0 16 r4 
-leti r4 44394
+leti r4 1663
 write a0 16 r4 
-leti r4 48690
+leti r4 1599
 write a0 16 r4 
-leti r4 48626
+leti r4 1599
 write a0 16 r4 
-leti r4 37990
+leti r4 1599
 write a0 16 r4 
-leti r4 25239
+leti r4 1661
 write a0 16 r4 
-leti r4 40036
+leti r4 1723
 write a0 16 r4 
-leti r4 42281
+leti r4 1722
 write a0 16 r4 
-leti r4 50671
+leti r4 1661
 write a0 16 r4 
-leti r4 52786
+leti r4 1662
 write a0 16 r4 
-leti r4 44330
+leti r4 1663
 write a0 16 r4 
-leti r4 21075
+leti r4 3647
 write a0 16 r4 
-leti r4 14731
+leti r4 3647
 write a0 16 r4 
-leti r4 16779
+leti r4 1662
 write a0 16 r4 
-leti r4 12618
+leti r4 1662
 write a0 16 r4 
-leti r4 8390
+leti r4 1661
 write a0 16 r4 
-leti r4 14666
+leti r4 1726
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14666
+leti r4 3711
 write a0 16 r4 
-leti r4 14666
+leti r4 5759
 write a0 16 r4 
-leti r4 14666
+leti r4 1531
 write a0 16 r4 
-leti r4 14666
+leti r4 7935
 write a0 16 r4 
-leti r4 14666
+leti r4 1464
 write a0 16 r4 
-leti r4 14666
+leti r4 7807
 write a0 16 r4 
-leti r4 14666
+leti r4 13695
 write a0 16 r4 
-leti r4 14666
+leti r4 176
 write a0 16 r4 
-leti r4 16845
+leti r4 184
 write a0 16 r4 
-leti r4 12617
+leti r4 124
 write a0 16 r4 
-leti r4 14667
+leti r4 2175
 write a0 16 r4 
-leti r4 14731
+leti r4 62
 write a0 16 r4 
-leti r4 12618
+leti r4 2110
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8391
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8392
+leti r4 62
 write a0 16 r4 
-leti r4 6275
+leti r4 62
 write a0 16 r4 
-leti r4 10438
+leti r4 62
 write a0 16 r4 
-leti r4 21075
+leti r4 62
 write a0 16 r4 
-leti r4 50739
+leti r4 62
 write a0 16 r4 
-leti r4 48627
+leti r4 62
 write a0 16 r4 
-leti r4 37989
+leti r4 62
 write a0 16 r4 
-leti r4 37987
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 61
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 38127
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 61
 write a0 16 r4 
-leti r4 36012
+leti r4 60
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 2175
 write a0 16 r4 
-leti r4 38126
+leti r4 63
 write a0 16 r4 
-leti r4 38126
+leti r4 59
 write a0 16 r4 
-leti r4 38127
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38062
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 2111
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 29736
+leti r4 58
 write a0 16 r4 
-leti r4 29671
+leti r4 181
 write a0 16 r4 
-leti r4 29671
+leti r4 305
 write a0 16 r4 
-leti r4 31785
+leti r4 305
 write a0 16 r4 
-leti r4 31784
+leti r4 370
 write a0 16 r4 
-leti r4 29736
+leti r4 368
 write a0 16 r4 
-leti r4 29671
+leti r4 234
 write a0 16 r4 
-leti r4 29736
+leti r4 627
 write a0 16 r4 
-leti r4 29671
+leti r4 9535
 write a0 16 r4 
-leti r4 31785
+leti r4 9599
 write a0 16 r4 
-leti r4 31784
+leti r4 7615
 write a0 16 r4 
-leti r4 29671
+leti r4 7615
 write a0 16 r4 
-leti r4 31785
+leti r4 7679
 write a0 16 r4 
-leti r4 36013
+leti r4 5631
 write a0 16 r4 
-leti r4 36012
+leti r4 5631
 write a0 16 r4 
-leti r4 42290
+leti r4 5631
 write a0 16 r4 
-leti r4 42290
+leti r4 9663
 write a0 16 r4 
-leti r4 42289
+leti r4 304
 write a0 16 r4 
-leti r4 38126
+leti r4 245
 write a0 16 r4 
-leti r4 40175
+leti r4 311
 write a0 16 r4 
-leti r4 38126
+leti r4 246
 write a0 16 r4 
-leti r4 36013
+leti r4 179
 write a0 16 r4 
-leti r4 38126
+leti r4 180
 write a0 16 r4 
-leti r4 38126
+leti r4 248
 write a0 16 r4 
-leti r4 38126
+leti r4 249
 write a0 16 r4 
-leti r4 42354
+leti r4 118
 write a0 16 r4 
-leti r4 38061
+leti r4 251
 write a0 16 r4 
-leti r4 23328
+leti r4 188
 write a0 16 r4 
-leti r4 6413
+leti r4 57
 write a0 16 r4 
-leti r4 6345
+leti r4 57
 write a0 16 r4 
-leti r4 6341
+leti r4 125
 write a0 16 r4 
-leti r4 8391
+leti r4 2175
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 6276
+leti r4 62
 write a0 16 r4 
-leti r4 6276
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8389
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6277
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 2175
 write a0 16 r4 
-leti r4 8390
+leti r4 124
 write a0 16 r4 
-leti r4 8390
+leti r4 54
 write a0 16 r4 
-leti r4 8390
+leti r4 310
 write a0 16 r4 
-leti r4 8390
+leti r4 303
 write a0 16 r4 
-leti r4 8390
+leti r4 11583
 write a0 16 r4 
-leti r4 8390
+leti r4 9727
 write a0 16 r4 
-leti r4 6342
+leti r4 3647
 write a0 16 r4 
-leti r4 8390
+leti r4 1598
 write a0 16 r4 
-leti r4 8390
+leti r4 3711
 write a0 16 r4 
-leti r4 8390
+leti r4 1470
 write a0 16 r4 
-leti r4 6342
+leti r4 5823
 write a0 16 r4 
-leti r4 8390
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 1597
 write a0 16 r4 
-leti r4 6342
+leti r4 1726
 write a0 16 r4 
-leti r4 14731
+leti r4 1725
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 14667
+leti r4 3647
 write a0 16 r4 
-leti r4 14666
+leti r4 3647
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 12617
+leti r4 1662
 write a0 16 r4 
-leti r4 12615
+leti r4 1662
 write a0 16 r4 
-leti r4 14728
+leti r4 1661
 write a0 16 r4 
-leti r4 14729
+leti r4 1661
 write a0 16 r4 
-leti r4 25367
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 3647
 write a0 16 r4 
-leti r4 25362
+leti r4 3647
 write a0 16 r4 
-leti r4 21194
+leti r4 1663
 write a0 16 r4 
-leti r4 25426
+leti r4 1662
 write a0 16 r4 
-leti r4 35932
+leti r4 1534
 write a0 16 r4 
-leti r4 35934
+leti r4 7615
 write a0 16 r4 
-leti r4 35871
+leti r4 17791
 write a0 16 r4 
-leti r4 27415
+leti r4 117
 write a0 16 r4 
-leti r4 23123
+leti r4 126
 write a0 16 r4 
-leti r4 21074
+leti r4 61
 write a0 16 r4 
-leti r4 29464
+leti r4 2110
 write a0 16 r4 
-leti r4 29529
+leti r4 2111
 write a0 16 r4 
-leti r4 27414
+leti r4 59
 write a0 16 r4 
-leti r4 27414
+leti r4 178
 write a0 16 r4 
-leti r4 25301
+leti r4 17855
 write a0 16 r4 
-leti r4 27415
+leti r4 11967
 write a0 16 r4 
-leti r4 27350
+leti r4 1595
 write a0 16 r4 
-leti r4 27414
+leti r4 1724
 write a0 16 r4 
-leti r4 27480
+leti r4 1723
 write a0 16 r4 
-leti r4 33827
+leti r4 1661
 write a0 16 r4 
-leti r4 48625
+leti r4 1663
 write a0 16 r4 
-leti r4 50738
+leti r4 1599
 write a0 16 r4 
-leti r4 35939
+leti r4 1599
 write a0 16 r4 
-leti r4 27351
+leti r4 1663
 write a0 16 r4 
-leti r4 40037
+leti r4 1661
 write a0 16 r4 
-leti r4 42218
+leti r4 1723
 write a0 16 r4 
-leti r4 50740
+leti r4 1723
 write a0 16 r4 
-leti r4 58930
+leti r4 1661
 write a0 16 r4 
-leti r4 54766
+leti r4 1662
 write a0 16 r4 
-leti r4 33693
+leti r4 1599
 write a0 16 r4 
-leti r4 12619
+leti r4 1599
 write a0 16 r4 
-leti r4 10569
+leti r4 1599
 write a0 16 r4 
-leti r4 14730
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14667
+leti r4 1660
 write a0 16 r4 
-leti r4 14666
+leti r4 1659
 write a0 16 r4 
-leti r4 14666
+leti r4 1725
 write a0 16 r4 
-leti r4 14666
+leti r4 3711
 write a0 16 r4 
-leti r4 14666
+leti r4 1598
 write a0 16 r4 
-leti r4 14666
+leti r4 1535
 write a0 16 r4 
-leti r4 14666
+leti r4 3583
 write a0 16 r4 
-leti r4 14666
+leti r4 9855
 write a0 16 r4 
-leti r4 14666
+leti r4 7487
 write a0 16 r4 
-leti r4 12618
+leti r4 239
 write a0 16 r4 
-leti r4 14666
+leti r4 183
 write a0 16 r4 
-leti r4 14731
+leti r4 190
 write a0 16 r4 
-leti r4 14667
+leti r4 60
 write a0 16 r4 
-leti r4 14667
+leti r4 59
 write a0 16 r4 
-leti r4 14731
+leti r4 61
 write a0 16 r4 
-leti r4 10569
+leti r4 4159
 write a0 16 r4 
-leti r4 8391
+leti r4 4159
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 10503
+leti r4 62
 write a0 16 r4 
-leti r4 8323
+leti r4 62
 write a0 16 r4 
-leti r4 27418
+leti r4 62
 write a0 16 r4 
-leti r4 48628
+leti r4 62
 write a0 16 r4 
-leti r4 46515
+leti r4 62
 write a0 16 r4 
-leti r4 44333
+leti r4 62
 write a0 16 r4 
-leti r4 35873
+leti r4 62
 write a0 16 r4 
-leti r4 40174
+leti r4 126
 write a0 16 r4 
-leti r4 38060
+leti r4 57
 write a0 16 r4 
-leti r4 38126
+leti r4 58
 write a0 16 r4 
-leti r4 38127
+leti r4 2174
 write a0 16 r4 
-leti r4 38062
+leti r4 61
 write a0 16 r4 
-leti r4 38062
+leti r4 59
 write a0 16 r4 
-leti r4 38061
+leti r4 60
 write a0 16 r4 
-leti r4 40174
+leti r4 61
 write a0 16 r4 
-leti r4 38061
+leti r4 2111
 write a0 16 r4 
-leti r4 36012
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 2111
 write a0 16 r4 
-leti r4 38062
+leti r4 2111
 write a0 16 r4 
-leti r4 38062
+leti r4 60
 write a0 16 r4 
-leti r4 38126
+leti r4 2110
 write a0 16 r4 
-leti r4 36013
+leti r4 2111
 write a0 16 r4 
-leti r4 31784
+leti r4 2175
 write a0 16 r4 
-leti r4 31784
+leti r4 122
 write a0 16 r4 
-leti r4 31785
+leti r4 186
 write a0 16 r4 
-leti r4 29671
+leti r4 119
 write a0 16 r4 
-leti r4 29736
+leti r4 120
 write a0 16 r4 
-leti r4 31784
+leti r4 252
 write a0 16 r4 
-leti r4 29671
+leti r4 185
 write a0 16 r4 
-leti r4 29670
+leti r4 53
 write a0 16 r4 
-leti r4 31850
+leti r4 118
 write a0 16 r4 
-leti r4 31784
+leti r4 183
 write a0 16 r4 
-leti r4 31784
+leti r4 183
 write a0 16 r4 
-leti r4 31784
+leti r4 182
 write a0 16 r4 
-leti r4 36012
+leti r4 182
 write a0 16 r4 
-leti r4 40240
+leti r4 182
 write a0 16 r4 
-leti r4 38127
+leti r4 181
 write a0 16 r4 
-leti r4 42354
+leti r4 181
 write a0 16 r4 
-leti r4 42289
+leti r4 182
 write a0 16 r4 
-leti r4 40241
+leti r4 186
 write a0 16 r4 
-leti r4 38062
+leti r4 57
 write a0 16 r4 
-leti r4 36013
+leti r4 57
 write a0 16 r4 
-leti r4 40240
+leti r4 188
 write a0 16 r4 
-leti r4 40175
+leti r4 188
 write a0 16 r4 
-leti r4 36013
+leti r4 123
 write a0 16 r4 
-leti r4 38126
+leti r4 58
 write a0 16 r4 
-leti r4 38126
+leti r4 57
 write a0 16 r4 
-leti r4 38126
+leti r4 60
 write a0 16 r4 
-leti r4 23327
+leti r4 60
 write a0 16 r4 
-leti r4 6414
+leti r4 61
 write a0 16 r4 
-leti r4 4298
+leti r4 2110
 write a0 16 r4 
-leti r4 6278
+leti r4 2110
 write a0 16 r4 
-leti r4 8456
+leti r4 2110
 write a0 16 r4 
-leti r4 6277
+leti r4 61
 write a0 16 r4 
-leti r4 8391
+leti r4 61
 write a0 16 r4 
-leti r4 10570
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8455
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 2111
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 124
 write a0 16 r4 
-leti r4 8390
+leti r4 120
 write a0 16 r4 
-leti r4 8390
+leti r4 181
 write a0 16 r4 
-leti r4 8390
+leti r4 242
 write a0 16 r4 
-leti r4 8390
+leti r4 13567
 write a0 16 r4 
-leti r4 6342
+leti r4 9599
 write a0 16 r4 
-leti r4 8390
+leti r4 7615
 write a0 16 r4 
-leti r4 8390
+leti r4 5631
 write a0 16 r4 
-leti r4 6342
+leti r4 3647
 write a0 16 r4 
-leti r4 6342
+leti r4 1467
 write a0 16 r4 
-leti r4 8390
+leti r4 3839
 write a0 16 r4 
-leti r4 8390
+leti r4 1662
 write a0 16 r4 
-leti r4 6342
+leti r4 1660
 write a0 16 r4 
-leti r4 14667
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14667
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 14731
+leti r4 1661
 write a0 16 r4 
-leti r4 14728
+leti r4 1661
 write a0 16 r4 
-leti r4 12679
+leti r4 1660
 write a0 16 r4 
-leti r4 12679
+leti r4 1661
 write a0 16 r4 
-leti r4 21138
+leti r4 1663
 write a0 16 r4 
-leti r4 25300
+leti r4 3647
 write a0 16 r4 
-leti r4 27475
+leti r4 3647
 write a0 16 r4 
-leti r4 27535
+leti r4 1662
 write a0 16 r4 
-leti r4 19081
+leti r4 1723
 write a0 16 r4 
-leti r4 27473
+leti r4 1659
 write a0 16 r4 
-leti r4 38047
+leti r4 5759
 write a0 16 r4 
-leti r4 35870
+leti r4 7551
 write a0 16 r4 
-leti r4 25301
+leti r4 306
 write a0 16 r4 
-leti r4 27416
+leti r4 120
 write a0 16 r4 
-leti r4 23123
+leti r4 2174
 write a0 16 r4 
-leti r4 27415
+leti r4 2109
 write a0 16 r4 
-leti r4 27416
+leti r4 63
 write a0 16 r4 
-leti r4 29464
+leti r4 57
 write a0 16 r4 
-leti r4 31579
+leti r4 306
 write a0 16 r4 
-leti r4 31578
+leti r4 9599
 write a0 16 r4 
-leti r4 29529
+leti r4 1470
 write a0 16 r4 
-leti r4 29464
+leti r4 1659
 write a0 16 r4 
-leti r4 29595
+leti r4 1724
 write a0 16 r4 
-leti r4 35873
+leti r4 1658
 write a0 16 r4 
-leti r4 50742
+leti r4 1661
 write a0 16 r4 
-leti r4 50740
+leti r4 1663
 write a0 16 r4 
-leti r4 42282
+leti r4 1599
 write a0 16 r4 
-leti r4 29529
+leti r4 1599
 write a0 16 r4 
-leti r4 31578
+leti r4 1663
 write a0 16 r4 
-leti r4 44329
+leti r4 1662
 write a0 16 r4 
-leti r4 50739
+leti r4 1661
 write a0 16 r4 
-leti r4 48628
+leti r4 1661
 write a0 16 r4 
-leti r4 56814
+leti r4 1662
 write a0 16 r4 
-leti r4 44132
+leti r4 1663
 write a0 16 r4 
-leti r4 21009
+leti r4 1599
 write a0 16 r4 
-leti r4 12619
+leti r4 1599
 write a0 16 r4 
-leti r4 12683
+leti r4 1599
 write a0 16 r4 
-leti r4 8389
+leti r4 1599
 write a0 16 r4 
-leti r4 8390
+leti r4 3647
 write a0 16 r4 
-leti r4 16716
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1726
 write a0 16 r4 
-leti r4 14666
+leti r4 1594
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 3711
 write a0 16 r4 
-leti r4 14666
+leti r4 5695
 write a0 16 r4 
-leti r4 14666
+leti r4 5503
 write a0 16 r4 
-leti r4 14666
+leti r4 13759
 write a0 16 r4 
-leti r4 14666
+leti r4 432
 write a0 16 r4 
-leti r4 14732
+leti r4 313
 write a0 16 r4 
-leti r4 14666
+leti r4 58
 write a0 16 r4 
-leti r4 12617
+leti r4 59
 write a0 16 r4 
-leti r4 14666
+leti r4 2111
 write a0 16 r4 
-leti r4 14731
+leti r4 4159
 write a0 16 r4 
-leti r4 12618
+leti r4 2110
 write a0 16 r4 
-leti r4 8455
+leti r4 2110
 write a0 16 r4 
-leti r4 6341
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 10505
+leti r4 62
 write a0 16 r4 
-leti r4 10502
+leti r4 62
 write a0 16 r4 
-leti r4 8389
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 62
 write a0 16 r4 
-leti r4 52788
+leti r4 62
 write a0 16 r4 
-leti r4 50740
+leti r4 62
 write a0 16 r4 
-leti r4 46445
+leti r4 62
 write a0 16 r4 
-leti r4 44329
+leti r4 62
 write a0 16 r4 
-leti r4 38058
+leti r4 60
 write a0 16 r4 
-leti r4 35944
+leti r4 58
 write a0 16 r4 
-leti r4 38060
+leti r4 59
 write a0 16 r4 
-leti r4 38125
+leti r4 59
 write a0 16 r4 
-leti r4 38126
+leti r4 59
 write a0 16 r4 
-leti r4 38127
+leti r4 60
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 40240
+leti r4 60
 write a0 16 r4 
-leti r4 38061
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 60
 write a0 16 r4 
-leti r4 38127
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 40175
+leti r4 62
 write a0 16 r4 
-leti r4 38127
+leti r4 61
 write a0 16 r4 
-leti r4 29670
+leti r4 59
 write a0 16 r4 
-leti r4 29736
+leti r4 59
 write a0 16 r4 
-leti r4 29671
+leti r4 2175
 write a0 16 r4 
-leti r4 23329
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 58
 write a0 16 r4 
-leti r4 23328
+leti r4 60
 write a0 16 r4 
-leti r4 23329
+leti r4 62
 write a0 16 r4 
-leti r4 23329
+leti r4 63
 write a0 16 r4 
-leti r4 29671
+leti r4 2175
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 29671
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 36012
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 42353
+leti r4 59
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 44403
+leti r4 127
 write a0 16 r4 
-leti r4 40241
+leti r4 58
 write a0 16 r4 
-leti r4 38061
+leti r4 58
 write a0 16 r4 
-leti r4 38125
+leti r4 127
 write a0 16 r4 
-leti r4 38061
+leti r4 2239
 write a0 16 r4 
-leti r4 38125
+leti r4 60
 write a0 16 r4 
-leti r4 23262
+leti r4 2111
 write a0 16 r4 
-leti r4 8527
+leti r4 62
 write a0 16 r4 
-leti r4 6412
+leti r4 60
 write a0 16 r4 
-leti r4 8458
+leti r4 2110
 write a0 16 r4 
-leti r4 8392
+leti r4 61
 write a0 16 r4 
-leti r4 6277
+leti r4 2110
 write a0 16 r4 
-leti r4 8455
+leti r4 2110
 write a0 16 r4 
-leti r4 6342
+leti r4 4223
 write a0 16 r4 
-leti r4 8455
+leti r4 62
 write a0 16 r4 
-leti r4 6277
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6277
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 6277
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 6341
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 2111
 write a0 16 r4 
-leti r4 8390
+leti r4 2110
 write a0 16 r4 
-leti r4 8390
+leti r4 2111
 write a0 16 r4 
-leti r4 8390
+leti r4 4287
 write a0 16 r4 
-leti r4 8390
+leti r4 58
 write a0 16 r4 
-leti r4 8390
+leti r4 56
 write a0 16 r4 
-leti r4 8390
+leti r4 249
 write a0 16 r4 
-leti r4 8390
+leti r4 179
 write a0 16 r4 
-leti r4 8390
+leti r4 303
 write a0 16 r4 
-leti r4 8390
+leti r4 19967
 write a0 16 r4 
-leti r4 8390
+leti r4 5503
 write a0 16 r4 
-leti r4 6342
+leti r4 1471
 write a0 16 r4 
-leti r4 8390
+leti r4 5887
 write a0 16 r4 
-leti r4 8390
+leti r4 1595
 write a0 16 r4 
-leti r4 8390
+leti r4 1661
 write a0 16 r4 
-leti r4 8390
+leti r4 1727
 write a0 16 r4 
-leti r4 12617
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14731
+leti r4 1663
 write a0 16 r4 
-leti r4 14667
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 14665
+leti r4 1661
 write a0 16 r4 
-leti r4 14729
+leti r4 1661
 write a0 16 r4 
-leti r4 12679
+leti r4 1661
 write a0 16 r4 
-leti r4 16842
+leti r4 1662
 write a0 16 r4 
-leti r4 14729
+leti r4 1599
 write a0 16 r4 
-leti r4 14793
+leti r4 1599
 write a0 16 r4 
-leti r4 16968
+leti r4 1599
 write a0 16 r4 
-leti r4 25422
+leti r4 1662
 write a0 16 r4 
-leti r4 27537
+leti r4 1659
 write a0 16 r4 
-leti r4 21197
+leti r4 3839
 write a0 16 r4 
-leti r4 19085
+leti r4 1595
 write a0 16 r4 
-leti r4 25365
+leti r4 7679
 write a0 16 r4 
-leti r4 35936
+leti r4 19903
 write a0 16 r4 
-leti r4 35872
+leti r4 180
 write a0 16 r4 
-leti r4 27417
+leti r4 57
 write a0 16 r4 
-leti r4 21074
+leti r4 2111
 write a0 16 r4 
-leti r4 27416
+leti r4 60
 write a0 16 r4 
-leti r4 29530
+leti r4 188
 write a0 16 r4 
-leti r4 31578
+leti r4 307
 write a0 16 r4 
-leti r4 27351
+leti r4 9599
 write a0 16 r4 
-leti r4 23123
+leti r4 1535
 write a0 16 r4 
-leti r4 25302
+leti r4 5887
 write a0 16 r4 
-leti r4 35938
+leti r4 1595
 write a0 16 r4 
-leti r4 50736
+leti r4 1661
 write a0 16 r4 
-leti r4 50739
+leti r4 1662
 write a0 16 r4 
-leti r4 40167
+leti r4 1663
 write a0 16 r4 
-leti r4 29530
+leti r4 1663
 write a0 16 r4 
-leti r4 31644
+leti r4 1663
 write a0 16 r4 
-leti r4 35872
+leti r4 1663
 write a0 16 r4 
-leti r4 44394
+leti r4 1599
 write a0 16 r4 
-leti r4 44330
+leti r4 1599
 write a0 16 r4 
-leti r4 52786
+leti r4 1599
 write a0 16 r4 
-leti r4 46376
+leti r4 1599
 write a0 16 r4 
-leti r4 29463
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14732
+leti r4 1663
 write a0 16 r4 
-leti r4 14731
+leti r4 1599
 write a0 16 r4 
-leti r4 6275
+leti r4 1599
 write a0 16 r4 
-leti r4 8389
+leti r4 3647
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 3455
 write a0 16 r4 
-leti r4 14666
+leti r4 15807
 write a0 16 r4 
-leti r4 14666
+leti r4 176
 write a0 16 r4 
-leti r4 14666
+leti r4 118
 write a0 16 r4 
-leti r4 14667
+leti r4 55
 write a0 16 r4 
-leti r4 14666
+leti r4 2175
 write a0 16 r4 
-leti r4 14667
+leti r4 4287
 write a0 16 r4 
-leti r4 14666
+leti r4 57
 write a0 16 r4 
-leti r4 14666
+leti r4 4159
 write a0 16 r4 
-leti r4 8390
+leti r4 4159
 write a0 16 r4 
-leti r4 6341
+leti r4 60
 write a0 16 r4 
-leti r4 6342
+leti r4 2111
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 6341
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 6341
+leti r4 62
 write a0 16 r4 
-leti r4 8454
+leti r4 62
 write a0 16 r4 
-leti r4 27416
+leti r4 62
 write a0 16 r4 
-leti r4 54833
+leti r4 62
 write a0 16 r4 
-leti r4 54767
+leti r4 62
 write a0 16 r4 
-leti r4 54832
+leti r4 62
 write a0 16 r4 
-leti r4 37920
+leti r4 62
 write a0 16 r4 
-leti r4 35876
+leti r4 61
 write a0 16 r4 
-leti r4 33828
+leti r4 62
 write a0 16 r4 
-leti r4 35943
+leti r4 62
 write a0 16 r4 
-leti r4 38059
+leti r4 61
 write a0 16 r4 
-leti r4 38061
+leti r4 60
 write a0 16 r4 
-leti r4 38061
+leti r4 61
 write a0 16 r4 
-leti r4 38061
+leti r4 126
 write a0 16 r4 
-leti r4 38126
+leti r4 127
 write a0 16 r4 
-leti r4 38126
+leti r4 126
 write a0 16 r4 
-leti r4 36012
+leti r4 126
 write a0 16 r4 
-leti r4 38061
+leti r4 126
 write a0 16 r4 
-leti r4 38126
+leti r4 126
 write a0 16 r4 
-leti r4 36012
+leti r4 59
 write a0 16 r4 
-leti r4 35947
+leti r4 58
 write a0 16 r4 
-leti r4 33898
+leti r4 125
 write a0 16 r4 
-leti r4 29736
+leti r4 126
 write a0 16 r4 
-leti r4 31785
+leti r4 127
 write a0 16 r4 
-leti r4 31784
+leti r4 61
 write a0 16 r4 
-leti r4 29671
+leti r4 61
 write a0 16 r4 
-leti r4 31784
+leti r4 63
 write a0 16 r4 
-leti r4 31784
+leti r4 127
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 29671
+leti r4 60
 write a0 16 r4 
-leti r4 31785
+leti r4 60
 write a0 16 r4 
-leti r4 29671
+leti r4 63
 write a0 16 r4 
-leti r4 31784
+leti r4 63
 write a0 16 r4 
-leti r4 31784
+leti r4 63
 write a0 16 r4 
-leti r4 38126
+leti r4 63
 write a0 16 r4 
-leti r4 36013
+leti r4 63
 write a0 16 r4 
-leti r4 38127
+leti r4 63
 write a0 16 r4 
-leti r4 38127
+leti r4 2111
 write a0 16 r4 
-leti r4 42290
+leti r4 63
 write a0 16 r4 
-leti r4 42355
+leti r4 2175
 write a0 16 r4 
-leti r4 40240
+leti r4 61
 write a0 16 r4 
-leti r4 42289
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 127
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 42354
+leti r4 60
 write a0 16 r4 
-leti r4 33833
+leti r4 61
 write a0 16 r4 
-leti r4 23327
+leti r4 62
 write a0 16 r4 
-leti r4 8527
+leti r4 61
 write a0 16 r4 
-leti r4 6412
+leti r4 63
 write a0 16 r4 
-leti r4 8523
+leti r4 63
 write a0 16 r4 
-leti r4 8523
+leti r4 63
 write a0 16 r4 
-leti r4 6277
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 2111
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6277
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 61
 write a0 16 r4 
-leti r4 8391
+leti r4 61
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 4223
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 4159
 write a0 16 r4 
-leti r4 8390
+leti r4 58
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 58
 write a0 16 r4 
-leti r4 8390
+leti r4 187
 write a0 16 r4 
-leti r4 8390
+leti r4 117
 write a0 16 r4 
-leti r4 8390
+leti r4 110
 write a0 16 r4 
-leti r4 8390
+leti r4 17855
 write a0 16 r4 
-leti r4 8390
+leti r4 7679
 write a0 16 r4 
-leti r4 8390
+leti r4 1534
 write a0 16 r4 
-leti r4 8390
+leti r4 1727
 write a0 16 r4 
-leti r4 8390
+leti r4 1660
 write a0 16 r4 
-leti r4 8390
+leti r4 1727
 write a0 16 r4 
-leti r4 10503
+leti r4 1663
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 14731
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 12617
+leti r4 1661
 write a0 16 r4 
-leti r4 14731
+leti r4 1662
 write a0 16 r4 
-leti r4 16779
+leti r4 1663
 write a0 16 r4 
-leti r4 18959
+leti r4 1663
 write a0 16 r4 
-leti r4 14728
+leti r4 1663
 write a0 16 r4 
-leti r4 12679
+leti r4 1599
 write a0 16 r4 
-leti r4 12742
+leti r4 1599
 write a0 16 r4 
-leti r4 19083
+leti r4 1599
 write a0 16 r4 
-leti r4 25363
+leti r4 3711
 write a0 16 r4 
-leti r4 25298
+leti r4 1467
 write a0 16 r4 
-leti r4 27478
+leti r4 9983
 write a0 16 r4 
-leti r4 25366
+leti r4 1407
 write a0 16 r4 
-leti r4 35937
+leti r4 7423
 write a0 16 r4 
-leti r4 35938
+leti r4 438
 write a0 16 r4 
-leti r4 25303
+leti r4 187
 write a0 16 r4 
-leti r4 25367
+leti r4 61
 write a0 16 r4 
-leti r4 29530
+leti r4 127
 write a0 16 r4 
-leti r4 29465
+leti r4 56
 write a0 16 r4 
-leti r4 27417
+leti r4 307
 write a0 16 r4 
-leti r4 31579
+leti r4 9663
 write a0 16 r4 
-leti r4 31580
+leti r4 1535
 write a0 16 r4 
-leti r4 35874
+leti r4 1532
 write a0 16 r4 
-leti r4 42281
+leti r4 3775
 write a0 16 r4 
-leti r4 52850
+leti r4 1662
 write a0 16 r4 
-leti r4 42279
+leti r4 1663
 write a0 16 r4 
-leti r4 42148
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 27351
+leti r4 1663
 write a0 16 r4 
-leti r4 35938
+leti r4 1663
 write a0 16 r4 
-leti r4 44393
+leti r4 1599
 write a0 16 r4 
-leti r4 44328
+leti r4 1535
 write a0 16 r4 
-leti r4 56880
+leti r4 1535
 write a0 16 r4 
-leti r4 33887
+leti r4 1599
 write a0 16 r4 
-leti r4 21074
+leti r4 1663
 write a0 16 r4 
-leti r4 14667
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 12616
+leti r4 1599
 write a0 16 r4 
-leti r4 10502
+leti r4 1599
 write a0 16 r4 
-leti r4 14731
+leti r4 1599
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 5695
 write a0 16 r4 
-leti r4 14666
+leti r4 9535
 write a0 16 r4 
-leti r4 14666
+leti r4 308
 write a0 16 r4 
-leti r4 14666
+leti r4 120
 write a0 16 r4 
-leti r4 14666
+leti r4 127
 write a0 16 r4 
-leti r4 12618
+leti r4 63
 write a0 16 r4 
-leti r4 12618
+leti r4 62
 write a0 16 r4 
-leti r4 14730
+leti r4 60
 write a0 16 r4 
-leti r4 14665
+leti r4 4223
 write a0 16 r4 
-leti r4 14730
+leti r4 61
 write a0 16 r4 
-leti r4 8389
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 2111
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 6278
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8391
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 23121
+leti r4 62
 write a0 16 r4 
-leti r4 56813
+leti r4 62
 write a0 16 r4 
-leti r4 60974
+leti r4 62
 write a0 16 r4 
-leti r4 58991
+leti r4 62
 write a0 16 r4 
-leti r4 54829
+leti r4 62
 write a0 16 r4 
-leti r4 35875
+leti r4 62
 write a0 16 r4 
-leti r4 35876
+leti r4 62
 write a0 16 r4 
-leti r4 35878
+leti r4 61
 write a0 16 r4 
-leti r4 38124
+leti r4 63
 write a0 16 r4 
-leti r4 40174
+leti r4 2175
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 60
 write a0 16 r4 
-leti r4 38061
+leti r4 60
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 60
 write a0 16 r4 
-leti r4 42289
+leti r4 59
 write a0 16 r4 
-leti r4 38126
+leti r4 125
 write a0 16 r4 
-leti r4 38061
+leti r4 61
 write a0 16 r4 
-leti r4 40175
+leti r4 125
 write a0 16 r4 
-leti r4 36013
+leti r4 125
 write a0 16 r4 
-leti r4 38126
+leti r4 59
 write a0 16 r4 
-leti r4 38126
+leti r4 63
 write a0 16 r4 
-leti r4 36012
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 63
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 61
 write a0 16 r4 
-leti r4 38127
+leti r4 63
 write a0 16 r4 
-leti r4 36013
+leti r4 63
 write a0 16 r4 
-leti r4 29671
+leti r4 62
 write a0 16 r4 
-leti r4 33898
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 38127
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 42289
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 61
 write a0 16 r4 
-leti r4 42289
+leti r4 62
 write a0 16 r4 
-leti r4 42353
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 31719
+leti r4 62
 write a0 16 r4 
-leti r4 23263
+leti r4 62
 write a0 16 r4 
-leti r4 6416
+leti r4 61
 write a0 16 r4 
-leti r4 6413
+leti r4 61
 write a0 16 r4 
-leti r4 8525
+leti r4 62
 write a0 16 r4 
-leti r4 8522
+leti r4 60
 write a0 16 r4 
-leti r4 4293
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8391
+leti r4 63
 write a0 16 r4 
-leti r4 6276
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 6277
+leti r4 61
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 2111
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 2111
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 125
 write a0 16 r4 
-leti r4 6342
+leti r4 120
 write a0 16 r4 
-leti r4 8390
+leti r4 308
 write a0 16 r4 
-leti r4 8391
+leti r4 9535
 write a0 16 r4 
-leti r4 8391
+leti r4 7743
 write a0 16 r4 
-leti r4 6342
+leti r4 1534
 write a0 16 r4 
-leti r4 6342
+leti r4 1663
 write a0 16 r4 
-leti r4 8390
+leti r4 1662
 write a0 16 r4 
-leti r4 8390
+leti r4 1663
 write a0 16 r4 
-leti r4 12617
+leti r4 1663
 write a0 16 r4 
-leti r4 14731
+leti r4 1663
 write a0 16 r4 
-leti r4 14667
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 12618
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1662
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 14729
+leti r4 1663
 write a0 16 r4 
-leti r4 14791
+leti r4 1663
 write a0 16 r4 
-leti r4 14791
+leti r4 1599
 write a0 16 r4 
-leti r4 12679
+leti r4 1599
 write a0 16 r4 
-leti r4 14730
+leti r4 5695
 write a0 16 r4 
-leti r4 27415
+leti r4 5631
 write a0 16 r4 
-leti r4 35871
+leti r4 3583
 write a0 16 r4 
-leti r4 25367
+leti r4 9855
 write a0 16 r4 
-leti r4 25366
+leti r4 9663
 write a0 16 r4 
-leti r4 35872
+leti r4 303
 write a0 16 r4 
-leti r4 35937
+leti r4 121
 write a0 16 r4 
-leti r4 35872
+leti r4 63
 write a0 16 r4 
-leti r4 31579
+leti r4 127
 write a0 16 r4 
-leti r4 31578
+leti r4 123
 write a0 16 r4 
-leti r4 29528
+leti r4 306
 write a0 16 r4 
-leti r4 29529
+leti r4 7551
 write a0 16 r4 
-leti r4 35874
+leti r4 1535
 write a0 16 r4 
-leti r4 52789
+leti r4 1663
 write a0 16 r4 
-leti r4 48626
+leti r4 1532
 write a0 16 r4 
-leti r4 50740
+leti r4 1663
 write a0 16 r4 
-leti r4 35873
+leti r4 1663
 write a0 16 r4 
-leti r4 27416
+leti r4 1663
 write a0 16 r4 
-leti r4 29464
+leti r4 1663
 write a0 16 r4 
-leti r4 31578
+leti r4 1663
 write a0 16 r4 
-leti r4 37985
+leti r4 1663
 write a0 16 r4 
-leti r4 42280
+leti r4 1599
 write a0 16 r4 
-leti r4 44394
+leti r4 1599
 write a0 16 r4 
-leti r4 35874
+leti r4 1599
 write a0 16 r4 
-leti r4 23123
+leti r4 1599
 write a0 16 r4 
-leti r4 12618
+leti r4 1727
 write a0 16 r4 
-leti r4 14666
+leti r4 1597
 write a0 16 r4 
-leti r4 12617
+leti r4 3775
 write a0 16 r4 
-leti r4 10439
+leti r4 1597
 write a0 16 r4 
-leti r4 8390
+leti r4 1661
 write a0 16 r4 
-leti r4 12618
+leti r4 1727
 write a0 16 r4 
-leti r4 14731
+leti r4 1660
 write a0 16 r4 
-leti r4 14731
+leti r4 1663
 write a0 16 r4 
-leti r4 12617
+leti r4 1535
 write a0 16 r4 
-leti r4 14666
+leti r4 5567
 write a0 16 r4 
-leti r4 16779
+leti r4 11583
 write a0 16 r4 
-leti r4 14666
+leti r4 309
 write a0 16 r4 
-leti r4 14667
+leti r4 55
 write a0 16 r4 
-leti r4 12618
+leti r4 191
 write a0 16 r4 
-leti r4 8389
+leti r4 59
 write a0 16 r4 
-leti r4 14666
+leti r4 62
 write a0 16 r4 
-leti r4 14665
+leti r4 62
 write a0 16 r4 
-leti r4 14731
+leti r4 62
 write a0 16 r4 
-leti r4 14731
+leti r4 61
 write a0 16 r4 
-leti r4 8389
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 60
 write a0 16 r4 
-leti r4 8391
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 14667
+leti r4 62
 write a0 16 r4 
-leti r4 12683
+leti r4 62
 write a0 16 r4 
-leti r4 29399
+leti r4 62
 write a0 16 r4 
-leti r4 44328
+leti r4 62
 write a0 16 r4 
-leti r4 56879
+leti r4 62
 write a0 16 r4 
-leti r4 56877
+leti r4 62
 write a0 16 r4 
-leti r4 60973
+leti r4 62
 write a0 16 r4 
-leti r4 33887
+leti r4 62
 write a0 16 r4 
-leti r4 35873
+leti r4 62
 write a0 16 r4 
-leti r4 37989
+leti r4 62
 write a0 16 r4 
-leti r4 35878
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 36077
+leti r4 62
 write a0 16 r4 
-leti r4 35948
+leti r4 62
 write a0 16 r4 
-leti r4 40176
+leti r4 62
 write a0 16 r4 
-leti r4 38128
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 40175
+leti r4 62
 write a0 16 r4 
-leti r4 42289
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 40242
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 42289
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 2110
 write a0 16 r4 
-leti r4 40240
+leti r4 2110
 write a0 16 r4 
-leti r4 40241
+leti r4 2110
 write a0 16 r4 
-leti r4 40241
+leti r4 2110
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 42353
+leti r4 61
 write a0 16 r4 
-leti r4 42353
+leti r4 61
 write a0 16 r4 
-leti r4 42354
+leti r4 60
 write a0 16 r4 
-leti r4 40241
+leti r4 60
 write a0 16 r4 
-leti r4 40241
+leti r4 61
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 36012
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 33897
+leti r4 62
 write a0 16 r4 
-leti r4 21213
+leti r4 62
 write a0 16 r4 
-leti r4 8527
+leti r4 62
 write a0 16 r4 
-leti r4 6413
+leti r4 62
 write a0 16 r4 
-leti r4 8461
+leti r4 62
 write a0 16 r4 
-leti r4 19029
+leti r4 62
 write a0 16 r4 
-leti r4 21075
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 6277
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 56
 write a0 16 r4 
-leti r4 8390
+leti r4 316
 write a0 16 r4 
-leti r4 8390
+leti r4 243
 write a0 16 r4 
-leti r4 8390
+leti r4 13631
 write a0 16 r4 
-leti r4 8390
+leti r4 9663
 write a0 16 r4 
-leti r4 8390
+leti r4 3583
 write a0 16 r4 
-leti r4 8390
+leti r4 1662
 write a0 16 r4 
-leti r4 8390
+leti r4 1726
 write a0 16 r4 
-leti r4 14666
+leti r4 1595
 write a0 16 r4 
-leti r4 14731
+leti r4 3775
 write a0 16 r4 
-leti r4 14666
+leti r4 1533
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 12683
+leti r4 1663
 write a0 16 r4 
-leti r4 12618
+leti r4 1597
 write a0 16 r4 
-leti r4 14666
+leti r4 1727
 write a0 16 r4 
-leti r4 14665
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1662
 write a0 16 r4 
-leti r4 14668
+leti r4 1599
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 14730
+leti r4 1663
 write a0 16 r4 
-leti r4 25365
+leti r4 1663
 write a0 16 r4 
-leti r4 23319
+leti r4 1599
 write a0 16 r4 
-leti r4 19093
+leti r4 1599
 write a0 16 r4 
-leti r4 12743
+leti r4 5695
 write a0 16 r4 
-leti r4 25367
+leti r4 5695
 write a0 16 r4 
-leti r4 35937
+leti r4 3583
 write a0 16 r4 
-leti r4 35936
+leti r4 7807
 write a0 16 r4 
-leti r4 33826
+leti r4 9663
 write a0 16 r4 
-leti r4 33826
+leti r4 303
 write a0 16 r4 
-leti r4 44395
+leti r4 252
 write a0 16 r4 
-leti r4 48562
+leti r4 62
 write a0 16 r4 
-leti r4 29530
+leti r4 60
 write a0 16 r4 
-leti r4 27415
+leti r4 57
 write a0 16 r4 
-leti r4 27415
+leti r4 309
 write a0 16 r4 
-leti r4 35872
+leti r4 11647
 write a0 16 r4 
-leti r4 44330
+leti r4 5695
 write a0 16 r4 
-leti r4 50675
+leti r4 1534
 write a0 16 r4 
-leti r4 50740
+leti r4 3775
 write a0 16 r4 
-leti r4 42282
+leti r4 3775
 write a0 16 r4 
-leti r4 35937
+leti r4 1663
 write a0 16 r4 
-leti r4 27415
+leti r4 1663
 write a0 16 r4 
-leti r4 27414
+leti r4 1663
 write a0 16 r4 
-leti r4 31643
+leti r4 1663
 write a0 16 r4 
-leti r4 33823
+leti r4 1663
 write a0 16 r4 
-leti r4 44329
+leti r4 1663
 write a0 16 r4 
-leti r4 35938
+leti r4 1599
 write a0 16 r4 
-leti r4 29531
+leti r4 1599
 write a0 16 r4 
-leti r4 21074
+leti r4 1598
 write a0 16 r4 
-leti r4 14732
+leti r4 1663
 write a0 16 r4 
-leti r4 14667
+leti r4 1663
 write a0 16 r4 
-leti r4 14731
+leti r4 1662
 write a0 16 r4 
-leti r4 14667
+leti r4 1662
 write a0 16 r4 
-leti r4 8389
+leti r4 1726
 write a0 16 r4 
-leti r4 12618
+leti r4 1723
 write a0 16 r4 
-leti r4 8389
+leti r4 1791
 write a0 16 r4 
-leti r4 14730
+leti r4 1599
 write a0 16 r4 
-leti r4 14667
+leti r4 3519
 write a0 16 r4 
-leti r4 14731
+leti r4 13695
 write a0 16 r4 
-leti r4 14666
+leti r4 112
 write a0 16 r4 
-leti r4 14665
+leti r4 318
 write a0 16 r4 
-leti r4 14732
+leti r4 59
 write a0 16 r4 
-leti r4 12619
+leti r4 59
 write a0 16 r4 
-leti r4 8389
+leti r4 2175
 write a0 16 r4 
-leti r4 14666
+leti r4 62
 write a0 16 r4 
-leti r4 14666
+leti r4 62
 write a0 16 r4 
-leti r4 14667
+leti r4 61
 write a0 16 r4 
-leti r4 12618
+leti r4 61
 write a0 16 r4 
-leti r4 6341
+leti r4 60
 write a0 16 r4 
-leti r4 6342
+leti r4 60
 write a0 16 r4 
-leti r4 8391
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 14666
+leti r4 62
 write a0 16 r4 
-leti r4 10505
+leti r4 62
 write a0 16 r4 
-leti r4 31577
+leti r4 62
 write a0 16 r4 
-leti r4 44327
+leti r4 62
 write a0 16 r4 
-leti r4 56878
+leti r4 62
 write a0 16 r4 
-leti r4 56877
+leti r4 62
 write a0 16 r4 
-leti r4 60973
+leti r4 62
 write a0 16 r4 
-leti r4 46375
+leti r4 62
 write a0 16 r4 
-leti r4 37987
+leti r4 62
 write a0 16 r4 
-leti r4 33762
+leti r4 62
 write a0 16 r4 
-leti r4 35878
+leti r4 62
 write a0 16 r4 
-leti r4 40173
+leti r4 62
 write a0 16 r4 
-leti r4 31717
+leti r4 62
 write a0 16 r4 
-leti r4 33898
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 38127
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 42289
+leti r4 2110
 write a0 16 r4 
-leti r4 40241
+leti r4 2110
 write a0 16 r4 
-leti r4 42353
+leti r4 2110
 write a0 16 r4 
-leti r4 42352
+leti r4 2110
 write a0 16 r4 
-leti r4 42289
+leti r4 2110
 write a0 16 r4 
-leti r4 42353
+leti r4 2109
 write a0 16 r4 
-leti r4 42289
+leti r4 2109
 write a0 16 r4 
-leti r4 42354
+leti r4 2110
 write a0 16 r4 
-leti r4 42354
+leti r4 2110
 write a0 16 r4 
-leti r4 42289
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 42289
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 61
 write a0 16 r4 
-leti r4 40241
+leti r4 61
 write a0 16 r4 
-leti r4 42353
+leti r4 60
 write a0 16 r4 
-leti r4 42289
+leti r4 60
 write a0 16 r4 
-leti r4 42354
+leti r4 61
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 31785
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 29670
+leti r4 62
 write a0 16 r4 
-leti r4 16985
+leti r4 62
 write a0 16 r4 
-leti r4 4300
+leti r4 62
 write a0 16 r4 
-leti r4 6414
+leti r4 62
 write a0 16 r4 
-leti r4 23324
+leti r4 62
 write a0 16 r4 
-leti r4 27484
+leti r4 62
 write a0 16 r4 
-leti r4 18963
+leti r4 62
 write a0 16 r4 
-leti r4 8389
+leti r4 62
 write a0 16 r4 
-leti r4 10504
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 6277
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 58
 write a0 16 r4 
-leti r4 8390
+leti r4 55
 write a0 16 r4 
-leti r4 8390
+leti r4 244
 write a0 16 r4 
-leti r4 8390
+leti r4 17727
 write a0 16 r4 
-leti r4 8390
+leti r4 11775
 write a0 16 r4 
-leti r4 8390
+leti r4 1470
 write a0 16 r4 
-leti r4 6276
+leti r4 1531
 write a0 16 r4 
-leti r4 12617
+leti r4 3839
 write a0 16 r4 
-leti r4 16780
+leti r4 1597
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 12618
+leti r4 3711
 write a0 16 r4 
-leti r4 10503
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1598
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14730
+leti r4 1662
 write a0 16 r4 
-leti r4 14667
+leti r4 1662
 write a0 16 r4 
-leti r4 12554
+leti r4 1663
 write a0 16 r4 
-leti r4 14667
+leti r4 1663
 write a0 16 r4 
-leti r4 21072
+leti r4 1663
 write a0 16 r4 
-leti r4 25364
+leti r4 1663
 write a0 16 r4 
-leti r4 21139
+leti r4 1663
 write a0 16 r4 
-leti r4 19093
+leti r4 1599
 write a0 16 r4 
-leti r4 19093
+leti r4 1533
 write a0 16 r4 
-leti r4 19093
+leti r4 3711
 write a0 16 r4 
-leti r4 19096
+leti r4 3647
 write a0 16 r4 
-leti r4 23325
+leti r4 5567
 write a0 16 r4 
-leti r4 40299
+leti r4 7487
 write a0 16 r4 
-leti r4 44528
+leti r4 438
 write a0 16 r4 
-leti r4 44465
+leti r4 55
 write a0 16 r4 
-leti r4 59261
+leti r4 62
 write a0 16 r4 
-leti r4 29399
+leti r4 62
 write a0 16 r4 
-leti r4 29465
+leti r4 124
 write a0 16 r4 
-leti r4 35938
+leti r4 309
 write a0 16 r4 
-leti r4 44330
+leti r4 9471
 write a0 16 r4 
-leti r4 52787
+leti r4 7679
 write a0 16 r4 
-leti r4 50674
+leti r4 3711
 write a0 16 r4 
-leti r4 40168
+leti r4 1596
 write a0 16 r4 
-leti r4 37987
+leti r4 1594
 write a0 16 r4 
-leti r4 31643
+leti r4 1662
 write a0 16 r4 
-leti r4 27350
+leti r4 3647
 write a0 16 r4 
-leti r4 29529
+leti r4 3647
 write a0 16 r4 
-leti r4 35872
+leti r4 1599
 write a0 16 r4 
-leti r4 35937
+leti r4 1662
 write a0 16 r4 
-leti r4 33824
+leti r4 1662
 write a0 16 r4 
-leti r4 37986
+leti r4 1662
 write a0 16 r4 
-leti r4 21009
+leti r4 1662
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 12617
+leti r4 1596
 write a0 16 r4 
-leti r4 12617
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1660
 write a0 16 r4 
-leti r4 12618
+leti r4 1723
 write a0 16 r4 
-leti r4 10438
+leti r4 1722
 write a0 16 r4 
-leti r4 12619
+leti r4 1657
 write a0 16 r4 
-leti r4 8389
+leti r4 1595
 write a0 16 r4 
-leti r4 12618
+leti r4 3583
 write a0 16 r4 
-leti r4 14666
+leti r4 13759
 write a0 16 r4 
-leti r4 14666
+leti r4 178
 write a0 16 r4 
-leti r4 14666
+leti r4 188
 write a0 16 r4 
-leti r4 14666
+leti r4 57
 write a0 16 r4 
-leti r4 14731
+leti r4 62
 write a0 16 r4 
-leti r4 12617
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 14666
+leti r4 62
 write a0 16 r4 
-leti r4 14666
+leti r4 62
 write a0 16 r4 
-leti r4 12618
+leti r4 61
 write a0 16 r4 
-leti r4 8455
+leti r4 60
 write a0 16 r4 
-leti r4 6341
+leti r4 123
 write a0 16 r4 
-leti r4 6342
+leti r4 59
 write a0 16 r4 
-leti r4 8391
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 14731
+leti r4 62
 write a0 16 r4 
-leti r4 14601
+leti r4 62
 write a0 16 r4 
-leti r4 14732
+leti r4 62
 write a0 16 r4 
-leti r4 27350
+leti r4 62
 write a0 16 r4 
-leti r4 35937
+leti r4 62
 write a0 16 r4 
-leti r4 56880
+leti r4 62
 write a0 16 r4 
-leti r4 56813
+leti r4 62
 write a0 16 r4 
-leti r4 60974
+leti r4 62
 write a0 16 r4 
-leti r4 58926
+leti r4 61
 write a0 16 r4 
-leti r4 54832
+leti r4 61
 write a0 16 r4 
-leti r4 37988
+leti r4 61
 write a0 16 r4 
-leti r4 35877
+leti r4 61
 write a0 16 r4 
-leti r4 35878
+leti r4 61
 write a0 16 r4 
-leti r4 35943
+leti r4 61
 write a0 16 r4 
-leti r4 31718
+leti r4 61
 write a0 16 r4 
-leti r4 36013
+leti r4 61
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 40175
+leti r4 2110
 write a0 16 r4 
-leti r4 40239
+leti r4 2110
 write a0 16 r4 
-leti r4 40175
+leti r4 2110
 write a0 16 r4 
-leti r4 40175
+leti r4 2110
 write a0 16 r4 
-leti r4 40240
+leti r4 2110
 write a0 16 r4 
-leti r4 42354
+leti r4 2109
 write a0 16 r4 
-leti r4 42290
+leti r4 60
 write a0 16 r4 
-leti r4 42289
+leti r4 59
 write a0 16 r4 
-leti r4 42290
+leti r4 60
 write a0 16 r4 
-leti r4 42289
+leti r4 60
 write a0 16 r4 
-leti r4 40241
+leti r4 60
 write a0 16 r4 
-leti r4 40241
+leti r4 61
 write a0 16 r4 
-leti r4 40240
+leti r4 61
 write a0 16 r4 
-leti r4 42289
+leti r4 61
 write a0 16 r4 
-leti r4 42289
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 42353
+leti r4 62
 write a0 16 r4 
-leti r4 42353
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 29736
+leti r4 62
 write a0 16 r4 
-leti r4 29736
+leti r4 62
 write a0 16 r4 
-leti r4 14872
+leti r4 62
 write a0 16 r4 
-leti r4 6415
+leti r4 62
 write a0 16 r4 
-leti r4 14870
+leti r4 62
 write a0 16 r4 
-leti r4 33894
+leti r4 62
 write a0 16 r4 
-leti r4 25370
+leti r4 62
 write a0 16 r4 
-leti r4 14733
+leti r4 61
 write a0 16 r4 
-leti r4 8389
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 6278
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 2175
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 126
 write a0 16 r4 
-leti r4 8390
+leti r4 187
 write a0 16 r4 
-leti r4 8390
+leti r4 180
 write a0 16 r4 
-leti r4 8390
+leti r4 301
 write a0 16 r4 
-leti r4 8390
+leti r4 15871
 write a0 16 r4 
-leti r4 8390
+leti r4 7743
 write a0 16 r4 
-leti r4 14731
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1597
 write a0 16 r4 
-leti r4 14731
+leti r4 1662
 write a0 16 r4 
-leti r4 8389
+leti r4 1663
 write a0 16 r4 
-leti r4 8389
+leti r4 1599
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 16779
+leti r4 3711
 write a0 16 r4 
-leti r4 12617
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 14729
+leti r4 1663
 write a0 16 r4 
-leti r4 14728
+leti r4 1663
 write a0 16 r4 
-leti r4 12682
+leti r4 1663
 write a0 16 r4 
-leti r4 8521
+leti r4 1661
 write a0 16 r4 
-leti r4 8586
+leti r4 1724
 write a0 16 r4 
-leti r4 4423
+leti r4 1657
 write a0 16 r4 
-leti r4 17047
+leti r4 1661
 write a0 16 r4 
-leti r4 23327
+leti r4 7679
 write a0 16 r4 
-leti r4 38190
+leti r4 15743
 write a0 16 r4 
-leti r4 44532
+leti r4 180
 write a0 16 r4 
-leti r4 46583
+leti r4 190
 write a0 16 r4 
-leti r4 44468
+leti r4 2111
 write a0 16 r4 
-leti r4 29464
+leti r4 4159
 write a0 16 r4 
-leti r4 31644
+leti r4 124
 write a0 16 r4 
-leti r4 35939
+leti r4 47
 write a0 16 r4 
-leti r4 48626
+leti r4 17791
 write a0 16 r4 
-leti r4 48625
+leti r4 11839
 write a0 16 r4 
-leti r4 42282
+leti r4 1404
 write a0 16 r4 
-leti r4 37987
+leti r4 5823
 write a0 16 r4 
-leti r4 27415
+leti r4 3775
 write a0 16 r4 
-leti r4 27350
+leti r4 1662
 write a0 16 r4 
-leti r4 27415
+leti r4 3647
 write a0 16 r4 
-leti r4 29464
+leti r4 3647
 write a0 16 r4 
-leti r4 33823
+leti r4 3647
 write a0 16 r4 
-leti r4 35938
+leti r4 1662
 write a0 16 r4 
-leti r4 35937
+leti r4 1661
 write a0 16 r4 
-leti r4 27350
+leti r4 1724
 write a0 16 r4 
-leti r4 16780
+leti r4 1660
 write a0 16 r4 
-leti r4 14667
+leti r4 3645
 write a0 16 r4 
-leti r4 14667
+leti r4 5758
 write a0 16 r4 
-leti r4 14731
+leti r4 3710
 write a0 16 r4 
-leti r4 14731
+leti r4 1791
 write a0 16 r4 
-leti r4 8390
+leti r4 1726
 write a0 16 r4 
-leti r4 14666
+leti r4 1660
 write a0 16 r4 
-leti r4 14667
+leti r4 5823
 write a0 16 r4 
-leti r4 14667
+leti r4 5631
 write a0 16 r4 
-leti r4 14666
+leti r4 11583
 write a0 16 r4 
-leti r4 14666
+leti r4 305
 write a0 16 r4 
-leti r4 14666
+leti r4 249
 write a0 16 r4 
-leti r4 14667
+leti r4 58
 write a0 16 r4 
-leti r4 14732
+leti r4 61
 write a0 16 r4 
-leti r4 12617
+leti r4 2111
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 14666
+leti r4 62
 write a0 16 r4 
-leti r4 14667
+leti r4 62
 write a0 16 r4 
-leti r4 12618
+leti r4 60
 write a0 16 r4 
-leti r4 8389
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 123
 write a0 16 r4 
-leti r4 6342
+leti r4 60
 write a0 16 r4 
-leti r4 8391
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 12618
+leti r4 62
 write a0 16 r4 
-leti r4 14601
+leti r4 62
 write a0 16 r4 
-leti r4 14797
+leti r4 62
 write a0 16 r4 
-leti r4 29399
+leti r4 62
 write a0 16 r4 
-leti r4 35872
+leti r4 62
 write a0 16 r4 
-leti r4 56879
+leti r4 62
 write a0 16 r4 
-leti r4 54765
+leti r4 62
 write a0 16 r4 
-leti r4 58925
+leti r4 62
 write a0 16 r4 
-leti r4 60974
+leti r4 61
 write a0 16 r4 
-leti r4 56879
+leti r4 61
 write a0 16 r4 
-leti r4 46377
+leti r4 61
 write a0 16 r4 
-leti r4 35875
+leti r4 61
 write a0 16 r4 
-leti r4 35875
+leti r4 61
 write a0 16 r4 
-leti r4 35876
+leti r4 61
 write a0 16 r4 
-leti r4 31715
+leti r4 61
 write a0 16 r4 
-leti r4 40238
+leti r4 61
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38060
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 2110
 write a0 16 r4 
-leti r4 40240
+leti r4 61
 write a0 16 r4 
-leti r4 38062
+leti r4 60
 write a0 16 r4 
-leti r4 36013
+leti r4 59
 write a0 16 r4 
-leti r4 38126
+leti r4 60
 write a0 16 r4 
-leti r4 36013
+leti r4 60
 write a0 16 r4 
-leti r4 38126
+leti r4 60
 write a0 16 r4 
-leti r4 42289
+leti r4 61
 write a0 16 r4 
-leti r4 42289
+leti r4 61
 write a0 16 r4 
-leti r4 42355
+leti r4 61
 write a0 16 r4 
-leti r4 42289
+leti r4 62
 write a0 16 r4 
-leti r4 42289
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 62
 write a0 16 r4 
-leti r4 42289
+leti r4 62
 write a0 16 r4 
-leti r4 42353
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 31785
+leti r4 62
 write a0 16 r4 
-leti r4 29736
+leti r4 62
 write a0 16 r4 
-leti r4 29736
+leti r4 62
 write a0 16 r4 
-leti r4 29735
+leti r4 62
 write a0 16 r4 
-leti r4 14871
+leti r4 62
 write a0 16 r4 
-leti r4 8528
+leti r4 61
 write a0 16 r4 
-leti r4 23326
+leti r4 61
 write a0 16 r4 
-leti r4 33828
+leti r4 61
 write a0 16 r4 
-leti r4 21142
+leti r4 61
 write a0 16 r4 
-leti r4 10570
+leti r4 61
 write a0 16 r4 
-leti r4 10503
+leti r4 61
 write a0 16 r4 
-leti r4 6277
+leti r4 61
 write a0 16 r4 
-leti r4 8391
+leti r4 61
 write a0 16 r4 
-leti r4 8456
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 2175
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 2111
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 122
 write a0 16 r4 
-leti r4 8390
+leti r4 248
 write a0 16 r4 
-leti r4 8390
+leti r4 237
 write a0 16 r4 
-leti r4 12618
+leti r4 11583
 write a0 16 r4 
-leti r4 14666
+leti r4 5567
 write a0 16 r4 
-leti r4 16780
+leti r4 1535
 write a0 16 r4 
-leti r4 12552
+leti r4 1599
 write a0 16 r4 
-leti r4 10503
+leti r4 1598
 write a0 16 r4 
-leti r4 8325
+leti r4 1663
 write a0 16 r4 
-leti r4 14667
+leti r4 3647
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 14731
+leti r4 3647
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1660
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14729
+leti r4 1662
 write a0 16 r4 
-leti r4 14663
+leti r4 1663
 write a0 16 r4 
-leti r4 14730
+leti r4 1662
 write a0 16 r4 
-leti r4 6341
+leti r4 1660
 write a0 16 r4 
-leti r4 8520
+leti r4 1786
 write a0 16 r4 
-leti r4 19095
+leti r4 1656
 write a0 16 r4 
-leti r4 25438
+leti r4 7935
 write a0 16 r4 
-leti r4 38122
+leti r4 7487
 write a0 16 r4 
-leti r4 40174
+leti r4 240
 write a0 16 r4 
-leti r4 40236
+leti r4 251
 write a0 16 r4 
-leti r4 38185
+leti r4 58
 write a0 16 r4 
-leti r4 40235
+leti r4 2108
 write a0 16 r4 
-leti r4 29464
+leti r4 60
 write a0 16 r4 
-leti r4 35874
+leti r4 2175
 write a0 16 r4 
-leti r4 44330
+leti r4 185
 write a0 16 r4 
-leti r4 50739
+leti r4 308
 write a0 16 r4 
-leti r4 42347
+leti r4 15743
 write a0 16 r4 
-leti r4 35874
+leti r4 9727
 write a0 16 r4 
-leti r4 35872
+leti r4 1405
 write a0 16 r4 
-leti r4 31578
+leti r4 3711
 write a0 16 r4 
-leti r4 31577
+leti r4 1662
 write a0 16 r4 
-leti r4 29463
+leti r4 3710
 write a0 16 r4 
-leti r4 29529
+leti r4 3647
 write a0 16 r4 
-leti r4 35873
+leti r4 3647
 write a0 16 r4 
-leti r4 35937
+leti r4 1662
 write a0 16 r4 
-leti r4 29595
+leti r4 1661
 write a0 16 r4 
-leti r4 21074
+leti r4 1724
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 12618
+leti r4 5759
 write a0 16 r4 
-leti r4 14666
+leti r4 3582
 write a0 16 r4 
-leti r4 14666
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1596
 write a0 16 r4 
-leti r4 8389
+leti r4 1531
 write a0 16 r4 
-leti r4 14666
+leti r4 5631
 write a0 16 r4 
-leti r4 14666
+leti r4 11647
 write a0 16 r4 
-leti r4 14731
+leti r4 17663
 write a0 16 r4 
-leti r4 16779
+leti r4 314
 write a0 16 r4 
-leti r4 16780
+leti r4 120
 write a0 16 r4 
-leti r4 14666
+leti r4 55
 write a0 16 r4 
-leti r4 14666
+leti r4 188
 write a0 16 r4 
-leti r4 12618
+leti r4 124
 write a0 16 r4 
-leti r4 8391
+leti r4 57
 write a0 16 r4 
-leti r4 6276
+leti r4 4223
 write a0 16 r4 
-leti r4 8391
+leti r4 61
 write a0 16 r4 
-leti r4 14731
+leti r4 62
 write a0 16 r4 
-leti r4 16780
+leti r4 62
 write a0 16 r4 
-leti r4 12618
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8391
+leti r4 60
 write a0 16 r4 
-leti r4 6342
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 12618
+leti r4 62
 write a0 16 r4 
-leti r4 16780
+leti r4 62
 write a0 16 r4 
-leti r4 10504
+leti r4 62
 write a0 16 r4 
-leti r4 29399
+leti r4 62
 write a0 16 r4 
-leti r4 37987
+leti r4 62
 write a0 16 r4 
-leti r4 46375
+leti r4 62
 write a0 16 r4 
-leti r4 56879
+leti r4 62
 write a0 16 r4 
-leti r4 58926
+leti r4 62
 write a0 16 r4 
-leti r4 58925
+leti r4 62
 write a0 16 r4 
-leti r4 58861
+leti r4 62
 write a0 16 r4 
-leti r4 56814
+leti r4 62
 write a0 16 r4 
-leti r4 48490
+leti r4 62
 write a0 16 r4 
-leti r4 35872
+leti r4 62
 write a0 16 r4 
-leti r4 33889
+leti r4 62
 write a0 16 r4 
-leti r4 33891
+leti r4 62
 write a0 16 r4 
-leti r4 40168
+leti r4 62
 write a0 16 r4 
-leti r4 38124
+leti r4 62
 write a0 16 r4 
-leti r4 36077
+leti r4 62
 write a0 16 r4 
-leti r4 36014
+leti r4 62
 write a0 16 r4 
-leti r4 36079
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 36014
+leti r4 61
 write a0 16 r4 
-leti r4 38128
+leti r4 61
 write a0 16 r4 
-leti r4 38061
+leti r4 61
 write a0 16 r4 
-leti r4 38126
+leti r4 61
 write a0 16 r4 
-leti r4 40176
+leti r4 61
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 40176
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 35948
+leti r4 62
 write a0 16 r4 
-leti r4 38127
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 62
 write a0 16 r4 
-leti r4 42354
+leti r4 2110
 write a0 16 r4 
-leti r4 42354
+leti r4 2110
 write a0 16 r4 
-leti r4 42289
+leti r4 2110
 write a0 16 r4 
-leti r4 40241
+leti r4 2110
 write a0 16 r4 
-leti r4 38126
+leti r4 2110
 write a0 16 r4 
-leti r4 38061
+leti r4 2110
 write a0 16 r4 
-leti r4 29670
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 61
 write a0 16 r4 
-leti r4 29671
+leti r4 61
 write a0 16 r4 
-leti r4 29736
+leti r4 61
 write a0 16 r4 
-leti r4 29735
+leti r4 61
 write a0 16 r4 
-leti r4 14936
+leti r4 61
 write a0 16 r4 
-leti r4 6414
+leti r4 61
 write a0 16 r4 
-leti r4 23325
+leti r4 61
 write a0 16 r4 
-leti r4 23322
+leti r4 61
 write a0 16 r4 
-leti r4 21141
+leti r4 61
 write a0 16 r4 
-leti r4 12619
+leti r4 61
 write a0 16 r4 
-leti r4 6277
+leti r4 60
 write a0 16 r4 
-leti r4 6342
+leti r4 60
 write a0 16 r4 
-leti r4 6277
+leti r4 60
 write a0 16 r4 
-leti r4 6342
+leti r4 60
 write a0 16 r4 
-leti r4 6277
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 55
 write a0 16 r4 
-leti r4 8390
+leti r4 186
 write a0 16 r4 
-leti r4 12619
+leti r4 244
 write a0 16 r4 
-leti r4 14667
+leti r4 17791
 write a0 16 r4 
-leti r4 14731
+leti r4 7615
 write a0 16 r4 
-leti r4 14732
+leti r4 7807
 write a0 16 r4 
-leti r4 10503
+leti r4 1663
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 12618
+leti r4 1599
 write a0 16 r4 
-leti r4 16780
+leti r4 3647
 write a0 16 r4 
-leti r4 12617
+leti r4 3647
 write a0 16 r4 
-leti r4 14667
+leti r4 1662
 write a0 16 r4 
-leti r4 12553
+leti r4 1661
 write a0 16 r4 
-leti r4 12616
+leti r4 1661
 write a0 16 r4 
-leti r4 16843
+leti r4 1662
 write a0 16 r4 
-leti r4 14664
+leti r4 1662
 write a0 16 r4 
-leti r4 14665
+leti r4 1661
 write a0 16 r4 
-leti r4 12681
+leti r4 1661
 write a0 16 r4 
-leti r4 8521
+leti r4 1723
 write a0 16 r4 
-leti r4 33828
+leti r4 1727
 write a0 16 r4 
-leti r4 38122
+leti r4 5567
 write a0 16 r4 
-leti r4 46578
+leti r4 15743
 write a0 16 r4 
-leti r4 46517
+leti r4 181
 write a0 16 r4 
-leti r4 40237
+leti r4 56
 write a0 16 r4 
-leti r4 38120
+leti r4 2110
 write a0 16 r4 
-leti r4 40235
+leti r4 6207
 write a0 16 r4 
-leti r4 29530
+leti r4 4223
 write a0 16 r4 
-leti r4 35874
+leti r4 59
 write a0 16 r4 
-leti r4 44330
+leti r4 123
 write a0 16 r4 
-leti r4 42283
+leti r4 118
 write a0 16 r4 
-leti r4 42280
+leti r4 110
 write a0 16 r4 
-leti r4 35872
+leti r4 15743
 write a0 16 r4 
-leti r4 29530
+leti r4 9727
 write a0 16 r4 
-leti r4 29464
+leti r4 1535
 write a0 16 r4 
-leti r4 27349
+leti r4 1599
 write a0 16 r4 
-leti r4 29528
+leti r4 1662
 write a0 16 r4 
-leti r4 27415
+leti r4 1598
 write a0 16 r4 
-leti r4 31579
+leti r4 1599
 write a0 16 r4 
-leti r4 35873
+leti r4 1598
 write a0 16 r4 
-leti r4 18960
+leti r4 1662
 write a0 16 r4 
-leti r4 14667
+leti r4 1660
 write a0 16 r4 
-leti r4 16779
+leti r4 1661
 write a0 16 r4 
-leti r4 12618
+leti r4 1534
 write a0 16 r4 
-leti r4 14732
+leti r4 3647
 write a0 16 r4 
-leti r4 14666
+leti r4 3647
 write a0 16 r4 
-leti r4 14731
+leti r4 3519
 write a0 16 r4 
-leti r4 14667
+leti r4 15935
 write a0 16 r4 
-leti r4 14666
+leti r4 17791
 write a0 16 r4 
-leti r4 16845
+leti r4 243
 write a0 16 r4 
-leti r4 12552
+leti r4 121
 write a0 16 r4 
-leti r4 12553
+leti r4 58
 write a0 16 r4 
-leti r4 14667
+leti r4 60
 write a0 16 r4 
-leti r4 12553
+leti r4 123
 write a0 16 r4 
-leti r4 8390
+leti r4 123
 write a0 16 r4 
-leti r4 8390
+leti r4 58
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 6342
+leti r4 2111
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 12553
+leti r4 62
 write a0 16 r4 
-leti r4 12618
+leti r4 62
 write a0 16 r4 
-leti r4 10504
+leti r4 61
 write a0 16 r4 
-leti r4 6341
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 14731
+leti r4 62
 write a0 16 r4 
-leti r4 21009
+leti r4 62
 write a0 16 r4 
-leti r4 12683
+leti r4 62
 write a0 16 r4 
-leti r4 25172
+leti r4 62
 write a0 16 r4 
-leti r4 35872
+leti r4 62
 write a0 16 r4 
-leti r4 46375
+leti r4 62
 write a0 16 r4 
-leti r4 54830
+leti r4 62
 write a0 16 r4 
-leti r4 58927
+leti r4 62
 write a0 16 r4 
-leti r4 56811
+leti r4 62
 write a0 16 r4 
-leti r4 63088
+leti r4 62
 write a0 16 r4 
-leti r4 58862
+leti r4 62
 write a0 16 r4 
-leti r4 56813
+leti r4 62
 write a0 16 r4 
-leti r4 37984
+leti r4 62
 write a0 16 r4 
-leti r4 31774
+leti r4 62
 write a0 16 r4 
-leti r4 33889
+leti r4 62
 write a0 16 r4 
-leti r4 37988
+leti r4 62
 write a0 16 r4 
-leti r4 40236
+leti r4 62
 write a0 16 r4 
-leti r4 38125
+leti r4 62
 write a0 16 r4 
-leti r4 36078
+leti r4 62
 write a0 16 r4 
-leti r4 36014
+leti r4 62
 write a0 16 r4 
-leti r4 36012
+leti r4 62
 write a0 16 r4 
-leti r4 35947
+leti r4 62
 write a0 16 r4 
-leti r4 36012
+leti r4 62
 write a0 16 r4 
-leti r4 36014
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 36012
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 31785
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 38127
+leti r4 62
 write a0 16 r4 
-leti r4 40241
+leti r4 62
 write a0 16 r4 
-leti r4 40240
+leti r4 2110
 write a0 16 r4 
-leti r4 38127
+leti r4 2110
 write a0 16 r4 
-leti r4 36013
+leti r4 2110
 write a0 16 r4 
-leti r4 31785
+leti r4 2110
 write a0 16 r4 
-leti r4 29671
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 31785
+leti r4 61
 write a0 16 r4 
-leti r4 29736
+leti r4 61
 write a0 16 r4 
-leti r4 31785
+leti r4 61
 write a0 16 r4 
-leti r4 36011
+leti r4 61
 write a0 16 r4 
-leti r4 23325
+leti r4 61
 write a0 16 r4 
-leti r4 6413
+leti r4 61
 write a0 16 r4 
-leti r4 19095
+leti r4 61
 write a0 16 r4 
-leti r4 19093
+leti r4 61
 write a0 16 r4 
-leti r4 23254
+leti r4 61
 write a0 16 r4 
-leti r4 18961
+leti r4 61
 write a0 16 r4 
-leti r4 8389
+leti r4 61
 write a0 16 r4 
-leti r4 8456
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 61
 write a0 16 r4 
-leti r4 12619
+leti r4 61
 write a0 16 r4 
-leti r4 10503
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 2111
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 127
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 121
 write a0 16 r4 
-leti r4 6276
+leti r4 179
 write a0 16 r4 
-leti r4 12617
+leti r4 17727
 write a0 16 r4 
-leti r4 8389
+leti r4 7487
 write a0 16 r4 
-leti r4 8389
+leti r4 1407
 write a0 16 r4 
-leti r4 6341
+leti r4 5759
 write a0 16 r4 
-leti r4 8391
+leti r4 1663
 write a0 16 r4 
-leti r4 12618
+leti r4 1598
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 16780
+leti r4 1663
 write a0 16 r4 
-leti r4 16779
+leti r4 1662
 write a0 16 r4 
-leti r4 14730
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14665
+leti r4 1661
 write a0 16 r4 
-leti r4 14730
+leti r4 1661
 write a0 16 r4 
-leti r4 12682
+leti r4 1662
 write a0 16 r4 
-leti r4 16980
+leti r4 1599
 write a0 16 r4 
-leti r4 31840
+leti r4 5567
 write a0 16 r4 
-leti r4 46642
+leti r4 9407
 write a0 16 r4 
-leti r4 46580
+leti r4 310
 write a0 16 r4 
-leti r4 46647
+leti r4 122
 write a0 16 r4 
-leti r4 42355
+leti r4 2175
 write a0 16 r4 
-leti r4 46584
+leti r4 62
 write a0 16 r4 
-leti r4 44531
+leti r4 60
 write a0 16 r4 
-leti r4 29531
+leti r4 62
 write a0 16 r4 
-leti r4 37988
+leti r4 60
 write a0 16 r4 
-leti r4 42217
+leti r4 61
 write a0 16 r4 
-leti r4 44331
+leti r4 125
 write a0 16 r4 
-leti r4 35872
+leti r4 252
 write a0 16 r4 
-leti r4 29529
+leti r4 112
 write a0 16 r4 
-leti r4 33692
+leti r4 13759
 write a0 16 r4 
-leti r4 27351
+leti r4 3519
 write a0 16 r4 
-leti r4 29529
+leti r4 1599
 write a0 16 r4 
-leti r4 27349
+leti r4 1662
 write a0 16 r4 
-leti r4 29465
+leti r4 1662
 write a0 16 r4 
-leti r4 29465
+leti r4 1662
 write a0 16 r4 
-leti r4 29465
+leti r4 1599
 write a0 16 r4 
-leti r4 23187
+leti r4 1599
 write a0 16 r4 
-leti r4 12617
+leti r4 1599
 write a0 16 r4 
-leti r4 16780
+leti r4 1662
 write a0 16 r4 
-leti r4 14666
+leti r4 1727
 write a0 16 r4 
-leti r4 16779
+leti r4 1534
 write a0 16 r4 
-leti r4 12617
+leti r4 11903
 write a0 16 r4 
-leti r4 14667
+leti r4 15743
 write a0 16 r4 
-leti r4 14731
+leti r4 178
 write a0 16 r4 
-leti r4 12553
+leti r4 55
 write a0 16 r4 
-leti r4 14666
+leti r4 124
 write a0 16 r4 
-leti r4 8389
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 2239
 write a0 16 r4 
-leti r4 10503
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 6276
+leti r4 127
 write a0 16 r4 
-leti r4 6277
+leti r4 58
 write a0 16 r4 
-leti r4 8390
+leti r4 127
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 2110
 write a0 16 r4 
-leti r4 8391
+leti r4 2110
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 14666
+leti r4 62
 write a0 16 r4 
-leti r4 23122
+leti r4 62
 write a0 16 r4 
-leti r4 21075
+leti r4 62
 write a0 16 r4 
-leti r4 23122
+leti r4 62
 write a0 16 r4 
-leti r4 35872
+leti r4 62
 write a0 16 r4 
-leti r4 54766
+leti r4 62
 write a0 16 r4 
-leti r4 48488
+leti r4 62
 write a0 16 r4 
-leti r4 56813
+leti r4 62
 write a0 16 r4 
-leti r4 58926
+leti r4 61
 write a0 16 r4 
-leti r4 58926
+leti r4 61
 write a0 16 r4 
-leti r4 58862
+leti r4 61
 write a0 16 r4 
-leti r4 56813
+leti r4 61
 write a0 16 r4 
-leti r4 54830
+leti r4 61
 write a0 16 r4 
-leti r4 37984
+leti r4 61
 write a0 16 r4 
-leti r4 35938
+leti r4 62
 write a0 16 r4 
-leti r4 40232
+leti r4 62
 write a0 16 r4 
-leti r4 42282
+leti r4 62
 write a0 16 r4 
-leti r4 38123
+leti r4 62
 write a0 16 r4 
-leti r4 38126
+leti r4 62
 write a0 16 r4 
-leti r4 38061
+leti r4 62
 write a0 16 r4 
-leti r4 35879
+leti r4 62
 write a0 16 r4 
-leti r4 33765
+leti r4 62
 write a0 16 r4 
-leti r4 33831
+leti r4 62
 write a0 16 r4 
-leti r4 31785
+leti r4 62
 write a0 16 r4 
-leti r4 29671
+leti r4 62
 write a0 16 r4 
-leti r4 31785
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 29735
+leti r4 62
 write a0 16 r4 
-leti r4 29735
+leti r4 62
 write a0 16 r4 
-leti r4 29735
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 29735
+leti r4 62
 write a0 16 r4 
-leti r4 36078
+leti r4 62
 write a0 16 r4 
-leti r4 36013
+leti r4 62
 write a0 16 r4 
-leti r4 36012
+leti r4 62
 write a0 16 r4 
-leti r4 31785
+leti r4 62
 write a0 16 r4 
-leti r4 29736
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 29736
+leti r4 62
 write a0 16 r4 
-leti r4 29736
+leti r4 62
 write a0 16 r4 
-leti r4 29671
+leti r4 62
 write a0 16 r4 
-leti r4 29671
+leti r4 62
 write a0 16 r4 
-leti r4 29736
+leti r4 62
 write a0 16 r4 
-leti r4 29736
+leti r4 62
 write a0 16 r4 
-leti r4 38190
+leti r4 62
 write a0 16 r4 
-leti r4 25440
+leti r4 62
 write a0 16 r4 
-leti r4 8460
+leti r4 62
 write a0 16 r4 
-leti r4 16980
+leti r4 62
 write a0 16 r4 
-leti r4 21141
+leti r4 62
 write a0 16 r4 
-leti r4 25368
+leti r4 62
 write a0 16 r4 
-leti r4 21074
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 6341
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 12619
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 4223
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 126
 write a0 16 r4 
-leti r4 8390
+leti r4 189
 write a0 16 r4 
-leti r4 8390
+leti r4 119
 write a0 16 r4 
-leti r4 8390
+leti r4 308
 write a0 16 r4 
-leti r4 6276
+leti r4 13759
 write a0 16 r4 
-leti r4 8390
+leti r4 5631
 write a0 16 r4 
-leti r4 8390
+leti r4 1723
 write a0 16 r4 
-leti r4 12618
+leti r4 1656
 write a0 16 r4 
-leti r4 14667
+leti r4 1662
 write a0 16 r4 
-leti r4 12617
+leti r4 1599
 write a0 16 r4 
-leti r4 14729
+leti r4 1599
 write a0 16 r4 
-leti r4 12617
+leti r4 1599
 write a0 16 r4 
-leti r4 12552
+leti r4 1662
 write a0 16 r4 
-leti r4 16780
+leti r4 1661
 write a0 16 r4 
-leti r4 14667
+leti r4 1661
 write a0 16 r4 
-leti r4 8389
+leti r4 1599
 write a0 16 r4 
-leti r4 12625
+leti r4 9727
 write a0 16 r4 
-leti r4 21141
+leti r4 13567
 write a0 16 r4 
-leti r4 33827
+leti r4 313
 write a0 16 r4 
-leti r4 40237
+leti r4 58
 write a0 16 r4 
-leti r4 46579
+leti r4 59
 write a0 16 r4 
-leti r4 46579
+leti r4 63
 write a0 16 r4 
-leti r4 46580
+leti r4 60
 write a0 16 r4 
-leti r4 55161
+leti r4 127
 write a0 16 r4 
-leti r4 27483
+leti r4 61
 write a0 16 r4 
-leti r4 35939
+leti r4 63
 write a0 16 r4 
-leti r4 37924
+leti r4 2111
 write a0 16 r4 
-leti r4 35874
+leti r4 59
 write a0 16 r4 
-leti r4 29528
+leti r4 60
 write a0 16 r4 
-leti r4 29528
+leti r4 185
 write a0 16 r4 
-leti r4 25301
+leti r4 303
 write a0 16 r4 
-leti r4 29466
+leti r4 490
 write a0 16 r4 
-leti r4 25366
+leti r4 1599
 write a0 16 r4 
-leti r4 27415
+leti r4 1662
 write a0 16 r4 
-leti r4 29465
+leti r4 1662
 write a0 16 r4 
-leti r4 21009
+leti r4 1662
 write a0 16 r4 
-leti r4 23123
+leti r4 1599
 write a0 16 r4 
-leti r4 14667
+leti r4 1599
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 12618
+leti r4 1663
 write a0 16 r4 
-leti r4 14667
+leti r4 1725
 write a0 16 r4 
-leti r4 14666
+leti r4 1663
 write a0 16 r4 
-leti r4 14666
+leti r4 361
 write a0 16 r4 
-leti r4 14731
+leti r4 308
 write a0 16 r4 
-leti r4 12618
+leti r4 123
 write a0 16 r4 
-leti r4 16780
+leti r4 2111
 write a0 16 r4 
-leti r4 14666
+leti r4 4159
 write a0 16 r4 
-leti r4 14667
+leti r4 2110
 write a0 16 r4 
-leti r4 6341
+leti r4 61
 write a0 16 r4 
-leti r4 6341
+leti r4 63
 write a0 16 r4 
-leti r4 6341
+leti r4 63
 write a0 16 r4 
-leti r4 6342
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 2110
 write a0 16 r4 
-leti r4 8391
+leti r4 2110
 write a0 16 r4 
-leti r4 6342
+leti r4 2110
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 6342
+leti r4 62
 write a0 16 r4 
-leti r4 8391
+leti r4 62
 write a0 16 r4 
-leti r4 6277
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 122
 write a0 16 r4 
-leti r4 8390
+leti r4 59
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 12618
+leti r4 62
 write a0 16 r4 
-leti r4 25172
+leti r4 62
 write a0 16 r4 
-leti r4 21074
+leti r4 62
 write a0 16 r4 
-leti r4 23058
+leti r4 62
 write a0 16 r4 
-leti r4 35937
+leti r4 62
 write a0 16 r4 
-leti r4 54832
+leti r4 62
 write a0 16 r4 
-leti r4 46374
+leti r4 62
 write a0 16 r4 
-leti r4 58927
+leti r4 62
 write a0 16 r4 
-leti r4 60975
+leti r4 61
 write a0 16 r4 
-leti r4 56812
+leti r4 61
 write a0 16 r4 
-leti r4 58928
+leti r4 61
 write a0 16 r4 
-leti r4 58927
+leti r4 61
 write a0 16 r4 
-leti r4 58927
+leti r4 61
 write a0 16 r4 
-leti r4 46375
+leti r4 61
 write a0 16 r4 
-leti r4 35873
+leti r4 61
 write a0 16 r4 
-leti r4 31777
+leti r4 61
 write a0 16 r4 
-leti r4 33824
+leti r4 62
 write a0 16 r4 
-leti r4 33828
+leti r4 62
 write a0 16 r4 
-leti r4 38059
+leti r4 62
 write a0 16 r4 
-leti r4 40173
+leti r4 62
 write a0 16 r4 
-leti r4 35943
+leti r4 62
 write a0 16 r4 
-leti r4 35876
+leti r4 62
 write a0 16 r4 
-leti r4 33830
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 2110
 write a0 16 r4 
-leti r4 21279
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 23328
+leti r4 62
 write a0 16 r4 
-leti r4 23393
+leti r4 62
 write a0 16 r4 
-leti r4 29670
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 29736
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 31785
+leti r4 62
 write a0 16 r4 
-leti r4 29671
+leti r4 62
 write a0 16 r4 
-leti r4 29671
+leti r4 61
 write a0 16 r4 
-leti r4 31784
+leti r4 61
 write a0 16 r4 
-leti r4 29736
+leti r4 61
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 31784
+leti r4 62
 write a0 16 r4 
-leti r4 29736
+leti r4 62
 write a0 16 r4 
-leti r4 31785
+leti r4 62
 write a0 16 r4 
-leti r4 29670
+leti r4 62
 write a0 16 r4 
-leti r4 38189
+leti r4 2110
 write a0 16 r4 
-leti r4 23325
+leti r4 2110
 write a0 16 r4 
-leti r4 8459
+leti r4 2110
 write a0 16 r4 
-leti r4 19029
+leti r4 2110
 write a0 16 r4 
-leti r4 25369
+leti r4 2110
 write a0 16 r4 
-leti r4 33825
+leti r4 2110
 write a0 16 r4 
-leti r4 21074
+leti r4 2110
 write a0 16 r4 
-leti r4 8390
+leti r4 2110
 write a0 16 r4 
-leti r4 6341
+leti r4 62
 write a0 16 r4 
-leti r4 8392
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8389
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 2110
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 61
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 8390
+leti r4 63
 write a0 16 r4 
-leti r4 6341
+leti r4 62
 write a0 16 r4 
-leti r4 8390
+leti r4 60
 write a0 16 r4 
-leti r4 8389
+leti r4 127
 write a0 16 r4 
-leti r4 8389
+leti r4 117
 write a0 16 r4 
-leti r4 8390
+leti r4 300
 write a0 16 r4 
-leti r4 6341
+leti r4 9791
 write a0 16 r4 
-leti r4 6341
+leti r4 1654
 write a0 16 r4 
-leti r4 8390
+leti r4 1850
 write a0 16 r4 
-leti r4 14666
+leti r4 1661
 write a0 16 r4 
-leti r4 14666
+leti r4 1599
 write a0 16 r4 
-leti r4 14730
+leti r4 1599
 write a0 16 r4 
-leti r4 14731
+leti r4 1599
 write a0 16 r4 
-leti r4 14731
+leti r4 1662
 write a0 16 r4 
-leti r4 14667
+leti r4 1725
 write a0 16 r4 
-leti r4 8325
+leti r4 1661
 write a0 16 r4 
-leti r4 8390
+leti r4 1599
 write a0 16 r4 
-leti r4 10436
+leti r4 363
 write a0 16 r4 
-leti r4 10438
+leti r4 310
 write a0 16 r4 
-leti r4 12616
+leti r4 58
 write a0 16 r4 
-leti r4 12617
+leti r4 127
 write a0 16 r4 
-leti r4 21143
+leti r4 62
 write a0 16 r4 
-leti r4 27485
+leti r4 63
 write a0 16 r4 
-leti r4 33826
+leti r4 61
 write a0 16 r4 
-leti r4 42283
+leti r4 62
 write a0 16 r4 
-jump -13
