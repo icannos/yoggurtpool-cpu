@@ -565,6 +565,22 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                         manage_flags = false; // On ne touche pas aux autres flags.
                         break;
                     case 0x7c: //asr3
+                        read_bit_from_pc(dir);
+                        read_reg_from_pc(regnum1);
+                        read_reg_from_pc(regnum2);
+                        read_shiftval_from_pc(shiftval);
+                        uop1 = r[regnum2];
+                        if (dir == 1) { // right shift
+                            ur = uop1 >> shiftval;
+                            cflag = (((uop1 >> (shiftval - 1)) & 1) == 1);
+                        } else {
+                            cflag = (((uop1 << (shiftval - 1)) & (1L << (WORDSIZE - 1))) != 0);
+                            ur = uop1 << shiftval;
+                        }
+                        r[regnum1] = ur;
+                        zflag = (ur == 0);
+                        // no change to nflag
+                        manage_flags = false;
                         break;
 
 
