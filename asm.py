@@ -60,7 +60,7 @@ def asm_addr_signed(s):
         try:
             if s[0:2] == '0x' or s[0:3] == '+0x' or s[0:3] == '-0x':
                 val = int(s, 16)  # la fonction int est gentille
-            if (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+':
+            elif (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+': # ELIF ICI AUSSI !
                 val = int(s)
 
         except (ValueError, IndexError):
@@ -89,7 +89,7 @@ def asm_const_unsigned(s):
     try:
         if s[0:2] == '0x':
             val = int(s, 16)
-        if (s[0] >= '0' and s[0] <= '9'):
+        elif (s[0] >= '0' and s[0] <= '9'): # Il fallait un elif ici !
             val = int(s)
     except (ValueError, IndexError):
         error("invalid const: " + s)
@@ -111,7 +111,7 @@ def asm_const_signed(s):
     try:
         if s[0:2] == '0x' or s[0:3] == '+0x' or s[0:3] == '-0x':
             val = int(s, 16)  # la fonction int est gentille
-        if (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+':
+        elif (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+': #Il fallait un elif ici aussi !
             val = int(s)
     except (ValueError, IndexError):
         error("invalid const: " + s)
@@ -143,7 +143,7 @@ def asm_shiftval(s):
 def asm_condition(cond):
     """converts the string cond into its encoding in the condition code. """
     condlist = {"eq": "000", "z": "000", "neq": "001", "nz": "001", "sgt": "010", "slt": "011", "gt": "100",
-                "ge": "101", "nc": "101", "lt": "110", "carry": "110", "c": "110", "le": "111"}
+                "ge": "101", "nc": "101", "lt": "110", "carry": "110", "c": "110", "v": "111"}
     if cond in condlist:
         val = condlist[cond]
         return val + " "
@@ -196,8 +196,10 @@ def asm_pass(iteration, s_file):
         print("processing " + source_line[0:-1])  # just to get rid of the final newline
 
         # if there is a comment, get rid of it
-        index = str.find(";", source_line)
+        index = source_line.find(';')
+        print(index)
         if index != -1:
+            print("hey")
             source_line = source_line[:index]
 
         # split the non-comment part of the line into tokens (thanks Stack Overflow) 
@@ -266,12 +268,12 @@ def asm_pass(iteration, s_file):
                 instruction_encoding = "1110001 "
             if opcode == "add3" and token_count == 4:
                 instruction_encoding = "1110010 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
-            if opcode == "add3i" and token_count == 3:
+            if opcode == "add3i" and token_count == 4: # L'opcode compte aussi comme un token donc il y en a 4 pas 3
                 instruction_encoding = "1110011 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_unsigned(
                     tokens[3])
             if opcode == "sub3" and token_count == 4:
                 instruction_encoding = "1110100 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
-            if opcode == "sub3i" and token_count == 3:
+            if opcode == "sub3i" and token_count == 4: # L'opcode compte aussi comme un token donc il y en a 4 pas 3
                 instruction_encoding = "1110101 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_unsigned(
                     tokens[3])
             if opcode == "and3" and token_count == 4:
@@ -281,15 +283,15 @@ def asm_pass(iteration, s_file):
                     tokens[3])
             if opcode == "or3" and token_count == 4:
                 instruction_encoding = "1111000 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
-            if opcode == "or3i" and token_count == 3:
+            if opcode == "or3i" and token_count == 4: # L'opcode compte aussi comme un token donc il y en a 4 pas 3
                 instruction_encoding = "1111001 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_signed(
                     tokens[3])
             if opcode == "xor3" and token_count == 4:
                 instruction_encoding = "1111010 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
-            if opcode == "xor3i" and token_count == 3:
+            if opcode == "xor3i" and token_count == 4: # L'opcode compte aussi comme un token donc il y en a 4 pas 3
                 instruction_encoding = "1111011 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_signed(
                     tokens[3])
-            if opcode == "asr3" and token_count == 3:
+            if opcode == "asr3" and token_count == 4: # L'opcode compte aussi comme un token donc il y en a 4 pas 3
                 instruction_encoding = "1111100 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_shiftval(tokens[3])
             if opcode == "jumpreg" and token_count == 2:
                 instruction_encoding = "1111101 " + asm_reg(tokens[1])
