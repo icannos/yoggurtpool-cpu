@@ -34,6 +34,9 @@ term
     =
     | multiplication
     | division
+    | orop
+    | andop
+    | nonop
     | factor
     ;
 
@@ -47,6 +50,21 @@ multiplication::Multiply
 division::Divide
     =
     left:factor '/' ~ right:term
+    ;
+
+orop::Orop
+    =
+    left:factor '|' ~ right:term
+    ;
+
+andop::Andop
+    =
+    left:factor '&' ~ right:term
+    ;
+
+nonop::Nonop
+    =
+    '~' ~ right:factor
     ;
 
 shiftleft::Shiftl = left:factor '<<' right:constant;
@@ -67,7 +85,7 @@ subexpression
     '(' ~ @:expression ')'
     ;
 
-    identifier::Identifier = varname:/(?!\d)\w+/;
+    identifier::Identifier = varname:/(?!\d)\w+/ | ptr:'*' varname:/(?!\d)\w+/ ;
 
     boolean = '0'|'1'|'true'|'false';
     number::Litteral=litt:/\d+/;
@@ -127,13 +145,15 @@ seq::Seqp = prog1:programme ';' prog2:programme;
 pass::Passp = 'pass;';
 
 affect::Affectp = id:identifier '=' ~ expr:expression ;
+affect_p::Affectp = id:identifier '=' ~ expr:expression ;
 
 declaration::Declarationp = t:type id:identifier;
+
 
 deffun::Deffunp = 'def' funname:identifier '()' '{' prog:programme '}';
 callfun::Callfunp = 'call' id:identifier '()';
 
-type = len:'int8' | len:'int16' | len:'int32' | len:'int64';
+type = len:'int8' | len:'int16' | len:'int32' | len:'int64' | 'int8*' | len:'int16*' | len:'int32*' | len:'int64*';
 
 
 '''

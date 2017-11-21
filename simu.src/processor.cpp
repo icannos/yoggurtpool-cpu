@@ -765,6 +765,11 @@ void YogurtPool::read_shiftval_from_pc(int &var) {
             break;
         case 0:
             read_bit_from_pc(var);
+            read_bit_from_pc(var);
+            read_bit_from_pc(var);
+            read_bit_from_pc(var);
+            read_bit_from_pc(var);
+            read_bit_from_pc(var);
             break;
         default:
             break;
@@ -901,9 +906,21 @@ void YogurtPool::manage_vflag(uword& uop1, uword& uop2, uword& ur)
 
 void YogurtPool::jump(uword &offset, bool &manage_flags) {
     read_addr_from_pc(offset);
-    pc += (sword) offset;
-    m->set_counter(PC, (uword) pc);
-    manage_flags = false;
+
+    if(offset==13)
+    {
+        pc = -1;
+        m->set_counter(PC, (uword) pc);
+    }
+    else
+    {
+
+        pc += (sword) offset;
+        m->set_counter(PC, (uword) pc);
+        manage_flags = false;
+    }
+
+
 }
 
 void YogurtPool::jumpreg(int &regnum1, bool &manage_flags) {

@@ -20,13 +20,26 @@ class CalcWalker(NodeWalker):
         if str(node.varname) not in self.vars_list:
             raise Exception("Undefinded var")
         else:
-            string += "leti r0 " + str(self.vars_list[str(node.varname)]["addr"]) + "\n"
-            string += "setctr a1 r0 \n"
+            if hasattr(node, "ptr"):
+                if self.vars_list[self.vars_list[str(node.varname)]]["varorptr"] == "ptr":
+                    string += "leti r0 " + str(self.vars_list[str(node.varname)]["addr"]) + "\n"
+                    string += "setctr a1 r0 \n"
+                    string += "readze a1 " + str(self.vars_list[str(node.varname)]["len"]) + " r0 \n"
+                    string += "setctr a1 r0 \n"
+                    string += "readze a1 " + str(self.vars_list[str(node.varname)]["len_ptr"]) + " r0 \n"
 
-            if self.vars_list[str(node.varname)]["type"] == "signed":
-                string += "readze a1 " + str(self.vars_list[str(node.varname)]["len"]) + " r0 \n"
+                if self.vars_list[self.vars_list[str(node.varname)]]["varorptr"] == "var":
+                    string += "leti r0 " + str(self.vars_list[str(node.varname)]["addr"]) + "\n"
+
+
             else:
-                string += "readze a1 " + str(self.vars_list[str(node.varname)]["len"]) + " r0 \n"
+                string += "leti r0 " + str(self.vars_list[str(node.varname)]["addr"]) + "\n"
+                string += "setctr a1 r0 \n"
+
+                if self.vars_list[str(node.varname)]["type"] == "signed":
+                    string += "readse a1 " + str(self.vars_list[str(node.varname)]["len"]) + " r0 \n"
+                else:
+                    string += "readze a1 " + str(self.vars_list[str(node.varname)]["len"]) + " r0 \n"
 
         return string
 
@@ -49,6 +62,30 @@ class CalcWalker(NodeWalker):
 
         string += "call @mult \n"
         string += "let r0 r2 \n"
+
+        self.memory_addr = addr_left
+
+        return string
+
+    def walk__orop(self, node):
+        string = "" + str(self.walk(node.left))  # On construit l'assembleur pour le membre de gauche
+        string += "leti r3 " + str(self.memory_addr) + "\n"
+        string += "setctr a0 r3 \n"
+
+        addr_left = self.memory_addr
+
+        string += "write a0 64 r0 \n"
+        self.memory_addr += 64
+
+        string += str(self.walk(node.right))
+
+        string += "leti r3 " + str(addr_left) + "\n"
+        string += "setctr a0 r3 \n"
+        string += "readze a0 64 r1 " + "\n"
+        string += "setctr a0 r3 \n"
+
+        string += "or2 r1 r0 \n"
+        string += "let r0 r1 \n"
 
         self.memory_addr = addr_left
 
@@ -243,19 +280,44 @@ class CalcWalker(NodeWalker):
         string = ""
         length = 64
 
+        len_ptr = 0
+        varorptr = ""
         if node.t.len == "int8":
             length = 8
+            varorptr = "var"
         elif node.t.len == "int16":
             length = 16
+            varorptr = "var"
         elif node.t.len == "int32":
             length = 32
+            varorptr = "var"
         elif node.t.len == "int64":
             length = 64
+            varorptr = "var"
+
+
+        elif node.l.len == "int8*":
+            length = 64
+            len_ptr = 8
+            varorptr = "ptr"
+        elif node.t.len == "int16*":
+            length = 64
+            len_ptr = 16
+            varorptr = "ptr"
+        elif node.t.len == "int32*":
+            length = 64
+            len_ptr = 32
+            varorptr = "ptr"
+        elif node.t.len == "int64*":
+            len_ptr = 64
+            length = 64
+            varorptr = "ptr"
 
         if node.id.varname in self.vars_list:
             raise Exception("Cannot redeclare a var")
 
-        self.vars_list[node.id.varname] = {'len': length, 'type':'signed', 'addr': self.vars_addr}
+        self.vars_list[node.id.varname] = {'len': length, 'type':'signed', 'addr': self.vars_addr, 'varorname': varorptr
+                                           'len_ptr':len_ptr}
         self.vars_addr += length
 
         return string
@@ -268,9 +330,20 @@ class CalcWalker(NodeWalker):
         string = ""
         string += str(self.walk(node.expr))
 
-        string += "leti r3 " + str(self.vars_list[node.id.varname]["addr"]) + "\n"
-        string += "setctr a1 r3 \n"
-        string += "write a1 " + str(self.vars_list[node.id.varname]["len"]) + " r0 \n"
+        if hasattr(node.id, "ptr"):
+            if self.vars_list[self.vars_list[str(node.varname)]]["varorptr"] == "ptr":
+                string += "leti r3 " + str(self.vars_list[str(node.varname)]["addr"]) + "\n"
+                string += "setctr a1 r3 \n"
+                string += "readze a1 " + str(self.vars_list[str(node.varname)]["len"]) + " r3 \n"
+                string += "setctr a1 r3 \n"
+                string += "write a1 " + str(self.vars_list[str(node.varname)]["len_ptr"]) + " r0 \n"
+            else:
+                raise Exception("Nope")
+
+        else:
+            string += "leti r3 " + str(self.vars_list[node.id.varname]["addr"]) + "\n"
+            string += "setctr a1 r3 \n"
+            string += "write a1 " + str(self.vars_list[node.id.varname]["len"]) + " r0 \n"
 
         return string
 
