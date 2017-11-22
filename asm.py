@@ -234,6 +234,10 @@ def asm_pass(iteration, s_file):
                 instruction_encoding = "0110 " + asm_reg(tokens[1]) + asm_reg(tokens[2])
             if opcode == "leti" and token_count == 3:
                 instruction_encoding = "0111 " + asm_reg(tokens[1]) + asm_const_signed(tokens[2])
+            if opcode == "letiaj" and token_count == 3:
+                instruction_encoding = "0111 " + asm_reg(tokens[1]) + asm_addr_signed(tokens[2], "jump")
+            if opcode == "letiac" and token_count == 3:
+                instruction_encoding = "0111 " + asm_reg(tokens[1]) + asm_addr_signed(tokens[2], "call")
             if opcode == "shift" and token_count == 4:
                 instruction_encoding = "1000 " + asm_dir(tokens[1]) + asm_reg(tokens[2]) + asm_shiftval(tokens[3])
             if opcode == "readze" and token_count == 4:
