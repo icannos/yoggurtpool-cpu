@@ -9,6 +9,8 @@ class CalcWalker(NodeWalker):
         self.vars_list = {}
         self.vars_addr = vars_addr
 
+        self.while_deph = 0
+
     def walk__object(self, node):
         return node
 
@@ -44,7 +46,7 @@ class CalcWalker(NodeWalker):
         return string
 
     def walk__multiply(self, node):
-        string = "" + str(self.walk(node.left))  # On construit l'assembleur pour le membre de gauche
+        string = "" + str(self.walk(node.left))     On construit l'assembleur pour le membre de gauche
         string += "leti r3 " + str(self.memory_addr) + "\n"
         string += "setctr a0 r3 \n"
 
@@ -60,7 +62,7 @@ class CalcWalker(NodeWalker):
         string += "readze a0 64 r1 " + "\n"
         string += "setctr a0 r3 \n"
 
-        string += "call @mult \n"
+        string += "call    mult \n"
         string += "let r0 r2 \n"
 
         self.memory_addr = addr_left
@@ -68,7 +70,7 @@ class CalcWalker(NodeWalker):
         return string
 
     def walk__orop(self, node):
-        string = "" + str(self.walk(node.left))  # On construit l'assembleur pour le membre de gauche
+        string = "" + str(self.walk(node.left))     #On construit l'assembleur pour le membre de gauche
         string += "leti r3 " + str(self.memory_addr) + "\n"
         string += "setctr a0 r3 \n"
 
@@ -109,7 +111,7 @@ class CalcWalker(NodeWalker):
         string += "readze a0 64 r0" + "\n"
         string += "setctr a0 r3 \n"
 
-        string += "call @div \n"
+        string += "call div \n"
         string += "let r0 r2 \n"
 
         self.memory_addr = addr_left
@@ -197,9 +199,9 @@ class CalcWalker(NodeWalker):
         string += self.cmp(node)
 
         jumplabel = self.uniqid()
-        string += "jumpif neq #elseok" + jumplabel + "\n"
+        string += "jumpif neq elseok" + jumplabel + "\n"
         string += "leti r0 1 \n"
-        string += "jump #ifok" + jumplabel + "\n"
+        string += "jump   ifok" + jumplabel + "\n"
         string += "elseok" + jumplabel + ':\n'
         string += "leti r0 0 \n"
         string += "ifok"+jumplabel + ':\n'
@@ -211,9 +213,9 @@ class CalcWalker(NodeWalker):
         string += self.cmp(node)
 
         jumplabel = self.uniqid()
-        string += "jumpif eq #elseok" + jumplabel + "\n"
+        string += "jumpif eq   elseok" + jumplabel + "\n"
         string += "leti r0 1 \n"
-        string += "jump #ifok" + jumplabel + "\n"
+        string += "jump   ifok" + jumplabel + "\n"
         string += "elseok" + jumplabel + ':\n'
         string += "leti r0 0 \n"
         string += "ifok" + jumplabel + ':\n'
@@ -225,9 +227,9 @@ class CalcWalker(NodeWalker):
         string += self.cmp(node)
 
         jumplabel = self.uniqid()
-        string += "jumpif gt #elseok" + jumplabel + "\n"
+        string += "jumpif gt   elseok" + jumplabel + "\n"
         string += "leti r0 1 \n"
-        string += "jump #ifok" + jumplabel + "\n"
+        string += "jump   ifok" + jumplabel + "\n"
         string += "elseok" + jumplabel + ':\n'
         string += "leti r0 0 \n"
         string += "ifok" + jumplabel + ':\n'
@@ -239,9 +241,9 @@ class CalcWalker(NodeWalker):
         string += self.cmp(node)
 
         jumplabel = self.uniqid()
-        string += "jumpif ge #elseok" + jumplabel + "\n"
+        string += "jumpif ge   elseok" + jumplabel + "\n"
         string += "leti r0 1 \n"
-        string += "jump #ifok" + jumplabel + "\n"
+        string += "jump   ifok" + jumplabel + "\n"
         string += "elseok" + jumplabel + ':\n'
         string += "leti r0 0 \n"
         string += "ifok" + jumplabel + ':\n'
@@ -253,9 +255,9 @@ class CalcWalker(NodeWalker):
         string += self.cmp(node)
 
         jumplabel = self.uniqid()
-        string += "jumpif lt #elseok" + jumplabel + "\n"
+        string += "jumpif lt   elseok" + jumplabel + "\n"
         string += "leti r0 1 \n"
-        string += "jump #ifok" + jumplabel + "\n"
+        string += "jump   ifok" + jumplabel + "\n"
         string += "elseok" + jumplabel + ':\n'
         string += "leti r0 0 \n"
         string += "ifok" + jumplabel + ':\n'
@@ -267,9 +269,9 @@ class CalcWalker(NodeWalker):
         string += self.cmp(node)
 
         jumplabel = self.uniqid()
-        string += "jumpif leq #elseok" + jumplabel + "\n"
+        string += "jumpif leq   elseok" + jumplabel + "\n"
         string += "leti r0 1 \n"
-        string += "jump #ifok" + jumplabel + "\n"
+        string += "jump   ifok" + jumplabel + "\n"
         string += "elseok" + jumplabel + ':\n'
         string += "leti r0 0 \n"
         string += "ifok" + jumplabel + ':\n'
@@ -353,7 +355,7 @@ class CalcWalker(NodeWalker):
     def walk__deffunp(self, node):
         string = ""
 
-        string += "jump #funend" + str(node.funname.varname) + ": \n"
+        string += "jump   funend" + str(node.funname.varname) + ": \n"
         string += "funbegin" + str(node.funname.varname) + ": \n"
 
         string += str(self.walk(node.prog))
@@ -367,7 +369,7 @@ class CalcWalker(NodeWalker):
     def walk__callfunp(self, node):
         string = ""
 
-        string += "call @funbegin"+ node.id.varname + "\n"
+        string += "call    funbegin"+ node.id.varname + "\n"
 
         return string
 
@@ -398,11 +400,11 @@ class CalcWalker(NodeWalker):
         string += str(self.walk(node.t))
 
         string += "cmpi r0 1 \n"
-        string += "jumpif neq #ifelse" + ifid + "\n"
+        string += "jumpif neq   ifelse" + ifid + "\n"
 
         string += str(self.walk(node.prog1))
 
-        string += "jump #ifend"+ifid + "\n"
+        string += "jump   ifend"+ifid + "\n"
         string += "ifelse" + ifid  + ": \n"
 
         string += str(self.walk(node.prog2))
@@ -419,7 +421,7 @@ class CalcWalker(NodeWalker):
         string += str(self.walk(node.t))
 
         string += "cmpi r0 1 \n"
-        string += "jumpif neq #ifend" + ifid + "\n"
+        string += "jumpif neq   ifend" + ifid + "\n"
 
         string += str(self.walk(node.prog))
 
@@ -436,11 +438,22 @@ class CalcWalker(NodeWalker):
         string += str(self.walk(node.t))
 
         string += "cmpi r0 1 \n"
-        string += "jumpif neq #whileend" + ifid + "\n"
+        
+        if self.while_deph == 0:
+            string += "letiaj r5 whileend" + ifid + "\n"
+            string += "jumpifreg neq r5"
+        else:
+            string += "jumpif neq whileend" + ifid + "\n"
 
         string += str(self.walk(node.prog))
 
-        string += "jump #whilebegin" + ifid + "\n"
+        if self.while_deph == 0:
+            string += "letiaj r5 whilebegin" + ifid + "\n"
+            string += "jumpreg neq r5"
+        else:
+            string += "jump whilebegin" + ifid + "\n"
+
+
         string += "whileend" + ifid + ": \n"
 
         return string

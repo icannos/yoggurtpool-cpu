@@ -1,5 +1,14 @@
-jump drawend
+leti r0 31
+leti r1 0
+leti r2 0
+leti r3 100
+leti r4 100
 
+call draw
+jump -13
+
+jump drawend
+draw:
 cmp r1 r2
 jumpif lt pasechange
 let r5 r1
@@ -34,3 +43,20 @@ call plot
 jump boucle
 fin:
 drawend:
+
+
+jump #plotend
+plot:
+leti r3 1073350080
+sub2i r2 127
+shift left r2 9
+sub2 r3 r2
+shift left r2 2
+sub2 r3 r2
+shift left r1 4
+add2 r3 r1
+setctr a0 r3
+write a0 16 r0
+return
+plotend:
+

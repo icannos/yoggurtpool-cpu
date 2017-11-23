@@ -128,6 +128,10 @@ instruction
     |if
     |while
     |deffun
+    |plot
+    |drawline
+    |character
+    |fill
     ;
 
 

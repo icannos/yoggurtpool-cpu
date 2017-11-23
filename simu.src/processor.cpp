@@ -353,8 +353,8 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                         read_addr_from_pc(addr);
 
                         r[7] = pc;
-                        pc = addr;
 
+                        pc = addr;
                         m->set_counter(PC, (uword) pc);
                         break;
 
@@ -398,6 +398,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                         break;
                     case 0x71://return
                         pc = r[7];
+                        m->set_counter(PC, (uword) pc);
                         break;
                     case 0x72://add3
                         read_reg_from_pc(regnum1);
@@ -726,7 +727,7 @@ void YogurtPool::read_sconst_from_pc(uint64_t &var) {
     }
     if (header != 0)
     {
-        int sign = (var >> (size - 1)) & 1;
+        uword sign = (var >> (size - 1)) & 1;
         for (int i = size; i < WORDSIZE; i++)
             var += sign << i;
     }
@@ -740,6 +741,7 @@ void YogurtPool::read_addr_from_pc(uword &var) {
     int header = 0;
     int size;
     var = 0;
+
     read_bit_from_pc(header);
     if (header == 0)
         size = 8;
@@ -762,7 +764,7 @@ void YogurtPool::read_addr_from_pc(uword &var) {
     }
     // cerr << "before signext " << var << endl;
     // sign extension
-    int sign = (var >> (size - 1)) & 1;
+    uword sign = (var >> (size - 1)) & 1;
     for (int i = size; i < WORDSIZE; i++)
         var += sign << i;
     // cerr << "after signext " << var << " " << (int)var << endl;
@@ -921,20 +923,14 @@ void YogurtPool::manage_vflag(uword& uop1, uword& uop2, uword& ur)
 // ==================== Instructions ======================= \\
 
 void YogurtPool::jump(uword &offset, bool &manage_flags) {
+
     read_addr_from_pc(offset);
 
-    if(offset==13)
-    {
-        pc = -1;
-        m->set_counter(PC, (uword) pc);
-    }
-    else
-    {
+    pc += (sword) offset;
+    m->set_counter(PC, (uword) pc);
 
-        pc += (sword) offset;
-        m->set_counter(PC, (uword) pc);
-        manage_flags = false;
-    }
+
+    manage_flags = false;
 
 
 }
@@ -966,7 +962,6 @@ void YogurtPool::jumpif(uword &offset, bool &manage_flags) {
     if (cond_true(cond)) {
         pc += (sword) offset;
         m->set_counter(PC, (uword) pc);
-        manage_flags = false;
     }
     manage_flags = false;
 

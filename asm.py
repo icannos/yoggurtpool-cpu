@@ -41,42 +41,44 @@ def asm_addr_signed(s, c):
     # converts the string s into its encoding
     # Is it a label or a constant?
     # pour l'hexa
-    if c == "jump":
-        if s[1:] in labels:  # le label est deja entre dans la liste de labels, on est au deuxieme passage
-            d = int(labels[s[1:]] - (
-            current_address_for_label + 2 + 16))  # Ajout des bits de l'instruction en cours qui ne sont pas encore comptes dans current_address !
-            return "10 " + binary_repr(d, 16)  # on encode la bonne taille
-        else:  # premier passage
-            return "10 " + binary_repr(0,
-                                       16)  # on intialise a 0, juste pour avoir le meme nombre de bit au second passage
 
-    if c=="call":
-        if s[1:] in labels:  # le label est deja entre dans la liste de labels, on est au deuxieme passage
-            return "10 " + binary_repr(labels[s[1:]], 16)  # on encode la bonne taille
-        else:  # premier passage
-            return "10 " + binary_repr(0,
-                                       16)  # on intialise a 0, juste pour avoir le meme nombre de bit au second passage
+
+    try:
+        if s[0:2] == '0x' or s[0:3] == '+0x' or s[0:3] == '-0x':
+            val = int(s, 16)  # la fonction int est gentille
+        elif (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+': # ELIF ICI AUSSI !
+            val = int(s)
+
+        elif c == "jump":
+            if s in labels:  # le label est deja entre dans la liste de labels, on est au deuxieme passage
+                d = int(labels[s] - (
+                    current_address_for_label + 2 + 16))  # Ajout des bits de l'instruction en cours qui ne sont pas encore comptes dans current_address !
+                return "10 " + binary_repr(d, 16)  # on encode la bonne taille
+            else:  # premier passage
+                return "10 " + binary_repr(0,
+                                           16)  # on intialise a 0, juste pour avoir le meme nombre de bit au second passage
+
+        elif c == "call":
+            if s in labels:  # le label est deja entre dans la liste de labels, on est au deuxieme passage
+                return "10 " + binary_repr(labels[s], 16)  # on encode la bonne taille
+            else:  # premier passage
+                return "10 " + binary_repr(0,
+                                           16)  # on intialise a 0, juste pour avoir le meme nombre de bit au second passage
+
+    except (ValueError, IndexError):
+        error("invalid address: " + s)
+        # The following is not very elegant but easy to trust
+    if val >= -128 and val <= 127:
+        return '0 ' + binary_repr(val, 8)
+    elif val >= -32768 and val <= 32767:
+        return '10 ' + binary_repr(val, 16)
+    elif val >= -(1 << 31) and val <= (1 << 31) - 1:
+        return '110 ' + binary_repr(val, 32)
+    elif val >= -(1 << 63) and val <= (1 << 63) - 1:
+        return '111 ' + binary_repr(val, 64)
     else:
-        try:
-            if s[0:2] == '0x' or s[0:3] == '+0x' or s[0:3] == '-0x':
-                val = int(s, 16)  # la fonction int est gentille
-            elif (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+': # ELIF ICI AUSSI !
-                val = int(s)
-
-        except (ValueError, IndexError):
-            error("invalid address: " + s)
-            # The following is not very elegant but easy to trust
-        if val >= -128 and val <= 127:
-            return '0 ' + binary_repr(val, 8)
-        elif val >= -32768 and val <= 32767:
-            return '10 ' + binary_repr(val, 16)
-        elif val >= -(1 << 31) and val <= (1 << 31) - 1:
-            return '110 ' + binary_repr(val, 32)
-        elif val >= -(1 << 63) and val <= (1 << 63) - 1:
-            return '111 ' + binary_repr(val, 64)
-        else:
-            error(
-                "Fixme! labels currently unsupported")  # il serait peut-etre judicieux de deplacer ou de changer cette ligne
+        error(
+            "Fixme! labels currently unsupported")  # il serait peut-etre judicieux de deplacer ou de changer cette ligne
 
 
 def asm_const_unsigned(s):
