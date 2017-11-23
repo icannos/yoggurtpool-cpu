@@ -303,6 +303,10 @@ def asm_pass(iteration, s_file):
                 instruction_encoding = "1111101 " + asm_reg(tokens[1])
             if opcode == "jumpifreg" and token_count == 3:
                 instruction_encoding = "1111110 " + asm_condition(tokens[1]) + asm_reg(tokens[2])
+
+            if opcode == "pop" and token_count == 3:
+                instruction_encoding = "10011 01 " + asm_size(tokens[1]) + asm_reg(tokens[2])
+
                 # If the line wasn't assembled:
             if instruction_encoding == "":
                 error("don't know what to do with: " + source_line)

@@ -39,7 +39,9 @@ jumpif ge chgmtpixel
 add2i r2 1
 add2 r6 r5
 chgmtpixel:
+push 64 r7
 call plot
+pop 64 r7
 jump boucle
 fin:
 drawend:
