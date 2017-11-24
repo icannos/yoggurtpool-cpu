@@ -390,7 +390,8 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                         read_size_from_pc(size);
                         read_reg_from_pc(regnum1);
 
-                        uword sp_save = pc;
+                        uword sp_save;
+                        sp_save = pc;
 
                         for (int i = size - 1; i >= 0; i--) {
                             write_toRam(SP, (r[regnum1] >> i) & 1);
