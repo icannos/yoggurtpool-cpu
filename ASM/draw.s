@@ -10,17 +10,6 @@ jump -13
 jump drawend
 draw:
 cmp r1 r2
-jumpif lt pasechange
-let r5 r1
-let r1 r2
-let r2 r5
-let r5 r3
-let r3 r4
-let r4 r5
-
-
-pasechange:
-
 sub3 r6 r3 r1
 let r5 r6
 shift left r5 1
