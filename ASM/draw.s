@@ -15,7 +15,9 @@ let r5 r6
 shift left r5 1
 sub2 r4 r2
 shift left r4 1
+push 64 r7
 call plot
+pop 64 r7
 
 
 boucle:

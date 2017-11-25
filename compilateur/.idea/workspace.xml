@@ -35,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parser.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="parser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parser.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="283">
@@ -45,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="asm.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="asm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../asm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4968">
-              <caret line="281" column="23" lean-forward="false" selection-start-line="281" selection-start-column="23" selection-end-line="281" selection-end-column="23" />
+            <state relative-caret-position="301">
+              <caret line="271" column="81" lean-forward="false" selection-start-line="271" selection-start-column="74" selection-end-line="271" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -93,7 +93,6 @@
       <find>deffun</find>
       <find>returnp</find>
       <find>ge</find>
-      <find>return</find>
       <find>cmpi</find>
       <find>affec</find>
       <find>asm_addr_signed</find>
@@ -108,6 +107,7 @@
       <find>identifier</find>
       <find>int8</find>
       <find>affect</find>
+      <find>return</find>
     </findStrings>
     <replaceStrings>
       <replace>memory_addr</replace>
@@ -120,9 +120,9 @@
       <list>
         <option value="$PROJECT_DIR$/compilator.py" />
         <option value="$PROJECT_DIR$/compiler.py" />
-        <option value="$PROJECT_DIR$/../asm.py" />
         <option value="$PROJECT_DIR$/grammar.py" />
         <option value="$PROJECT_DIR$/parser.py" />
+        <option value="$PROJECT_DIR$/../asm.py" />
       </list>
     </option>
   </component>
@@ -401,7 +401,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1035" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1035" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14602003" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -845,14 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../asm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4968">
-          <caret line="281" column="23" lean-forward="false" selection-start-line="281" selection-start-column="23" selection-end-line="281" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/compiler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -875,6 +867,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="325" column="14" lean-forward="false" selection-start-line="325" selection-start-column="8" selection-end-line="325" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../asm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="271" column="81" lean-forward="false" selection-start-line="271" selection-start-column="74" selection-end-line="271" selection-end-column="81" />
           <folding />
         </state>
       </provider>
