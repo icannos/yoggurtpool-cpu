@@ -6,15 +6,12 @@ YogurtPool::YogurtPool(Memory *m) : m(m) {
     pc = 0;
 
     sp = 0x3fff0600; // Début de notre pile (On a 1000 mots de 64 bits)
-    m->m[0] = 0x3fff0600;
+    m->set_counter(SP, (uword) sp);
 
     a1 = 0;
     a2 = 0;
 
 
-    m->m[1] = 0;
-    m->m[0] = 0;
-    m->m[0] = 0;
 
     for (int i = 0; i < nb_reg; i++)
         r[i] = 0;
@@ -397,6 +394,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                         read_reg_from_pc(regnum1);
 
                         sp -= size;
+
                         m->set_counter(SP, (uword) sp);
 
                         for (int i = size - 1; i >= 0; i--) {
@@ -405,7 +403,9 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                         }
 
                         sp-=size;
+
                         m->set_counter(SP, (uword) sp);
+                        cout << "Salut" <<endl;
 
                         break;
                     case 0x71://return
