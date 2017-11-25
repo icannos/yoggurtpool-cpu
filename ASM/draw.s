@@ -1,8 +1,8 @@
 leti r0 31 ;couleur
 leti r1 0 ;x1
 leti r2 0 ;y1
-leti r3 50 ;x2
-leti r4 100  ;y2
+leti r3 100 ;x2
+leti r4 50  ;y2
 
 call draw
 jump -13
