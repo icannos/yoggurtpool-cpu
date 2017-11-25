@@ -14,7 +14,7 @@
 
 const uint64_t MEMSIZE=1<<30; // please keep this a multiple of 64
 const int PC=0;
-const int SP=1;
+const int SP=1<<30;
 
 const int A0=2;
 const int A1=3;

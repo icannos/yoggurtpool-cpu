@@ -85,7 +85,7 @@ subexpression
     '(' ~ @:expression ')'
     ;
 
-    identifier::Identifier = varname:/(?!\d)\w+/ | ptr:'*' varname:/(?!\d)\w+/ ;
+    identifier::Identifier = varname:/(?!\d)\w+/ |   ptr:'*' varname:/(?!\d)\w+/;
 
     boolean = '0'|'1'|'true'|'false';
     number::Litteral=litt:/\d+/;
@@ -128,10 +128,6 @@ instruction
     |if
     |while
     |deffun
-    |plot
-    |drawline
-    |character
-    |fill
     ;
 
 
@@ -157,7 +153,7 @@ declaration::Declarationp = t:type id:identifier;
 deffun::Deffunp = 'def' funname:identifier '()' '{' prog:programme '}';
 callfun::Callfunp = 'call' id:identifier '()';
 
-type = len:'int8' | len:'int16' | len:'int32' | len:'int64' | 'int8*' | len:'int16*' | len:'int32*' | len:'int64*';
+type = len:'int8*' | len:'int16*' | len:'int32*' | len:'int64*' | len:'int8' | len:'int16' | len:'int32' | len:'int64' ;
 
 
 '''

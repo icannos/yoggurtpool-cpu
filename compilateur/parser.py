@@ -23,6 +23,7 @@ class CalcWalker(NodeWalker):
             raise Exception("Undefinded var")
         else:
             if hasattr(node, "ptr"):
+                print("ptr")
                 if self.vars_list[self.vars_list[str(node.varname)]]["varorptr"] == "ptr":
                     string += "leti r0 " + str(self.vars_list[str(node.varname)]["addr"]) + "\n"
                     string += "setctr a1 r0 \n"
@@ -46,7 +47,7 @@ class CalcWalker(NodeWalker):
         return string
 
     def walk__multiply(self, node):
-        string = "" + str(self.walk(node.left))     On construit l'assembleur pour le membre de gauche
+        string = "" + str(self.walk(node.left))     #On construit l'assembleur pour le membre de gauche
         string += "leti r3 " + str(self.memory_addr) + "\n"
         string += "setctr a0 r3 \n"
 
@@ -227,7 +228,7 @@ class CalcWalker(NodeWalker):
         string += self.cmp(node)
 
         jumplabel = self.uniqid()
-        string += "jumpif gt   elseok" + jumplabel + "\n"
+        string += "jumpif gt  elseok" + jumplabel + "\n"
         string += "leti r0 1 \n"
         string += "jump   ifok" + jumplabel + "\n"
         string += "elseok" + jumplabel + ':\n'
@@ -298,7 +299,7 @@ class CalcWalker(NodeWalker):
             varorptr = "var"
 
 
-        elif node.l.len == "int8*":
+        elif node.t.len == "int8*":
             length = 64
             len_ptr = 8
             varorptr = "ptr"
@@ -318,7 +319,7 @@ class CalcWalker(NodeWalker):
         if node.id.varname in self.vars_list:
             raise Exception("Cannot redeclare a var")
 
-        self.vars_list[node.id.varname] = {'len': length, 'type':'signed', 'addr': self.vars_addr, 'varorname': varorptr
+        self.vars_list[node.id.varname] = {'len': length, 'type':'signed', 'addr': self.vars_addr, 'varorptr': varorptr,
                                            'len_ptr':len_ptr}
         self.vars_addr += length
 
@@ -326,6 +327,7 @@ class CalcWalker(NodeWalker):
 
 
     def walk__affectp(self, node):
+        print(self.vars_list)
         if node.id.varname not in self.vars_list:
             raise Exception("Var doesnt exists")
 
@@ -333,12 +335,12 @@ class CalcWalker(NodeWalker):
         string += str(self.walk(node.expr))
 
         if hasattr(node.id, "ptr"):
-            if self.vars_list[self.vars_list[str(node.varname)]]["varorptr"] == "ptr":
-                string += "leti r3 " + str(self.vars_list[str(node.varname)]["addr"]) + "\n"
+            if self.vars_list[str(node.id.varname)]["varorptr"] == "ptr":
+                string += "leti r3 " + str(self.vars_list[str(node.id.varname)]["addr"]) + "\n"
                 string += "setctr a1 r3 \n"
-                string += "readze a1 " + str(self.vars_list[str(node.varname)]["len"]) + " r3 \n"
+                string += "readze a1 " + str(self.vars_list[str(node.id.varname)]["len"]) + " r3 \n"
                 string += "setctr a1 r3 \n"
-                string += "write a1 " + str(self.vars_list[str(node.varname)]["len_ptr"]) + " r0 \n"
+                string += "write a1 " + str(self.vars_list[str(node.id.varname)]["len_ptr"]) + " r0 \n"
             else:
                 raise Exception("Nope")
 

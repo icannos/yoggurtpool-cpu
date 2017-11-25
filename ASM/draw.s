@@ -2,7 +2,7 @@ leti r0 31
 leti r1 0
 leti r2 0
 leti r3 100
-leti r4 100
+leti r4 50
 
 call draw
 jump -13
@@ -47,7 +47,7 @@ fin:
 drawend:
 
 
-jump #plotend
+jump plotend
 plot:
 leti r3 1073350080
 sub2i r2 127

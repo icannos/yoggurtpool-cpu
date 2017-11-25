@@ -1,13 +1,6 @@
 
-int8 bi; 
-bi = 5;
+int16* addrbit; 
+addrbit = 1073350080;
 
+*addrbit = 31
 
-if (bi < 8)
-{
-    return 3
-}
-else
-{
-    return 89
-}

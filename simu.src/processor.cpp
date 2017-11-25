@@ -130,9 +130,9 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                 read_reg_from_pc(regnum1);
                 read_reg_from_pc(regnum2);
                 uop1 = r[regnum1];
-                uop2 = (~r[regnum2]) + 1;
-                fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
-                ur = uop1 + uop2;
+                uop2 = r[regnum2];
+                fullr = ((doubleword) uop1) - ((doubleword) uop2); // for flags
+                ur = uop1 - uop2;
                 r[regnum1] = ur;
                 manage_flags = true;
                 manage_vflag(uop1, uop2, ur);
@@ -142,9 +142,9 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                 read_reg_from_pc(regnum1);
                 read_const_from_pc(constop);
                 uop1 = r[regnum1];
-                uop2 = (~constop) + 1;
-                fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
-                ur = uop1 + uop2;
+                uop2 = constop;
+                fullr = ((doubleword) uop1) - ((doubleword) uop2); // for flags
+                ur = uop1 - uop2;
                 r[regnum1] = ur;
                 manage_flags = true;
                 manage_vflag(uop1, uop2, ur);
@@ -154,9 +154,9 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                 read_reg_from_pc(regnum1);
                 read_reg_from_pc(regnum2);
                 uop1 = r[regnum1];
-                uop2 = (~r[regnum2])+1;
-                fullr = ((doubleword) uop1) + ((doubleword) uop2); // for flags
-                ur = uop1 + uop2;
+                uop2 = r[regnum2];
+                fullr = ((doubleword) uop1) - ((doubleword) uop2); // for flags
+                ur = uop1 - uop2;
                 manage_flags = true;
                 manage_vflag(uop1, uop2, ur);
                 break;
@@ -165,10 +165,10 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                 read_reg_from_pc(regnum1);
                 read_sconst_from_pc(constop);
                 uop1 = r[regnum1];
-                uop2 = (~constop) + 1;
-                fullr = ((doubleword) uop1) + ((sword) uop2); // for flags
+                uop2 = constop;
+                fullr = ((doubleword) uop1) - ((sword) uop2); // for flags
 
-                ur = uop1 + uop2;
+                ur = uop1 - uop2;
 
                 manage_flags = true;
                 manage_vflag(uop1, uop2, ur);
@@ -236,12 +236,18 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                         cptr = getPtrToCounter(counter);
 
                         ur = 0;
-                        ur = ~ur;
+
                         for (int i = 0; i < size; i++) {
                             ur = (ur << 1) + m->read_bit(counter);
                             (*cptr)++;
                             bitsFromRam++;
                         }
+
+
+                        uword sign = (ur >> (size - 1)) & 1;
+                        for (int i = size; i < WORDSIZE; i++)
+                            ur += sign << i;
+
                         r[regnum1] = ur;
                         manage_flags = false;
                         break;
@@ -390,15 +396,15 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                         read_size_from_pc(size);
                         read_reg_from_pc(regnum1);
 
-                        uword sp_save;
-                        sp_save = pc;
+                        sp -= size;
+                        m->set_counter(SP, (uword) sp);
 
                         for (int i = size - 1; i >= 0; i--) {
                             write_toRam(SP, (r[regnum1] >> i) & 1);
                             sp++;
                         }
 
-                        sp = sp_save;
+                        sp-=size;
                         m->set_counter(SP, (uword) sp);
 
                         break;
