@@ -37,6 +37,8 @@ pop 64 r3
 pop 64 r2
 pop 64 r1
 
+cmpi r4 0
+jumpif sgt negatif
 
 boucle:
 cmp r1 r3
@@ -62,6 +64,8 @@ fin:
 return
 drawend:
 
+negatif:
+;a completer
 
 jump plotend
 plot:
