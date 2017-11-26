@@ -26,7 +26,8 @@ private:
 	void read_cond_from_pc(int& var);
 	bool cond_true(int cond);
 
-    void manage_vflag(uword& uop1, uword& uop2, uword& ur);
+    void manage_addvflag(uword &uop1, uword &uop2, uword &ur);
+    void manage_subvflag(uword &uop1, uword &uop2, uword &ur);
 
 	// ======== Instructions =========== \\
 
