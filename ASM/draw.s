@@ -1,11 +1,13 @@
 leti r0 31 ;couleur
 leti r1 0 ;x1
-leti r2 0 ;y1
-leti r3 100 ;x2
-leti r4 50  ;y2
+leti r2 100 ;y1
+leti r3 50 ;x2
+leti r4 0  ;y2
 
 call draw
 jump -13
+
+
 
 jump drawend
 draw:
@@ -20,13 +22,11 @@ let r2 r4
 let r4 r5
 echange:
 
-
 ;ceci prepare le premier point
-sub3 r6 r3 r1 
-let r5 r6 ;r6 contient e
+sub3 r5 r3 r1 
 shift left r5 1 ;r5 contient dx
-sub2 r4 r2
-shift left r4 1 ;r4 contient dy
+sub3 r6 r4 r2
+shift left r6 1 ;r6 contient dy
 push 64 r1
 push 64 r2
 push 64 r3
@@ -37,8 +37,16 @@ pop 64 r3
 pop 64 r2
 pop 64 r1
 
-cmpi r4 0
-jumpif sgt negatif
+
+cmpi r6 0
+jumpif slt negatif
+cmp r5 r6
+jumpif slt grandepente
+
+
+;on met les donnees dans les bons registres pour ce cas
+let r4 r6
+sub3 r6 r3 r1
 
 boucle:
 cmp r1 r3
@@ -64,8 +72,99 @@ fin:
 return
 drawend:
 
+grandepente:
+;mettons les bons registres
+let r3 r5
+sub3 r6 r4 r2
+
+
+bouclebis:
+cmp r2 r4
+jumpif ge finbis
+add2i r2 1
+sub2 r6 r3
+cmpi r6 0
+jumpif sgt chgmtpixelbis
+add2i r1 1
+add2 r6 r5
+chgmtpixelbis:
+push 64 r1
+push 64 r2
+push 64 r3
+push 64 r7
+call plot
+pop 64 r7
+pop 64 r3
+pop 64 r2
+pop 64 r1
+jump boucle
+finbis:
+return
+
+
 negatif:
-;a completer
+push 64 r0
+leti r0 0
+sub2 r0 r6
+cmp r5 r0
+jumpif slt grandepentebis
+pop 64 r0
+;dans le huitieme octant
+let r4 r6
+sub3 r6 r3 r1
+
+boucle:
+cmp r1 r3
+jumpif ge finter
+add2i r1 1
+add2 r6 r4
+cmpi r6 0
+jumpif sgt chgmtpixelter
+sub2i r2 1
+add2 r6 r5
+chgmtpixelter:
+push 64 r1
+push 64 r2
+push 64 r3
+push 64 r7
+call plot
+pop 64 r7
+pop 64 r3
+pop 64 r2
+pop 64 r1
+jump boucle
+finter:
+return
+
+
+
+grandepentebis:
+pop 64 r0
+;dans le septieme octant
+let r3 r5
+sub3 r6 r4 r2
+bouclequater:
+cmp r2 r4
+jumpif ge finquater
+add2i r2 1
+add2 r6 r3
+cmpi r6 0
+jumpif slt chgmtpixelquater
+add2i r1 1
+add2 r6 r5
+chgmtpixelquater:
+push 64 r1
+push 64 r2
+push 64 r3
+push 64 r7
+call plot
+pop 64 r7
+pop 64 r3
+pop 64 r2
+pop 64 r1
+jump boucle
+finquater:
+return
 
 jump plotend
 plot:
