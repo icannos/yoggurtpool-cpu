@@ -1,8 +1,8 @@
 leti r0 31 ;couleur
 leti r1 0 ;x1
-leti r2 100 ;y1
+leti r2 0 ;y1
 leti r3 50 ;x2
-leti r4 0  ;y2
+leti r4 100  ;y2
 
 call draw
 jump -13
@@ -75,6 +75,7 @@ drawend:
 grandepente:
 ;mettons les bons registres
 let r3 r5
+let r5 r6
 sub3 r6 r4 r2
 
 
@@ -97,7 +98,7 @@ pop 64 r7
 pop 64 r3
 pop 64 r2
 pop 64 r1
-jump boucle
+jump bouclebis
 finbis:
 return
 
@@ -113,7 +114,7 @@ pop 64 r0
 let r4 r6
 sub3 r6 r3 r1
 
-boucle:
+boucleter:
 cmp r1 r3
 jumpif ge finter
 add2i r1 1
@@ -132,7 +133,7 @@ pop 64 r7
 pop 64 r3
 pop 64 r2
 pop 64 r1
-jump boucle
+jump boucleter
 finter:
 return
 
@@ -142,11 +143,12 @@ grandepentebis:
 pop 64 r0
 ;dans le septieme octant
 let r3 r5
+let r5 r6
 sub3 r6 r4 r2
 bouclequater:
-cmp r2 r4
+cmp r4 r2
 jumpif ge finquater
-add2i r2 1
+sub2i r2 1
 add2 r6 r3
 cmpi r6 0
 jumpif slt chgmtpixelquater
@@ -162,7 +164,7 @@ pop 64 r7
 pop 64 r3
 pop 64 r2
 pop 64 r1
-jump boucle
+jump bouclequater
 finquater:
 return
 
