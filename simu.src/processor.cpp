@@ -5,7 +5,7 @@ using namespace std;
 YogurtPool::YogurtPool(Memory *m) : m(m) {
     pc = 0;
 
-    sp = 0x3fff0600; // Début de notre pile (On a 1000 mots de 64 bits)
+    sp = (1<<30)-1; // Début de notre pile (On a 1000 mots de 64 bits)
     m->set_counter(SP, (uword) sp);
 
     a1 = 0;
