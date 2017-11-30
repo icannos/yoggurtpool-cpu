@@ -1,8 +1,8 @@
 leti r0 31; couleur
-leti r1 5 ; x1
-leti r2 5 ; y1
-leti r3 10; x2
-leti r4 10; y2
+leti r1 20 ; x1
+leti r2 10 ; y1
+leti r3 21; x2
+leti r4 5; y2
 
 ;on choisit la plus petite abscisse
 cmp r1 r3
@@ -22,9 +22,10 @@ let r4 r5 ; r4 est pour l'instant inutile
 echangebis:
 
 sub2 r3 r1 ; r3 contient la largeur du rectangle
+add2i r3 1
 sub3 r5 r2 r4 
 add2i r5 1; r5 contient le nombre de lignes a tracer (voir si le 1 est utile)
-leti r4 127
+leti r4 160
 sub2 r4 r3; r4 contient le nombre de pixels a sauter avant d'ecrire a nouveau
 shift left r4 4 ; nombre de bits a sauter
 
@@ -55,7 +56,7 @@ sub2i r3 1
 write a0 16 r0 ; on ecrit la ligne
 jump bouclex
 finligne:
-let r1 r3
+let r3 r1
 
 getctr a0 r6
 add2 r6 r4
