@@ -3,12 +3,6 @@
 from PIL import Image
 import numpy as np
 
-
-
-
-
-
-
 def buildAsm(path, name):
     im = Image.open(path)
     asm = ""
@@ -26,7 +20,7 @@ def buildAsm(path, name):
 
         print(len(bg))
 
-        bgr = bb + bg + br
+        bgr = br + bg + bb
         sbgr = int(bgr, 2)
 
         asm += "leti r4 " + str(sbgr) + "\n"

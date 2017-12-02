@@ -7,7 +7,7 @@ Memory::~Memory(){}
 int Memory::read_bit(int ctr){
 	uint64_t word_addr = counter[ctr]>>6;
 	uint64_t word = m[word_addr]; // extract the word that contains our bit
-	int shift = counter[ctr] & 63; // this is a bitwise and -- could have been % 64
+	int shift = 63 - counter[ctr] & 63; // this is a bitwise and -- could have been % 64
 	int bit = (word>>shift) & 1; //shift the good bit to position 0, then mask the other bits
 	counter[ctr] ++;
 	return bit;
@@ -20,7 +20,7 @@ void Memory::write_bit(int ctr, int bit){
 	} 
 	uint64_t word_addr = counter[ctr]>>6;
 	uint64_t word = m[word_addr]; // extract the word where our bit should go
-	int shift = counter[ctr] & 63; // this is a bitwise and -- could have been % 64
+	int shift = 63 - counter[ctr] & 63; // this is a bitwise and -- could have been % 64
 
 	uint64_t bit64 = bit;
 	bit64 = bit64 << shift;

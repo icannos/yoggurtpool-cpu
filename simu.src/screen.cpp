@@ -54,11 +54,12 @@ void simulate_screen(Memory *m, bool *refresh) {
             // i is a counter of 16-bit words
             for (unsigned int i = 0; i < HEIGHT * WIDTH; i++) {
                 uint64_t mword = m->m[(MEM_SCREEN_BEGIN >> 6) + (i >> 2)];
-                uint16_t pixel = (mword >> ((i & 3) << 4)) & 0xffff;
+                uint16_t pixel = (mword >> ((63-16) - (i & 3) << 4)) & 0xffff;
 
                 uint32_t blue = pixel & ((1 << 5) - 1); // 5 bits
                 uint32_t green = (pixel >> 5) & ((1 << 5) - 1); // 5 bits
                 uint32_t red = (pixel >> 10); // 6 bits
+
                 tempscreen[i] = (red << (3 + 16)) + (green << (3 + 8)) + (blue << 3);
             }
             /* update the screen */
