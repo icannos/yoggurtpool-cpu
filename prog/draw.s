@@ -1,35 +1,30 @@
-leti r0 31 ;couleur
-leti r1 0 ;x1
-leti r2 0 ;y1
-leti r3 50 ;x2
-leti r4 100  ;y2
-
-call draw
-jump -13
-
 
 
 jump drawend
 draw:
+  push 64 r0
+  push 64 r1
+  push 64 r2
+  push 64 r3
+  push 64 r4
+
 ;mettons les points dans le bon sens
 cmp r1 r3
 jumpif lt echange
-let r5 r1
-let r1 r3
-let r3 r5
-let r5 r2
-let r2 r4
-let r4 r5
+  let r5 r1
+  let r1 r3
+  let r3 r5
+  let r5 r2
+  let r2 r4
+  let r4 r5
 echange:
 
 ;ceci prepare le premier point
-sub3 r5 r3 r1 
+sub3 r5 r3 r1
 shift left r5 1 ;r5 contient dx
 sub3 r6 r4 r2
 shift left r6 1 ;r6 contient dy
-push 64 r1
-push 64 r2
-push 64 r3
+
 push 64 r7
 call plot
 pop 64 r7
@@ -100,6 +95,12 @@ pop 64 r2
 pop 64 r1
 jump bouclebis
 finbis:
+
+pop 64 r4
+pop 64 r3
+pop 64 r2
+pop 64 r1
+pop 64 r0
 return
 
 
@@ -135,6 +136,11 @@ pop 64 r2
 pop 64 r1
 jump boucleter
 finter:
+pop 64 r4
+pop 64 r3
+pop 64 r2
+pop 64 r1
+pop 64 r0
 return
 
 
@@ -166,10 +172,18 @@ pop 64 r2
 pop 64 r1
 jump bouclequater
 finquater:
+pop 64 r4
+pop 64 r3
+pop 64 r2
+pop 64 r1
+pop 64 r0
 return
 
 jump plotend
 plot:
+push 64 r1
+push 64 r2
+push 64 r3
 leti r3 1073350080
 sub2i r2 127
 shift left r2 9
@@ -181,5 +195,7 @@ add2 r3 r1
 setctr a0 r3
 write a0 16 r0
 return
+pop 64 r3
+pop 64 r2
+pop 64 r1
 plotend:
-

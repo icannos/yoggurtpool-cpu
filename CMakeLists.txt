@@ -9,5 +9,6 @@ set (CMAKE_CXX_STANDARD 11)
 set(CXX_FLAGS "-Wall -O3")
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../../bin)
 
 add_subdirectory(simu.src)

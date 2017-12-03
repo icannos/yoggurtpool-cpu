@@ -2,7 +2,7 @@
 
 using namespace std;
 
-char t[39][7] = {"add2", "add2i", "sub2", "sub2i", "cmp", "cmpi", "let", "leti", "shift", "tsnh", "jump", "jumpif",
+char t[39][10] = {"add2", "add2i", "sub2", "sub2i", "cmp", "cmpi", "let", "leti", "shift", "tsnh", "jump", "jumpif",
                  "readze", "readse",
                  "or2", "or2i", "and2", "and2i", "write", "call", "setctr", "getctr", "push", "return", "add3", "add3i",
                  "sub3", "sub3i",

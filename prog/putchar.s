@@ -1,13 +1,8 @@
 leti r0 31
 leti r1 30
-leti r2 30
-leti r3 69
-
-call putchar
-jump -13
 
 
-
+jump skipputchar
 putchar:
     push 64 r0
     push 64 r1
@@ -130,3 +125,4 @@ font: ; Binary font
     load font.mem
 endfont:
 
+skipputchar:

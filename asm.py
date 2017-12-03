@@ -26,11 +26,12 @@ def error(e):
 from time import time
 
 
-def asm_bitsload(bitfile):
-    f = open(bitfile, "r")
+def asm_bitsload(bitfile, directory):
+    f = open(directory + '/' + bitfile, "r")
     bits = f.read()
     f.close()
     return bits
+
 
 def asm_reg(s):
     # converts the string s into its encoding
@@ -55,19 +56,19 @@ def asm_addr_signed(s, c, let=0):
     try:
         if s[0:2] == '0x' or s[0:3] == '+0x' or s[0:3] == '-0x':
             val = int(s, 16)  # la fonction int est gentille
-        elif (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+': # ELIF ICI AUSSI !
+        elif (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+':  # ELIF ICI AUSSI !
             val = int(s)
 
         elif c == "jump":
             if s in labels:  # le label est deja entre dans la liste de labels, on est au deuxieme passage
                 d = int(labels[s] - (
                     current_address_for_label + 2 + 16))  # Ajout des bits de l'instruction en cours qui ne sont pas encore comptes dans current_address !
-                if let==0:
+                if let == 0:
                     return "10 " + binary_repr(d, 16)  # on encode la bonne taille
                 else:
                     return "110 " + binary_repr(d, 32)  # on encode la bonne taille
             else:  # premier passage
-                if let==0:
+                if let == 0:
                     return "10 " + binary_repr(0, 16)  # on encode la bonne taille
                 else:
                     return "110 " + binary_repr(0, 32)  # on encode la bonne taille
@@ -75,12 +76,12 @@ def asm_addr_signed(s, c, let=0):
         elif c == "call":
             if s in labels:  # le label est deja entre dans la liste de labels, on est au deuxieme passage
                 d = int(labels[s])
-                if let==0:
+                if let == 0:
                     return "10 " + binary_repr(d, 16)  # on encode la bonne taille
                 else:
                     return "110 " + binary_repr(d, 32)  # on encode la bonne taille
             else:  # premier passage
-                if let==0:
+                if let == 0:
                     return "10 " + binary_repr(0, 16)  # on encode la bonne taille
                 else:
                     return "110 " + binary_repr(0, 32)  # on encode la bonne taille
@@ -111,7 +112,7 @@ def asm_const_unsigned(s):
     try:
         if s[0:2] == '0x':
             val = int(s, 16)
-        elif (s[0] >= '0' and s[0] <= '9'): # Il fallait un elif ici !
+        elif (s[0] >= '0' and s[0] <= '9'):  # Il fallait un elif ici !
             val = int(s)
     except (ValueError, IndexError):
         error("invalid const: " + s)
@@ -133,7 +134,7 @@ def asm_const_signed(s):
     try:
         if s[0:2] == '0x' or s[0:3] == '+0x' or s[0:3] == '-0x':
             val = int(s, 16)  # la fonction int est gentille
-        elif (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+': #Il fallait un elif ici aussi !
+        elif (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+':  # Il fallait un elif ici aussi !
             val = int(s)
     except (ValueError, IndexError):
         error("invalid const: " + s)
@@ -184,9 +185,9 @@ def asm_counter(ctr):
 
 
 def asm_dir(dirc):
-    if dirc == "left" or dirc =="l":
+    if dirc == "left" or dirc == "l":
         return "0 "
-    elif dirc == "right" or dirc =="r" :
+    elif dirc == "right" or dirc == "r":
         return "1 "
     else:
         error("Invalid dir: " + dirc)
@@ -202,7 +203,7 @@ def asm_size(s):
         error("Invalid size: " + size)
 
 
-def asm_pass(iteration, s_file):
+def asm_pass(iteration, s_file, directory):
     global line
     global labels
     global current_address
@@ -294,12 +295,12 @@ def asm_pass(iteration, s_file):
                 instruction_encoding = "1110001 "
             if opcode == "add3" and token_count == 4:
                 instruction_encoding = "1110010 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
-            if opcode == "add3i" and token_count == 4: # L'opcode compte aussi comme un token donc il y en a 4 pas 3
+            if opcode == "add3i" and token_count == 4:  # L'opcode compte aussi comme un token donc il y en a 4 pas 3
                 instruction_encoding = "1110011 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_unsigned(
                     tokens[3])
             if opcode == "sub3" and token_count == 4:
                 instruction_encoding = "1110100 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
-            if opcode == "sub3i" and token_count == 4: # L'opcode compte aussi comme un token donc il y en a 4 pas 3
+            if opcode == "sub3i" and token_count == 4:  # L'opcode compte aussi comme un token donc il y en a 4 pas 3
                 instruction_encoding = "1110101 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_unsigned(
                     tokens[3])
             if opcode == "and3" and token_count == 4:
@@ -309,15 +310,15 @@ def asm_pass(iteration, s_file):
                     tokens[3])
             if opcode == "or3" and token_count == 4:
                 instruction_encoding = "1111000 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
-            if opcode == "or3i" and token_count == 4: # L'opcode compte aussi comme un token donc il y en a 4 pas 3
+            if opcode == "or3i" and token_count == 4:  # L'opcode compte aussi comme un token donc il y en a 4 pas 3
                 instruction_encoding = "1111001 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_signed(
                     tokens[3])
             if opcode == "xor3" and token_count == 4:
                 instruction_encoding = "1111010 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
-            if opcode == "xor3i" and token_count == 4: # L'opcode compte aussi comme un token donc il y en a 4 pas 3
+            if opcode == "xor3i" and token_count == 4:  # L'opcode compte aussi comme un token donc il y en a 4 pas 3
                 instruction_encoding = "1111011 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_signed(
                     tokens[3])
-            if opcode == "asr3" and token_count == 4: # L'opcode compte aussi comme un token donc il y en a 4 pas 3
+            if opcode == "asr3" and token_count == 4:  # L'opcode compte aussi comme un token donc il y en a 4 pas 3
                 instruction_encoding = "1111100 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_shiftval(tokens[3])
             if opcode == "jumpreg" and token_count == 2:
                 instruction_encoding = "1111101 " + asm_reg(tokens[1])
@@ -328,7 +329,7 @@ def asm_pass(iteration, s_file):
                 instruction_encoding = "10011 01 " + asm_size(tokens[1]) + asm_reg(tokens[2])
 
             if opcode == "load" and token_count == 2:
-                instruction_encoding = asm_bitsload(tokens[1])
+                instruction_encoding = asm_bitsload(tokens[1], directory)
 
 
 
@@ -358,13 +359,21 @@ if __name__ == '__main__':
     argparser.add_argument('filename',
                            help='name of the source file.  "python asm.py toto.s" assembles toto.s into toto.obj')
 
+    argparser.add_argument('--output',
+                           help='Name and where the output should be put.')
+
     options = argparser.parse_args()
     filename = options.filename
     basefilename, extension = os.path.splitext(filename)
-    obj_file = basefilename + ".obj"
-    code = asm_pass(1, filename)  # first pass essentially builds the labels
 
-    code = asm_pass(2, filename)  # second pass is for good, but is disabled now
+    if options.output == None:
+        obj_file = basefilename + ".obj"
+    else:
+        obj_file = options.output
+
+    code = asm_pass(1, filename, directory= os.path.dirname(filename))  # first pass essentially builds the labels
+
+    code = asm_pass(2, filename, directory=os.path.dirname(filename))  # second pass is for good, but is disabled now
 
     # statistics
     print("Average instruction size is " + str(1.0 * current_address / len(code)))

@@ -38,9 +38,7 @@
 #build directory
 build/*
 cmake-build-debug/*
-.idea/*
-
-
-#Alain Ignore
+*.idea/*
+bin/
 
  
