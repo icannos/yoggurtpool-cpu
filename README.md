@@ -20,11 +20,13 @@ __   __                           _    ______           _   _____ ______ _   _
 ```
 ### Installation / Compilation
 
-Il est recommandé d'utiliser CMake. 
+##### Dépendances:
+- CMake
+- SDL
 
-1. Créer un dossier `build/` dans le projet
-2. Exécuter à l'intérieur `cmake ../`
-3. L'éxécutable se trouvera dans build/simu.src sous la forme de simu.exe
+##### Compilation
+    `./compile.sh`
+
 
 La méthode orginelle doit encore exister mais on ne l'a jamais testée.
 
@@ -37,16 +39,3 @@ Nous avons un peu amélioré la sortie de débuggage pour afficher les données 
 Toute la documentation nécessaire se trouve dans le dossier `doc/`
 
 
-### Dans ce rendu:
-
-#### Multiplication
-
-La multiplication effectue le calcul r0 * r1 dans r2.
-
-#### Division
-
-La division s'effectue de r0 divisé par r1 dans r2 et le reste se trouvera dans r0.
-
-#### memory.s 
-
-C'est un teste d'écriture lecture dans la ram pour vérifier que tout marche à peu près bien. (Pas utile pour ce rendu mais fonctionne quand même.

@@ -1,8 +1,9 @@
 leti r0 31; couleur
-leti r1 20 ; x1
+
+leti r1 10 ; x1
 leti r2 10 ; y1
-leti r3 21; x2
-leti r4 5; y2
+leti r3 20; x2
+leti r4 20; y2
 
 ;on choisit la plus petite abscisse
 cmp r1 r3
@@ -64,6 +65,7 @@ setctr a0 r6 ; saut de la ligne
 
 jump boucley
 fin:
+jump -13
 
 
 

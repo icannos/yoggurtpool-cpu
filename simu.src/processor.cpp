@@ -2,15 +2,20 @@
 
 using namespace std;
 
+char t[39][7] = {"add2", "add2i", "sub2", "sub2i", "cmp", "cmpi", "let", "leti", "shift", "tsnh", "jump", "jumpif",
+                 "readze", "readse",
+                 "or2", "or2i", "and2", "and2i", "write", "call", "setctr", "getctr", "push", "return", "add3", "add3i",
+                 "sub3", "sub3i",
+                 "and3", "and3i", "or3", "or3i", "xor3", "xor3i", "asr3", "jumpreg", "jumpifreg", "?", "???"};
+
 YogurtPool::YogurtPool(Memory *m) : m(m) {
     pc = 0;
 
-    sp = (1<<30)-1; // Début de notre pile (On a 1000 mots de 64 bits)
+    sp = (1 << 30) - 1; // Début de notre pile (On a 1000 mots de 64 bits)
     m->set_counter(SP, (uword) sp);
 
     a1 = 0;
     a2 = 0;
-
 
 
     for (int i = 0; i < nb_reg; i++)
@@ -48,13 +53,11 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
     int instr_pc = pc; // for the debug output
 
 
-    if((sword)pc < 0)
-    {
+    if ((sword) pc < 0) {
 
         // Surtout ne pas toucher au pc là dedans ni au r[7] !
 
-        switch ((sword)pc)
-        {
+        switch ((sword) pc) {
 
             case -1:
 
@@ -73,7 +76,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                     cout << "|";
                     cout << " r" << dec << i << "= 0x" << hex << setw(8) << setfill('0') << r[i];
                     cout << "        ";
-                    cout << dec << (sword)r[i]; // Valeur en décimal par que c'est bien aussi !
+                    cout << dec << (sword) r[i]; // Valeur en décimal par que c'est bien aussi !
                     cout << "|";
                     cout << endl;
                 }
@@ -89,8 +92,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
 
         //On retourne au pc d'avant ici:
         pc = r[7];
-    }
-    else {
+    } else {
         // read 4 bits.
         read_bit_from_pc(opcode);
         read_bit_from_pc(opcode);
@@ -402,10 +404,10 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                             sp++;
                         }
 
-                        sp-=size;
+                        sp -= size;
 
                         m->set_counter(SP, (uword) sp);
-                        cout << "Salut" <<endl;
+                        cout << "Salut" << endl;
 
                         break;
                     case 0x71://return
@@ -630,7 +632,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
              << " ma0=" << hex << setw(8) << setfill('0') << m->counter[2]
              << " ma1=" << hex << setw(8) << setfill('0') << m->counter[3] << ") ";
         //				 << " newpc=" << hex << setw(9) << setfill('0') << pc;
-        cout << " zcn = " << (zflag ? 1 : 0) << (cflag ? 1 : 0) << (nflag ? 1 : 0);
+        cout << " zcnv = " << (zflag ? 1 : 0) << (cflag ? 1 : 0) << (nflag ? 1 : 0) << (vflag ? 1 : 0);
         for (int i = 0; i < 8; i++) {
             cout << " r" << dec << i << "=" << hex << setw(8) << setfill('0') << r[i];
             cout << " dec-r" << dec << i << "=" << r[i]; // Valeur en décimal par que c'est bien aussi !
@@ -655,7 +657,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
             cout << "|";
             cout << " r" << dec << i << "= 0x" << hex << setw(8) << setfill('0') << r[i];
             cout << "        ";
-            cout << dec << (sword)r[i]; // Valeur en décimal par que c'est bien aussi !
+            cout << dec << (sword) r[i]; // Valeur en décimal par que c'est bien aussi !
             cout << "|";
             cout << endl;
         }
@@ -737,8 +739,7 @@ void YogurtPool::read_sconst_from_pc(uint64_t &var) {
         var = (var << 1) + m->read_bit(PC);
         pc++;
     }
-    if (header != 0)
-    {
+    if (header != 0) {
         uword sign = (var >> (size - 1)) & 1;
         for (int i = size; i < WORDSIZE; i++)
             var += sign << i;
@@ -915,36 +916,33 @@ void YogurtPool::read_size_from_pc(int &size) {
     }
 
 
-
 }
 
-void YogurtPool::manage_addvflag(uword &uop1, uword &uop2, uword &ur)
-{
-    if( ((int)uop1 >= 0 && (int)uop2 <= 0) || ((int)uop2 >= 0 && (int)uop1 <= 0)) // Si les 2 sont pas de même signes: pas d'overflow
+void YogurtPool::manage_addvflag(uword &uop1, uword &uop2, uword &ur) {
+    if (((int) uop1 >= 0 && (int) uop2 <= 0) ||
+        ((int) uop2 >= 0 && (int) uop1 <= 0)) // Si les 2 sont pas de même signes: pas d'overflow
         vflag = false;
-    else
-    {
-        if (((int)uop1 >= 0 && (int)uop2 >= 0) && (int)ur <= 0)
+    else {
+        if (((int) uop1 >= 0 && (int) uop2 >= 0) && (int) ur <= 0)
             vflag = true;
-        if (((int)uop1 <= 0 && (int)uop2 >= 0) && (int)ur <= 0)
+        if (((int) uop1 <= 0 && (int) uop2 >= 0) && (int) ur <= 0)
             vflag = true;
     }
 
 }
 
 void YogurtPool::manage_subvflag(uword &uop1, uword &uop2, uword &ur) {
-    if( ((int)uop1 >= 0 && (int)uop2 >= 0) || ((int)uop2 <= 0 && (int)uop1 <= 0)) // Si les 2 sont pas de même signes: pas d'overflow
+    if (((int) uop1 >= 0 && (int) uop2 >= 0) ||
+        ((int) uop2 <= 0 && (int) uop1 <= 0)) // Si les 2 sont pas de même signes: pas d'overflow
         vflag = false;
-    else
-    {
-        if (((int)uop1 > 0 && (int)uop2 < 0) && (int)ur <= 0)
+    else {
+        if (((int) uop1 > 0 && (int) uop2 < 0) && (int) ur <= 0)
             vflag = true;
-        if (((int)uop1 < 0 && (int)uop2 > 0) && (int)ur >= 0)
+        if (((int) uop1 < 0 && (int) uop2 > 0) && (int) ur >= 0)
             vflag = true;
     }
 
 }
-
 
 
 // ==================== Instructions ======================= \\
@@ -995,16 +993,17 @@ void YogurtPool::jumpif(uword &offset, bool &manage_flags) {
 
 }
 
-void YogurtPool::write(int& counter, int& size, uword& val) {
+void YogurtPool::write(int &counter, int &size, uword &val) {
 
     // On récupère un pointeur vers l'attribut correspond au bon counter.
-    uword* p_Counter = getPtrToCounter(counter);
+    uword *p_Counter = getPtrToCounter(counter);
 
-    uword val1 = (val << (WORDSIZE-size));
+    uword val1 = (val << (WORDSIZE - size));
 
-    for (int i = WORDSIZE - 1; i >= WORDSIZE-size; i--) { // On écrit le bon nombre de bits, à partir de l'adresse du counter donné.
+    for (int i = WORDSIZE - 1;
+         i >= WORDSIZE - size; i--) { // On écrit le bon nombre de bits, à partir de l'adresse du counter donné.
         write_toRam(counter, (val1 >> i) & 1);
-        (*p_Counter) ++;
+        (*p_Counter)++;
     }
 
 }

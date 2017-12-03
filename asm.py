@@ -23,6 +23,15 @@ def error(e):
 # All the asm_xxxx functions are helper functions that parse an operand and convert it into its binary encoding.
 # Many are still missing
 
+from time import time
+
+
+def asm_bitsload(bitfile):
+    f = open(bitfile, "r")
+    bits = f.read()
+    f.close()
+    return bits
+
 def asm_reg(s):
     # converts the string s into its encoding
     if s[0] != 'r':
@@ -37,7 +46,7 @@ def asm_reg(s):
         return binary_repr(val, 3) + ' '  # thanks stack overflow. The 3 is the number of bits
 
 
-def asm_addr_signed(s, c):
+def asm_addr_signed(s, c, let=0):
     # converts the string s into its encoding
     # Is it a label or a constant?
     # pour l'hexa
@@ -53,17 +62,28 @@ def asm_addr_signed(s, c):
             if s in labels:  # le label est deja entre dans la liste de labels, on est au deuxieme passage
                 d = int(labels[s] - (
                     current_address_for_label + 2 + 16))  # Ajout des bits de l'instruction en cours qui ne sont pas encore comptes dans current_address !
-                return "10 " + binary_repr(d, 16)  # on encode la bonne taille
+                if let==0:
+                    return "10 " + binary_repr(d, 16)  # on encode la bonne taille
+                else:
+                    return "110 " + binary_repr(d, 32)  # on encode la bonne taille
             else:  # premier passage
-                return "10 " + binary_repr(0,
-                                           16)  # on intialise a 0, juste pour avoir le meme nombre de bit au second passage
+                if let==0:
+                    return "10 " + binary_repr(0, 16)  # on encode la bonne taille
+                else:
+                    return "110 " + binary_repr(0, 32)  # on encode la bonne taille
 
         elif c == "call":
             if s in labels:  # le label est deja entre dans la liste de labels, on est au deuxieme passage
-                return "10 " + binary_repr(labels[s], 16)  # on encode la bonne taille
+                d = int(labels[s])
+                if let==0:
+                    return "10 " + binary_repr(d, 16)  # on encode la bonne taille
+                else:
+                    return "110 " + binary_repr(d, 32)  # on encode la bonne taille
             else:  # premier passage
-                return "10 " + binary_repr(0,
-                                           16)  # on intialise a 0, juste pour avoir le meme nombre de bit au second passage
+                if let==0:
+                    return "10 " + binary_repr(0, 16)  # on encode la bonne taille
+                else:
+                    return "110 " + binary_repr(0, 32)  # on encode la bonne taille
 
     except (ValueError, IndexError):
         error("invalid address: " + s)
@@ -164,9 +184,9 @@ def asm_counter(ctr):
 
 
 def asm_dir(dirc):
-    if dirc == "left":
+    if dirc == "left" or dirc =="l":
         return "0 "
-    elif dirc == "right":
+    elif dirc == "right" or dirc =="r" :
         return "1 "
     else:
         error("Invalid dir: " + dirc)
@@ -237,9 +257,9 @@ def asm_pass(iteration, s_file):
             if opcode == "leti" and token_count == 3:
                 instruction_encoding = "0111 " + asm_reg(tokens[1]) + asm_const_signed(tokens[2])
             if opcode == "letiaj" and token_count == 3:
-                instruction_encoding = "0111 " + asm_reg(tokens[1]) + asm_addr_signed(tokens[2], "jump")
+                instruction_encoding = "0111 " + asm_reg(tokens[1]) + asm_addr_signed(tokens[2], "jump", 1)
             if opcode == "letiac" and token_count == 3:
-                instruction_encoding = "0111 " + asm_reg(tokens[1]) + asm_addr_signed(tokens[2], "call")
+                instruction_encoding = "0111 " + asm_reg(tokens[1]) + asm_addr_signed(tokens[2], "call", 1)
             if opcode == "shift" and token_count == 4:
                 instruction_encoding = "1000 " + asm_dir(tokens[1]) + asm_reg(tokens[2]) + asm_shiftval(tokens[3])
             if opcode == "readze" and token_count == 4:
@@ -306,6 +326,11 @@ def asm_pass(iteration, s_file):
 
             if opcode == "pop" and token_count == 3:
                 instruction_encoding = "10011 01 " + asm_size(tokens[1]) + asm_reg(tokens[2])
+
+            if opcode == "load" and token_count == 2:
+                instruction_encoding = asm_bitsload(tokens[1])
+
+
 
                 # If the line wasn't assembled:
             if instruction_encoding == "":
