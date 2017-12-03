@@ -39,7 +39,7 @@ On a déplacé la mémoire vidéo car on a réussi à avoir des programmes long 
 ### Pointeurs
 ```C
 pc = 0;
-sp = 0x3FFF0600;
+sp = 1<<30;
 A0 = 0;
 A1 = 0;
 ```
@@ -58,15 +58,13 @@ A1 = 0;
 
 Dans le cas où on effectue un call avec une adresse négative on appelle une fonction "built-in" du proco.
 
-En particulier call -1 correspond à la terminaison d'un programme. Dans ce cas le processeur affiche dans la console son état final. (On le retirera au profit d'un détecteur de boucle infini.) Mais on garde la possibilité d'étendre le jeu d'Instructions de cette manière (reset, instruction pour les images...).
-
 Actuellement lorsque le simulateur détecte qu'il doit terminer il ajoute affiche le dernier état des registres. (Nous avons ajouté un booléen permettant d'arrêter le cycle de von neuman).
 
 
 
 | Call id       |     Mnemonic        |    Desc                                |
 | ------------- | ------------------- | ---------------------------------------|
-|   -1          |          ...        |  Indique au proco la terminaison       |
+|   ...         |          ...        |              ...                       |
 |   ...         |                     |              ...                       |
 
 ### Flags et comparaisons
@@ -76,26 +74,19 @@ Nous n'avons pas encore implémenté le flag overflow mais ça viendra. Donc cer
 
 ### Syntaxe Assembleur
 
-La syntaxe des labels est la suivante: `label:` pour déclarer un label puis `#label` lorsqu'on souhaite l'utiliser dans jump (saut relatif) ou `@label` lorsqu'on l'utilise dans un call (saut absolu).
+Nous avons ajouté un peu de sucre syntaxique à l'assembleur. Notamment il est maintenant possible de mettre la valeur d'un label dans un registre via les mnemonics `letiac reg label` pour mettre l'adresse absolue du label et `letiaj reg label` pour mettre l'adresse relative du label. C'est noramment utile lors de l'utilisation des `jumpreg` et `jumpifreg`.
 
-Exemple de la multiplication.
-```
-leti r0 6
-leti r1 -8
-leti r2 0
-boucle:
-cmpi r0 0
-jumpif eq end
-shift right r0 1
-jumpif nc pair
-add2 r2 r1
-pair:
-shift left  r1 1
-jump boucle
-end:
-call -1
-```
+De plus la macro `load filename` importe à cet endroit précis un fichier binaire. On peut alors utiliser le code suivant pour faire pointer un pointeur vers ces données:
 
+```Assembly
+letiac r0 data
+setctr a0 r0
+
+jump dataend
+data:
+    load filename.mem
+dataend:
+```
 
 ### Statistiques
 

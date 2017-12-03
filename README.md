@@ -22,15 +22,19 @@ __   __                           _    ______           _   _____ ______ _   _
 
 ##### Dépendances:
 - CMake
-- SDL
+- SDL2
+- Tatsu (Uniquement pour le compilateur python): `sudo pip install tatsu` réglera le problème.
 
 ##### Compilation
 
-  `./build.sh` dans le dossier racine créera les dossiers build, bin, compilera le simulateur et les différents programmes.
+- `./build_all.sh` dans le dossier racine compilera le simulateur, créera le dossier build etc...
+- `./build_prog.sh` recompilera uniquement les programmes du dossier prog
 
-  La méthode orginelle doit encore exister mais on ne l'a jamais testée.
+La méthode orginelle doit encore exister mais on ne l'a jamais testée.
 
 ### Simulateur
+
+J'ai apporté des modifications à la manière dont le simulateur gère l'écriture dans la RAM pour corriger des problèmes graphiques. A priori maintenant le lien entre l'écran et la RAM se fait beaucoup mieux. On évite par exemple le problème des couleurs mirroires que l'on rencontrait jusqu'à présent.
 
 Nous avons un peu amélioré la sortie de débuggage pour afficher les données en hexa mais aussi en décimal etc...
 
