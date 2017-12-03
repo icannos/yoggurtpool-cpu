@@ -1,0 +1,219 @@
+
+ PASS 1
+processing jump callmultendend
+-1
+['jump', 'callmultendend']
+... @0 0000000000000000  :  1010100000000000000000
+                          1010 10 0000000000000000   size=22
+processing mult:
+-1
+['mult:']
+processing     push 64 r0
+-1
+['push', '64', 'r0']
+... @22 0000000000010110  :  1110000111000
+                          1110000 111 000    size=13
+processing     push 64 r1
+-1
+['push', '64', 'r1']
+... @35 0000000000100011  :  1110000111001
+                          1110000 111 001    size=13
+processing 
+-1
+[]
+processing boucle:
+-1
+['boucle:']
+processing     cmpi r0 0
+-1
+['cmpi', 'r0', '0']
+... @48 0000000000110000  :  010100000
+                          0101 000 0 0   size=9
+processing     jumpif eq callmultend
+-1
+['jumpif', 'eq', 'callmultend']
+... @57 0000000000111001  :  1011000100000000000000000
+                          1011 000 10 0000000000000000   size=25
+processing     shift right r0 1
+-1
+['shift', 'right', 'r0', '1']
+... @82 0000000001010010  :  100010001
+                          1000 1 000 1   size=9
+processing         
+-1
+[]
+processing     jumpif nc pair
+-1
+['jumpif', 'nc', 'pair']
+... @91 0000000001011011  :  1011101100000000000000000
+                          1011 101 10 0000000000000000   size=25
+processing     add2 r2 r1
+-1
+['add2', 'r2', 'r1']
+... @116 0000000001110100  :  0000010001
+                          0000 010 001    size=10
+processing         
+-1
+[]
+processing pair:
+-1
+['pair:']
+processing     shift left  r1 1
+-1
+['shift', 'left', 'r1', '1']
+... @126 0000000001111110  :  100000011
+                          1000 0 001 1   size=9
+processing 
+-1
+[]
+processing     jump boucle
+-1
+['jump', 'boucle']
+... @135 0000000010000111  :  1010101111111110010011
+                          1010 10 1111111110010011   size=22
+processing     
+-1
+[]
+processing callmultend:
+-1
+['callmultend:']
+processing 
+-1
+[]
+processing     pop 64 r1
+-1
+['pop', '64', 'r1']
+... @157 0000000010011101  :  1001101111001
+                          10011 01 111 001    size=13
+processing     pop 64 r0
+-1
+['pop', '64', 'r0']
+... @170 0000000010101010  :  1001101111000
+                          10011 01 111 000    size=13
+processing 
+-1
+[]
+processing     return
+-1
+['return']
+... @183 0000000010110111  :  1110001
+                          1110001    size=7
+processing     
+-1
+[]
+processing callmultendend:
+-1
+['callmultendend:']
+processing 
+-1
+[]
+
+ PASS 2
+processing jump callmultendend
+-1
+['jump', 'callmultendend']
+... @0 0000000000000000  :  1010100000000010101000
+                          1010 10 0000000010101000   size=22
+processing mult:
+-1
+['mult:']
+processing     push 64 r0
+-1
+['push', '64', 'r0']
+... @22 0000000000010110  :  1110000111000
+                          1110000 111 000    size=13
+processing     push 64 r1
+-1
+['push', '64', 'r1']
+... @35 0000000000100011  :  1110000111001
+                          1110000 111 001    size=13
+processing 
+-1
+[]
+processing boucle:
+-1
+['boucle:']
+processing     cmpi r0 0
+-1
+['cmpi', 'r0', '0']
+... @48 0000000000110000  :  010100000
+                          0101 000 0 0   size=9
+processing     jumpif eq callmultend
+-1
+['jumpif', 'eq', 'callmultend']
+... @57 0000000000111001  :  1011000100000000001001011
+                          1011 000 10 0000000001001011   size=25
+processing     shift right r0 1
+-1
+['shift', 'right', 'r0', '1']
+... @82 0000000001010010  :  100010001
+                          1000 1 000 1   size=9
+processing         
+-1
+[]
+processing     jumpif nc pair
+-1
+['jumpif', 'nc', 'pair']
+... @91 0000000001011011  :  1011101100000000000001010
+                          1011 101 10 0000000000001010   size=25
+processing     add2 r2 r1
+-1
+['add2', 'r2', 'r1']
+... @116 0000000001110100  :  0000010001
+                          0000 010 001    size=10
+processing         
+-1
+[]
+processing pair:
+-1
+['pair:']
+processing     shift left  r1 1
+-1
+['shift', 'left', 'r1', '1']
+... @126 0000000001111110  :  100000011
+                          1000 0 001 1   size=9
+processing 
+-1
+[]
+processing     jump boucle
+-1
+['jump', 'boucle']
+... @135 0000000010000111  :  1010101111111110010011
+                          1010 10 1111111110010011   size=22
+processing     
+-1
+[]
+processing callmultend:
+-1
+['callmultend:']
+processing 
+-1
+[]
+processing     pop 64 r1
+-1
+['pop', '64', 'r1']
+... @157 0000000010011101  :  1001101111001
+                          10011 01 111 001    size=13
+processing     pop 64 r0
+-1
+['pop', '64', 'r0']
+... @170 0000000010101010  :  1001101111000
+                          10011 01 111 000    size=13
+processing 
+-1
+[]
+processing     return
+-1
+['return']
+... @183 0000000010110111  :  1110001
+                          1110001    size=7
+processing     
+-1
+[]
+processing callmultendend:
+-1
+['callmultendend:']
+processing 
+-1
+[]
+Average instruction size is 7.037037037037037

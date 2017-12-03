@@ -1,6 +1,3 @@
-leti r0 31
-leti r1 30
-
 
 jump skipputchar
 putchar:
@@ -44,7 +41,7 @@ putchar:
     
     ; On construit le saut à réaliser en fin de ligne dans r5
         
-    leti r5 153
+    leti r5 152
     shift l r5 4
     
     
@@ -93,7 +90,7 @@ putlc:
     leti r1 0
     
     boucle_carac_pix_back:
-    cmpi r1 7
+    cmpi r1 8
     jumpif sgt boucle_carac_pix_end
         shift r r5 1        
         jumpif nc carac_nowrite ; Si bit = 1 alors on ecrit

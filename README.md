@@ -29,6 +29,7 @@ __   __                           _    ______           _   _____ ______ _   _
 
 - `./build_all.sh` dans le dossier racine compilera le simulateur, créera le dossier build etc...
 - `./build_prog.sh` recompilera uniquement les programmes du dossier prog
+- `./demo_r2.sh` exécutera une démo minimale du rendu 2: Un teaser pour le rendu 3.
 
 La méthode orginelle doit encore exister mais on ne l'a jamais testée.
 

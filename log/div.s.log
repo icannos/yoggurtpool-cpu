@@ -1,0 +1,293 @@
+
+ PASS 1
+processing 
+-1
+[]
+processing jump skipdiv
+-1
+['jump', 'skipdiv']
+... @0 0000000000000000  :  1010100000000000000000
+                          1010 10 0000000000000000   size=22
+processing div:
+-1
+['div:']
+processing     push 64 r0
+-1
+['push', '64', 'r0']
+... @22 0000000000010110  :  1110000111000
+                          1110000 111 000    size=13
+processing     push 64 r1
+-1
+['push', '64', 'r1']
+... @35 0000000000100011  :  1110000111001
+                          1110000 111 001    size=13
+processing 
+-1
+[]
+processing loopback:
+-1
+['loopback:']
+processing     cmp r1 r0
+-1
+['cmp', 'r1', 'r0']
+... @48 0000000000110000  :  0100001000
+                          0100 001 000    size=10
+processing     jumpif ge loopend
+-1
+['jumpif', 'ge', 'loopend']
+... @58 0000000000111010  :  1011101100000000000000000
+                          1011 101 10 0000000000000000   size=25
+processing     shift left r1 1
+-1
+['shift', 'left', 'r1', '1']
+... @83 0000000001010011  :  100000011
+                          1000 0 001 1   size=9
+processing     jump loopback
+-1
+['jump', 'loopback']
+... @92 0000000001011100  :  1010101111111110111110
+                          1010 10 1111111110111110   size=22
+processing loopend:
+-1
+['loopend:']
+processing 
+-1
+[]
+processing boucle:
+-1
+['boucle:']
+processing     cmp r3 r1
+-1
+['cmp', 'r3', 'r1']
+... @114 0000000001110010  :  0100011001
+                          0100 011 001    size=10
+processing     jumpif ge end
+-1
+['jumpif', 'ge', 'end']
+... @124 0000000001111100  :  1011101100000000000000000
+                          1011 101 10 0000000000000000   size=25
+processing     shift right r1 1
+-1
+['shift', 'right', 'r1', '1']
+... @149 0000000010010101  :  100010011
+                          1000 1 001 1   size=9
+processing     shift left r2 1
+-1
+['shift', 'left', 'r2', '1']
+... @158 0000000010011110  :  100000101
+                          1000 0 010 1   size=9
+processing     cmp r0 r1
+-1
+['cmp', 'r0', 'r1']
+... @167 0000000010100111  :  0100000001
+                          0100 000 001    size=10
+processing     jumpif lt cond2
+-1
+['jumpif', 'lt', 'cond2']
+... @177 0000000010110001  :  1011110100000000000000000
+                          1011 110 10 0000000000000000   size=25
+processing 	sub2 r0 r1
+-1
+['sub2', 'r0', 'r1']
+... @202 0000000011001010  :  0010000001
+                          0010 000 001    size=10
+processing 	add2i r2 1
+-1
+['add2i', 'r2', '1']
+... @212 0000000011010100  :  000101001
+                          0001 010 0 1   size=9
+processing cond2:
+-1
+['cond2:']
+processing     jump boucle
+-1
+['jump', 'boucle']
+... @221 0000000011011101  :  1010101111111101111111
+                          1010 10 1111111101111111   size=22
+processing end:
+-1
+['end:']
+processing     shift right r2 1
+-1
+['shift', 'right', 'r2', '1']
+... @243 0000000011110011  :  100010101
+                          1000 1 010 1   size=9
+processing     let r3 r0
+-1
+['let', 'r3', 'r0']
+... @252 0000000011111100  :  0110011000
+                          0110 011 000    size=10
+processing     
+-1
+[]
+processing     pop 64 r1
+-1
+['pop', '64', 'r1']
+... @262 0000000100000110  :  1001101111001
+                          10011 01 111 001    size=13
+processing     pop 64 r0
+-1
+['pop', '64', 'r0']
+... @275 0000000100010011  :  1001101111000
+                          10011 01 111 000    size=13
+processing     return
+-1
+['return']
+... @288 0000000100100000  :  1110001
+                          1110001    size=7
+processing skipdiv:
+-1
+['skipdiv:']
+processing 
+-1
+[]
+processing 
+-1
+[]
+
+ PASS 2
+processing 
+-1
+[]
+processing jump skipdiv
+-1
+['jump', 'skipdiv']
+... @0 0000000000000000  :  1010100000000100010001
+                          1010 10 0000000100010001   size=22
+processing div:
+-1
+['div:']
+processing     push 64 r0
+-1
+['push', '64', 'r0']
+... @22 0000000000010110  :  1110000111000
+                          1110000 111 000    size=13
+processing     push 64 r1
+-1
+['push', '64', 'r1']
+... @35 0000000000100011  :  1110000111001
+                          1110000 111 001    size=13
+processing 
+-1
+[]
+processing loopback:
+-1
+['loopback:']
+processing     cmp r1 r0
+-1
+['cmp', 'r1', 'r0']
+... @48 0000000000110000  :  0100001000
+                          0100 001 000    size=10
+processing     jumpif ge loopend
+-1
+['jumpif', 'ge', 'loopend']
+... @58 0000000000111010  :  1011101100000000000011111
+                          1011 101 10 0000000000011111   size=25
+processing     shift left r1 1
+-1
+['shift', 'left', 'r1', '1']
+... @83 0000000001010011  :  100000011
+                          1000 0 001 1   size=9
+processing     jump loopback
+-1
+['jump', 'loopback']
+... @92 0000000001011100  :  1010101111111110111110
+                          1010 10 1111111110111110   size=22
+processing loopend:
+-1
+['loopend:']
+processing 
+-1
+[]
+processing boucle:
+-1
+['boucle:']
+processing     cmp r3 r1
+-1
+['cmp', 'r3', 'r1']
+... @114 0000000001110010  :  0100011001
+                          0100 011 001    size=10
+processing     jumpif ge end
+-1
+['jumpif', 'ge', 'end']
+... @124 0000000001111100  :  1011101100000000001011110
+                          1011 101 10 0000000001011110   size=25
+processing     shift right r1 1
+-1
+['shift', 'right', 'r1', '1']
+... @149 0000000010010101  :  100010011
+                          1000 1 001 1   size=9
+processing     shift left r2 1
+-1
+['shift', 'left', 'r2', '1']
+... @158 0000000010011110  :  100000101
+                          1000 0 010 1   size=9
+processing     cmp r0 r1
+-1
+['cmp', 'r0', 'r1']
+... @167 0000000010100111  :  0100000001
+                          0100 000 001    size=10
+processing     jumpif lt cond2
+-1
+['jumpif', 'lt', 'cond2']
+... @177 0000000010110001  :  1011110100000000000010011
+                          1011 110 10 0000000000010011   size=25
+processing 	sub2 r0 r1
+-1
+['sub2', 'r0', 'r1']
+... @202 0000000011001010  :  0010000001
+                          0010 000 001    size=10
+processing 	add2i r2 1
+-1
+['add2i', 'r2', '1']
+... @212 0000000011010100  :  000101001
+                          0001 010 0 1   size=9
+processing cond2:
+-1
+['cond2:']
+processing     jump boucle
+-1
+['jump', 'boucle']
+... @221 0000000011011101  :  1010101111111101111111
+                          1010 10 1111111101111111   size=22
+processing end:
+-1
+['end:']
+processing     shift right r2 1
+-1
+['shift', 'right', 'r2', '1']
+... @243 0000000011110011  :  100010101
+                          1000 1 010 1   size=9
+processing     let r3 r0
+-1
+['let', 'r3', 'r0']
+... @252 0000000011111100  :  0110011000
+                          0110 011 000    size=10
+processing     
+-1
+[]
+processing     pop 64 r1
+-1
+['pop', '64', 'r1']
+... @262 0000000100000110  :  1001101111001
+                          10011 01 111 001    size=13
+processing     pop 64 r0
+-1
+['pop', '64', 'r0']
+... @275 0000000100010011  :  1001101111000
+                          10011 01 111 000    size=13
+processing     return
+-1
+['return']
+... @288 0000000100100000  :  1110001
+                          1110001    size=7
+processing skipdiv:
+-1
+['skipdiv:']
+processing 
+-1
+[]
+processing 
+-1
+[]
+Average instruction size is 8.676470588235293
