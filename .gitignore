@@ -41,4 +41,8 @@ cmake-build-debug/*
 *.idea/*
 bin/
 
+# Binary
+*.mem
+*.obj
+
  

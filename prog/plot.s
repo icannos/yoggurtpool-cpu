@@ -1,7 +1,7 @@
 jump plotend
 plot:
     push 64 r0
-    purh 64 r1
+    push 64 r1
     push 64 r2
     push 64 r3
 

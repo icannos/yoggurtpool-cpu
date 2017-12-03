@@ -38,12 +38,20 @@ if __name__ == '__main__':
     argparser.add_argument('filename',
                            help='name of the source file.')
 
+    argparser.add_argument('--output',
+                           help='output path')
+
 
 
     options = argparser.parse_args()
     encoded_str = getAllChar(options.filename)
 
     basefilename, extension = os.path.splitext(options.filename)
-    dumppath = basefilename + ".mem"
+
+    if options.output == None:
+        dumppath = basefilename + ".mem"
+    else:
+        dumppath = options.output
+
     dumpbmpfont(encoded_str, dumppath)
 
