@@ -226,4 +226,4 @@ processing     pop 64 r0
 processing plotend:
 -1
 ['plotend:']
-Average instruction size is 12.166666666666666
+Average instruction size is 12.1666666667

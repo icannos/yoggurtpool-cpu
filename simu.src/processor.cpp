@@ -407,7 +407,6 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
                         sp -= size;
 
                         m->set_counter(SP, (uword) sp);
-                        cout << "Salut" << endl;
 
                         break;
                     case 0x71://return

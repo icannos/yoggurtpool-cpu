@@ -3,9 +3,9 @@
 processing 
 -1
 []
-processing jump skipfill
+processing jump fillskipfill
 -1
-['jump', 'skipfill']
+['jump', 'fillskipfill']
 ... @0 0000000000000000  :  1010100000000000000000
                           1010 10 0000000000000000   size=22
 processing fill:
@@ -58,9 +58,9 @@ processing cmp r1 r3
 ['cmp', 'r1', 'r3']
 ... @113 0000000001110001  :  0100001011
                           0100 001 011    size=10
-processing jumpif lt echange
+processing jumpif lt fillechange
 -1
-['jumpif', 'lt', 'echange']
+['jumpif', 'lt', 'fillechange']
 ... @123 0000000001111011  :  1011110100000000000000000
                           1011 110 10 0000000000000000   size=25
 processing let r5 r1
@@ -78,9 +78,9 @@ processing let r3 r5
 ['let', 'r3', 'r5']
 ... @168 0000000010101000  :  0110011101
                           0110 011 101    size=10
-processing echange:
+processing fillechange:
 -1
-['echange:']
+['fillechange:']
 processing 
 -1
 []
@@ -96,9 +96,9 @@ processing cmp r2 r4
 ['cmp', 'r2', 'r4']
 ... @178 0000000010110010  :  0100010100
                           0100 010 100    size=10
-processing jumpif gt echangebis
+processing jumpif gt fillechangebis
 -1
-['jumpif', 'gt', 'echangebis']
+['jumpif', 'gt', 'fillechangebis']
 ... @188 0000000010111100  :  1011100100000000000000000
                           1011 100 10 0000000000000000   size=25
 processing let r5 r2
@@ -117,9 +117,9 @@ hey
 ['let', 'r4', 'r5']
 ... @233 0000000011101001  :  0110100101
                           0110 100 101    size=10
-processing echangebis:
+processing fillechangebis:
 -1
-['echangebis:']
+['fillechangebis:']
 processing 
 -1
 []
@@ -227,18 +227,18 @@ processing setctr a0 r6
 processing 
 -1
 []
-processing boucley:
+processing fillboucley:
 -1
-['boucley:']
+['fillboucley:']
 processing cmpi r5 1 ;on compte le nombre de ligne qui reste a tracer
 10
 hey
 ['cmpi', 'r5', '1']
 ... @499 0000000111110011  :  010110101
                           0101 101 0 1   size=9
-processing jumpif slt fin
+processing jumpif slt fillfin
 -1
-['jumpif', 'slt', 'fin']
+['jumpif', 'slt', 'fillfin']
 ... @508 0000000111111100  :  1011011100000000000000000
                           1011 011 10 0000000000000000   size=25
 processing sub2i r5 1
@@ -254,18 +254,18 @@ processing let r1 r3
 ['let', 'r1', 'r3']
 ... @542 0000001000011110  :  0110001011
                           0110 001 011    size=10
-processing bouclex:
+processing fillbouclex:
 -1
-['bouclex:']
+['fillbouclex:']
 processing cmpi r3 1 ; on compte le nombre de colonne a remplir
 10
 hey
 ['cmpi', 'r3', '1']
 ... @552 0000001000101000  :  010101101
                           0101 011 0 1   size=9
-processing jumpif slt finligne
+processing jumpif slt fillfinligne
 -1
-['jumpif', 'slt', 'finligne']
+['jumpif', 'slt', 'fillfinligne']
 ... @561 0000001000110001  :  1011011100000000000000000
                           1011 011 10 0000000000000000   size=25
 processing sub2i r3 1
@@ -279,14 +279,14 @@ hey
 ['write', 'a0', '16', 'r0']
 ... @595 0000001001010011  :  11010010101000
                           110100 10 101 000    size=14
-processing jump bouclex
+processing jump fillbouclex
 -1
-['jump', 'bouclex']
+['jump', 'fillbouclex']
 ... @609 0000001001100001  :  1010101111111110110001
                           1010 10 1111111110110001   size=22
-processing finligne:
+processing fillfinligne:
 -1
-['finligne:']
+['fillfinligne:']
 processing let r3 r1
 -1
 ['let', 'r3', 'r1']
@@ -314,14 +314,23 @@ hey
 processing 
 -1
 []
-processing jump boucley
+processing jump fillboucley
 -1
-['jump', 'boucley']
+['jump', 'fillboucley']
 ... @673 0000001010100001  :  1010101111111100111100
                           1010 10 1111111100111100   size=22
 processing 
 -1
 []
+processing 
+-1
+[]
+processing 
+-1
+[]
+processing fillfin:
+-1
+['fillfin:']
 processing pop 64 r6
 -1
 ['pop', '64', 'r6']
@@ -360,22 +369,30 @@ processing pop 64 r0
 processing 
 -1
 []
-processing fin:
+processing return
 -1
-['fin:']
-processing skipfill:
+['return']
+... @786 0000001100010010  :  1110001
+                          1110001    size=7
+processing 
 -1
-['skipfill:']
+[]
+processing 
+-1
+[]
+processing fillskipfill:
+-1
+['fillskipfill:']
 
  PASS 2
 processing 
 -1
 []
-processing jump skipfill
+processing jump fillskipfill
 -1
-['jump', 'skipfill']
-... @0 0000000000000000  :  1010100000001011111100
-                          1010 10 0000001011111100   size=22
+['jump', 'fillskipfill']
+... @0 0000000000000000  :  1010100000001100000011
+                          1010 10 0000001100000011   size=22
 processing fill:
 -1
 ['fill:']
@@ -426,9 +443,9 @@ processing cmp r1 r3
 ['cmp', 'r1', 'r3']
 ... @113 0000000001110001  :  0100001011
                           0100 001 011    size=10
-processing jumpif lt echange
+processing jumpif lt fillechange
 -1
-['jumpif', 'lt', 'echange']
+['jumpif', 'lt', 'fillechange']
 ... @123 0000000001111011  :  1011110100000000000011110
                           1011 110 10 0000000000011110   size=25
 processing let r5 r1
@@ -446,9 +463,9 @@ processing let r3 r5
 ['let', 'r3', 'r5']
 ... @168 0000000010101000  :  0110011101
                           0110 011 101    size=10
-processing echange:
+processing fillechange:
 -1
-['echange:']
+['fillechange:']
 processing 
 -1
 []
@@ -464,9 +481,9 @@ processing cmp r2 r4
 ['cmp', 'r2', 'r4']
 ... @178 0000000010110010  :  0100010100
                           0100 010 100    size=10
-processing jumpif gt echangebis
+processing jumpif gt fillechangebis
 -1
-['jumpif', 'gt', 'echangebis']
+['jumpif', 'gt', 'fillechangebis']
 ... @188 0000000010111100  :  1011100100000000000011110
                           1011 100 10 0000000000011110   size=25
 processing let r5 r2
@@ -485,9 +502,9 @@ hey
 ['let', 'r4', 'r5']
 ... @233 0000000011101001  :  0110100101
                           0110 100 101    size=10
-processing echangebis:
+processing fillechangebis:
 -1
-['echangebis:']
+['fillechangebis:']
 processing 
 -1
 []
@@ -595,20 +612,20 @@ processing setctr a0 r6
 processing 
 -1
 []
-processing boucley:
+processing fillboucley:
 -1
-['boucley:']
+['fillboucley:']
 processing cmpi r5 1 ;on compte le nombre de ligne qui reste a tracer
 10
 hey
 ['cmpi', 'r5', '1']
 ... @499 0000000111110011  :  010110101
                           0101 101 0 1   size=9
-processing jumpif slt fin
+processing jumpif slt fillfin
 -1
-['jumpif', 'slt', 'fin']
-... @508 0000000111111100  :  1011011100000000011111101
-                          1011 011 10 0000000011111101   size=25
+['jumpif', 'slt', 'fillfin']
+... @508 0000000111111100  :  1011011100000000010100010
+                          1011 011 10 0000000010100010   size=25
 processing sub2i r5 1
 -1
 ['sub2i', 'r5', '1']
@@ -622,18 +639,18 @@ processing let r1 r3
 ['let', 'r1', 'r3']
 ... @542 0000001000011110  :  0110001011
                           0110 001 011    size=10
-processing bouclex:
+processing fillbouclex:
 -1
-['bouclex:']
+['fillbouclex:']
 processing cmpi r3 1 ; on compte le nombre de colonne a remplir
 10
 hey
 ['cmpi', 'r3', '1']
 ... @552 0000001000101000  :  010101101
                           0101 011 0 1   size=9
-processing jumpif slt finligne
+processing jumpif slt fillfinligne
 -1
-['jumpif', 'slt', 'finligne']
+['jumpif', 'slt', 'fillfinligne']
 ... @561 0000001000110001  :  1011011100000000000101101
                           1011 011 10 0000000000101101   size=25
 processing sub2i r3 1
@@ -647,14 +664,14 @@ hey
 ['write', 'a0', '16', 'r0']
 ... @595 0000001001010011  :  11010010101000
                           110100 10 101 000    size=14
-processing jump bouclex
+processing jump fillbouclex
 -1
-['jump', 'bouclex']
+['jump', 'fillbouclex']
 ... @609 0000001001100001  :  1010101111111110110001
                           1010 10 1111111110110001   size=22
-processing finligne:
+processing fillfinligne:
 -1
-['finligne:']
+['fillfinligne:']
 processing let r3 r1
 -1
 ['let', 'r3', 'r1']
@@ -682,14 +699,23 @@ hey
 processing 
 -1
 []
-processing jump boucley
+processing jump fillboucley
 -1
-['jump', 'boucley']
+['jump', 'fillboucley']
 ... @673 0000001010100001  :  1010101111111100111100
                           1010 10 1111111100111100   size=22
 processing 
 -1
 []
+processing 
+-1
+[]
+processing 
+-1
+[]
+processing fillfin:
+-1
+['fillfin:']
 processing pop 64 r6
 -1
 ['pop', '64', 'r6']
@@ -728,10 +754,18 @@ processing pop 64 r0
 processing 
 -1
 []
-processing fin:
+processing return
 -1
-['fin:']
-processing skipfill:
+['return']
+... @786 0000001100010010  :  1110001
+                          1110001    size=7
+processing 
 -1
-['skipfill:']
-Average instruction size is 9.703703703703704
+[]
+processing 
+-1
+[]
+processing fillskipfill:
+-1
+['fillskipfill:']
+Average instruction size is 9.22093023256

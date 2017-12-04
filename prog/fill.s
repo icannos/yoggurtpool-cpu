@@ -1,5 +1,5 @@
 
-jump skipfill
+jump fillskipfill
 fill:
 push 64 r0
 push 64 r1
@@ -11,20 +11,20 @@ push 64 r6
 
 ;on choisit la plus petite abscisse
 cmp r1 r3
-jumpif lt echange
+jumpif lt fillechange
 let r5 r1
 let r1 r3
 let r3 r5
-echange:
+fillechange:
 
 
 ;on choisit la plus grande ordonnee
 cmp r2 r4
-jumpif gt echangebis
+jumpif gt fillechangebis
 let r5 r2
 let r2 r4
 let r4 r5 ; r4 est pour l'instant inutile
-echangebis:
+fillechangebis:
 
 sub2 r3 r1 ; r3 contient la largeur du rectangle
 add2i r3 1
@@ -48,27 +48,30 @@ shift left r1 4
 add2 r6 r1
 setctr a0 r6
 
-boucley:
+fillboucley:
 cmpi r5 1 ;on compte le nombre de ligne qui reste a tracer
-jumpif slt fin
+jumpif slt fillfin
 sub2i r5 1
 
 let r1 r3
-bouclex:
+fillbouclex:
 cmpi r3 1 ; on compte le nombre de colonne a remplir
-jumpif slt finligne
+jumpif slt fillfinligne
 sub2i r3 1
 write a0 16 r0 ; on ecrit la ligne
-jump bouclex
-finligne:
+jump fillbouclex
+fillfinligne:
 let r3 r1
 
 getctr a0 r6
 add2 r6 r4
 setctr a0 r6 ; saut de la ligne
 
-jump boucley
+jump fillboucley
 
+
+
+fillfin:
 pop 64 r6
 pop 64 r5
 pop 64 r4
@@ -77,5 +80,7 @@ pop 64 r2
 pop 64 r1
 pop 64 r0
 
-fin:
-skipfill:
+return
+
+
+fillskipfill:
