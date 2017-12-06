@@ -332,17 +332,24 @@ def asm_pass(iteration, s_file, directory):
                 instruction_encoding = asm_bitsload(tokens[1], directory)
 
 			#le const que nous n'avions pas lu:
-            if opcode == ".const" and token_count == 2:
-                instruction_encoding = "1110000" + tokens[1]
+            if opcode == ".const" and token_count == 3:
+                instruction_encoding = tokens[2] #Je ne sais pas a quoi ca correspond
 
 			#du sucre
             if opcode == ".plot" and token_count == 4:
-                instruction_encoding = 	"0111 " + "000 " + asm_const_signed(tokens[1]) + "0111 " + "001 " + asm_const_signed(tokens[2]) +	"0111 " 						+ "010 " + asm_const_signed(tokens[3]) +	"110101 " + asm_addr_signed("plot", "call")
+                instruction_encoding = 	"0111 " + "000 " + asm_const_signed(tokens[1]) +"\n" + "0111 " + "001 " + asm_const_signed(tokens[2]) +"\n" +	"0111 " 						+ "010 " + asm_const_signed(tokens[3]) +"\n"+	"110101 " + asm_addr_signed("plot", "call")
             if opcode == ".draw" and token_count == 6:
-                instruction_encoding = 	"0111 " + "000 " + asm_const_signed(tokens[1]) + "0111 " + "001 " + asm_const_signed(tokens[2]) +	"0111 " 						+ "010 " + asm_const_signed(tokens[3]) + "0111 " + "011 " + asm_const_signed(tokens[4]) +"0111 " + "100 " + asm_const_signed(tokens[5]) +	"110101 " + asm_addr_signed("draw", "call")
+                instruction_encoding = 	"0111 " + "000 " + asm_const_signed(tokens[1]) +"\n"+ "0111 " + "001 " + asm_const_signed(tokens[2])+"\n" +	"0111 " 						+ "010 " + asm_const_signed(tokens[3]) +"\n"+ "0111 " + "011 " + asm_const_signed(tokens[4])+"\n" +"0111 " + "100 " + asm_const_signed(tokens[5]) +"\n"+	"110101 " + asm_addr_signed("draw", "call")
             if opcode == ".fill" and token_count == 6:
-                instruction_encoding = 	"0111 " + "000 " + asm_const_signed(tokens[1]) + "0111 " + "001 " + asm_const_signed(tokens[2]) +	"0111 " 						+ "010 " + asm_const_signed(tokens[3]) + "0111 " + "011 " + asm_const_signed(tokens[4]) +"0111 " + "100 " + asm_const_signed(tokens[5]) +	"110101 " + asm_addr_signed("fill", "call")
+                instruction_encoding = 	"0111 " + "000 " + asm_const_signed(tokens[1]) +"\n"+ "0111 " + "001 " + asm_const_signed(tokens[2])+"\n" +	"0111 " 						+ "010 " + asm_const_signed(tokens[3])+"\n" + "0111 " + "011 " + asm_const_signed(tokens[4])+"\n" +"0111 " + "100 " + asm_const_signed(tokens[5])+"\n" +	"110101 " + asm_addr_signed("fill", "call")
 #le .chars arrive
+            if opcode == ".char" and token_count == 5:
+#on se met la ou est la premiere lettre et on se deplace vers la gauche de 10 a chaque fois
+                instruction_encoding = "0111 " + "000 " + asm_const_signed(tokens[1])+"\n" + "0111 " + "001 " + asm_const_signed(tokens[2])+"\n" +	"0111 " 						+ "010 " + asm_const_signed(tokens[3])+"\n"
+                for i in range(len(tokens[4])):
+                    instruction_encoding += "0111" +"011" + asm_const_signed(ord(tokens[4][i])) +"\n"
+                    instruction_encoding += "110101 " + asm_addr_signed("putchar", "call") +"\n" + "0111 " + "000 " + asm_const_signed(tokens[1] + i * 10)+"\n"
+                
 
 
                 # If the line wasn't assembled:
