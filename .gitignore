@@ -19,8 +19,9 @@
 #python
 *.pyc
 .idea/*
+.idea
 __pychache__/*
-
+__pychache__/
 
 # Fortran module files
 *.mod
