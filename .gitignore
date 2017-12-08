@@ -16,6 +16,12 @@
 *.dylib
 *.dll
 
+#python
+*.pyc
+.idea/*
+__pychache__/*
+
+
 # Fortran module files
 *.mod
 *.smod
@@ -44,5 +50,7 @@ bin/
 # Binary
 *.mem
 *.obj
+*.log
+log/*
 
  

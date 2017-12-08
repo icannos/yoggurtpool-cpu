@@ -1,12 +1,23 @@
 #include "processor.h"
 
+#include <vector>
+
 using namespace std;
 
 char t[39][10] = {"add2", "add2i", "sub2", "sub2i", "cmp", "cmpi", "let", "leti", "shift", "tsnh", "jump", "jumpif",
                  "readze", "readse",
                  "or2", "or2i", "and2", "and2i", "write", "call", "setctr", "getctr", "push", "return", "add3", "add3i",
                  "sub3", "sub3i",
-                 "and3", "and3i", "or3", "or3i", "xor3", "xor3i", "asr3", "jumpreg", "jumpifreg", "?", "???"};
+                 "and3", "and3i", "or3", "or3i", "xor3", "xor3i", "asr3", "jumpreg", "jumpifreg", "?", "???",
+
+                  "addr_8", "addr_16", "addr_32","addr_64",
+                  "shift_val_1","shift_val_6",
+
+                  "cstalu_1", "cstalu_8", "cstalu_32","cstalu_64"
+                  "size_1", "size_4","size_8","size_16","size_32","size_64"
+
+
+                 };
 
 YogurtPool::YogurtPool(Memory *m) : m(m) {
     pc = 0;
