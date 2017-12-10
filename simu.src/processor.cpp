@@ -93,7 +93,7 @@ YogurtPool::YogurtPool(Memory *m) : m(m) {
 YogurtPool::~YogurtPool() {}
 
 
-void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
+void YogurtPool::von_Neuman_step(bool debug, bool &stop, bool stats) {
     // numbers read from the binary code
     int opcode = 0;
     int regnum1 = 0;
@@ -131,29 +131,38 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
         switch ((sword) pc) {
 
             case -1:
+                if (!stats) {
+                    stop = true;
 
-                stop = true;
+                    pc = r[7];
 
-                pc = r[7];
-
-                cout << "Instruction: " << dec << opcode << " | 0x" << hex << setw(8) << setfill('0') << opcode << endl;
-                cout << "At pc= " << dec << instr_pc << " | 0x" << hex << setw(8) << setfill('0') << instr_pc << endl;
-                cout << "pc after instr = " << dec << pc << " | 0x" << hex << setw(8) << setfill('0') << pc << endl;
-                cout << "flags: zcn = " << (zflag ? 1 : 0) << (cflag ? 1 : 0) << (nflag ? 1 : 0);
-                cout << endl;
-
-                cout << "Registre       Hexa      Dec" << endl;
-                for (int i = 0; i < 8; i++) {
-                    cout << "|";
-                    cout << " r" << dec << i << "= 0x" << hex << setw(8) << setfill('0') << r[i];
-                    cout << "        ";
-                    cout << dec << (sword) r[i]; // Valeur en décimal par que c'est bien aussi !
-                    cout << "|";
+                    cout << "Instruction: " << dec << opcode << " | 0x" << hex << setw(8) << setfill('0') << opcode
+                         << endl;
+                    cout << "At pc= " << dec << instr_pc << " | 0x" << hex << setw(8) << setfill('0') << instr_pc
+                         << endl;
+                    cout << "pc after instr = " << dec << pc << " | 0x" << hex << setw(8) << setfill('0') << pc << endl;
+                    cout << "flags: zcn = " << (zflag ? 1 : 0) << (cflag ? 1 : 0) << (nflag ? 1 : 0);
                     cout << endl;
-                }
-                cout << endl;
-                cout << "===============================" << endl;
 
+                    cout << "Registre       Hexa      Dec" << endl;
+                    for (int i = 0; i < 8; i++) {
+                        cout << "|";
+                        cout << " r" << dec << i << "= 0x" << hex << setw(8) << setfill('0') << r[i];
+                        cout << "        ";
+                        cout << dec << (sword) r[i]; // Valeur en décimal par que c'est bien aussi !
+                        cout << "|";
+                        cout << endl;
+                    }
+                    cout << endl;
+                    cout << "===============================" << endl;
+                }
+                else
+                {
+                    for(map<int, int>::iterator it=instr_stats.begin(); it != instr_stats.end(); ++it)
+                    {
+                        cout<< to_string(it->first) << " " << to_string(it->second);
+                    }
+                }
 
                 break;
 

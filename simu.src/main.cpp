@@ -46,6 +46,7 @@ int main(int argc, char* argv[]) {
 	}
 	bool debug = cmdOptionExists(argv, argv+argc, "-d");
 	bool step_by_step = cmdOptionExists(argv, argv+argc, "-s");
+	bool stats = cmdOptionExists(argv, argv+argc, "-h");
 	bool graphical_output = cmdOptionExists(argv, argv+argc, "-g");
  
 	std::string filename = argv[argc-1];
@@ -72,7 +73,7 @@ int main(int argc, char* argv[]) {
 
 	// The von Neuman cycle
 	while(!stop) {
-        p->von_Neuman_step(debug, stop);
+        p->von_Neuman_step(debug, stop, stats);
 		
 		if(step_by_step)
 			getchar();

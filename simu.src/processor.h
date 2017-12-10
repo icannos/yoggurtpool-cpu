@@ -5,7 +5,7 @@ class YogurtPool {
  public:
 	YogurtPool(Memory* m);
 	~YogurtPool();
-	void von_Neuman_step(bool debug, bool &stop);
+	void von_Neuman_step(bool debug, bool &stop, bool stats);
 
 	int getNb_readbits() const;
 
