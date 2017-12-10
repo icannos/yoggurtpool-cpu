@@ -1,23 +1,80 @@
 #include "processor.h"
 
-#include <vector>
+#include <map>
+#include <string>
 
 using namespace std;
 
-char t[39][10] = {"add2", "add2i", "sub2", "sub2i", "cmp", "cmpi", "let", "leti", "shift", "tsnh", "jump", "jumpif",
-                 "readze", "readse",
-                 "or2", "or2i", "and2", "and2i", "write", "call", "setctr", "getctr", "push", "return", "add3", "add3i",
-                 "sub3", "sub3i",
-                 "and3", "and3i", "or3", "or3i", "xor3", "xor3i", "asr3", "jumpreg", "jumpifreg", "?", "???",
-
-                  "addr_8", "addr_16", "addr_32","addr_64",
-                  "shift_val_1","shift_val_6",
-
-                  "cstalu_1", "cstalu_8", "cstalu_32","cstalu_64"
-                  "size_1", "size_4","size_8","size_16","size_32","size_64"
-
-
-                 };
+map<int, string> opcodes = {{0000,    "add2"},
+                            {0001,    "add2i"},
+                            {0010,    "sub2"},
+                            {0011,    "sub2i"},
+                            {
+                             0100,    "cmp"},
+                            {
+                             0101,    "cmpi"},
+                            {
+                             0110,    "let"},
+                            {
+                             0111,    "leti"},
+                            {
+                             1000,    "shift"},
+                            {
+                             10010,   "readze"},
+                            {
+                             10011,   "readse"},
+                            {
+                             1010,    "jump"},
+                            {
+                             1011,    "jumpif"},
+                            {
+                             110000,  "or2"},
+                            {
+                             110001,  "or2i"},
+                            {
+                             110010,  "and2"},
+                            {
+                             110011,  "and2i"},
+                            {
+                             110100,  "write"},
+                            {
+                             110101,  "call"},
+                            {
+                             110110,  "setctr"},
+                            {
+                             110111,  "getctr"},
+                            {
+                             1110000, "push"},
+                            {
+                             1110001, "return"},
+                            {
+                             1110010, "add3"},
+                            {
+                             1110011, "add3i"},
+                            {
+                             1110100, "sub3"},
+                            {
+                             1110101, "sub3i"},
+                            {
+                             1110110, "and3"},
+                            {
+                             1110111, "and3i"},
+                            {
+                             1111000, "or3"},
+                            {
+                             1111001, "or3i"},
+                            {
+                             1111010, "xor3"},
+                            {
+                             1111011, "xor3i"},
+                            {
+                             1111100, "asr3"},
+                            {
+                             1111101, "(res1)"},
+                            {
+                             1111110, "(res2)"},
+                            {
+                             1111111, "(res3)"}};
 
 YogurtPool::YogurtPool(Memory *m) : m(m) {
     pc = 0;
@@ -48,9 +105,12 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
     uword addr = 0;
 
     int shiftval = 0;
+
     int condcode = 0;
     int counter = 0;
+
     int size = 0;
+
     uword offset;
     uint64_t constop = 0;
     int dir = 0;
@@ -675,6 +735,16 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop) {
         cout << "===============================" << endl;
     }
 
+
+    /* Statistics */
+
+
+    if (instr_stats.count(opcode))
+        instr_stats[opcode] += 1;
+    else
+        instr_stats[opcode] = 1;
+
+
 }
 
 
@@ -723,6 +793,13 @@ void YogurtPool::read_const_from_pc(uint64_t &var) {
         var = (var << 1) + m->read_bit(PC);
         pc++;
     }
+
+
+    if (const_stats.count(header))
+        const_stats[header] += 1;
+    else
+        const_stats[header] = 1;
+
 }
 
 void YogurtPool::read_sconst_from_pc(uint64_t &var) {
@@ -755,6 +832,11 @@ void YogurtPool::read_sconst_from_pc(uint64_t &var) {
             var += sign << i;
     }
 
+    if (const_stats.count(header))
+        const_stats[header] += 1;
+    else
+        const_stats[header] = 1;
+
 }
 
 
@@ -780,6 +862,12 @@ void YogurtPool::read_addr_from_pc(uword &var) {
                 size = 64;
         }
     }
+
+    if (addr_stats.count(header))
+        addr_stats[header] += 1;
+    else
+        addr_stats[header] = 1;
+
     // Now we know the size and we can read all the bits of the constant.
     for (int i = 0; i < size; i++) {
         var = (var << 1) + m->read_bit(PC);
@@ -925,6 +1013,10 @@ void YogurtPool::read_size_from_pc(int &size) {
             break;
     }
 
+    if (size_stats.count(header))
+        size_stats[header] += 1;
+    else
+        size_stats[header] = 1;
 
 }
 
@@ -961,7 +1053,11 @@ void YogurtPool::jump(uword &offset, bool &manage_flags) {
 
     read_addr_from_pc(offset);
 
-    pc += (sword) offset;
+    if ((sword) offset == -13)
+        pc = -1;
+    else
+        pc += (sword) offset;
+
     m->set_counter(PC, (uword) pc);
 
 

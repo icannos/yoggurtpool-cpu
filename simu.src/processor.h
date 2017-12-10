@@ -1,4 +1,5 @@
-#include "memory.h" 
+#include <map>
+#include "memory.h"
 
 class YogurtPool {
  public:
@@ -71,5 +72,11 @@ private:
 	int nb_read_bits_frompc = 0;
 	int bitsToram = 0;
 	int bitsFromRam = 0;
+
+    std::map<int, int> instr_stats;
+
+    std::map<int, int> addr_stats;
+    std::map<int, int> const_stats;
+    std::map<int, int> size_stats;
 
 };
