@@ -5,76 +5,6 @@
 
 using namespace std;
 
-map<int, string> opcodes = {{0000,    "add2"},
-                            {0001,    "add2i"},
-                            {0010,    "sub2"},
-                            {0011,    "sub2i"},
-                            {
-                             0100,    "cmp"},
-                            {
-                             0101,    "cmpi"},
-                            {
-                             0110,    "let"},
-                            {
-                             0111,    "leti"},
-                            {
-                             1000,    "shift"},
-                            {
-                             10010,   "readze"},
-                            {
-                             10011,   "readse"},
-                            {
-                             1010,    "jump"},
-                            {
-                             1011,    "jumpif"},
-                            {
-                             110000,  "or2"},
-                            {
-                             110001,  "or2i"},
-                            {
-                             110010,  "and2"},
-                            {
-                             110011,  "and2i"},
-                            {
-                             110100,  "write"},
-                            {
-                             110101,  "call"},
-                            {
-                             110110,  "setctr"},
-                            {
-                             110111,  "getctr"},
-                            {
-                             1110000, "push"},
-                            {
-                             1110001, "return"},
-                            {
-                             1110010, "add3"},
-                            {
-                             1110011, "add3i"},
-                            {
-                             1110100, "sub3"},
-                            {
-                             1110101, "sub3i"},
-                            {
-                             1110110, "and3"},
-                            {
-                             1110111, "and3i"},
-                            {
-                             1111000, "or3"},
-                            {
-                             1111001, "or3i"},
-                            {
-                             1111010, "xor3"},
-                            {
-                             1111011, "xor3i"},
-                            {
-                             1111100, "asr3"},
-                            {
-                             1111101, "(res1)"},
-                            {
-                             1111110, "(res2)"},
-                            {
-                             1111111, "(res3)"}};
 
 YogurtPool::YogurtPool(Memory *m) : m(m) {
     pc = 0;
@@ -124,6 +54,10 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop, bool stats) {
     int instr_pc = pc; // for the debug output
 
 
+
+
+
+
     if ((sword) pc < 0) {
 
         // Surtout ne pas toucher au pc là dedans ni au r[7] !
@@ -136,32 +70,52 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop, bool stats) {
 
                     pc = r[7];
 
-                    cout << "Instruction: " << dec << opcode << " | 0x" << hex << setw(8) << setfill('0') << opcode
+                    cerr << "Instruction: " << dec << opcode << " | 0x" << hex << setw(8) << setfill('0') << opcode
                          << endl;
-                    cout << "At pc= " << dec << instr_pc << " | 0x" << hex << setw(8) << setfill('0') << instr_pc
+                    cerr << "At pc= " << dec << instr_pc << " | 0x" << hex << setw(8) << setfill('0') << instr_pc
                          << endl;
-                    cout << "pc after instr = " << dec << pc << " | 0x" << hex << setw(8) << setfill('0') << pc << endl;
-                    cout << "flags: zcn = " << (zflag ? 1 : 0) << (cflag ? 1 : 0) << (nflag ? 1 : 0);
-                    cout << endl;
+                    cerr << "pc after instr = " << dec << pc << " | 0x" << hex << setw(8) << setfill('0') << pc << endl;
+                    cerr << "flags: zcn = " << (zflag ? 1 : 0) << (cflag ? 1 : 0) << (nflag ? 1 : 0);
+                    cerr << endl;
 
-                    cout << "Registre       Hexa      Dec" << endl;
+                    cerr << "Registre       Hexa      Dec" << endl;
                     for (int i = 0; i < 8; i++) {
-                        cout << "|";
-                        cout << " r" << dec << i << "= 0x" << hex << setw(8) << setfill('0') << r[i];
-                        cout << "        ";
-                        cout << dec << (sword) r[i]; // Valeur en décimal par que c'est bien aussi !
-                        cout << "|";
-                        cout << endl;
+                        cerr << "|";
+                        cerr << " r" << dec << i << "= 0x" << hex << setw(8) << setfill('0') << r[i];
+                        cerr << "        ";
+                        cerr << dec << (sword) r[i]; // Valeur en décimal par que c'est bien aussi !
+                        cerr << "|";
+                        cerr << endl;
                     }
-                    cout << endl;
-                    cout << "===============================" << endl;
+                    cerr << endl;
+                    cerr << "===============================" << endl;
                 }
                 else
                 {
-                    for(map<int, int>::iterator it=instr_stats.begin(); it != instr_stats.end(); ++it)
-                    {
-                        cout<< to_string(it->first) << " " << to_string(it->second);
+
+                    cout<< "Exchangedbits: " << bitsFromRam + bitsToram << endl;
+                    cout<< "BitsFromPC: " << nb_read_bits_frompc << endl;
+                    cout<< "BitsFromRam: " << bitsFromRam << endl;
+                    cout<< "BitsToRam: " << bitsToram << endl;
+
+
+
+                    cout<< "stats instructions:" << endl;
+                    for (auto &instr_stat : instr_stats) {
+                        cout<< instr_stat.first << " " << instr_stat.second << endl;
                     }
+
+                    cout<< "stats const:" << endl;
+                    for (auto &const_stats : const_stats) {
+                        cout<< const_stats.first << " " << const_stats.second << endl;
+                    }
+
+                    cout<< "stats size:" << endl;
+                    for (auto &size_stats : size_stats) {
+                        cout<< size_stats.first << " " << size_stats.second << endl;
+                    }
+
+                    stop = true;
                 }
 
                 break;
@@ -703,7 +657,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop, bool stats) {
     }
 
     if (debug) {
-        cout << "after instr: " << (int) opcode
+        cerr << "after instr: " << (int) opcode
              << " at pc=" << hex << setw(8) << setfill('0') << instr_pc
              << " (newpc=" << hex << setw(8) << setfill('0') << pc
              << " mpc=" << hex << setw(8) << setfill('0') << m->counter[0]
@@ -711,12 +665,12 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop, bool stats) {
              << " ma0=" << hex << setw(8) << setfill('0') << m->counter[2]
              << " ma1=" << hex << setw(8) << setfill('0') << m->counter[3] << ") ";
         //				 << " newpc=" << hex << setw(9) << setfill('0') << pc;
-        cout << " zcnv = " << (zflag ? 1 : 0) << (cflag ? 1 : 0) << (nflag ? 1 : 0) << (vflag ? 1 : 0);
+        cerr << " zcnv = " << (zflag ? 1 : 0) << (cflag ? 1 : 0) << (nflag ? 1 : 0) << (vflag ? 1 : 0);
         for (int i = 0; i < 8; i++) {
-            cout << " r" << dec << i << "=" << hex << setw(8) << setfill('0') << r[i];
-            cout << " dec-r" << dec << i << "=" << r[i]; // Valeur en décimal par que c'est bien aussi !
+            cerr << " r" << dec << i << "=" << hex << setw(8) << setfill('0') << r[i];
+            cerr << " dec-r" << dec << i << "=" << r[i]; // Valeur en décimal par que c'est bien aussi !
         }
-        cout << endl;
+        cerr << endl;
     }
 
 
@@ -725,23 +679,23 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop, bool stats) {
 
 
     if (debug) {
-        cout << "Instruction: " << dec << opcode << " | 0x" << hex << setw(8) << setfill('0') << opcode << endl;
-        cout << "At pc= " << dec << instr_pc << " | 0x" << hex << setw(8) << setfill('0') << instr_pc << endl;
-        cout << "pc after instr = " << dec << pc << " | 0x" << hex << setw(8) << setfill('0') << pc << endl;
-        cout << "flags: zcn = " << (zflag ? 1 : 0) << (cflag ? 1 : 0) << (nflag ? 1 : 0);
-        cout << endl;
+        cerr << "Instruction: " << dec << opcode << " | 0x" << hex << setw(8) << setfill('0') << opcode << endl;
+        cerr << "At pc= " << dec << instr_pc << " | 0x" << hex << setw(8) << setfill('0') << instr_pc << endl;
+        cerr << "pc after instr = " << dec << pc << " | 0x" << hex << setw(8) << setfill('0') << pc << endl;
+        cerr << "flags: zcn = " << (zflag ? 1 : 0) << (cflag ? 1 : 0) << (nflag ? 1 : 0);
+        cerr << endl;
 
-        cout << "Registre       Hexa      Dec" << endl;
+        cerr << "Registre       Hexa      Dec" << endl;
         for (int i = 0; i < 8; i++) {
-            cout << "|";
-            cout << " r" << dec << i << "= 0x" << hex << setw(8) << setfill('0') << r[i];
-            cout << "        ";
-            cout << dec << (sword) r[i]; // Valeur en décimal par que c'est bien aussi !
-            cout << "|";
-            cout << endl;
+            cerr << "|";
+            cerr << " r" << dec << i << "= 0x" << hex << setw(8) << setfill('0') << r[i];
+            cerr << "        ";
+            cerr << dec << (sword) r[i]; // Valeur en décimal par que c'est bien aussi !
+            cerr << "|";
+            cerr << endl;
         }
-        cout << endl;
-        cout << "===============================" << endl;
+        cerr << endl;
+        cerr << "===============================" << endl;
     }
 
 
