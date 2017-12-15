@@ -73,7 +73,10 @@ private:
 	int bitsToram = 0;
 	int bitsFromRam = 0;
 
-    std::map<int, int> instr_stats;
+
+
+    std::map<std::string, int> instr_stats;
+    std::map<int, std::string> instr;
 
     std::map<int, int> addr_stats;
     std::map<int, int> const_stats;

@@ -15,6 +15,48 @@ YogurtPool::YogurtPool(Memory *m) : m(m) {
     a1 = 0;
     a2 = 0;
 
+    instr[0] = string("add2") ;
+    instr[1] = string("add2i") ;
+    instr[2] = string("sub2") ;
+    instr[3] = string("sub2i") ;
+    instr[4] = string("cmp") ;
+    instr[5] = string("cmpi") ;
+    instr[6] = string("let") ;
+    instr[7] = string("leti") ;
+    instr[8] = string("shift") ;
+    instr[18] = string("readze") ;
+    instr[19] = string("readse") ;
+    instr[10] = string("jump") ;
+    instr[11] = string("jumpif") ;
+    instr[48] = string("or2") ;
+    instr[49] = string("or2i") ;
+    instr[50] = string("and2") ;
+    instr[51] = string("and2i") ;
+    instr[52] = string("write") ;
+    instr[53] = string("call") ;
+    instr[54] = string("setctr") ;
+    instr[55] = string("getctr") ;
+    instr[112] = string("push") ;
+    instr[113] = string("return") ;
+    instr[114] = string("add3") ;
+    instr[115] = string("add3i") ;
+    instr[116] = string("sub3") ;
+    instr[117] = string("sub3i") ;
+    instr[118] = string("and3") ;
+    instr[119] = string("and3i") ;
+    instr[120] = string("or3") ;
+    instr[121] = string("or3i") ;
+    instr[122] = string("xor3") ;
+    instr[123] = string("xor3i") ;
+    instr[124] = string("asr3") ;
+    instr[125] = string("jumpreg") ;
+    instr[126] = string("jumpifreg") ;
+    instr[127] = string("(res3)") ;
+
+
+
+
+
 
     for (int i = 0; i < nb_reg; i++)
         r[i] = 0;
@@ -89,30 +131,27 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop, bool stats) {
                     }
                     cerr << endl;
                     cerr << "===============================" << endl;
-                }
-                else
-                {
+                } else {
 
-                    cout<< "Exchangedbits: " << bitsFromRam + bitsToram << endl;
-                    cout<< "BitsFromPC: " << nb_read_bits_frompc << endl;
-                    cout<< "BitsFromRam: " << bitsFromRam << endl;
-                    cout<< "BitsToRam: " << bitsToram << endl;
+                    cout << "Exchangedbits: " << bitsFromRam + bitsToram << endl;
+                    cout << "BitsFromPC: " << nb_read_bits_frompc << endl;
+                    cout << "BitsFromRam: " << bitsFromRam << endl;
+                    cout << "BitsToRam: " << bitsToram << endl;
 
 
-
-                    cout<< "stats instructions:" << endl;
-                    for (auto &instr_stat : instr_stats) {
-                        cout<< instr_stat.first << " " << instr_stat.second << endl;
+                    cout << "stats instructions:" << endl;
+                    for (auto &instr_stats : instr_stats) {
+                        cout << instr_stats.first << " " << instr_stats.second << endl;
                     }
 
-                    cout<< "stats const:" << endl;
+                    cout << "stats const:" << endl;
                     for (auto &const_stats : const_stats) {
-                        cout<< const_stats.first << " " << const_stats.second << endl;
+                        cout << const_stats.first << " " << const_stats.second << endl;
                     }
 
-                    cout<< "stats size:" << endl;
+                    cout << "stats size:" << endl;
                     for (auto &size_stats : size_stats) {
-                        cout<< size_stats.first << " " << size_stats.second << endl;
+                        cout << size_stats.first << " " << size_stats.second << endl;
                     }
 
                     stop = true;
@@ -702,10 +741,10 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop, bool stats) {
     /* Statistics */
 
 
-    if (instr_stats.count(opcode))
-        instr_stats[opcode] += 1;
+    if (instr_stats.count(instr[opcode]))
+        instr_stats[instr[opcode]] += 1;
     else
-        instr_stats[opcode] = 1;
+        instr_stats[instr[opcode]] = 1;
 
 
 }

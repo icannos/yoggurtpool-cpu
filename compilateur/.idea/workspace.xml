@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="huffman.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="huffman.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../huffman.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+            <state relative-caret-position="408">
+              <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="39" />
               <folding>
                 <element signature="e#55#74#0" expanded="true" />
               </folding>
@@ -50,11 +50,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="opcodes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../utils/opcodes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="grammar.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grammar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2312">
-              <caret line="136" column="17" lean-forward="false" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+            <state relative-caret-position="658">
+              <caret line="104" column="39" lean-forward="false" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -63,8 +73,8 @@
       <file leaf-file-name="parser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2958">
-              <caret line="174" column="33" lean-forward="true" selection-start-line="174" selection-start-column="33" selection-end-line="174" selection-end-column="33" />
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,9 +83,11 @@
       <file leaf-file-name="compiler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compiler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
+              <folding>
+                <element signature="e#23#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,8 +95,8 @@
       <file leaf-file-name="asm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../asm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6273">
-              <caret line="374" column="24" lean-forward="false" selection-start-line="374" selection-start-column="16" selection-end-line="374" selection-end-column="24" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -101,8 +113,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>readze</find>
-      <find>add</find>
       <find>print</find>
       <find>Decla</find>
       <find>deffun</find>
@@ -131,6 +141,8 @@
       <find>asm_pass</find>
       <find>load</find>
       <find>split</find>
+      <find>Exception</find>
+      <find>import</find>
     </findStrings>
     <replaceStrings>
       <replace>memory_addr</replace>
@@ -143,21 +155,23 @@
       <list>
         <option value="$PROJECT_DIR$/compilator.py" />
         <option value="$PROJECT_DIR$/compiler.py" />
-        <option value="$PROJECT_DIR$/grammar.py" />
-        <option value="$PROJECT_DIR$/parser.py" />
         <option value="$PROJECT_DIR$/imgintegrator.py" />
         <option value="$PROJECT_DIR$/../asm.py" />
         <option value="$PROJECT_DIR$/bitmaptoascii.py" />
         <option value="$PROJECT_DIR$/../huffman.py" />
+        <option value="$PROJECT_DIR$/grammar.py" />
+        <option value="$PROJECT_DIR$/parser.py" />
+        <option value="$PROJECT_DIR$/../utils/opcodes.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="4" />
+    <option name="width" value="1272" />
+    <option name="height" value="686" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -170,21 +184,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="compilateur" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compilateur" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -209,7 +209,97 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.huffman">
+  <component name="RunManager" selected="Python.opcodes">
+    <configuration name="bitmaptoascii" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="compilateur" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bitmaptoascii.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="compilator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="compilateur" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compiler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="huffman" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="compilateur" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../huffman.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="imgintegrator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="compilateur" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgintegrator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="opcodes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../utils" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="compilateur" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../utils/opcodes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/sbin/bash" />
@@ -355,105 +445,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration name="bitmaptoascii" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="compilateur" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bitmaptoascii.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="compilator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="compilateur" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compiler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="huffman" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="compilateur" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../huffman.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="imgintegrator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="compilateur" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgintegrator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="compilateur" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parser.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.compilator" />
-      <item index="1" class="java.lang.String" itemvalue="Python.parser" />
-      <item index="2" class="java.lang.String" itemvalue="Python.imgintegrator" />
-      <item index="3" class="java.lang.String" itemvalue="Python.bitmaptoascii" />
-      <item index="4" class="java.lang.String" itemvalue="Python.huffman" />
+      <item index="1" class="java.lang.String" itemvalue="Python.imgintegrator" />
+      <item index="2" class="java.lang.String" itemvalue="Python.bitmaptoascii" />
+      <item index="3" class="java.lang.String" itemvalue="Python.huffman" />
+      <item index="4" class="java.lang.String" itemvalue="Python.opcodes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.huffman" />
-        <item index="1" class="java.lang.String" itemvalue="Python.bitmaptoascii" />
-        <item index="2" class="java.lang.String" itemvalue="Python.imgintegrator" />
-        <item index="3" class="java.lang.String" itemvalue="Python.compilator" />
-        <item index="4" class="java.lang.String" itemvalue="Python.parser" />
+        <item index="0" class="java.lang.String" itemvalue="Python.opcodes" />
+        <item index="1" class="java.lang.String" itemvalue="Python.huffman" />
+        <item index="2" class="java.lang.String" itemvalue="Python.bitmaptoascii" />
+        <item index="3" class="java.lang.String" itemvalue="Python.imgintegrator" />
+        <item index="4" class="java.lang.String" itemvalue="Python.compilator" />
       </list>
     </recent_temporary>
   </component>
@@ -474,20 +479,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="723" extended-state="6" />
+    <frame x="-4" y="0" width="1928" height="1039" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14494875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24271844" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16703297" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38511327" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16648291" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.384785" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16078018" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -495,6 +499,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -525,14 +530,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grammar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2556">
-          <caret line="142" column="42" lean-forward="false" selection-start-line="142" selection-start-column="42" selection-end-line="142" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -553,7 +550,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -621,7 +620,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -663,7 +664,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -705,7 +708,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -747,7 +752,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -781,7 +788,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -815,7 +824,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -849,7 +860,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -883,7 +896,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -910,43 +925,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grammar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
-          <caret line="136" column="17" lean-forward="false" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        <state relative-caret-position="658">
+          <caret line="104" column="39" lean-forward="false" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2958">
-          <caret line="174" column="33" lean-forward="true" selection-start-line="174" selection-start-column="33" selection-end-line="174" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compiler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../asm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6273">
-          <caret line="374" column="24" lean-forward="false" selection-start-line="374" selection-start-column="16" selection-end-line="374" selection-end-column="24" />
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../huffman.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+        <state relative-caret-position="408">
+          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="39" />
           <folding>
             <element signature="e#55#74#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../asm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utils/opcodes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
