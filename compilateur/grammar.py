@@ -102,7 +102,7 @@ test
     |test_gt
     ;
 
-test_eq::Equality = left:expression '=' right:expression;
+test_eq::Equality = left:expression '==' right:expression;
 test_neq::Nequality = left:expression '!=' right:expression;
 test_leq::Loweroreq = left:expression '<=' right:expression;
 test_lt::Lowerthan = left:expression '<' right:expression;

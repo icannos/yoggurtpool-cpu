@@ -20,7 +20,7 @@ class CalcWalker(NodeWalker):
     def walk__identifier(self, node):
         string = ""
         if str(node.varname) not in self.vars_list:
-            raise Exception("Undefinded var")
+            raise Exception("Undefinded var: " + str(node.varname))
         else:
             if hasattr(node, "ptr"):
                 print("ptr")
@@ -317,7 +317,7 @@ class CalcWalker(NodeWalker):
             varorptr = "ptr"
 
         if node.id.varname in self.vars_list:
-            raise Exception("Cannot redeclare a var")
+            raise Exception("Var: " + str(node.id.varname) + "already declared.")
 
         self.vars_list[node.id.varname] = {'len': length, 'type':'signed', 'addr': self.vars_addr, 'varorptr': varorptr,
                                            'len_ptr':len_ptr}
@@ -329,7 +329,7 @@ class CalcWalker(NodeWalker):
     def walk__affectp(self, node):
         print(self.vars_list)
         if node.id.varname not in self.vars_list:
-            raise Exception("Var doesnt exists")
+            raise Exception("Var "+ str(node.id.varname) +  "doesnt exists")
 
         string = ""
         string += str(self.walk(node.expr))
