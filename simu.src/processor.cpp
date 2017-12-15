@@ -1031,7 +1031,7 @@ void YogurtPool::jump(uword &offset, bool &manage_flags) {
 
 void YogurtPool::jumpreg(int &regnum1, bool &manage_flags) {
     read_reg_from_pc(regnum1);
-    pc += (sword) r[regnum1];
+    pc = (sword) r[regnum1];
     m->set_counter(PC, (uword) pc);
     manage_flags = false;
 }
@@ -1041,7 +1041,7 @@ void YogurtPool::jumpifreg(int &regnum1, bool &manage_flags) {
     read_cond_from_pc(cond);
     read_reg_from_pc(regnum1);
     if (cond_true(cond)) {
-        pc += (sword) r[regnum1];
+        pc = (sword) r[regnum1];
         m->set_counter(PC, (uword) pc);
     }
     manage_flags = false;

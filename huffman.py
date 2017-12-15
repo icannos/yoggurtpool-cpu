@@ -25,6 +25,7 @@ def arbre_huffman(occurrences):
 def code_huffman_parcours(arbre, prefixe, code):
     # construit le code en descendant l'arbre
     for noeud in arbre:
+        print(noeud)
         if len(arbre[noeud]) == 1:
             code[prefixe + str(noeud)] = arbre[noeud]
         else:
@@ -52,11 +53,13 @@ if __name__ == "__main__":
 
     occurences = {}
 
-    for l in f.readline():
+    for l in f.readlines():
         tokens = re.findall('[\S]+', l)
-        occurences[tokens[0]] = int(tokens[1])
+        occurences[str(tokens[0])] = int(tokens[1])
 
     f.close()
+    
+    print(occurences)
 
     encodage = code_huffman(arbre_huffman(occurences))
 
