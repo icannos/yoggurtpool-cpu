@@ -8,35 +8,36 @@ import re
 
 
 def arbre_huffman(occurrences):
-    # Construction d'un tas avec les lettres sous forme de feuilles
-    tas = [(occ, lettre) for (lettre, occ) in occurrences.items()]
+    # Construction d'un tas avec les opcodes sous forme de feuilles
+    tas = [(occ, {'opcode' :lettre}) for (lettre, occ) in occurrences.items()]
     heapify(tas)
 
     # Creation de l'arbre
     while len(tas) >= 2:
         occ1, noeud1 = heappop(tas)  # noeud de plus petit poids occ1
         occ2, noeud2 = heappop(tas)  # noeud de deuxieme plus petit poids occ2
-        heappush(tas, (occ1 + occ2, {0: noeud1, 1: noeud2}))
+        heappush(tas, (occ1 + occ2, {'0': noeud1, '1': noeud2}))
         # ajoute au tas le noeud de poids occ1+occ2 et avec les fils noeud1 et noeud2
 
     return heappop(tas)[1]
 
 
-def code_huffman_parcours(arbre, prefixe, code):
-    # construit le code en descendant l'arbre
-    for noeud in arbre:
-        print(noeud)
-        if len(arbre[noeud]) == 1:
-            code[prefixe + str(noeud)] = arbre[noeud]
-        else:
-            code_huffman_parcours(arbre[noeud], prefixe + str(noeud), code)
 
+def code_huffman_parcours (prefixe, noeud,code):
+        if '0' in noeud:
+            code_huffman_parcours(prefixe + "0", noeud['0'],code)
+            code_huffman_parcours(prefixe + "1", noeud['1'],code)
+        else:
+
+            code[noeud['opcode']] = prefixe
 
 def code_huffman(arbre):
     # retourne le codage associe a l'arbre deja construit.
     code = {}
-    code_huffman_parcours(arbre, '', code)
+    code_huffman_parcours('', arbre,code)
     return code
+
+
 
 
 if __name__ == "__main__":
@@ -74,7 +75,7 @@ if __name__ == "__main__":
     else:
         filename = options.output
 
-    f = open(filename, "w")
+    f = open(filename, "w")fhttps://www.msn.com/fr-fr/?ocid=mailsignout
     f.write(dump)
     f.close()
 
