@@ -3,6 +3,7 @@
 
 # tentative de codage de Huffman
 from heapq import *
+import os
 import argparse
 import re
 
@@ -68,14 +69,16 @@ if __name__ == "__main__":
     dump +="| ------ | -------  |\n"
 
     for k in encodage.keys():
-        dump += str(k) + "|" + str(encodage[k]) + "| \n"
+        dump += "|" + str(k) + "|" + str(encodage[k]) + "| \n"
+
+    print(dump)
 
     if options.output == None:
         filename, ext = basefilename, extension = os.path.splitext(options.filename)
     else:
         filename = options.output
 
-    f = open(filename, "w")fhttps://www.msn.com/fr-fr/?ocid=mailsignout
+    f = open(filename, "w")
     f.write(dump)
     f.close()
 
