@@ -19,40 +19,43 @@ labels = {}  # global because shared between the two passe
 def error(e):
     raise BaseException("Error at line " + str(line) + " : " + e)
 
+
 def list_to_str(l):
-	rep = ""
-	for i in l :
-		rep += i + ' '
-	return rep
+    rep = ""
+    for i in l:
+        rep += i + ' '
+    return rep
+
 
 from time import time
 
-def built_includes(s_file, directory) :
-	code = ""
-	a_inclure = []
-	current_address = 0
-	source = open(s_file)
-	for source_line in source:
-		# if there is a comment, get rid of it
-		index = source_line.find(';')
-		print(index)
-		if index != -1:
-			print("hey")
-			source_line = source_line[:index]
-		# split the non-comment part of the line into tokens (thanks Stack Overflow) 
-		tokens = re.findall('[\S]+', source_line)  # \S means: any non-whitespace
-		print(tokens)  # to debug
+
+def built_includes(s_file, directory):
+    code = ""
+    a_inclure = []
+    current_address = 0
+    source = open(s_file)
+    for source_line in source:
+        # if there is a comment, get rid of it
+        index = source_line.find(';')
+        print(index)
+        if index != -1:
+            print("hey")
+            source_line = source_line[:index]
+        # split the non-comment part of the line into tokens (thanks Stack Overflow)
+        tokens = re.findall('[\S]+', source_line)  # \S means: any non-whitespace
+        print(tokens)  # to debug
 
         # if there is a label, consume it
-		if tokens:
-			if tokens[0] == "#include":  # last character
-				a_inclure.append(tokens[1]+'.s')
-			else :
-				for i in tokens :
-					code+= i + ' '
-				code+= '\n'
-	print(a_inclure)
-	return (code, a_inclure)
+        if tokens:
+            if tokens[0] == "#include":  # last character
+                a_inclure.append(tokens[1] + '.s')
+            else:
+                for i in tokens:
+                    code += i + ' '
+                code += '\n'
+    print(a_inclure)
+    return (code, a_inclure)
 
 
 def asm_bitsload(bitfile, directory):
@@ -61,14 +64,15 @@ def asm_bitsload(bitfile, directory):
     f.close()
     return bits
 
-def asm_addr_signed(prefixe,s, c, let=0):
-	if s[0:2] == '0x' or s[0:3] == '+0x' or s[0:3] == '-0x':
-		val = s 
-	elif (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+': 
-		val = s
-	else :
-		val = prefixe + "_" + s
-	return val
+
+def asm_addr_signed(prefixe, s, c, let=0):
+    if s[0:2] == '0x' or s[0:3] == '+0x' or s[0:3] == '-0x':
+        val = s
+    elif (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+':
+        val = s
+    else:
+        val = prefixe + "_" + s
+    return val
 
 
 def prefixage(iteration, s_file, directory, prefixe):
@@ -85,8 +89,8 @@ def prefixage(iteration, s_file, directory, prefixe):
     for source_line in source:
         reecrit = ""
         print("processing " + source_line[0:-1])  # just to get rid of the final newline
-		
-		# if there is a comment, get rid of it
+
+        # if there is a comment, get rid of it
         index = source_line.find(';')
         print(index)
         if index != -1:
@@ -101,7 +105,7 @@ def prefixage(iteration, s_file, directory, prefixe):
         if tokens:
             token = tokens[0]
             if token[-1] == ":":  # last character
-				reecrit = prefixe + "_" + token
+                reecrit = prefixe + "_" + token
 
         # now all that remains should be an instruction... or nothing
         if tokens:
@@ -134,9 +138,9 @@ def prefixage(iteration, s_file, directory, prefixe):
             if opcode == "readse" and token_count == 4:
                 reecrit = list_to_str(tokens)
             if opcode == "jump" and token_count == 2:
-                reecrit = "jump " + asm_addr_signed(prefixe,tokens[1], "jump")
+                reecrit = "jump " + asm_addr_signed(prefixe, tokens[1], "jump")
             if opcode == "jumpif" and token_count == 3:
-                reecrit = "jumpif " + tokens[1]+" " + asm_addr_signed(prefixe,tokens[2], "jump")
+                reecrit = "jumpif " + tokens[1] + " " + asm_addr_signed(prefixe, tokens[2], "jump")
             if opcode == "or2" and token_count == 3:
                 reecrit = list_to_str(tokens)
             if opcode == "or2i" and token_count == 3:
@@ -148,7 +152,7 @@ def prefixage(iteration, s_file, directory, prefixe):
             if opcode == "write" and token_count == 4:
                 reecrit = list_to_str(tokens)
             if opcode == "call" and token_count == 2:
-                reecrit= "call " + asm_addr_signed(prefixe,tokens[1], "call")
+                reecrit = "call " + asm_addr_signed(prefixe, tokens[1], "call")
             if opcode == "setctr" and token_count == 3:
                 reecrit = list_to_str(tokens)
             if opcode == "getctr" and token_count == 3:
@@ -159,11 +163,11 @@ def prefixage(iteration, s_file, directory, prefixe):
                 reecrit = list_to_str(tokens)
             if opcode == "add3" and token_count == 4:
                 reecrit = list_to_str(tokens)
-            if opcode == "add3i" and token_count == 4:  
+            if opcode == "add3i" and token_count == 4:
                 reecrit = list_to_str(tokens)
             if opcode == "sub3" and token_count == 4:
                 reecrit = list_to_str(tokens)
-            if opcode == "sub3i" and token_count == 4: 
+            if opcode == "sub3i" and token_count == 4:
                 reecrit = list_to_str(tokens)
             if opcode == "and3" and token_count == 4:
                 reecrit = list_to_str(tokens)
@@ -177,7 +181,7 @@ def prefixage(iteration, s_file, directory, prefixe):
                 reecrit = list_to_str(tokens)
             if opcode == "xor3i" and token_count == 4:
                 reecrit = list_to_str(tokens)
-            if opcode == "asr3" and token_count == 4: 
+            if opcode == "asr3" and token_count == 4:
                 reecrit = list_to_str(tokens)
             if opcode == "jumpreg" and token_count == 2:
                 reecrit = list_to_str(tokens)
@@ -190,11 +194,11 @@ def prefixage(iteration, s_file, directory, prefixe):
             if opcode == "load" and token_count == 2:
                 reecrit = list_to_str(tokens)
 
-			#le const que nous n'avions pas lu:
+            # le const que nous n'avions pas lu:
             if opcode == ".const" and token_count == 3:
                 reecrit = list_to_str(tokens)
 
-			#du sucre
+            # du sucre
             if opcode == ".plot" and token_count == 4:
                 reecrit = list_to_str(tokens)
             if opcode == ".draw" and token_count == 6:
@@ -202,10 +206,8 @@ def prefixage(iteration, s_file, directory, prefixe):
             if opcode == ".fill" and token_count == 6:
                 reecrit = list_to_str(tokens)
             if opcode == ".char" and token_count == 5:
-#on se met la ou est la premiere lettre et on se deplace vers la gauche de 10 a chaque fois
+                # on se met la ou est la premiere lettre et on se deplace vers la gauche de 10 a chaque fois
                 reecrit = list_to_str(tokens)
-                
-
 
                 # If the line wasn't assembled:
             if reecrit == "":
@@ -214,8 +216,8 @@ def prefixage(iteration, s_file, directory, prefixe):
                 # Debug output
                 print("... @" + str(current_address) + " " + binary_repr(current_address,
                                                                          16) + "  :  ")
-                print("                          " + reecrit )
-                #current_address += instr_size
+                print("                          " + reecrit)
+                # current_address += instr_size
 
         line += 1
         code.append(reecrit)
@@ -226,18 +228,17 @@ def prefixage(iteration, s_file, directory, prefixe):
 # /* main */
 if __name__ == '__main__':
 
-	argparser = argparse.ArgumentParser(description='This is the assembler for the ASR2017 processor @ ENS-Lyon')
-	argparser.add_argument('filename',
+    argparser = argparse.ArgumentParser(description='This is the assembler for the ASR2017 processor @ ENS-Lyon')
+    argparser.add_argument('filename',
                            help='name of the source file.  "python asm.py toto.s" assembles toto.s into toto.obj')
 
-	argparser.add_argument('--output',
+    argparser.add_argument('--output',
                            help='Name and where the output should be put.')
 
-	options = argparser.parse_args()
-	filename = options.filename
-	basefilename, extension = os.path.splitext(filename)
-	SRC, include_liste = built_includes(filename, directory = os.path.dirname(filename))
-	for i in include_liste :
-		SRC+= prefixage(1, i, "/prog", prefixe = str(i))
-	print(SRC)
-
+    options = argparser.parse_args()
+    filename = options.filename
+    basefilename, extension = os.path.splitext(filename)
+    SRC, include_liste = built_includes(filename, directory=os.path.dirname(filename))
+    for i in include_liste:
+        SRC += prefixage(1, i, "/prog", prefixe=str(i))
+    print(SRC)

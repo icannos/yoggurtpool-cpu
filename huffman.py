@@ -69,7 +69,7 @@ if __name__ == "__main__":
     dump +="| ------ | -------  |\n"
 
     for k in encodage.keys():
-        dump += "|" + str(k) + "|" + str(encodage[k]) + "| \n"
+        dump += "| " + str(k) + "|" + str(encodage[k]) + "| \n"
 
     print(dump)
 
