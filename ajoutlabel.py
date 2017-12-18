@@ -11,71 +11,72 @@ import string
 import argparse
 from numpy import binary_repr
 
-line = 0  # global variable to make error reporting easier
-current_addr = 0  # idem
-labels = {}  # global because shared between the two passe
+
+def find_includes(source):
+    '''
+
+    :param source: A list of str (a src file line per line), the routine update it by removing lines with an include command
+    :return: a list of str containing the names of the include1 files
+    '''
+    regexp = re.compile("#include\s+'(.+)'")
+
+    includes = []
+    for i in range(len(source)):
+        include = re.findall(regexp, source_line)[1]
+
+        if include != None:
+            source[i] = ""
+
+            includes.append(include)
+
+    return includes
 
 
-def error(e):
-    raise BaseException("Error at line " + str(line) + " : " + e)
+def open_include(path):
+    '''
 
-
-def list_to_str(l):
-    rep = ""
-    for i in l:
-        rep += i + ' '
-    return rep
-
-
-from time import time
-
-
-def built_includes(s_file, directory):
-    code = ""
-    a_inclure = []
-    current_address = 0
-    source = open(s_file)
-    for source_line in source:
-        # if there is a comment, get rid of it
-        index = source_line.find(';')
-        print(index)
-        if index != -1:
-            print("hey")
-            source_line = source_line[:index]
-        # split the non-comment part of the line into tokens (thanks Stack Overflow)
-        tokens = re.findall('[\S]+', source_line)  # \S means: any non-whitespace
-        print(tokens)  # to debug
-
-        # if there is a label, consume it
-        if tokens:
-            if tokens[0] == "#include":  # last character
-                a_inclure.append(tokens[1] + '.s')
-            else:
-                for i in tokens:
-                    code += i + ' '
-                code += '\n'
-    print(a_inclure)
-    return (code, a_inclure)
-
-
-def asm_bitsload(bitfile, directory):
-    f = open(directory + '/' + bitfile, "r")
-    bits = f.read()
+    :param path: path to the file
+    :return: A list of lines.
+    '''
+    f = open(path, "r")
+    source = f.readlines()
     f.close()
-    return bits
+    return source
 
 
-def asm_addr_signed(prefixe, s, c, let=0):
-    if s[0:2] == '0x' or s[0:3] == '+0x' or s[0:3] == '-0x':
-        val = s
-    elif (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+':
-        val = s
-    else:
-        val = prefixe + "_" + s
-    return val
+def build_includes(source, srcpath):
+    '''
+
+    :param source: List of lines
+    :param srcpath: Where should one look for the include files
+    :return: List of lines including the includes.
+    '''
+
+    includes = find_includes(source)
+
+    include_src = []
+
+    for i in includes:
+        # Open the file of path: srcpath/i
+        # prefix: i = path/filename.s => path.filename
+        include_src.append(prefixage(open_include(srcpath + i), os.path.splitext(i)[0].replace('/', '.')))
+
+    newsource = source.copy()
+
+    for i in include_src:
+        newsource += i
+
+    return newsource
 
 
-def prefixage(iteration, s_file, directory, prefixe):
+def prefixage(source, prefixe):
+    '''
+
+    :param source: List of str (line per line of the source file
+
+    :param prefixe: Prefix to add in the front of the labels
+    :return: List of updated str
+    '''
     global line
     global labels
     global current_address
@@ -83,9 +84,7 @@ def prefixage(iteration, s_file, directory, prefixe):
     global current_address_for_label
 
     code = []  # array of strings, one entry per instruction
-    print("\n PASS " + str(iteration))
-    current_address = 0
-    source = open(s_file)
+
     for source_line in source:
         reecrit = ""
         print("processing " + source_line[0:-1])  # just to get rid of the final newline
@@ -97,9 +96,8 @@ def prefixage(iteration, s_file, directory, prefixe):
             print("hey")
             source_line = source_line[:index]
 
-        # split the non-comment part of the line into tokens (thanks Stack Overflow) 
+        # split the non-comment part of the line into tokens (thanks Stack Overflow)
         tokens = re.findall('[\S]+', source_line)  # \S means: any non-whitespace
-        print(tokens)  # to debug
 
         # if there is a label, consume it
         if tokens:
@@ -209,36 +207,32 @@ def prefixage(iteration, s_file, directory, prefixe):
                 # on se met la ou est la premiere lettre et on se deplace vers la gauche de 10 a chaque fois
                 reecrit = list_to_str(tokens)
 
-                # If the line wasn't assembled:
-            if reecrit == "":
-                error("don't know what to do with: " + source_line)
-            else:
-                # Debug output
-                print("... @" + str(current_address) + " " + binary_repr(current_address,
-                                                                         16) + "  :  ")
-                print("                          " + reecrit)
-                # current_address += instr_size
-
-        line += 1
         code.append(reecrit)
-    source.close()
     return code
 
 
-# /* main */
-if __name__ == '__main__':
+def list_to_str(l):
+    rep = ""
+    for i in l:
+        rep += i + ' '
+    return rep
 
-    argparser = argparse.ArgumentParser(description='This is the assembler for the ASR2017 processor @ ENS-Lyon')
-    argparser.add_argument('filename',
-                           help='name of the source file.  "python asm.py toto.s" assembles toto.s into toto.obj')
 
-    argparser.add_argument('--output',
-                           help='Name and where the output should be put.')
+from time import time
 
-    options = argparser.parse_args()
-    filename = options.filename
-    basefilename, extension = os.path.splitext(filename)
-    SRC, include_liste = built_includes(filename, directory=os.path.dirname(filename))
-    for i in include_liste:
-        SRC += prefixage(1, i, "/prog", prefixe=str(i))
-    print(SRC)
+
+def asm_bitsload(bitfile, directory):
+    f = open(directory + '/' + bitfile, "r")
+    bits = f.read()
+    f.close()
+    return bits
+
+
+def asm_addr_signed(prefixe, s, c, let=0):
+    if s[0:2] == '0x' or s[0:3] == '+0x' or s[0:3] == '-0x':
+        val = s
+    elif (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+':
+        val = s
+    else:
+        val = prefixe + "_" + s
+    return val
