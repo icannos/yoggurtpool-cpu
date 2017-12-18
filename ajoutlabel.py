@@ -27,6 +27,33 @@ def list_to_str(l):
 
 from time import time
 
+def built_includes(s_file, directory) :
+	code = ""
+	a_inclure = []
+	current_address = 0
+	source = open(s_file)
+	for source_line in source:
+		# if there is a comment, get rid of it
+		index = source_line.find(';')
+		print(index)
+		if index != -1:
+			print("hey")
+			source_line = source_line[:index]
+		# split the non-comment part of the line into tokens (thanks Stack Overflow) 
+		tokens = re.findall('[\S]+', source_line)  # \S means: any non-whitespace
+		print(tokens)  # to debug
+
+        # if there is a label, consume it
+		if tokens:
+			if tokens[0] == "#include":  # last character
+				a_inclure.append(tokens[1]+'.s')
+			else :
+				for i in tokens :
+					code+= i + ' '
+				code+= '\n'
+	print(a_inclure)
+	return (code, a_inclure)
+
 
 def asm_bitsload(bitfile, directory):
     f = open(directory + '/' + bitfile, "r")
@@ -44,7 +71,7 @@ def asm_addr_signed(prefixe,s, c, let=0):
 	return val
 
 
-def asm_pass(iteration, s_file, directory, prefixe):
+def prefixage(iteration, s_file, directory, prefixe):
     global line
     global labels
     global current_address
@@ -199,28 +226,18 @@ def asm_pass(iteration, s_file, directory, prefixe):
 # /* main */
 if __name__ == '__main__':
 
-    argparser = argparse.ArgumentParser(description='This is the assembler for the ASR2017 processor @ ENS-Lyon')
-    argparser.add_argument('filename',
+	argparser = argparse.ArgumentParser(description='This is the assembler for the ASR2017 processor @ ENS-Lyon')
+	argparser.add_argument('filename',
                            help='name of the source file.  "python asm.py toto.s" assembles toto.s into toto.obj')
 
-    argparser.add_argument('--output',
+	argparser.add_argument('--output',
                            help='Name and where the output should be put.')
 
-    options = argparser.parse_args()
-    filename = options.filename
-    basefilename, extension = os.path.splitext(filename)
+	options = argparser.parse_args()
+	filename = options.filename
+	basefilename, extension = os.path.splitext(filename)
+	SRC, include_liste = built_includes(filename, directory = os.path.dirname(filename))
+	for i in include_liste :
+		SRC+= prefixage(1, i, "/prog", prefixe = str(i))
+	print(SRC)
 
-    if options.output == None:
-        obj_file = basefilename + "aj"+ ".s"
-    else:
-        obj_file = options.output
-
-    code = asm_pass(1, filename, directory= os.path.dirname(filename), prefixe = str(filename))  # pas besoin de deux passes ici
-
-
-    outfile = open(obj_file, "w")
-    for instr in code:
-        outfile.write(instr)
-        outfile.write("\n")
-
-    outfile.close()
