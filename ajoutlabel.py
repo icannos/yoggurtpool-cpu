@@ -109,7 +109,7 @@ def asm_pass(iteration, s_file, directory, prefixe):
             if opcode == "jump" and token_count == 2:
                 reecrit = "jump " + asm_addr_signed(prefixe,tokens[1], "jump")
             if opcode == "jumpif" and token_count == 3:
-                reecrit = "jumpif" + tokens[1] + asm_addr_signed(prefixe,tokens[2], "jump")
+                reecrit = "jumpif " + tokens[1]+" " + asm_addr_signed(prefixe,tokens[2], "jump")
             if opcode == "or2" and token_count == 3:
                 reecrit = list_to_str(tokens)
             if opcode == "or2i" and token_count == 3:
