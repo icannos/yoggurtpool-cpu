@@ -1,15 +1,11 @@
 #!/usr/bin/env python
 
-# This program assembles source assembly code into a bit string.
-# The bit string includes spaces and newlines for readability,
-# these should be ignored by the simulator when it reads the corresponding file.
 
 import os
 import sys
 import re
 import string
 import argparse
-from numpy import binary_repr
 
 
 def find_includes(source):
@@ -25,9 +21,7 @@ def find_includes(source):
 
         include = re.findall(regexp, source[i])
 
-
         if include != None:
-
             source[i] = ""
 
             includes.append(include[0])
@@ -72,6 +66,9 @@ def build_includes(source, srcpath):
     return newsource
 
 
+global exclusions
+
+
 def prefixage(source, prefixe):
     '''
 
@@ -92,7 +89,6 @@ def prefixage(source, prefixe):
     for source_line in source:
         reecrit = ""
 
-
         # if there is a comment, get rid of it
         index = source_line.find(';')
         if index != -1:
@@ -105,7 +101,10 @@ def prefixage(source, prefixe):
         if tokens:
             token = tokens[0]
             if token[-1] == ":":  # last character
-                reecrit = prefixe + "_" + token
+                if token[:-1] in exclusions:
+                    reecrit = token
+                else:
+                    reecrit = prefixe + "." + token
 
         # now all that remains should be an instruction... or nothing
         if tokens:
@@ -220,29 +219,58 @@ def list_to_str(l):
     return rep
 
 
-from time import time
-
-
-def asm_bitsload(bitfile, directory):
-    f = open(directory + '/' + bitfile, "r")
-    bits = f.read()
-    f.close()
-    return bits
-
-
 def asm_addr_signed(prefixe, s, c, let=0):
     if s[0:2] == '0x' or s[0:3] == '+0x' or s[0:3] == '-0x':
         val = s
     elif (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+':
         val = s
     else:
-        val = prefixe + "_" + s
+        if s in exclusions:
+            val = s
+        else:
+            val = prefixe + "." + s
+
     return val
 
 
+if __name__ == '__main__':
 
-src = ["#include <plot.s>"]
+    argparser = argparse.ArgumentParser(description='Include managers')
+
+    argparser.add_argument('filename',
+                           help='src file that needs to be prefixed', nargs='+')
+
+    argparser.add_argument('--prefix', action='store_false')
+
+    argparser.add_argument('--exclusions',  nargs='+')
+
+    argparser.add_argument('--output',
+                           help='Name and where the output should be put.')
+
+    options = argparser.parse_args()
 
 
-print(list_to_str(build_includes(src, "prog/")))
+    if (options.prefix != None):
+        for filename in options.filename:
+            basefilename, extension = os.path.splitext(filename)
 
+            if options.output == None:
+                processed_file = "p_" + basefilename + ".sp"
+            else:
+                processed_file = options.output
+
+
+            f = open(filename, 'r')
+            src = f.readlines()
+            f.close()
+
+            exclusions = []
+
+            if options.exclusions != None:
+                exclusions = list(options.exclusions)
+
+
+            for l in prefixage(src, basefilename):
+                print(l)
+
+    print(exclusions)

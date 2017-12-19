@@ -5,10 +5,11 @@
 # these should be ignored by the simulator when it reads the corresponding file.
 
 import os
-import sys
 import re
-import string
 import argparse
+
+import includes_asm as includes
+
 from numpy import binary_repr
 
 line = 0  # global variable to make error reporting easier
@@ -52,7 +53,6 @@ def asm_addr_signed(s, c, let=0):
     # Is it a label or a constant?
     # pour l'hexa
 
-
     try:
         if s[0:2] == '0x' or s[0:3] == '+0x' or s[0:3] == '-0x':
             val = int(s, 16)  # la fonction int est gentille
@@ -62,7 +62,7 @@ def asm_addr_signed(s, c, let=0):
         elif c == "jump":
             if s in labels:  # le label est deja entre dans la liste de labels, on est au deuxieme passage
                 d = int(labels[s] - (
-                    current_address_for_label + 2 + 16))  # Ajout des bits de l'instruction en cours qui ne sont pas encore comptes dans current_address !
+                        current_address_for_label + 2 + 16))  # Ajout des bits de l'instruction en cours qui ne sont pas encore comptes dans current_address !
                 if let == 0:
                     return "10 " + binary_repr(d, 16)  # on encode la bonne taille
                 else:
@@ -214,6 +214,9 @@ def asm_pass(iteration, s_file, directory):
     print("\n PASS " + str(iteration))
     current_address = 0
     source = open(s_file)
+
+    source = includes.build_includes(source, directory)
+
     for source_line in source:
         instruction_encoding = ""
         print("processing " + source_line[0:-1])  # just to get rid of the final newline
@@ -295,12 +298,12 @@ def asm_pass(iteration, s_file, directory):
                 instruction_encoding = "1110001 "
             if opcode == "add3" and token_count == 4:
                 instruction_encoding = "1110010 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
-            if opcode == "add3i" and token_count == 4:  
+            if opcode == "add3i" and token_count == 4:
                 instruction_encoding = "1110011 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_unsigned(
                     tokens[3])
             if opcode == "sub3" and token_count == 4:
                 instruction_encoding = "1110100 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_reg(tokens[3])
-            if opcode == "sub3i" and token_count == 4: 
+            if opcode == "sub3i" and token_count == 4:
                 instruction_encoding = "1110101 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_unsigned(
                     tokens[3])
             if opcode == "and3" and token_count == 4:
@@ -318,7 +321,7 @@ def asm_pass(iteration, s_file, directory):
             if opcode == "xor3i" and token_count == 4:
                 instruction_encoding = "1111011 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_const_signed(
                     tokens[3])
-            if opcode == "asr3" and token_count == 4: 
+            if opcode == "asr3" and token_count == 4:
                 instruction_encoding = "1111100 " + asm_reg(tokens[1]) + asm_reg(tokens[2]) + asm_shiftval(tokens[3])
             if opcode == "jumpreg" and token_count == 2:
                 instruction_encoding = "1111101 " + asm_reg(tokens[1])
@@ -331,26 +334,41 @@ def asm_pass(iteration, s_file, directory):
             if opcode == "load" and token_count == 2:
                 instruction_encoding = asm_bitsload(tokens[1], directory)
 
-			#le const que nous n'avions pas lu:
+            # le const que nous n'avions pas lu:
             if opcode == ".const" and token_count == 3:
-                instruction_encoding = tokens[2] #Je ne sais pas a quoi ca correspond
+                instruction_encoding = tokens[2]  # Je ne sais pas a quoi ca correspond
 
-			#du sucre
+            # du sucre
             if opcode == ".plot" and token_count == 4:
-                instruction_encoding = 	"0111 " + "000 " + asm_const_signed(tokens[1]) +"\n" + "0111 " + "001 " + asm_const_signed(tokens[2]) +"\n" +	"0111 " 						+ "010 " + asm_const_signed(tokens[3]) +"\n"+	"110101 " + asm_addr_signed("plot", "call")
+                instruction_encoding = "0111 " + "000 " + asm_const_signed(
+                    tokens[1]) + "\n" + "0111 " + "001 " + asm_const_signed(
+                    tokens[2]) + "\n" + "0111 " + "010 " + asm_const_signed(
+                    tokens[3]) + "\n" + "110101 " + asm_addr_signed("plot", "call")
             if opcode == ".draw" and token_count == 6:
-                instruction_encoding = 	"0111 " + "000 " + asm_const_signed(tokens[1]) +"\n"+ "0111 " + "001 " + asm_const_signed(tokens[2])+"\n" +	"0111 " 						+ "010 " + asm_const_signed(tokens[3]) +"\n"+ "0111 " + "011 " + asm_const_signed(tokens[4])+"\n" +"0111 " + "100 " + asm_const_signed(tokens[5]) +"\n"+	"110101 " + asm_addr_signed("draw", "call")
+                instruction_encoding = "0111 " + "000 " + asm_const_signed(
+                    tokens[1]) + "\n" + "0111 " + "001 " + asm_const_signed(
+                    tokens[2]) + "\n" + "0111 " + "010 " + asm_const_signed(
+                    tokens[3]) + "\n" + "0111 " + "011 " + asm_const_signed(
+                    tokens[4]) + "\n" + "0111 " + "100 " + asm_const_signed(
+                    tokens[5]) + "\n" + "110101 " + asm_addr_signed("draw", "call")
             if opcode == ".fill" and token_count == 6:
-                instruction_encoding = 	"0111 " + "000 " + asm_const_signed(tokens[1]) +"\n"+ "0111 " + "001 " + asm_const_signed(tokens[2])+"\n" +	"0111 " 						+ "010 " + asm_const_signed(tokens[3])+"\n" + "0111 " + "011 " + asm_const_signed(tokens[4])+"\n" +"0111 " + "100 " + asm_const_signed(tokens[5])+"\n" +	"110101 " + asm_addr_signed("fill", "call")
-#le .chars arrive
+                instruction_encoding = "0111 " + "000 " + asm_const_signed(
+                    tokens[1]) + "\n" + "0111 " + "001 " + asm_const_signed(
+                    tokens[2]) + "\n" + "0111 " + "010 " + asm_const_signed(
+                    tokens[3]) + "\n" + "0111 " + "011 " + asm_const_signed(
+                    tokens[4]) + "\n" + "0111 " + "100 " + asm_const_signed(
+                    tokens[5]) + "\n" + "110101 " + asm_addr_signed("fill", "call")
+            # le .chars arrive
             if opcode == ".char" and token_count == 5:
-#on se met la ou est la premiere lettre et on se deplace vers la gauche de 10 a chaque fois
-                instruction_encoding = "0111 " + "000 " + asm_const_signed(tokens[1])+"\n" + "0111 " + "001 " + asm_const_signed(tokens[2])+"\n" +	"0111 " 						+ "010 " + asm_const_signed(tokens[3])+"\n"
+                # on se met la ou est la premiere lettre et on se deplace vers la gauche de 10 a chaque fois
+                instruction_encoding = "0111 " + "000 " + asm_const_signed(
+                    tokens[1]) + "\n" + "0111 " + "001 " + asm_const_signed(
+                    tokens[2]) + "\n" + "0111 " + "010 " + asm_const_signed(tokens[3]) + "\n"
                 for i in range(len(tokens[4])):
-                    instruction_encoding += "0111" +"011" + asm_const_signed(ord(tokens[4][i])) +"\n"
-                    instruction_encoding += "110101 " + asm_addr_signed("putchar", "call") +"\n" + "0111 " + "000 " + asm_const_signed(tokens[1] + i * 10)+"\n"
-                
-
+                    instruction_encoding += "0111" + "011" + asm_const_signed(ord(tokens[4][i])) + "\n"
+                    instruction_encoding += "110101 " + asm_addr_signed("putchar",
+                                                                        "call") + "\n" + "0111 " + "000 " + asm_const_signed(
+                        tokens[1] + i * 10) + "\n"
 
                 # If the line wasn't assembled:
             if instruction_encoding == "":
@@ -390,7 +408,7 @@ if __name__ == '__main__':
     else:
         obj_file = options.output
 
-    code = asm_pass(1, filename, directory= os.path.dirname(filename))  # first pass essentially builds the labels
+    code = asm_pass(1, filename, directory=os.path.dirname(filename))  # first pass essentially builds the labels
 
     code = asm_pass(2, filename, directory=os.path.dirname(filename))  # second pass is for good, but is disabled now
 

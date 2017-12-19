@@ -151,7 +151,7 @@ declaration::Declarationp = t:type id:identifier;
 
 
 deffun::Deffunp = 'def' funname:identifier '()' '{' prog:programme '}';
-callfun::Callfunp = 'call' id:identifier '()';
+callfun::Callfunp = '$' id:identifier '()';
 
 type = len:'int8*' | len:'int16*' | len:'int32*' | len:'int64*' | len:'int8' | len:'int16' | len:'int32' | len:'int64' ;
 

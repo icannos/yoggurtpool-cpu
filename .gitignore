@@ -45,7 +45,8 @@ __pychache__/
 #build directory
 build/*
 cmake-build-debug/*
-*.idea/*
+.idea/*
+compiler/.idea/*
 bin/
 
 # Binary

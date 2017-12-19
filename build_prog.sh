@@ -12,7 +12,7 @@ mkdir "log"
 fi
 
 echo "Compiling Font..."
-python compilateur/bitmaptoascii.py compilateur/font.bmp --output prog/font.mem
+python compiler/bitmaptoascii.py compiler/font.bmp --output prog/font.mem
 echo "Font built"
 
 echo "Assembly..."
