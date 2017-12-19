@@ -18,16 +18,19 @@ def find_includes(source):
     :param source: A list of str (a src file line per line), the routine update it by removing lines with an include command
     :return: a list of str containing the names of the include1 files
     '''
-    regexp = re.compile("#include\s+'(.+)'")
+    regexp = re.compile("#include\s+<(.+)>")
 
     includes = []
     for i in range(len(source)):
-        include = re.findall(regexp, source_line)[1]
+
+        include = re.findall(regexp, source[i])
+
 
         if include != None:
+
             source[i] = ""
 
-            includes.append(include)
+            includes.append(include[0])
 
     return includes
 
@@ -77,6 +80,7 @@ def prefixage(source, prefixe):
     :param prefixe: Prefix to add in the front of the labels
     :return: List of updated str
     '''
+
     global line
     global labels
     global current_address
@@ -87,13 +91,11 @@ def prefixage(source, prefixe):
 
     for source_line in source:
         reecrit = ""
-        print("processing " + source_line[0:-1])  # just to get rid of the final newline
+
 
         # if there is a comment, get rid of it
         index = source_line.find(';')
-        print(index)
         if index != -1:
-            print("hey")
             source_line = source_line[:index]
 
         # split the non-comment part of the line into tokens (thanks Stack Overflow)
@@ -236,3 +238,11 @@ def asm_addr_signed(prefixe, s, c, let=0):
     else:
         val = prefixe + "_" + s
     return val
+
+
+
+src = ["#include <plot.s>"]
+
+
+print(list_to_str(build_includes(src, "prog/")))
+

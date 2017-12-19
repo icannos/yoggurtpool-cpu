@@ -41,7 +41,7 @@
       <file leaf-file-name="huffman.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../huffman.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
+            <state relative-caret-position="1105">
               <caret line="68" column="36" lean-forward="false" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
               <folding>
                 <element signature="e#55#74#0" expanded="true" />
@@ -53,8 +53,8 @@
       <file leaf-file-name="ajoutlabel.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../ajoutlabel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="5">
+              <caret line="225" column="37" lean-forward="true" selection-start-line="225" selection-start-column="37" selection-end-line="225" selection-end-column="37" />
               <folding>
                 <element signature="e#233#242#0" expanded="true" />
               </folding>
@@ -75,7 +75,7 @@
       <file leaf-file-name="grammar.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grammar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
+            <state relative-caret-position="1768">
               <caret line="104" column="39" lean-forward="false" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
               <folding />
             </state>
@@ -107,9 +107,11 @@
       <file leaf-file-name="asm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../asm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="3587">
+              <caret line="216" column="30" lean-forward="false" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
+              <folding>
+                <element signature="e#233#242#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,7 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>print</find>
       <find>Decla</find>
       <find>deffun</find>
       <find>returnp</find>
@@ -155,6 +156,7 @@
       <find>split</find>
       <find>Exception</find>
       <find>import</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace>memory_addr</replace>
@@ -199,9 +201,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="compilateur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="compilateur" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,7 +239,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.expo">
+  <component name="RunManager" selected="Python.ajoutlabel">
+    <configuration name="ajoutlabel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="compilateur" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ajoutlabel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="bitmaptoascii" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,24 +307,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="compilateur" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../huffman.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="imgintegrator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="compilateur" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imgintegrator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -464,19 +476,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.imgintegrator" />
-      <item index="1" class="java.lang.String" itemvalue="Python.bitmaptoascii" />
-      <item index="2" class="java.lang.String" itemvalue="Python.huffman" />
-      <item index="3" class="java.lang.String" itemvalue="Python.opcodes" />
-      <item index="4" class="java.lang.String" itemvalue="Python.expo" />
+      <item index="0" class="java.lang.String" itemvalue="Python.bitmaptoascii" />
+      <item index="1" class="java.lang.String" itemvalue="Python.huffman" />
+      <item index="2" class="java.lang.String" itemvalue="Python.opcodes" />
+      <item index="3" class="java.lang.String" itemvalue="Python.expo" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ajoutlabel" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.expo" />
-        <item index="1" class="java.lang.String" itemvalue="Python.opcodes" />
-        <item index="2" class="java.lang.String" itemvalue="Python.huffman" />
-        <item index="3" class="java.lang.String" itemvalue="Python.bitmaptoascii" />
-        <item index="4" class="java.lang.String" itemvalue="Python.imgintegrator" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ajoutlabel" />
+        <item index="1" class="java.lang.String" itemvalue="Python.expo" />
+        <item index="2" class="java.lang.String" itemvalue="Python.opcodes" />
+        <item index="3" class="java.lang.String" itemvalue="Python.huffman" />
+        <item index="4" class="java.lang.String" itemvalue="Python.bitmaptoascii" />
       </list>
     </recent_temporary>
   </component>
@@ -497,16 +509,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1928" height="1039" extended-state="6" />
-    <editor active="true" />
+    <frame x="4" y="0" width="1920" height="1035" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1444386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24271844" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1940463" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.088202864" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1940463" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.415656" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16078018" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -516,6 +526,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -614,7 +625,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4158">
           <caret line="236" column="55" lean-forward="false" selection-start-line="236" selection-start-column="55" selection-end-line="236" selection-end-column="55" />
-          <folding />
+          <folding>
+            <element signature="e#233#242#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -658,7 +671,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4158">
           <caret line="236" column="55" lean-forward="false" selection-start-line="236" selection-start-column="55" selection-end-line="236" selection-end-column="55" />
-          <folding />
+          <folding>
+            <element signature="e#233#242#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -702,7 +717,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#233#242#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -746,7 +763,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#233#242#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -917,7 +936,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grammar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
+        <state relative-caret-position="1768">
           <caret line="104" column="39" lean-forward="false" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
           <folding />
         </state>
@@ -927,14 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../asm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -971,13 +982,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../huffman.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
+        <state relative-caret-position="1105">
           <caret line="68" column="36" lean-forward="false" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
           <folding>
             <element signature="e#55#74#0" expanded="true" />
@@ -985,10 +995,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../asm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3587">
+          <caret line="216" column="30" lean-forward="false" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
+          <folding>
+            <element signature="e#233#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../ajoutlabel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="5">
+          <caret line="225" column="37" lean-forward="true" selection-start-line="225" selection-start-column="37" selection-end-line="225" selection-end-column="37" />
           <folding>
             <element signature="e#233#242#0" expanded="true" />
           </folding>
