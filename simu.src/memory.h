@@ -12,6 +12,11 @@
 
 #include "types.h"
 
+const uint64_t MEM_SCREEN_BEGIN = 1073350080;
+
+const uint64_t KEYBOARD_BEGIN = 0x3FFA04A4;
+const uint64_t CLOCK_BEGIN = 0x3FFA0464;
+
 const uint64_t MEMSIZE=1<<30; // please keep this a multiple of 64
 const int PC=0;
 const int SP=1;

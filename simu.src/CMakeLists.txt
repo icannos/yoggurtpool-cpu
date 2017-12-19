@@ -13,9 +13,9 @@ set(SOURCE_FILES
     processor.cpp
     memory.cpp
     screen.cpp
-    
-    
-    )
+
+
+        beeper.cpp beeper.h audio.cpp audio.h)
 
 add_executable(simu.exe ${SOURCE_FILES})
 
