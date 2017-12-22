@@ -16,9 +16,12 @@ lockaudio:
   push 64 r1
 
   leti r0 AUDIO_CTRL
-  leti r1 0
   setctr a0 r0
-  write a0 2 r1
+
+  leti r1 0
+  write a0 1 r1
+  leti r1 0
+  write a0 1 r1
 
   pop 64 r1
   pop 64 r0
@@ -30,9 +33,12 @@ unlockaudio:
   push 64 r1
 
   leti r0 AUDIO_CTRL
-  leti r1 1
   setctr a0 r0
-  write a0 2 r1
+
+  leti r1 0
+  write a0 1 r1
+  leti r1 1
+  write a0 1 r1
 
   pop 64 r1
   pop 64 r0
@@ -43,9 +49,13 @@ unlockaudioloop:
   push 64 r1
 
   leti r0 AUDIO_CTRL
-  leti r1 2
   setctr a0 r0
-  write a0 2 r1
+
+  leti r1 1
+  write a0 1 r1
+  leti r1 0
+  write a0 1 r1
+
 
   pop 64 r1
   pop 64 r0

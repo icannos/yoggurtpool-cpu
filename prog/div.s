@@ -25,10 +25,8 @@ cond2:
 end:
     shift right r2 1
     let r3 r0
-    
+
     pop 64 r1
     pop 64 r0
     return
 skipdiv:
-
-

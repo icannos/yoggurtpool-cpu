@@ -117,7 +117,7 @@ def asm_const_unsigned(s):
         elif (s[0] >= '0' and s[0] <= '9'):  # Il fallait un elif ici !
             val = int(s)
         elif s in defines :
-            return defines[s]
+            val = int(defines[s])
     except (ValueError, IndexError):
         error("invalid const: " + s)
         # The follwing is not very elegant but easy to trust
@@ -135,18 +135,22 @@ def asm_const_unsigned(s):
 
 def asm_const_signed(s):
     # converts the string s into its encoding
-
+    print(defines)
     try:
         if s[0:2] == '0x' or s[0:3] == '+0x' or s[0:3] == '-0x':
             val = int(s, 16)  # la fonction int est gentille
         elif (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+':  # Il fallait un elif ici aussi !
             val = int(s)
         elif s in defines :
-            return defines[s]
+            if defines[s][0:2] == '0x' or defines[s][0:3] == '+0x' or defines[s][0:3] == '-0x':
+                val = int(defines[s], 16)  # la fonction int edefines[s]t gentille
+            elif (defines[s][0] >= '0' and defines[s][0] <= '9') or defines[s][0] == '-' or defines[s][0] == '+':  # Il fallait un elif ici audefines[s]defines[s]i !
+                val = int(defines[s])
+
     except (ValueError, IndexError):
         error("invalid const: " + s)
 
-    print(s)
+
     if val == 0 or val == 1:
         return '0 ' + str(val)
     elif val >= -128 and val <= 127:
@@ -190,7 +194,7 @@ def asm_counter(ctr):
         val = codelist[ctr]
         return val + " "
     else:
-        error("Invalid counter: " + cond)
+        error("Invalid counter: " + ctr)
 
 
 def asm_dir(dirc):
@@ -209,7 +213,7 @@ def asm_size(s):
         val = codelist[s]
         return val + " "
     else:
-        error("Invalid size: " + size)
+        error("Invalid size: " + s)
 
 
 def asm_pass(iteration, s_file, directory):
