@@ -5,9 +5,9 @@
 call lockaudio
 leti r0 197
 call beep
-call unlockloop
+call unlockaudio
+leti r0 542
 jump -13
-
 
 
 lockaudio:

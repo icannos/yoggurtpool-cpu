@@ -19,11 +19,11 @@ void simulate_screen(Memory *m, bool *refresh) {
     while (!escape) {
 
         //Update Clock
-        uint64_t time = (uint64_t) (clock() * 100 / CLOCKS_PER_SEC);
+        uint64_t time = (uint64_t) (clock() / CLOCKS_PER_SEC);
 
-        for (int i = 0; i < 64; i++) {
-            m->m[(CLOCK_BEGIN + i) >> 6] = (m->m[(CLOCK_BEGIN + i) >> 6] & ~(1 << (63 - i))) + (time & (1 << (63 - i)));
-        }
+
+        m->m[CLOCK_BEGIN  >> 6] = time;
+
 
 
         /*deal with events*/

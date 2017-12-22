@@ -23,7 +23,7 @@ Tout ce qui est présenté dans la doc n'est pas encore nécessairement impléme
                  #                                   #
                  #               Audio               #
                  #                                   #
-0x3FFA0464 -->   #===================================#
+1073349696 -->   #===================================#
                  #            Horloge (64 bits)      #
 0x3FFA04A4 -->   #===================================#
                  #       284 bits pour le clavier    #

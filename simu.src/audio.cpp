@@ -38,6 +38,7 @@ void simulate_audio(Memory *m) {
                 if ((m->m[((MEM_AUDIO_BEGIN-1) >> 6)] & 3) != 0) {
                     uint16_t tempo = 1000;
 
+                    std::cout << "Hey" << std::endl;
 
                     uint64_t mword = m->m[((MEM_AUDIO_BEGIN) >> 6) + 1 + (i >> 2)];
                     auto beep = (uint16_t) ((mword >> ((63 - 16) - (i & 3) << 4)) & 0xffff);
