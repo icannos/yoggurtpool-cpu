@@ -384,10 +384,10 @@ def asm_pass(iteration, s_file, directory):
                     tokens[1]) + "\n" + "0111 " + "001 " + asm_const_signed(
                     tokens[2]) + "\n" + "0111 " + "010 " + asm_const_signed(tokens[3]) + "\n"
                 for i in range(len(tokens[4])):
-                    instruction_encoding += "0111" + "011" + asm_const_signed(str(ord(tokens[4][i]))) + "\n"
+                    instruction_encoding += "0111" + " " + "011" + " " + asm_const_signed(str(ord(tokens[4][i]))) + "\n"
                     instruction_encoding += "110101 " + asm_addr_signed("putchar.putchar",
-                                                                        "call") + "\n" + "0111 " + "000 " + asm_const_signed(
-                        str(int(tokens[1]) + i * 10)) + "\n"
+                                                                        "call") + "\n" + "0111 " + " "+ "001 " + " " + asm_const_signed(
+                        str(int(tokens[1]) + (i+1) * 7)) + "\n"
 
                 # If the line wasn't assembled:
             if instruction_encoding == "":
