@@ -30,8 +30,11 @@ def error(e):
 from time import time
 
 
-def asm_bitsload(bitfile, directory):
-    f = open(directory + '/' + bitfile, "r")
+def asm_bitsload(bitfile, directory=""):
+    if directory != "":
+        f = open(directory + '/' + bitfile, "r")
+    else:
+        f = open(bitfile, "r")
     bits = f.read()
     f.close()
     return bits
@@ -132,6 +135,7 @@ def asm_const_unsigned(s):
 
 def asm_const_signed(s):
     # converts the string s into its encoding
+
     try:
         if s[0:2] == '0x' or s[0:3] == '+0x' or s[0:3] == '-0x':
             val = int(s, 16)  # la fonction int est gentille
@@ -141,6 +145,8 @@ def asm_const_signed(s):
             return defines[s]
     except (ValueError, IndexError):
         error("invalid const: " + s)
+
+    print(s)
     if val == 0 or val == 1:
         return '0 ' + str(val)
     elif val >= -128 and val <= 127:
@@ -216,9 +222,13 @@ def asm_pass(iteration, s_file, directory):
     code = []  # array of strings, one entry per instruction
     print("\n PASS " + str(iteration))
     current_address = 0
-    source = open(s_file)
+    f = open(s_file)
+    source = f.readlines()
+    f.close()
 
     source = includes.build_includes(source, directory)
+
+    print(source)
 
     for source_line in source:
         instruction_encoding = ""
@@ -236,6 +246,7 @@ def asm_pass(iteration, s_file, directory):
         print(tokens)  # to debug
 
         # if there is a label, consume it
+
         if tokens:
             token = tokens[0]
             if token[-1] == ":":  # last character
@@ -243,8 +254,9 @@ def asm_pass(iteration, s_file, directory):
                 labels[label] = current_address
                 tokens = tokens[1:]
             if token[0] == "#" :
-                variable = token[1:] #recupere le nom du define
-                defines[variable] = tokens[1] # range sa valeur (pas de = )
+                variable = tokens[1] #recupere le nom du define
+                defines[variable] = tokens[2] # range sa valeur (pas de = )
+                tokens = []
 
 
         # now all that remains should be an instruction... or nothing
@@ -372,10 +384,10 @@ def asm_pass(iteration, s_file, directory):
                     tokens[1]) + "\n" + "0111 " + "001 " + asm_const_signed(
                     tokens[2]) + "\n" + "0111 " + "010 " + asm_const_signed(tokens[3]) + "\n"
                 for i in range(len(tokens[4])):
-                    instruction_encoding += "0111" + "011" + asm_const_signed(ord(tokens[4][i])) + "\n"
-                    instruction_encoding += "110101 " + asm_addr_signed("putchar",
+                    instruction_encoding += "0111" + "011" + asm_const_signed(str(ord(tokens[4][i]))) + "\n"
+                    instruction_encoding += "110101 " + asm_addr_signed("putchar.putchar",
                                                                         "call") + "\n" + "0111 " + "000 " + asm_const_signed(
-                        tokens[1] + i * 10) + "\n"
+                        str(int(tokens[1]) + i * 10)) + "\n"
 
                 # If the line wasn't assembled:
             if instruction_encoding == "":
@@ -392,7 +404,6 @@ def asm_pass(iteration, s_file, directory):
 
         line += 1
         code.append(instruction_encoding)
-    source.close()
     return code
 
 

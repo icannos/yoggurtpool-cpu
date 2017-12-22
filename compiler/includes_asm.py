@@ -7,6 +7,9 @@ import re
 import string
 import argparse
 
+global exclusions
+exclusions = []
+
 
 def find_includes(source):
     '''
@@ -21,7 +24,7 @@ def find_includes(source):
 
         include = re.findall(regexp, source[i])
 
-        if include != None:
+        if include != None and include != []:
             source[i] = ""
 
             includes.append(include[0])
@@ -64,9 +67,6 @@ def build_includes(source, srcpath):
         newsource += i
 
     return newsource
-
-
-global exclusions
 
 
 def prefixage(source, prefixe):
@@ -129,7 +129,7 @@ def prefixage(source, prefixe):
             if opcode == "letiaj" and token_count == 3:
                 reecrit = list_to_str(tokens)
             if opcode == "letiac" and token_count == 3:
-                reecrit = list_to_str(tokens)
+                reecrit = "letiac " + tokens[1] + " " + asm_addr_signed(prefixe, tokens[2], "call")
             if opcode == "shift" and token_count == 4:
                 reecrit = list_to_str(tokens)
             if opcode == "readze" and token_count == 4:
@@ -264,7 +264,7 @@ if __name__ == '__main__':
             src = f.readlines()
             f.close()
 
-            exclusions = []
+
 
             if options.exclusions != None:
                 exclusions = list(options.exclusions)
