@@ -1,0 +1,17 @@
+#include <putchar.s>
+leti r0 31 ;la couleur
+leti r1 50 ; l'abscisse
+leti r2 70 ; l'ordonnee
+
+cmpi r4 0 ; le nombre a afficher
+jumpif z caszero ; seul cas ou on affiche 0
+leti r3 0
+call putchar.putchar
+
+caszero:
+push 64 r0
+push 64 r1
+push 64 r2
+let r0 r4
+let r1 
+
