@@ -1,0 +1,7 @@
+clear_screen.eff.s
+draw.s
+fill.s
+graphlib.sl
+list.txt
+plot.s
+putchar.s

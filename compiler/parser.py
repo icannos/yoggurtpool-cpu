@@ -23,7 +23,6 @@ class CalcWalker(NodeWalker):
             raise Exception("Undefinded var: " + str(node.varname))
         else:
             if hasattr(node, "ptr"):
-                print("ptr")
                 if self.vars_list[self.vars_list[str(node.varname)]]["varorptr"] == "ptr":
                     string += "leti r0 " + str(self.vars_list[str(node.varname)]["addr"]) + "\n"
                     string += "setctr a1 r0 \n"
@@ -323,11 +322,13 @@ class CalcWalker(NodeWalker):
                                            'len_ptr':len_ptr}
         self.vars_addr += length
 
+        print(self.vars_list)
+
         return string
 
 
     def walk__affectp(self, node):
-        print(self.vars_list)
+
         if node.id.varname not in self.vars_list:
             raise Exception("Var "+ str(node.id.varname) +  "doesnt exists")
 

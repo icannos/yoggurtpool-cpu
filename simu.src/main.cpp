@@ -12,6 +12,7 @@
 #include "screen.h"
 #include "memory.h"
 #include "processor.h"
+#include "audio.h"
 
 
 bool force_quit = false;
@@ -48,7 +49,8 @@ int main(int argc, char* argv[]) {
 	bool step_by_step = cmdOptionExists(argv, argv+argc, "-s");
 	bool stats = cmdOptionExists(argv, argv+argc, "-h");
 	bool graphical_output = cmdOptionExists(argv, argv+argc, "-g");
- 
+	bool audio_output = cmdOptionExists(argv, argv+argc, "-a");
+
 	std::string filename = argv[argc-1];
 	std::ifstream f(filename.c_str());
   if(!f.good()) {
@@ -59,6 +61,7 @@ int main(int argc, char* argv[]) {
 	Memory* m;
 	YogurtPool* p;
 	std::thread* screen;
+    std::thread* audio;
 
     bool stop =false; // Tant que le programme ne s'arrête pas
 
@@ -71,6 +74,9 @@ int main(int argc, char* argv[]) {
 	if(graphical_output)
 		screen=new std::thread(simulate_screen, m, &refresh);
 
+    if(audio_output)
+        audio =new std::thread(simulate_audio, m);
+
 	// The von Neuman cycle
 	while(!stop) {
         p->von_Neuman_step(debug, stop, stats);
@@ -81,6 +87,9 @@ int main(int argc, char* argv[]) {
 
 	if(graphical_output)
 		screen->join();
+
+    if(audio_output)
+        audio->join();
 
 	return 0;
 }

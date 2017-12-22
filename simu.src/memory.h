@@ -14,6 +14,9 @@
 
 const uint64_t MEM_SCREEN_BEGIN = 1073350080;
 
+const uint64_t MEM_AUDIO_BEGIN = 0x3FF9F780;
+
+
 const uint64_t KEYBOARD_BEGIN = 0x3FFA04A4;
 const uint64_t CLOCK_BEGIN = 0x3FFA0464;
 

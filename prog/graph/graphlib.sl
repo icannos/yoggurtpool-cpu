@@ -468,4 +468,4 @@ load font.mem
 putchar.endfont:
 
 putchar.skipputchar:
-['clear_screen', 'draw', 'fill', 'graphlib', 'plot', 'putchar']
+['clear_screen', 'draw', 'fill', 'plot', 'putchar']

@@ -1,6 +1,32 @@
 
-int16* addrbit; 
+int16* addrbit;
 addrbit = 1073350080;
 
-*addrbit = 31
+*addrbit = 31;
 
+int8 a;
+a = 12;
+if (a == 8)
+{
+  a = 6
+}
+else
+{
+  pass;
+};
+
+def mafunction()
+{
+  int8 mafunctionb;
+  if (mafunctionb == 6)
+  {
+      return 5
+  }
+  else
+  {
+      return 12
+  }
+};
+
+
+$ mafunction()

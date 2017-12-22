@@ -8,8 +8,8 @@
 
 /*  from http://stackoverflow.com/questions/10110905/simple-wave-generator-with-sdl-in-c */
 
-#include <SDL/SDL.h>
-#include <SDL/SDL_audio.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_audio.h>
 #include <queue>
 #include <cmath>
 
