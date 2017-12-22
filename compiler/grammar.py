@@ -3,6 +3,7 @@
 GRAMMAR = '''
 @@grammar::Calc
 
+@@comments :: /\(\*.*?\*\)/
 
 start
     =
@@ -136,6 +137,11 @@ return::Returnp =
                 |'return' nb:constant
                 ;
 
+varornb::Varornb =
+                |id:identifier
+                |nb:constant
+                ;
+
 ifelse::Ifelsep = 'if' '(' t:test ')' '{' prog1:programme '}'  'else' '{' prog2:programme '}';
 if::IfP = 'if' '(' t:test ')' '{' prog:programme '}';
 while::Whilep = 'while' '(' t:test ')' '{' prog:programme '}';
@@ -152,6 +158,8 @@ declaration::Declarationp = t:type id:identifier;
 
 deffun::Deffunp = 'def' funname:identifier '()' '{' prog:programme '}';
 callfun::Callfunp = '$' id:identifier '()';
+
+callroutine::Callroutine = '@' id:identifier '('  [varornb] [',' varornb]* ')' ;
 
 type = len:'int8*' | len:'int16*' | len:'int32*' | len:'int64*' | len:'int8' | len:'int16' | len:'int32' | len:'int64' ;
 

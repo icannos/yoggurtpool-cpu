@@ -242,13 +242,12 @@ if __name__ == '__main__':
 
     argparser.add_argument('--prefix', action='store_false')
 
-    argparser.add_argument('--exclusions',  nargs='+')
+    argparser.add_argument('--exclusions', nargs='+')
 
     argparser.add_argument('--output',
                            help='Name and where the output should be put.')
 
     options = argparser.parse_args()
-
 
     if (options.prefix != None):
         for filename in options.filename:
@@ -259,16 +258,12 @@ if __name__ == '__main__':
             else:
                 processed_file = options.output
 
-
             f = open(filename, 'r')
             src = f.readlines()
             f.close()
 
-
-
             if options.exclusions != None:
                 exclusions = list(options.exclusions)
-
 
             for l in prefixage(src, basefilename):
                 print(l)

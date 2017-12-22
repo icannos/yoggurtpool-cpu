@@ -35,20 +35,13 @@ void simulate_audio(Memory *m) {
         }
 
             for (unsigned int i = 1; i < NB_NOTES; i++) {
-                if (!escape && m->m[(MEM_AUDIO_BEGIN >> 6)] != 0) {
-
-
-                    uint64_t tempo_word = m->m[(MEM_AUDIO_BEGIN >> 6) + 1];
-                    auto tempo = (uint16_t) ((tempo_word >> ((63 - 16))) & 0xffff);
+                if ((m->m[((MEM_AUDIO_BEGIN-1) >> 6)] & 3) != 0) {
+                    uint16_t tempo = 1000;
 
 
                     uint64_t mword = m->m[((MEM_AUDIO_BEGIN) >> 6) + 1 + (i >> 2)];
                     auto beep = (uint16_t) ((mword >> ((63 - 16) - (i & 3) << 4)) & 0xffff);
 
-                    __uint128_t mask = ~(__uint128_t) ((((1 << 64) - 1) &
-                                                        (((1 << 16) - 1)) << ((63 - 16) - (i % 3) << 16)));
-
-                    m->m[((MEM_AUDIO_BEGIN) >> 6) + (i >> 2)] = mword & (uint64_t) mask;
 
                     auto duration = (uint8_t) ((beep >> 8) & ((1 << 8) - 1));
                     auto note = (uint16_t) (beep & ((1 << 8) - 1));
@@ -65,10 +58,9 @@ void simulate_audio(Memory *m) {
                 }
             }
 
-        if (m->m[(MEM_AUDIO_BEGIN >> 6)] != 0)
-            m->m[(MEM_AUDIO_BEGIN >> 6)] = 0;
-        if (m->m[(MEM_AUDIO_BEGIN >> 6)] != 1)
-            m->m[(MEM_AUDIO_BEGIN >> 6)] = MEM_AUDIO_BEGIN+64;
+
+        if ((m->m[((MEM_AUDIO_BEGIN-1) >> 6)] & 3) == 1)// Get bit of AUDIO_CTRL
+            m->m[((MEM_AUDIO_BEGIN-1) >> 6)] = m->m[((MEM_AUDIO_BEGIN-1) >> 6)] & (((1 << 64) - 1) & ~3); // Set the last 2 bits to 0
 
 
 
