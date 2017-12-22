@@ -12,9 +12,12 @@ import includes_asm as includes
 
 from numpy import binary_repr
 
+
+
 line = 0  # global variable to make error reporting easier
 current_addr = 0  # idem
 labels = {}  # global because shared between the two passe
+defines = {}
 
 
 def error(e):
@@ -104,16 +107,14 @@ def asm_addr_signed(s, c, let=0):
 
 def asm_const_unsigned(s):
     # converts the string s into its encoding
-    # Is it a label or a constant? 
-    """if (s[0]>='0' and s[0]<='9') or s[0:2]=="0x":
-        val=int(s,0) # TODO  catch exception here
-        je ne comprends pas du tout le concept de int(s,0),
-        il me semble qui'il faut faire comme precedemment"""
+    # Is it a label or a constant?
     try:
         if s[0:2] == '0x':
             val = int(s, 16)
         elif (s[0] >= '0' and s[0] <= '9'):  # Il fallait un elif ici !
             val = int(s)
+        elif s in defines :
+            return defines[s]
     except (ValueError, IndexError):
         error("invalid const: " + s)
         # The follwing is not very elegant but easy to trust
@@ -136,6 +137,8 @@ def asm_const_signed(s):
             val = int(s, 16)  # la fonction int est gentille
         elif (s[0] >= '0' and s[0] <= '9') or s[0] == '-' or s[0] == '+':  # Il fallait un elif ici aussi !
             val = int(s)
+        elif s in defines :
+            return defines[s]
     except (ValueError, IndexError):
         error("invalid const: " + s)
     if val == 0 or val == 1:
@@ -239,6 +242,10 @@ def asm_pass(iteration, s_file, directory):
                 label = token[0: -1]  # all the characters except last one
                 labels[label] = current_address
                 tokens = tokens[1:]
+            if token[0] == "#" :
+                variable = token[1:] #recupere le nom du define
+                defines[variable] = tokens[1] # range sa valeur (pas de = )
+
 
         # now all that remains should be an instruction... or nothing
         if tokens:
