@@ -1,6 +1,6 @@
-jump plotend
-plot:
-    push 64 r0
+jump skipestnoir
+; renvoie dans r0 la couleur du pixel de coordonnees (r1 , r2)
+estnoir:
     push 64 r1
     push 64 r2
     push 64 r3
@@ -14,12 +14,12 @@ plot:
     shift left r1 4
     add2 r3 r1
     setctr a0 r3
-    write a0 16 r0
+    readze a0 16 r0
     
     pop 64 r3
     pop 64 r2
     pop 64 r1
-    pop 64 r0
 
-    return
-plotend:
+
+	return
+skipestnoir:
