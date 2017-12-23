@@ -1,0 +1,8 @@
+#define BORDG 50
+#define BORDD 150
+
+#include <graph.sl>
+#include <time.s>
+#include <debut.s>
+
+call debut
