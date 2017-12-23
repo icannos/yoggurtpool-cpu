@@ -5,7 +5,7 @@ jump skipdebut
 
 ;.char 65535 20 100 Bienvenue
 ;.char 65535 80 100 dans
-;.char 65535 50 70 T
+;.char 65535 50 70 TETRIS
 leti r0 10000
 call time.time
 leti r0 0
