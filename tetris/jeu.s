@@ -5,4 +5,5 @@
 #include <time.s>
 #include <debut.s>
 
-call debut
+call debut.debut
+jump -13

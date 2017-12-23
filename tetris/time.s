@@ -6,7 +6,7 @@ time:
 	push 64 r3
 
 ; Lire la date à partir de laquelle on attend
-	leti r2 0x3FFA0464
+	leti r2 0x3FFA0440
 	setctr a0 r2
 	readze a0 64 r1
 ; Jusqu'à quand on attend
@@ -18,7 +18,7 @@ boucle:
 ; Comparaison du temps actuel avec la date jusqu'à laquelle on attend
 	cmp r1 r3
 	jumpif sgt boucle
-	
+
 
 
 pop 64 r1

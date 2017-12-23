@@ -3,10 +3,11 @@
 
 jump skipdebut
 
-;.char 65535 20 100 Bienvenue
-;.char 65535 80 100 dans
-;.char 65535 50 70 T
-leti r0 10000
+debut:
+.char 65535 20 100 Bienvenue
+.char 65535 90 100 dans
+.char 65535 50 70 Tetris
+leti r0 10
 call time.time
 leti r0 0
 call graph.clear_screen
@@ -20,4 +21,3 @@ call graph.clear_screen
 return
 
 skipdebut:
-
