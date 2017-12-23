@@ -77,6 +77,7 @@ int main(int argc, char* argv[]) {
     if(audio_output)
         audio =new std::thread(simulate_audio, m);
 
+
 	// The von Neuman cycle
 	while(!stop) {
         p->von_Neuman_step(debug, stop, stats);

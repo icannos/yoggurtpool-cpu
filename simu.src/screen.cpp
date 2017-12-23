@@ -21,10 +21,7 @@ void simulate_screen(Memory *m, bool *refresh) {
         //Update Clock
         uint64_t time = (uint64_t) (clock() / CLOCKS_PER_SEC);
 
-
         m->m[CLOCK_BEGIN  >> 6] = time;
-
-
 
         /*deal with events*/
         while (SDL_PollEvent(&e) != 0) { // S'il se passe qqchose

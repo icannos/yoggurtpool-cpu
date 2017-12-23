@@ -3,6 +3,7 @@
 //
 
 #include "audio.h"
+#include <bitset>
 
 void simulate_audio(Memory *m) {
 
@@ -12,8 +13,8 @@ void simulate_audio(Memory *m) {
 
     int a = 440; // a is 440 hz...
 
-    for (int x = 0; x < 127; ++x) {
-        midi[x] = (a / 32) * (2 ^ ((x - 9) / 12));
+    for (int x = 0; x < 127; x++) {
+        midi[x] = (a / 32) * (pow(2, ((x - 9) / 12)));
     }
 
 
@@ -34,22 +35,31 @@ void simulate_audio(Memory *m) {
             }
         }
 
-            for (unsigned int i = 1; i < NB_NOTES; i++) {
-                if ((m->m[((MEM_AUDIO_BEGIN-1) >> 6)] & 3) != 0) {
+            for (unsigned int i = 0; i < NB_NOTES; i++) {
+                if ((m->m[((MEM_AUDIO_BEGIN) >> 6)-1] & 1) != 0) {
                     uint16_t tempo = 1000;
 
-                    std::cout << "Hey" << std::endl;
-
                     uint64_t mword = m->m[((MEM_AUDIO_BEGIN) >> 6) + 1 + (i >> 2)];
+                    uint64_t mword2 = m->m[((MEM_AUDIO_BEGIN) >> 6) + 0 + (i >> 2)];
+
                     auto beep = (uint16_t) ((mword >> ((63 - 16) - (i & 3) << 4)) & 0xffff);
 
 
-                    auto duration = (uint8_t) ((beep >> 8) & ((1 << 8) - 1));
-                    auto note = (uint16_t) (beep & ((1 << 8) - 1));
+                    auto duration = (uint16_t) ((beep >> 7) & ((1 << 8) - 1));
+                    auto note = (uint16_t) (beep & ((1 << 7) - 1));
+                    std::cout << "Note: " << note << std::endl;
+                    std::cout << "Duree: " << duration << std::endl;
+                    std::bitset<64> z(beep);
+                    std::cout << "beep: " << z << std::endl;
 
+                    std::bitset<64> y(mword2);
+                    std::cout << "mwordprev: " << y << std::endl;
+                    std::bitset<64> x(mword);
+                    std::cout << "mword: " << x << std::endl;
                     if (duration == 0) {
                         break;
                     } else {
+                        // std::cout << "Note: " << midi[note] << std::endl;
                         b.beep(midi[note], (uint16_t) (tempo * getTempo(duration)));
                         b.wait();
                     }
@@ -59,9 +69,12 @@ void simulate_audio(Memory *m) {
                 }
             }
 
+        //std::bitset<64> x(m->m[((MEM_AUDIO_BEGIN-1) >> 6)] );
+        //std::cout << "CTRL: " << x << std::endl;
 
-        if ((m->m[((MEM_AUDIO_BEGIN-1) >> 6)] & 3) == 1)// Get bit of AUDIO_CTRL
-            m->m[((MEM_AUDIO_BEGIN-1) >> 6)] = m->m[((MEM_AUDIO_BEGIN-1) >> 6)] & (((1 << 64) - 1) & ~3); // Set the last 2 bits to 0
+        //std::cout << (int)(m->m[((MEM_AUDIO_BEGIN-1) >> 6)] & (uword)(((doubleword)(1 << 64) - 1) & ~3)) << std::endl;
+        if ((m->m[((MEM_AUDIO_BEGIN) >> 6)-1] & 1) == 1)// Get bit of AUDIO_CTRL
+            m->m[((MEM_AUDIO_BEGIN) >> 6)-1] = m->m[((MEM_AUDIO_BEGIN) >> 6)-1] & (uword)(((doubleword)(1 << 64) - 1) & ~3); // Set the last 2 bits to 0
 
 
 

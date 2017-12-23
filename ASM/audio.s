@@ -2,8 +2,11 @@
 #DEFINE PTR_FILE 0x3FF9F780
 #DEFINE BEGIN_QUEUE 0x3FF9F7C0
 
+
 call lockaudio
 leti r0 197
+call beep
+call beep
 call beep
 call unlockaudio
 leti r0 542
@@ -14,6 +17,11 @@ lockaudio:
 ; Stop audio play and go back at the begining of the queue.
   push 64 r0
   push 64 r1
+
+  leti r0 PTR_FILE
+  setctr a0 r0
+  leti r0 BEGIN_QUEUE
+  write a0 64 r0
 
   leti r0 AUDIO_CTRL
   setctr a0 r0
@@ -69,7 +77,6 @@ unlockaudioloop:
 
 
 beep:
-    push 64 r0
     push 64 r1
     push 64 r2
 
@@ -90,6 +97,5 @@ beep:
 
     pop 64 r2
     pop 64 r1
-    pop 64 r0
 
     return
