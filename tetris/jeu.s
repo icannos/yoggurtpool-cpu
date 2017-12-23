@@ -21,14 +21,13 @@ call debut.debut
 ;r5 va garder le score
 ;r6 sert de drapeau pour demander une nouvelle piece
 
-;le jeu continue tant que la ligne du haut est non vide
 
 leti r0 0
 leti r1 0
 leti r2 0
 leti r3 0
 leti r4 0
-leti r5 0
+leti r5 30; c'est la ou commence la jauge
 leti r6 1 ;petite astuce pour creer une piece au premier tour
 
 partie:
@@ -50,6 +49,8 @@ pop 64 r0
 	call nouvelle
 	leti r6 0 ; on remet le drapeau en attente
 call nouvelle
+leti r0 3
+call time.time
 
 continue:
 ;gestion de la piece
@@ -68,24 +69,24 @@ call keyboard.waitkey
 	;on gere tous les mouvements possibles, a gauche c'est gentil e droite c'est chiant comme dans la vraie vie
 	cmpi r0 7 ;veut on décaler la pièce à droite ?
 	jumpif nz ndroite
-		add2i r1 4
+		add2i r1 UNIT
 		call collision
 		cmpi r6 0 ; si en décalant on collisionne
 		jumpif z imp1
-		sub2i r1 4	
+		sub2i r1 UNIT	
 		imp1:
 	ndroite:
 	cmpi r0 20
 	jumpif nz ngauche
 		cmpi r1 BORDG
 		jumpif z imp2
-		sub2 r1 4
+		sub2 r1 UNIT
 		imp2:
 	ngauche:
 	cmpi r0 22
 	jumpif nz nrotd
 		;mettre a jour l'orientation
-		cmpi r4 4
+		cmpi r4 UNIT
 		jumpif z vaut4
 		add2i r4 1
 		jump dif4
@@ -100,7 +101,7 @@ call keyboard.waitkey
 		sub2i r4 1
 		jump dif0
 		vaut0:
-		leti r4 4
+		leti r4 UNIT
 		dif0:
 		possible:
 	nrotd:
@@ -112,11 +113,11 @@ call keyboard.waitkey
 		sub2i r4 1
 		jump dif0bis
 		vaut0bis:
-		leti r4 4
+		leti r4 UNIT
 		dif0bis:
 		call collicote
 		cmpi r6 0
-		cmpi r4 4
+		cmpi r4 UNIT
 		jumpif z vaut4bis
 		add2i r4 1
 		jump dif4bis
@@ -134,7 +135,7 @@ push 64 r0
 call collision
 pop 64 r0
 
-add2i r2 4 ;on descend la pièce
+add2i r2 UNIT ;on descend la pièce
 call brique ;on redessine la pièce en dessous
 
 	

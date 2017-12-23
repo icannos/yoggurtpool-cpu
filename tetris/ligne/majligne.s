@@ -17,6 +17,14 @@ boucley:
 		;distinguons les deux cas
 		cmpi r0 0
 		jumpif z pasremplie
+		add2i r5 2
+		leti r0 992
+		leti r1 9
+		let r2 r5
+		leti r3 13
+		let r4 r5
+		add2i r4 2
+		call graph.fill
 		call ligne.effetrepl
 
 ;attention : il faudrait incrémenter score ici
