@@ -392,8 +392,18 @@ def asm_pass(iteration, s_file, directory):
                     instruction_encoding += "110101 " + asm_addr_signed("graph.putchar",
                                                                         "call") + "\n" + "0111 " + " "+ "001 " + " " + asm_const_signed(
                         str(int(tokens[2]) + (i+1) * 7)) + "\n"
-
-                # If the line wasn't assembled:
+            if opcode == ".carre" and token_count == 4: #on indique la couleur puis l'abscisse à gauche et l'ordonnée en haut
+                instruction_encoding = "0111 " + "000 " + asm_const_signed(
+                    tokens[1]) + "\n" + "0111 " + "001 " + asm_const_signed(
+                    tokens[2]) + "\n" + "0111 " + "010 " + asm_const_signed(
+                    tokens[3]) + "\n" + "0111 " + "011 " + asm_const_signed(
+                    str(int(tokens[2])+4)) + "\n" + "0111 " + "100 " + asm_const_signed(
+                    str(int(tokens[3])+4)) + "\n" + "110101 " + asm_addr_signed("graph.fill", "call")
+            if opcode == ".carreauto" and token_count == 1:  # on indique la couleur puis l'abscisse à gauche et l'ordonnée en haut
+                instruction_encoding ="0110"+" "+ "011 "+ "001" + "\n" + "0110" + " " + "100 " +"010" +"\n"
+                instruction_encoding += "0001" + " " + "011" + " "+ asm_const_signed('4') + "\n" + "0011" + " " + "100" + " "+ asm_const_signed('4') + "\n"
+                instruction_encoding += "110101 " + asm_addr_signed("graph.fill", "call")
+            # If the line wasn't assembled:
             if instruction_encoding == "":
                 error("don't know what to do with: " + source_line)
             else:
