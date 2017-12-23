@@ -17,7 +17,7 @@
 #include <collision.s>
 #include <collicote.s>
 
-
+push 64 r7
 call debut.debut
 pop 64 r7
 
@@ -42,6 +42,7 @@ partie:
 
 ;regarde si on est arrive en haut
 push 64 r0
+push 64 r7
 call ligne.lignevide
 pop 64 r7
 cmpi r0 0
@@ -53,9 +54,11 @@ pop 64 r0
 	cmpi r6 0
 	jumpif z continue ;si on a une collision la piece precedente ne bouge plus on en prend une nouvelle
 	;gestion de la grille car des lignes pourraient etre pleines
+	push 64 r7
 	call ligne.majligne
 	pop 64 r7
 	;creation d'une nouvelle piece
+	push 64 r7
 	call nouvelle.nouvelle
 	pop 64 r7
 	leti r6 0 ; on remet le drapeau en attente
@@ -70,6 +73,7 @@ continue:
 ;on l'efface
 push 64 r0
 leti r0 0
+push 64 r7
 call brique.brique
 pop 64 r7
 

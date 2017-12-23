@@ -62,7 +62,7 @@ cmpi r1 BORDD
 jumpif gt lignepleine.boucleend
 push 64 r7 
 call graph.estnoir
-pop 67 r7 
+pop 64 r7 
 cmpi r0 0 
 jumpif z lignepleine.nonremplie
 add2i r1 4 
@@ -166,4 +166,4 @@ pop 64 r0
 
 
 majligne.skipmajligne:
-['effetrepl', 'lignepleine', 'ligne', 'lignevide', 'majligne', 'graph.fill', 'graph.estnoir', 'ligne.effetrepl', 'ligne.lignepleine']
+

@@ -2,6 +2,10 @@
 jump skipbrique:
 brique:
 #include <graph.sl>
+
+push 64 r1
+push 64 r2
+
 ;on determine quelle forme on trace
 cmpi r3 0
 jumpif z i
@@ -28,6 +32,8 @@ i: ;cas d'une forme de droite
 		.carreauto
 		add2i r1 4
 		.carreauto
+		pop 64 r2
+		pop 64 r1
 
 		return
 
@@ -39,7 +45,8 @@ i: ;cas d'une forme de droite
 		.carreauto
 		sub2i r2 4
 		.carreauto
-
+		pop 64 r2
+		pop 64 r1
 		return
 
 
@@ -63,7 +70,8 @@ l: ; cas d'une forme de l
 		add2i r2 8
 		add2i r1 4
 		.carreauto
-
+		pop 64 r2
+		pop 64 r1
 		return
 
 	rotdl:
@@ -74,7 +82,8 @@ l: ; cas d'une forme de l
 		.carreauto
 		add2i r1 4
 		.carreauto
-
+		pop 64 r2
+		pop 64 r1
 		return
 
 	invl:
@@ -86,7 +95,8 @@ l: ; cas d'une forme de l
 		.carreauto
 		sub2i r1 4
 		.carreauto
-
+		pop 64 r2
+		pop 64 r1
 		return
 
 	rotgl:
@@ -97,7 +107,8 @@ l: ; cas d'une forme de l
 		.carreauto
 		sub2i r2 4
 		.carreauto
-
+		pop 64 r2
+		pop 64 r1
 		return
 
 o: ; cas d'une forme de carre
@@ -110,7 +121,8 @@ o: ; cas d'une forme de carre
 	.carreauto
 	sub2i r1 4
 	.carreauto
-
+		pop 64 r2
+		pop 64 r1
 	return
 
 t: ; cas d'une forme de T
@@ -132,6 +144,8 @@ t: ; cas d'une forme de T
 		.carreauto
 		add2i r1 8
 		.carreauto
+		pop 64 r2
+		pop 64 r1
 		return
 
 	rotdt:
@@ -144,7 +158,8 @@ t: ; cas d'une forme de T
 		add2i r1 4
 		sub2i r2 4
 		.carreauto
-
+		pop 64 r2
+		pop 64 r1
 		return
 	invt:
 		.carreauto
@@ -155,7 +170,8 @@ t: ; cas d'une forme de T
 		sub2i r1 4
 		sub2i r2 4
 		.carreauto
-
+		pop 64 r2
+		pop 64 r1
 		return
 
 	rotgt:
@@ -167,9 +183,9 @@ t: ; cas d'une forme de T
 		sub2i r1 4
 		sub2i r2 4
 		.carreauto
-
+		pop 64 r2
+		pop 64 r1
 		return
-
 
 
 skipbrique:
