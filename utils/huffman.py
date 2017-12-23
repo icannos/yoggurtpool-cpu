@@ -1,7 +1,6 @@
 #! /usr/bin/python2
 
 
-# tentative de codage de Huffman
 from heapq import *
 import os
 import argparse
@@ -42,43 +41,83 @@ def code_huffman(arbre):
 
 
 if __name__ == "__main__":
-    argparser = argparse.ArgumentParser(description='This is the assembler for the ASR2017 processor @ ENS-Lyon')
-    argparser.add_argument('filename',
-                           help='path to stats file')
 
-    argparser.add_argument('--output',
-                           help='Name and where the output should be put.')
+    import sys
 
-    options = argparser.parse_args()
+    data = ""
+    for l in sys.stdin:
+        data += l
 
-    f = open(options.filename, "r")
+    parts = re.findall("===============================", data)
+
+    FilenameRegExp = re.compile("filename: (\w+).*")
+    ExchangedbitsRegExp = re.compile("Exchangedbits: (\d+)")
+    BitsFromPCRegExp = re.compile("BitsFromPC: (\d+)")
+    BitsFromRamRegExp = re.compile("BitsFromRam: (\d+)")
+    BitsToRamRegExp = re.compile("BitsToRam: (\d+)")
+
+    Filename = re.match(FilenameRegExp, parts[0])
+    BitsFromPCReg = re.match(ExchangedbitsRegExp, parts[1])
+    BitsFromPC = re.match(BitsFromPCRegExp, parts[1])
+    BitsFromRam = re.match(BitsFromRamRegExp, parts[1])
+    BitsToRam = re.match(BitsToRam, parts[1])
+
 
     occurences = {}
-
-    for l in f.readlines():
+    for l in parts[2].splitlines():
         tokens = re.findall('[\S]+', l)
         occurences[str(tokens[0])] = int(tokens[1])
 
-    f.close()
-    
-    print(occurences)
 
     encodage = code_huffman(arbre_huffman(occurences))
 
-    dump = "| Opcode | Mnemonic |\n"
-    dump +="| ------ | -------  |\n"
+    dump1 = "| Opcode | Mnemonic |\n"
+    dump1 +="| ------ | -------  |\n"
 
     for k in encodage.keys():
-        dump += "| " + str(k) + "|" + str(encodage[k]) + "| \n"
+        dump1 += "| " + str(k) + "|" + str(encodage[k]) + "| \n"
 
-    print(dump)
 
-    if options.output == None:
-        filename, ext = basefilename, extension = os.path.splitext(options.filename)
-    else:
-        filename = options.output
+    occurences = {}
+    for l in parts[3].splitlines():
+        tokens = re.findall('[\S]+', l)
+        occurences[str(tokens[0])] = int(tokens[1])
 
-    f = open(filename, "w")
+
+
+    encodage = code_huffman(arbre_huffman(occurences))
+
+    dump2 = "| Opcode | Mnemonic |\n"
+    dump2 += "| ------ | -------  |\n"
+
+    for k in encodage.keys():
+        dump2 += "| " + str(k) + "|" + str(encodage[k]) + "| \n"
+
+
+
+
+
+
+    occurences = {}
+    for l in parts[3].splitlines():
+        tokens = re.findall('[\S]+', l)
+        occurences[str(tokens[0])] = int(tokens[1])
+
+
+
+    encodage = code_huffman(arbre_huffman(occurences))
+
+    dump3 = "| Opcode | Mnemonic |\n"
+    dump3 += "| ------ | -------  |\n"
+
+    for k in encodage.keys():
+        dump3 += "| " + str(k) + "|" + str(encodage[k]) + "| \n"
+
+
+    dump =  part[1] + "\n" + dump1 + "\n" + dump2 + "\n" + "dump3"
+
+
+    f = open(Filename + ".report", "w")
     f.write(dump)
     f.close()
 

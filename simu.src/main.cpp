@@ -80,7 +80,7 @@ int main(int argc, char* argv[]) {
 
 	// The von Neuman cycle
 	while(!stop) {
-        p->von_Neuman_step(debug, stop, stats);
+        p->von_Neuman_step(debug, stop, stats, filename);
 		
 		if(step_by_step)
 			getchar();

@@ -2,6 +2,8 @@
 
 #include <map>
 #include <string>
+#include "time.h"
+#include <random>
 
 using namespace std;
 
@@ -61,7 +63,7 @@ YogurtPool::YogurtPool(Memory *m) : m(m) {
 YogurtPool::~YogurtPool() {}
 
 
-void YogurtPool::von_Neuman_step(bool debug, bool &stop, bool stats) {
+void YogurtPool::von_Neuman_step(bool debug, bool &stop, bool stats, std::string filename) {
     // numbers read from the binary code
     int opcode = 0;
     int regnum1 = 0;
@@ -128,24 +130,27 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop, bool stats) {
                     cerr << endl;
                     cerr << "===============================" << endl;
                 } else {
+                    cout << "filename: " << filename << endl;
 
-                    cout << "Exchangedbits: " << bitsFromRam + bitsToram << endl;
+                    cout << "===============================" << endl;
+
+                    cout << "Exchangedbits: " << bitsFromRam + bitsToram + nb_read_bits_frompc << endl;
                     cout << "BitsFromPC: " << nb_read_bits_frompc << endl;
                     cout << "BitsFromRam: " << bitsFromRam << endl;
                     cout << "BitsToRam: " << bitsToram << endl;
 
 
-                    cout << "stats instructions:" << endl;
+                    cout << "===============================" << endl;
                     for (auto &instr_stats : instr_stats) {
                         cout << instr_stats.first << " " << instr_stats.second << endl;
                     }
 
-                    cout << "stats const:" << endl;
+                    cout << "===============================" << endl;
                     for (auto &const_stats : const_stats) {
                         cout << const_stats.first << " " << const_stats.second << endl;
                     }
 
-                    cout << "stats size:" << endl;
+                    cout << "===============================" << endl;
                     for (auto &size_stats : size_stats) {
                         cout << size_stats.first << " " << size_stats.second << endl;
                     }
@@ -153,6 +158,11 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop, bool stats) {
                     stop = true;
                 }
 
+                break;
+
+            case -2:
+                srand(time(NULL));
+                r[0] = (uword) rand();
                 break;
 
                 // Place pour d'autres instructions.
