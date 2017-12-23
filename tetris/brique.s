@@ -1,11 +1,3 @@
-leti r0 65535
-leti r1 5
-leti r2 127
-leti r3 3
-leti r4 1
-call brique
-jump -13
-
 
 jump skipbrique:
 brique:
@@ -31,7 +23,7 @@ i: ;cas d'une forme de droite
 	roti:
 		.carreauto
 		add2i r1 4
-		.carreauto 
+		.carreauto
 		add2i r1 4
 		.carreauto
 		add2i r1 4
@@ -42,7 +34,7 @@ i: ;cas d'une forme de droite
 	basei:
 		.carreauto
 		sub2i r2 4
-		.carreauto 
+		.carreauto
 		sub2i r2 4
 		.carreauto
 		sub2i r2 4
@@ -50,7 +42,7 @@ i: ;cas d'une forme de droite
 
 		return
 
-	
+
 l: ; cas d'une forme de l
 	;on determine son orientation
 	cmpi r4 0
@@ -65,7 +57,7 @@ l: ; cas d'une forme de l
 	basel:
 		.carreauto
 		sub2i r2 4
-		.carreauto 
+		.carreauto
 		sub2i r2 4
 		.carreauto
 		add2i r2 8
@@ -73,11 +65,11 @@ l: ; cas d'une forme de l
 		.carreauto
 
 		return
-		
+
 	rotdl:
 		.carreauto
 		sub2i r2 4
-		.carreauto 
+		.carreauto
 		add2i r1 4
 		.carreauto
 		add2i r1 4
@@ -181,4 +173,3 @@ t: ; cas d'une forme de T
 
 
 skipbrique:
-

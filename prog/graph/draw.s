@@ -22,7 +22,7 @@ let r4 r5
 echange:
 
 ;ceci prepare le premier point
-sub3 r5 r3 r1 
+sub3 r5 r3 r1
 shift left r5 1 ;r5 contient dx
 sub3 r6 r4 r2
 shift left r6 1 ;r6 contient dy
@@ -214,5 +214,3 @@ setctr a0 r3
 write a0 16 r0
 return
 plotend:
-
-

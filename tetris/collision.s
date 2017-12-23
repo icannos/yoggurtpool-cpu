@@ -31,26 +31,39 @@ i: ;cas d'une forme de droite
 	jumpif z roti
 
 	roti:
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
 		add2 r5 r0
 		add2i r1 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 		add2i r1 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 		add2i r1 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
 
 		jump end
 
 	basei:
 		sub2i r2 12
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 		jump end
 
-	
+
 l: ; cas d'une forme de l
 	;on determine son orientation
 	cmpi r4 0
@@ -64,47 +77,77 @@ l: ; cas d'une forme de l
 
 	basel:
 		sub2i r2 12
-		call estnoir
-		add2 r5 r0 
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
+		add2 r5 r0
 		add2i r2 12
 		add2i r1 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 
 		jump end
-		
+
 	rotdl:
 		sub2i r2 4
-		call estnoir
-		add2 r5 r0 
-		add2i r1 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 		add2i r1 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
+		add2 r5 r0
+		add2i r1 4
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 
 		jump end
 
 	invl:
 		sub2i r2 12
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 		add2i r1 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 
 		jump end
 
 	rotgl:
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 		add2i r1 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 		add2i r1 4
 		sub2i r2 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 
 		jump end
@@ -115,10 +158,16 @@ o: ; cas d'une forme de carre
 
 	add2i r1 4
 	sub2i r2 4
-	call estnoir
+	push 64 r7
+	call graph.estnoir
+	pop 64 r7
+
 	add2 r5 r0
 	sub2i r1 4
-	call estnoir
+	push 64 r7
+	call graph.estnoir
+	pop 64 r7
+
 	add2 r5 r0
 
 	jump end
@@ -136,13 +185,22 @@ t: ; cas d'une forme de T
 	baset:
 		add2i r1 4
 		sub2i r2 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 		sub2i r1 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 		add2i r1 8
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 		jump end
 
@@ -152,26 +210,41 @@ t: ; cas d'une forme de T
 		sub2i r2 4
 		.carreauto
 		sub2i r1 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 		add2i r1 4
 		sub2i r2 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 
 		jump end
 
 	invt:
-		call estnoir
+	push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 		add2i r1 4
 		.carreauto
 		add2i r1 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 		sub2i r1 4
 		sub2i r2 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 
 		jump end
@@ -179,11 +252,17 @@ t: ; cas d'une forme de T
 	rotgt:
 		sub2i r2 4
 		add2i r1 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 		sub2i r1 4
 		sub2i r2 4
-		call estnoir
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
 		add2 r5 r0
 
 		jump end

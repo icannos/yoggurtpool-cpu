@@ -1,18 +1,17 @@
 jump skipnouvelle
 nouvelle:
 
-#define BLEU 31
-#define JAUNE 62430
-#define VERT 992
-#define ROUGE 64512
+
 
 
 ;on cree les parametres aléatoires qui vont bien
+push 64 r7
 call -2
 let r3 r0
 call -2
-let r4
+let r4 r0
 call -2
+pop 64 r7
 ;transformons ce nombre en couleur
 cmpi r0 0
 jumpif nz pasbleu

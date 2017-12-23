@@ -16,7 +16,9 @@ leti r3 BORDD
 sub21 r3 1 ;pour ne pas empieter sur le bord
 let r4 r2
 sub2i r4 4
+push 64 r7
 call graph.fill
+pop 64 r7
 
 
 ; puis on recopie
@@ -26,7 +28,9 @@ leti r1 BORDG
 	cmpi r1 BORDD
 	jumpif z finbouclex ; on a interet a avoir BORDD congru a BORDG modulo 4, sinon boucle infinie
 	sub2i r2 1 ;on remonte juste d'un pour piquer la couleur d'au dessus
-	call estnoir
+	push 64 r7
+	call graph.estnoir
+	pop 64 r7
 	add2i r2 1
 	.carreauto
 	add2i r1 4

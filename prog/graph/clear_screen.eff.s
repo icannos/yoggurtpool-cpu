@@ -3,7 +3,7 @@ jump clear_screen_end
 clear_screen:
     leti r1 1073350080
     setctr a0 r1
-    
+
     letiac r5 boucle
     letiac r6 fin
 boucle:

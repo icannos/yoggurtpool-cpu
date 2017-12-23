@@ -32,11 +32,13 @@ i: ;cas d'une forme de droite
 
 	basei:
 		add2i r1 12
-		call estnoir
+		push 64 r7
+ call graph.estnoir
+ pop 64 r7
 		add2 r5 r0
 		jump end
 
-	
+
 l: ; cas d'une forme de l
 	;on determine son orientation
 	cmpi r4 0
@@ -50,18 +52,22 @@ l: ; cas d'une forme de l
 
 	basel:
 		add2i r1 8
-		call estnoir
+		push 64 r7
+ call graph.estnoir
+ pop 64 r7
 		add2 r5 r0
 
 		jump end
-		
+
 	rotdl:
 
 		jump end
 
 	invl:
 		add2i r1 8
-		call estnoir
+		push 64 r7
+ call graph.estnoir 
+ pop 64 r7
 		add2 r5 r0
 
 		jump end
@@ -91,7 +97,9 @@ t: ; cas d'une forme de T
 
 	rotdt:
 		add2i r1 8
-		call estnoir
+		push 64 r7
+ call graph.estnoir
+ pop 64 r7
 		add2 r5 r0
 
 		jump end
@@ -102,7 +110,9 @@ t: ; cas d'une forme de T
 
 	rotgt:
 		add2i r1 8
-		call estnoir
+		push 64 r7
+ call graph.estnoir
+ pop 64 r7
 		add2 r5 r0
 
 		jump end
