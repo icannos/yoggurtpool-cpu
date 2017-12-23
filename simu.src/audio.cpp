@@ -47,7 +47,7 @@ void simulate_audio(Memory *m) {
 
                     auto duration = (uint16_t) ((beep >> 7) & ((1 << 8) - 1));
                     auto note = (uint16_t) (beep & ((1 << 7) - 1));
-                    std::cout << "Note: " << note << std::endl;
+                   std::cout << "Note: " << note << std::endl;
                     std::cout << "Duree: " << duration << std::endl;
                     std::bitset<64> z(beep);
                     std::cout << "beep: " << z << std::endl;
@@ -59,7 +59,8 @@ void simulate_audio(Memory *m) {
                     if (duration == 0) {
                         break;
                     } else {
-                        // std::cout << "Note: " << midi[note] << std::endl;
+                        std::cout << "Note: " << midi[note] << std::endl;
+                        std::cout << "Tempo: " << getTempo(duration) << std::endl;
                         b.beep(midi[note], (uint16_t) (tempo * getTempo(duration)));
                         b.wait();
                     }
@@ -106,6 +107,8 @@ float getTempo(uint16_t duration) {
             return 1 / 4;
         case 6:
             return 1 / 8;
+        case 7:
+            return 3/2;
 
 
     }

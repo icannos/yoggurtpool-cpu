@@ -27,7 +27,7 @@ wait4key:
 
 waitkey:
   leti r1 KEYBOARD_BEGIN
-
+  let r0 -1
   infboucle:
     getctr a0 r2
     sub2i r2 284
@@ -39,8 +39,8 @@ waitkey:
     cmpi r0 0
     jumpif z infboucle
 
-    next:
-
     getctr a0 r0
     sub2i r0 KEYBOARD_BEGIN
     sub2i r0 1
+
+    next:
