@@ -7,6 +7,7 @@
 
 using namespace std;
 
+int randab(int a, int b) { return random()%(b-a) +a; }
 
 YogurtPool::YogurtPool(Memory *m) : m(m) {
     pc = 0;
@@ -162,7 +163,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop, bool stats, std::string
 
             case -2:
                 srand(time(NULL));
-                r[0] = (uword) rand();
+                r[0] = randab(0,3);
                 break;
 
                 // Place pour d'autres instructions.

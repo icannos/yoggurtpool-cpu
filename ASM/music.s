@@ -3,415 +3,556 @@
 #DEFINE BEGIN_QUEUE 0x3FF9F7C0
 
 call lockaudio
-leti r0 204
+leti r0 2119
 call beep
-leti r0 836
+leti r0 1090
 call beep
-leti r0 837
+leti r0 1091
 call beep
-leti r0 199
+leti r0 1093
 call beep
-leti r0 837
+leti r0 1351
 call beep
-leti r0 836
+leti r0 1349
 call beep
-leti r0 197
+leti r0 1091
 call beep
-leti r0 837
+leti r0 1090
 call beep
-leti r0 837
+leti r0 1088
 call beep
-leti r0 200
+leti r0 1076
 call beep
-leti r0 839
+leti r0 1088
 call beep
-leti r0 837
+leti r0 1091
 call beep
-leti r0 964
+leti r0 2119
 call beep
-leti r0 837
+leti r0 1093
 call beep
-leti r0 199
+leti r0 1091
 call beep
-leti r0 204
+leti r0 1090
 call beep
-leti r0 197
+leti r0 1078
 call beep
-leti r0 197
+leti r0 1090
 call beep
-leti r0 197
+leti r0 1091
 call beep
-leti r0 842
+leti r0 2117
 call beep
-leti r0 845
+leti r0 2119
 call beep
-leti r0 845
+leti r0 2115
 call beep
-leti r0 845
+leti r0 2112
 call beep
-leti r0 845
+leti r0 2112
 call beep
-leti r0 847
+leti r0 325
 call beep
-leti r0 845
+leti r0 1096
 call beep
-leti r0 844
+leti r0 1100
 call beep
-leti r0 840
+leti r0 332
 call beep
-leti r0 840
+leti r0 1098
 call beep
-leti r0 840
+leti r0 1096
 call beep
-leti r0 840
+leti r0 2119
 call beep
-leti r0 842
+leti r0 1091
 call beep
-leti r0 840
+leti r0 1095
 call beep
-leti r0 840
+leti r0 1352
 call beep
-leti r0 836
+leti r0 1351
 call beep
-leti r0 837
+leti r0 1093
 call beep
-leti r0 199
+leti r0 1091
 call beep
-leti r0 204
+leti r0 1093
 call beep
-leti r0 197
+leti r0 1081
 call beep
-leti r0 197
+leti r0 1087
 call beep
-leti r0 197
+leti r0 1090
 call beep
-leti r0 204
+leti r0 2117
 call beep
-leti r0 836
+leti r0 2119
 call beep
-leti r0 837
+leti r0 2115
 call beep
-leti r0 199
+leti r0 2112
 call beep
-leti r0 837
+leti r0 2112
 call beep
-leti r0 836
+leti r0 2119
 call beep
-leti r0 197
+leti r0 1090
 call beep
-leti r0 837
+leti r0 1091
 call beep
-leti r0 837
+leti r0 1093
 call beep
-leti r0 200
+leti r0 1351
 call beep
-leti r0 839
+leti r0 1349
 call beep
-leti r0 837
+leti r0 1091
 call beep
-leti r0 964
+leti r0 1090
 call beep
-leti r0 837
+leti r0 1088
 call beep
-leti r0 199
+leti r0 1076
 call beep
-leti r0 204
+leti r0 1088
 call beep
-leti r0 197
+leti r0 1091
 call beep
-leti r0 197
+leti r0 2119
 call beep
-leti r0 197
+leti r0 1093
 call beep
-leti r0 842
+leti r0 1091
 call beep
-leti r0 845
+leti r0 1090
 call beep
-leti r0 845
+leti r0 1078
 call beep
-leti r0 845
+leti r0 1090
 call beep
-leti r0 845
+leti r0 1091
 call beep
-leti r0 847
+leti r0 2117
 call beep
-leti r0 845
+leti r0 2119
 call beep
-leti r0 844
+leti r0 2115
 call beep
-leti r0 840
+leti r0 2112
 call beep
-leti r0 840
+leti r0 2112
 call beep
-leti r0 840
+leti r0 325
 call beep
-leti r0 840
+leti r0 1096
 call beep
-leti r0 842
+leti r0 1100
 call beep
-leti r0 840
+leti r0 332
 call beep
-leti r0 840
+leti r0 1098
 call beep
-leti r0 836
+leti r0 1096
 call beep
-leti r0 837
+leti r0 2119
 call beep
-leti r0 199
+leti r0 1091
 call beep
-leti r0 204
+leti r0 1095
 call beep
-leti r0 197
+leti r0 1352
 call beep
-leti r0 197
+leti r0 1351
 call beep
-leti r0 197
+leti r0 1093
 call beep
-leti r0 197
+leti r0 1091
 call beep
-leti r0 197
+leti r0 1093
 call beep
-leti r0 197
+leti r0 1081
 call beep
-leti r0 197
+leti r0 1087
 call beep
-leti r0 197
+leti r0 1090
 call beep
-leti r0 197
+leti r0 2117
 call beep
-leti r0 197
+leti r0 2119
 call beep
-leti r0 197
+leti r0 2115
 call beep
-leti r0 197
+leti r0 2112
 call beep
-leti r0 197
+leti r0 2112
 call beep
-leti r0 197
+leti r0 2119
 call beep
-leti r0 197
+leti r0 1090
 call beep
-leti r0 197
+leti r0 1091
 call beep
-leti r0 197
+leti r0 1093
 call beep
-leti r0 197
+leti r0 1351
 call beep
-leti r0 197
+leti r0 1349
 call beep
-leti r0 197
+leti r0 1091
 call beep
-leti r0 197
+leti r0 1090
 call beep
-leti r0 197
+leti r0 1088
 call beep
-leti r0 197
+leti r0 1076
 call beep
-leti r0 197
+leti r0 1088
 call beep
-leti r0 197
+leti r0 1091
 call beep
-leti r0 197
+leti r0 2119
 call beep
-leti r0 197
+leti r0 1093
 call beep
-leti r0 197
+leti r0 1091
 call beep
-leti r0 197
+leti r0 1090
 call beep
-leti r0 197
+leti r0 1078
 call beep
-leti r0 197
+leti r0 1090
 call beep
-leti r0 197
+leti r0 1091
 call beep
-leti r0 197
+leti r0 2117
 call beep
-leti r0 197
+leti r0 2119
 call beep
-leti r0 197
+leti r0 2115
 call beep
-leti r0 197
+leti r0 2112
 call beep
-leti r0 197
+leti r0 2112
 call beep
-leti r0 197
+leti r0 325
 call beep
-leti r0 197
+leti r0 1096
 call beep
-leti r0 197
+leti r0 1100
 call beep
-leti r0 197
+leti r0 332
 call beep
-leti r0 197
+leti r0 1098
 call beep
-leti r0 197
+leti r0 1096
 call beep
-leti r0 197
+leti r0 2119
 call beep
-leti r0 197
+leti r0 1091
 call beep
-leti r0 197
+leti r0 1095
 call beep
-leti r0 197
+leti r0 1352
 call beep
-leti r0 197
+leti r0 1351
 call beep
-leti r0 197
+leti r0 1093
 call beep
-leti r0 197
+leti r0 1091
 call beep
-leti r0 197
+leti r0 1093
 call beep
-leti r0 197
+leti r0 1081
 call beep
-leti r0 197
+leti r0 1087
 call beep
-leti r0 197
+leti r0 1090
 call beep
-leti r0 197
+leti r0 2117
 call beep
-leti r0 197
+leti r0 2119
 call beep
-leti r0 197
+leti r0 2115
 call beep
-leti r0 197
+leti r0 2112
 call beep
-leti r0 197
+leti r0 2112
 call beep
-leti r0 197
+leti r0 2119
 call beep
-leti r0 197
+leti r0 1090
 call beep
-leti r0 197
+leti r0 1091
 call beep
-leti r0 197
+leti r0 1093
 call beep
-leti r0 197
+leti r0 1351
 call beep
-leti r0 197
+leti r0 1349
 call beep
-leti r0 197
+leti r0 1091
 call beep
-leti r0 197
+leti r0 1090
 call beep
-leti r0 204
+leti r0 1088
 call beep
-leti r0 836
+leti r0 1076
 call beep
-leti r0 837
+leti r0 1088
 call beep
-leti r0 199
+leti r0 1091
 call beep
-leti r0 837
+leti r0 2119
 call beep
-leti r0 836
+leti r0 1093
 call beep
-leti r0 197
+leti r0 1091
 call beep
-leti r0 837
+leti r0 1090
 call beep
-leti r0 837
+leti r0 1078
 call beep
-leti r0 200
+leti r0 1090
 call beep
-leti r0 839
+leti r0 1091
 call beep
-leti r0 837
+leti r0 2117
 call beep
-leti r0 964
+leti r0 2119
 call beep
-leti r0 837
+leti r0 2115
 call beep
-leti r0 199
+leti r0 2112
 call beep
-leti r0 204
+leti r0 2112
 call beep
-leti r0 197
+leti r0 325
 call beep
-leti r0 197
+leti r0 1096
 call beep
-leti r0 197
+leti r0 1100
 call beep
-leti r0 842
+leti r0 332
 call beep
-leti r0 845
+leti r0 1098
 call beep
-leti r0 845
+leti r0 1096
 call beep
-leti r0 845
+leti r0 2119
 call beep
-leti r0 845
+leti r0 1091
 call beep
-leti r0 847
+leti r0 1095
 call beep
-leti r0 845
+leti r0 1352
 call beep
-leti r0 844
+leti r0 1351
 call beep
-leti r0 840
+leti r0 1093
 call beep
-leti r0 840
+leti r0 1091
 call beep
-leti r0 842
+leti r0 1093
 call beep
-leti r0 840
+leti r0 1081
 call beep
-leti r0 840
+leti r0 1087
 call beep
-leti r0 836
+leti r0 1090
 call beep
-leti r0 837
+leti r0 2117
 call beep
-leti r0 199
+leti r0 2119
 call beep
-leti r0 204
+leti r0 2115
 call beep
-leti r0 197
+leti r0 2112
 call beep
-leti r0 197
+leti r0 2112
 call beep
-leti r0 197
+leti r0 2119
 call beep
-leti r0 204
+leti r0 1090
 call beep
-leti r0 836
+leti r0 1091
 call beep
-leti r0 837
+leti r0 1093
 call beep
-leti r0 199
+leti r0 1351
 call beep
-leti r0 837
+leti r0 1349
 call beep
-leti r0 836
+leti r0 1091
 call beep
-leti r0 197
+leti r0 1090
 call beep
-leti r0 837
+leti r0 1088
 call beep
-leti r0 837
+leti r0 1076
 call beep
-leti r0 200
+leti r0 1088
 call beep
-leti r0 839
+leti r0 1091
 call beep
-leti r0 837
+leti r0 2119
 call beep
-leti r0 964
+leti r0 1093
 call beep
-leti r0 837
+leti r0 1091
 call beep
-leti r0 199
+leti r0 1090
 call beep
-leti r0 204
+leti r0 1078
 call beep
-leti r0 197
+leti r0 1090
 call beep
-leti r0 197
+leti r0 1091
 call beep
-leti r0 197
+leti r0 2117
 call beep
-call unlockaudio 
+leti r0 2119
+call beep
+leti r0 2115
+call beep
+leti r0 2112
+call beep
+leti r0 2112
+call beep
+leti r0 325
+call beep
+leti r0 1096
+call beep
+leti r0 1100
+call beep
+leti r0 1356
+call beep
+leti r0 1098
+call beep
+leti r0 1096
+call beep
+leti r0 2119
+call beep
+leti r0 1091
+call beep
+leti r0 1095
+call beep
+leti r0 1352
+call beep
+leti r0 1351
+call beep
+leti r0 1093
+call beep
+leti r0 1091
+call beep
+leti r0 1093
+call beep
+leti r0 1081
+call beep
+leti r0 1087
+call beep
+leti r0 1090
+call beep
+leti r0 2117
+call beep
+leti r0 2119
+call beep
+leti r0 2115
+call beep
+leti r0 2112
+call beep
+leti r0 2112
+call beep
+leti r0 2119
+call beep
+leti r0 1090
+call beep
+leti r0 1091
+call beep
+leti r0 1093
+call beep
+leti r0 1351
+call beep
+leti r0 1349
+call beep
+leti r0 1091
+call beep
+leti r0 1090
+call beep
+leti r0 1088
+call beep
+leti r0 1076
+call beep
+leti r0 1088
+call beep
+leti r0 1091
+call beep
+leti r0 2119
+call beep
+leti r0 1093
+call beep
+leti r0 1091
+call beep
+leti r0 1090
+call beep
+leti r0 1078
+call beep
+leti r0 1090
+call beep
+leti r0 1091
+call beep
+leti r0 2117
+call beep
+leti r0 2119
+call beep
+leti r0 2115
+call beep
+leti r0 2112
+call beep
+leti r0 2112
+call beep
+leti r0 325
+call beep
+leti r0 1096
+call beep
+leti r0 1100
+call beep
+leti r0 332
+call beep
+leti r0 1098
+call beep
+leti r0 1096
+call beep
+leti r0 2119
+call beep
+leti r0 1091
+call beep
+leti r0 1095
+call beep
+leti r0 1352
+call beep
+leti r0 1351
+call beep
+leti r0 1093
+call beep
+leti r0 1091
+call beep
+leti r0 1093
+call beep
+leti r0 1081
+call beep
+leti r0 1087
+call beep
+leti r0 1090
+call beep
+leti r0 2117
+call beep
+leti r0 2119
+call beep
+leti r0 2115
+call beep
+
+call unlockaudio
 jump -13
 
 
