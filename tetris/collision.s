@@ -1,8 +1,9 @@
 jump skipcollision
 ;determine s'il y a collison avec l'environnement pour une forme donnee
 ;entree point en haut a gauche de la forme, la forme et l'orientation
-;sortie r0 est nul si et seulement s'il n'y a aucune collision
-;il faut push r0 avant d'appeler cette fonction ! Et il faut inclure estnoir !
+;sortie r5 est nul si et seulement s'il n'y a aucune collision
+;il faut push r0 avant car sa valeur est detruite par les appels à estnoir
+;il faut inclure estnoir !
 
 collision:
 push 64 r2
@@ -10,7 +11,7 @@ sub2i r2 5 ; on testera toujours le pixel d'en dessous le carre, donc 4+1 pixels
 
 ;pour chaque forme et orientation il faut verifier les points de collision specifique
 
-push 64 r5
+
 leti r5 0 ; r5 contiendra la somme des couleurs des points a tester, r5 =0 ssi pas de collision
 cmpi r3 0
 jumpif z i
@@ -188,7 +189,8 @@ t: ; cas d'une forme de T
 		jump end
 
 end:
-let r0 r5
+
+
 pop 64 r5
 pop 64 r2
 
