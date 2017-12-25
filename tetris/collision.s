@@ -6,6 +6,7 @@ jump skipcollision
 ;il faut inclure estnoir !
 
 collision:
+push 64 r7
 push 64 r2
 push 64 r5
 sub2i r2 5 ; on testera toujours le pixel d'en dessous le carre, donc 4+1 pixels plus bas
@@ -273,6 +274,7 @@ end:
 let r6 r5
 pop 64 r5
 pop 64 r2
+
 
 return
 skipcollision:

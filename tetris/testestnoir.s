@@ -1,6 +1,13 @@
+#include <graph.sl>
+
 leti r1 12
 leti r2 18
-call estnoir
+leti r0 12
+.carreauto
+
+
+leti r0 13
+call graph.estnoir
 jump -13
 
 jump estnoir.skipestnoir

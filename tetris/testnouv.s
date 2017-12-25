@@ -32,7 +32,7 @@ pop 64 r4
 pop 64 r3
 
 push 64 r7
-call graph.estnoir
+call collision.collision
 pop 64 r7
 
 
