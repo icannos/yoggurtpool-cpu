@@ -32,7 +32,7 @@ push 64 r7
 call effetrepl.graph.estnoir
 pop 64 r7 
 add2i r2 1 
-
+.carreauto 
 add2i r1 4 
 jump effetrepl.bouclex
 effetrepl.finbouclex:
