@@ -1,0 +1,27 @@
+
+Exchangedbits: 2079
+BitsFromPC: 1823
+BitsFromRam: 128
+BitsToRam: 128
+
+| Opcode | Mnemonic |
+| ------ | -------  |
+| return|010000| 
+| add2|0101| 
+| readse|010010| 
+| leti|10| 
+| jumpifreg|110| 
+| jumpreg|001| 
+| jump|0100111| 
+| call|0100110| 
+| shift|111| 
+| push|010001| 
+| cmpi|011| 
+| jumpif|000| 
+
+| Opcode | Mnemonic |
+| ------ | -------  |
+| 0|0| 
+| 6|1| 
+
+dump3
