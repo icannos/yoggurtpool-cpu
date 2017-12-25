@@ -1,17 +1,25 @@
 jump skipnouvelle
 nouvelle:
 
-
+push 64 r7
 
 
 ;on cree les parametres aléatoires qui vont bien
 
 push 64 r7
 call -2
+pop 64 r7
+
 
 let r3 r0
+
+push 64 r7
 call -2
+pop 64 r7
+
 let r4 r0
+
+push 64 r7
 call -2
 pop 64 r7
 ;transformons ce nombre en couleur
@@ -37,6 +45,7 @@ leti r1 100 ;on met la piece au milieu
 leti r2 127
 
 
-
+pop 64 r7
+return
 
 skipnouvelle:
