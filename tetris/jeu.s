@@ -43,7 +43,7 @@ partie:
 ;regarde si on est arrive en haut
 push 64 r0
 push 64 r7
-call ligne.lignevide
+call lignevide
 pop 64 r7
 cmpi r0 0
 jumpif z findepartie
@@ -55,7 +55,7 @@ pop 64 r0
 	jumpif z continue ;si on a une collision la piece precedente ne bouge plus on en prend une nouvelle
 	;gestion de la grille car des lignes pourraient etre pleines
 	push 64 r7
-	call ligne.majligne
+	call majligne
 	pop 64 r7
 	;creation d'une nouvelle piece
 	push 64 r7
