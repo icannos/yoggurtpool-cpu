@@ -85,6 +85,8 @@ jump lignevide.skiplignevide:
 
 lignevide:
 
+.char 992 90 100 lignevide
+
 push 64 r1 
 leti r1 BORDG 
 add2i r1 2 

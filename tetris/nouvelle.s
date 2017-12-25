@@ -5,8 +5,10 @@ nouvelle:
 
 
 ;on cree les parametres aléatoires qui vont bien
+
 push 64 r7
 call -2
+
 let r3 r0
 call -2
 let r4 r0

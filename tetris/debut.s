@@ -4,25 +4,28 @@
 jump skipdebut
 
 debut:
-;.char 65535 20 100 Bienvenue
-;.char 65535 90 100 dans
-;.char 65535 50 70 TETRIS
 
-;leti r0 5
-;call time.time
+push 64 r7
+.char 65535 20 100 Bienvenue
+.char 65535 90 100 dans
+.char 65535 50 70 TETRIS
 
-;leti r0 0
-;call graph.clear_screen
-;.char 65535 5 100 SCORE
+leti r0 5
+call time.time
 
-;.draw 31 8 70 8 30 ; dessin de la jauge
-;.draw 31 8 30 13 30
-;.draw 31 13 70 13 30
+leti r0 0
+call graph.clear_screen
+.char 65535 5 100 SCORE
 
-;.carre 992 80 50
+.draw 31 13 70 13 30 ; dessin de la jauge
+.draw 31 13 30 19 30
+.draw 31 19 70 19 30
+
+.carreauto 992 80 50
 .fill 65535 45 128 50 0
 .fill 65535 50 5 150 0
 .fill 65535 150 128 155 0
+pop 64 r7
 
 return
 
