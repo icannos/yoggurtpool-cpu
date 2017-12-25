@@ -164,6 +164,10 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop, bool stats, std::string
             case -2:
                 srand(time(NULL));
                 r[0] = randab(0,3);
+
+                pc = r[7];
+                m->set_counter(PC, (uword) pc);
+
                 break;
 
                 // Place pour d'autres instructions.
