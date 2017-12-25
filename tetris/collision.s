@@ -7,12 +7,13 @@ jump skipcollision
 
 collision:
 push 64 r2
+push 64 r5
 sub2i r2 5 ; on testera toujours le pixel d'en dessous le carre, donc 4+1 pixels plus bas
 
 ;pour chaque forme et orientation il faut verifier les points de collision specifique
 
 
-leti r6 0 ; r6 contiendra la somme des couleurs des points a tester, r5 =0 ssi pas de collision
+leti r6 0 ; r6 contiendra la somme des couleurs des points a tester, r6 =0 ssi pas de collision
 cmpi r3 0
 jumpif z i
 cmpi r3 1
