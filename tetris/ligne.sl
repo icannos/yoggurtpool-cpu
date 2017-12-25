@@ -17,7 +17,7 @@ leti r3 BORDD
 let r4 r2 
 sub2i r4 4 
 push 64 r7 
-call graph.fill
+call effetrepl.graph.fill
 pop 64 r7 
 
 
@@ -29,7 +29,7 @@ cmpi r1 BORDD
 jumpif z effetrepl.finbouclex
 sub2i r2 1 
 push 64 r7 
-call graph.estnoir
+call effetrepl.graph.estnoir
 pop 64 r7 
 add2i r2 1 
 
@@ -61,7 +61,7 @@ lignepleine.boucle:
 cmpi r1 BORDD 
 jumpif gt lignepleine.boucleend
 push 64 r7 
-call graph.estnoir
+call lignepleine.graph.estnoir
 pop 64 r7 
 cmpi r0 0 
 jumpif z lignepleine.nonremplie
@@ -85,8 +85,6 @@ jump lignevide.skiplignevide:
 
 lignevide:
 
-.char 992 90 100 lignevide
-
 push 64 r1 
 leti r1 BORDG 
 add2i r1 2 
@@ -95,7 +93,7 @@ lignevide.boucle:
 cmpi r1 BORDD 
 jumpif gt lignevide.boucleend
 push 64 r7 
-call graph.estnoir
+call lignevide.graph.estnoir
 pop 64 r7 
 cmpi r0 0 
 jumpif nz lignevide.nonvide
@@ -129,7 +127,7 @@ majligne.boucley:
 cmpi r2 127 
 jumpif sgt majligne.finboucley
 push 64 r7 
-call ligne.lignepleine
+call majligne.ligne.lignepleine
 pop 64 r7 
 
 cmpi r0 0 
@@ -142,10 +140,10 @@ leti r3 13
 let r4 r5 
 add2i r4 2 
 push 64 r7 
-call graph.fill
+call majligne.graph.fill
 pop 64 r7 
 push 64 r7 
-call ligne.effetrepl
+call majligne.ligne.effetrepl
 pop 64 r7 
 
 
@@ -168,4 +166,4 @@ pop 64 r0
 
 
 majligne.skipmajligne:
-
+['effetrepl', 'lignepleine', 'ligne', 'lignevide', 'majligne']

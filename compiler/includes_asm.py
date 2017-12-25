@@ -66,6 +66,7 @@ def build_includes(source, srcpath):
     for i in include_src:
         newsource += i
 
+    print(newsource)
     return newsource
 
 
@@ -206,6 +207,10 @@ def prefixage(source, prefixe):
                 reecrit = list_to_str(tokens)
             if opcode == ".char" and token_count == 5:
                 # on se met la ou est la premiere lettre et on se deplace vers la gauche de 10 a chaque fois
+                reecrit = list_to_str(tokens)
+            if opcode == ".carre" and token_count == 4: #on indique la couleur puis l'abscisse à gauche et l'ordonnée en haut
+                reecrit = list_to_str(tokens)
+            if opcode == ".carreauto" and token_count == 1:  # on indique la couleur puis l'abscisse à gauche et l'ordonnée en haut
                 reecrit = list_to_str(tokens)
 
         code.append(reecrit)

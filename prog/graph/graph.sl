@@ -231,8 +231,6 @@ setctr a0 r3
 write a0 16 r0 
 return 
 draw.plotend:
-
-
 jump estnoir.skipestnoir
 
 estnoir:
@@ -494,4 +492,4 @@ load font.mem
 putchar.endfont:
 
 putchar.skipputchar:
-['buildlib', 'clear_screen', 'draw', 'estnoir', 'fill', 'graph', 'list', 'plot', 'putchar', 'graph.fill', 'graph.estnoir', 'ligne.effetrepl', 'ligne.lignepleine']
+['buildlib', 'clear_screen', 'draw', 'estnoir', 'fill', 'graph', 'list', 'plot', 'putchar']

@@ -1,13 +1,14 @@
 
 jump skipbrique:
 brique:
-#include <graph.sl>
 
 push 64 r7
 push 64 r1
 push 64 r2
 
 leti r0 992
+
+
 .carreauto
 
 ;on determine quelle forme on trace
