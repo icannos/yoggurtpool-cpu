@@ -10,4 +10,5 @@ leti r6 12
 push 64 r7
 call collision.collision
 pop 64 r7
+add2 r0 r0
 jump -13
