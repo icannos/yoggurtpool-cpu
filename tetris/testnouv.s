@@ -17,7 +17,9 @@
 #define VERT 992
 #define ROUGE 64512
 
-
+push 64 r7
+call ligne.lignevide
+pop 64 r7
 
 push 64 r7
 call nouvelle.nouvelle

@@ -62,7 +62,9 @@ pop 64 r0
 	call nouvelle.nouvelle
 	pop 64 r7
 	leti r6 0 ; on remet le drapeau en attente
+	
 leti r0 3
+push 64 r7
 call time.time
 pop 64 r7
 

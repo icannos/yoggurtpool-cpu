@@ -3,7 +3,8 @@ jump skiplignevide:
 ;il faut push r0 avant d'appeler la fonction, car r0 = 0 ssi ligne non vide
 
 lignevide:
-
+push 64 r2
+leti r2 124 ; a ajuster
 push 64 r1
 leti r1 BORDG
 add2i r1 2 ;r1 est donc dans le premier carre de la grille
@@ -25,7 +26,7 @@ leti r0 1
 boucleend:
 
 pop 64 r1
-
+pop 64 r2
 
 return
 

@@ -85,6 +85,9 @@ jump lignevide.skiplignevide:
 
 lignevide:
 
+push 64 r2
+leti r2 124
+
 push 64 r1 
 leti r1 BORDG 
 add2i r1 2 
@@ -93,7 +96,7 @@ lignevide.boucle:
 cmpi r1 BORDD 
 jumpif gt lignevide.boucleend
 push 64 r7 
-call lignevide.graph.estnoir
+call graph.estnoir
 pop 64 r7 
 cmpi r0 0 
 jumpif nz lignevide.nonvide
@@ -106,7 +109,7 @@ leti r0 1
 lignevide.boucleend:
 
 pop 64 r1 
-
+pop 64 r2
 
 return 
 
