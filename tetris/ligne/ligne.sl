@@ -9,18 +9,18 @@ push 64 r3
 push 64 r4 
 
 
-leti r0 0 
-leti r1 BORDG 
 
-leti r3 BORDD 
 
-let r4 r2 
-sub2i r4 4 
-push 64 r2 
-push 64 r7 
-call graph.fill
-pop 64 r7 
-pop 64 r2 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -30,11 +30,11 @@ leti r1 BORDG
 effetrepl.bouclex:
 cmpi r1 BORDD 
 jumpif z effetrepl.finbouclex
-sub2i r2 1 
+add2i r2 1 
 push 64 r7 
 call graph.estnoir
 pop 64 r7 
-add2i r2 1 
+sub2i r2 1 
 push 64 r7 
 .carreauto 
 pop 64 r7 
@@ -134,14 +134,14 @@ push 64 r4
 leti r2 9 
 
 majligne.boucley:
-cmpi r2 127 
+cmpi r2 125 
 jumpif sgt majligne.finboucley
 push 64 r7 
 call ligne.lignepleine
 pop 64 r7 
 
 cmpi r0 0 
-jumpif z majligne.pasremplie
+jumpif nz majligne.pasremplie
 add2i r5 2 
 push 64 r0 
 push 64 r1 
@@ -162,6 +162,7 @@ pop 64 r3
 pop 64 r2 
 pop 64 r1 
 pop 64 r0 
+
 push 64 r7 
 call ligne.effetrepl
 pop 64 r7 
@@ -171,6 +172,7 @@ jump majligne.boucley
 
 majligne.pasremplie:
 add2i r2 4 
+jump majligne.boucley
 
 majligne.finboucley:
 
@@ -182,5 +184,6 @@ pop 64 r2
 pop 64 r1 
 pop 64 r0 
 
+return 
 
 majligne.skipmajligne:

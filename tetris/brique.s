@@ -5,6 +5,8 @@ brique:
 push 64 r7
 push 64 r1
 push 64 r2
+push 64 r3
+push 64 r4
 
 
 ;on determine quelle forme on trace
@@ -33,10 +35,12 @@ i: ;cas d'une forme de droite
 		.carreauto
 		add2i r1 4
 		.carreauto
+		pop 64 r4
+		pop 64 r3
 		pop 64 r2
 		pop 64 r1
 		pop 64 r7
-
+		
 		return
 
 	basei:
@@ -47,6 +51,8 @@ i: ;cas d'une forme de droite
 		.carreauto
 		sub2i r2 4
 		.carreauto
+		pop 64 r4
+		pop 64 r3
 		pop 64 r2
 		pop 64 r1
 		pop 64 r7
@@ -73,6 +79,8 @@ l: ; cas d'une forme de l
 		add2i r2 8
 		add2i r1 4
 		.carreauto
+		pop 64 r4
+		pop 64 r3
 		pop 64 r2
 		pop 64 r1
 		pop 64 r7
@@ -100,6 +108,8 @@ l: ; cas d'une forme de l
 		.carreauto
 		sub2i r1 4
 		.carreauto
+		pop 64 r4
+		pop 64 r3
 		pop 64 r2
 		pop 64 r1
 		pop 64 r7
@@ -128,6 +138,8 @@ o: ; cas d'une forme de carre
 	.carreauto
 	sub2i r1 4
 	.carreauto
+		pop 64 r4
+		pop 64 r3
 		pop 64 r2
 		pop 64 r1
 		pop 64 r7
@@ -152,6 +164,8 @@ t: ; cas d'une forme de T
 		.carreauto
 		add2i r1 8
 		.carreauto
+		pop 64 r4
+		pop 64 r3
 		pop 64 r2
 		pop 64 r1
 		pop 64 r7
@@ -167,6 +181,8 @@ t: ; cas d'une forme de T
 		add2i r1 4
 		sub2i r2 4
 		.carreauto
+		pop 64 r4
+		pop 64 r3
 		pop 64 r2
 		pop 64 r1
 		pop 64 r7
@@ -180,6 +196,8 @@ t: ; cas d'une forme de T
 		sub2i r1 4
 		sub2i r2 4
 		.carreauto
+		pop 64 r4
+		pop 64 r3
 		pop 64 r2
 		pop 64 r1
 		return
@@ -193,6 +211,8 @@ t: ; cas d'une forme de T
 		sub2i r1 4
 		sub2i r2 4
 		.carreauto
+		pop 64 r4
+		pop 64 r3
 		pop 64 r2
 		pop 64 r1
 		pop 64 r7

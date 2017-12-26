@@ -43,10 +43,10 @@ partie:
 ;regarde si on est arrive en haut
 push 64 r0
 push 64 r7
-call lignevide
+call ligne.lignevide
 pop 64 r7
 cmpi r0 0
-jumpif z findepartie
+jumpif nz findepartie
 pop 64 r0
 
 
@@ -55,14 +55,18 @@ pop 64 r0
 	jumpif z continue ;si on a une collision la piece precedente ne bouge plus on en prend une nouvelle
 	;gestion de la grille car des lignes pourraient etre pleines
 	push 64 r7
-	call majligne
+	call ligne.majligne
 	pop 64 r7
 	;creation d'une nouvelle piece
 	push 64 r7
 	call nouvelle.nouvelle
 	pop 64 r7
+	push 64 r7
+	call brique.brique
+	pop 64 r7
 	leti r6 0 ; on remet le drapeau en attente
-	
+
+
 leti r0 3
 push 64 r7
 call time.time
@@ -73,19 +77,22 @@ continue:
 ;gestion de la piece
 
 ;on l'efface
-push 64 r0
+push 64 r0 ;on sauvegarde donc la couleur avant de mettre du noir
 leti r0 0
 push 64 r7
 call brique.brique
 pop 64 r7
+.char 992 100 60 enfin
 
 push 64 r6 ; r6 va servir de drapeau pour savoir s'il y a une collision horizontale
 ;inserer l'action du joueur ici
+push 64 r7
 call keyboard.waitkey
+pop 64 r7
 	;si le joueur n'a pas apppuye
 	cmpi r0 -1
 	jumpif z suite
-	;on gere tous les mouvements possibles, a gauche c'est gentil e droite c'est chiant comme dans la vraie vie
+	;on gere tous les mouvements possibles, a gauche c'est gentil a droite c'est chiant comme dans la vraie vie
 	cmpi r0 7 ;veut on décaler la pièce à droite ?
 	jumpif nz ndroite
 		add2i r1 UNIT
@@ -154,11 +161,11 @@ call keyboard.waitkey
 suite:
 pop 64 r6 ; retour du drapeau dans r6
 
-pop 64 r0
+pop 64 r0 ; on recupere la couleur de la piece
 
 push 64 r0
 push 64 r7
-call collision.collision
+call collision.collision ; la reponse est envoyee dans r6 et sera traitee au prochain tour
 pop 64 r7
 pop 64 r0
 
