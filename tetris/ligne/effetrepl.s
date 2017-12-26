@@ -1,5 +1,5 @@
 jump effetreplskip
-; ça va efface et remplacer par la ligne du dessus la ligne d'ordonnee r2
+; ça va effacer et remplacer par la ligne du dessus la ligne d'ordonnee r2
 effetrepl:
 
 push 64 r0
@@ -19,6 +19,8 @@ sub2i r4 4
 push 64 r7
 call graph.fill
 pop 64 r7
+
+
 
 
 ; puis on recopie
