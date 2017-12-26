@@ -66,12 +66,12 @@ pop 64 r0
 	pop 64 r7
 	leti r6 0 ; on remet le drapeau en attente
 
-
+push 64 r0
 leti r0 3
 push 64 r7
 call time.time
 pop 64 r7
-
+pop 64 r0
 
 continue:
 ;gestion de la piece
@@ -82,6 +82,13 @@ leti r0 0
 push 64 r7
 call brique.brique
 pop 64 r7
+
+push 64 r0
+leti r0 2
+push 64  r7
+call time.time
+pop 64 r7
+pop 64 r0
 .char 992 100 60 enfin
 
 push 64 r6 ; r6 va servir de drapeau pour savoir s'il y a une collision horizontale
