@@ -30,7 +30,7 @@ private:
 public:
     Beeper();
     ~Beeper();
-    void beep(double freq, int duration);
+    void beep(double freq, float duration);
     void generateSamples(Sint16 *stream, int length);
     void wait();
 };

@@ -56,7 +56,7 @@ void Beeper::generateSamples(Sint16 *stream, int length) {
     }
 }
 
-void Beeper::beep(double freq, int duration) {
+void Beeper::beep(double freq, float duration) {
     BeepObject bo;
     bo.freq = freq;
     bo.samplesLeft = duration * FREQUENCY / 1000;

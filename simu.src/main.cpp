@@ -42,6 +42,8 @@ void usage() {
 
 int main(int argc, char* argv[]) {
 
+    srand(time(NULL));
+
 	if(argc==1) {
 		usage();
 	}

@@ -162,7 +162,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop, bool stats, std::string
                 break;
 
             case -2:
-                srand(time(NULL));
+
                 r[0] = randab(0,4);
 
                 pc = r[7];

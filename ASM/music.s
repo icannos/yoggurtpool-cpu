@@ -2,81 +2,81 @@
 #DEFINE PTR_FILE 0x3FF9F780
 #DEFINE BEGIN_QUEUE 0x3FF9F7C0
 
-call lockaudio
-leti r0 1100
-call beep
-leti r0 583
-call beep
-leti r0 584
-call beep
-leti r0 1098
-call beep
-leti r0 584
-call beep
-leti r0 583
-call beep
-leti r0 581
-call beep
-leti r0 581
-call beep
-leti r0 584
-call beep
-leti r0 588
-call beep
-leti r0 586
-call beep
-leti r0 584
-call beep
-leti r0 583
-call beep
-leti r0 584
-call beep
-leti r0 1098
-call beep
-leti r0 1100
-call beep
-leti r0 1096
-call beep
-leti r0 709
-call beep
-leti r0 965
-call beep
-leti r0 586
-call beep
-leti r0 589
-call beep
-leti r0 593
-call beep
-leti r0 591
-call beep
-leti r0 589
-call beep
-leti r0 204
-call beep
-leti r0 584
-call beep
-leti r0 588
-call beep
-leti r0 586
-call beep
-leti r0 584
-call beep
-leti r0 583
-call beep
-leti r0 584
-call beep
-leti r0 1098
-call beep
-leti r0 1100
-call beep
-leti r0 1096
-call beep
-leti r0 581
-call beep
-leti r0 197
-call beep
 
-call unlockaudio
+call lockaudio
+leti r0 4172
+call beep
+leti r0 2119
+call beep
+leti r0 2120
+call beep
+leti r0 4170
+call beep
+leti r0 2120
+call beep
+leti r0 2119
+call beep
+leti r0 2117
+call beep
+leti r0 2117
+call beep
+leti r0 2120
+call beep
+leti r0 2124
+call beep
+leti r0 2122
+call beep
+leti r0 2120
+call beep
+leti r0 2119
+call beep
+leti r0 2120
+call beep
+leti r0 4170
+call beep
+leti r0 4172
+call beep
+leti r0 4168
+call beep
+leti r0 2629
+call beep
+leti r0 3653
+call beep
+leti r0 2122
+call beep
+leti r0 2125
+call beep
+leti r0 2129
+call beep
+leti r0 2127
+call beep
+leti r0 2125
+call beep
+leti r0 588
+call beep
+leti r0 2120
+call beep
+leti r0 2124
+call beep
+leti r0 2122
+call beep
+leti r0 2120
+call beep
+leti r0 2119
+call beep
+leti r0 2120
+call beep
+leti r0 4170
+call beep
+leti r0 4172
+call beep
+leti r0 4168
+call beep
+leti r0 2117
+call beep
+leti r0 581
+call beep
+call unlockaudioloop
 jump -13
 
 
