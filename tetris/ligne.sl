@@ -35,7 +35,9 @@ push 64 r7
 call graph.estnoir
 pop 64 r7 
 add2i r2 1 
+push 64 r7 
 .carreauto 
+pop 64 r7 
 add2i r1 4 
 jump effetrepl.bouclex
 effetrepl.finbouclex:
@@ -135,7 +137,7 @@ majligne.boucley:
 cmpi r2 127 
 jumpif sgt majligne.finboucley
 push 64 r7 
-call majligne.ligne.lignepleine
+call ligne.lignepleine
 pop 64 r7 
 
 cmpi r0 0 
@@ -182,4 +184,3 @@ pop 64 r0
 
 
 majligne.skipmajligne:
-['ligne.effetrepl', 'ligne.ligne', 'ligne.vide', 'ligne.majligne', 'time.time', 'graph.clear_screen', 'graph.fill', 'graph.plot', 'graph.draw', 'graph.putchar', 'graph.estnoir', 'effetrepl', 'lignepleine', 'ligne', 'lignevide', 'majligne', 'effetrepl', 'lignepleine', 'ligne', 'lignevide', 'majligne', 'effetrepl', 'lignepleine', 'ligne', 'lignevide', 'majligne', 'effetrepl', 'lignepleine', 'ligne', 'lignevide', 'majligne']

@@ -32,8 +32,6 @@ def buildAsmMusic(filename):
 
     asm = "call lockaudio" + "\n"
 
-    print(len(s[0]))
-
     for p in s[0]:
         if(isinstance(p, music21.chord.Chord)):
             d = p.duration.quarterLength
@@ -42,16 +40,12 @@ def buildAsmMusic(filename):
             asm += "call beep \n"
 
 
-
         elif (isinstance(p, music21.note.Note)):
             p_nb = p.midi
+            print(p_nb)
             d = p.duration.quarterLength
             asm += "leti r0 " + str((duration(d) << 7) + p_nb) + "\n"
             asm += "call beep \n"
-            print(d)
-            print(duration(d))
-
-
 
 
     asm += "call unlockaudio \n"
@@ -63,4 +57,6 @@ def buildAsmMusic(filename):
 
 
 
-buildAsmMusic("Tetris.mid")
+
+
+buildAsmMusic("tetris_feat_avalade.midi")

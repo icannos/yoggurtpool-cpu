@@ -15,7 +15,7 @@ estnoir:
     add2 r3 r1
     setctr a0 r3
     readze a0 16 r0
-    
+
     pop 64 r3
     pop 64 r2
     pop 64 r1

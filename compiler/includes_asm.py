@@ -8,7 +8,7 @@ import string
 import argparse
 
 global exclusions
-exclusions = ["ligne.effetrepl", "ligne.ligne", "ligne.vide", "ligne.majligne","time.time", "graph.clear_screen", "graph.fill", "graph.plot", "graph.draw", "graph.putchar", "graph.estnoir"]
+exclusions = ["ligne.effetrepl", "ligne.ligne", "ligne.vide", "ligne.lignepleine", "ligne.majligne","time.time", "graph.clear_screen", "graph.fill", "graph.plot", "graph.draw", "graph.putchar", "graph.estnoir"]
 
 
 def find_includes(source):
@@ -66,7 +66,7 @@ def build_includes(source, srcpath):
     for i in include_src:
         newsource += i
 
-    print(newsource)
+
     return newsource
 
 
@@ -273,4 +273,3 @@ if __name__ == '__main__':
             for l in prefixage(src, basefilename):
                 print(l)
 
-    print(exclusions)

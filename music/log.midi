@@ -1,0 +1,683 @@
+Waiting for data. Press Ctrl+C to end.
+Source  Event                  Ch  Data
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 36, velocity 60
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Note on                 0, note 64, velocity 57
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 64
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Note on                 0, note 48, velocity 50
+ 20:0   Clock
+ 20:0   Note on                 0, note 60, velocity 61
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 67, velocity 75
+ 20:0   Note on                 0, note 36, velocity 62
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Note off                0, note 67
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 48, velocity 58
+ 20:0   Note on                 0, note 60, velocity 60
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 67, velocity 69
+ 20:0   Note on                 0, note 36, velocity 55
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 67
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 48, velocity 62
+ 20:0   Clock
+ 20:0   Note on                 0, note 60, velocity 55
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 69, velocity 72
+ 20:0   Clock
+ 20:0   Note on                 0, note 36, velocity 54
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Note off                0, note 69
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Note on                 0, note 48, velocity 57
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 69, velocity 75
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 36, velocity 47
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Note off                0, note 69
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 60, velocity 57
+ 20:0   Note on                 0, note 48, velocity 52
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 67, velocity 68
+ 20:0   Note on                 0, note 36, velocity 57
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 36
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 67
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 60, velocity 55
+ 20:0   Note on                 0, note 48, velocity 45
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 67, velocity 70
+ 20:0   Active Sensing
+ 20:0   Note on                 0, note 36, velocity 53
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Note off                0, note 67
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Note on                 0, note 60, velocity 54
+ 20:0   Note on                 0, note 48, velocity 51
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 36, velocity 64
+ 20:0   Note on                 0, note 65, velocity 68
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 65
+ 20:0   Clock
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 60, velocity 54
+ 20:0   Note on                 0, note 48, velocity 44
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 36, velocity 58
+ 20:0   Note on                 0, note 65, velocity 61
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 36
+ 20:0   Note off                0, note 65
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 60, velocity 50
+ 20:0   Clock
+ 20:0   Note on                 0, note 48, velocity 45
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 36, velocity 48
+ 20:0   Clock
+ 20:0   Note on                 0, note 64, velocity 42
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Note off                0, note 64
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 48, velocity 43
+ 20:0   Note on                 0, note 60, velocity 47
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 36, velocity 47
+ 20:0   Clock
+ 20:0   Note on                 0, note 64, velocity 40
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Note off                0, note 64
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 60, velocity 45
+ 20:0   Clock
+ 20:0   Note on                 0, note 48, velocity 41
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Note on                 0, note 64, velocity 52
+ 20:0   Note on                 0, note 36, velocity 51
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 64
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Note on                 0, note 60, velocity 41
+ 20:0   Clock
+ 20:0   Note on                 0, note 48, velocity 56
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 64, velocity 56
+ 20:0   Note on                 0, note 36, velocity 60
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 64
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 48, velocity 51
+ 20:0   Note on                 0, note 60, velocity 42
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 36, velocity 49
+ 20:0   Note on                 0, note 64, velocity 49
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Note off                0, note 64
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 48, velocity 39
+ 20:0   Note on                 0, note 60, velocity 44
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 36, velocity 44
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 65, velocity 29
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Note off                0, note 65
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 48, velocity 45
+ 20:0   Clock
+ 20:0   Note on                 0, note 60, velocity 43
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 65, velocity 50
+ 20:0   Note on                 0, note 36, velocity 60
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Note off                0, note 65
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Note on                 0, note 48, velocity 52
+ 20:0   Clock
+ 20:0   Note on                 0, note 60, velocity 51
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 65, velocity 58
+ 20:0   Note on                 0, note 36, velocity 58
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 65
+ 20:0   Clock
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 48, velocity 46
+ 20:0   Note on                 0, note 60, velocity 48
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 36, velocity 60
+ 20:0   Note on                 0, note 65, velocity 65
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 65
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 48, velocity 52
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 60, velocity 51
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 36, velocity 71
+ 20:0   Note on                 0, note 65, velocity 68
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Note off                0, note 36
+ 20:0   Clock
+ 20:0   Note off                0, note 65
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Note on                 0, note 48, velocity 59
+ 20:0   Note on                 0, note 60, velocity 63
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Active Sensing
+ 20:0   Clock
+ 20:0   Note off                0, note 60
+ 20:0   Clock
+ 20:0   Note off                0, note 48
+ 20:0   Clock
+ 20:0   Clock
+ 20:0   Clock

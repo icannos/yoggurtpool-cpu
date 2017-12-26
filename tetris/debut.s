@@ -14,7 +14,9 @@ leti r0 5
 call time.time
 
 leti r0 0
+push 64 r7
 call graph.clear_screen
+pop 64 r7
 .char 65535 5 100 SCORE
 
 .draw 31 13 70 13 30 ; dessin de la jauge

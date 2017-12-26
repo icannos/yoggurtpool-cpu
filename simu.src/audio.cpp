@@ -4,17 +4,25 @@
 
 #include "audio.h"
 #include <bitset>
+#include <math.h>
+
+
 
 void simulate_audio(Memory *m) {
 
     SDL_Init(SDL_INIT_AUDIO);
 
-    float midi[127];
+    double midi[127];
 
-    int a = 440; // a is 440 hz...
+    double a = 440; // a is 440 hz...
 
     for (int x = 0; x < 127; x++) {
-        midi[x] = (a / 32) * (pow(2, ((x - 9) / 12)));
+        double puiss = pow( 2.0, ((x - 9.0) / 12.0) );
+
+        std::cout << puiss << std::endl;
+        midi[x] = ((a / 32) * puiss);
+        std::cout << midi[x] << std::endl;
+
     }
 
 
@@ -35,9 +43,9 @@ void simulate_audio(Memory *m) {
             }
         }
 
-            for (unsigned int i = 0; i < NB_NOTES; i++) {
+            for (unsigned int i = 1; i < NB_NOTES; i++) {
                 if ((m->m[((MEM_AUDIO_BEGIN) >> 6)-1] & 1) != 0) {
-                    uint16_t tempo = 100;
+                    uint16_t tempo = 175;
 
                     uint64_t mword = m->m[((MEM_AUDIO_BEGIN) >> 6) + 1 + (i >> 2)];
                     uint64_t mword2 = m->m[((MEM_AUDIO_BEGIN) >> 6) + 0 + (i >> 2)];

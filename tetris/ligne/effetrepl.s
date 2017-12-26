@@ -35,7 +35,9 @@ leti r1 BORDG
 	call graph.estnoir
 	pop 64 r7
 	add2i r2 1
+	push 64 r7
 	.carreauto
+	pop 64 r7
 	add2i r1 4
 	jump bouclex
 	finbouclex:
