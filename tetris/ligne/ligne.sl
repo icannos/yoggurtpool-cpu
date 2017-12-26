@@ -16,10 +16,11 @@ leti r3 BORDD
 
 let r4 r2 
 sub2i r4 4 
+push 64 r2 
 push 64 r7 
 call graph.fill
 pop 64 r7 
-
+pop 64 r2 
 
 
 

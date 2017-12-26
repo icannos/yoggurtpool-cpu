@@ -18,7 +18,7 @@
 #define ROUGE 64512
 
 .fill 31 80 0 100 10
-leti r1 5
+leti r2 5
 
 push 64 r7
 call ligne.effetrepl
