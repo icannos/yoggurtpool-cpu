@@ -268,7 +268,7 @@ if __name__ == '__main__':
             f.close()
 
             if options.exclusions != None:
-                exclusions = list(options.exclusions)
+                exclusions += list(options.exclusions)
 
             for l in prefixage(src, basefilename):
                 print(l)
