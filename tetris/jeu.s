@@ -17,9 +17,9 @@
 #include <collision.s>
 #include <collicote.s>
 
-push 64 r7
-call debut.debut
-pop 64 r7
+;push 64 r7
+;call debut.debut
+;pop 64 r7
 
 ;r0 va garder la couleur de la piece mais sert souvent de booleen
 ;r1 va garder l'abscisse de gauche de la pièce
@@ -169,12 +169,19 @@ push 64 r6 ; r6 va servir de drapeau pour savoir s'il y a une collision horizont
 ;suite:
 pop 64 r6 ; retour du drapeau dans r6
 
+cmpi r6 0
+jumpif z echec
+.char 31 40 40 ok
+echec:
+
 
 push 64 r0
 push 64 r7
 call collision.collision ; la reponse est envoyee dans r6 et sera traitee au prochain tour
 pop 64 r7
 pop 64 r0
+
+
 
 sub2i r2 UNIT ;on descend la pièce
 push 64 r7

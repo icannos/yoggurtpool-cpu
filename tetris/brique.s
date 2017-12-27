@@ -94,6 +94,8 @@ l: ; cas d'une forme de l
 		.carreauto
 		add2i r1 4
 		.carreauto
+		pop 64 r4
+		pop 64 r3
 		pop 64 r2
 		pop 64 r1
 		pop 64 r7
@@ -123,6 +125,8 @@ l: ; cas d'une forme de l
 		.carreauto
 		sub2i r2 4
 		.carreauto
+		pop 64 r4
+		pop 64 r3
 		pop 64 r2
 		pop 64 r1
 		pop 64 r7
@@ -200,6 +204,7 @@ t: ; cas d'une forme de T
 		pop 64 r3
 		pop 64 r2
 		pop 64 r1
+		pop 64 r7
 		return
 
 	rotgt:
