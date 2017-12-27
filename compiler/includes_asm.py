@@ -8,7 +8,10 @@ import string
 import argparse
 
 global exclusions
-exclusions = ["ligne.effetrepl", "ligne.ligne", "ligne.vide", "ligne.lignepleine", "ligne.majligne","time.time", "graph.clear_screen", "graph.fill", "graph.plot", "graph.draw", "graph.putchar", "graph.estnoir"]
+
+exclusions = ["ligne.effetrepl", "ligne.ligne", "ligne.vide", "ligne.lignepleine", "ligne.majligne","time.time", "graph.clear_screen", "graph.fill", "graph.plot", "graph.draw", "graph.putchar", "graph.estnoir"
+              "keyboard.waitkey", "keyboard.wait4key", "time.time"
+              ]
 
 
 def find_includes(source):

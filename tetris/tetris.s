@@ -2,6 +2,7 @@
 #define BORDD 150
 #define UNIT 4
 
+#define KEYBOARD_BEGIN 1073349796
 
 #define BLEU 31
 #define JAUNE 65523
