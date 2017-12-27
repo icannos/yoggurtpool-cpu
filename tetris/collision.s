@@ -2,7 +2,7 @@ jump skipcollision
 ;determine s'il y a collison avec l'environnement pour une forme donnee
 ;entree point en haut a gauche de la forme, la forme et l'orientation
 ;sortie r6 est nul si et seulement s'il n'y a aucune collision
-;il faut push r0 avant car sa valeur est detruite par les appels à estnoir
+
 ;il faut inclure estnoir !
 
 collision:
@@ -187,20 +187,19 @@ t: ; cas d'une forme de T
 	jumpif z rotgt
 
 	baset:
-		add2i r1 4
 		sub2i r2 4
 		push 64 r7
 		call graph.estnoir
 		pop 64 r7
 
 		add2 r5 r0
-		sub2i r1 4
+		add2i r1 4
 		push 64 r7
 		call graph.estnoir
 		pop 64 r7
 
 		add2 r5 r0
-		add2i r1 8
+		add2i r1 4
 		push 64 r7
 		call graph.estnoir
 		pop 64 r7
@@ -209,18 +208,14 @@ t: ; cas d'une forme de T
 		jump end
 
 	rotdt:
-		add2i r1 4
-		.carreauto
 		sub2i r2 4
-		.carreauto
-		sub2i r1 4
 		push 64 r7
 		call graph.estnoir
 		pop 64 r7
 
 		add2 r5 r0
-		add2i r1 4
 		sub2i r2 4
+		add2i r1 4
 		push 64 r7
 		call graph.estnoir
 		pop 64 r7
@@ -230,21 +225,20 @@ t: ; cas d'une forme de T
 		jump end
 
 	invt:
-	push 64 r7
-		call graph.estnoir
-		pop 64 r7
-
-		add2 r5 r0
-		add2i r1 4
-		.carreauto
-		add2i r1 4
 		push 64 r7
 		call graph.estnoir
 		pop 64 r7
 
 		add2 r5 r0
-		sub2i r1 4
+		add2i r1 4
 		sub2i r2 4
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
+		add2 r5 r0
+		add2i r1 4
+		add2i r2 4
 		push 64 r7
 		call graph.estnoir
 		pop 64 r7

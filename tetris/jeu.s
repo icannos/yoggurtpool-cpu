@@ -4,7 +4,7 @@
 
 
 #define BLEU 31
-#define JAUNE 62430
+#define JAUNE 65523
 #define VERT 992
 #define ROUGE 64512
 
@@ -171,10 +171,7 @@ push 64 r6 ; r6 va servir de drapeau pour savoir s'il y a une collision horizont
 ;suite:
 pop 64 r6 ; retour du drapeau dans r6
 
-cmpi r6 0
-jumpif z echec
-.char 31 40 40 ok
-echec:
+
 
 
 push 64 r0
@@ -190,7 +187,7 @@ push 64 r7
 call brique.brique ;on redessine la pièce en dessous
 pop 64 r7
 
-
+leti r6 0
 jump partie
 
 

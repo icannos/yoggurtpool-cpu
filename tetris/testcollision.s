@@ -16,13 +16,16 @@ leti r4 1
 leti r1 70
 leti r2 50
 leti r6 12
-push 64 r7
-call collision.collision
-pop 64 r7
 
 push 64 r7
 call brique.brique
 pop 64 r7
+
+push 64 r7
+call collision.collision
+pop 64 r7
+
+
 
 
 jump -13
