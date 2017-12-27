@@ -11,7 +11,7 @@ waitkey:
   leti r1 KEYBOARD_BEGIN
   setctr a0 r1
   leti r0 -1
-  infboucle:
+  infiniteboucle:
     getctr a0 r2
     sub2i r2 284
     cmp r1 r2
@@ -20,7 +20,7 @@ waitkey:
     readze a0 1 r3
 
     cmpi r3 0
-    jumpif eq infboucle
+    jumpif eq infiniteboucle
 
     getctr a0 r0
     sub2i r0 KEYBOARD_BEGIN
@@ -35,4 +35,3 @@ waitkey:
     return
 
 keyboardend:
-

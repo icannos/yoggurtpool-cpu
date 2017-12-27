@@ -20,7 +20,7 @@ void simulate_audio(Memory *m) {
         double puiss = pow( 2.0, ((x - 9.0) / 12.0) );
 
         midi[x] = ((a / 32) * puiss);
-        std::cout << midi[x] << std::endl;
+
     }
 
 
@@ -43,7 +43,7 @@ void simulate_audio(Memory *m) {
 
         float tempo = 500;
 
-            for (unsigned int i = 0; i < NB_NOTES; i++) {
+            for (unsigned int i = 0; i < NB_NOTES-70; i++) {
                 if ((m->m[((MEM_AUDIO_BEGIN) >> 6)-1] & 1) != 0 || (m->m[((MEM_AUDIO_BEGIN) >> 6)-1] & 2) != 0) {
                     uint64_t mword = m->m[((MEM_AUDIO_BEGIN+64) >> 6) + (i >> 2)];
 
@@ -53,19 +53,19 @@ void simulate_audio(Memory *m) {
                     auto duration = (uint16_t) ((beep >> 9) & ((1 << 9) - 1));
                     auto note = (uint16_t) (beep & ((1 << 7) - 1));
 
-                   std::cout << "Note: " << note << std::endl;
+/*                   std::cout << "Note: " << note << std::endl;
                     std::cout << "Duree: " << duration << std::endl;
                     std::bitset<16> z(beep);
                     std::cout << "beep: " << z << std::endl;
 
-                    std::bitset<64> x(mword);
-                    std::cout << "mword: " << x << std::endl;
+                    std::bitset<64> x(mword);*/
+                    //std::cout << "mword: " << x << std::endl;
                     if (duration == 0) {
                         break;
                     } else {
-                        std::cout << "Note: " << midi[note] << std::endl;
-                        std::cout << "Tempo: " << getTempo(duration) << std::endl;
-                        std::cout << "Effec duration: " << (float) (tempo * getTempo(duration)) << std::endl;
+                        // std::cout << "Note: " << midi[note] << std::endl;
+                        // std::cout << "Tempo: " << getTempo(duration) << std::endl;
+                        // std::cout << "Effec duration: " << (float) (tempo * getTempo(duration)) << std::endl;
                         b.beep(midi[note], (float) (tempo * getTempo(duration)));
                         b.wait();
                     }

@@ -41,7 +41,7 @@ void simulate_screen(Memory *m, bool *refresh) {
                 {
                     if (e.key.keysym.scancode <= 283)
                         m->m[((KEYBOARD_BEGIN + e.key.keysym.scancode)) >> 6] =
-                                (~(1 << (63 - (KEYBOARD_BEGIN + e.key.keysym.scancode % 64)))) &
+                                (~(1 << (63 - ((KEYBOARD_BEGIN + e.key.keysym.scancode) % 64)))) &
                                 m->m[((KEYBOARD_BEGIN + e.key.keysym.scancode)) >> 6];;
                 }
             }
