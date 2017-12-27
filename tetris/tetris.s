@@ -51,14 +51,6 @@ leti r6 0 ;petite astuce pour creer une piece au premier tour
 
 descente:
 ;sert a gere la descente d'une piece, elle s'arrete en cas de collision
-	leti r6 0 ;r6 est nul si et seulement s'il n'y a aucune collision
-	;on l'efface
-	push 64 r0 ;on sauvegarde donc la couleur avant de mettre du noir
-	leti r0 0
-	push 64 r7
-	call brique.brique
-	pop 64 r7
-	pop 64 r0 ; on remet la bonne couleur
 
 	push 64 r0
 	push 64 r7
@@ -67,12 +59,25 @@ descente:
 	pop 64 r0
 
 	cmpi r6 0
-	jumpif nz sui
-	.char 31 50 50 A
-	sui:
-
-	cmpi r6 0
 	jumpif nz atraiter
+	leti r6 0 ;r6 est nul si et seulement s'il n'y a aucune collision
+
+	;on l'efface
+	push 64 r0 ;on sauvegarde donc la couleur avant de mettre du noir
+	leti r0 0
+	push 64 r7
+	call brique.brique
+	pop 64 r7
+	pop 64 r0 ; on remet la bonne couleur
+
+	;attention on introduit l'action du joueur ! si on decommente c'est l'echec
+
+	;push 64 r7
+	;call keyboard.waitkey
+	;pop 64 r7
+	;cmpi r0 -1
+	;jumpif z suite
+	;suite:
 
 	;si on est reste il faut descendre la piece
 	sub2i r2 UNIT ;on descend la pièce
@@ -92,19 +97,19 @@ descente:
 atraiter: ;on a eu une collision
 
 	;est ce la fin du jeu
-	;push 64 r0
-	;push 64 r7
-	;call ligne.lignevide
-	;pop 64 r7
-	;cmpi r0 0
-	;jumpif nz findepartie
-	;pop 64 r0
+	push 64 r0
+	push 64 r7
+	call ligne.lignevide
+	pop 64 r7
+	cmpi r0 0
+	jumpif nz findepartie
+	pop 64 r0
 
 	;sinon la partie continue
 	;on regarde si les lignes sont à jour
-	;push 64 r7
-	;call ligne.majligne
-	;pop 64 r7
+	push 64 r7
+	call ligne.majligne
+	pop 64 r7
 	;on cree une nouvelle pièce
 	push 64 r7
 	call nouvelle.nouvelle

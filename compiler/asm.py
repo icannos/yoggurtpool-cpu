@@ -401,7 +401,7 @@ def asm_pass(iteration, s_file, directory):
                     str(int(tokens[3])+4)) + "\n" + "110101 " + asm_addr_signed("graph.fill", "call")
             if opcode == ".carreauto" and token_count == 1:  # on indique la couleur puis l'abscisse à gauche et l'ordonnée en haut
                 instruction_encoding ="0110"+" "+ "011 "+ "001" + "\n" + "0110" + " " + "100 " +"010" +"\n"
-                instruction_encoding += "0001" + " " + "011" + " "+ asm_const_signed('4') + "\n" + "0011" + " " + "100" + " "+ asm_const_signed('4') + "\n"
+                instruction_encoding += "0001" + " " + "011" + " "+ asm_const_signed('3') + "\n" + "0011" + " " + "100" + " "+ asm_const_signed('3') + "\n"
                 instruction_encoding += "110101 " + asm_addr_signed("graph.fill", "call")
             # If the line wasn't assembled:
             if instruction_encoding == "":
