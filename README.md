@@ -26,11 +26,16 @@ __   __                           _    ______           _   _____ ______ _   _
   - keyboard -- librairie de gestion du clavier
   - time -- librairie gestion de l'horloge
 - compiler -- Contient l'asm, le compilateur et les scripts de conversion de musiques/images
+- max -- contient quelques demonstrations du langage max
 - simu.src -- Les sources du simulateur
 - tetris -- Une implémentation de Tetris avec sa musique
 - doc -- La documentation et les remarques concernant le processeur
 - statistiques -- des tests et statistiques effectuées sur quelques uns de nos programmes
 - utils -- Quelques scripts/sauvegardes utilitaires
+
+#### Documentation
+
+Toute la documentation nécessaire ainsi que les remarques se trouvent dans le dossier `doc/`
 
 ### Installation / Compilation
 
@@ -41,11 +46,13 @@ __   __                           _    ______           _   _____ ______ _   _
 
 ##### Compilation
 
-- `./build_all.sh` dans le dossier racine compilera le simulateur, créera le dossier build etc...
+- `./build_all.sh` dans le dossier racine compilera le simulateur, créera le dossier build, compilera l'ensemble des programmes de `prop/` ainsi que le tetris.
+- `build_maxdemo.sh` compilera à l'aide Tatsu s'il est installé les programmes max et mettra dans `bin/` les fichiers .obj.
 - `./build_prog.sh` recompilera uniquement les programmes du dossier prog
-- `./demo_r2.sh` exécutera une démo minimale du rendu 2: Un teaser pour le rendu 3.
 
-La méthode orginelle doit encore exister mais on ne l'a jamais testée.
+##### Demos & tests
+
+Nous souhaitons vivement que vous testiez les demonstrations suivantes, automatiquement générées après avoir exécuté les 2 premiers fichiers bash ci-dessus. En exécutant les fichiers bash `./demo_tetris.sh`, `./demo_edwige.sh` et enfin si vous avez installé Tatsu: `./demo_ptr` (Difficile de voir ce qu'il se passe: il y a seulement un point bleu en haut à gauche, je vous invite à lire le fichier correspondant dans le dossier max.)
 
 ### Simulateur
 
@@ -53,9 +60,7 @@ J'ai apporté des modifications à la manière dont le simulateur gère l'écrit
 
 Nous avons un peu amélioré la sortie de débuggage pour afficher les données en hexa mais aussi en décimal etc...
 
-#### Documentation
 
-Toute la documentation nécessaire ainsi que les remarques se trouvent dans le dossier `doc/`
 
 
 ### Tetris

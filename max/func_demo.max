@@ -5,7 +5,7 @@ def mafonction()
 
   i = i + 12;
 
-  return i /* range i dans r0 */
+  return i
 };
 
 i = 12;

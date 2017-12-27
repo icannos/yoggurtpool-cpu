@@ -256,6 +256,7 @@ atraiter: ;on a eu une collision
 
 
 findepartie:
+
 jump -13
 
 jump endmusicfile

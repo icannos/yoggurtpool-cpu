@@ -444,7 +444,7 @@ class CalcWalker(NodeWalker):
         
         if self.while_deph == 0:
             string += "letiaj r5 whileend" + ifid + "\n"
-            string += "jumpifreg neq r5"
+            string += "jumpifreg neq r5 \n"
         else:
             string += "jumpif neq whileend" + ifid + "\n"
 
@@ -452,7 +452,7 @@ class CalcWalker(NodeWalker):
 
         if self.while_deph == 0:
             string += "letiaj r5 whilebegin" + ifid + "\n"
-            string += "jumpreg neq r5"
+            string += "jumpreg r5 \n"
         else:
             string += "jump whilebegin" + ifid + "\n"
 

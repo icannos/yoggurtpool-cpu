@@ -7,4 +7,4 @@ while (i < 100)
   i = i +1
 };
 
-return i /* Range i dans r0 pour pouvoir vérifier */
+return i 
