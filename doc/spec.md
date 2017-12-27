@@ -177,6 +177,15 @@ Il est aussi possible maintenant d'inclure des fichiers avec la commande `#inclu
 
 Nous avons aussi rajouté des `#define NAME value` qui font la même chose qu'en C.
 
+Nous avons enfin rajouté quelques commandes pour faciliter la réalisation du Tétris :
+	- .plot c x y trace le point de couleur à l'abscisse x et l'ordonnée y
+	- .fill c x1 y1 x2 y2 remplit un rectangle de couleur c du point de coordonnée (x1, y1) au point de coordonnées (x2,y2)
+	- .draw c x1 y1 x2 y2 trace une droite du points de coordonnées (x1, y1) au point de coordonnées (x2, y2), toujours à la couleur c
+	- .char c x y mot trace mot à la couleur c avec le coin en haut à gauche de coordonnées (x,y)
+	- .carre c x y trace le carré de couleur c, de largeur 5 et de coin haut gauche (x,y) (non usité en pratique)
+	- .carreauto trace le carré de côté 4 de couleur r0 et de coin haut gauche (r1, r2)
+
+
 ### Statistiques
 
 Dans le dossier Statistiques vous trouverez une comparaison de l'algorithme de multiplication sur des grands nombres avec des jumpref à la place des jump classiques, on voit un net gain en terme de transfert de bits.
