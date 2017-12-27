@@ -10,7 +10,7 @@ push 64 r7
 .char 65535 90 100 dans
 .char 65535 50 70 TETRIS
 
-leti r0 1
+leti r0 12
 push 64 r7
 call time.time
 pop 64 r7

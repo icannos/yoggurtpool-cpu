@@ -12,19 +12,6 @@ push 64 r4
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 leti r1 BORDG 
 
 effetrepl.bouclex:
@@ -36,11 +23,24 @@ call graph.estnoir
 pop 64 r7 
 sub2i r2 1 
 push 64 r7 
+sub2i r1 2 
 .carreauto 
+add2i r1 2 
 pop 64 r7 
 add2i r1 4 
 jump effetrepl.bouclex
 effetrepl.finbouclex:
+
+
+leti r0 0 
+leti r1 BORDG 
+leti r3 BORDD 
+add2i r2 1 
+let r4 r2 
+add2i r4 4 
+push 64 r7 
+call graph.fill
+pop 64 r7 
 
 
 pop 64 r4 
@@ -131,7 +131,7 @@ push 64 r4
 
 
 
-leti r2 9 
+leti r2 11 
 
 majligne.boucley:
 cmpi r2 125 

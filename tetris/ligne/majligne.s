@@ -9,7 +9,7 @@ push 64 r4
 
 
 
-leti r2 9 ; ligne du haut des carres du bas
+leti r2 11 ; ligne du haut des carres du bas
 
 boucley:
 	cmpi r2 125
