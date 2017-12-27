@@ -30,6 +30,5 @@ for file in prog/*.s
 do
     name=${file##*/}
     base=${name%.txt}
-    python "asm.py" "$file" --output bin/"$name".obj > log/"$name".log
+    python "compiler/asm.py" "$file" --output bin/"$name".obj > log/"$name".log
 done
-

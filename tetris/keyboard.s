@@ -1,46 +1,37 @@
+; Il faut #define KEYBOARD_BEGIN 1073349796 dans le fichier appelant
 
-
-#DEFINE KEYBOARD_BEGIN 0
-
-
-wait4key:
-  leti r1 KEYBOARD_BEGIN
-
-  infboucle:
-    getctr a0 r2
-    sub2i r2 284
-    cmp r2 r1
-
-    jumpif slt next
-      setctr a0 r1
-    next:
-
-    readze a0 1 r0
-    cmpi r0 0
-
-  jumpif nz infboucle
-
-  getctr a0 r0
-  sub2i r0 KEYBOARD_BEGIN
-  sub2i r0 1
+jump keyboardend
 
 
 waitkey:
+  push 64 r1
+  push 64 r2
+  push 64 r3
+
   leti r1 KEYBOARD_BEGIN
-  let r0 -1
+  setctr a0 r1
+  leti r0 -1
   infboucle:
     getctr a0 r2
     sub2i r2 284
     cmp r1 r2
 
-    jumpif slt next
-    readze a0 1 r0
+    jumpif eq nextkeyboard
+    readze a0 1 r3
 
-    cmpi r0 0
-    jumpif z infboucle
+    cmpi r3 0
+    jumpif eq infboucle
 
     getctr a0 r0
     sub2i r0 KEYBOARD_BEGIN
     sub2i r0 1
 
-    next:
+    nextkeyboard:
+
+    pop 64 r3
+    pop 64 r2
+    pop 64 r1
+
+    return
+
+keyboardend:
