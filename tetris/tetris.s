@@ -67,7 +67,12 @@ descente:
 	pop 64 r0
 	
 	cmpi r6 0
-	jumpif z atraiter
+	jumpif nz sui
+	.char 31 50 50 A
+	sui:	
+
+	cmpi r6 0
+	jumpif nz atraiter
 	
 	;si on est reste il faut descendre la piece
 	sub2i r2 UNIT ;on descend la pièce

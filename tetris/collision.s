@@ -11,7 +11,7 @@ push 64 r0
 push 64 r1
 push 64 r2
 push 64 r5
-sub2i r2 5 ; on testera toujours le pixel d'en dessous le carre, donc 4+1 pixels plus bas
+sub2i r2 13 ; on testera toujours le pixel d'en dessous le carre, donc 4+1 pixels plus bas
 
 ;pour chaque forme et orientation il faut verifier les points de collision specifique
 
@@ -80,13 +80,13 @@ l: ; cas d'une forme de l
 	jumpif z rotgl
 
 	basel:
-		sub2i r2 12
+		sub2i r2 8
 		push 64 r7
 		call graph.estnoir
 		pop 64 r7
 
 		add2 r5 r0
-		add2i r2 12
+		add2i r2 8
 		add2i r1 4
 		push 64 r7
 		call graph.estnoir
@@ -119,7 +119,7 @@ l: ; cas d'une forme de l
 		jump end
 
 	invl:
-		sub2i r2 12
+		sub2i r2 8
 		push 64 r7
 		call graph.estnoir
 		pop 64 r7
