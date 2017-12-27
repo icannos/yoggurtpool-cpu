@@ -18,11 +18,9 @@
 #define VERT 992
 #define ROUGE 64512
 
-leti r0 JAUNE
-leti r1 55
-leti r2 77
-leti r3 3
-leti r4 4
+push 64 r7
+call nouvelle.nouvelle
+pop 64 r7
 
 push 64 r7
 call brique.brique
