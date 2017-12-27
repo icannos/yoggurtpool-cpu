@@ -64,6 +64,14 @@ i: ;cas d'une forme de droite
 		call graph.estnoir
 		pop 64 r7
 
+		add2i r2 8
+		add2i r1 5
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
+		add2 r5 r0
+
 		add2 r5 r0
 		jump end
 
@@ -80,19 +88,13 @@ l: ; cas d'une forme de l
 	jumpif z rotgl
 
 	basel:
-		sub2i r2 12
+		sub2i r2 8
 		push 64 r7
 		call graph.estnoir
 		pop 64 r7
 
 		add2 r5 r0
-		add2i r2 12
-		add2i r1 4
-		push 64 r7
-		call graph.estnoir
-		pop 64 r7
 
-		add2 r5 r0
 
 		jump end
 

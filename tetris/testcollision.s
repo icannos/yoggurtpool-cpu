@@ -9,11 +9,11 @@
 
 
 
-.fill 31 0 0 100 100
+.fill 31 0 20 100 100
 leti r0 14
-leti r3 0
-leti r4 1
-leti r1 70
+leti r3 1
+leti r4 0
+leti r1 20
 leti r2 50
 leti r6 12
 

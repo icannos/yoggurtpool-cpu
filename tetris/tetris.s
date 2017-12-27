@@ -59,16 +59,16 @@ descente:
 	call brique.brique
 	pop 64 r7
 	pop 64 r0 ; on remet la bonne couleur
-	
+
 	push 64 r0
 	push 64 r7
-	call collision.collision 
+	call collision.collision
 	pop 64 r7
 	pop 64 r0
-	
+
 	cmpi r6 0
-	jumpif z atraiter
-	
+	jumpif nz atraiter
+
 	;si on est reste il faut descendre la piece
 	sub2i r2 UNIT ;on descend la pièce
 	push 64 r7
@@ -110,9 +110,8 @@ atraiter: ;on a eu une collision
 	jump descente
 
 
-	
+
 
 
 findepartie:
 jump -13
-
