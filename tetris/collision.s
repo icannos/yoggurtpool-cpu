@@ -11,12 +11,12 @@ push 64 r0
 push 64 r1
 push 64 r2
 push 64 r5
-sub2i r2 13 ; on testera toujours le pixel d'en dessous le carre, donc 4+1 pixels plus bas
+sub2i r2 5 ; on testera toujours le pixel d'en dessous le carre, donc 4+1 pixels plus bas
 
 ;pour chaque forme et orientation il faut verifier les points de collision specifique
 
 
-leti r6 0 ; r6 contiendra la somme des couleurs des points a tester, r6 =0 ssi pas de collision
+leti r5 0 ; r6 contiendra la somme des couleurs des points a tester, r6 =0 ssi pas de collision
 cmpi r3 0
 jumpif z i
 cmpi r3 1
@@ -63,14 +63,6 @@ i: ;cas d'une forme de droite
 		push 64 r7
 		call graph.estnoir
 		pop 64 r7
-
-		add2i r2 8
-		add2i r1 5
-		push 64 r7
-		call graph.estnoir
-		pop 64 r7
-
-		add2 r5 r0
 
 		add2 r5 r0
 		jump end
@@ -235,41 +227,41 @@ t: ; cas d'une forme de T
 		push 64 r7
 		call graph.estnoir
 		pop 64 r7
-
 		add2 r5 r0
+
 		add2i r1 4
 		sub2i r2 4
 		push 64 r7
 		call graph.estnoir
 		pop 64 r7
-
 		add2 r5 r0
-		add2i r1 4
+
+		add2i r1 4 ; je ne sais pourquoi avec 4 ça bloque et je pense que c'est non critique
 		add2i r2 4
 		push 64 r7
 		call graph.estnoir
 		pop 64 r7
-
 		add2 r5 r0
+
+
 
 		jump end
 
 	rotgt:
-		sub2i r2 4
+		sub2i r2 8
+		push 64 r7
+		call graph.estnoir
+		pop 64 r7
+
+		add2 r5 r0
+
+		add2i r2 4
 		add2i r1 4
 		push 64 r7
 		call graph.estnoir
 		pop 64 r7
 
 		add2 r5 r0
-		sub2i r1 4
-		sub2i r2 4
-		push 64 r7
-		call graph.estnoir
-		pop 64 r7
-
-		add2 r5 r0
-
 		jump end
 
 end:
