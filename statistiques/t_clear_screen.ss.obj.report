@@ -1,0 +1,22 @@
+
+Exchangedbits: 1351749
+BitsFromPC: 1024069
+BitsFromRam: 0
+BitsToRam: 327680
+
+| Opcode | Mnemonic |
+| ------ | -------  |
+| write|110|
+| setctr|10010|
+| return|10001|
+| leti|10011|
+| jump|00|
+| call|10000|
+| cmpi|111|
+| getctr|101|
+| jumpif|01|
+
+| Opcode | Mnemonic |
+| ------ | -------  |
+| 2|0|
+| 6|1|

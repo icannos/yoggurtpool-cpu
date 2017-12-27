@@ -8,7 +8,7 @@ effdata = []
 normaldata = []
 X=[]
 
-for i in range(10, 10**6, 10**5):
+for i in range(10, 10**8, 10**7):
     f = open("t_mult-"+str(i) + ".ss.obj.report")
     data = f.read()
     f.close()
@@ -29,8 +29,8 @@ for i in range(10, 10**6, 10**5):
 
 
 
-pyplot.plot(X, effdata)
-pyplot.plot(X, normaldata)
+pyplot.plot(X, effdata, label = "Efficace")
+pyplot.plot(X, normaldata, label="Pas efficace" )
 
 
 pyplot.show()

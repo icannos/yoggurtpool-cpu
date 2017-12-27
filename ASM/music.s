@@ -77,7 +77,10 @@ call beep
 leti r0 581
 call beep
 call unlockaudioloop
-jump -13
+
+
+jump endmusicfile
+
 
 
 lockaudio:
@@ -166,3 +169,5 @@ beep:
     pop 64 r1
 
     return
+
+endmusicfile:

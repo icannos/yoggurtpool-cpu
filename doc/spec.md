@@ -67,7 +67,7 @@ Actuellement lorsque le simulateur détecte qu'il doit terminer il ajoute affich
 
 | Call id       |     Mnemonic        |    Desc                                |
 | ------------- | ------------------- | ---------------------------------------|
-|   ...         |          ...        |              ...                       |
+|   -2          |          ...        |           Material Randomizer          |
 |   ...         |                     |              ...                       |
 
 
@@ -85,7 +85,8 @@ Une note est représentée par 7 bits de hauteur et 8 bits de durée. A l'adress
 |  File ptr     |      Action         |
 | ------------- | ------------------- |
 |     0         |     Audio lock      |
-|     1         |      Loop           |
+|     1         |      Play           |
+|     2         |      Loop           |
 
 | n°rythme      |       rythme        |
 | ------------- | ------------------- |
@@ -175,4 +176,6 @@ dataend:
 
 ### Statistiques
 
-Nous avons ajouté quelques variables de statistiques dans processor.h, qui comptent notamment les bits échangés avec la ram en lecture ou en écriture. On prévoit de faire générer au simulateur des fichiers de logs à la fin d'une exécution pour récupérer l'état des registres et de la ram ainsi que toutes les statistiques.
+Dans le dossier Statistiques vous trouverez une comparaison de l'algorithme de multiplication sur des grands nombres avec des jumpref à la place des jump classiques, on voit un net gain en terme de transfert de bits.
+
+Par ailleurs pour obtenir des informations détaillées sur un programme il faut utiliser la commande: `./simu.exe -h filename.obj | python2 PATH/huffman.py` cela générera un fichier .report contenant toutes les statistiques disponnibles ainsi que les codages de huffman optimaux pour ce programme.

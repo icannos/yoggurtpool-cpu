@@ -9,10 +9,11 @@ multeff:
     push 64 r0
     push 64 r1
 
-boucle:
-    cmpi r0 0
     letiac r5 callmultend
     letiac r6 boucle
+
+boucle:
+    cmpi r0 0
     jumpifreg eq r5
     shift right r0 1
 

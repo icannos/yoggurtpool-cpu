@@ -17,9 +17,11 @@
 #include <collision.s>
 #include <collicote.s>
 
-;push 64 r7
-;call debut.debut
-;pop 64 r7
+
+
+push 64 r7
+call debut.debut
+pop 64 r7
 
 ;r0 va garder la couleur de la piece mais sert souvent de booleen
 ;r1 va garder l'abscisse de gauche de la pièce
