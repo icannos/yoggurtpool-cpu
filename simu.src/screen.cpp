@@ -20,7 +20,7 @@ void simulate_screen(Memory *m, bool *refresh) {
 
         //Update Clock
 
-        double time =  ( ((double) clock()) / (CLOCKS_PER_SEC));
+        double time =  ( ((double) clock()) *10/ (CLOCKS_PER_SEC));
 
         m->m[CLOCK_BEGIN  >> 6] = (uint64_t) time;
 

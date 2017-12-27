@@ -94,11 +94,14 @@ l: ; cas d'une forme de l
 		pop 64 r7
 
 		add2 r5 r0
+
 		add2i r2 8
 		add2i r1 4
 		push 64 r7
 		call graph.estnoir
 		pop 64 r7
+
+		add2 r5 r0
 
 
 		jump end

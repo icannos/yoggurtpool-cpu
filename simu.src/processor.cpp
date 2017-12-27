@@ -170,7 +170,7 @@ void YogurtPool::von_Neuman_step(bool debug, bool &stop, bool stats, std::string
 
                 break;
 
-                // Place pour d'autres instructions.
+
         }
 
 

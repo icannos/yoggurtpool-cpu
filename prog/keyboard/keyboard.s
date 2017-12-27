@@ -1,9 +1,10 @@
 
 
-#DEFINE KEYBOARD_BEGIN 0
-
+#define KEYBOARD_BEGIN 1073349796
 
 wait4key:
+  push 64 r1
+  push 64 r2
   leti r1 KEYBOARD_BEGIN
 
   infboucle:
@@ -24,8 +25,15 @@ wait4key:
   sub2i r0 KEYBOARD_BEGIN
   sub2i r0 1
 
+  pop 64 r2
+  pop 64 r1
+  return
+
 
 waitkey:
+  push 64 r1
+  push 64 r2
+
   leti r1 KEYBOARD_BEGIN
   let r0 -1
   infboucle:
@@ -44,3 +52,8 @@ waitkey:
     sub2i r0 1
 
     next:
+
+    pop 64 r2
+    pop 64 r1
+
+    return
