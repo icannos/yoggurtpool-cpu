@@ -7,6 +7,7 @@
 #define JAUNE 65523
 #define VERT 992
 #define ROUGE 64512
+#DEFINE KEYBOARD_BEGIN 1073349796
 
 #include <graph.sl>
 #include <time.s>
@@ -16,6 +17,7 @@
 #include <brique.s>
 #include <collision.s>
 #include <collicote.s>
+#include <keyboard.s>
 
 push 64 r7
 call debut.debut
@@ -71,13 +73,35 @@ descente:
 	pop 64 r0 ; on remet la bonne couleur
 
 	;attention on introduit l'action du joueur ! si on decommente c'est l'echec
+	
+	push 64 r0
+	push 64 r7
+	call keyboard.waitkey
+	pop 64 r7
+	cmpi r0 -1
+	jumpif z suite
 
-	;push 64 r7
-	;call keyboard.waitkey
-	;pop 64 r7
-	;cmpi r0 -1
-	;jumpif z suite
-	;suite:
+	cmpi r0 79 ;pour aller a droite
+	jumpif nz findroite
+	add2i r1 1
+	findroite:
+
+	cmpi r0 80 ; pour aller a gauche
+	jumpif nz fingauche
+	sub2i r1 1
+	fingauche:
+
+	;cmpi r0 81 ;on tourne à droite
+	
+
+;79	0x04F	SDL_SCANCODE_RIGHT
+;80	0x050	SDL_SCANCODE_LEFT
+;81	0x051	SDL_SCANCODE_DOWN
+;82	0x052	SDL_SCANCODE_U
+
+
+	suite:
+	pop 64 r0
 
 	;si on est reste il faut descendre la piece
 	sub2i r2 UNIT ;on descend la pièce
