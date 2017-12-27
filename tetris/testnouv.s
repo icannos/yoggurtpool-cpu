@@ -14,19 +14,44 @@
 
 
 #define BLEU 31
-#define JAUNE 62430
+#define JAUNE 65523
 #define VERT 992
 #define ROUGE 64512
 
+leti r0 JAUNE
+leti r1 55
+leti r2 77
+leti r3 3
+leti r4 4
+
 push 64 r7
-call debut.debut
+call brique.brique
 pop 64 r7
 
-
+push 64 r0
+leti r0 2
 push 64 r7
-call ligne.lignevide
+call time.time
 pop 64 r7
+pop 64 r0
 
+push 64 r0
+leti r0 0
+push 64 r7
+call brique.brique
+pop 64 r7
+pop 64 r0
+
+push 64 r0
+push 64 r7
+call collision.collision ; la reponse est envoyee dans r6 et sera traitee au prochain tour
+pop 64 r7
+pop 64 r0
+
+sub2i r2 UNIT ;on descend la pièce
+push 64 r7
+call brique.brique ;on redessine la pièce en dessous
+pop 64 r7
 
 
 

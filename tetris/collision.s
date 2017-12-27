@@ -7,6 +7,8 @@ jump skipcollision
 
 collision:
 
+push 64 r0
+push 64 r1
 push 64 r2
 push 64 r5
 sub2i r2 5 ; on testera toujours le pixel d'en dessous le carre, donc 4+1 pixels plus bas
@@ -272,9 +274,11 @@ t: ; cas d'une forme de T
 end:
 
 let r6 r5
+
 pop 64 r5
 pop 64 r2
-
+pop 64 r1
+pop 64 r0
 
 return
 skipcollision:

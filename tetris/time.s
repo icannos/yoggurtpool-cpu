@@ -21,9 +21,9 @@ boucle:
 
 
 
-pop 64 r1
-pop 64 r2
 pop 64 r3
+pop 64 r2
+pop 64 r1
 return
 
 

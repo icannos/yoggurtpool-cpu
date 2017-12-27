@@ -82,6 +82,7 @@ leti r0 0
 push 64 r7
 call brique.brique
 pop 64 r7
+pop 64 r0 ; on remet la bonne couleur
 
 push 64 r0
 leti r0 2
@@ -89,86 +90,85 @@ push 64  r7
 call time.time
 pop 64 r7
 pop 64 r0
-.char 992 100 60 enfin
+
 
 push 64 r6 ; r6 va servir de drapeau pour savoir s'il y a une collision horizontale
 ;inserer l'action du joueur ici
-push 64 r7
-call keyboard.waitkey
-pop 64 r7
+;push 64 r7
+;call keyboard.waitkey
+;pop 64 r7
 	;si le joueur n'a pas apppuye
-	cmpi r0 -1
-	jumpif z suite
+;	cmpi r0 -1
+;	jumpif z suite
 	;on gere tous les mouvements possibles, a gauche c'est gentil a droite c'est chiant comme dans la vraie vie
-	cmpi r0 7 ;veut on décaler la pièce à droite ?
-	jumpif nz ndroite
-		add2i r1 UNIT
-		push 64 r7
-		call collision.collision
-		pop 64 r7
-		cmpi r6 0 ; si en décalant on collisionne
-		jumpif z imp1
-		sub2i r1 UNIT
-		imp1:
-	ndroite:
-	cmpi r0 20
-	jumpif nz ngauche
-		cmpi r1 BORDG
-		jumpif z imp2
-		sub2i r1 UNIT
-		imp2:
-	ngauche:
-	cmpi r0 22
-	jumpif nz nrotd
-		;mettre a jour l'orientation
-		cmpi r4 UNIT
-		jumpif z vaut4
-		add2i r4 1
-		jump dif4
-		vaut4:
-		leti r4 0
-		dif4:
-		push 64 r7
-		call collicote.collicote
-		pop 64 r7
-		cmpi r6 0
-		jumpif z possible
-		cmpi r4 0
-		jumpif z vaut0
-		sub2i r4 1
-		jump dif0
-		vaut0:
-		leti r4 UNIT
-		dif0:
-		possible:
-	nrotd:
-	cmpi r0 29
-	jumpif nz nrotg
-		;mettre a jour l'orientation copier coller inverse du précédent
-		cmpi r4 0
-		jumpif z vaut0bis
-		sub2i r4 1
-		jump dif0bis
-		vaut0bis:
-		leti r4 UNIT
-		dif0bis:
-		push 64 r7
-		call collicote.collicote
-		pop 64 r7
-		cmpi r6 0
-		cmpi r4 UNIT
-		jumpif z vaut4bis
-		add2i r4 1
-		jump dif4bis
-		vaut4bis:
-		leti r4 0
-		dif4bis:
-	nrotg:
-
-suite:
+;	cmpi r0 7 ;veut on décaler la pièce à droite ?
+;	jumpif nz ndroite
+;		add2i r1 UNIT
+;		push 64 r7
+;		call collision.collision
+;		pop 64 r7
+;		cmpi r6 0 ; si en décalant on collisionne
+;		jumpif z imp1
+;		sub2i r1 UNIT
+;		imp1:
+;	ndroite:
+;	cmpi r0 20
+;	jumpif nz ngauche
+;		cmpi r1 BORDG
+;		jumpif z imp2
+;		sub2i r1 UNIT
+;		imp2:
+;	ngauche:
+;	cmpi r0 22
+;	jumpif nz nrotd
+;		;mettre a jour l'orientation
+;		cmpi r4 UNIT
+;		jumpif z vaut4
+;		add2i r4 1
+;		jump dif4
+;		vaut4:
+;		leti r4 0
+;		dif4:
+;		push 64 r7
+;		call collicote.collicote
+;		pop 64 r7
+;		cmpi r6 0
+;		jumpif z possible
+;		cmpi r4 0
+;		jumpif z vaut0
+;		sub2i r4 1
+;		jump dif0
+;		vaut0:
+;		leti r4 UNIT
+;		dif0:
+;		possible:
+;	nrotd:
+;	cmpi r0 29
+;	jumpif nz nrotg
+;		;mettre a jour l'orientation copier coller inverse du précédent
+;		cmpi r4 0
+;		jumpif z vaut0bis
+;		sub2i r4 1
+;		jump dif0bis
+;		vaut0bis:
+;		leti r4 UNIT
+;		dif0bis:
+;		push 64 r7
+;		call collicote.collicote
+;		pop 64 r7
+;		cmpi r6 0
+;		cmpi r4 UNIT
+;		jumpif z vaut4bis
+;		add2i r4 1
+;		jump dif4bis
+;		vaut4bis:
+;		leti r4 0
+;		dif4bis:
+;	nrotg:
+;
+;suite:
 pop 64 r6 ; retour du drapeau dans r6
 
-pop 64 r0 ; on recupere la couleur de la piece
 
 push 64 r0
 push 64 r7
@@ -176,7 +176,7 @@ call collision.collision ; la reponse est envoyee dans r6 et sera traitee au pro
 pop 64 r7
 pop 64 r0
 
-add2i r2 UNIT ;on descend la pièce
+sub2i r2 UNIT ;on descend la pièce
 push 64 r7
 call brique.brique ;on redessine la pièce en dessous
 pop 64 r7
