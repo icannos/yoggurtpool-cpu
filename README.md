@@ -56,3 +56,20 @@ Nous avons un peu amélioré la sortie de débuggage pour afficher les données 
 #### Documentation
 
 Toute la documentation nécessaire ainsi que les remarques se trouvent dans le dossier `doc/`
+
+
+### Tetris
+
+#### Déroulement du jeu
+Une nouvelle pièce de couleur, de forme et d'orientation aléatoire est tirée à chaque fois que la pièce précédente est arrivée à sa position définitive. Lorsque les pièces arrivent en haut de l'écran, le jeu s'arrête et la musique démarre. Lorsqu'une ligne est remplie, elle s'efface et fait augmenter le niveau de la jauge de score sur la gauche.
+
+#### Commandes
+La pièce se décale selon les touches suivantes :
+- LEFT pour décaler la pièce sur la gauche
+- RIGHT pour décaler la pièce sur la droite
+- UP pour la faire tourner vers la droite
+- DOWN pour la faire tourner vers la gauche
+
+
+#### Problèmes non résolus
+Il s'est avéré complexe de gérer les collisions horizontales. Notre rendu ne les détecte pas, on peut donc manger des pièces avec d'autres si on les bouge sur le côté au dernier moment. Concernant les bordures, celle de gauche est bien une limite infranchissable. En revanche, il faut aller éroder celle de droite pour remplir la ligne complètement sur la droite. Un décalage supplémentaire sur la droite bloque alors la pièce dans la bordure.
