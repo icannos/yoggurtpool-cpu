@@ -7,7 +7,7 @@
 #define JAUNE 65523
 #define VERT 992
 #define ROUGE 64512
-#DEFINE KEYBOARD_BEGIN 1073349796
+#define KEYBOARD_BEGIN 1073349796
 
 #include <graph.sl>
 #include <time.s>
@@ -73,7 +73,7 @@ descente:
 	pop 64 r0 ; on remet la bonne couleur
 
 	;attention on introduit l'action du joueur ! si on decommente c'est l'echec
-	
+
 	push 64 r0
 	push 64 r7
 	call keyboard.waitkey
@@ -92,7 +92,7 @@ descente:
 	fingauche:
 
 	;cmpi r0 81 ;on tourne à droite
-	
+
 
 ;79	0x04F	SDL_SCANCODE_RIGHT
 ;80	0x050	SDL_SCANCODE_LEFT

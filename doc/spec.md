@@ -74,15 +74,14 @@ Actuellement lorsque le simulateur détecte qu'il doit terminer il ajoute affich
 ### Audio
 
 Nous avons implémenté un buffer audio dans la ram qui débute à partir de `MEM_AUDIO_BEGIN+128` et qui a une taille de 200(notes) * 16 bits.
-De `MEM_AUDIO_BEGIN` à `MEM_AUDIO_BEGIN+63` est stocké le ptr de file. Si on le met à 0 le player s'arrête et se replace au début de la file.
-On file des notes avec la librairie `audiolib` créée pour l'occasion.
+De `MEM_AUDIO_BEGIN` à `MEM_AUDIO_BEGIN+63` est stocké le ptr de file.
 
 Une note est représentée par 7 bits de hauteur et 8 bits de durée. A l'adresse `MEM_AUDIO_BEGIN+64` on trouve une indication sur le tempo à suivre. On utilie l'encodage des notes MIDI pour la hauteur (Cela devrait permettre de plus facilemet créer un convertisseur: midi -> assembly).
 
 #### Références Code notes/rythmes/Commandes
 
 
-|  File ptr     |      Action         |
+|  Audio CTRL   |      Action         |
 | ------------- | ------------------- |
 |     0         |     Audio lock      |
 |     1         |      Play           |
@@ -173,6 +172,10 @@ data:
     load filename.mem
 dataend:
 ```
+
+Il est aussi possible maintenant d'inclure des fichiers avec la commande `#include <filename.s>` les labels de ce fichier seront alors accessibles: `filename.label`.
+
+Nous avons aussi rajouté des `#define NAME value` qui font la même chose qu'en C.
 
 ### Statistiques
 

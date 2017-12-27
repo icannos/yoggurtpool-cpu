@@ -1,0 +1,5 @@
+
+int16* addrbit;
+addrbit = 1073350080;
+
+*addrbit = 31

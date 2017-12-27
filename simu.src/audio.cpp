@@ -116,6 +116,14 @@ float getTempo(uint16_t duration) {
             return 1.5;
         case 8:
             return 0.75;
+        case 9:
+            return 1.333;
+        case 10:
+            return 2.5;
+        case 11:
+            return 2.25;
+        case 12: return 1.25;
+
 
 
     }

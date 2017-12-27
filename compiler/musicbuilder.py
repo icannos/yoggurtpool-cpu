@@ -23,8 +23,16 @@ def duration(n):
         return 7
     elif n == 0.75:
         return 8
-    else:
-        return 4
+    elif n == 4 / 3:
+        return 9
+    elif n == 2.5:
+        return 10
+    elif n == 2.25:
+        return 11
+    elif n == 1.25:
+        return 12
+    else: return 4
+
 
 
 def buildAsmMusic(filename):
@@ -66,4 +74,4 @@ def buildAsmMusic(filename):
 
 
 
-buildAsmMusic("tetris_feat_avalade.midi")
+buildAsmMusic("edwige.midi")

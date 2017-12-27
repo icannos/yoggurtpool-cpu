@@ -1,0 +1,12 @@
+
+def mafonction()
+{
+  int16 i;
+
+  i = i + 12;
+
+  return i /* range i dans r0 */
+};
+
+i = 12;
+$ mafonction()

@@ -3,79 +3,73 @@
 #DEFINE BEGIN_QUEUE 0x3FF9F7C0
 
 call lockaudio
-leti r0 4172
-call beep
-leti r0 2119
-call beep
-leti r0 2120
-call beep
-leti r0 4170
-call beep
-leti r0 2120
-call beep
-leti r0 2119
-call beep
-leti r0 2117
-call beep
-leti r0 2117
-call beep
-leti r0 2120
+leti r0 4167
 call beep
 leti r0 2124
-call beep
-leti r0 2122
-call beep
-leti r0 2120
-call beep
-leti r0 2119
-call beep
-leti r0 2120
-call beep
-leti r0 4170
-call beep
-leti r0 4172
-call beep
-leti r0 4168
-call beep
-leti r0 2629
-call beep
-leti r0 3653
-call beep
-leti r0 2122
-call beep
-leti r0 2125
-call beep
-leti r0 2129
 call beep
 leti r0 2127
 call beep
-leti r0 2125
-call beep
-leti r0 588
-call beep
-leti r0 2120
+leti r0 4174
 call beep
 leti r0 2124
 call beep
-leti r0 2122
+leti r0 4179
 call beep
-leti r0 2120
+leti r0 2129
+call beep
+leti r0 2126
+call beep
+leti r0 588
+call beep
+leti r0 2127
+call beep
+leti r0 4174
+call beep
+leti r0 2123
+call beep
+leti r0 4174
 call beep
 leti r0 2119
 call beep
-leti r0 2120
+leti r0 4167
 call beep
-leti r0 4170
+leti r0 588
 call beep
-leti r0 4172
+leti r0 2127
 call beep
-leti r0 4168
+leti r0 4174
 call beep
-leti r0 2117
+leti r0 3660
 call beep
-leti r0 581
+leti r0 4179
 call beep
-call unlockaudioloop
+leti r0 2134
+call beep
+leti r0 4181
+call beep
+leti r0 2132
+call beep
+leti r0 4176
+call beep
+leti r0 2132
+call beep
+leti r0 2131
+call beep
+leti r0 4178
+call beep
+leti r0 2118
+call beep
+leti r0 4175
+call beep
+leti r0 2124
+call beep
+call unlockaudio
+
+.char 65535 20 100 Ode
+.char 65535 90 100 a
+.char 65535 50 70 Edwige
+
+
 
 
 jump endmusicfile
