@@ -8,39 +8,39 @@ push 64 r2
 push 64 r3
 push 64 r4
 
-;d'abord on efface
-;leti r0 0
-;leti r1 BORDG
-;r2 est bien initialise
-;leti r3 BORDD
-;sub21 r3 1 ;pour ne pas empieter sur le bord
-;let r4 r2
-;sub2i r4 4
-;push 64 r2
-;push 64 r7
-;call graph.fill
-;pop 64 r7
-;pop 64 r2
 
 
 
-; puis on recopie
+; on recopie
 leti r1 BORDG
 
 	bouclex:
 	cmpi r1 BORDD
 	jumpif z finbouclex ; on a interet a avoir BORDD congru a BORDG modulo 4, sinon boucle infinie
-	add2i r2 1 ;on remonte juste d'un pour piquer la couleur d'au dessus
+	add2i r2 1 ;on remonte pour piquer la couleur d'au dessus
 	push 64 r7
 	call graph.estnoir
 	pop 64 r7
 	sub2i r2 1
 	push 64 r7
+	sub2i r1 2
 	.carreauto
+	add2i r1 2
 	pop 64 r7
 	add2i r1 4
 	jump bouclex
 	finbouclex:
+
+;enlever la ligne d'au dessus
+leti r0 0
+leti r1 BORDG
+leti r3 BORDD
+add2i r2 1
+let r4 r2
+add2i r4 4
+push 64 r7
+call graph.fill
+pop 64 r7
 
 
 pop 64 r4

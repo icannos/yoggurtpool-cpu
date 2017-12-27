@@ -44,7 +44,7 @@ leti r6 0 ;petite astuce pour creer une piece au premier tour
 	pop 64 r7
 
 	push 64 r0
-	leti r0 1
+	leti r0 2
 	push 64 r7
 	call time.time
 	pop 64 r7
@@ -83,23 +83,36 @@ descente:
 
 	cmpi r0 79 ;pour aller a droite
 	jumpif nz findroite
-	add2i r1 1
+	add2i r1 4
 	findroite:
 
 	cmpi r0 80 ; pour aller a gauche
 	jumpif nz fingauche
-	sub2i r1 1
+	cmpi r1 54
+	jumpif slt fingauche
+	sub2i r1 4
 	fingauche:
 
-	;cmpi r0 81 ;on tourne à droite
+	cmpi r0 81 ;on tourne à droite
+	jumpif nz fintour
+	cmpi r4 4
+	jumpif z vaut4
+	add2i r4 1
+	jump fintour
+	vaut4:
+	leti r4 0
+	fintour:
 
-
-;79	0x04F	SDL_SCANCODE_RIGHT
-;80	0x050	SDL_SCANCODE_LEFT
-;81	0x051	SDL_SCANCODE_DOWN
-;82	0x052	SDL_SCANCODE_U
-
-
+	cmpi r0 82
+	jumpif nz fintourbis
+	cmpi r4 0
+	jumpif z vaut0
+	sub2i r4 1
+	jump fintourbis
+	vaut0:
+	leti r4 4
+	fintourbis:
+	
 	suite:
 	pop 64 r0
 
@@ -110,7 +123,7 @@ descente:
 	pop 64 r7
 
 	push 64 r0
-	leti r0 1
+	leti r0 2
 	push 64 r7
 	call time.time
 	pop 64 r7
