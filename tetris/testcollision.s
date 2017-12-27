@@ -13,7 +13,7 @@
 leti r0 14
 leti r3 1
 leti r4 0
-leti r1 20
+leti r1 70
 leti r2 50
 leti r6 12
 
