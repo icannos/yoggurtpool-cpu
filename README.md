@@ -61,7 +61,7 @@ Toute la documentation nécessaire ainsi que les remarques se trouvent dans le d
 ### Tetris
 
 #### Déroulement du jeu
-Une nouvelle pièce de couleur, de forme et d'orientation aléatoire est tirée à chaque fois que la pièce précédente est arrivée à sa position définitive. Lorsque les pièces arrivent en haut de l'écran, le jeu s'arrête et la musique démarre. Lorsqu'une ligne est remplie, elle s'efface et fait augmenter le niveau de la jauge de score sur la gauche.
+Une nouvelle pièce de couleur, de forme et d'orientation aléatoire est tirée à chaque fois que la pièce précédente est arrivée à sa position définitive. Lorsque les pièces arrivent en haut de l'écran, le jeu s'arrête. Lorsqu'une ligne est remplie, elle s'efface et fait augmenter le niveau de la jauge de score sur la gauche.
 
 #### Commandes
 La pièce se décale selon les touches suivantes :
