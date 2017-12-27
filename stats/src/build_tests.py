@@ -12,7 +12,7 @@ eff_file.close()
 paseff_file.close()
 
 
-for i in range(10, 10**6, 10**5):
+for i in range(10, 10**8, 10**7):
     newfileeff = eff.replace("VAR1", str(i))
     newfileeff = newfileeff.replace("VAR2", str(i))
     newfile = paseff.replace("VAR1", str(i))
