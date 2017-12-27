@@ -18,6 +18,20 @@ __   __                           _    ______           _   _____ ______ _   _
                        |___/                                                                          
 
 ```
+### Description du dossier
+
+- prog -- Contient tous les programmes du rendu
+  - audio -- Librairie audio
+  - graph -- librairie graphique
+  - keyboard -- librairie de gestion du clavier
+  - time -- librairie gestion de l'horloge
+- compiler -- Contient l'asm, le compilateur et les scripts de conversion de musiques/images
+- simu.src -- Les sources du simulateur
+- tetris -- Une implémentation de Tetris avec sa musique
+- doc -- La documentation et les remarques concernant le processeur
+- statistiques -- des tests et statistiques effectuées sur quelques uns de nos programmes
+- utils -- Quelques scripts/sauvegardes utilitaires
+
 ### Installation / Compilation
 
 ##### Dépendances:
@@ -39,6 +53,6 @@ J'ai apporté des modifications à la manière dont le simulateur gère l'écrit
 
 Nous avons un peu amélioré la sortie de débuggage pour afficher les données en hexa mais aussi en décimal etc...
 
-### Documentation
+#### Documentation
 
-Toute la documentation nécessaire se trouve dans le dossier `doc/`
+Toute la documentation nécessaire ainsi que les remarques se trouvent dans le dossier `doc/`
