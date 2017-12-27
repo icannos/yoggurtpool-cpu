@@ -1,0 +1,42 @@
+
+Exchangedbits: 978714480
+BitsFromPC: 395091977
+BitsFromRam: 581762451
+BitsToRam: 1860052
+
+| Opcode | Mnemonic |
+| ------ | -------  |
+| jumpreg|1100100| 
+| add2i|110111000| 
+| jump|1101101| 
+| cmpi|11000| 
+| return|11011101011| 
+| getctr|110100| 
+| leti|110110010| 
+| sub2i|110101| 
+| write|110011| 
+| call|1101110100| 
+| sub2|110110011| 
+| readze|00| 
+| jumpifreg|1100101| 
+| sub3|11011101010| 
+| let|11011000| 
+| jumpif|10| 
+| setctr|111| 
+| add2|110111001| 
+| readse|11011110| 
+| shift|110111011| 
+| push|11011111| 
+| cmp|01| 
+
+| Opcode | Mnemonic |
+| ------ | -------  |
+| 0|1| 
+| 2|00| 
+| 6|01| 
+
+| Opcode | Mnemonic |
+| ------ | -------  |
+| 0|1| 
+| 2|00| 
+| 6|01| 

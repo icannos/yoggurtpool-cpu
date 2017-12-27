@@ -35,7 +35,13 @@ __   __                           _    ______           _   _____ ______ _   _
 
 #### Documentation
 
-Toute la documentation nécessaire ainsi que les remarques se trouvent dans le dossier `doc/`
+**Toute la documentation nécessaire ainsi que les remarques se trouvent dans le dossier** `doc/`
+
+#### Statistiques
+
+Dans le dossier statistiques se trouvent les statistiques en lien avec le tetris pour une courte partie dans `tetris_stats.txt`, l'encodage de Huffmann correspondant dans `tetris.report`.
+
+Par ailleurs le script `./huffmann.py` prend en entré `stdin` du texte sorti par le simulateur appelé avec le flag `-h` et en construit un fichier report avec l'encodage d'huffman. (Un exemple de sortie de statistiques du simulateur est `tetris_stats.txt`)
 
 ### Installation / Compilation
 
@@ -59,8 +65,6 @@ Nous souhaitons vivement que vous testiez les demonstrations suivantes, automati
 J'ai apporté des modifications à la manière dont le simulateur gère l'écriture dans la RAM pour corriger des problèmes graphiques. A priori maintenant le lien entre l'écran et la RAM se fait beaucoup mieux. On évite par exemple le problème des couleurs mirroires que l'on rencontrait jusqu'à présent.
 
 Nous avons un peu amélioré la sortie de débuggage pour afficher les données en hexa mais aussi en décimal etc...
-
-
 
 
 ### Tetris
